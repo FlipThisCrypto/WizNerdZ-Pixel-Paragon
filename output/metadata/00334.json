@@ -1,0 +1,64 @@
+{
+  "name": "WizNerdZ Pixel Paragon #00334",
+  "description": "WizNerdZ Pixel Paragon \u2014 a 64x64 native pixel wizard nerd, exported at 4096x4096.",
+  "image": "final/00334.png",
+  "dna": "2c2521b2600e646f",
+  "rarity_score": 95.769,
+  "synergies": [
+    "Toxic Wizard"
+  ],
+  "attributes": [
+    {
+      "trait_type": "Background Family",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Background Variant",
+      "value": "emerald"
+    },
+    {
+      "trait_type": "Background Hex",
+      "value": "#10B981"
+    },
+    {
+      "trait_type": "Background Effect",
+      "value": "pixel_stars"
+    },
+    {
+      "trait_type": "Body",
+      "value": "black_robe"
+    },
+    {
+      "trait_type": "Head",
+      "value": "tan_bepe"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "cross_eyed"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "big_goofy_grin"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "short_beard"
+    },
+    {
+      "trait_type": "Face Accessory",
+      "value": "none"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "bent_wizard_hat"
+    },
+    {
+      "trait_type": "Hand Item",
+      "value": "none"
+    },
+    {
+      "trait_type": "Magic Overlay",
+      "value": "green_toxic_aura"
+    }
+  ]
+}

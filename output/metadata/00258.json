@@ -1,0 +1,62 @@
+{
+  "name": "WizNerdZ Pixel Paragon #00258",
+  "description": "WizNerdZ Pixel Paragon \u2014 a 64x64 native pixel wizard nerd, exported at 4096x4096.",
+  "image": "final/00258.png",
+  "dna": "c9cfd35957fed531",
+  "rarity_score": 186.102,
+  "synergies": [],
+  "attributes": [
+    {
+      "trait_type": "Background Family",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Background Variant",
+      "value": "midnight_blue"
+    },
+    {
+      "trait_type": "Background Hex",
+      "value": "#172554"
+    },
+    {
+      "trait_type": "Background Effect",
+      "value": "glitch_noise"
+    },
+    {
+      "trait_type": "Body",
+      "value": "orange_robe"
+    },
+    {
+      "trait_type": "Head",
+      "value": "orange_bepe"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "tired"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "gold_tooth_grin"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "short_beard"
+    },
+    {
+      "trait_type": "Face Accessory",
+      "value": "cracked_lens"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "hood"
+    },
+    {
+      "trait_type": "Hand Item",
+      "value": "potion"
+    },
+    {
+      "trait_type": "Magic Overlay",
+      "value": "none"
+    }
+  ]
+}

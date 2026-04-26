@@ -1,0 +1,232 @@
+{
+  "collection": "WizNerdZ Pixel Paragon",
+  "working_canvas": "64x64",
+  "export_canvas": "4096x4096",
+  "color_families": {
+    "orange": {
+      "rarity_rank": 1,
+      "family_weight": 3,
+      "role": "Mythic, Tang rare, highest visual power",
+      "variants": [
+        {
+          "name": "molten_orange",
+          "hex": "#FF6A00",
+          "weight": 16
+        },
+        {
+          "name": "neon_orange",
+          "hex": "#FF8C00",
+          "weight": 14
+        },
+        {
+          "name": "burnt_ember",
+          "hex": "#C2410C",
+          "weight": 18
+        },
+        {
+          "name": "gold_orange",
+          "hex": "#F59E0B",
+          "weight": 12
+        },
+        {
+          "name": "sunset_orange",
+          "hex": "#FB923C",
+          "weight": 20
+        },
+        {
+          "name": "inferno_orange",
+          "hex": "#FF3D00",
+          "weight": 8
+        },
+        {
+          "name": "tang_fire",
+          "hex": "#FF9800",
+          "weight": 7
+        },
+        {
+          "name": "solar_orange",
+          "hex": "#FDBA74",
+          "weight": 5
+        }
+      ]
+    },
+    "green": {
+      "rarity_rank": 2,
+      "family_weight": 8,
+      "role": "Legendary, toxic magic, chaos energy",
+      "variants": [
+        {
+          "name": "toxic_green",
+          "hex": "#39FF14",
+          "weight": 14
+        },
+        {
+          "name": "neon_green",
+          "hex": "#00FF66",
+          "weight": 12
+        },
+        {
+          "name": "forest_green",
+          "hex": "#166534",
+          "weight": 20
+        },
+        {
+          "name": "emerald",
+          "hex": "#10B981",
+          "weight": 18
+        },
+        {
+          "name": "swamp_green",
+          "hex": "#4D7C0F",
+          "weight": 16
+        },
+        {
+          "name": "radioactive_green",
+          "hex": "#A3E635",
+          "weight": 8
+        },
+        {
+          "name": "mint_spell",
+          "hex": "#6EE7B7",
+          "weight": 7
+        },
+        {
+          "name": "venom_green",
+          "hex": "#22C55E",
+          "weight": 5
+        }
+      ]
+    },
+    "blue": {
+      "rarity_rank": 3,
+      "family_weight": 18,
+      "role": "Rare, frost, electric, calm magic",
+      "variants": [
+        {
+          "name": "sky_blue",
+          "hex": "#38BDF8",
+          "weight": 18
+        },
+        {
+          "name": "deep_ocean",
+          "hex": "#075985",
+          "weight": 18
+        },
+        {
+          "name": "ice_blue",
+          "hex": "#7DD3FC",
+          "weight": 14
+        },
+        {
+          "name": "electric_blue",
+          "hex": "#2563EB",
+          "weight": 12
+        },
+        {
+          "name": "cyan",
+          "hex": "#06B6D4",
+          "weight": 16
+        },
+        {
+          "name": "frost_glow",
+          "hex": "#BAE6FD",
+          "weight": 8
+        },
+        {
+          "name": "wizard_blue",
+          "hex": "#1D4ED8",
+          "weight": 9
+        },
+        {
+          "name": "midnight_blue",
+          "hex": "#172554",
+          "weight": 5
+        }
+      ]
+    },
+    "purple": {
+      "rarity_rank": 4,
+      "family_weight": 35,
+      "role": "Common, arcane base, classic wizard tone",
+      "variants": [
+        {
+          "name": "royal_purple",
+          "hex": "#7E22CE",
+          "weight": 18
+        },
+        {
+          "name": "dark_violet",
+          "hex": "#4C1D95",
+          "weight": 16
+        },
+        {
+          "name": "magenta",
+          "hex": "#C026D3",
+          "weight": 12
+        },
+        {
+          "name": "lavender",
+          "hex": "#A78BFA",
+          "weight": 14
+        },
+        {
+          "name": "void_purple",
+          "hex": "#2E1065",
+          "weight": 10
+        },
+        {
+          "name": "arcane_glow",
+          "hex": "#9333EA",
+          "weight": 14
+        },
+        {
+          "name": "grape_soda",
+          "hex": "#6D28D9",
+          "weight": 10
+        },
+        {
+          "name": "soft_mystic",
+          "hex": "#C4B5FD",
+          "weight": 6
+        }
+      ]
+    }
+  },
+  "special_interrupt_colors": [
+    {
+      "name": "black_void",
+      "hex": "#050505",
+      "weight": 3
+    },
+    {
+      "name": "white_light",
+      "hex": "#F8FAFC",
+      "weight": 2
+    },
+    {
+      "name": "gold_metallic",
+      "hex": "#FFD700",
+      "weight": 2
+    },
+    {
+      "name": "rainbow_prismatic",
+      "hex": "MULTI",
+      "weight": 1
+    },
+    {
+      "name": "glitch_color",
+      "hex": "MULTI",
+      "weight": 1
+    },
+    {
+      "name": "shadow_smoke",
+      "hex": "#1F2937",
+      "weight": 3
+    },
+    {
+      "name": "love_pink_glow",
+      "hex": "#FF4FD8",
+      "weight": 3
+    }
+  ]
+}

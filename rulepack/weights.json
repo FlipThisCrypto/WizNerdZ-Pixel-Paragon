@@ -1,0 +1,353 @@
+{
+  "01_background_family": [
+    {
+      "trait": "orange",
+      "weight": 3
+    },
+    {
+      "trait": "green",
+      "weight": 8
+    },
+    {
+      "trait": "blue",
+      "weight": 18
+    },
+    {
+      "trait": "purple",
+      "weight": 35
+    }
+  ],
+  "01b_background_variant": "Use variant weights from palette.json inside selected family",
+  "01c_background_effect": [
+    {
+      "trait": "none",
+      "weight": 72
+    },
+    {
+      "trait": "soft_particles",
+      "weight": 10
+    },
+    {
+      "trait": "pixel_stars",
+      "weight": 7
+    },
+    {
+      "trait": "energy_field",
+      "weight": 4
+    },
+    {
+      "trait": "magic_runes",
+      "weight": 3
+    },
+    {
+      "trait": "glitch_noise",
+      "weight": 2
+    },
+    {
+      "trait": "love_aura",
+      "weight": 1
+    },
+    {
+      "trait": "orange_flame_aura",
+      "weight": 1
+    }
+  ],
+  "02_body": [
+    {
+      "trait": "purple_robe",
+      "weight": 35
+    },
+    {
+      "trait": "blue_robe",
+      "weight": 18
+    },
+    {
+      "trait": "green_robe",
+      "weight": 8
+    },
+    {
+      "trait": "orange_robe",
+      "weight": 3
+    },
+    {
+      "trait": "black_robe",
+      "weight": 8
+    },
+    {
+      "trait": "white_robe",
+      "weight": 4
+    },
+    {
+      "trait": "gold_trim_robe",
+      "weight": 2
+    }
+  ],
+  "03_head": [
+    {
+      "trait": "orange_bepe",
+      "weight": 25
+    },
+    {
+      "trait": "green_bepe",
+      "weight": 14
+    },
+    {
+      "trait": "blue_bepe",
+      "weight": 12
+    },
+    {
+      "trait": "purple_bepe",
+      "weight": 12
+    },
+    {
+      "trait": "tan_bepe",
+      "weight": 22
+    },
+    {
+      "trait": "zombie_bepe",
+      "weight": 5
+    },
+    {
+      "trait": "shadow_bepe",
+      "weight": 3
+    },
+    {
+      "trait": "gold_bepe",
+      "weight": 1
+    }
+  ],
+  "04_eyes": [
+    {
+      "trait": "normal",
+      "weight": 26
+    },
+    {
+      "trait": "tired",
+      "weight": 18
+    },
+    {
+      "trait": "bloodshot",
+      "weight": 14
+    },
+    {
+      "trait": "cross_eyed",
+      "weight": 9
+    },
+    {
+      "trait": "one_bigger",
+      "weight": 9
+    },
+    {
+      "trait": "heart_eyes",
+      "weight": 7
+    },
+    {
+      "trait": "glowing_green",
+      "weight": 5
+    },
+    {
+      "trait": "glowing_orange",
+      "weight": 3
+    },
+    {
+      "trait": "laser_blue",
+      "weight": 2
+    }
+  ],
+  "05_mouth": [
+    {
+      "trait": "grin",
+      "weight": 18
+    },
+    {
+      "trait": "smirk",
+      "weight": 16
+    },
+    {
+      "trait": "small_frown",
+      "weight": 12
+    },
+    {
+      "trait": "big_goofy_grin",
+      "weight": 10
+    },
+    {
+      "trait": "angry_curve",
+      "weight": 9
+    },
+    {
+      "trait": "tongue_out",
+      "weight": 8
+    },
+    {
+      "trait": "slight_open_uhhh",
+      "weight": 8
+    },
+    {
+      "trait": "teeth_grit",
+      "weight": 7
+    },
+    {
+      "trait": "cigarette_hang",
+      "weight": 5
+    },
+    {
+      "trait": "gold_tooth_grin",
+      "weight": 2
+    }
+  ],
+  "06_facial_hair": [
+    {
+      "trait": "none",
+      "weight": 28
+    },
+    {
+      "trait": "short_beard",
+      "weight": 24
+    },
+    {
+      "trait": "long_wizard_beard",
+      "weight": 18
+    },
+    {
+      "trait": "curled_mustache",
+      "weight": 10
+    },
+    {
+      "trait": "braided_beard",
+      "weight": 6
+    },
+    {
+      "trait": "glowing_beard",
+      "weight": 3
+    },
+    {
+      "trait": "void_beard",
+      "weight": 2
+    }
+  ],
+  "07_face_accessory": [
+    {
+      "trait": "none",
+      "weight": 35
+    },
+    {
+      "trait": "yellow_glasses",
+      "weight": 18
+    },
+    {
+      "trait": "sunglasses",
+      "weight": 10
+    },
+    {
+      "trait": "round_wizard_specs",
+      "weight": 12
+    },
+    {
+      "trait": "vr_visor",
+      "weight": 5
+    },
+    {
+      "trait": "monocle",
+      "weight": 4
+    },
+    {
+      "trait": "cracked_lens",
+      "weight": 3
+    }
+  ],
+  "08_headwear": [
+    {
+      "trait": "classic_wizard_hat",
+      "weight": 30
+    },
+    {
+      "trait": "bent_wizard_hat",
+      "weight": 18
+    },
+    {
+      "trait": "hood",
+      "weight": 12
+    },
+    {
+      "trait": "tiny_crown",
+      "weight": 5
+    },
+    {
+      "trait": "orange_paragon_hat",
+      "weight": 3
+    },
+    {
+      "trait": "halo",
+      "weight": 2
+    },
+    {
+      "trait": "none",
+      "weight": 8
+    }
+  ],
+  "09_hand_item": [
+    {
+      "trait": "none",
+      "weight": 40
+    },
+    {
+      "trait": "wand",
+      "weight": 18
+    },
+    {
+      "trait": "spell_book",
+      "weight": 12
+    },
+    {
+      "trait": "potion",
+      "weight": 10
+    },
+    {
+      "trait": "orb",
+      "weight": 8
+    },
+    {
+      "trait": "marmot_familiar",
+      "weight": 4
+    },
+    {
+      "trait": "orange_staff",
+      "weight": 2
+    }
+  ],
+  "10_magic_overlay": [
+    {
+      "trait": "none",
+      "weight": 70
+    },
+    {
+      "trait": "arcane_sparkles",
+      "weight": 10
+    },
+    {
+      "trait": "green_toxic_aura",
+      "weight": 6
+    },
+    {
+      "trait": "blue_frost_aura",
+      "weight": 5
+    },
+    {
+      "trait": "purple_rune_circle",
+      "weight": 4
+    },
+    {
+      "trait": "love_pink_aura",
+      "weight": 3
+    },
+    {
+      "trait": "orange_paragon_flames",
+      "weight": 1
+    },
+    {
+      "trait": "rainbow_glitch",
+      "weight": 1
+    }
+  ]
+}
