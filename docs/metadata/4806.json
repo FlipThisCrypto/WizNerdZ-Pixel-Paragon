@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Fire Staff"
+      "value": "Dragon Staff"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Fireball"
+      "value": "Lightning Arc"
     },
     {
       "trait_type": "Familiar",
-      "value": "Raven"
+      "value": "Black Cat"
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3369/8878",
+    "rarity_rank": "211/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Fire Staff",
-        "count": 994,
-        "pct": 11.1836
+        "value": "Dragon Staff",
+        "count": 244,
+        "pct": 2.7453
       },
       "Spell Effect": {
-        "value": "Fireball",
-        "count": 1204,
-        "pct": 13.5464
+        "value": "Lightning Arc",
+        "count": 463,
+        "pct": 5.2093
       },
       "Familiar": {
-        "value": "Raven",
-        "count": 1116,
-        "pct": 12.5563
+        "value": "Black Cat",
+        "count": 487,
+        "pct": 5.4793
       }
     },
     "extra_layers": {
-      "staff": "Fire Staff",
-      "spell": "Fireball",
-      "familiar": "Raven",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Dragon Staff",
+      "spell": "Lightning Arc",
+      "familiar": "Black Cat",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

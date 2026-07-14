@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Crystal Wand"
+      "value": "Dragon Staff"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Ice Shards"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
-      "value": "Frog"
+      "value": "Ghost"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "5344/8878",
+    "rarity_rank": "1505/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Crystal Wand",
-        "count": 1200,
-        "pct": 13.5014
+        "value": "Dragon Staff",
+        "count": 244,
+        "pct": 2.7453
       },
       "Spell Effect": {
-        "value": "Ice Shards",
-        "count": 1029,
-        "pct": 11.5774
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
-        "value": "Frog",
-        "count": 1436,
-        "pct": 16.1566
+        "value": "Ghost",
+        "count": 307,
+        "pct": 3.4541
       }
     },
     "extra_layers": {
-      "staff": "Crystal Wand",
-      "spell": "Ice Shards",
-      "familiar": "Frog",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Dragon Staff",
+      "spell": "None",
+      "familiar": "Ghost",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

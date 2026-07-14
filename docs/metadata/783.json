@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Wooden Wand"
+      "value": "Lightning Rod"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Floating Runes"
+      "value": "Fireball"
     },
     {
       "trait_type": "Familiar",
-      "value": "Owl"
+      "value": "None"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "7287/8878",
+    "rarity_rank": "3426/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Wooden Wand",
-        "count": 1981,
-        "pct": 22.2885
+        "value": "Lightning Rod",
+        "count": 354,
+        "pct": 3.9829
       },
       "Spell Effect": {
-        "value": "Floating Runes",
-        "count": 1643,
-        "pct": 18.4856
+        "value": "Fireball",
+        "count": 554,
+        "pct": 6.2331
       },
       "Familiar": {
-        "value": "Owl",
-        "count": 771,
-        "pct": 8.6746
+        "value": "None",
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
-      "staff": "Wooden Wand",
-      "spell": "Floating Runes",
-      "familiar": "Owl",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Lightning Rod",
+      "spell": "Fireball",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

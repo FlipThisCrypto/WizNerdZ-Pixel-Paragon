@@ -68,11 +68,11 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Worldbreaker Wand"
+      "value": "Ice Staff"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Lightning Arc"
+      "value": "Sparks"
     },
     {
       "trait_type": "Familiar",
@@ -80,7 +80,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "52/8878",
+    "rarity_rank": "321/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Legendary",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Worldbreaker Wand",
-        "count": 69,
-        "pct": 0.7763
+        "value": "Ice Staff",
+        "count": 460,
+        "pct": 5.1755
       },
       "Spell Effect": {
-        "value": "Lightning Arc",
-        "count": 868,
-        "pct": 9.766
+        "value": "Sparks",
+        "count": 856,
+        "pct": 9.631
       },
       "Familiar": {
         "value": "Raven",
-        "count": 1116,
-        "pct": 12.5563
+        "count": 603,
+        "pct": 6.7844
       }
     },
     "extra_layers": {
-      "staff": "Worldbreaker Wand",
-      "spell": "Lightning Arc",
+      "staff": "Ice Staff",
+      "spell": "Sparks",
       "familiar": "Raven",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

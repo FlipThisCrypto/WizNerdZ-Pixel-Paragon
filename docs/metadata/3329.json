@@ -68,11 +68,11 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Bone Scepter"
+      "value": "Gnarled Staff"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Fireball"
+      "value": "Poison Mist"
     },
     {
       "trait_type": "Familiar",
@@ -80,7 +80,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "657/8878",
+    "rarity_rank": "135/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Rare",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Bone Scepter",
-        "count": 566,
-        "pct": 6.3681
+        "value": "Gnarled Staff",
+        "count": 675,
+        "pct": 7.5945
       },
       "Spell Effect": {
-        "value": "Fireball",
-        "count": 1204,
-        "pct": 13.5464
+        "value": "Poison Mist",
+        "count": 388,
+        "pct": 4.3654
       },
       "Familiar": {
         "value": "Frog",
-        "count": 1436,
-        "pct": 16.1566
+        "count": 709,
+        "pct": 7.977
       }
     },
     "extra_layers": {
-      "staff": "Bone Scepter",
-      "spell": "Fireball",
+      "staff": "Gnarled Staff",
+      "spell": "Poison Mist",
       "familiar": "Frog",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

@@ -80,7 +80,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2161/8878",
+    "rarity_rank": "490/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Dragon Staff",
-        "count": 345,
-        "pct": 3.8816
+        "count": 244,
+        "pct": 2.7453
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "count": 856,
+        "pct": 9.631
       },
       "Familiar": {
         "value": "Owl",
-        "count": 771,
-        "pct": 8.6746
+        "count": 488,
+        "pct": 5.4905
       }
     },
     "extra_layers": {
       "staff": "Dragon Staff",
       "spell": "Sparks",
       "familiar": "Owl",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

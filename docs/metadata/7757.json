@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Lightning Rod"
+      "value": "Wooden Wand"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Shadow Tendrils"
+      "value": "Time Distortion"
     },
     {
       "trait_type": "Familiar",
-      "value": "None"
+      "value": "Owl"
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3276/8878",
+    "rarity_rank": "385/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Lightning Rod",
-        "count": 827,
-        "pct": 9.3047
+        "value": "Wooden Wand",
+        "count": 876,
+        "pct": 9.856
       },
       "Spell Effect": {
-        "value": "Shadow Tendrils",
-        "count": 581,
-        "pct": 6.5369
+        "value": "Time Distortion",
+        "count": 263,
+        "pct": 2.959
       },
       "Familiar": {
-        "value": "None",
-        "count": 3087,
-        "pct": 34.7322
+        "value": "Owl",
+        "count": 488,
+        "pct": 5.4905
       }
     },
     "extra_layers": {
-      "staff": "Lightning Rod",
-      "spell": "Shadow Tendrils",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Wooden Wand",
+      "spell": "Time Distortion",
+      "familiar": "Owl",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

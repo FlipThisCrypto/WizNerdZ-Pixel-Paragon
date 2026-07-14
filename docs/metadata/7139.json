@@ -72,15 +72,15 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Shadow Tendrils"
+      "value": "Reality Fracture"
     },
     {
       "trait_type": "Familiar",
-      "value": "Frog"
+      "value": "Black Cat"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "5801/8878",
+    "rarity_rank": "743/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Wooden Wand",
-        "count": 1981,
-        "pct": 22.2885
+        "count": 876,
+        "pct": 9.856
       },
       "Spell Effect": {
-        "value": "Shadow Tendrils",
-        "count": 581,
-        "pct": 6.5369
+        "value": "Reality Fracture",
+        "count": 218,
+        "pct": 2.4527
       },
       "Familiar": {
-        "value": "Frog",
-        "count": 1436,
-        "pct": 16.1566
+        "value": "Black Cat",
+        "count": 487,
+        "pct": 5.4793
       }
     },
     "extra_layers": {
       "staff": "Wooden Wand",
-      "spell": "Shadow Tendrils",
-      "familiar": "Frog",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "spell": "Reality Fracture",
+      "familiar": "Black Cat",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

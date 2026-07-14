@@ -118,16 +118,16 @@ trait_type,value,count,pct
 "Facial Hair","Medium Rounded Dark Brown",458,5.1530
 "Facial Hair","Medium Rounded Red Orange",255,2.8690
 "Facial Hair","Medium Rounded White Gray",159,1.7889
-"Familiar","Baby Dragon",383,4.3092
-"Familiar","Black Cat",916,10.3060
-"Familiar","Frog",1436,16.1566
-"Familiar","Ghost",324,3.6454
-"Familiar","Miniature Cosmic Beast",91,1.0239
-"Familiar","None",3087,34.7322
-"Familiar","Owl",771,8.6746
-"Familiar","Phoenix",145,1.6314
-"Familiar","Raven",1116,12.5563
-"Familiar","Slime",619,6.9644
+"Familiar","Baby Dragon",388,4.3654
+"Familiar","Black Cat",487,5.4793
+"Familiar","Frog",709,7.9770
+"Familiar","Ghost",307,3.4541
+"Familiar","Miniature Cosmic Beast",199,2.2390
+"Familiar","None",5041,56.7169
+"Familiar","Owl",488,5.4905
+"Familiar","Phoenix",265,2.9815
+"Familiar","Raven",603,6.7844
+"Familiar","Slime",401,4.5117
 "Glasses","Abyssal Shades",351,3.9491
 "Glasses","Astral Focus",363,4.0842
 "Glasses","Crimson Glare",395,4.4442
@@ -192,26 +192,26 @@ trait_type,value,count,pct
 "Special","Named",10,0.1125
 "Special","Standard",8878,99.8875
 "Species","Bird",1,0.0113
-"Spell Effect","Fireball",1204,13.5464
-"Spell Effect","Floating Runes",1643,18.4856
-"Spell Effect","Ice Shards",1029,11.5774
-"Spell Effect","Lightning Arc",868,9.7660
-"Spell Effect","Poison Mist",721,8.1121
-"Spell Effect","Reality Fracture",64,0.7201
-"Spell Effect","Shadow Tendrils",581,6.5369
-"Spell Effect","Sparks",2173,24.4487
-"Spell Effect","Summoning Circle",359,4.0392
-"Spell Effect","Time Distortion",246,2.7678
-"Staff","Bone Scepter",566,6.3681
-"Staff","Crystal Wand",1200,13.5014
-"Staff","Dragon Staff",345,3.8816
-"Staff","Fire Staff",994,11.1836
-"Staff","Gnarled Staff",1738,19.5545
-"Staff","Ice Staff",950,10.6886
-"Staff","Lightning Rod",827,9.3047
-"Staff","Timekeeper Staff",218,2.4527
-"Staff","Wooden Wand",1981,22.2885
-"Staff","Worldbreaker Wand",69,0.7763
+"Spell Effect","Fireball",554,6.2331
+"Spell Effect","Floating Runes",722,8.1233
+"Spell Effect","Ice Shards",480,5.4005
+"Spell Effect","Lightning Arc",463,5.2093
+"Spell Effect","None",4944,55.6256
+"Spell Effect","Poison Mist",388,4.3654
+"Spell Effect","Reality Fracture",218,2.4527
+"Spell Effect","Sparks",856,9.6310
+"Spell Effect","Time Distortion",263,2.9590
+"Staff","Bone Scepter",307,3.4541
+"Staff","Crystal Wand",516,5.8056
+"Staff","Dragon Staff",244,2.7453
+"Staff","Fire Staff",437,4.9167
+"Staff","Gnarled Staff",675,7.5945
+"Staff","Ice Staff",460,5.1755
+"Staff","Lightning Rod",354,3.9829
+"Staff","None",4606,51.8227
+"Staff","Timekeeper Staff",221,2.4865
+"Staff","Wooden Wand",876,9.8560
+"Staff","Worldbreaker Wand",192,2.1602
 "Wizard Hat","Alchemist",383,4.3092
 "Wizard Hat","Arcane Mage",397,4.4667
 "Wizard Hat","Blood Mage",366,4.1179

@@ -68,11 +68,11 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Wooden Wand"
+      "value": "None"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Lightning Arc"
+      "value": "Time Distortion"
     },
     {
       "trait_type": "Familiar",
@@ -104,7 +104,7 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "8721/8878",
+    "rarity_rank": "6747/8878",
     "rarity_score": 1e-12,
     "rarity_tier": "Common",
     "max_supply": 8888,
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Wooden Wand",
-        "count": 1981,
-        "pct": 22.2885
+        "value": "None",
+        "count": 4606,
+        "pct": 51.8227
       },
       "Spell Effect": {
-        "value": "Lightning Arc",
-        "count": 868,
-        "pct": 9.766
+        "value": "Time Distortion",
+        "count": 263,
+        "pct": 2.959
       },
       "Familiar": {
         "value": "None",
-        "count": 3087,
-        "pct": 34.7322
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
-      "staff": "Wooden Wand",
-      "spell": "Lightning Arc",
+      "staff": "None",
+      "spell": "Time Distortion",
       "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

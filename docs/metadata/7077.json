@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Crystal Wand"
+      "value": "Wooden Wand"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Time Distortion"
+      "value": "Fireball"
     },
     {
       "trait_type": "Familiar",
-      "value": "None"
+      "value": "Slime"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3665/8878",
+    "rarity_rank": "1020/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Crystal Wand",
-        "count": 1200,
-        "pct": 13.5014
+        "value": "Wooden Wand",
+        "count": 876,
+        "pct": 9.856
       },
       "Spell Effect": {
-        "value": "Time Distortion",
-        "count": 246,
-        "pct": 2.7678
+        "value": "Fireball",
+        "count": 554,
+        "pct": 6.2331
       },
       "Familiar": {
-        "value": "None",
-        "count": 3087,
-        "pct": 34.7322
+        "value": "Slime",
+        "count": 401,
+        "pct": 4.5117
       }
     },
     "extra_layers": {
-      "staff": "Crystal Wand",
-      "spell": "Time Distortion",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Wooden Wand",
+      "spell": "Fireball",
+      "familiar": "Slime",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

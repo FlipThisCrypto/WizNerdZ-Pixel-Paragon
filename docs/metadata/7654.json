@@ -68,15 +68,15 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Bone Scepter"
+      "value": "None"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Sparks"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
-      "value": "Black Cat"
+      "value": "None"
     },
     {
       "trait_type": "Rarity",
@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "5177/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "8630/8878",
+    "rarity_score": 9e-12,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Bone Scepter",
-        "count": 566,
-        "pct": 6.3681
+        "value": "None",
+        "count": 4606,
+        "pct": 51.8227
       },
       "Spell Effect": {
-        "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
-        "value": "Black Cat",
-        "count": 916,
-        "pct": 10.306
+        "value": "None",
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
-      "staff": "Bone Scepter",
-      "spell": "Sparks",
-      "familiar": "Black Cat",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "None",
+      "spell": "None",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

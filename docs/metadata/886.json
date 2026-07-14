@@ -68,15 +68,15 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Fire Staff"
+      "value": "None"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Ice Shards"
+      "value": "Floating Runes"
     },
     {
       "trait_type": "Familiar",
-      "value": "Owl"
+      "value": "Black Cat"
     },
     {
       "trait_type": "Rarity",
@@ -104,7 +104,7 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2058/8878",
+    "rarity_rank": "2400/8878",
     "rarity_score": 0.0,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Fire Staff",
-        "count": 994,
-        "pct": 11.1836
+        "value": "None",
+        "count": 4606,
+        "pct": 51.8227
       },
       "Spell Effect": {
-        "value": "Ice Shards",
-        "count": 1029,
-        "pct": 11.5774
+        "value": "Floating Runes",
+        "count": 722,
+        "pct": 8.1233
       },
       "Familiar": {
-        "value": "Owl",
-        "count": 771,
-        "pct": 8.6746
+        "value": "Black Cat",
+        "count": 487,
+        "pct": 5.4793
       }
     },
     "extra_layers": {
-      "staff": "Fire Staff",
-      "spell": "Ice Shards",
-      "familiar": "Owl",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "None",
+      "spell": "Floating Runes",
+      "familiar": "Black Cat",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

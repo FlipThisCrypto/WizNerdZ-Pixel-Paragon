@@ -72,7 +72,7 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Sparks"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
@@ -104,7 +104,7 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "8651/8878",
+    "rarity_rank": "7011/8878",
     "rarity_score": 1e-12,
     "rarity_tier": "Common",
     "max_supply": 8888,
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Wooden Wand",
-        "count": 1981,
-        "pct": 22.2885
+        "count": 876,
+        "pct": 9.856
       },
       "Spell Effect": {
-        "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
         "value": "None",
-        "count": 3087,
-        "pct": 34.7322
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
       "staff": "Wooden Wand",
-      "spell": "Sparks",
+      "spell": "None",
       "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Dragon Staff"
+      "value": "None"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Floating Runes"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
-      "value": "Black Cat"
+      "value": "None"
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Common"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3144/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
+    "rarity_rank": "8579/8878",
+    "rarity_score": 8e-12,
+    "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Dragon Staff",
-        "count": 345,
-        "pct": 3.8816
+        "value": "None",
+        "count": 4606,
+        "pct": 51.8227
       },
       "Spell Effect": {
-        "value": "Floating Runes",
-        "count": 1643,
-        "pct": 18.4856
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
-        "value": "Black Cat",
-        "count": 916,
-        "pct": 10.306
+        "value": "None",
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
-      "staff": "Dragon Staff",
-      "spell": "Floating Runes",
-      "familiar": "Black Cat",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "None",
+      "spell": "None",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

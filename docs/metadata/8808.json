@@ -72,7 +72,7 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Floating Runes"
+      "value": "Fireball"
     },
     {
       "trait_type": "Familiar",
@@ -80,7 +80,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1624/8878",
+    "rarity_rank": "328/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Ice Staff",
-        "count": 950,
-        "pct": 10.6886
+        "count": 460,
+        "pct": 5.1755
       },
       "Spell Effect": {
-        "value": "Floating Runes",
-        "count": 1643,
-        "pct": 18.4856
+        "value": "Fireball",
+        "count": 554,
+        "pct": 6.2331
       },
       "Familiar": {
         "value": "Baby Dragon",
-        "count": 383,
-        "pct": 4.3092
+        "count": 388,
+        "pct": 4.3654
       }
     },
     "extra_layers": {
       "staff": "Ice Staff",
-      "spell": "Floating Runes",
+      "spell": "Fireball",
       "familiar": "Baby Dragon",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

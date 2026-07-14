@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Gnarled Staff"
+      "value": "Crystal Wand"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Sparks"
+      "value": "Fireball"
     },
     {
       "trait_type": "Familiar",
-      "value": "Phoenix"
+      "value": "Frog"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3557/8878",
+    "rarity_rank": "1363/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Gnarled Staff",
-        "count": 1738,
-        "pct": 19.5545
+        "value": "Crystal Wand",
+        "count": 516,
+        "pct": 5.8056
       },
       "Spell Effect": {
-        "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "value": "Fireball",
+        "count": 554,
+        "pct": 6.2331
       },
       "Familiar": {
-        "value": "Phoenix",
-        "count": 145,
-        "pct": 1.6314
+        "value": "Frog",
+        "count": 709,
+        "pct": 7.977
       }
     },
     "extra_layers": {
-      "staff": "Gnarled Staff",
-      "spell": "Sparks",
-      "familiar": "Phoenix",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Crystal Wand",
+      "spell": "Fireball",
+      "familiar": "Frog",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

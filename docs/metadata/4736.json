@@ -68,11 +68,11 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Lightning Rod"
+      "value": "Timekeeper Staff"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Ice Shards"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
@@ -104,7 +104,7 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "5188/8878",
+    "rarity_rank": "4395/8878",
     "rarity_score": 0.0,
     "rarity_tier": "Common",
     "max_supply": 8888,
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Lightning Rod",
-        "count": 827,
-        "pct": 9.3047
+        "value": "Timekeeper Staff",
+        "count": 221,
+        "pct": 2.4865
       },
       "Spell Effect": {
-        "value": "Ice Shards",
-        "count": 1029,
-        "pct": 11.5774
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
         "value": "None",
-        "count": 3087,
-        "pct": 34.7322
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
-      "staff": "Lightning Rod",
-      "spell": "Ice Shards",
+      "staff": "Timekeeper Staff",
+      "spell": "None",
       "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

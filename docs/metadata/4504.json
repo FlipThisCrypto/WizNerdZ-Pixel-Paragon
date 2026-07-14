@@ -68,15 +68,15 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Wooden Wand"
+      "value": "None"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Lightning Arc"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
-      "value": "Raven"
+      "value": "None"
     },
     {
       "trait_type": "Rarity",
@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "4962/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "8136/8878",
+    "rarity_score": 5e-12,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Wooden Wand",
-        "count": 1981,
-        "pct": 22.2885
+        "value": "None",
+        "count": 4606,
+        "pct": 51.8227
       },
       "Spell Effect": {
-        "value": "Lightning Arc",
-        "count": 868,
-        "pct": 9.766
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
-        "value": "Raven",
-        "count": 1116,
-        "pct": 12.5563
+        "value": "None",
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
-      "staff": "Wooden Wand",
-      "spell": "Lightning Arc",
-      "familiar": "Raven",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "None",
+      "spell": "None",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

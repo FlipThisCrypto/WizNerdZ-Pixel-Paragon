@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Crystal Wand"
+      "value": "Bone Scepter"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Floating Runes"
+      "value": "Poison Mist"
     },
     {
       "trait_type": "Familiar",
-      "value": "Slime"
+      "value": "Frog"
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3163/8878",
+    "rarity_rank": "338/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Crystal Wand",
-        "count": 1200,
-        "pct": 13.5014
+        "value": "Bone Scepter",
+        "count": 307,
+        "pct": 3.4541
       },
       "Spell Effect": {
-        "value": "Floating Runes",
-        "count": 1643,
-        "pct": 18.4856
+        "value": "Poison Mist",
+        "count": 388,
+        "pct": 4.3654
       },
       "Familiar": {
-        "value": "Slime",
-        "count": 619,
-        "pct": 6.9644
+        "value": "Frog",
+        "count": 709,
+        "pct": 7.977
       }
     },
     "extra_layers": {
-      "staff": "Crystal Wand",
-      "spell": "Floating Runes",
-      "familiar": "Slime",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Bone Scepter",
+      "spell": "Poison Mist",
+      "familiar": "Frog",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

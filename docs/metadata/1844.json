@@ -68,11 +68,11 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Gnarled Staff"
+      "value": "None"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Floating Runes"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "5823/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "6059/8878",
+    "rarity_score": 1e-12,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Gnarled Staff",
-        "count": 1738,
-        "pct": 19.5545
+        "value": "None",
+        "count": 4606,
+        "pct": 51.8227
       },
       "Spell Effect": {
-        "value": "Floating Runes",
-        "count": 1643,
-        "pct": 18.4856
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
         "value": "Owl",
-        "count": 771,
-        "pct": 8.6746
+        "count": 488,
+        "pct": 5.4905
       }
     },
     "extra_layers": {
-      "staff": "Gnarled Staff",
-      "spell": "Floating Runes",
+      "staff": "None",
+      "spell": "None",
       "familiar": "Owl",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

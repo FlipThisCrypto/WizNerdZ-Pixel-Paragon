@@ -72,7 +72,7 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Poison Mist"
+      "value": "Fireball"
     },
     {
       "trait_type": "Familiar",
@@ -80,7 +80,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "869/8878",
+    "rarity_rank": "155/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Rare",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Fire Staff",
-        "count": 994,
-        "pct": 11.1836
+        "count": 437,
+        "pct": 4.9167
       },
       "Spell Effect": {
-        "value": "Poison Mist",
-        "count": 721,
-        "pct": 8.1121
+        "value": "Fireball",
+        "count": 554,
+        "pct": 6.2331
       },
       "Familiar": {
         "value": "Frog",
-        "count": 1436,
-        "pct": 16.1566
+        "count": 709,
+        "pct": 7.977
       }
     },
     "extra_layers": {
       "staff": "Fire Staff",
-      "spell": "Poison Mist",
+      "spell": "Fireball",
       "familiar": "Frog",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

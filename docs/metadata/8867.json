@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Wooden Wand"
+      "value": "Lightning Rod"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Sparks"
+      "value": "Reality Fracture"
     },
     {
       "trait_type": "Familiar",
-      "value": "Frog"
+      "value": "Owl"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "7044/8878",
+    "rarity_rank": "138/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Wooden Wand",
-        "count": 1981,
-        "pct": 22.2885
+        "value": "Lightning Rod",
+        "count": 354,
+        "pct": 3.9829
       },
       "Spell Effect": {
-        "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "value": "Reality Fracture",
+        "count": 218,
+        "pct": 2.4527
       },
       "Familiar": {
-        "value": "Frog",
-        "count": 1436,
-        "pct": 16.1566
+        "value": "Owl",
+        "count": 488,
+        "pct": 5.4905
       }
     },
     "extra_layers": {
-      "staff": "Wooden Wand",
-      "spell": "Sparks",
-      "familiar": "Frog",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Lightning Rod",
+      "spell": "Reality Fracture",
+      "familiar": "Owl",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

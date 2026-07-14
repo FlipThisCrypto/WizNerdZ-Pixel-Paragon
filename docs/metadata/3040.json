@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Timekeeper Staff"
+      "value": "Worldbreaker Wand"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Shadow Tendrils"
+      "value": "Floating Runes"
     },
     {
       "trait_type": "Familiar",
-      "value": "None"
+      "value": "Frog"
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2118/8878",
+    "rarity_rank": "650/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Timekeeper Staff",
-        "count": 218,
-        "pct": 2.4527
+        "value": "Worldbreaker Wand",
+        "count": 192,
+        "pct": 2.1602
       },
       "Spell Effect": {
-        "value": "Shadow Tendrils",
-        "count": 581,
-        "pct": 6.5369
+        "value": "Floating Runes",
+        "count": 722,
+        "pct": 8.1233
       },
       "Familiar": {
-        "value": "None",
-        "count": 3087,
-        "pct": 34.7322
+        "value": "Frog",
+        "count": 709,
+        "pct": 7.977
       }
     },
     "extra_layers": {
-      "staff": "Timekeeper Staff",
-      "spell": "Shadow Tendrils",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Worldbreaker Wand",
+      "spell": "Floating Runes",
+      "familiar": "Frog",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

@@ -72,11 +72,11 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Floating Runes"
+      "value": "Ice Shards"
     },
     {
       "trait_type": "Familiar",
-      "value": "Raven"
+      "value": "None"
     },
     {
       "trait_type": "Rarity",
@@ -104,7 +104,7 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2252/8878",
+    "rarity_rank": "1358/8878",
     "rarity_score": 0.0,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Bone Scepter",
-        "count": 566,
-        "pct": 6.3681
+        "count": 307,
+        "pct": 3.4541
       },
       "Spell Effect": {
-        "value": "Floating Runes",
-        "count": 1643,
-        "pct": 18.4856
+        "value": "Ice Shards",
+        "count": 480,
+        "pct": 5.4005
       },
       "Familiar": {
-        "value": "Raven",
-        "count": 1116,
-        "pct": 12.5563
+        "value": "None",
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
       "staff": "Bone Scepter",
-      "spell": "Floating Runes",
-      "familiar": "Raven",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "spell": "Ice Shards",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

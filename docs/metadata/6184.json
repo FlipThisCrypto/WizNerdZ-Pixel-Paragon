@@ -72,11 +72,11 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Fireball"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
-      "value": "Baby Dragon"
+      "value": "Phoenix"
     },
     {
       "trait_type": "Rarity",
@@ -104,7 +104,7 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3055/8878",
+    "rarity_rank": "2505/8878",
     "rarity_score": 0.0,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Fire Staff",
-        "count": 994,
-        "pct": 11.1836
+        "count": 437,
+        "pct": 4.9167
       },
       "Spell Effect": {
-        "value": "Fireball",
-        "count": 1204,
-        "pct": 13.5464
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
-        "value": "Baby Dragon",
-        "count": 383,
-        "pct": 4.3092
+        "value": "Phoenix",
+        "count": 265,
+        "pct": 2.9815
       }
     },
     "extra_layers": {
       "staff": "Fire Staff",
-      "spell": "Fireball",
-      "familiar": "Baby Dragon",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "spell": "None",
+      "familiar": "Phoenix",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

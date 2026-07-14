@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Crystal Wand"
+      "value": "Fire Staff"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Fireball"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
-      "value": "Slime"
+      "value": "Ghost"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "4836/8878",
+    "rarity_rank": "2785/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Crystal Wand",
-        "count": 1200,
-        "pct": 13.5014
+        "value": "Fire Staff",
+        "count": 437,
+        "pct": 4.9167
       },
       "Spell Effect": {
-        "value": "Fireball",
-        "count": 1204,
-        "pct": 13.5464
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
-        "value": "Slime",
-        "count": 619,
-        "pct": 6.9644
+        "value": "Ghost",
+        "count": 307,
+        "pct": 3.4541
       }
     },
     "extra_layers": {
-      "staff": "Crystal Wand",
-      "spell": "Fireball",
-      "familiar": "Slime",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Fire Staff",
+      "spell": "None",
+      "familiar": "Ghost",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

@@ -72,15 +72,15 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Lightning Arc"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
-      "value": "Frog"
+      "value": "Ghost"
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1990/8878",
+    "rarity_rank": "972/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Gnarled Staff",
-        "count": 1738,
-        "pct": 19.5545
+        "count": 675,
+        "pct": 7.5945
       },
       "Spell Effect": {
-        "value": "Lightning Arc",
-        "count": 868,
-        "pct": 9.766
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
-        "value": "Frog",
-        "count": 1436,
-        "pct": 16.1566
+        "value": "Ghost",
+        "count": 307,
+        "pct": 3.4541
       }
     },
     "extra_layers": {
       "staff": "Gnarled Staff",
-      "spell": "Lightning Arc",
-      "familiar": "Frog",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "spell": "None",
+      "familiar": "Ghost",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

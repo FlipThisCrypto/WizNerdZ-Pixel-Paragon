@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Timekeeper Staff"
+      "value": "Bone Scepter"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Reality Fracture"
+      "value": "Ice Shards"
     },
     {
       "trait_type": "Familiar",
-      "value": "None"
+      "value": "Owl"
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "69/8878",
+    "rarity_rank": "175/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Legendary",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Timekeeper Staff",
-        "count": 218,
-        "pct": 2.4527
+        "value": "Bone Scepter",
+        "count": 307,
+        "pct": 3.4541
       },
       "Spell Effect": {
-        "value": "Reality Fracture",
-        "count": 64,
-        "pct": 0.7201
+        "value": "Ice Shards",
+        "count": 480,
+        "pct": 5.4005
       },
       "Familiar": {
-        "value": "None",
-        "count": 3087,
-        "pct": 34.7322
+        "value": "Owl",
+        "count": 488,
+        "pct": 5.4905
       }
     },
     "extra_layers": {
-      "staff": "Timekeeper Staff",
-      "spell": "Reality Fracture",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Bone Scepter",
+      "spell": "Ice Shards",
+      "familiar": "Owl",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

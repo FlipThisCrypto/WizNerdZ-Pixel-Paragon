@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Wooden Wand"
+      "value": "Bone Scepter"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Floating Runes"
+      "value": "Sparks"
     },
     {
       "trait_type": "Familiar",
-      "value": "Slime"
+      "value": "Frog"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "4666/8878",
+    "rarity_rank": "767/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Wooden Wand",
-        "count": 1981,
-        "pct": 22.2885
+        "value": "Bone Scepter",
+        "count": 307,
+        "pct": 3.4541
       },
       "Spell Effect": {
-        "value": "Floating Runes",
-        "count": 1643,
-        "pct": 18.4856
+        "value": "Sparks",
+        "count": 856,
+        "pct": 9.631
       },
       "Familiar": {
-        "value": "Slime",
-        "count": 619,
-        "pct": 6.9644
+        "value": "Frog",
+        "count": 709,
+        "pct": 7.977
       }
     },
     "extra_layers": {
-      "staff": "Wooden Wand",
-      "spell": "Floating Runes",
-      "familiar": "Slime",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Bone Scepter",
+      "spell": "Sparks",
+      "familiar": "Frog",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

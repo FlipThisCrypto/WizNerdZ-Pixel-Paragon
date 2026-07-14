@@ -68,11 +68,11 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Crystal Wand"
+      "value": "Ice Staff"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Ice Shards"
+      "value": "Reality Fracture"
     },
     {
       "trait_type": "Familiar",
@@ -80,7 +80,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "7361/8878",
+    "rarity_rank": "1938/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Crystal Wand",
-        "count": 1200,
-        "pct": 13.5014
+        "value": "Ice Staff",
+        "count": 460,
+        "pct": 5.1755
       },
       "Spell Effect": {
-        "value": "Ice Shards",
-        "count": 1029,
-        "pct": 11.5774
+        "value": "Reality Fracture",
+        "count": 218,
+        "pct": 2.4527
       },
       "Familiar": {
         "value": "None",
-        "count": 3087,
-        "pct": 34.7322
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
-      "staff": "Crystal Wand",
-      "spell": "Ice Shards",
+      "staff": "Ice Staff",
+      "spell": "Reality Fracture",
       "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

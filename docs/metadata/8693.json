@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Crystal Wand"
+      "value": "Gnarled Staff"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Poison Mist"
+      "value": "Sparks"
     },
     {
       "trait_type": "Familiar",
-      "value": "Frog"
+      "value": "None"
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Common"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3305/8878",
+    "rarity_rank": "3594/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
+    "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Crystal Wand",
-        "count": 1200,
-        "pct": 13.5014
+        "value": "Gnarled Staff",
+        "count": 675,
+        "pct": 7.5945
       },
       "Spell Effect": {
-        "value": "Poison Mist",
-        "count": 721,
-        "pct": 8.1121
+        "value": "Sparks",
+        "count": 856,
+        "pct": 9.631
       },
       "Familiar": {
-        "value": "Frog",
-        "count": 1436,
-        "pct": 16.1566
+        "value": "None",
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
-      "staff": "Crystal Wand",
-      "spell": "Poison Mist",
-      "familiar": "Frog",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Gnarled Staff",
+      "spell": "Sparks",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

@@ -72,7 +72,7 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Poison Mist"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
@@ -80,7 +80,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "10/8878",
+    "rarity_rank": "144/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Legendary",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Ice Staff",
-        "count": 950,
-        "pct": 10.6886
+        "count": 460,
+        "pct": 5.1755
       },
       "Spell Effect": {
-        "value": "Poison Mist",
-        "count": 721,
-        "pct": 8.1121
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
         "value": "Phoenix",
-        "count": 145,
-        "pct": 1.6314
+        "count": 265,
+        "pct": 2.9815
       }
     },
     "extra_layers": {
       "staff": "Ice Staff",
-      "spell": "Poison Mist",
+      "spell": "None",
       "familiar": "Phoenix",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

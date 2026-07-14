@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Lightning Rod"
+      "value": "Crystal Wand"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Poison Mist"
+      "value": "Fireball"
     },
     {
       "trait_type": "Familiar",
-      "value": "Frog"
+      "value": "Ghost"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3979/8878",
+    "rarity_rank": "660/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Lightning Rod",
-        "count": 827,
-        "pct": 9.3047
+        "value": "Crystal Wand",
+        "count": 516,
+        "pct": 5.8056
       },
       "Spell Effect": {
-        "value": "Poison Mist",
-        "count": 721,
-        "pct": 8.1121
+        "value": "Fireball",
+        "count": 554,
+        "pct": 6.2331
       },
       "Familiar": {
-        "value": "Frog",
-        "count": 1436,
-        "pct": 16.1566
+        "value": "Ghost",
+        "count": 307,
+        "pct": 3.4541
       }
     },
     "extra_layers": {
-      "staff": "Lightning Rod",
-      "spell": "Poison Mist",
-      "familiar": "Frog",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Crystal Wand",
+      "spell": "Fireball",
+      "familiar": "Ghost",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Lightning Rod"
+      "value": "Wooden Wand"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Shadow Tendrils"
+      "value": "Floating Runes"
     },
     {
       "trait_type": "Familiar",
-      "value": "None"
+      "value": "Raven"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "5075/8878",
+    "rarity_rank": "1591/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Lightning Rod",
-        "count": 827,
-        "pct": 9.3047
+        "value": "Wooden Wand",
+        "count": 876,
+        "pct": 9.856
       },
       "Spell Effect": {
-        "value": "Shadow Tendrils",
-        "count": 581,
-        "pct": 6.5369
+        "value": "Floating Runes",
+        "count": 722,
+        "pct": 8.1233
       },
       "Familiar": {
-        "value": "None",
-        "count": 3087,
-        "pct": 34.7322
+        "value": "Raven",
+        "count": 603,
+        "pct": 6.7844
       }
     },
     "extra_layers": {
-      "staff": "Lightning Rod",
-      "spell": "Shadow Tendrils",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Wooden Wand",
+      "spell": "Floating Runes",
+      "familiar": "Raven",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

@@ -72,11 +72,11 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Lightning Arc"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
-      "value": "Owl"
+      "value": "Black Cat"
     },
     {
       "trait_type": "Rarity",
@@ -104,7 +104,7 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1579/8878",
+    "rarity_rank": "1672/8878",
     "rarity_score": 0.0,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Fire Staff",
-        "count": 994,
-        "pct": 11.1836
+        "count": 437,
+        "pct": 4.9167
       },
       "Spell Effect": {
-        "value": "Lightning Arc",
-        "count": 868,
-        "pct": 9.766
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
-        "value": "Owl",
-        "count": 771,
-        "pct": 8.6746
+        "value": "Black Cat",
+        "count": 487,
+        "pct": 5.4793
       }
     },
     "extra_layers": {
       "staff": "Fire Staff",
-      "spell": "Lightning Arc",
-      "familiar": "Owl",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "spell": "None",
+      "familiar": "Black Cat",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

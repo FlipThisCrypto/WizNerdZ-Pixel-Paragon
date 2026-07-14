@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Wooden Wand"
+      "value": "Lightning Rod"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Sparks"
+      "value": "Poison Mist"
     },
     {
       "trait_type": "Familiar",
-      "value": "Black Cat"
+      "value": "Owl"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "7074/8878",
+    "rarity_rank": "429/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Wooden Wand",
-        "count": 1981,
-        "pct": 22.2885
+        "value": "Lightning Rod",
+        "count": 354,
+        "pct": 3.9829
       },
       "Spell Effect": {
-        "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "value": "Poison Mist",
+        "count": 388,
+        "pct": 4.3654
       },
       "Familiar": {
-        "value": "Black Cat",
-        "count": 916,
-        "pct": 10.306
+        "value": "Owl",
+        "count": 488,
+        "pct": 5.4905
       }
     },
     "extra_layers": {
-      "staff": "Wooden Wand",
-      "spell": "Sparks",
-      "familiar": "Black Cat",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Lightning Rod",
+      "spell": "Poison Mist",
+      "familiar": "Owl",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

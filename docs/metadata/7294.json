@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Fire Staff"
+      "value": "Wooden Wand"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Summoning Circle"
+      "value": "Fireball"
     },
     {
       "trait_type": "Familiar",
-      "value": "Raven"
+      "value": "Ghost"
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2701/8878",
+    "rarity_rank": "1090/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Fire Staff",
-        "count": 994,
-        "pct": 11.1836
+        "value": "Wooden Wand",
+        "count": 876,
+        "pct": 9.856
       },
       "Spell Effect": {
-        "value": "Summoning Circle",
-        "count": 359,
-        "pct": 4.0392
+        "value": "Fireball",
+        "count": 554,
+        "pct": 6.2331
       },
       "Familiar": {
-        "value": "Raven",
-        "count": 1116,
-        "pct": 12.5563
+        "value": "Ghost",
+        "count": 307,
+        "pct": 3.4541
       }
     },
     "extra_layers": {
-      "staff": "Fire Staff",
-      "spell": "Summoning Circle",
-      "familiar": "Raven",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Wooden Wand",
+      "spell": "Fireball",
+      "familiar": "Ghost",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

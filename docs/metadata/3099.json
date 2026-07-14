@@ -68,7 +68,7 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Gnarled Staff"
+      "value": "None"
     },
     {
       "trait_type": "Spell Effect",
@@ -76,7 +76,7 @@
     },
     {
       "trait_type": "Familiar",
-      "value": "Frog"
+      "value": "Ghost"
     },
     {
       "trait_type": "Rarity",
@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "8635/8878",
-    "rarity_score": 1e-12,
+    "rarity_rank": "4088/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Gnarled Staff",
-        "count": 1738,
-        "pct": 19.5545
+        "value": "None",
+        "count": 4606,
+        "pct": 51.8227
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "count": 856,
+        "pct": 9.631
       },
       "Familiar": {
-        "value": "Frog",
-        "count": 1436,
-        "pct": 16.1566
+        "value": "Ghost",
+        "count": 307,
+        "pct": 3.4541
       }
     },
     "extra_layers": {
-      "staff": "Gnarled Staff",
+      "staff": "None",
       "spell": "Sparks",
-      "familiar": "Frog",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "familiar": "Ghost",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

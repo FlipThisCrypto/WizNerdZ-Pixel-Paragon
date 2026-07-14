@@ -72,15 +72,15 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Sparks"
+      "value": "Lightning Arc"
     },
     {
       "trait_type": "Familiar",
-      "value": "None"
+      "value": "Baby Dragon"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "7585/8878",
+    "rarity_rank": "468/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Bone Scepter",
-        "count": 566,
-        "pct": 6.3681
+        "count": 307,
+        "pct": 3.4541
       },
       "Spell Effect": {
-        "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "value": "Lightning Arc",
+        "count": 463,
+        "pct": 5.2093
       },
       "Familiar": {
-        "value": "None",
-        "count": 3087,
-        "pct": 34.7322
+        "value": "Baby Dragon",
+        "count": 388,
+        "pct": 4.3654
       }
     },
     "extra_layers": {
       "staff": "Bone Scepter",
-      "spell": "Sparks",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "spell": "Lightning Arc",
+      "familiar": "Baby Dragon",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

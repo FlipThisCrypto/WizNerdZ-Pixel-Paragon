@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Gnarled Staff"
+      "value": "Dragon Staff"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Shadow Tendrils"
+      "value": "Poison Mist"
     },
     {
       "trait_type": "Familiar",
-      "value": "Slime"
+      "value": "Miniature Cosmic Beast"
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2704/8878",
+    "rarity_rank": "98/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Gnarled Staff",
-        "count": 1738,
-        "pct": 19.5545
+        "value": "Dragon Staff",
+        "count": 244,
+        "pct": 2.7453
       },
       "Spell Effect": {
-        "value": "Shadow Tendrils",
-        "count": 581,
-        "pct": 6.5369
+        "value": "Poison Mist",
+        "count": 388,
+        "pct": 4.3654
       },
       "Familiar": {
-        "value": "Slime",
-        "count": 619,
-        "pct": 6.9644
+        "value": "Miniature Cosmic Beast",
+        "count": 199,
+        "pct": 2.239
       }
     },
     "extra_layers": {
-      "staff": "Gnarled Staff",
-      "spell": "Shadow Tendrils",
-      "familiar": "Slime",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Dragon Staff",
+      "spell": "Poison Mist",
+      "familiar": "Miniature Cosmic Beast",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

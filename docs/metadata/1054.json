@@ -72,15 +72,15 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Poison Mist"
+      "value": "Reality Fracture"
     },
     {
       "trait_type": "Familiar",
-      "value": "None"
+      "value": "Ghost"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "6363/8878",
+    "rarity_rank": "236/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Crystal Wand",
-        "count": 1200,
-        "pct": 13.5014
+        "count": 516,
+        "pct": 5.8056
       },
       "Spell Effect": {
-        "value": "Poison Mist",
-        "count": 721,
-        "pct": 8.1121
+        "value": "Reality Fracture",
+        "count": 218,
+        "pct": 2.4527
       },
       "Familiar": {
-        "value": "None",
-        "count": 3087,
-        "pct": 34.7322
+        "value": "Ghost",
+        "count": 307,
+        "pct": 3.4541
       }
     },
     "extra_layers": {
       "staff": "Crystal Wand",
-      "spell": "Poison Mist",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "spell": "Reality Fracture",
+      "familiar": "Ghost",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Gnarled Staff"
+      "value": "Timekeeper Staff"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Floating Runes"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
-      "value": "Frog"
+      "value": "Owl"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "5579/8878",
+    "rarity_rank": "1189/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Gnarled Staff",
-        "count": 1738,
-        "pct": 19.5545
+        "value": "Timekeeper Staff",
+        "count": 221,
+        "pct": 2.4865
       },
       "Spell Effect": {
-        "value": "Floating Runes",
-        "count": 1643,
-        "pct": 18.4856
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
-        "value": "Frog",
-        "count": 1436,
-        "pct": 16.1566
+        "value": "Owl",
+        "count": 488,
+        "pct": 5.4905
       }
     },
     "extra_layers": {
-      "staff": "Gnarled Staff",
-      "spell": "Floating Runes",
-      "familiar": "Frog",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Timekeeper Staff",
+      "spell": "None",
+      "familiar": "Owl",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

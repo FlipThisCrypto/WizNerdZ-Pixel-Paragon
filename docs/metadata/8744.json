@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "8814/8878",
-    "rarity_score": 1e-12,
+    "rarity_rank": "5257/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Wooden Wand",
-        "count": 1981,
-        "pct": 22.2885
+        "count": 876,
+        "pct": 9.856
       },
       "Spell Effect": {
         "value": "Fireball",
-        "count": 1204,
-        "pct": 13.5464
+        "count": 554,
+        "pct": 6.2331
       },
       "Familiar": {
         "value": "None",
-        "count": 3087,
-        "pct": 34.7322
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
       "staff": "Wooden Wand",
       "spell": "Fireball",
       "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

@@ -76,11 +76,11 @@
     },
     {
       "trait_type": "Familiar",
-      "value": "Slime"
+      "value": "Frog"
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "887/8878",
+    "rarity_rank": "171/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Rare",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Gnarled Staff",
-        "count": 1738,
-        "pct": 19.5545
+        "count": 675,
+        "pct": 7.5945
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "count": 856,
+        "pct": 9.631
       },
       "Familiar": {
-        "value": "Slime",
-        "count": 619,
-        "pct": 6.9644
+        "value": "Frog",
+        "count": 709,
+        "pct": 7.977
       }
     },
     "extra_layers": {
       "staff": "Gnarled Staff",
       "spell": "Sparks",
-      "familiar": "Slime",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "familiar": "Frog",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

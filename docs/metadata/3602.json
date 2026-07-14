@@ -68,11 +68,11 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Wooden Wand"
+      "value": "Fire Staff"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Fireball"
+      "value": "Floating Runes"
     },
     {
       "trait_type": "Familiar",
@@ -80,7 +80,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "5852/8878",
+    "rarity_rank": "880/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Wooden Wand",
-        "count": 1981,
-        "pct": 22.2885
+        "value": "Fire Staff",
+        "count": 437,
+        "pct": 4.9167
       },
       "Spell Effect": {
-        "value": "Fireball",
-        "count": 1204,
-        "pct": 13.5464
+        "value": "Floating Runes",
+        "count": 722,
+        "pct": 8.1233
       },
       "Familiar": {
         "value": "Black Cat",
-        "count": 916,
-        "pct": 10.306
+        "count": 487,
+        "pct": 5.4793
       }
     },
     "extra_layers": {
-      "staff": "Wooden Wand",
-      "spell": "Fireball",
+      "staff": "Fire Staff",
+      "spell": "Floating Runes",
       "familiar": "Black Cat",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

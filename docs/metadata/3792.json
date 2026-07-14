@@ -68,7 +68,7 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Timekeeper Staff"
+      "value": "None"
     },
     {
       "trait_type": "Spell Effect",
@@ -76,11 +76,11 @@
     },
     {
       "trait_type": "Familiar",
-      "value": "Owl"
+      "value": "Raven"
     },
     {
       "trait_type": "Rarity",
-      "value": "Epic"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "440/8878",
+    "rarity_rank": "1942/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Epic",
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Timekeeper Staff",
-        "count": 218,
-        "pct": 2.4527
+        "value": "None",
+        "count": 4606,
+        "pct": 51.8227
       },
       "Spell Effect": {
         "value": "Floating Runes",
-        "count": 1643,
-        "pct": 18.4856
+        "count": 722,
+        "pct": 8.1233
       },
       "Familiar": {
-        "value": "Owl",
-        "count": 771,
-        "pct": 8.6746
+        "value": "Raven",
+        "count": 603,
+        "pct": 6.7844
       }
     },
     "extra_layers": {
-      "staff": "Timekeeper Staff",
+      "staff": "None",
       "spell": "Floating Runes",
-      "familiar": "Owl",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "familiar": "Raven",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

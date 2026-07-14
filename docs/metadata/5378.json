@@ -68,15 +68,15 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Lightning Rod"
+      "value": "Worldbreaker Wand"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Summoning Circle"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
-      "value": "Black Cat"
+      "value": "Baby Dragon"
     },
     {
       "trait_type": "Rarity",
@@ -104,7 +104,7 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "572/8878",
+    "rarity_rank": "814/8878",
     "rarity_score": 0.0,
     "rarity_tier": "Rare",
     "max_supply": 8888,
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Lightning Rod",
-        "count": 827,
-        "pct": 9.3047
+        "value": "Worldbreaker Wand",
+        "count": 192,
+        "pct": 2.1602
       },
       "Spell Effect": {
-        "value": "Summoning Circle",
-        "count": 359,
-        "pct": 4.0392
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
-        "value": "Black Cat",
-        "count": 916,
-        "pct": 10.306
+        "value": "Baby Dragon",
+        "count": 388,
+        "pct": 4.3654
       }
     },
     "extra_layers": {
-      "staff": "Lightning Rod",
-      "spell": "Summoning Circle",
-      "familiar": "Black Cat",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Worldbreaker Wand",
+      "spell": "None",
+      "familiar": "Baby Dragon",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

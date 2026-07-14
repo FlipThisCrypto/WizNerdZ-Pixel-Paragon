@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Timekeeper Staff"
+      "value": "Bone Scepter"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Fireball"
+      "value": "Floating Runes"
     },
     {
       "trait_type": "Familiar",
-      "value": "Black Cat"
+      "value": "None"
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "803/8878",
+    "rarity_rank": "2076/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Rare",
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Timekeeper Staff",
-        "count": 218,
-        "pct": 2.4527
+        "value": "Bone Scepter",
+        "count": 307,
+        "pct": 3.4541
       },
       "Spell Effect": {
-        "value": "Fireball",
-        "count": 1204,
-        "pct": 13.5464
+        "value": "Floating Runes",
+        "count": 722,
+        "pct": 8.1233
       },
       "Familiar": {
-        "value": "Black Cat",
-        "count": 916,
-        "pct": 10.306
+        "value": "None",
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
-      "staff": "Timekeeper Staff",
-      "spell": "Fireball",
-      "familiar": "Black Cat",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Bone Scepter",
+      "spell": "Floating Runes",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

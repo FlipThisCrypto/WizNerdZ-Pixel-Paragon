@@ -72,15 +72,15 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Floating Runes"
+      "value": "Fireball"
     },
     {
       "trait_type": "Familiar",
-      "value": "Owl"
+      "value": "Frog"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "4896/8878",
+    "rarity_rank": "965/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Gnarled Staff",
-        "count": 1738,
-        "pct": 19.5545
+        "count": 675,
+        "pct": 7.5945
       },
       "Spell Effect": {
-        "value": "Floating Runes",
-        "count": 1643,
-        "pct": 18.4856
+        "value": "Fireball",
+        "count": 554,
+        "pct": 6.2331
       },
       "Familiar": {
-        "value": "Owl",
-        "count": 771,
-        "pct": 8.6746
+        "value": "Frog",
+        "count": 709,
+        "pct": 7.977
       }
     },
     "extra_layers": {
       "staff": "Gnarled Staff",
-      "spell": "Floating Runes",
-      "familiar": "Owl",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "spell": "Fireball",
+      "familiar": "Frog",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

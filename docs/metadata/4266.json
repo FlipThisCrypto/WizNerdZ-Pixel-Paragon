@@ -68,15 +68,15 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Gnarled Staff"
+      "value": "None"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Sparks"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
-      "value": "Baby Dragon"
+      "value": "Black Cat"
     },
     {
       "trait_type": "Rarity",
@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "6714/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "7234/8878",
+    "rarity_score": 1e-12,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Gnarled Staff",
-        "count": 1738,
-        "pct": 19.5545
+        "value": "None",
+        "count": 4606,
+        "pct": 51.8227
       },
       "Spell Effect": {
-        "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
-        "value": "Baby Dragon",
-        "count": 383,
-        "pct": 4.3092
+        "value": "Black Cat",
+        "count": 487,
+        "pct": 5.4793
       }
     },
     "extra_layers": {
-      "staff": "Gnarled Staff",
-      "spell": "Sparks",
-      "familiar": "Baby Dragon",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "None",
+      "spell": "None",
+      "familiar": "Black Cat",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

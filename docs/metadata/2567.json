@@ -68,7 +68,7 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Fire Staff"
+      "value": "Wooden Wand"
     },
     {
       "trait_type": "Spell Effect",
@@ -76,7 +76,7 @@
     },
     {
       "trait_type": "Familiar",
-      "value": "Frog"
+      "value": "None"
     },
     {
       "trait_type": "Rarity",
@@ -104,7 +104,7 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "563/8878",
+    "rarity_rank": "748/8878",
     "rarity_score": 0.0,
     "rarity_tier": "Rare",
     "max_supply": 8888,
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Fire Staff",
-        "count": 994,
-        "pct": 11.1836
+        "value": "Wooden Wand",
+        "count": 876,
+        "pct": 9.856
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "count": 856,
+        "pct": 9.631
       },
       "Familiar": {
-        "value": "Frog",
-        "count": 1436,
-        "pct": 16.1566
+        "value": "None",
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
-      "staff": "Fire Staff",
+      "staff": "Wooden Wand",
       "spell": "Sparks",
-      "familiar": "Frog",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Ice Staff"
+      "value": "Crystal Wand"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Floating Runes"
+      "value": "Reality Fracture"
     },
     {
       "trait_type": "Familiar",
-      "value": "Owl"
+      "value": "None"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3951/8878",
+    "rarity_rank": "1739/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Ice Staff",
-        "count": 950,
-        "pct": 10.6886
+        "value": "Crystal Wand",
+        "count": 516,
+        "pct": 5.8056
       },
       "Spell Effect": {
-        "value": "Floating Runes",
-        "count": 1643,
-        "pct": 18.4856
+        "value": "Reality Fracture",
+        "count": 218,
+        "pct": 2.4527
       },
       "Familiar": {
-        "value": "Owl",
-        "count": 771,
-        "pct": 8.6746
+        "value": "None",
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
-      "staff": "Ice Staff",
-      "spell": "Floating Runes",
-      "familiar": "Owl",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Crystal Wand",
+      "spell": "Reality Fracture",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

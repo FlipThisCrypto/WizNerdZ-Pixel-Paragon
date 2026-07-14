@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Wooden Wand"
+      "value": "Gnarled Staff"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Sparks"
+      "value": "Ice Shards"
     },
     {
       "trait_type": "Familiar",
-      "value": "Ghost"
+      "value": "Slime"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3837/8878",
+    "rarity_rank": "573/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Wooden Wand",
-        "count": 1981,
-        "pct": 22.2885
+        "value": "Gnarled Staff",
+        "count": 675,
+        "pct": 7.5945
       },
       "Spell Effect": {
-        "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "value": "Ice Shards",
+        "count": 480,
+        "pct": 5.4005
       },
       "Familiar": {
-        "value": "Ghost",
-        "count": 324,
-        "pct": 3.6454
+        "value": "Slime",
+        "count": 401,
+        "pct": 4.5117
       }
     },
     "extra_layers": {
-      "staff": "Wooden Wand",
-      "spell": "Sparks",
-      "familiar": "Ghost",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Gnarled Staff",
+      "spell": "Ice Shards",
+      "familiar": "Slime",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

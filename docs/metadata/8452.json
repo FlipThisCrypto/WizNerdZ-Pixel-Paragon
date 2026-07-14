@@ -72,7 +72,7 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Time Distortion"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
@@ -80,7 +80,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1288/8878",
+    "rarity_rank": "2677/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Rare",
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Fire Staff",
-        "count": 994,
-        "pct": 11.1836
+        "count": 437,
+        "pct": 4.9167
       },
       "Spell Effect": {
-        "value": "Time Distortion",
-        "count": 246,
-        "pct": 2.7678
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
         "value": "Frog",
-        "count": 1436,
-        "pct": 16.1566
+        "count": 709,
+        "pct": 7.977
       }
     },
     "extra_layers": {
       "staff": "Fire Staff",
-      "spell": "Time Distortion",
+      "spell": "None",
       "familiar": "Frog",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

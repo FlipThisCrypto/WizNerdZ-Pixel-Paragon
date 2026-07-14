@@ -68,11 +68,11 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Wooden Wand"
+      "value": "Bone Scepter"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Ice Shards"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
@@ -80,7 +80,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "576/8878",
+    "rarity_rank": "253/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Rare",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Wooden Wand",
-        "count": 1981,
-        "pct": 22.2885
+        "value": "Bone Scepter",
+        "count": 307,
+        "pct": 3.4541
       },
       "Spell Effect": {
-        "value": "Ice Shards",
-        "count": 1029,
-        "pct": 11.5774
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
         "value": "Frog",
-        "count": 1436,
-        "pct": 16.1566
+        "count": 709,
+        "pct": 7.977
       }
     },
     "extra_layers": {
-      "staff": "Wooden Wand",
-      "spell": "Ice Shards",
+      "staff": "Bone Scepter",
+      "spell": "None",
       "familiar": "Frog",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

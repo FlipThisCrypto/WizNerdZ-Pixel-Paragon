@@ -1,38 +1,41 @@
 {
   "staff": {
-    "Wooden Wand": 30,
-    "Gnarled Staff": 25,
-    "Crystal Wand": 18,
-    "Fire Staff": 14,
-    "Ice Staff": 14,
-    "Lightning Rod": 12,
+    "None": 120,
+    "Wooden Wand": 22,
+    "Gnarled Staff": 18,
+    "Crystal Wand": 14,
+    "Fire Staff": 12,
+    "Ice Staff": 12,
+    "Lightning Rod": 10,
     "Bone Scepter": 8,
-    "Dragon Staff": 5,
-    "Timekeeper Staff": 3,
-    "Worldbreaker Wand": 1
+    "Dragon Staff": 7,
+    "Timekeeper Staff": 6,
+    "Worldbreaker Wand": 5
   },
   "spell": {
-    "Sparks": 30,
-    "Floating Runes": 22,
-    "Fireball": 16,
-    "Ice Shards": 14,
-    "Lightning Arc": 12,
-    "Poison Mist": 10,
-    "Shadow Tendrils": 8,
-    "Summoning Circle": 5,
-    "Time Distortion": 3,
-    "Reality Fracture": 1
+    "None": 110,
+    "Sparks": 20,
+    "Floating Runes": 16,
+    "Fireball": 12,
+    "Ice Shards": 11,
+    "Lightning Arc": 10,
+    "Poison Mist": 9,
+    "Time Distortion": 6,
+    "Reality Fracture": 5
   },
   "familiar": {
-    "None": 40,
-    "Frog": 18,
-    "Raven": 15,
-    "Black Cat": 12,
-    "Owl": 10,
+    "None": 100,
+    "Frog": 14,
+    "Raven": 12,
+    "Black Cat": 10,
+    "Owl": 9,
     "Slime": 8,
-    "Baby Dragon": 5,
-    "Ghost": 4,
-    "Phoenix": 2,
-    "Miniature Cosmic Beast": 1
-  }
+    "Baby Dragon": 7,
+    "Ghost": 6,
+    "Phoenix": 5,
+    "Miniature Cosmic Beast": 4
+  },
+  "staff_right_margin": 8,
+  "staff_offset_y": 30,
+  "logo": "top-right 2x"
 }

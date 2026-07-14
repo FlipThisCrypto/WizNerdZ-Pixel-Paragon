@@ -72,11 +72,11 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Fireball"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
-      "value": "None"
+      "value": "Frog"
     },
     {
       "trait_type": "Rarity",
@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "8553/8878",
-    "rarity_score": 1e-12,
+    "rarity_rank": "4652/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Crystal Wand",
-        "count": 1200,
-        "pct": 13.5014
+        "count": 516,
+        "pct": 5.8056
       },
       "Spell Effect": {
-        "value": "Fireball",
-        "count": 1204,
-        "pct": 13.5464
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
-        "value": "None",
-        "count": 3087,
-        "pct": 34.7322
+        "value": "Frog",
+        "count": 709,
+        "pct": 7.977
       }
     },
     "extra_layers": {
       "staff": "Crystal Wand",
-      "spell": "Fireball",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "spell": "None",
+      "familiar": "Frog",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

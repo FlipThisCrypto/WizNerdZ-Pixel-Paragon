@@ -76,11 +76,11 @@
     },
     {
       "trait_type": "Familiar",
-      "value": "None"
+      "value": "Raven"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "7411/8878",
+    "rarity_rank": "853/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Crystal Wand",
-        "count": 1200,
-        "pct": 13.5014
+        "count": 516,
+        "pct": 5.8056
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "count": 856,
+        "pct": 9.631
       },
       "Familiar": {
-        "value": "None",
-        "count": 3087,
-        "pct": 34.7322
+        "value": "Raven",
+        "count": 603,
+        "pct": 6.7844
       }
     },
     "extra_layers": {
       "staff": "Crystal Wand",
       "spell": "Sparks",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "familiar": "Raven",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

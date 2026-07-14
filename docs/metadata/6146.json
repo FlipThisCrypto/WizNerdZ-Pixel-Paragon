@@ -72,15 +72,15 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Bone Scepter"
+      "value": "Lightning Rod"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Poison Mist"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
-      "value": "Black Cat"
+      "value": "None"
     },
     {
       "trait_type": "Rarity",
@@ -107,10 +107,12 @@
     "rarity_tier": "1 of 1",
     "rarity_weighted": false,
     "extra_layers": {
-      "staff": "Bone Scepter",
-      "spell": "Poison Mist",
-      "familiar": "Black Cat",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Lightning Rod",
+      "spell": "None",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

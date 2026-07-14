@@ -76,11 +76,11 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Ice Shards"
+      "value": "Fireball"
     },
     {
       "trait_type": "Familiar",
-      "value": "Black Cat"
+      "value": "Phoenix"
     },
     {
       "trait_type": "Rarity",
@@ -108,9 +108,11 @@
     "rarity_weighted": false,
     "extra_layers": {
       "staff": "Wooden Wand",
-      "spell": "Ice Shards",
-      "familiar": "Black Cat",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "spell": "Fireball",
+      "familiar": "Phoenix",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

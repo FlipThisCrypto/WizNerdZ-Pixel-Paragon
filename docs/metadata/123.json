@@ -68,11 +68,11 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Ice Staff"
+      "value": "Gnarled Staff"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Summoning Circle"
+      "value": "Reality Fracture"
     },
     {
       "trait_type": "Familiar",
@@ -80,7 +80,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "862/8878",
+    "rarity_rank": "203/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Rare",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Ice Staff",
-        "count": 950,
-        "pct": 10.6886
+        "value": "Gnarled Staff",
+        "count": 675,
+        "pct": 7.5945
       },
       "Spell Effect": {
-        "value": "Summoning Circle",
-        "count": 359,
-        "pct": 4.0392
+        "value": "Reality Fracture",
+        "count": 218,
+        "pct": 2.4527
       },
       "Familiar": {
         "value": "Frog",
-        "count": 1436,
-        "pct": 16.1566
+        "count": 709,
+        "pct": 7.977
       }
     },
     "extra_layers": {
-      "staff": "Ice Staff",
-      "spell": "Summoning Circle",
+      "staff": "Gnarled Staff",
+      "spell": "Reality Fracture",
       "familiar": "Frog",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

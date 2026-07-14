@@ -72,15 +72,15 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Poison Mist"
+      "value": "Ice Shards"
     },
     {
       "trait_type": "Familiar",
-      "value": "Frog"
+      "value": "Baby Dragon"
     },
     {
       "trait_type": "Rarity",
-      "value": "Epic"
+      "value": "Legendary"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "438/8878",
+    "rarity_rank": "26/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Epic",
+    "rarity_tier": "Legendary",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Fire Staff",
-        "count": 994,
-        "pct": 11.1836
+        "count": 437,
+        "pct": 4.9167
       },
       "Spell Effect": {
-        "value": "Poison Mist",
-        "count": 721,
-        "pct": 8.1121
+        "value": "Ice Shards",
+        "count": 480,
+        "pct": 5.4005
       },
       "Familiar": {
-        "value": "Frog",
-        "count": 1436,
-        "pct": 16.1566
+        "value": "Baby Dragon",
+        "count": 388,
+        "pct": 4.3654
       }
     },
     "extra_layers": {
       "staff": "Fire Staff",
-      "spell": "Poison Mist",
-      "familiar": "Frog",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "spell": "Ice Shards",
+      "familiar": "Baby Dragon",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

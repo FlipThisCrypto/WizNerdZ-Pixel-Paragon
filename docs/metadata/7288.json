@@ -68,7 +68,7 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Ice Staff"
+      "value": "None"
     },
     {
       "trait_type": "Spell Effect",
@@ -76,7 +76,7 @@
     },
     {
       "trait_type": "Familiar",
-      "value": "None"
+      "value": "Black Cat"
     },
     {
       "trait_type": "Rarity",
@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "8728/8878",
-    "rarity_score": 1e-12,
+    "rarity_rank": "4689/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Ice Staff",
-        "count": 950,
-        "pct": 10.6886
+        "value": "None",
+        "count": 4606,
+        "pct": 51.8227
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "count": 856,
+        "pct": 9.631
       },
       "Familiar": {
-        "value": "None",
-        "count": 3087,
-        "pct": 34.7322
+        "value": "Black Cat",
+        "count": 487,
+        "pct": 5.4793
       }
     },
     "extra_layers": {
-      "staff": "Ice Staff",
+      "staff": "None",
       "spell": "Sparks",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "familiar": "Black Cat",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

@@ -68,15 +68,15 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Fire Staff"
+      "value": "Timekeeper Staff"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Reality Fracture"
+      "value": "Poison Mist"
     },
     {
       "trait_type": "Familiar",
-      "value": "Baby Dragon"
+      "value": "Black Cat"
     },
     {
       "trait_type": "Rarity",
@@ -104,7 +104,7 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "173/8878",
+    "rarity_rank": "406/8878",
     "rarity_score": 0.0,
     "rarity_tier": "Epic",
     "max_supply": 8888,
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Fire Staff",
-        "count": 994,
-        "pct": 11.1836
+        "value": "Timekeeper Staff",
+        "count": 221,
+        "pct": 2.4865
       },
       "Spell Effect": {
-        "value": "Reality Fracture",
-        "count": 64,
-        "pct": 0.7201
+        "value": "Poison Mist",
+        "count": 388,
+        "pct": 4.3654
       },
       "Familiar": {
-        "value": "Baby Dragon",
-        "count": 383,
-        "pct": 4.3092
+        "value": "Black Cat",
+        "count": 487,
+        "pct": 5.4793
       }
     },
     "extra_layers": {
-      "staff": "Fire Staff",
-      "spell": "Reality Fracture",
-      "familiar": "Baby Dragon",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Timekeeper Staff",
+      "spell": "Poison Mist",
+      "familiar": "Black Cat",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

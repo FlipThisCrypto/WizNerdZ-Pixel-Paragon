@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Fire Staff"
+      "value": "Dragon Staff"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Lightning Arc"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
-      "value": "Raven"
+      "value": "Miniature Cosmic Beast"
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3050/8878",
+    "rarity_rank": "946/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Fire Staff",
-        "count": 994,
-        "pct": 11.1836
+        "value": "Dragon Staff",
+        "count": 244,
+        "pct": 2.7453
       },
       "Spell Effect": {
-        "value": "Lightning Arc",
-        "count": 868,
-        "pct": 9.766
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
-        "value": "Raven",
-        "count": 1116,
-        "pct": 12.5563
+        "value": "Miniature Cosmic Beast",
+        "count": 199,
+        "pct": 2.239
       }
     },
     "extra_layers": {
-      "staff": "Fire Staff",
-      "spell": "Lightning Arc",
-      "familiar": "Raven",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Dragon Staff",
+      "spell": "None",
+      "familiar": "Miniature Cosmic Beast",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

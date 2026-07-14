@@ -72,15 +72,15 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Ice Shards"
+      "value": "Floating Runes"
     },
     {
       "trait_type": "Familiar",
-      "value": "Baby Dragon"
+      "value": "None"
     },
     {
       "trait_type": "Rarity",
-      "value": "Epic"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "435/8878",
+    "rarity_rank": "1267/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Epic",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Gnarled Staff",
-        "count": 1738,
-        "pct": 19.5545
+        "count": 675,
+        "pct": 7.5945
       },
       "Spell Effect": {
-        "value": "Ice Shards",
-        "count": 1029,
-        "pct": 11.5774
+        "value": "Floating Runes",
+        "count": 722,
+        "pct": 8.1233
       },
       "Familiar": {
-        "value": "Baby Dragon",
-        "count": 383,
-        "pct": 4.3092
+        "value": "None",
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
       "staff": "Gnarled Staff",
-      "spell": "Ice Shards",
-      "familiar": "Baby Dragon",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "spell": "Floating Runes",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

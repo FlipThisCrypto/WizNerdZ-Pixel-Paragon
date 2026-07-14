@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Gnarled Staff"
+      "value": "Worldbreaker Wand"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Ice Shards"
-    },
-    {
-      "trait_type": "Familiar",
       "value": "None"
     },
     {
+      "trait_type": "Familiar",
+      "value": "Baby Dragon"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "6186/8878",
+    "rarity_rank": "933/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Gnarled Staff",
-        "count": 1738,
-        "pct": 19.5545
+        "value": "Worldbreaker Wand",
+        "count": 192,
+        "pct": 2.1602
       },
       "Spell Effect": {
-        "value": "Ice Shards",
-        "count": 1029,
-        "pct": 11.5774
+        "value": "None",
+        "count": 4944,
+        "pct": 55.6256
       },
       "Familiar": {
-        "value": "None",
-        "count": 3087,
-        "pct": 34.7322
+        "value": "Baby Dragon",
+        "count": 388,
+        "pct": 4.3654
       }
     },
     "extra_layers": {
-      "staff": "Gnarled Staff",
-      "spell": "Ice Shards",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Worldbreaker Wand",
+      "spell": "None",
+      "familiar": "Baby Dragon",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

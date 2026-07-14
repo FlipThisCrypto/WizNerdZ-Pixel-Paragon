@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Worldbreaker Wand"
+      "value": "Crystal Wand"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Floating Runes"
+      "value": "Time Distortion"
     },
     {
       "trait_type": "Familiar",
-      "value": "Raven"
+      "value": "Baby Dragon"
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "806/8878",
+    "rarity_rank": "391/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Rare",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Worldbreaker Wand",
-        "count": 69,
-        "pct": 0.7763
+        "value": "Crystal Wand",
+        "count": 516,
+        "pct": 5.8056
       },
       "Spell Effect": {
-        "value": "Floating Runes",
-        "count": 1643,
-        "pct": 18.4856
+        "value": "Time Distortion",
+        "count": 263,
+        "pct": 2.959
       },
       "Familiar": {
-        "value": "Raven",
-        "count": 1116,
-        "pct": 12.5563
+        "value": "Baby Dragon",
+        "count": 388,
+        "pct": 4.3654
       }
     },
     "extra_layers": {
-      "staff": "Worldbreaker Wand",
-      "spell": "Floating Runes",
-      "familiar": "Raven",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Crystal Wand",
+      "spell": "Time Distortion",
+      "familiar": "Baby Dragon",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

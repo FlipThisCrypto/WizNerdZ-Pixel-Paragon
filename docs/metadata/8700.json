@@ -76,11 +76,11 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Wooden Wand"
+      "value": "Bone Scepter"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Floating Runes"
+      "value": "None"
     },
     {
       "trait_type": "Familiar",
@@ -111,10 +111,12 @@
     "rarity_tier": "1 of 1",
     "rarity_weighted": false,
     "extra_layers": {
-      "staff": "Wooden Wand",
-      "spell": "Floating Runes",
+      "staff": "Bone Scepter",
+      "spell": "None",
       "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

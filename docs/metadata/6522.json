@@ -68,7 +68,7 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Ice Staff"
+      "value": "Timekeeper Staff"
     },
     {
       "trait_type": "Spell Effect",
@@ -76,11 +76,11 @@
     },
     {
       "trait_type": "Familiar",
-      "value": "Phoenix"
+      "value": "Miniature Cosmic Beast"
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1079/8878",
+    "rarity_rank": "143/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Rare",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Ice Staff",
-        "count": 950,
-        "pct": 10.6886
+        "value": "Timekeeper Staff",
+        "count": 221,
+        "pct": 2.4865
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "count": 856,
+        "pct": 9.631
       },
       "Familiar": {
-        "value": "Phoenix",
-        "count": 145,
-        "pct": 1.6314
+        "value": "Miniature Cosmic Beast",
+        "count": 199,
+        "pct": 2.239
       }
     },
     "extra_layers": {
-      "staff": "Ice Staff",
+      "staff": "Timekeeper Staff",
       "spell": "Sparks",
-      "familiar": "Phoenix",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "familiar": "Miniature Cosmic Beast",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

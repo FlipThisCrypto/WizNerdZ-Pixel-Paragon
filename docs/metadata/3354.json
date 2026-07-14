@@ -68,7 +68,7 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Crystal Wand"
+      "value": "Timekeeper Staff"
     },
     {
       "trait_type": "Spell Effect",
@@ -76,11 +76,11 @@
     },
     {
       "trait_type": "Familiar",
-      "value": "Raven"
+      "value": "Slime"
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3076/8878",
+    "rarity_rank": "131/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Crystal Wand",
-        "count": 1200,
-        "pct": 13.5014
+        "value": "Timekeeper Staff",
+        "count": 221,
+        "pct": 2.4865
       },
       "Spell Effect": {
         "value": "Fireball",
-        "count": 1204,
-        "pct": 13.5464
+        "count": 554,
+        "pct": 6.2331
       },
       "Familiar": {
-        "value": "Raven",
-        "count": 1116,
-        "pct": 12.5563
+        "value": "Slime",
+        "count": 401,
+        "pct": 4.5117
       }
     },
     "extra_layers": {
-      "staff": "Crystal Wand",
+      "staff": "Timekeeper Staff",
       "spell": "Fireball",
-      "familiar": "Raven",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "familiar": "Slime",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

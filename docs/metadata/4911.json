@@ -68,11 +68,11 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Worldbreaker Wand"
+      "value": "Crystal Wand"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Sparks"
+      "value": "Floating Runes"
     },
     {
       "trait_type": "Familiar",
@@ -104,7 +104,7 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1266/8878",
+    "rarity_rank": "1303/8878",
     "rarity_score": 0.0,
     "rarity_tier": "Rare",
     "max_supply": 8888,
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Worldbreaker Wand",
-        "count": 69,
-        "pct": 0.7763
+        "value": "Crystal Wand",
+        "count": 516,
+        "pct": 5.8056
       },
       "Spell Effect": {
-        "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "value": "Floating Runes",
+        "count": 722,
+        "pct": 8.1233
       },
       "Familiar": {
         "value": "Black Cat",
-        "count": 916,
-        "pct": 10.306
+        "count": 487,
+        "pct": 5.4793
       }
     },
     "extra_layers": {
-      "staff": "Worldbreaker Wand",
-      "spell": "Sparks",
+      "staff": "Crystal Wand",
+      "spell": "Floating Runes",
       "familiar": "Black Cat",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

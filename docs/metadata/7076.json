@@ -68,7 +68,7 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Bone Scepter"
+      "value": "None"
     },
     {
       "trait_type": "Spell Effect",
@@ -76,11 +76,11 @@
     },
     {
       "trait_type": "Familiar",
-      "value": "Raven"
+      "value": "Phoenix"
     },
     {
       "trait_type": "Rarity",
-      "value": "Epic"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "144/8878",
+    "rarity_rank": "1059/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Epic",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Bone Scepter",
-        "count": 566,
-        "pct": 6.3681
+        "value": "None",
+        "count": 4606,
+        "pct": 51.8227
       },
       "Spell Effect": {
         "value": "Reality Fracture",
-        "count": 64,
-        "pct": 0.7201
+        "count": 218,
+        "pct": 2.4527
       },
       "Familiar": {
-        "value": "Raven",
-        "count": 1116,
-        "pct": 12.5563
+        "value": "Phoenix",
+        "count": 265,
+        "pct": 2.9815
       }
     },
     "extra_layers": {
-      "staff": "Bone Scepter",
+      "staff": "None",
       "spell": "Reality Fracture",
-      "familiar": "Raven",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "familiar": "Phoenix",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

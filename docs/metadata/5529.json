@@ -68,11 +68,11 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Wooden Wand"
+      "value": "None"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Summoning Circle"
+      "value": "Ice Shards"
     },
     {
       "trait_type": "Familiar",
@@ -104,7 +104,7 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2881/8878",
+    "rarity_rank": "3069/8878",
     "rarity_score": 0.0,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Wooden Wand",
-        "count": 1981,
-        "pct": 22.2885
+        "value": "None",
+        "count": 4606,
+        "pct": 51.8227
       },
       "Spell Effect": {
-        "value": "Summoning Circle",
-        "count": 359,
-        "pct": 4.0392
+        "value": "Ice Shards",
+        "count": 480,
+        "pct": 5.4005
       },
       "Familiar": {
         "value": "Slime",
-        "count": 619,
-        "pct": 6.9644
+        "count": 401,
+        "pct": 4.5117
       }
     },
     "extra_layers": {
-      "staff": "Wooden Wand",
-      "spell": "Summoning Circle",
+      "staff": "None",
+      "spell": "Ice Shards",
       "familiar": "Slime",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

@@ -68,19 +68,19 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Worldbreaker Wand"
+      "value": "Lightning Rod"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Summoning Circle"
+      "value": "Time Distortion"
     },
     {
       "trait_type": "Familiar",
-      "value": "Miniature Cosmic Beast"
+      "value": "None"
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "7/8878",
+    "rarity_rank": "2280/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Legendary",
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Worldbreaker Wand",
-        "count": 69,
-        "pct": 0.7763
+        "value": "Lightning Rod",
+        "count": 354,
+        "pct": 3.9829
       },
       "Spell Effect": {
-        "value": "Summoning Circle",
-        "count": 359,
-        "pct": 4.0392
+        "value": "Time Distortion",
+        "count": 263,
+        "pct": 2.959
       },
       "Familiar": {
-        "value": "Miniature Cosmic Beast",
-        "count": 91,
-        "pct": 1.0239
+        "value": "None",
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
-      "staff": "Worldbreaker Wand",
-      "spell": "Summoning Circle",
-      "familiar": "Miniature Cosmic Beast",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "staff": "Lightning Rod",
+      "spell": "Time Distortion",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

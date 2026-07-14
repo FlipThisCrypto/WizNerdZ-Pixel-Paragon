@@ -68,11 +68,11 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Fire Staff"
+      "value": "Bone Scepter"
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Reality Fracture"
+      "value": "Fireball"
     },
     {
       "trait_type": "Familiar",
@@ -104,7 +104,7 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "153/8878",
+    "rarity_rank": "366/8878",
     "rarity_score": 0.0,
     "rarity_tier": "Epic",
     "max_supply": 8888,
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Fire Staff",
-        "count": 994,
-        "pct": 11.1836
+        "value": "Bone Scepter",
+        "count": 307,
+        "pct": 3.4541
       },
       "Spell Effect": {
-        "value": "Reality Fracture",
-        "count": 64,
-        "pct": 0.7201
+        "value": "Fireball",
+        "count": 554,
+        "pct": 6.2331
       },
       "Familiar": {
         "value": "Owl",
-        "count": 771,
-        "pct": 8.6746
+        "count": 488,
+        "pct": 5.4905
       }
     },
     "extra_layers": {
-      "staff": "Fire Staff",
-      "spell": "Reality Fracture",
+      "staff": "Bone Scepter",
+      "spell": "Fireball",
       "familiar": "Owl",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

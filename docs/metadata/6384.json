@@ -68,7 +68,7 @@
     },
     {
       "trait_type": "Staff",
-      "value": "Ice Staff"
+      "value": "None"
     },
     {
       "trait_type": "Spell Effect",
@@ -76,11 +76,11 @@
     },
     {
       "trait_type": "Familiar",
-      "value": "Ghost"
+      "value": "None"
     },
     {
       "trait_type": "Rarity",
-      "value": "Epic"
+      "value": "Common"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 2,
       "wizard hat": 10
     },
-    "rarity_rank": "378/8878",
+    "rarity_rank": "3709/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Epic",
+    "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -165,26 +165,28 @@
         "pct": 99.8875
       },
       "Staff": {
-        "value": "Ice Staff",
-        "count": 950,
-        "pct": 10.6886
+        "value": "None",
+        "count": 4606,
+        "pct": 51.8227
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 2173,
-        "pct": 24.4487
+        "count": 856,
+        "pct": 9.631
       },
       "Familiar": {
-        "value": "Ghost",
-        "count": 324,
-        "pct": 3.6454
+        "value": "None",
+        "count": 5041,
+        "pct": 56.7169
       }
     },
     "extra_layers": {
-      "staff": "Ice Staff",
+      "staff": "None",
       "spell": "Sparks",
-      "familiar": "Ghost",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }

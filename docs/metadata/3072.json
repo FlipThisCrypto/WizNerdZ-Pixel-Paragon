@@ -76,11 +76,11 @@
     },
     {
       "trait_type": "Familiar",
-      "value": "Black Cat"
+      "value": "Slime"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "4447/8878",
+    "rarity_rank": "645/8878",
     "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -166,25 +166,27 @@
       },
       "Staff": {
         "value": "Crystal Wand",
-        "count": 1200,
-        "pct": 13.5014
+        "count": 516,
+        "pct": 5.8056
       },
       "Spell Effect": {
         "value": "Floating Runes",
-        "count": 1643,
-        "pct": 18.4856
+        "count": 722,
+        "pct": 8.1233
       },
       "Familiar": {
-        "value": "Black Cat",
-        "count": 916,
-        "pct": 10.306
+        "value": "Slime",
+        "count": 401,
+        "pct": 4.5117
       }
     },
     "extra_layers": {
       "staff": "Crystal Wand",
       "spell": "Floating Runes",
-      "familiar": "Black Cat",
-      "logo": "WizNerdZ Pixel Paragon 2x"
+      "familiar": "Slime",
+      "logo": "WizNerdZ Pixel Paragon 2x top-right",
+      "staff_right_margin": 8,
+      "staff_offset_y": 30
     }
   }
 }
