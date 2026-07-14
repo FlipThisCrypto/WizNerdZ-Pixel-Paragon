@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Bone Scepter"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Floating Runes"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Ghost"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "4036/8878",
-    "rarity_score": 2.5e-11,
-    "rarity_tier": "Common",
+    "rarity_rank": "1176/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Bone Scepter",
+        "count": 566,
+        "pct": 6.3681
+      },
+      "Spell Effect": {
+        "value": "Floating Runes",
+        "count": 1643,
+        "pct": 18.4856
+      },
+      "Familiar": {
+        "value": "Ghost",
+        "count": 324,
+        "pct": 3.6454
       }
+    },
+    "extra_layers": {
+      "staff": "Bone Scepter",
+      "spell": "Floating Runes",
+      "familiar": "Ghost",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

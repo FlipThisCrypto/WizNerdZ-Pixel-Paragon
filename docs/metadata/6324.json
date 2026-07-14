@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Timekeeper Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Ice Shards"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "None"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1733/8878",
-    "rarity_score": 1.2e-11,
-    "rarity_tier": "Uncommon",
+    "rarity_rank": "1300/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Timekeeper Staff",
+        "count": 218,
+        "pct": 2.4527
+      },
+      "Spell Effect": {
+        "value": "Ice Shards",
+        "count": 1029,
+        "pct": 11.5774
+      },
+      "Familiar": {
+        "value": "None",
+        "count": 3087,
+        "pct": 34.7322
       }
+    },
+    "extra_layers": {
+      "staff": "Timekeeper Staff",
+      "spell": "Ice Shards",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

@@ -67,6 +67,18 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Gnarled Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Poison Mist"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Slime"
+    },
+    {
       "trait_type": "Rarity",
       "value": "Rare"
     }
@@ -92,8 +104,8 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "1053/8878",
-    "rarity_score": 7e-12,
+    "rarity_rank": "896/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Gnarled Staff",
+        "count": 1738,
+        "pct": 19.5545
+      },
+      "Spell Effect": {
+        "value": "Poison Mist",
+        "count": 721,
+        "pct": 8.1121
+      },
+      "Familiar": {
+        "value": "Slime",
+        "count": 619,
+        "pct": 6.9644
       }
+    },
+    "extra_layers": {
+      "staff": "Gnarled Staff",
+      "spell": "Poison Mist",
+      "familiar": "Slime",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

@@ -67,6 +67,18 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Bone Scepter"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Ice Shards"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Raven"
+    },
+    {
       "trait_type": "Rarity",
       "value": "Epic"
     }
@@ -92,8 +104,8 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "135/8878",
-    "rarity_score": 2e-12,
+    "rarity_rank": "154/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Bone Scepter",
+        "count": 566,
+        "pct": 6.3681
+      },
+      "Spell Effect": {
+        "value": "Ice Shards",
+        "count": 1029,
+        "pct": 11.5774
+      },
+      "Familiar": {
+        "value": "Raven",
+        "count": 1116,
+        "pct": 12.5563
       }
+    },
+    "extra_layers": {
+      "staff": "Bone Scepter",
+      "spell": "Ice Shards",
+      "familiar": "Raven",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

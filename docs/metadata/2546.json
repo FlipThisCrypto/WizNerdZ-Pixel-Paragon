@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Gnarled Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Shadow Tendrils"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Baby Dragon"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "4867/8878",
-    "rarity_score": 3.1e-11,
-    "rarity_tier": "Common",
+    "rarity_rank": "1758/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Gnarled Staff",
+        "count": 1738,
+        "pct": 19.5545
+      },
+      "Spell Effect": {
+        "value": "Shadow Tendrils",
+        "count": 581,
+        "pct": 6.5369
+      },
+      "Familiar": {
+        "value": "Baby Dragon",
+        "count": 383,
+        "pct": 4.3092
       }
+    },
+    "extra_layers": {
+      "staff": "Gnarled Staff",
+      "spell": "Shadow Tendrils",
+      "familiar": "Baby Dragon",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

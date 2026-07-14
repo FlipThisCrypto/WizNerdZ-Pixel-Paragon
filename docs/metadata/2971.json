@@ -67,6 +67,18 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Gnarled Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Sparks"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "None"
+    },
+    {
       "trait_type": "Rarity",
       "value": "Common"
     }
@@ -92,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "4245/8878",
-    "rarity_score": 2.6e-11,
+    "rarity_rank": "8355/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Gnarled Staff",
+        "count": 1738,
+        "pct": 19.5545
+      },
+      "Spell Effect": {
+        "value": "Sparks",
+        "count": 2173,
+        "pct": 24.4487
+      },
+      "Familiar": {
+        "value": "None",
+        "count": 3087,
+        "pct": 34.7322
       }
+    },
+    "extra_layers": {
+      "staff": "Gnarled Staff",
+      "spell": "Sparks",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

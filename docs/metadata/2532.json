@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Crystal Wand"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Reality Fracture"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Frog"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3487/8878",
-    "rarity_score": 2.2e-11,
-    "rarity_tier": "Uncommon",
+    "rarity_rank": "380/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Crystal Wand",
+        "count": 1200,
+        "pct": 13.5014
+      },
+      "Spell Effect": {
+        "value": "Reality Fracture",
+        "count": 64,
+        "pct": 0.7201
+      },
+      "Familiar": {
+        "value": "Frog",
+        "count": 1436,
+        "pct": 16.1566
       }
+    },
+    "extra_layers": {
+      "staff": "Crystal Wand",
+      "spell": "Reality Fracture",
+      "familiar": "Frog",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

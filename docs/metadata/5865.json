@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Ice Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Sparks"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Frog"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Common"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2519/8878",
-    "rarity_score": 1.7e-11,
-    "rarity_tier": "Uncommon",
+    "rarity_rank": "4674/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Ice Staff",
+        "count": 950,
+        "pct": 10.6886
+      },
+      "Spell Effect": {
+        "value": "Sparks",
+        "count": 2173,
+        "pct": 24.4487
+      },
+      "Familiar": {
+        "value": "Frog",
+        "count": 1436,
+        "pct": 16.1566
       }
+    },
+    "extra_layers": {
+      "staff": "Ice Staff",
+      "spell": "Sparks",
+      "familiar": "Frog",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

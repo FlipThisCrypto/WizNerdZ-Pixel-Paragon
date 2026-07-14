@@ -67,6 +67,18 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Timekeeper Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Fireball"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "None"
+    },
+    {
       "trait_type": "Rarity",
       "value": "Common"
     }
@@ -92,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "7384/8878",
-    "rarity_score": 5.4e-11,
+    "rarity_rank": "4363/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Timekeeper Staff",
+        "count": 218,
+        "pct": 2.4527
+      },
+      "Spell Effect": {
+        "value": "Fireball",
+        "count": 1204,
+        "pct": 13.5464
+      },
+      "Familiar": {
+        "value": "None",
+        "count": 3087,
+        "pct": 34.7322
       }
+    },
+    "extra_layers": {
+      "staff": "Timekeeper Staff",
+      "spell": "Fireball",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

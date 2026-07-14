@@ -67,6 +67,18 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Ice Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Lightning Arc"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Owl"
+    },
+    {
       "trait_type": "Rarity",
       "value": "Common"
     }
@@ -92,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "7927/8878",
-    "rarity_score": 6.2e-11,
+    "rarity_rank": "4122/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Ice Staff",
+        "count": 950,
+        "pct": 10.6886
+      },
+      "Spell Effect": {
+        "value": "Lightning Arc",
+        "count": 868,
+        "pct": 9.766
+      },
+      "Familiar": {
+        "value": "Owl",
+        "count": 771,
+        "pct": 8.6746
       }
+    },
+    "extra_layers": {
+      "staff": "Ice Staff",
+      "spell": "Lightning Arc",
+      "familiar": "Owl",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

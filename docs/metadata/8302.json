@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Worldbreaker Wand"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Time Distortion"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Frog"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "8028/8878",
-    "rarity_score": 6.5e-11,
-    "rarity_tier": "Common",
+    "rarity_rank": "231/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Worldbreaker Wand",
+        "count": 69,
+        "pct": 0.7763
+      },
+      "Spell Effect": {
+        "value": "Time Distortion",
+        "count": 246,
+        "pct": 2.7678
+      },
+      "Familiar": {
+        "value": "Frog",
+        "count": 1436,
+        "pct": 16.1566
       }
+    },
+    "extra_layers": {
+      "staff": "Worldbreaker Wand",
+      "spell": "Time Distortion",
+      "familiar": "Frog",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

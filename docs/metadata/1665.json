@@ -67,6 +67,18 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Lightning Rod"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Poison Mist"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Raven"
+    },
+    {
       "trait_type": "Rarity",
       "value": "Uncommon"
     }
@@ -92,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2350/8878",
-    "rarity_score": 1.6e-11,
+    "rarity_rank": "1589/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Lightning Rod",
+        "count": 827,
+        "pct": 9.3047
+      },
+      "Spell Effect": {
+        "value": "Poison Mist",
+        "count": 721,
+        "pct": 8.1121
+      },
+      "Familiar": {
+        "value": "Raven",
+        "count": 1116,
+        "pct": 12.5563
       }
+    },
+    "extra_layers": {
+      "staff": "Lightning Rod",
+      "spell": "Poison Mist",
+      "familiar": "Raven",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

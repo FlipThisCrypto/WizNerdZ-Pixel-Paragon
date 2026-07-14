@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Gnarled Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Reality Fracture"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Raven"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "8810/8878",
-    "rarity_score": 1.13e-10,
-    "rarity_tier": "Common",
+    "rarity_rank": "2021/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Gnarled Staff",
+        "count": 1738,
+        "pct": 19.5545
+      },
+      "Spell Effect": {
+        "value": "Reality Fracture",
+        "count": 64,
+        "pct": 0.7201
+      },
+      "Familiar": {
+        "value": "Raven",
+        "count": 1116,
+        "pct": 12.5563
       }
+    },
+    "extra_layers": {
+      "staff": "Gnarled Staff",
+      "spell": "Reality Fracture",
+      "familiar": "Raven",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

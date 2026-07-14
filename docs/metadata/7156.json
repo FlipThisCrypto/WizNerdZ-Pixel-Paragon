@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Gnarled Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Lightning Arc"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "None"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Common"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1573/8878",
-    "rarity_score": 1.1e-11,
-    "rarity_tier": "Uncommon",
+    "rarity_rank": "4792/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Gnarled Staff",
+        "count": 1738,
+        "pct": 19.5545
+      },
+      "Spell Effect": {
+        "value": "Lightning Arc",
+        "count": 868,
+        "pct": 9.766
+      },
+      "Familiar": {
+        "value": "None",
+        "count": 3087,
+        "pct": 34.7322
       }
+    },
+    "extra_layers": {
+      "staff": "Gnarled Staff",
+      "spell": "Lightning Arc",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

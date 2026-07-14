@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Wooden Wand"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Summoning Circle"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Black Cat"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "518/8878",
-    "rarity_score": 4e-12,
-    "rarity_tier": "Rare",
+    "rarity_rank": "399/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Wooden Wand",
+        "count": 1981,
+        "pct": 22.2885
+      },
+      "Spell Effect": {
+        "value": "Summoning Circle",
+        "count": 359,
+        "pct": 4.0392
+      },
+      "Familiar": {
+        "value": "Black Cat",
+        "count": 916,
+        "pct": 10.306
       }
+    },
+    "extra_layers": {
+      "staff": "Wooden Wand",
+      "spell": "Summoning Circle",
+      "familiar": "Black Cat",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Worldbreaker Wand"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Floating Runes"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Ghost"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Legendary"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2092/8878",
-    "rarity_score": 1.4e-11,
-    "rarity_tier": "Uncommon",
+    "rarity_rank": "57/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Legendary",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Worldbreaker Wand",
+        "count": 69,
+        "pct": 0.7763
+      },
+      "Spell Effect": {
+        "value": "Floating Runes",
+        "count": 1643,
+        "pct": 18.4856
+      },
+      "Familiar": {
+        "value": "Ghost",
+        "count": 324,
+        "pct": 3.6454
       }
+    },
+    "extra_layers": {
+      "staff": "Worldbreaker Wand",
+      "spell": "Floating Runes",
+      "familiar": "Ghost",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

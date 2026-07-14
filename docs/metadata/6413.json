@@ -67,6 +67,18 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Wooden Wand"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Floating Runes"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Raven"
+    },
+    {
       "trait_type": "Rarity",
       "value": "Common"
     }
@@ -92,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "6623/8878",
-    "rarity_score": 4.5e-11,
+    "rarity_rank": "7437/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Wooden Wand",
+        "count": 1981,
+        "pct": 22.2885
+      },
+      "Spell Effect": {
+        "value": "Floating Runes",
+        "count": 1643,
+        "pct": 18.4856
+      },
+      "Familiar": {
+        "value": "Raven",
+        "count": 1116,
+        "pct": 12.5563
       }
+    },
+    "extra_layers": {
+      "staff": "Wooden Wand",
+      "spell": "Floating Runes",
+      "familiar": "Raven",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

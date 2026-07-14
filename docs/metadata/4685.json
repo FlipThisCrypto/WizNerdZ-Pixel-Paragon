@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Ice Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Lightning Arc"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Black Cat"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "6050/8878",
-    "rarity_score": 4e-11,
-    "rarity_tier": "Common",
+    "rarity_rank": "3444/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Ice Staff",
+        "count": 950,
+        "pct": 10.6886
+      },
+      "Spell Effect": {
+        "value": "Lightning Arc",
+        "count": 868,
+        "pct": 9.766
+      },
+      "Familiar": {
+        "value": "Black Cat",
+        "count": 916,
+        "pct": 10.306
       }
+    },
+    "extra_layers": {
+      "staff": "Ice Staff",
+      "spell": "Lightning Arc",
+      "familiar": "Black Cat",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

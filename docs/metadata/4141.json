@@ -67,6 +67,18 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Fire Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Shadow Tendrils"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "None"
+    },
+    {
       "trait_type": "Rarity",
       "value": "Uncommon"
     }
@@ -92,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1401/8878",
-    "rarity_score": 1e-11,
+    "rarity_rank": "2387/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Fire Staff",
+        "count": 994,
+        "pct": 11.1836
+      },
+      "Spell Effect": {
+        "value": "Shadow Tendrils",
+        "count": 581,
+        "pct": 6.5369
+      },
+      "Familiar": {
+        "value": "None",
+        "count": 3087,
+        "pct": 34.7322
       }
+    },
+    "extra_layers": {
+      "staff": "Fire Staff",
+      "spell": "Shadow Tendrils",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

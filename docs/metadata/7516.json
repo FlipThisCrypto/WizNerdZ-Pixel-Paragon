@@ -67,6 +67,18 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Ice Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Lightning Arc"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Frog"
+    },
+    {
       "trait_type": "Rarity",
       "value": "Legendary"
     }
@@ -92,8 +104,8 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "7/8878",
-    "rarity_score": 1e-12,
+    "rarity_rank": "78/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Legendary",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Ice Staff",
+        "count": 950,
+        "pct": 10.6886
+      },
+      "Spell Effect": {
+        "value": "Lightning Arc",
+        "count": 868,
+        "pct": 9.766
+      },
+      "Familiar": {
+        "value": "Frog",
+        "count": 1436,
+        "pct": 16.1566
       }
+    },
+    "extra_layers": {
+      "staff": "Ice Staff",
+      "spell": "Lightning Arc",
+      "familiar": "Frog",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

@@ -67,6 +67,18 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Gnarled Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Shadow Tendrils"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Owl"
+    },
+    {
       "trait_type": "Rarity",
       "value": "Rare"
     }
@@ -92,8 +104,8 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "742/8878",
-    "rarity_score": 5e-12,
+    "rarity_rank": "645/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Gnarled Staff",
+        "count": 1738,
+        "pct": 19.5545
+      },
+      "Spell Effect": {
+        "value": "Shadow Tendrils",
+        "count": 581,
+        "pct": 6.5369
+      },
+      "Familiar": {
+        "value": "Owl",
+        "count": 771,
+        "pct": 8.6746
       }
+    },
+    "extra_layers": {
+      "staff": "Gnarled Staff",
+      "spell": "Shadow Tendrils",
+      "familiar": "Owl",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

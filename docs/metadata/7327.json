@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Fire Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Summoning Circle"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Slime"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "1190/8878",
-    "rarity_score": 8e-12,
-    "rarity_tier": "Rare",
+    "rarity_rank": "278/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Fire Staff",
+        "count": 994,
+        "pct": 11.1836
+      },
+      "Spell Effect": {
+        "value": "Summoning Circle",
+        "count": 359,
+        "pct": 4.0392
+      },
+      "Familiar": {
+        "value": "Slime",
+        "count": 619,
+        "pct": 6.9644
       }
+    },
+    "extra_layers": {
+      "staff": "Fire Staff",
+      "spell": "Summoning Circle",
+      "familiar": "Slime",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

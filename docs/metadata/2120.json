@@ -67,6 +67,18 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Crystal Wand"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Shadow Tendrils"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Frog"
+    },
+    {
       "trait_type": "Rarity",
       "value": "Uncommon"
     }
@@ -92,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3375/8878",
-    "rarity_score": 2.1e-11,
+    "rarity_rank": "2733/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Crystal Wand",
+        "count": 1200,
+        "pct": 13.5014
+      },
+      "Spell Effect": {
+        "value": "Shadow Tendrils",
+        "count": 581,
+        "pct": 6.5369
+      },
+      "Familiar": {
+        "value": "Frog",
+        "count": 1436,
+        "pct": 16.1566
       }
+    },
+    "extra_layers": {
+      "staff": "Crystal Wand",
+      "spell": "Shadow Tendrils",
+      "familiar": "Frog",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

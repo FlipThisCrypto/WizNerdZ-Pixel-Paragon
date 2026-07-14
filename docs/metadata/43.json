@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Dragon Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Fireball"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Ghost"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "5155/8878",
-    "rarity_score": 3.3e-11,
-    "rarity_tier": "Common",
+    "rarity_rank": "690/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Dragon Staff",
+        "count": 345,
+        "pct": 3.8816
+      },
+      "Spell Effect": {
+        "value": "Fireball",
+        "count": 1204,
+        "pct": 13.5464
+      },
+      "Familiar": {
+        "value": "Ghost",
+        "count": 324,
+        "pct": 3.6454
       }
+    },
+    "extra_layers": {
+      "staff": "Dragon Staff",
+      "spell": "Fireball",
+      "familiar": "Ghost",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

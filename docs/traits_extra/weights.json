@@ -1,0 +1,38 @@
+{
+  "staff": {
+    "Wooden Wand": 30,
+    "Gnarled Staff": 25,
+    "Crystal Wand": 18,
+    "Fire Staff": 14,
+    "Ice Staff": 14,
+    "Lightning Rod": 12,
+    "Bone Scepter": 8,
+    "Dragon Staff": 5,
+    "Timekeeper Staff": 3,
+    "Worldbreaker Wand": 1
+  },
+  "spell": {
+    "Sparks": 30,
+    "Floating Runes": 22,
+    "Fireball": 16,
+    "Ice Shards": 14,
+    "Lightning Arc": 12,
+    "Poison Mist": 10,
+    "Shadow Tendrils": 8,
+    "Summoning Circle": 5,
+    "Time Distortion": 3,
+    "Reality Fracture": 1
+  },
+  "familiar": {
+    "None": 40,
+    "Frog": 18,
+    "Raven": 15,
+    "Black Cat": 12,
+    "Owl": 10,
+    "Slime": 8,
+    "Baby Dragon": 5,
+    "Ghost": 4,
+    "Phoenix": 2,
+    "Miniature Cosmic Beast": 1
+  }
+}

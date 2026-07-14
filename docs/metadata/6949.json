@@ -59,6 +59,18 @@
       "value": "Named"
     },
     {
+      "trait_type": "Staff",
+      "value": "Fire Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Fireball"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "None"
+    },
+    {
       "trait_type": "Rarity",
       "value": "1 of 1"
     },
@@ -81,6 +93,12 @@
     "edition": 1,
     "rarity_rank": "1/1",
     "rarity_tier": "1 of 1",
-    "rarity_weighted": false
+    "rarity_weighted": false,
+    "extra_layers": {
+      "staff": "Fire Staff",
+      "spell": "Fireball",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x"
+    }
   }
 }

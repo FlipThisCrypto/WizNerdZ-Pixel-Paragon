@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Wooden Wand"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Poison Mist"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Frog"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 2,
       "wizard hat": 10
     },
-    "rarity_rank": "633/8878",
-    "rarity_score": 5e-12,
-    "rarity_tier": "Rare",
+    "rarity_rank": "1438/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Wooden Wand",
+        "count": 1981,
+        "pct": 22.2885
+      },
+      "Spell Effect": {
+        "value": "Poison Mist",
+        "count": 721,
+        "pct": 8.1121
+      },
+      "Familiar": {
+        "value": "Frog",
+        "count": 1436,
+        "pct": 16.1566
       }
+    },
+    "extra_layers": {
+      "staff": "Wooden Wand",
+      "spell": "Poison Mist",
+      "familiar": "Frog",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

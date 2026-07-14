@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Crystal Wand"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Fireball"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Slime"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "4316/8878",
-    "rarity_score": 2.7e-11,
-    "rarity_tier": "Common",
+    "rarity_rank": "2932/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Crystal Wand",
+        "count": 1200,
+        "pct": 13.5014
+      },
+      "Spell Effect": {
+        "value": "Fireball",
+        "count": 1204,
+        "pct": 13.5464
+      },
+      "Familiar": {
+        "value": "Slime",
+        "count": 619,
+        "pct": 6.9644
       }
+    },
+    "extra_layers": {
+      "staff": "Crystal Wand",
+      "spell": "Fireball",
+      "familiar": "Slime",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

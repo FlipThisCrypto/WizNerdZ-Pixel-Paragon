@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Bone Scepter"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Poison Mist"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Owl"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "522/8878",
-    "rarity_score": 4e-12,
-    "rarity_tier": "Rare",
+    "rarity_rank": "165/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Bone Scepter",
+        "count": 566,
+        "pct": 6.3681
+      },
+      "Spell Effect": {
+        "value": "Poison Mist",
+        "count": 721,
+        "pct": 8.1121
+      },
+      "Familiar": {
+        "value": "Owl",
+        "count": 771,
+        "pct": 8.6746
       }
+    },
+    "extra_layers": {
+      "staff": "Bone Scepter",
+      "spell": "Poison Mist",
+      "familiar": "Owl",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

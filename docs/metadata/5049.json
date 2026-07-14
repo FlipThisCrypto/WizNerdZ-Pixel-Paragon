@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Dragon Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Lightning Arc"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Slime"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "8242/8878",
-    "rarity_score": 7e-11,
-    "rarity_tier": "Common",
+    "rarity_rank": "1893/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Dragon Staff",
+        "count": 345,
+        "pct": 3.8816
+      },
+      "Spell Effect": {
+        "value": "Lightning Arc",
+        "count": 868,
+        "pct": 9.766
+      },
+      "Familiar": {
+        "value": "Slime",
+        "count": 619,
+        "pct": 6.9644
       }
+    },
+    "extra_layers": {
+      "staff": "Dragon Staff",
+      "spell": "Lightning Arc",
+      "familiar": "Slime",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

@@ -67,6 +67,18 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Fire Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Fireball"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Raven"
+    },
+    {
       "trait_type": "Rarity",
       "value": "Common"
     }
@@ -92,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "7540/8878",
-    "rarity_score": 5.6e-11,
+    "rarity_rank": "5694/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Fire Staff",
+        "count": 994,
+        "pct": 11.1836
+      },
+      "Spell Effect": {
+        "value": "Fireball",
+        "count": 1204,
+        "pct": 13.5464
+      },
+      "Familiar": {
+        "value": "Raven",
+        "count": 1116,
+        "pct": 12.5563
       }
+    },
+    "extra_layers": {
+      "staff": "Fire Staff",
+      "spell": "Fireball",
+      "familiar": "Raven",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

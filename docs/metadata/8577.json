@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Ice Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Fireball"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Baby Dragon"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "4574/8878",
-    "rarity_score": 2.9e-11,
-    "rarity_tier": "Common",
+    "rarity_rank": "1844/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Ice Staff",
+        "count": 950,
+        "pct": 10.6886
+      },
+      "Spell Effect": {
+        "value": "Fireball",
+        "count": 1204,
+        "pct": 13.5464
+      },
+      "Familiar": {
+        "value": "Baby Dragon",
+        "count": 383,
+        "pct": 4.3092
       }
+    },
+    "extra_layers": {
+      "staff": "Ice Staff",
+      "spell": "Fireball",
+      "familiar": "Baby Dragon",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

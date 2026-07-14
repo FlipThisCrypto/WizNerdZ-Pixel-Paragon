@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Fire Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Poison Mist"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Ghost"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "5043/8878",
-    "rarity_score": 3.2e-11,
-    "rarity_tier": "Common",
+    "rarity_rank": "1150/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Fire Staff",
+        "count": 994,
+        "pct": 11.1836
+      },
+      "Spell Effect": {
+        "value": "Poison Mist",
+        "count": 721,
+        "pct": 8.1121
+      },
+      "Familiar": {
+        "value": "Ghost",
+        "count": 324,
+        "pct": 3.6454
       }
+    },
+    "extra_layers": {
+      "staff": "Fire Staff",
+      "spell": "Poison Mist",
+      "familiar": "Ghost",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

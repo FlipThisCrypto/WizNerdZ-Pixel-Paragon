@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Crystal Wand"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Time Distortion"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Black Cat"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1107/8878",
-    "rarity_score": 8e-12,
-    "rarity_tier": "Rare",
+    "rarity_rank": "321/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Crystal Wand",
+        "count": 1200,
+        "pct": 13.5014
+      },
+      "Spell Effect": {
+        "value": "Time Distortion",
+        "count": 246,
+        "pct": 2.7678
+      },
+      "Familiar": {
+        "value": "Black Cat",
+        "count": 916,
+        "pct": 10.306
       }
+    },
+    "extra_layers": {
+      "staff": "Crystal Wand",
+      "spell": "Time Distortion",
+      "familiar": "Black Cat",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

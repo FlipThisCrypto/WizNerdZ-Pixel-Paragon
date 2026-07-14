@@ -71,6 +71,18 @@
       "value": "Named"
     },
     {
+      "trait_type": "Staff",
+      "value": "Gnarled Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Poison Mist"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Ghost"
+    },
+    {
       "trait_type": "Rarity",
       "value": "1 of 1"
     },
@@ -93,6 +105,12 @@
     "edition": 1,
     "rarity_rank": "1/1",
     "rarity_tier": "1 of 1",
-    "rarity_weighted": false
+    "rarity_weighted": false,
+    "extra_layers": {
+      "staff": "Gnarled Staff",
+      "spell": "Poison Mist",
+      "familiar": "Ghost",
+      "logo": "WizNerdZ Pixel Paragon 2x"
+    }
   }
 }

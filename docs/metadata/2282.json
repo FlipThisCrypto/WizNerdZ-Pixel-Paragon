@@ -67,8 +67,20 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Bone Scepter"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Lightning Arc"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Phoenix"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Epic"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -92,9 +104,9 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3594/8878",
-    "rarity_score": 2.3e-11,
-    "rarity_tier": "Common",
+    "rarity_rank": "239/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Bone Scepter",
+        "count": 566,
+        "pct": 6.3681
+      },
+      "Spell Effect": {
+        "value": "Lightning Arc",
+        "count": 868,
+        "pct": 9.766
+      },
+      "Familiar": {
+        "value": "Phoenix",
+        "count": 145,
+        "pct": 1.6314
       }
+    },
+    "extra_layers": {
+      "staff": "Bone Scepter",
+      "spell": "Lightning Arc",
+      "familiar": "Phoenix",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }

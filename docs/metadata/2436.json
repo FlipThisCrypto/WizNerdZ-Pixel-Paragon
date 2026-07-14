@@ -67,6 +67,18 @@
       "value": "Standard"
     },
     {
+      "trait_type": "Staff",
+      "value": "Dragon Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Sparks"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Black Cat"
+    },
+    {
       "trait_type": "Rarity",
       "value": "Epic"
     }
@@ -92,8 +104,8 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "147/8878",
-    "rarity_score": 2e-12,
+    "rarity_rank": "176/8878",
+    "rarity_score": 0.0,
     "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -151,7 +163,28 @@
         "value": "Standard",
         "count": 8878,
         "pct": 99.8875
+      },
+      "Staff": {
+        "value": "Dragon Staff",
+        "count": 345,
+        "pct": 3.8816
+      },
+      "Spell Effect": {
+        "value": "Sparks",
+        "count": 2173,
+        "pct": 24.4487
+      },
+      "Familiar": {
+        "value": "Black Cat",
+        "count": 916,
+        "pct": 10.306
       }
+    },
+    "extra_layers": {
+      "staff": "Dragon Staff",
+      "spell": "Sparks",
+      "familiar": "Black Cat",
+      "logo": "WizNerdZ Pixel Paragon 2x"
     }
   }
 }
