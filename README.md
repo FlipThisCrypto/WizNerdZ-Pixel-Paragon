@@ -1,9 +1,10 @@
-# WizNerdZ Pixel Paragon
+﻿# WizNerdZ Pixel Paragon
 
 **8,888** generative pixel wizards on the **Chia** blockchain by [Fiend Studios](https://x.com/FiendStudios).
 
-🌐 **Site:** https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/  
-🐦 **Twitter:** https://x.com/FiendStudios
+- **Site:** https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/
+- **Twitter:** https://x.com/FiendStudios
+- **Repo:** https://github.com/FlipThisCrypto/WizNerdZ-Pixel-Paragon
 
 ## Collection
 
@@ -15,13 +16,16 @@
 | Image size | 640×640 PNG |
 | Metadata | CHIP-0007 |
 
-### Live paths (GitHub Pages)
+### Paths (GitHub Pages)
 
-- Landing: `/`
-- Images: `/images/{id}.png`
-- Metadata: `/metadata/{id}.json`
-- Collection: `/collection.json`
-- Rarity sheet: `/rarity.csv`
+| Path | Content |
+|------|---------|
+| `/` | Landing page |
+| `/images/{id}.png` | Token art |
+| `/metadata/{id}.json` | Token metadata |
+| `/collection.json` | Collection header |
+| `/rarity.csv` | Trait frequencies |
+| `/specials/` | Named specials showcase |
 
 ### Named specials
 
@@ -38,17 +42,17 @@
 | 8483 | James |
 | 8700 | Staker |
 
-## Design rules (this drop)
+## Design notes
 
-- Class-matched **Shirt** + **Wizard Hat**
-- Trait rarity via filename `#weight` (higher = more common)
-- Named specials are unique (`Rarity: 1 of 1`)
-- Collection links in metadata: Twitter + website only (no icon/banner — MintGarden handles those)
+- Class-matched shirt + wizard hat (generative)
+- Trait weights via filename `#weight` plus staff / spell / familiar extras
+- Named specials are unique (1 of 1)
+- Metadata includes Twitter + website only (no icon/banner — MintGarden)
 
 ## Repo layout
 
 ```
-docs/                 ← GitHub Pages root
+docs/                 ← GitHub Pages root (the live collection)
   index.html
   images/
   metadata/
@@ -56,10 +60,11 @@ docs/                 ← GitHub Pages root
   specials/
   collection.json
   rarity.csv
-rulepack/             ← prior 64×64 pipeline notes (legacy)
-scripts/
-traits/
+LICENSE
+README.md
 ```
+
+Legacy 64×64 rulepack pipeline art was removed from this repo (local backup only).
 
 ## License
 

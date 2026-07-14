@@ -1,5 +1,15 @@
+﻿# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python
 __pycache__/
-*.pyc
-.preview/
-*.backup/
-.claude/
+*.py[cod]
+.venv/
+venv/
+
+# Local only
+*.log
