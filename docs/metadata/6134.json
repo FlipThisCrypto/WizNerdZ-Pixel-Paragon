@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #6134",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Violet"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Drowned"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Light Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Cleric Light"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Cleric Light"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Cleric Light"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Chin Strap White Gray"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Elder Keepers"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 6134,
+  "series_total": 8888,
+  "data": {
+    "image": "6134.png",
+    "dna": "37fe0fadf1587aa64c87110b50b462254c6246eb53f47680d60576e97160002f",
+    "dna_raw": "bg_Violet#8.png|Drowned#10.png|eyes_Light_Brown#8.png|mouth#100.png|Cleric Light#10.png|Chin_Strap_White_Gray#4.png|Elder Keepers#8.png|Cleric Light#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 4,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1175/8878",
+    "rarity_score": 8e-12,
+    "rarity_tier": "Rare",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Violet",
+        "count": 676,
+        "pct": 7.6058
+      },
+      "Face": {
+        "value": "Drowned",
+        "count": 381,
+        "pct": 4.2867
+      },
+      "Eyes": {
+        "value": "Light Brown",
+        "count": 846,
+        "pct": 9.5185
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Cleric Light",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Shirt": {
+        "value": "Cleric Light",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Wizard Hat": {
+        "value": "Cleric Light",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Facial Hair": {
+        "value": "Chin Strap White Gray",
+        "count": 70,
+        "pct": 0.7876
+      },
+      "Glasses": {
+        "value": "Elder Keepers",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

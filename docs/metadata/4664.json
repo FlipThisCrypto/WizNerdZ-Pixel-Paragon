@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #4664",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mana Veined"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Arcane Mage"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Arcane Mage"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Arcane Mage"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Full Beard Red Orange"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Astral Focus"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 4664,
+  "series_total": 8888,
+  "data": {
+    "image": "4664.png",
+    "dna": "0ad193b4387104cd7ff106c0b57f3f5d898ae5234f4b0e4d043e7d5f2b667419",
+    "dna_raw": "bg_Black#5.png|Mana Veined#10.png|eyes_Gray#8.png|mouth#100.png|Arcane Mage#10.png|Full_Beard_Red_Orange#8.png|Astral Focus#8.png|Arcane Mage#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 5,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 8,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1156/8878",
+    "rarity_score": 8e-12,
+    "rarity_tier": "Rare",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Black",
+        "count": 403,
+        "pct": 4.5342
+      },
+      "Face": {
+        "value": "Mana Veined",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Eyes": {
+        "value": "Gray",
+        "count": 818,
+        "pct": 9.2034
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Arcane Mage",
+        "count": 397,
+        "pct": 4.4667
+      },
+      "Shirt": {
+        "value": "Arcane Mage",
+        "count": 397,
+        "pct": 4.4667
+      },
+      "Wizard Hat": {
+        "value": "Arcane Mage",
+        "count": 397,
+        "pct": 4.4667
+      },
+      "Facial Hair": {
+        "value": "Full Beard Red Orange",
+        "count": 123,
+        "pct": 1.3839
+      },
+      "Glasses": {
+        "value": "Astral Focus",
+        "count": 363,
+        "pct": 4.0842
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

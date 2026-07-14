@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #1563",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Charred Ash"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Light Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Sand Sage"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Sand Sage"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Sand Sage"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Full Beard White Gray"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Tempest Visors"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 1563,
+  "series_total": 8888,
+  "data": {
+    "image": "1563.png",
+    "dna": "8eda436593edafbebdf69412fa30e672ba490e7f03adfa8405cd883aa1765912",
+    "dna_raw": "bg_Blue#12.png|Charred Ash#10.png|eyes_Light_Brown#8.png|mouth#100.png|Sand Sage#10.png|Full_Beard_White_Gray#7.png|Tempest Visors#8.png|Sand Sage#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 12,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 7,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "2713/8878",
+    "rarity_score": 1.8e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Blue",
+        "count": 938,
+        "pct": 10.5536
+      },
+      "Face": {
+        "value": "Charred Ash",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Eyes": {
+        "value": "Light Brown",
+        "count": 846,
+        "pct": 9.5185
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Sand Sage",
+        "count": 378,
+        "pct": 4.2529
+      },
+      "Shirt": {
+        "value": "Sand Sage",
+        "count": 378,
+        "pct": 4.2529
+      },
+      "Wizard Hat": {
+        "value": "Sand Sage",
+        "count": 378,
+        "pct": 4.2529
+      },
+      "Facial Hair": {
+        "value": "Full Beard White Gray",
+        "count": 116,
+        "pct": 1.3051
+      },
+      "Glasses": {
+        "value": "Tempest Visors",
+        "count": 393,
+        "pct": 4.4217
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

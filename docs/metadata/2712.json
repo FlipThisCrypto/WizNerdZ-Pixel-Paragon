@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #2712",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Glamour Tint"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Light Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Cryomancer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Cryomancer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Cryomancer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Pointy Red Orange"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Fel Oculars"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 2712,
+  "series_total": 8888,
+  "data": {
+    "image": "2712.png",
+    "dna": "3bd107a53155682728361bf058a8a02ccb0eb57962ca09d3d496a2fd342b3891",
+    "dna_raw": "bg_Orange#8.png|Glamour Tint#10.png|eyes_Light_Brown#8.png|mouth#100.png|Cryomancer#10.png|Long_Pointy_Red_Orange#10.png|Taped Fel Oculars#1.png|Cryomancer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 10,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "58/8878",
+    "rarity_score": 1e-12,
+    "rarity_tier": "Legendary",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Orange",
+        "count": 655,
+        "pct": 7.3695
+      },
+      "Face": {
+        "value": "Glamour Tint",
+        "count": 384,
+        "pct": 4.3204
+      },
+      "Eyes": {
+        "value": "Light Brown",
+        "count": 846,
+        "pct": 9.5185
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Cryomancer",
+        "count": 341,
+        "pct": 3.8366
+      },
+      "Shirt": {
+        "value": "Cryomancer",
+        "count": 341,
+        "pct": 3.8366
+      },
+      "Wizard Hat": {
+        "value": "Cryomancer",
+        "count": 341,
+        "pct": 3.8366
+      },
+      "Facial Hair": {
+        "value": "Long Pointy Red Orange",
+        "count": 131,
+        "pct": 1.4739
+      },
+      "Glasses": {
+        "value": "Fel Oculars",
+        "count": 404,
+        "pct": 4.5455
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

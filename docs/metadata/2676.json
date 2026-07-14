@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #2676",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mana Veined"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dark Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Arcane Mage"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Arcane Mage"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Arcane Mage"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Braid Black"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Potion Masters"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 2676,
+  "series_total": 8888,
+  "data": {
+    "image": "2676.png",
+    "dna": "2bfc053b5828a7417c80ea4156bb40e2ec9599d51ad28b61c67b6ba76fcaeb1a",
+    "dna_raw": "bg_Blue#12.png|Mana Veined#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Arcane Mage#10.png|Long_Braid_Black#15.png|Potion Masters#8.png|Arcane Mage#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 12,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 15,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "5723/8878",
+    "rarity_score": 3.7e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Blue",
+        "count": 938,
+        "pct": 10.5536
+      },
+      "Face": {
+        "value": "Mana Veined",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Eyes": {
+        "value": "Dark Brown",
+        "count": 827,
+        "pct": 9.3047
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Arcane Mage",
+        "count": 397,
+        "pct": 4.4667
+      },
+      "Shirt": {
+        "value": "Arcane Mage",
+        "count": 397,
+        "pct": 4.4667
+      },
+      "Wizard Hat": {
+        "value": "Arcane Mage",
+        "count": 397,
+        "pct": 4.4667
+      },
+      "Facial Hair": {
+        "value": "Long Braid Black",
+        "count": 223,
+        "pct": 2.509
+      },
+      "Glasses": {
+        "value": "Potion Masters",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

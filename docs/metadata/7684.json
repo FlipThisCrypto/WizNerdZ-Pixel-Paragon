@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #7684",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Violet"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Storm Grey"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Warlock Fel"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Warlock Fel"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Warlock Fel"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Chin Strap Blonde"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Trench Scopes"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 7684,
+  "series_total": 8888,
+  "data": {
+    "image": "7684.png",
+    "dna": "0daeaffbfa2481ae46585c203d833b6bacaf5169570bac6ff6f145b6fecca659",
+    "dna_raw": "bg_Violet#8.png|Storm Grey#10.png|eyes_Green#12.png|mouth#100.png|Warlock Fel#10.png|Chin_Strap_Blonde#6.png|Trench Scopes#8.png|Warlock Fel#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 12,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 6,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "2990/8878",
+    "rarity_score": 1.9e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Violet",
+        "count": 676,
+        "pct": 7.6058
+      },
+      "Face": {
+        "value": "Storm Grey",
+        "count": 404,
+        "pct": 4.5455
+      },
+      "Eyes": {
+        "value": "Green",
+        "count": 1297,
+        "pct": 14.5927
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Warlock Fel",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Shirt": {
+        "value": "Warlock Fel",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Wizard Hat": {
+        "value": "Warlock Fel",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Facial Hair": {
+        "value": "Chin Strap Blonde",
+        "count": 99,
+        "pct": 1.1139
+      },
+      "Glasses": {
+        "value": "Trench Scopes",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

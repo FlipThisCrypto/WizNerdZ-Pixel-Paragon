@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #3720",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Charred Ash"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Medium Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Necromancer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Necromancer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Necromancer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Goatee Black"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Trench Scopes"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 3720,
+  "series_total": 8888,
+  "data": {
+    "image": "3720.png",
+    "dna": "5d309ff45bdab121bb7a775e688e93cf535b4cad1b609c9fe49a3386d998567f",
+    "dna_raw": "bg_Blue#12.png|Charred Ash#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Necromancer#10.png|Goatee_Black#22.png|Trench Scopes#8.png|Necromancer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 12,
+      "face": 10,
+      "eyes": 10,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 22,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "8217/8878",
+    "rarity_score": 6.9e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Blue",
+        "count": 938,
+        "pct": 10.5536
+      },
+      "Face": {
+        "value": "Charred Ash",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Eyes": {
+        "value": "Medium Brown",
+        "count": 1015,
+        "pct": 11.4199
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Necromancer",
+        "count": 388,
+        "pct": 4.3654
+      },
+      "Shirt": {
+        "value": "Necromancer",
+        "count": 388,
+        "pct": 4.3654
+      },
+      "Wizard Hat": {
+        "value": "Necromancer",
+        "count": 388,
+        "pct": 4.3654
+      },
+      "Facial Hair": {
+        "value": "Goatee Black",
+        "count": 353,
+        "pct": 3.9716
+      },
+      "Glasses": {
+        "value": "Trench Scopes",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

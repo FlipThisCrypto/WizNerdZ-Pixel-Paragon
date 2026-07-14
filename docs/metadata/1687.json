@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #1687",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Potion Stained"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dark Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Vampire Lord"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Vampire Lord"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Vampire Lord"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Rounded Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Elder Keepers"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 1687,
+  "series_total": 8888,
+  "data": {
+    "image": "1687.png",
+    "dna": "56315fec47218354f1a4d968dc76e121385c1402764d4141eaef2b78e2d8277c",
+    "dna_raw": "bg_Blue#12.png|Potion Stained#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Vampire Lord#10.png|Long_Rounded_Brown#21.png|Taped Elder Keepers#1.png|Vampire Lord#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 12,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 21,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1068/8878",
+    "rarity_score": 7e-12,
+    "rarity_tier": "Rare",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Blue",
+        "count": 938,
+        "pct": 10.5536
+      },
+      "Face": {
+        "value": "Potion Stained",
+        "count": 422,
+        "pct": 4.748
+      },
+      "Eyes": {
+        "value": "Dark Brown",
+        "count": 827,
+        "pct": 9.3047
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Vampire Lord",
+        "count": 403,
+        "pct": 4.5342
+      },
+      "Shirt": {
+        "value": "Vampire Lord",
+        "count": 403,
+        "pct": 4.5342
+      },
+      "Wizard Hat": {
+        "value": "Vampire Lord",
+        "count": 403,
+        "pct": 4.5342
+      },
+      "Facial Hair": {
+        "value": "Long Rounded Brown",
+        "count": 309,
+        "pct": 3.4766
+      },
+      "Glasses": {
+        "value": "Elder Keepers",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

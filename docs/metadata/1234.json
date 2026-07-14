@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #1234",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Charred Ash"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dark Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Deep Sea"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Deep Sea"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Deep Sea"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Chin Strap Dark Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Frost Sight"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 1234,
+  "series_total": 8888,
+  "data": {
+    "image": "1234.png",
+    "dna": "fe3fabff023a9fef1f165e22bc97e0ca9b771c685718977c270f6130786d8b8f",
+    "dna_raw": "bg_Yellow#10.png|Charred Ash#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Deep Sea#10.png|Chin_Strap_Dark_Brown#10.png|Taped Frost Sight#1.png|Deep Sea#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 10,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "299/8878",
+    "rarity_score": 3e-12,
+    "rarity_tier": "Epic",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Yellow",
+        "count": 797,
+        "pct": 8.9671
+      },
+      "Face": {
+        "value": "Charred Ash",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Eyes": {
+        "value": "Dark Brown",
+        "count": 827,
+        "pct": 9.3047
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Deep Sea",
+        "count": 419,
+        "pct": 4.7142
+      },
+      "Shirt": {
+        "value": "Deep Sea",
+        "count": 419,
+        "pct": 4.7142
+      },
+      "Wizard Hat": {
+        "value": "Deep Sea",
+        "count": 419,
+        "pct": 4.7142
+      },
+      "Facial Hair": {
+        "value": "Chin Strap Dark Brown",
+        "count": 138,
+        "pct": 1.5527
+      },
+      "Glasses": {
+        "value": "Frost Sight",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

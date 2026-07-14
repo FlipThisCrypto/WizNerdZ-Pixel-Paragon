@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #444",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Violet"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Rotten Flesh"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Blood Mage"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Blood Mage"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Blood Mage"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Medium Rounded White Gray"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Fel Oculars"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 444,
+  "series_total": 8888,
+  "data": {
+    "image": "444.png",
+    "dna": "cc38c9684c17bfaf66b8306a650794f0f71bcd89974514adff22a363cd9e3d59",
+    "dna_raw": "bg_Violet#8.png|Rotten Flesh#10.png|eyes_Green#12.png|mouth#100.png|Blood Mage#10.png|Medium_Rounded_White_Gray#12.png|Taped Fel Oculars#1.png|Blood Mage#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 12,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 12,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "334/8878",
+    "rarity_score": 3e-12,
+    "rarity_tier": "Epic",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Violet",
+        "count": 676,
+        "pct": 7.6058
+      },
+      "Face": {
+        "value": "Rotten Flesh",
+        "count": 374,
+        "pct": 4.2079
+      },
+      "Eyes": {
+        "value": "Green",
+        "count": 1297,
+        "pct": 14.5927
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Blood Mage",
+        "count": 367,
+        "pct": 4.1292
+      },
+      "Shirt": {
+        "value": "Blood Mage",
+        "count": 367,
+        "pct": 4.1292
+      },
+      "Wizard Hat": {
+        "value": "Blood Mage",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Facial Hair": {
+        "value": "Medium Rounded White Gray",
+        "count": 159,
+        "pct": 1.7889
+      },
+      "Glasses": {
+        "value": "Fel Oculars",
+        "count": 404,
+        "pct": 4.5455
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

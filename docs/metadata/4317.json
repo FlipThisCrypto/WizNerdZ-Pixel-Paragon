@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #4317",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Exsanguinated"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Spirit Guide"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Spirit Guide"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Spirit Guide"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Full Beard Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Glamour Glass"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 4317,
+  "series_total": 8888,
+  "data": {
+    "image": "4317.png",
+    "dna": "a725bd619797e77d61742b22597bd06473660c42dc7eb1399aa4bc4ebcff650e",
+    "dna_raw": "bg_Orange#8.png|Exsanguinated#10.png|eyes_Gray#8.png|mouth#100.png|Spirit Guide#10.png|Full_Beard_Brown#15.png|Taped Glamour Glass#1.png|Spirit Guide#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 15,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "330/8878",
+    "rarity_score": 3e-12,
+    "rarity_tier": "Epic",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Orange",
+        "count": 655,
+        "pct": 7.3695
+      },
+      "Face": {
+        "value": "Exsanguinated",
+        "count": 329,
+        "pct": 3.7016
+      },
+      "Eyes": {
+        "value": "Gray",
+        "count": 818,
+        "pct": 9.2034
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Spirit Guide",
+        "count": 424,
+        "pct": 4.7705
+      },
+      "Shirt": {
+        "value": "Spirit Guide",
+        "count": 424,
+        "pct": 4.7705
+      },
+      "Wizard Hat": {
+        "value": "Spirit Guide",
+        "count": 424,
+        "pct": 4.7705
+      },
+      "Facial Hair": {
+        "value": "Full Beard Brown",
+        "count": 207,
+        "pct": 2.329
+      },
+      "Glasses": {
+        "value": "Glamour Glass",
+        "count": 370,
+        "pct": 4.1629
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

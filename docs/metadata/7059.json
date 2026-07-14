@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #7059",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Celestial Blue"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Light Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Chronomancer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Chronomancer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Chronomancer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Pointy Blonde"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Ethereal Visions"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 7059,
+  "series_total": 8888,
+  "data": {
+    "image": "7059.png",
+    "dna": "0f852c6abdbce4c390d5582e52bf253563bf94316ad6e038c2aaf15c6dc2446f",
+    "dna_raw": "bg_Blue#12.png|Celestial Blue#10.png|eyes_Light_Blue#8.png|mouth#100.png|Chronomancer#10.png|Long_Pointy_Blonde#12.png|Ethereal Visions#8.png|Chronomancer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 12,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 12,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "3336/8878",
+    "rarity_score": 2.1e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Blue",
+        "count": 938,
+        "pct": 10.5536
+      },
+      "Face": {
+        "value": "Celestial Blue",
+        "count": 402,
+        "pct": 4.523
+      },
+      "Eyes": {
+        "value": "Light Blue",
+        "count": 883,
+        "pct": 9.9347
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Chronomancer",
+        "count": 354,
+        "pct": 3.9829
+      },
+      "Shirt": {
+        "value": "Chronomancer",
+        "count": 354,
+        "pct": 3.9829
+      },
+      "Wizard Hat": {
+        "value": "Chronomancer",
+        "count": 354,
+        "pct": 3.9829
+      },
+      "Facial Hair": {
+        "value": "Long Pointy Blonde",
+        "count": 169,
+        "pct": 1.9014
+      },
+      "Glasses": {
+        "value": "Ethereal Visions",
+        "count": 372,
+        "pct": 4.1854
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

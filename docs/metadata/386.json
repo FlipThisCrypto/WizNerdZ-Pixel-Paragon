@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #386",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Fel Corrupted"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Necromancer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Necromancer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Necromancer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Full Beard Dark Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Mystic Gaze"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 386,
+  "series_total": 8888,
+  "data": {
+    "image": "386.png",
+    "dna": "3dfcf48bffbf2402490aa1b8ee335ac2627bfdd74bec713bd49d7f5abfecc52f",
+    "dna_raw": "bg_Black#5.png|Fel Corrupted#10.png|eyes_Green#12.png|mouth#100.png|Necromancer#10.png|Full_Beard_Dark_Brown#17.png|Mystic Gaze#8.png|Necromancer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 5,
+      "face": 10,
+      "eyes": 12,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 17,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "4298/8878",
+    "rarity_score": 2.7e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Black",
+        "count": 403,
+        "pct": 4.5342
+      },
+      "Face": {
+        "value": "Fel Corrupted",
+        "count": 389,
+        "pct": 4.3767
+      },
+      "Eyes": {
+        "value": "Green",
+        "count": 1297,
+        "pct": 14.5927
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Necromancer",
+        "count": 388,
+        "pct": 4.3654
+      },
+      "Shirt": {
+        "value": "Necromancer",
+        "count": 388,
+        "pct": 4.3654
+      },
+      "Wizard Hat": {
+        "value": "Necromancer",
+        "count": 388,
+        "pct": 4.3654
+      },
+      "Facial Hair": {
+        "value": "Full Beard Dark Brown",
+        "count": 256,
+        "pct": 2.8803
+      },
+      "Glasses": {
+        "value": "Mystic Gaze",
+        "count": 384,
+        "pct": 4.3204
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

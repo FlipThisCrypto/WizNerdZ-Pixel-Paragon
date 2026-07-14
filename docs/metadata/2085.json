@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #2085",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Fel Corrupted"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Hazel"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Pyromancer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Pyromancer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Pyromancer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Braid Black"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Omen Readers"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 2085,
+  "series_total": 8888,
+  "data": {
+    "image": "2085.png",
+    "dna": "9e8308f7a04c7c1606471f4dca6ea6c6a2ee1af2a414ead7397ff1a79226f977",
+    "dna_raw": "bg_Blue#12.png|Fel Corrupted#10.png|eyes_Hazel#10.png|mouth#100.png|Pyromancer#10.png|Long_Braid_Black#15.png|Omen Readers#8.png|Pyromancer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 12,
+      "face": 10,
+      "eyes": 10,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 15,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "5722/8878",
+    "rarity_score": 3.7e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Blue",
+        "count": 938,
+        "pct": 10.5536
+      },
+      "Face": {
+        "value": "Fel Corrupted",
+        "count": 389,
+        "pct": 4.3767
+      },
+      "Eyes": {
+        "value": "Hazel",
+        "count": 1088,
+        "pct": 12.2412
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Pyromancer",
+        "count": 355,
+        "pct": 3.9941
+      },
+      "Shirt": {
+        "value": "Pyromancer",
+        "count": 355,
+        "pct": 3.9941
+      },
+      "Wizard Hat": {
+        "value": "Pyromancer",
+        "count": 355,
+        "pct": 3.9941
+      },
+      "Facial Hair": {
+        "value": "Long Braid Black",
+        "count": 223,
+        "pct": 2.509
+      },
+      "Glasses": {
+        "value": "Omen Readers",
+        "count": 408,
+        "pct": 4.5905
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #4115",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "White"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Storm Grey"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Hazel"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Shadow Priest"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Shadow Priest"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Shadow Priest"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Goatee Blonde"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Dune Drifters"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 4115,
+  "series_total": 8888,
+  "data": {
+    "image": "4115.png",
+    "dna": "5ebec64ebb2dbd665634cc91ff4f0afd9ba01b28625cf192eb1c28ac35d4c8f5",
+    "dna_raw": "bg_White#6.png|Storm Grey#10.png|eyes_Hazel#10.png|mouth#100.png|Shadow Priest#10.png|Goatee_Blonde#12.png|Dune Drifters#8.png|Shadow Priest#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 6,
+      "face": 10,
+      "eyes": 10,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 12,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "3040/8878",
+    "rarity_score": 1.9e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "White",
+        "count": 491,
+        "pct": 5.5243
+      },
+      "Face": {
+        "value": "Storm Grey",
+        "count": 404,
+        "pct": 4.5455
+      },
+      "Eyes": {
+        "value": "Hazel",
+        "count": 1088,
+        "pct": 12.2412
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Shadow Priest",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Shirt": {
+        "value": "Shadow Priest",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Wizard Hat": {
+        "value": "Shadow Priest",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Facial Hair": {
+        "value": "Goatee Blonde",
+        "count": 151,
+        "pct": 1.6989
+      },
+      "Glasses": {
+        "value": "Dune Drifters",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

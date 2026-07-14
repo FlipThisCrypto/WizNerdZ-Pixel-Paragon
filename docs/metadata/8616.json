@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #8616",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Ghostly"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Arcane Mage"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Arcane Mage"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Arcane Mage"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Braid White Gray"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Dune Drifters"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 8616,
+  "series_total": 8888,
+  "data": {
+    "image": "8616.png",
+    "dna": "44d157e3c98d02821a10307af3f930ce904cedb1eda5a745a88cf448b6b50ea6",
+    "dna_raw": "bg_Orange#8.png|Ghostly#10.png|eyes_Blue#14.png|mouth#100.png|Arcane Mage#10.png|Long_Braid_White_Gray#5.png|Taped Dune Drifters#1.png|Arcane Mage#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 14,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 5,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "150/8878",
+    "rarity_score": 2e-12,
+    "rarity_tier": "Epic",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Orange",
+        "count": 655,
+        "pct": 7.3695
+      },
+      "Face": {
+        "value": "Ghostly",
+        "count": 412,
+        "pct": 4.6355
+      },
+      "Eyes": {
+        "value": "Blue",
+        "count": 1460,
+        "pct": 16.4266
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Arcane Mage",
+        "count": 397,
+        "pct": 4.4667
+      },
+      "Shirt": {
+        "value": "Arcane Mage",
+        "count": 397,
+        "pct": 4.4667
+      },
+      "Wizard Hat": {
+        "value": "Arcane Mage",
+        "count": 397,
+        "pct": 4.4667
+      },
+      "Facial Hair": {
+        "value": "Long Braid White Gray",
+        "count": 69,
+        "pct": 0.7763
+      },
+      "Glasses": {
+        "value": "Dune Drifters",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

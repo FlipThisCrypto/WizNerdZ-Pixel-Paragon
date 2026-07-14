@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #6422",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Rotten Flesh"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Chronomancer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Chronomancer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Chronomancer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Pointy Red Orange"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Ethereal Visions"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 6422,
+  "series_total": 8888,
+  "data": {
+    "image": "6422.png",
+    "dna": "4ba19e54f0d523e8c8a17870bf093bb1d9031e182072ee273c9c0e705fc9cda3",
+    "dna_raw": "bg_Green#10.png|Rotten Flesh#10.png|eyes_Green#12.png|mouth#100.png|Chronomancer#10.png|Long_Pointy_Red_Orange#10.png|Taped Ethereal Visions#1.png|Chronomancer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 12,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 10,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "248/8878",
+    "rarity_score": 3e-12,
+    "rarity_tier": "Epic",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Green",
+        "count": 837,
+        "pct": 9.4172
+      },
+      "Face": {
+        "value": "Rotten Flesh",
+        "count": 374,
+        "pct": 4.2079
+      },
+      "Eyes": {
+        "value": "Green",
+        "count": 1297,
+        "pct": 14.5927
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Chronomancer",
+        "count": 354,
+        "pct": 3.9829
+      },
+      "Shirt": {
+        "value": "Chronomancer",
+        "count": 354,
+        "pct": 3.9829
+      },
+      "Wizard Hat": {
+        "value": "Chronomancer",
+        "count": 354,
+        "pct": 3.9829
+      },
+      "Facial Hair": {
+        "value": "Long Pointy Red Orange",
+        "count": 131,
+        "pct": 1.4739
+      },
+      "Glasses": {
+        "value": "Ethereal Visions",
+        "count": 372,
+        "pct": 4.1854
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

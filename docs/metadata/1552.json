@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #1552",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mystic Aura"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Rune Keeper"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Rune Keeper"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Rune Keeper"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Goatee Dark Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Frost Sight"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 1552,
+  "series_total": 8888,
+  "data": {
+    "image": "1552.png",
+    "dna": "719f881676395ae8318e1787a43c08928c0f5df9c411aed4293f28ac695f28f0",
+    "dna_raw": "bg_Black#5.png|Mystic Aura#10.png|eyes_Gray#8.png|mouth#100.png|Rune Keeper#10.png|Goatee_Dark_Brown#20.png|Taped Frost Sight#1.png|Rune Keeper#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 5,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 20,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "206/8878",
+    "rarity_score": 2e-12,
+    "rarity_tier": "Epic",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Black",
+        "count": 403,
+        "pct": 4.5342
+      },
+      "Face": {
+        "value": "Mystic Aura",
+        "count": 378,
+        "pct": 4.2529
+      },
+      "Eyes": {
+        "value": "Gray",
+        "count": 818,
+        "pct": 9.2034
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Rune Keeper",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Shirt": {
+        "value": "Rune Keeper",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Wizard Hat": {
+        "value": "Rune Keeper",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Facial Hair": {
+        "value": "Goatee Dark Brown",
+        "count": 296,
+        "pct": 3.3303
+      },
+      "Glasses": {
+        "value": "Frost Sight",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

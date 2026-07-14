@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #6961",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Ghostly"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Cleric Light"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Cleric Light"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Cleric Light"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Goatee White Gray"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Omen Readers"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 6961,
+  "series_total": 8888,
+  "data": {
+    "image": "6961.png",
+    "dna": "c3c73c37c8564a2774f2d8fe0e857f48e59377fdcc9da9ebe88e046614ea389f",
+    "dna_raw": "bg_Gray#6.png|Ghostly#10.png|eyes_Gray#8.png|mouth#100.png|Cleric Light#10.png|Goatee_White_Gray#8.png|Omen Readers#8.png|Cleric Light#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 6,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 8,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1203/8878",
+    "rarity_score": 8e-12,
+    "rarity_tier": "Rare",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Gray",
+        "count": 462,
+        "pct": 5.198
+      },
+      "Face": {
+        "value": "Ghostly",
+        "count": 412,
+        "pct": 4.6355
+      },
+      "Eyes": {
+        "value": "Gray",
+        "count": 818,
+        "pct": 9.2034
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Cleric Light",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Shirt": {
+        "value": "Cleric Light",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Wizard Hat": {
+        "value": "Cleric Light",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Facial Hair": {
+        "value": "Goatee White Gray",
+        "count": 97,
+        "pct": 1.0914
+      },
+      "Glasses": {
+        "value": "Omen Readers",
+        "count": 408,
+        "pct": 4.5905
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

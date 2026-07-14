@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #1496",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mana Veined"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dark Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Alchemist"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Alchemist"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Alchemist"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Pointy Dark Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Epoch Eyes"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 1496,
+  "series_total": 8888,
+  "data": {
+    "image": "1496.png",
+    "dna": "7c08ad60a560c2b5ae8875a731009add41350f95fbf15cf9d55ba98673ef4e99",
+    "dna_raw": "bg_Orange#8.png|Mana Veined#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Alchemist#10.png|Long_Pointy_Dark_Brown#20.png|Epoch Eyes#8.png|Alchemist#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 20,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "4780/8878",
+    "rarity_score": 3e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Orange",
+        "count": 655,
+        "pct": 7.3695
+      },
+      "Face": {
+        "value": "Mana Veined",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Eyes": {
+        "value": "Dark Brown",
+        "count": 827,
+        "pct": 9.3047
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Alchemist",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Shirt": {
+        "value": "Alchemist",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Wizard Hat": {
+        "value": "Alchemist",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Facial Hair": {
+        "value": "Long Pointy Dark Brown",
+        "count": 332,
+        "pct": 3.7354
+      },
+      "Glasses": {
+        "value": "Epoch Eyes",
+        "count": 339,
+        "pct": 3.8141
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

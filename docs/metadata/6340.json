@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #6340",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Glamour Tint"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Medium Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Cryomancer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Cryomancer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Cryomancer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Goatee Black"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Magma Goggles"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 6340,
+  "series_total": 8888,
+  "data": {
+    "image": "6340.png",
+    "dna": "3e43eec12dc3d52718a1e3864e39fb0f3e9b53acfc5440650d9e2224d9374a36",
+    "dna_raw": "bg_Red.png|Glamour Tint#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Cryomancer#10.png|Goatee_Black#22.png|Magma Goggles#8.png|Cryomancer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 10,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 22,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "5836/8878",
+    "rarity_score": 3.8e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Red",
+        "count": 787,
+        "pct": 8.8546
+      },
+      "Face": {
+        "value": "Glamour Tint",
+        "count": 384,
+        "pct": 4.3204
+      },
+      "Eyes": {
+        "value": "Medium Brown",
+        "count": 1015,
+        "pct": 11.4199
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Cryomancer",
+        "count": 341,
+        "pct": 3.8366
+      },
+      "Shirt": {
+        "value": "Cryomancer",
+        "count": 341,
+        "pct": 3.8366
+      },
+      "Wizard Hat": {
+        "value": "Cryomancer",
+        "count": 341,
+        "pct": 3.8366
+      },
+      "Facial Hair": {
+        "value": "Goatee Black",
+        "count": 353,
+        "pct": 3.9716
+      },
+      "Glasses": {
+        "value": "Magma Goggles",
+        "count": 385,
+        "pct": 4.3317
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #4520",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Violet"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Vampiric"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Light Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Shadow Priest"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Shadow Priest"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Shadow Priest"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Medium Rounded Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Fel Oculars"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 4520,
+  "series_total": 8888,
+  "data": {
+    "image": "4520.png",
+    "dna": "ec96f174aa57be71cc263b915c61dcedac8f94e857c4aec76691faed07d99c57",
+    "dna_raw": "bg_Violet#8.png|Vampiric#10.png|eyes_Light_Brown#8.png|mouth#100.png|Shadow Priest#10.png|Medium_Rounded_Brown#27.png|Taped Fel Oculars#1.png|Shadow Priest#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 27,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "940/8878",
+    "rarity_score": 7e-12,
+    "rarity_tier": "Rare",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Violet",
+        "count": 676,
+        "pct": 7.6058
+      },
+      "Face": {
+        "value": "Vampiric",
+        "count": 402,
+        "pct": 4.523
+      },
+      "Eyes": {
+        "value": "Light Brown",
+        "count": 846,
+        "pct": 9.5185
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Shadow Priest",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Shirt": {
+        "value": "Shadow Priest",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Wizard Hat": {
+        "value": "Shadow Priest",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Facial Hair": {
+        "value": "Medium Rounded Brown",
+        "count": 373,
+        "pct": 4.1967
+      },
+      "Glasses": {
+        "value": "Fel Oculars",
+        "count": 404,
+        "pct": 4.5455
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

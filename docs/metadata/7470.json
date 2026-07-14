@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #7470",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mud Cracked"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Cleric Light"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Cleric Light"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Cleric Light"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Braid Blonde"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Terra Frames"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 7470,
+  "series_total": 8888,
+  "data": {
+    "image": "7470.png",
+    "dna": "bad4593442fdc974982a79a9661cfc21a8a4c871da7343433654dd20b36883ee",
+    "dna_raw": "bg_Blue#12.png|Mud Cracked#10.png|eyes_Blue#14.png|mouth#100.png|Cleric Light#10.png|Long_Braid_Blonde#8.png|Taped Terra Frames#1.png|Cleric Light#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 12,
+      "face": 10,
+      "eyes": 14,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 8,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "625/8878",
+    "rarity_score": 4e-12,
+    "rarity_tier": "Rare",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Blue",
+        "count": 938,
+        "pct": 10.5536
+      },
+      "Face": {
+        "value": "Mud Cracked",
+        "count": 386,
+        "pct": 4.3429
+      },
+      "Eyes": {
+        "value": "Blue",
+        "count": 1460,
+        "pct": 16.4266
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Cleric Light",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Shirt": {
+        "value": "Cleric Light",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Wizard Hat": {
+        "value": "Cleric Light",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Facial Hair": {
+        "value": "Long Braid Blonde",
+        "count": 136,
+        "pct": 1.5302
+      },
+      "Glasses": {
+        "value": "Terra Frames",
+        "count": 365,
+        "pct": 4.1067
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

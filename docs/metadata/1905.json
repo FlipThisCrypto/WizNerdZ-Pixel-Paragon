@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #1905",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Rune Etched"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Medium Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Arcane Mage"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Arcane Mage"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Arcane Mage"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Full Beard Dark Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Sanguine Sight"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 1905,
+  "series_total": 8888,
+  "data": {
+    "image": "1905.png",
+    "dna": "b0e4a2b3cc23df714a609811416a9b2cc60b6d7656e60daee71002ddcbfd5e06",
+    "dna_raw": "bg_Teal#8.png|Rune Etched#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Arcane Mage#10.png|Full_Beard_Dark_Brown#17.png|Sanguine Sight#8.png|Arcane Mage#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 10,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 17,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "5804/8878",
+    "rarity_score": 3.7e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Teal",
+        "count": 671,
+        "pct": 7.5495
+      },
+      "Face": {
+        "value": "Rune Etched",
+        "count": 381,
+        "pct": 4.2867
+      },
+      "Eyes": {
+        "value": "Medium Brown",
+        "count": 1015,
+        "pct": 11.4199
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Arcane Mage",
+        "count": 397,
+        "pct": 4.4667
+      },
+      "Shirt": {
+        "value": "Arcane Mage",
+        "count": 397,
+        "pct": 4.4667
+      },
+      "Wizard Hat": {
+        "value": "Arcane Mage",
+        "count": 397,
+        "pct": 4.4667
+      },
+      "Facial Hair": {
+        "value": "Full Beard Dark Brown",
+        "count": 256,
+        "pct": 2.8803
+      },
+      "Glasses": {
+        "value": "Sanguine Sight",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

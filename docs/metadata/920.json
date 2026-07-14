@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #920",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Celestial Blue"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Medium Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Shadow Priest"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Shadow Priest"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Shadow Priest"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Goatee Dark Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Fel Oculars"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 920,
+  "series_total": 8888,
+  "data": {
+    "image": "920.png",
+    "dna": "6d7a7a253f68eec0b657a9079a81d59537e39061f3a68913e41ad6e9a85ba6b7",
+    "dna_raw": "bg_Red.png|Celestial Blue#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Shadow Priest#10.png|Goatee_Dark_Brown#20.png|Fel Oculars#8.png|Shadow Priest#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 10,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 20,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "7730/8878",
+    "rarity_score": 5.9e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Red",
+        "count": 787,
+        "pct": 8.8546
+      },
+      "Face": {
+        "value": "Celestial Blue",
+        "count": 402,
+        "pct": 4.523
+      },
+      "Eyes": {
+        "value": "Medium Brown",
+        "count": 1015,
+        "pct": 11.4199
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Shadow Priest",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Shirt": {
+        "value": "Shadow Priest",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Wizard Hat": {
+        "value": "Shadow Priest",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Facial Hair": {
+        "value": "Goatee Dark Brown",
+        "count": 296,
+        "pct": 3.3303
+      },
+      "Glasses": {
+        "value": "Fel Oculars",
+        "count": 404,
+        "pct": 4.5455
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

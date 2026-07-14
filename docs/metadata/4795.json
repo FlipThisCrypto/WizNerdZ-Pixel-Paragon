@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #4795",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "White"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Storm Grey"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Chronomancer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Chronomancer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Chronomancer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Rounded Black"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Abyssal Shades"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 4795,
+  "series_total": 8888,
+  "data": {
+    "image": "4795.png",
+    "dna": "d4bacca06171239e59015b78fc296978539fbc8ea22118da4df9197810b0a5d8",
+    "dna_raw": "bg_White#6.png|Storm Grey#10.png|eyes_Green#12.png|mouth#100.png|Chronomancer#10.png|Long_Rounded_Black#26.png|Abyssal Shades#8.png|Chronomancer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 6,
+      "face": 10,
+      "eyes": 12,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 26,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "5332/8878",
+    "rarity_score": 3.4e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "White",
+        "count": 491,
+        "pct": 5.5243
+      },
+      "Face": {
+        "value": "Storm Grey",
+        "count": 404,
+        "pct": 4.5455
+      },
+      "Eyes": {
+        "value": "Green",
+        "count": 1297,
+        "pct": 14.5927
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Chronomancer",
+        "count": 354,
+        "pct": 3.9829
+      },
+      "Shirt": {
+        "value": "Chronomancer",
+        "count": 354,
+        "pct": 3.9829
+      },
+      "Wizard Hat": {
+        "value": "Chronomancer",
+        "count": 354,
+        "pct": 3.9829
+      },
+      "Facial Hair": {
+        "value": "Long Rounded Black",
+        "count": 373,
+        "pct": 4.1967
+      },
+      "Glasses": {
+        "value": "Abyssal Shades",
+        "count": 351,
+        "pct": 3.9491
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

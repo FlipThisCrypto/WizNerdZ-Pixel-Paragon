@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #8787",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Rune Etched"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Medium Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Alchemist"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Alchemist"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Alchemist"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Goatee White Gray"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Terra Frames"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 8787,
+  "series_total": 8888,
+  "data": {
+    "image": "8787.png",
+    "dna": "4794a7b3bae9bfe7c8c167c648ac9b89796398f8bb8058d8d37c373db97df7c8",
+    "dna_raw": "bg_Yellow#10.png|Rune Etched#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Alchemist#10.png|Goatee_White_Gray#8.png|Terra Frames#8.png|Alchemist#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 10,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 8,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "2043/8878",
+    "rarity_score": 1.4e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Yellow",
+        "count": 797,
+        "pct": 8.9671
+      },
+      "Face": {
+        "value": "Rune Etched",
+        "count": 381,
+        "pct": 4.2867
+      },
+      "Eyes": {
+        "value": "Medium Brown",
+        "count": 1015,
+        "pct": 11.4199
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Alchemist",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Shirt": {
+        "value": "Alchemist",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Wizard Hat": {
+        "value": "Alchemist",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Facial Hair": {
+        "value": "Goatee White Gray",
+        "count": 97,
+        "pct": 1.0914
+      },
+      "Glasses": {
+        "value": "Terra Frames",
+        "count": 365,
+        "pct": 4.1067
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

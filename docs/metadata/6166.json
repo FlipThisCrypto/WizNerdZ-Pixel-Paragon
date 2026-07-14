@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #6166",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Silver"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mana Veined"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Rune Keeper"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Rune Keeper"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Rune Keeper"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Pointy Blonde"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Magma Goggles"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 6166,
+  "series_total": 8888,
+  "data": {
+    "image": "6166.png",
+    "dna": "05400181b419f07abf36d559cfc5c2fa2f629b6d8aecd010cf9f0bbc40e5df9d",
+    "dna_raw": "bg_Silver#4.png|Mana Veined#10.png|eyes_Gray#8.png|mouth#100.png|Rune Keeper#10.png|Long_Pointy_Blonde#12.png|Magma Goggles#8.png|Rune Keeper#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 4,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 12,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1304/8878",
+    "rarity_score": 9e-12,
+    "rarity_tier": "Rare",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Silver",
+        "count": 328,
+        "pct": 3.6904
+      },
+      "Face": {
+        "value": "Mana Veined",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Eyes": {
+        "value": "Gray",
+        "count": 818,
+        "pct": 9.2034
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Rune Keeper",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Shirt": {
+        "value": "Rune Keeper",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Wizard Hat": {
+        "value": "Rune Keeper",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Facial Hair": {
+        "value": "Long Pointy Blonde",
+        "count": 169,
+        "pct": 1.9014
+      },
+      "Glasses": {
+        "value": "Magma Goggles",
+        "count": 385,
+        "pct": 4.3317
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

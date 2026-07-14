@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #3993",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Rotten Flesh"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Light Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Mystic Seer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Mystic Seer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Mystic Seer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Goatee Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Divine Spectacles"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 3993,
+  "series_total": 8888,
+  "data": {
+    "image": "3993.png",
+    "dna": "68b6139c4ef7bc6229480bba250a77ec774324945fcbecdb7b3aa4b0d2fff3d0",
+    "dna_raw": "bg_Yellow#10.png|Rotten Flesh#10.png|eyes_Light_Brown#8.png|mouth#100.png|Mystic Seer#10.png|Goatee_Brown#18.png|Divine Spectacles#8.png|Mystic Seer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 18,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "5530/8878",
+    "rarity_score": 3.5e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Yellow",
+        "count": 797,
+        "pct": 8.9671
+      },
+      "Face": {
+        "value": "Rotten Flesh",
+        "count": 374,
+        "pct": 4.2079
+      },
+      "Eyes": {
+        "value": "Light Brown",
+        "count": 846,
+        "pct": 9.5185
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Mystic Seer",
+        "count": 384,
+        "pct": 4.3204
+      },
+      "Shirt": {
+        "value": "Mystic Seer",
+        "count": 384,
+        "pct": 4.3204
+      },
+      "Wizard Hat": {
+        "value": "Mystic Seer",
+        "count": 384,
+        "pct": 4.3204
+      },
+      "Facial Hair": {
+        "value": "Goatee Brown",
+        "count": 277,
+        "pct": 3.1166
+      },
+      "Glasses": {
+        "value": "Divine Spectacles",
+        "count": 393,
+        "pct": 4.4217
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

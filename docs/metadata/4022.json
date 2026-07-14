@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #4022",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Charred Ash"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Deep Sea"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Deep Sea"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Deep Sea"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Pointy White Gray"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Sanguine Sight"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 4022,
+  "series_total": 8888,
+  "data": {
+    "image": "4022.png",
+    "dna": "6edb94a2dfd5088e8da33e8e27bd4eb94058c1366b9bb97c79b76c8a6aa9d55b",
+    "dna_raw": "bg_Gray#6.png|Charred Ash#10.png|eyes_Green#12.png|mouth#100.png|Deep Sea#10.png|Long_Pointy_White_Gray#8.png|Sanguine Sight#8.png|Deep Sea#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 6,
+      "face": 10,
+      "eyes": 12,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 8,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "2827/8878",
+    "rarity_score": 1.8e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Gray",
+        "count": 462,
+        "pct": 5.198
+      },
+      "Face": {
+        "value": "Charred Ash",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Eyes": {
+        "value": "Green",
+        "count": 1297,
+        "pct": 14.5927
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Deep Sea",
+        "count": 419,
+        "pct": 4.7142
+      },
+      "Shirt": {
+        "value": "Deep Sea",
+        "count": 419,
+        "pct": 4.7142
+      },
+      "Wizard Hat": {
+        "value": "Deep Sea",
+        "count": 419,
+        "pct": 4.7142
+      },
+      "Facial Hair": {
+        "value": "Long Pointy White Gray",
+        "count": 116,
+        "pct": 1.3051
+      },
+      "Glasses": {
+        "value": "Sanguine Sight",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

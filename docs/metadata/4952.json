@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #4952",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Void Touched"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Hazel"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Necromancer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Necromancer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Necromancer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Medium Rounded Black"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Frost Sight"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 4952,
+  "series_total": 8888,
+  "data": {
+    "image": "4952.png",
+    "dna": "3fd33ea863afd7722d5fe1b055b7ed2406db6a87bb9830c19f790e6ba20c193e",
+    "dna_raw": "bg_Green#10.png|Void Touched#10.png|eyes_Hazel#10.png|mouth#100.png|Necromancer#10.png|Medium_Rounded_Black#33.png|Taped Frost Sight#1.png|Necromancer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 10,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 33,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1639/8878",
+    "rarity_score": 1.1e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Green",
+        "count": 837,
+        "pct": 9.4172
+      },
+      "Face": {
+        "value": "Void Touched",
+        "count": 414,
+        "pct": 4.658
+      },
+      "Eyes": {
+        "value": "Hazel",
+        "count": 1088,
+        "pct": 12.2412
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Necromancer",
+        "count": 388,
+        "pct": 4.3654
+      },
+      "Shirt": {
+        "value": "Necromancer",
+        "count": 388,
+        "pct": 4.3654
+      },
+      "Wizard Hat": {
+        "value": "Necromancer",
+        "count": 388,
+        "pct": 4.3654
+      },
+      "Facial Hair": {
+        "value": "Medium Rounded Black",
+        "count": 499,
+        "pct": 5.6143
+      },
+      "Glasses": {
+        "value": "Frost Sight",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

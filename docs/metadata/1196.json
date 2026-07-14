@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #1196",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Glamour Tint"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dark Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Earth Shaman"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Earth Shaman"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Earth Shaman"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Medium Rounded Black"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Potion Masters"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 1196,
+  "series_total": 8888,
+  "data": {
+    "image": "1196.png",
+    "dna": "fce65e6b1969722159641890f2e5b43bda7de1960421cf2c6a6769289cae2f23",
+    "dna_raw": "bg_Gold#3.png|Glamour Tint#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Earth Shaman#10.png|Medium_Rounded_Black#33.png|Potion Masters#8.png|Earth Shaman#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 3,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 33,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "3569/8878",
+    "rarity_score": 2.2e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Gold",
+        "count": 238,
+        "pct": 2.6778
+      },
+      "Face": {
+        "value": "Glamour Tint",
+        "count": 384,
+        "pct": 4.3204
+      },
+      "Eyes": {
+        "value": "Dark Brown",
+        "count": 827,
+        "pct": 9.3047
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Earth Shaman",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Shirt": {
+        "value": "Earth Shaman",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Wizard Hat": {
+        "value": "Earth Shaman",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Facial Hair": {
+        "value": "Medium Rounded Black",
+        "count": 499,
+        "pct": 5.6143
+      },
+      "Glasses": {
+        "value": "Potion Masters",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

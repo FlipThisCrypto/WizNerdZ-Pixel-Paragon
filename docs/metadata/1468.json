@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #1468",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Potion Stained"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Pyromancer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Pyromancer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Pyromancer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Pointy Dark Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Frost Sight"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 1468,
+  "series_total": 8888,
+  "data": {
+    "image": "1468.png",
+    "dna": "c9021483830ae97e67491c27c448c45310561b1166e8069cc7dc88bae4a7b5f9",
+    "dna_raw": "bg_Blue#12.png|Potion Stained#10.png|eyes_Green#12.png|mouth#100.png|Pyromancer#10.png|Long_Pointy_Dark_Brown#20.png|Taped Frost Sight#1.png|Pyromancer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 12,
+      "face": 10,
+      "eyes": 12,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 20,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1146/8878",
+    "rarity_score": 8e-12,
+    "rarity_tier": "Rare",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Blue",
+        "count": 938,
+        "pct": 10.5536
+      },
+      "Face": {
+        "value": "Potion Stained",
+        "count": 422,
+        "pct": 4.748
+      },
+      "Eyes": {
+        "value": "Green",
+        "count": 1297,
+        "pct": 14.5927
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Pyromancer",
+        "count": 355,
+        "pct": 3.9941
+      },
+      "Shirt": {
+        "value": "Pyromancer",
+        "count": 355,
+        "pct": 3.9941
+      },
+      "Wizard Hat": {
+        "value": "Pyromancer",
+        "count": 355,
+        "pct": 3.9941
+      },
+      "Facial Hair": {
+        "value": "Long Pointy Dark Brown",
+        "count": 332,
+        "pct": 3.7354
+      },
+      "Glasses": {
+        "value": "Frost Sight",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

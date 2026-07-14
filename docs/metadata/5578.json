@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #5578",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Desiccated"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Alchemist"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Alchemist"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Alchemist"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Chin Strap Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Oracle Orbs"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 5578,
+  "series_total": 8888,
+  "data": {
+    "image": "5578.png",
+    "dna": "1170d597129cd4a88c230f7cbe4254b1c75bb02e7eea6d5e3cddb7b3afc0fbc5",
+    "dna_raw": "bg_Yellow#10.png|Desiccated#10.png|eyes_Gray#8.png|mouth#100.png|Alchemist#10.png|Chin_Strap_Brown#9.png|Taped Oracle Orbs#1.png|Alchemist#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 9,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "117/8878",
+    "rarity_score": 2e-12,
+    "rarity_tier": "Epic",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Yellow",
+        "count": 797,
+        "pct": 8.9671
+      },
+      "Face": {
+        "value": "Desiccated",
+        "count": 396,
+        "pct": 4.4554
+      },
+      "Eyes": {
+        "value": "Gray",
+        "count": 818,
+        "pct": 9.2034
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Alchemist",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Shirt": {
+        "value": "Alchemist",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Wizard Hat": {
+        "value": "Alchemist",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Facial Hair": {
+        "value": "Chin Strap Brown",
+        "count": 110,
+        "pct": 1.2376
+      },
+      "Glasses": {
+        "value": "Oracle Orbs",
+        "count": 361,
+        "pct": 4.0617
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

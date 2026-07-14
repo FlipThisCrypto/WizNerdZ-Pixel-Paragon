@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #4109",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "White"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mana Veined"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Pyromancer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Pyromancer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Pyromancer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Full Beard Blonde"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Potion Masters"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 4109,
+  "series_total": 8888,
+  "data": {
+    "image": "4109.png",
+    "dna": "1ec1ec64fa1c25c09296f3217133635dedd141c3c6c7b239279921f1860ab43e",
+    "dna_raw": "bg_White#6.png|Mana Veined#10.png|eyes_Green#12.png|mouth#100.png|Pyromancer#10.png|Full_Beard_Blonde#10.png|Potion Masters#8.png|Pyromancer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 6,
+      "face": 10,
+      "eyes": 12,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 10,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "2258/8878",
+    "rarity_score": 1.5e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "White",
+        "count": 491,
+        "pct": 5.5243
+      },
+      "Face": {
+        "value": "Mana Veined",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Eyes": {
+        "value": "Green",
+        "count": 1297,
+        "pct": 14.5927
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Pyromancer",
+        "count": 355,
+        "pct": 3.9941
+      },
+      "Shirt": {
+        "value": "Pyromancer",
+        "count": 355,
+        "pct": 3.9941
+      },
+      "Wizard Hat": {
+        "value": "Pyromancer",
+        "count": 355,
+        "pct": 3.9941
+      },
+      "Facial Hair": {
+        "value": "Full Beard Blonde",
+        "count": 156,
+        "pct": 1.7552
+      },
+      "Glasses": {
+        "value": "Potion Masters",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

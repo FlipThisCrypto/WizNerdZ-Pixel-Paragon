@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #277",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Exsanguinated"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Hazel"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Void Walker"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Void Walker"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Void Walker"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Chin Strap Blonde"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Lich Lenses"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 277,
+  "series_total": 8888,
+  "data": {
+    "image": "277.png",
+    "dna": "085041b1aa4a4db15be7a7c90aa27ce4be022d16742ad11c12562500a4655946",
+    "dna_raw": "bg_Blue#12.png|Exsanguinated#10.png|eyes_Hazel#10.png|mouth#100.png|Void Walker#10.png|Chin_Strap_Blonde#6.png|Lich Lenses#8.png|Void Walker#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 12,
+      "face": 10,
+      "eyes": 10,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 6,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "2153/8878",
+    "rarity_score": 1.5e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Blue",
+        "count": 938,
+        "pct": 10.5536
+      },
+      "Face": {
+        "value": "Exsanguinated",
+        "count": 329,
+        "pct": 3.7016
+      },
+      "Eyes": {
+        "value": "Hazel",
+        "count": 1088,
+        "pct": 12.2412
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Void Walker",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Shirt": {
+        "value": "Void Walker",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Wizard Hat": {
+        "value": "Void Walker",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Facial Hair": {
+        "value": "Chin Strap Blonde",
+        "count": 99,
+        "pct": 1.1139
+      },
+      "Glasses": {
+        "value": "Lich Lenses",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

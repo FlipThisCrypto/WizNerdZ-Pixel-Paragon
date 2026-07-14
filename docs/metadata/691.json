@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #691",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Charred Ash"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Hazel"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Pyromancer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Pyromancer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Pyromancer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Full Beard White Gray"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Oracle Orbs"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 691,
+  "series_total": 8888,
+  "data": {
+    "image": "691.png",
+    "dna": "4356bd48242439e900c48def6f5683bf876cccd1b48c7d0edc206003f4520417",
+    "dna_raw": "bg_Pink#8.png|Charred Ash#10.png|eyes_Hazel#10.png|mouth#100.png|Pyromancer#10.png|Full_Beard_White_Gray#7.png|Oracle Orbs#8.png|Pyromancer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 10,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 7,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1680/8878",
+    "rarity_score": 1.2e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Pink",
+        "count": 641,
+        "pct": 7.212
+      },
+      "Face": {
+        "value": "Charred Ash",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Eyes": {
+        "value": "Hazel",
+        "count": 1088,
+        "pct": 12.2412
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Pyromancer",
+        "count": 355,
+        "pct": 3.9941
+      },
+      "Shirt": {
+        "value": "Pyromancer",
+        "count": 355,
+        "pct": 3.9941
+      },
+      "Wizard Hat": {
+        "value": "Pyromancer",
+        "count": 355,
+        "pct": 3.9941
+      },
+      "Facial Hair": {
+        "value": "Full Beard White Gray",
+        "count": 116,
+        "pct": 1.3051
+      },
+      "Glasses": {
+        "value": "Oracle Orbs",
+        "count": 361,
+        "pct": 4.0617
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

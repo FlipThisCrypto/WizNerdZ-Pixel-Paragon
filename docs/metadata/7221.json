@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #7221",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Void Touched"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Amber"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Cleric Light"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Cleric Light"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Cleric Light"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Chin Strap Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Fel Oculars"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 7221,
+  "series_total": 8888,
+  "data": {
+    "image": "7221.png",
+    "dna": "d6a43122e8842d00aa8097e56af976b8f9e74c11c05c31977d5e7d796c5c07e3",
+    "dna_raw": "bg_Gold#3.png|Void Touched#10.png|eyes_Amber#6.png|mouth#100.png|Cleric Light#10.png|Chin_Strap_Brown#9.png|Taped Fel Oculars#1.png|Cleric Light#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 3,
+      "face": 10,
+      "eyes": 6,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 9,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "3/8878",
+    "rarity_score": 0.0,
+    "rarity_tier": "Legendary",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Gold",
+        "count": 238,
+        "pct": 2.6778
+      },
+      "Face": {
+        "value": "Void Touched",
+        "count": 414,
+        "pct": 4.658
+      },
+      "Eyes": {
+        "value": "Amber",
+        "count": 653,
+        "pct": 7.347
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Cleric Light",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Shirt": {
+        "value": "Cleric Light",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Wizard Hat": {
+        "value": "Cleric Light",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Facial Hair": {
+        "value": "Chin Strap Brown",
+        "count": 110,
+        "pct": 1.2376
+      },
+      "Glasses": {
+        "value": "Fel Oculars",
+        "count": 404,
+        "pct": 4.5455
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

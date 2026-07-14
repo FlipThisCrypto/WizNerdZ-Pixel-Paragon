@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #6068",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Frostbitten"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Storm Caller"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Storm Caller"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Storm Caller"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Medium Rounded Blonde"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Frost Sight"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 6068,
+  "series_total": 8888,
+  "data": {
+    "image": "6068.png",
+    "dna": "2131f82e69a2f5a4801f27562f5c238ba0ccd185a46e5d45294e689b4a67df48",
+    "dna_raw": "bg_Teal#8.png|Frostbitten#10.png|eyes_Blue#14.png|mouth#100.png|Storm Caller#10.png|Medium_Rounded_Blonde#18.png|Taped Frost Sight#1.png|Storm Caller#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 14,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 18,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1220/8878",
+    "rarity_score": 8e-12,
+    "rarity_tier": "Rare",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Teal",
+        "count": 671,
+        "pct": 7.5495
+      },
+      "Face": {
+        "value": "Frostbitten",
+        "count": 389,
+        "pct": 4.3767
+      },
+      "Eyes": {
+        "value": "Blue",
+        "count": 1460,
+        "pct": 16.4266
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Storm Caller",
+        "count": 429,
+        "pct": 4.8267
+      },
+      "Shirt": {
+        "value": "Storm Caller",
+        "count": 429,
+        "pct": 4.8267
+      },
+      "Wizard Hat": {
+        "value": "Storm Caller",
+        "count": 429,
+        "pct": 4.8267
+      },
+      "Facial Hair": {
+        "value": "Medium Rounded Blonde",
+        "count": 269,
+        "pct": 3.0266
+      },
+      "Glasses": {
+        "value": "Frost Sight",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

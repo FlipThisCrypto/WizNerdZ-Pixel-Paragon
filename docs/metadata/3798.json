@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #3798",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Chaos Warped"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Spirit Guide"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Spirit Guide"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Spirit Guide"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Full Beard Red Orange"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Epoch Eyes"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 3798,
+  "series_total": 8888,
+  "data": {
+    "image": "3798.png",
+    "dna": "b3aba7c2b5cdc4f2ecd29345644a7f7a98205a6743900c8a340746cfe9f915b4",
+    "dna_raw": "bg_Gray#6.png|Chaos Warped#10.png|eyes_Gray#8.png|mouth#100.png|Spirit Guide#10.png|Full_Beard_Red_Orange#8.png|Epoch Eyes#8.png|Spirit Guide#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 6,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 8,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1565/8878",
+    "rarity_score": 1.1e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Gray",
+        "count": 462,
+        "pct": 5.198
+      },
+      "Face": {
+        "value": "Chaos Warped",
+        "count": 400,
+        "pct": 4.5005
+      },
+      "Eyes": {
+        "value": "Gray",
+        "count": 818,
+        "pct": 9.2034
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Spirit Guide",
+        "count": 424,
+        "pct": 4.7705
+      },
+      "Shirt": {
+        "value": "Spirit Guide",
+        "count": 424,
+        "pct": 4.7705
+      },
+      "Wizard Hat": {
+        "value": "Spirit Guide",
+        "count": 424,
+        "pct": 4.7705
+      },
+      "Facial Hair": {
+        "value": "Full Beard Red Orange",
+        "count": 123,
+        "pct": 1.3839
+      },
+      "Glasses": {
+        "value": "Epoch Eyes",
+        "count": 339,
+        "pct": 3.8141
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

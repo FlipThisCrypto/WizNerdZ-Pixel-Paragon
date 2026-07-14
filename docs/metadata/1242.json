@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #1242",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Violet"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Drowned"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dark Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "High Sorcerer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "High Sorcerer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "High Sorcerer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Medium Rounded Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Crimson Glare"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 1242,
+  "series_total": 8888,
+  "data": {
+    "image": "1242.png",
+    "dna": "ab4751f8bdbd3f3a018254f09c5d8fcc72ca10f3b3a84ded0d334bec2581f988",
+    "dna_raw": "bg_Violet#8.png|Drowned#10.png|eyes_Dark_Brown#8.png|mouth#100.png|High Sorcerer#10.png|Medium_Rounded_Brown#27.png|Taped Crimson Glare#1.png|High Sorcerer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 27,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "555/8878",
+    "rarity_score": 4e-12,
+    "rarity_tier": "Rare",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Violet",
+        "count": 676,
+        "pct": 7.6058
+      },
+      "Face": {
+        "value": "Drowned",
+        "count": 381,
+        "pct": 4.2867
+      },
+      "Eyes": {
+        "value": "Dark Brown",
+        "count": 827,
+        "pct": 9.3047
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "High Sorcerer",
+        "count": 358,
+        "pct": 4.0279
+      },
+      "Shirt": {
+        "value": "High Sorcerer",
+        "count": 358,
+        "pct": 4.0279
+      },
+      "Wizard Hat": {
+        "value": "High Sorcerer",
+        "count": 358,
+        "pct": 4.0279
+      },
+      "Facial Hair": {
+        "value": "Medium Rounded Brown",
+        "count": 373,
+        "pct": 4.1967
+      },
+      "Glasses": {
+        "value": "Crimson Glare",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

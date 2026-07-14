@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #6532",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Celestial Blue"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Cleric Light"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Cleric Light"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Cleric Light"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Braid Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Dune Drifters"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 6532,
+  "series_total": 8888,
+  "data": {
+    "image": "6532.png",
+    "dna": "b7ac4e20a4952f7d91b419e6cd6159c736be0866b4615d89d21f6362ffc5fb3a",
+    "dna_raw": "bg_Black#5.png|Celestial Blue#10.png|eyes_Gray#8.png|mouth#100.png|Cleric Light#10.png|Long_Braid_Brown#12.png|Dune Drifters#8.png|Cleric Light#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 5,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 12,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1807/8878",
+    "rarity_score": 1.2e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Black",
+        "count": 403,
+        "pct": 4.5342
+      },
+      "Face": {
+        "value": "Celestial Blue",
+        "count": 402,
+        "pct": 4.523
+      },
+      "Eyes": {
+        "value": "Gray",
+        "count": 818,
+        "pct": 9.2034
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Cleric Light",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Shirt": {
+        "value": "Cleric Light",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Wizard Hat": {
+        "value": "Cleric Light",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Facial Hair": {
+        "value": "Long Braid Brown",
+        "count": 177,
+        "pct": 1.9914
+      },
+      "Glasses": {
+        "value": "Dune Drifters",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

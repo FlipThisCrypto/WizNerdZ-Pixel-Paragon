@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #4406",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Rotten Flesh"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Chronomancer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Chronomancer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Chronomancer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Goatee Dark Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Lich Lenses"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 4406,
+  "series_total": 8888,
+  "data": {
+    "image": "4406.png",
+    "dna": "2fe99dd49f230a5ebd6ae899f769579c88dfc31c2379026cd3526584014a09d2",
+    "dna_raw": "bg_Teal#8.png|Rotten Flesh#10.png|eyes_Blue#14.png|mouth#100.png|Chronomancer#10.png|Goatee_Dark_Brown#20.png|Lich Lenses#8.png|Chronomancer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 14,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 20,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "6474/8878",
+    "rarity_score": 4.3e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Teal",
+        "count": 671,
+        "pct": 7.5495
+      },
+      "Face": {
+        "value": "Rotten Flesh",
+        "count": 374,
+        "pct": 4.2079
+      },
+      "Eyes": {
+        "value": "Blue",
+        "count": 1460,
+        "pct": 16.4266
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Chronomancer",
+        "count": 354,
+        "pct": 3.9829
+      },
+      "Shirt": {
+        "value": "Chronomancer",
+        "count": 354,
+        "pct": 3.9829
+      },
+      "Wizard Hat": {
+        "value": "Chronomancer",
+        "count": 354,
+        "pct": 3.9829
+      },
+      "Facial Hair": {
+        "value": "Goatee Dark Brown",
+        "count": 296,
+        "pct": 3.3303
+      },
+      "Glasses": {
+        "value": "Lich Lenses",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

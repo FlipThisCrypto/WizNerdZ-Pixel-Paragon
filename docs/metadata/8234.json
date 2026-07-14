@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #8234",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Desiccated"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Mystic Seer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Mystic Seer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Mystic Seer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Medium Rounded Blonde"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Fel Oculars"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 8234,
+  "series_total": 8888,
+  "data": {
+    "image": "8234.png",
+    "dna": "3a1ee3e92139863c44e2a0c71f6025aa2c1b201c28ebb590e6bb9d2f424e4805",
+    "dna_raw": "bg_Yellow#10.png|Desiccated#10.png|eyes_Green#12.png|mouth#100.png|Mystic Seer#10.png|Medium_Rounded_Blonde#18.png|Fel Oculars#8.png|Mystic Seer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 12,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 18,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "7641/8878",
+    "rarity_score": 5.7e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Yellow",
+        "count": 797,
+        "pct": 8.9671
+      },
+      "Face": {
+        "value": "Desiccated",
+        "count": 396,
+        "pct": 4.4554
+      },
+      "Eyes": {
+        "value": "Green",
+        "count": 1297,
+        "pct": 14.5927
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Mystic Seer",
+        "count": 384,
+        "pct": 4.3204
+      },
+      "Shirt": {
+        "value": "Mystic Seer",
+        "count": 384,
+        "pct": 4.3204
+      },
+      "Wizard Hat": {
+        "value": "Mystic Seer",
+        "count": 384,
+        "pct": 4.3204
+      },
+      "Facial Hair": {
+        "value": "Medium Rounded Blonde",
+        "count": 269,
+        "pct": 3.0266
+      },
+      "Glasses": {
+        "value": "Fel Oculars",
+        "count": 404,
+        "pct": 4.5455
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

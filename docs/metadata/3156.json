@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #3156",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Silver"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Bark Skin"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dark Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Blood Mage"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Blood Mage"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Blood Mage"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Full Beard Red Orange"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Abyssal Shades"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 3156,
+  "series_total": 8888,
+  "data": {
+    "image": "3156.png",
+    "dna": "afbe0a2a24ff769726ca10be9f3b4d1b6553d65e2fd81593f37a60ba23a5e612",
+    "dna_raw": "bg_Silver#4.png|Bark Skin#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Blood Mage#10.png|Full_Beard_Red_Orange#8.png|Taped Abyssal Shades#1.png|Blood Mage#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 4,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 8,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "11/8878",
+    "rarity_score": 1e-12,
+    "rarity_tier": "Legendary",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Silver",
+        "count": 328,
+        "pct": 3.6904
+      },
+      "Face": {
+        "value": "Bark Skin",
+        "count": 358,
+        "pct": 4.0279
+      },
+      "Eyes": {
+        "value": "Dark Brown",
+        "count": 827,
+        "pct": 9.3047
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Blood Mage",
+        "count": 367,
+        "pct": 4.1292
+      },
+      "Shirt": {
+        "value": "Blood Mage",
+        "count": 367,
+        "pct": 4.1292
+      },
+      "Wizard Hat": {
+        "value": "Blood Mage",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Facial Hair": {
+        "value": "Full Beard Red Orange",
+        "count": 123,
+        "pct": 1.3839
+      },
+      "Glasses": {
+        "value": "Abyssal Shades",
+        "count": 351,
+        "pct": 3.9491
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

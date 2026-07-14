@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #1530",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mana Veined"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Sand Sage"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Sand Sage"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Sand Sage"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Braid Blonde"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Entropy Shades"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 1530,
+  "series_total": 8888,
+  "data": {
+    "image": "1530.png",
+    "dna": "6b94c49379665ea01a023727cc4dc948ea06a154e01f343702b088eb39a94dfc",
+    "dna_raw": "bg_Yellow#10.png|Mana Veined#10.png|eyes_Blue#14.png|mouth#100.png|Sand Sage#10.png|Long_Braid_Blonde#8.png|Entropy Shades#8.png|Sand Sage#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 14,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 8,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "4663/8878",
+    "rarity_score": 2.9e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Yellow",
+        "count": 797,
+        "pct": 8.9671
+      },
+      "Face": {
+        "value": "Mana Veined",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Eyes": {
+        "value": "Blue",
+        "count": 1460,
+        "pct": 16.4266
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Sand Sage",
+        "count": 378,
+        "pct": 4.2529
+      },
+      "Shirt": {
+        "value": "Sand Sage",
+        "count": 378,
+        "pct": 4.2529
+      },
+      "Wizard Hat": {
+        "value": "Sand Sage",
+        "count": 378,
+        "pct": 4.2529
+      },
+      "Facial Hair": {
+        "value": "Long Braid Blonde",
+        "count": 136,
+        "pct": 1.5302
+      },
+      "Glasses": {
+        "value": "Entropy Shades",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

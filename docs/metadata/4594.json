@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #4594",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Violet"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Chaos Warped"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Illusionist"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Illusionist"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Illusionist"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Medium Rounded Dark Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Oracle Orbs"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 4594,
+  "series_total": 8888,
+  "data": {
+    "image": "4594.png",
+    "dna": "33d43b54c0994e031ba4a88be870c95349df937509bf29fbb669e97d37d32243",
+    "dna_raw": "bg_Violet#8.png|Chaos Warped#10.png|eyes_Blue#14.png|mouth#100.png|Illusionist#10.png|Medium_Rounded_Dark_Brown#30.png|Oracle Orbs#8.png|Illusionist#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 14,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 30,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "8473/8878",
+    "rarity_score": 7.9e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Violet",
+        "count": 676,
+        "pct": 7.6058
+      },
+      "Face": {
+        "value": "Chaos Warped",
+        "count": 400,
+        "pct": 4.5005
+      },
+      "Eyes": {
+        "value": "Blue",
+        "count": 1460,
+        "pct": 16.4266
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Illusionist",
+        "count": 375,
+        "pct": 4.2192
+      },
+      "Shirt": {
+        "value": "Illusionist",
+        "count": 375,
+        "pct": 4.2192
+      },
+      "Wizard Hat": {
+        "value": "Illusionist",
+        "count": 375,
+        "pct": 4.2192
+      },
+      "Facial Hair": {
+        "value": "Medium Rounded Dark Brown",
+        "count": 458,
+        "pct": 5.153
+      },
+      "Glasses": {
+        "value": "Oracle Orbs",
+        "count": 361,
+        "pct": 4.0617
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

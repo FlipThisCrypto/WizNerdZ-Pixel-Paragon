@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #4441",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Rune Etched"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Medium Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Necromancer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Necromancer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Necromancer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Medium Rounded Blonde"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Omen Readers"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 4441,
+  "series_total": 8888,
+  "data": {
+    "image": "4441.png",
+    "dna": "5fe92e70c8caeb0b67da9b0c54d64b5223c07e76eee8113f44c470c381162c63",
+    "dna_raw": "bg_Orange#8.png|Rune Etched#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Necromancer#10.png|Medium_Rounded_Blonde#18.png|Omen Readers#8.png|Necromancer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 10,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 18,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "5745/8878",
+    "rarity_score": 3.7e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Orange",
+        "count": 655,
+        "pct": 7.3695
+      },
+      "Face": {
+        "value": "Rune Etched",
+        "count": 381,
+        "pct": 4.2867
+      },
+      "Eyes": {
+        "value": "Medium Brown",
+        "count": 1015,
+        "pct": 11.4199
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Necromancer",
+        "count": 388,
+        "pct": 4.3654
+      },
+      "Shirt": {
+        "value": "Necromancer",
+        "count": 388,
+        "pct": 4.3654
+      },
+      "Wizard Hat": {
+        "value": "Necromancer",
+        "count": 388,
+        "pct": 4.3654
+      },
+      "Facial Hair": {
+        "value": "Medium Rounded Blonde",
+        "count": 269,
+        "pct": 3.0266
+      },
+      "Glasses": {
+        "value": "Omen Readers",
+        "count": 408,
+        "pct": 4.5905
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

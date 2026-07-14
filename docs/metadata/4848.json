@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #4848",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mud Cracked"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Light Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Sand Sage"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Sand Sage"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Sand Sage"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Full Beard Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Ethereal Visions"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 4848,
+  "series_total": 8888,
+  "data": {
+    "image": "4848.png",
+    "dna": "29ec22e1cbd9fdd3b31c3e35395c07d4b8cb70c7e9b6bdd6083f498c8d776287",
+    "dna_raw": "bg_Red.png|Mud Cracked#10.png|eyes_Light_Brown#8.png|mouth#100.png|Sand Sage#10.png|Full_Beard_Brown#15.png|Ethereal Visions#8.png|Sand Sage#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 15,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "3915/8878",
+    "rarity_score": 2.4e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Red",
+        "count": 787,
+        "pct": 8.8546
+      },
+      "Face": {
+        "value": "Mud Cracked",
+        "count": 386,
+        "pct": 4.3429
+      },
+      "Eyes": {
+        "value": "Light Brown",
+        "count": 846,
+        "pct": 9.5185
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Sand Sage",
+        "count": 378,
+        "pct": 4.2529
+      },
+      "Shirt": {
+        "value": "Sand Sage",
+        "count": 378,
+        "pct": 4.2529
+      },
+      "Wizard Hat": {
+        "value": "Sand Sage",
+        "count": 378,
+        "pct": 4.2529
+      },
+      "Facial Hair": {
+        "value": "Full Beard Brown",
+        "count": 207,
+        "pct": 2.329
+      },
+      "Glasses": {
+        "value": "Ethereal Visions",
+        "count": 372,
+        "pct": 4.1854
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

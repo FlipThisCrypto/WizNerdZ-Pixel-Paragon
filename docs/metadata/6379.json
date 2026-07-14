@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #6379",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mana Veined"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Deep Sea"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Deep Sea"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Deep Sea"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Braid Black"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Potion Masters"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 6379,
+  "series_total": 8888,
+  "data": {
+    "image": "6379.png",
+    "dna": "0a639202b446053e50af2d1c7221432db99ac93d73063e9c6014d347a46561c9",
+    "dna_raw": "bg_Red.png|Mana Veined#10.png|eyes_Green#12.png|mouth#100.png|Deep Sea#10.png|Long_Braid_Black#15.png|Potion Masters#8.png|Deep Sea#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 12,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 15,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "7616/8878",
+    "rarity_score": 5.7e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Red",
+        "count": 787,
+        "pct": 8.8546
+      },
+      "Face": {
+        "value": "Mana Veined",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Eyes": {
+        "value": "Green",
+        "count": 1297,
+        "pct": 14.5927
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Deep Sea",
+        "count": 419,
+        "pct": 4.7142
+      },
+      "Shirt": {
+        "value": "Deep Sea",
+        "count": 419,
+        "pct": 4.7142
+      },
+      "Wizard Hat": {
+        "value": "Deep Sea",
+        "count": 419,
+        "pct": 4.7142
+      },
+      "Facial Hair": {
+        "value": "Long Braid Black",
+        "count": 223,
+        "pct": 2.509
+      },
+      "Glasses": {
+        "value": "Potion Masters",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

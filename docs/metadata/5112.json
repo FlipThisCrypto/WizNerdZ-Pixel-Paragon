@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #5112",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Ghostly"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dark Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Chaos Weaver"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Chaos Weaver"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Chaos Weaver"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Goatee Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Astral Focus"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 5112,
+  "series_total": 8888,
+  "data": {
+    "image": "5112.png",
+    "dna": "e6e016027fc95f03ee5e953417b40f2ebf3f60554eb3b32bb8d434fbf4155eee",
+    "dna_raw": "bg_Brown#4.png|Ghostly#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Chaos Weaver#10.png|Goatee_Brown#18.png|Taped Astral Focus#1.png|Chaos Weaver#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 4,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 18,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "131/8878",
+    "rarity_score": 2e-12,
+    "rarity_tier": "Epic",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Brown",
+        "count": 327,
+        "pct": 3.6791
+      },
+      "Face": {
+        "value": "Ghostly",
+        "count": 412,
+        "pct": 4.6355
+      },
+      "Eyes": {
+        "value": "Dark Brown",
+        "count": 827,
+        "pct": 9.3047
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Chaos Weaver",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Shirt": {
+        "value": "Chaos Weaver",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Wizard Hat": {
+        "value": "Chaos Weaver",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Facial Hair": {
+        "value": "Goatee Brown",
+        "count": 277,
+        "pct": 3.1166
+      },
+      "Glasses": {
+        "value": "Astral Focus",
+        "count": 363,
+        "pct": 4.0842
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

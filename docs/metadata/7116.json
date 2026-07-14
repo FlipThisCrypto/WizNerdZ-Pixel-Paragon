@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #7116",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Violet"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Sands of Time"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Warlock Fel"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Warlock Fel"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Warlock Fel"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Chin Strap Red Orange"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Lich Lenses"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 7116,
+  "series_total": 8888,
+  "data": {
+    "image": "7116.png",
+    "dna": "6b907463a43bde81d17b13828447010fffffd192b3cde96a52c42f3f735f8a6e",
+    "dna_raw": "bg_Violet#8.png|Sands of Time#10.png|eyes_Green#12.png|mouth#100.png|Warlock Fel#10.png|Chin_Strap_Red_Orange#5.png|Lich Lenses#8.png|Warlock Fel#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 12,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 5,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1600/8878",
+    "rarity_score": 1.1e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Violet",
+        "count": 676,
+        "pct": 7.6058
+      },
+      "Face": {
+        "value": "Sands of Time",
+        "count": 363,
+        "pct": 4.0842
+      },
+      "Eyes": {
+        "value": "Green",
+        "count": 1297,
+        "pct": 14.5927
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Warlock Fel",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Shirt": {
+        "value": "Warlock Fel",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Wizard Hat": {
+        "value": "Warlock Fel",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Facial Hair": {
+        "value": "Chin Strap Red Orange",
+        "count": 64,
+        "pct": 0.7201
+      },
+      "Glasses": {
+        "value": "Lich Lenses",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

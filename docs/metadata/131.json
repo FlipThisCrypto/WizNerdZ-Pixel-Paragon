@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #131",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Exsanguinated"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Amber"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Cryomancer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Cryomancer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Cryomancer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Chin Strap Black"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Divine Spectacles"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 131,
+  "series_total": 8888,
+  "data": {
+    "image": "131.png",
+    "dna": "891b4a3b11f8eed43e5a569c592c52f25ffaa82d744a3c8e01b6b074a3ddfdbd",
+    "dna_raw": "bg_Green#10.png|Exsanguinated#10.png|eyes_Amber#6.png|mouth#100.png|Cryomancer#10.png|Chin_Strap_Black#11.png|Divine Spectacles#8.png|Cryomancer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 6,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 11,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1489/8878",
+    "rarity_score": 1e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Green",
+        "count": 837,
+        "pct": 9.4172
+      },
+      "Face": {
+        "value": "Exsanguinated",
+        "count": 329,
+        "pct": 3.7016
+      },
+      "Eyes": {
+        "value": "Amber",
+        "count": 653,
+        "pct": 7.347
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Cryomancer",
+        "count": 341,
+        "pct": 3.8366
+      },
+      "Shirt": {
+        "value": "Cryomancer",
+        "count": 341,
+        "pct": 3.8366
+      },
+      "Wizard Hat": {
+        "value": "Cryomancer",
+        "count": 341,
+        "pct": 3.8366
+      },
+      "Facial Hair": {
+        "value": "Chin Strap Black",
+        "count": 163,
+        "pct": 1.8339
+      },
+      "Glasses": {
+        "value": "Divine Spectacles",
+        "count": 393,
+        "pct": 4.4217
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

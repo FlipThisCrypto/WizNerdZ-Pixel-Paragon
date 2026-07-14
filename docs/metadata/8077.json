@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #8077",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Ghostly"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Amber"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Mystic Seer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Mystic Seer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Mystic Seer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Rounded White Gray"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Astral Focus"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 8077,
+  "series_total": 8888,
+  "data": {
+    "image": "8077.png",
+    "dna": "ee2fdaf2c75d3b01ec5ff6eb1b7a2d5842ea99e13ebf95c6d5c53c510b2acc7f",
+    "dna_raw": "bg_Red.png|Ghostly#10.png|eyes_Amber#6.png|mouth#100.png|Mystic Seer#10.png|Long_Rounded_White_Gray#9.png|Astral Focus#8.png|Mystic Seer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 6,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 9,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1956/8878",
+    "rarity_score": 1.3e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Red",
+        "count": 787,
+        "pct": 8.8546
+      },
+      "Face": {
+        "value": "Ghostly",
+        "count": 412,
+        "pct": 4.6355
+      },
+      "Eyes": {
+        "value": "Amber",
+        "count": 653,
+        "pct": 7.347
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Mystic Seer",
+        "count": 384,
+        "pct": 4.3204
+      },
+      "Shirt": {
+        "value": "Mystic Seer",
+        "count": 384,
+        "pct": 4.3204
+      },
+      "Wizard Hat": {
+        "value": "Mystic Seer",
+        "count": 384,
+        "pct": 4.3204
+      },
+      "Facial Hair": {
+        "value": "Long Rounded White Gray",
+        "count": 135,
+        "pct": 1.5189
+      },
+      "Glasses": {
+        "value": "Astral Focus",
+        "count": 363,
+        "pct": 4.0842
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

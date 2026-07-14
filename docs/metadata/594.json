@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #594",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Violet"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Void Touched"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Amber"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Rune Keeper"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Rune Keeper"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Rune Keeper"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Goatee Red Orange"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Dune Drifters"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 594,
+  "series_total": 8888,
+  "data": {
+    "image": "594.png",
+    "dna": "023c12b57c598bf6528226adc9c2fc927acde35857cc52afeffabd481cd07a16",
+    "dna_raw": "bg_Violet#8.png|Void Touched#10.png|eyes_Amber#6.png|mouth#100.png|Rune Keeper#10.png|Goatee_Red_Orange#10.png|Dune Drifters#8.png|Rune Keeper#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 6,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 10,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "2155/8878",
+    "rarity_score": 1.5e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Violet",
+        "count": 676,
+        "pct": 7.6058
+      },
+      "Face": {
+        "value": "Void Touched",
+        "count": 414,
+        "pct": 4.658
+      },
+      "Eyes": {
+        "value": "Amber",
+        "count": 653,
+        "pct": 7.347
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Rune Keeper",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Shirt": {
+        "value": "Rune Keeper",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Wizard Hat": {
+        "value": "Rune Keeper",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Facial Hair": {
+        "value": "Goatee Red Orange",
+        "count": 152,
+        "pct": 1.7102
+      },
+      "Glasses": {
+        "value": "Dune Drifters",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

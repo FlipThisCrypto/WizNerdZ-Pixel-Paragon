@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #6786",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Indigo"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mana Veined"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Hazel"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Vampire Lord"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Vampire Lord"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Vampire Lord"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Rounded Black"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Entropy Shades"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 6786,
+  "series_total": 8888,
+  "data": {
+    "image": "6786.png",
+    "dna": "7721de995bb71b71dda87eb7e9cfb00b1a1e68dcdc1be03da5b893488b1e0da7",
+    "dna_raw": "bg_Indigo#8.png|Mana Veined#10.png|eyes_Hazel#10.png|mouth#100.png|Vampire Lord#10.png|Long_Rounded_Black#26.png|Entropy Shades#8.png|Vampire Lord#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 10,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 26,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "7649/8878",
+    "rarity_score": 5.8e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Indigo",
+        "count": 636,
+        "pct": 7.1557
+      },
+      "Face": {
+        "value": "Mana Veined",
+        "count": 383,
+        "pct": 4.3092
+      },
+      "Eyes": {
+        "value": "Hazel",
+        "count": 1088,
+        "pct": 12.2412
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Vampire Lord",
+        "count": 403,
+        "pct": 4.5342
+      },
+      "Shirt": {
+        "value": "Vampire Lord",
+        "count": 403,
+        "pct": 4.5342
+      },
+      "Wizard Hat": {
+        "value": "Vampire Lord",
+        "count": 403,
+        "pct": 4.5342
+      },
+      "Facial Hair": {
+        "value": "Long Rounded Black",
+        "count": 373,
+        "pct": 4.1967
+      },
+      "Glasses": {
+        "value": "Entropy Shades",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

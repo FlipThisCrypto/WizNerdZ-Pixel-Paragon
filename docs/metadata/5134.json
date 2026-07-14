@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #5134",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mud Cracked"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dark Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Druid"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Druid"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Druid"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Rounded Red Orange"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Mystic Gaze"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 5134,
+  "series_total": 8888,
+  "data": {
+    "image": "5134.png",
+    "dna": "0dcd53369c2ddaff0980341ae98227ab7bcdc631133c6c4b8b2a05266fa20501",
+    "dna_raw": "bg_Brown#4.png|Mud Cracked#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Druid#10.png|Long_Rounded_Red_Orange#12.png|Mystic Gaze#8.png|Druid#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 4,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 12,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1492/8878",
+    "rarity_score": 1e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Brown",
+        "count": 327,
+        "pct": 3.6791
+      },
+      "Face": {
+        "value": "Mud Cracked",
+        "count": 386,
+        "pct": 4.3429
+      },
+      "Eyes": {
+        "value": "Dark Brown",
+        "count": 827,
+        "pct": 9.3047
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Druid",
+        "count": 396,
+        "pct": 4.4554
+      },
+      "Shirt": {
+        "value": "Druid",
+        "count": 396,
+        "pct": 4.4554
+      },
+      "Wizard Hat": {
+        "value": "Druid",
+        "count": 396,
+        "pct": 4.4554
+      },
+      "Facial Hair": {
+        "value": "Long Rounded Red Orange",
+        "count": 184,
+        "pct": 2.0702
+      },
+      "Glasses": {
+        "value": "Mystic Gaze",
+        "count": 384,
+        "pct": 4.3204
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

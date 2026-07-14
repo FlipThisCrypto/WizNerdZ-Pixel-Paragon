@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #5033",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Drowned"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Hazel"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Spirit Guide"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Spirit Guide"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Spirit Guide"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Medium Rounded Dark Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Oracle Orbs"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 5033,
+  "series_total": 8888,
+  "data": {
+    "image": "5033.png",
+    "dna": "51bb686a6ca10f3da7e8ef79f275bd54ea602b6c82f99ad4876efe89ef517f57",
+    "dna_raw": "bg_Gray#6.png|Drowned#10.png|eyes_Hazel#10.png|mouth#100.png|Spirit Guide#10.png|Medium_Rounded_Dark_Brown#30.png|Oracle Orbs#8.png|Spirit Guide#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 6,
+      "face": 10,
+      "eyes": 10,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 30,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "7476/8878",
+    "rarity_score": 5.5e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Gray",
+        "count": 462,
+        "pct": 5.198
+      },
+      "Face": {
+        "value": "Drowned",
+        "count": 381,
+        "pct": 4.2867
+      },
+      "Eyes": {
+        "value": "Hazel",
+        "count": 1088,
+        "pct": 12.2412
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Spirit Guide",
+        "count": 424,
+        "pct": 4.7705
+      },
+      "Shirt": {
+        "value": "Spirit Guide",
+        "count": 424,
+        "pct": 4.7705
+      },
+      "Wizard Hat": {
+        "value": "Spirit Guide",
+        "count": 424,
+        "pct": 4.7705
+      },
+      "Facial Hair": {
+        "value": "Medium Rounded Dark Brown",
+        "count": 458,
+        "pct": 5.153
+      },
+      "Glasses": {
+        "value": "Oracle Orbs",
+        "count": 361,
+        "pct": 4.0617
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

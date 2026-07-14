@@ -1,0 +1,98 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #5625",
+  "description": "Profet is a named WizNerd assembled only from official collection traits: Charred Ash face, Void Walker class-matched robe and hat, black goatee, abyssal shades, black background. 320x320 with collection outline.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Charred Ash"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dark Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Void Walker"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Void Walker"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Void Walker"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Goatee Black"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Abyssal Shades"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Name",
+      "value": "Profet"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Named"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Supply",
+      "value": "1"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 5625,
+  "series_total": 8888,
+  "data": {
+    "image": "5625.png",
+    "special": "Profet",
+    "special_key": "Profet",
+    "source": "Profet_640.png",
+    "canvas": "640x640",
+    "character_name": "Profet",
+    "max_supply": 1,
+    "edition": 1,
+    "rarity_rank": "1/1",
+    "rarity_tier": "1 of 1",
+    "rarity_weighted": false
+  }
+}

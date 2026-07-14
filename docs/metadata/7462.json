@@ -1,0 +1,98 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #7462",
+  "description": "Papa is a named WizNerd \u2014 Charred Ash face, Pyromancer class-matched robes and hat, yellow background, compact Louvered Shades. 320x320 collection style.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Charred Ash"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Pyromancer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Pyromancer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Pyromancer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Chin Strap Black"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Louvered Shades"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Name",
+      "value": "Papa"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Named"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Supply",
+      "value": "1"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 7462,
+  "series_total": 8888,
+  "data": {
+    "image": "7462.png",
+    "special": "Papa",
+    "special_key": "Papa",
+    "source": "Papa_640.png",
+    "canvas": "640x640",
+    "character_name": "Papa",
+    "max_supply": 1,
+    "edition": 1,
+    "rarity_rank": "1/1",
+    "rarity_tier": "1 of 1",
+    "rarity_weighted": false
+  }
+}

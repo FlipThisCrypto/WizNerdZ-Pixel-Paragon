@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #873",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Charred Ash"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Medium Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Void Walker"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Void Walker"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Void Walker"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Pointy Red Orange"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Astral Focus"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 873,
+  "series_total": 8888,
+  "data": {
+    "image": "873.png",
+    "dna": "134fc66ca3b216b6c22ba3c3e6eff7f3b67201bf10398efce9ff9c6c78db555e",
+    "dna_raw": "bg_Red.png|Charred Ash#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Void Walker#10.png|Long_Pointy_Red_Orange#10.png|Astral Focus#8.png|Void Walker#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 10,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 10,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "2558/8878",
+    "rarity_score": 1.7e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Red",
+        "count": 787,
+        "pct": 8.8546
+      },
+      "Face": {
+        "value": "Charred Ash",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Eyes": {
+        "value": "Medium Brown",
+        "count": 1015,
+        "pct": 11.4199
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Void Walker",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Shirt": {
+        "value": "Void Walker",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Wizard Hat": {
+        "value": "Void Walker",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Facial Hair": {
+        "value": "Long Pointy Red Orange",
+        "count": 131,
+        "pct": 1.4739
+      },
+      "Glasses": {
+        "value": "Astral Focus",
+        "count": 363,
+        "pct": 4.0842
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

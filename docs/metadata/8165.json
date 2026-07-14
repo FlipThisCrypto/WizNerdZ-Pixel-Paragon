@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #8165",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Celestial Blue"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Light Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Rune Keeper"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Rune Keeper"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Rune Keeper"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Braid Red Orange"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Crimson Glare"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 8165,
+  "series_total": 8888,
+  "data": {
+    "image": "8165.png",
+    "dna": "6e4cd40fe951d286f78265c848d4c07b07886e204fca2c9a6d4efddcf23efb54",
+    "dna_raw": "bg_Orange#8.png|Celestial Blue#10.png|eyes_Light_Brown#8.png|mouth#100.png|Rune Keeper#10.png|Long_Braid_Red_Orange#7.png|Crimson Glare#8.png|Rune Keeper#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 7,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1754/8878",
+    "rarity_score": 1.2e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Orange",
+        "count": 655,
+        "pct": 7.3695
+      },
+      "Face": {
+        "value": "Celestial Blue",
+        "count": 402,
+        "pct": 4.523
+      },
+      "Eyes": {
+        "value": "Light Brown",
+        "count": 846,
+        "pct": 9.5185
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Rune Keeper",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Shirt": {
+        "value": "Rune Keeper",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Wizard Hat": {
+        "value": "Rune Keeper",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Facial Hair": {
+        "value": "Long Braid Red Orange",
+        "count": 102,
+        "pct": 1.1476
+      },
+      "Glasses": {
+        "value": "Crimson Glare",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

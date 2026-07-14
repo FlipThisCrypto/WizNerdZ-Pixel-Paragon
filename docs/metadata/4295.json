@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #4295",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Frostbitten"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Light Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Shadow Priest"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Shadow Priest"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Shadow Priest"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Chin Strap Red Orange"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Sigil Scanners"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 4295,
+  "series_total": 8888,
+  "data": {
+    "image": "4295.png",
+    "dna": "9f5f6cf02cec98e28578a03bf831d39a9979c0e09ee259f8bd79b176dc1adaf1",
+    "dna_raw": "bg_Green#10.png|Frostbitten#10.png|eyes_Light_Brown#8.png|mouth#100.png|Shadow Priest#10.png|Chin_Strap_Red_Orange#5.png|Taped Sigil Scanners#1.png|Shadow Priest#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 5,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "69/8878",
+    "rarity_score": 1e-12,
+    "rarity_tier": "Legendary",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Green",
+        "count": 837,
+        "pct": 9.4172
+      },
+      "Face": {
+        "value": "Frostbitten",
+        "count": 389,
+        "pct": 4.3767
+      },
+      "Eyes": {
+        "value": "Light Brown",
+        "count": 846,
+        "pct": 9.5185
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Shadow Priest",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Shirt": {
+        "value": "Shadow Priest",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Wizard Hat": {
+        "value": "Shadow Priest",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Facial Hair": {
+        "value": "Chin Strap Red Orange",
+        "count": 64,
+        "pct": 0.7201
+      },
+      "Glasses": {
+        "value": "Sigil Scanners",
+        "count": 396,
+        "pct": 4.4554
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

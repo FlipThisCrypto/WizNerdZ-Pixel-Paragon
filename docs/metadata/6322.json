@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #6322",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Desiccated"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Sand Sage"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Sand Sage"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Sand Sage"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Goatee Blonde"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Crimson Glare"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 6322,
+  "series_total": 8888,
+  "data": {
+    "image": "6322.png",
+    "dna": "4f9b501bccf9a1a4be160589f48c783c0bd0e659edbf8c266d5fdb5c6f8c647a",
+    "dna_raw": "bg_Blue#12.png|Desiccated#10.png|eyes_Green#12.png|mouth#100.png|Sand Sage#10.png|Goatee_Blonde#12.png|Crimson Glare#8.png|Sand Sage#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 12,
+      "face": 10,
+      "eyes": 12,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 12,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "5520/8878",
+    "rarity_score": 3.5e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Blue",
+        "count": 938,
+        "pct": 10.5536
+      },
+      "Face": {
+        "value": "Desiccated",
+        "count": 396,
+        "pct": 4.4554
+      },
+      "Eyes": {
+        "value": "Green",
+        "count": 1297,
+        "pct": 14.5927
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Sand Sage",
+        "count": 378,
+        "pct": 4.2529
+      },
+      "Shirt": {
+        "value": "Sand Sage",
+        "count": 378,
+        "pct": 4.2529
+      },
+      "Wizard Hat": {
+        "value": "Sand Sage",
+        "count": 378,
+        "pct": 4.2529
+      },
+      "Facial Hair": {
+        "value": "Goatee Blonde",
+        "count": 151,
+        "pct": 1.6989
+      },
+      "Glasses": {
+        "value": "Crimson Glare",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

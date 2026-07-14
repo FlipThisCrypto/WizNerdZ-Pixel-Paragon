@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #8384",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Celestial Blue"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Warlock Fel"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Warlock Fel"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Warlock Fel"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Chin Strap White Gray"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Frost Sight"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 8384,
+  "series_total": 8888,
+  "data": {
+    "image": "8384.png",
+    "dna": "62f3fe0be0b05cc0cb1a8a076a415a85f36ea558c25516e95083700c26ae4ace",
+    "dna_raw": "bg_Red.png|Celestial Blue#10.png|eyes_Gray#8.png|mouth#100.png|Warlock Fel#10.png|Chin_Strap_White_Gray#4.png|Frost Sight#8.png|Warlock Fel#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 4,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1332/8878",
+    "rarity_score": 9e-12,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Red",
+        "count": 787,
+        "pct": 8.8546
+      },
+      "Face": {
+        "value": "Celestial Blue",
+        "count": 402,
+        "pct": 4.523
+      },
+      "Eyes": {
+        "value": "Gray",
+        "count": 818,
+        "pct": 9.2034
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Warlock Fel",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Shirt": {
+        "value": "Warlock Fel",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Wizard Hat": {
+        "value": "Warlock Fel",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Facial Hair": {
+        "value": "Chin Strap White Gray",
+        "count": 70,
+        "pct": 0.7876
+      },
+      "Glasses": {
+        "value": "Frost Sight",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #4632",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Desiccated"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Druid"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Druid"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Druid"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Pointy Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Omen Readers"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 4632,
+  "series_total": 8888,
+  "data": {
+    "image": "4632.png",
+    "dna": "cf850182c87affeda9b4cd4b94e1fee8b3541bc9308db8954a3853e50a7e99c9",
+    "dna_raw": "bg_Blue#12.png|Desiccated#10.png|eyes_Blue#14.png|mouth#100.png|Druid#10.png|Long_Pointy_Brown#18.png|Omen Readers#8.png|Druid#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 12,
+      "face": 10,
+      "eyes": 14,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 18,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "8574/8878",
+    "rarity_score": 8.4e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Blue",
+        "count": 938,
+        "pct": 10.5536
+      },
+      "Face": {
+        "value": "Desiccated",
+        "count": 396,
+        "pct": 4.4554
+      },
+      "Eyes": {
+        "value": "Blue",
+        "count": 1460,
+        "pct": 16.4266
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Druid",
+        "count": 396,
+        "pct": 4.4554
+      },
+      "Shirt": {
+        "value": "Druid",
+        "count": 396,
+        "pct": 4.4554
+      },
+      "Wizard Hat": {
+        "value": "Druid",
+        "count": 396,
+        "pct": 4.4554
+      },
+      "Facial Hair": {
+        "value": "Long Pointy Brown",
+        "count": 269,
+        "pct": 3.0266
+      },
+      "Glasses": {
+        "value": "Omen Readers",
+        "count": 408,
+        "pct": 4.5905
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

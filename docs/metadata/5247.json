@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #5247",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Rotten Flesh"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Rune Keeper"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Rune Keeper"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Rune Keeper"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Braid Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Tempest Visors"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 5247,
+  "series_total": 8888,
+  "data": {
+    "image": "5247.png",
+    "dna": "3038fb972e4cf5b79401a9c3e714667a52f196ef7ad4dc479c2381bcf3107321",
+    "dna_raw": "bg_Red.png|Rotten Flesh#10.png|eyes_Blue#14.png|mouth#100.png|Rune Keeper#10.png|Long_Braid_Brown#12.png|Tempest Visors#8.png|Rune Keeper#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 14,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 12,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "6163/8878",
+    "rarity_score": 4e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Red",
+        "count": 787,
+        "pct": 8.8546
+      },
+      "Face": {
+        "value": "Rotten Flesh",
+        "count": 374,
+        "pct": 4.2079
+      },
+      "Eyes": {
+        "value": "Blue",
+        "count": 1460,
+        "pct": 16.4266
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Rune Keeper",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Shirt": {
+        "value": "Rune Keeper",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Wizard Hat": {
+        "value": "Rune Keeper",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Facial Hair": {
+        "value": "Long Braid Brown",
+        "count": 177,
+        "pct": 1.9914
+      },
+      "Glasses": {
+        "value": "Tempest Visors",
+        "count": 393,
+        "pct": 4.4217
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

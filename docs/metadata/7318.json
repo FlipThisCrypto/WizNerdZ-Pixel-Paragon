@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #7318",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Desiccated"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Illusionist"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Illusionist"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Illusionist"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Full Beard Dark Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Sanguine Sight"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 7318,
+  "series_total": 8888,
+  "data": {
+    "image": "7318.png",
+    "dna": "4022788c036bd272f2de6a72ee675840166fc1b958463a7590f01ad280882dd1",
+    "dna_raw": "bg_Gold#3.png|Desiccated#10.png|eyes_Blue#14.png|mouth#100.png|Illusionist#10.png|Full_Beard_Dark_Brown#17.png|Sanguine Sight#8.png|Illusionist#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 3,
+      "face": 10,
+      "eyes": 14,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 17,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "2541/8878",
+    "rarity_score": 1.7e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Gold",
+        "count": 238,
+        "pct": 2.6778
+      },
+      "Face": {
+        "value": "Desiccated",
+        "count": 396,
+        "pct": 4.4554
+      },
+      "Eyes": {
+        "value": "Blue",
+        "count": 1460,
+        "pct": 16.4266
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Illusionist",
+        "count": 375,
+        "pct": 4.2192
+      },
+      "Shirt": {
+        "value": "Illusionist",
+        "count": 375,
+        "pct": 4.2192
+      },
+      "Wizard Hat": {
+        "value": "Illusionist",
+        "count": 375,
+        "pct": 4.2192
+      },
+      "Facial Hair": {
+        "value": "Full Beard Dark Brown",
+        "count": 256,
+        "pct": 2.8803
+      },
+      "Glasses": {
+        "value": "Sanguine Sight",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

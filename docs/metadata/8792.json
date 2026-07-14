@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #8792",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mud Cracked"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Earth Shaman"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Earth Shaman"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Earth Shaman"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Rounded Dark Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Trench Scopes"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 8792,
+  "series_total": 8888,
+  "data": {
+    "image": "8792.png",
+    "dna": "0683312d661b58bb980fac69aeac4913f4f0fc8e5751fd74ada93e7288ac5871",
+    "dna_raw": "bg_Teal#8.png|Mud Cracked#10.png|eyes_Blue#14.png|mouth#100.png|Earth Shaman#10.png|Long_Rounded_Dark_Brown#23.png|Trench Scopes#8.png|Earth Shaman#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 14,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 23,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "8301/8878",
+    "rarity_score": 7.2e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Teal",
+        "count": 671,
+        "pct": 7.5495
+      },
+      "Face": {
+        "value": "Mud Cracked",
+        "count": 386,
+        "pct": 4.3429
+      },
+      "Eyes": {
+        "value": "Blue",
+        "count": 1460,
+        "pct": 16.4266
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Earth Shaman",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Shirt": {
+        "value": "Earth Shaman",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Wizard Hat": {
+        "value": "Earth Shaman",
+        "count": 406,
+        "pct": 4.568
+      },
+      "Facial Hair": {
+        "value": "Long Rounded Dark Brown",
+        "count": 318,
+        "pct": 3.5779
+      },
+      "Glasses": {
+        "value": "Trench Scopes",
+        "count": 391,
+        "pct": 4.3992
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

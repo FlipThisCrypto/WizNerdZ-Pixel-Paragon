@@ -1,0 +1,13 @@
+{
+  "name": "WizNerdZ Pixel Paragon",
+  "id": "wiznerdz-chia-gen1",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "format": "CHIP-0007",
+  "series_total": 8888,
+  "generative_count": 8878,
+  "special_count": 10,
+  "size": 640,
+  "class_matched": true,
+  "twitter": "https://x.com/FiendStudios",
+  "website": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+}

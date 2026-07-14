@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #3077",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Celestial Blue"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Light Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Deep Sea"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Deep Sea"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Deep Sea"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Chin Strap Red Orange"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Tempest Visors"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 3077,
+  "series_total": 8888,
+  "data": {
+    "image": "3077.png",
+    "dna": "2b4011b60d0aeae34dfd63c5983ee271080064c747ec2146608e6bd7171cba1a",
+    "dna_raw": "bg_Red.png|Celestial Blue#10.png|eyes_Light_Brown#8.png|mouth#100.png|Deep Sea#10.png|Chin_Strap_Red_Orange#5.png|Tempest Visors#8.png|Deep Sea#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 5,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "1617/8878",
+    "rarity_score": 1.1e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Red",
+        "count": 787,
+        "pct": 8.8546
+      },
+      "Face": {
+        "value": "Celestial Blue",
+        "count": 402,
+        "pct": 4.523
+      },
+      "Eyes": {
+        "value": "Light Brown",
+        "count": 846,
+        "pct": 9.5185
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Deep Sea",
+        "count": 419,
+        "pct": 4.7142
+      },
+      "Shirt": {
+        "value": "Deep Sea",
+        "count": 419,
+        "pct": 4.7142
+      },
+      "Wizard Hat": {
+        "value": "Deep Sea",
+        "count": 419,
+        "pct": 4.7142
+      },
+      "Facial Hair": {
+        "value": "Chin Strap Red Orange",
+        "count": 64,
+        "pct": 0.7201
+      },
+      "Glasses": {
+        "value": "Tempest Visors",
+        "count": 393,
+        "pct": 4.4217
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

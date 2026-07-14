@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #812",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Potion Stained"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Light Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Warlock Fel"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Warlock Fel"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Warlock Fel"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Full Beard Dark Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Oracle Orbs"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 812,
+  "series_total": 8888,
+  "data": {
+    "image": "812.png",
+    "dna": "8ff0b3cf2f098d46d2568b9a72fcf123e0815c1098e57e6254394c321b905c54",
+    "dna_raw": "bg_Teal#8.png|Potion Stained#10.png|eyes_Light_Brown#8.png|mouth#100.png|Warlock Fel#10.png|Full_Beard_Dark_Brown#17.png|Oracle Orbs#8.png|Warlock Fel#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 17,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "4913/8878",
+    "rarity_score": 3.1e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Teal",
+        "count": 671,
+        "pct": 7.5495
+      },
+      "Face": {
+        "value": "Potion Stained",
+        "count": 422,
+        "pct": 4.748
+      },
+      "Eyes": {
+        "value": "Light Brown",
+        "count": 846,
+        "pct": 9.5185
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Warlock Fel",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Shirt": {
+        "value": "Warlock Fel",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Wizard Hat": {
+        "value": "Warlock Fel",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Facial Hair": {
+        "value": "Full Beard Dark Brown",
+        "count": 256,
+        "pct": 2.8803
+      },
+      "Glasses": {
+        "value": "Oracle Orbs",
+        "count": 361,
+        "pct": 4.0617
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

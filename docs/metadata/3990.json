@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #3990",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Silver"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Sands of Time"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Void Walker"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Void Walker"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Void Walker"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Medium Rounded Red Orange"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Oracle Orbs"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 3990,
+  "series_total": 8888,
+  "data": {
+    "image": "3990.png",
+    "dna": "0b17327271f6ba1f5ee1518d4fba16b4ecb99d673a3cc5288e7d4ba9164bd44b",
+    "dna_raw": "bg_Silver#4.png|Sands of Time#10.png|eyes_Blue#14.png|mouth#100.png|Void Walker#10.png|Medium_Rounded_Red_Orange#15.png|Oracle Orbs#8.png|Void Walker#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 4,
+      "face": 10,
+      "eyes": 14,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 15,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "2780/8878",
+    "rarity_score": 1.8e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Silver",
+        "count": 328,
+        "pct": 3.6904
+      },
+      "Face": {
+        "value": "Sands of Time",
+        "count": 363,
+        "pct": 4.0842
+      },
+      "Eyes": {
+        "value": "Blue",
+        "count": 1460,
+        "pct": 16.4266
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Void Walker",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Shirt": {
+        "value": "Void Walker",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Wizard Hat": {
+        "value": "Void Walker",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Facial Hair": {
+        "value": "Medium Rounded Red Orange",
+        "count": 255,
+        "pct": 2.869
+      },
+      "Glasses": {
+        "value": "Oracle Orbs",
+        "count": 361,
+        "pct": 4.0617
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

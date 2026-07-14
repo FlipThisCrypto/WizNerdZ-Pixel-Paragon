@@ -1,0 +1,102 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #8700",
+  "description": "Staker is a named WizNerd special with a green beret and sunset rainbow visor, dark full beard, and red Blood Mage robes on a violet field. 320x320 collection style.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Violet"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Bark Skin"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dark Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Blood Mage"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Blood Mage"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "None"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Green Beret"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Full Beard Black"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Sunset Visor"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Name",
+      "value": "Staker"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Named"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Supply",
+      "value": "1"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 8700,
+  "series_total": 8888,
+  "data": {
+    "image": "8700.png",
+    "special": "Staker",
+    "special_key": "Staker",
+    "source": "Staker_640.png",
+    "canvas": "640x640",
+    "character_name": "Staker",
+    "max_supply": 1,
+    "edition": 1,
+    "rarity_rank": "1/1",
+    "rarity_tier": "1 of 1",
+    "rarity_weighted": false
+  }
+}

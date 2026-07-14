@@ -1,0 +1,98 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #6146",
+  "description": "Blake is a named WizNerd special \u2014 Bark Skin face, full brown beard, Deep Sea class blues, and bold tempest glasses. Built from the official WizNerdz trait set with class-matched hat and shirt, 320x320, collection-standard outline.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Bark Skin"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Deep Sea"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Deep Sea"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Deep Sea"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Full Beard Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Tempest Visors"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Name",
+      "value": "Blake"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Named"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Supply",
+      "value": "1"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 6146,
+  "series_total": 8888,
+  "data": {
+    "image": "6146.png",
+    "special": "Blake",
+    "special_key": "Blake",
+    "source": "Blake_640.png",
+    "canvas": "640x640",
+    "character_name": "Blake",
+    "max_supply": 1,
+    "edition": 1,
+    "rarity_rank": "1/1",
+    "rarity_tier": "1 of 1",
+    "rarity_weighted": false
+  }
+}

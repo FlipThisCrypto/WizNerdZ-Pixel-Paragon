@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #7844",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Potion Stained"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Medium Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Storm Caller"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Storm Caller"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Storm Caller"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Braid Black"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Magma Goggles"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 7844,
+  "series_total": 8888,
+  "data": {
+    "image": "7844.png",
+    "dna": "99a22454289c0f229cbd4a85759a93b1f6f680675021a43f2c6205611f33f885",
+    "dna_raw": "bg_Teal#8.png|Potion Stained#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Storm Caller#10.png|Long_Braid_Black#15.png|Magma Goggles#8.png|Storm Caller#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 10,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 15,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "6588/8878",
+    "rarity_score": 4.4e-11,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Teal",
+        "count": 671,
+        "pct": 7.5495
+      },
+      "Face": {
+        "value": "Potion Stained",
+        "count": 422,
+        "pct": 4.748
+      },
+      "Eyes": {
+        "value": "Medium Brown",
+        "count": 1015,
+        "pct": 11.4199
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Storm Caller",
+        "count": 429,
+        "pct": 4.8267
+      },
+      "Shirt": {
+        "value": "Storm Caller",
+        "count": 429,
+        "pct": 4.8267
+      },
+      "Wizard Hat": {
+        "value": "Storm Caller",
+        "count": 429,
+        "pct": 4.8267
+      },
+      "Facial Hair": {
+        "value": "Long Braid Black",
+        "count": 223,
+        "pct": 2.509
+      },
+      "Glasses": {
+        "value": "Magma Goggles",
+        "count": 385,
+        "pct": 4.3317
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #6502",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "White"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Bark Skin"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Storm Caller"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Storm Caller"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Storm Caller"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Goatee Blonde"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Elder Keepers"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 6502,
+  "series_total": 8888,
+  "data": {
+    "image": "6502.png",
+    "dna": "4e22bdaa913dc81e2bd7f44c3652241a966ab82bc8ff42763b0f146aba59ef6e",
+    "dna_raw": "bg_White#6.png|Bark Skin#10.png|eyes_Blue#14.png|mouth#100.png|Storm Caller#10.png|Goatee_Blonde#12.png|Taped Elder Keepers#1.png|Storm Caller#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 6,
+      "face": 10,
+      "eyes": 14,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 12,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "420/8878",
+    "rarity_score": 3e-12,
+    "rarity_tier": "Epic",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "White",
+        "count": 491,
+        "pct": 5.5243
+      },
+      "Face": {
+        "value": "Bark Skin",
+        "count": 358,
+        "pct": 4.0279
+      },
+      "Eyes": {
+        "value": "Blue",
+        "count": 1460,
+        "pct": 16.4266
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Storm Caller",
+        "count": 429,
+        "pct": 4.8267
+      },
+      "Shirt": {
+        "value": "Storm Caller",
+        "count": 429,
+        "pct": 4.8267
+      },
+      "Wizard Hat": {
+        "value": "Storm Caller",
+        "count": 429,
+        "pct": 4.8267
+      },
+      "Facial Hair": {
+        "value": "Goatee Blonde",
+        "count": 151,
+        "pct": 1.6989
+      },
+      "Glasses": {
+        "value": "Elder Keepers",
+        "count": 394,
+        "pct": 4.4329
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

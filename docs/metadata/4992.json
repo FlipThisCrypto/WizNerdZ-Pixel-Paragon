@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #4992",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mystic Aura"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Medium Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Illusionist"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Illusionist"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Illusionist"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Full Beard White Gray"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Epoch Eyes"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Taped Repair"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 4992,
+  "series_total": 8888,
+  "data": {
+    "image": "4992.png",
+    "dna": "7f1becfbd0e2026b81332bfb2463f60efa51b7e97db18994a492a304532c547d",
+    "dna_raw": "bg_Orange#8.png|Mystic Aura#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Illusionist#10.png|Full_Beard_White_Gray#7.png|Taped Epoch Eyes#1.png|Illusionist#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 8,
+      "face": 10,
+      "eyes": 10,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 7,
+      "glasses": 1,
+      "wizard hat": 10
+    },
+    "rarity_rank": "93/8878",
+    "rarity_score": 1e-12,
+    "rarity_tier": "Epic",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Orange",
+        "count": 655,
+        "pct": 7.3695
+      },
+      "Face": {
+        "value": "Mystic Aura",
+        "count": 378,
+        "pct": 4.2529
+      },
+      "Eyes": {
+        "value": "Medium Brown",
+        "count": 1015,
+        "pct": 11.4199
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Illusionist",
+        "count": 375,
+        "pct": 4.2192
+      },
+      "Shirt": {
+        "value": "Illusionist",
+        "count": 375,
+        "pct": 4.2192
+      },
+      "Wizard Hat": {
+        "value": "Illusionist",
+        "count": 375,
+        "pct": 4.2192
+      },
+      "Facial Hair": {
+        "value": "Full Beard White Gray",
+        "count": 116,
+        "pct": 1.3051
+      },
+      "Glasses": {
+        "value": "Epoch Eyes",
+        "count": 339,
+        "pct": 3.8141
+      },
+      "Bridge": {
+        "value": "Taped Repair",
+        "count": 989,
+        "pct": 11.1274
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

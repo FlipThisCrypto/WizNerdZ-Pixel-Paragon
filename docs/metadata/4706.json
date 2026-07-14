@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #4706",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Bark Skin"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Storm Caller"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Storm Caller"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "Storm Caller"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Braid White Gray"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Tempest Visors"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 4706,
+  "series_total": 8888,
+  "data": {
+    "image": "4706.png",
+    "dna": "30a81e807321ceb0339e38da118bad5bc0b4e03a87b5a66cb3ad2826fe77b8ee",
+    "dna_raw": "bg_Yellow#10.png|Bark Skin#10.png|eyes_Blue#14.png|mouth#100.png|Storm Caller#10.png|Long_Braid_White_Gray#5.png|Tempest Visors#8.png|Storm Caller#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 14,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 5,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "3194/8878",
+    "rarity_score": 2e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Yellow",
+        "count": 797,
+        "pct": 8.9671
+      },
+      "Face": {
+        "value": "Bark Skin",
+        "count": 358,
+        "pct": 4.0279
+      },
+      "Eyes": {
+        "value": "Blue",
+        "count": 1460,
+        "pct": 16.4266
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Storm Caller",
+        "count": 429,
+        "pct": 4.8267
+      },
+      "Shirt": {
+        "value": "Storm Caller",
+        "count": 429,
+        "pct": 4.8267
+      },
+      "Wizard Hat": {
+        "value": "Storm Caller",
+        "count": 429,
+        "pct": 4.8267
+      },
+      "Facial Hair": {
+        "value": "Long Braid White Gray",
+        "count": 69,
+        "pct": 0.7763
+      },
+      "Glasses": {
+        "value": "Tempest Visors",
+        "count": 393,
+        "pct": 4.4217
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}

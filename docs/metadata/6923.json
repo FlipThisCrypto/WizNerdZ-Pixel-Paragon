@@ -1,0 +1,157 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdz #6923",
+  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdz",
+    "id": "wiznerdz-chia-gen1",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats."
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Vampiric"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dark Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Classic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "High Sorcerer"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "High Sorcerer"
+    },
+    {
+      "trait_type": "Wizard Hat",
+      "value": "High Sorcerer"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Long Pointy Red Orange"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Crimson Glare"
+    },
+    {
+      "trait_type": "Bridge",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "minting_tool": "WizNerdz Foundry Pipeline",
+  "series_number": 6923,
+  "series_total": 8888,
+  "data": {
+    "image": "6923.png",
+    "dna": "8a41accbb6e4e28b0a1b45d380027d967e2380aaaddc6b024830bbc14a9a69c8",
+    "dna_raw": "bg_Red.png|Vampiric#10.png|eyes_Dark_Brown#8.png|mouth#100.png|High Sorcerer#10.png|Long_Pointy_Red_Orange#10.png|Crimson Glare#8.png|High Sorcerer#10.png",
+    "canvas": "640x640",
+    "border_px": 1,
+    "class_matched": true,
+    "rarity_weighted": true,
+    "trait_weights": {
+      "Background": 10,
+      "face": 10,
+      "eyes": 8,
+      "mouth": 100,
+      "shirt": 10,
+      "facial hair": 10,
+      "glasses": 8,
+      "wizard hat": 10
+    },
+    "rarity_rank": "2077/8878",
+    "rarity_score": 1.4e-11,
+    "rarity_tier": "Uncommon",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Red",
+        "count": 787,
+        "pct": 8.8546
+      },
+      "Face": {
+        "value": "Vampiric",
+        "count": 402,
+        "pct": 4.523
+      },
+      "Eyes": {
+        "value": "Dark Brown",
+        "count": 827,
+        "pct": 9.3047
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "High Sorcerer",
+        "count": 358,
+        "pct": 4.0279
+      },
+      "Shirt": {
+        "value": "High Sorcerer",
+        "count": 358,
+        "pct": 4.0279
+      },
+      "Wizard Hat": {
+        "value": "High Sorcerer",
+        "count": 358,
+        "pct": 4.0279
+      },
+      "Facial Hair": {
+        "value": "Long Pointy Red Orange",
+        "count": 131,
+        "pct": 1.4739
+      },
+      "Glasses": {
+        "value": "Crimson Glare",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7898,
+        "pct": 88.8614
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8878,
+        "pct": 99.8875
+      }
+    }
+  }
+}
