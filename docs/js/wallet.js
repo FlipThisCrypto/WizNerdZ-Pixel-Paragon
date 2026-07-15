@@ -1,0 +1,251 @@
+/**
+ * Sage / Chia WalletConnect client for static GitHub Pages.
+ *
+ * Security model:
+ * - Browser never holds mint keys.
+ * - User approves sessions + takeOffer in Sage (or any Chia WC wallet).
+ * - Requires a public WalletConnect/Reown projectId in config.js.
+ */
+(function () {
+  const cfg = window.WIZNERDZ_CONFIG;
+  const statusEl = document.getElementById("wc-status");
+  const addrEl = document.getElementById("wc-address");
+  const connectBtn = document.getElementById("btn-connect");
+  const disconnectBtn = document.getElementById("btn-disconnect");
+  const mintBtn = document.getElementById("btn-mint");
+  const qrBox = document.getElementById("wc-qr");
+
+  let client = null;
+  let session = null;
+
+  function setStatus(msg, cls) {
+    if (!statusEl) return;
+    statusEl.textContent = msg;
+    statusEl.className = "wc-status" + (cls ? " " + cls : "");
+  }
+
+  function shortAddr(a) {
+    if (!a || a.length < 16) return a || "—";
+    return a.slice(0, 10) + "…" + a.slice(-6);
+  }
+
+  function updateUi() {
+    const connected = !!(session && session.topic);
+    if (connectBtn) connectBtn.disabled = connected;
+    if (disconnectBtn) disconnectBtn.hidden = !connected;
+    if (mintBtn) {
+      mintBtn.disabled = !connected || !cfg.mint.enabled;
+      mintBtn.title = !cfg.mint.enabled
+        ? "Mint offer not published yet"
+        : connected
+          ? "Take mint offer with connected wallet"
+          : "Connect wallet first";
+    }
+    if (!connected && addrEl) addrEl.textContent = "Not connected";
+  }
+
+  async function loadSignClient() {
+    // ESM CDN — no build step required for GitHub Pages
+    const mod = await import(
+      "https://esm.sh/@walletconnect/sign-client@2.17.3"
+    );
+    return mod.SignClient || mod.default?.SignClient || mod.default;
+  }
+
+  async function ensureClient() {
+    if (client) return client;
+    const projectId = (cfg.walletConnect.projectId || "").trim();
+    if (!projectId) {
+      throw new Error(
+        "Missing WalletConnect projectId. Add it in js/config.js (free at cloud.reown.com)."
+      );
+    }
+    const SignClient = await loadSignClient();
+    client = await SignClient.init({
+      projectId,
+      metadata: cfg.walletConnect.metadata,
+    });
+
+    client.on("session_delete", () => {
+      session = null;
+      setStatus("Session ended.", "warn");
+      updateUi();
+    });
+
+    // Restore existing session if any
+    if (client.session && client.session.length) {
+      session = client.session.getAll()[0];
+      await refreshAddress();
+    }
+    return client;
+  }
+
+  async function refreshAddress() {
+    if (!session || !client) return;
+    try {
+      const chain = cfg.walletConnect.chainId;
+      const result = await client.request({
+        topic: session.topic,
+        chainId: chain,
+        request: {
+          method: "chia_getCurrentAddress",
+          params: {
+            fingerprint: undefined,
+            walletId: 1,
+          },
+        },
+      });
+      // Response shape varies by wallet; handle common forms
+      const addr =
+        typeof result === "string"
+          ? result
+          : result?.address || result?.data || JSON.stringify(result);
+      if (addrEl) addrEl.textContent = shortAddr(String(addr));
+      setStatus("Connected via WalletConnect (Sage-compatible).", "ok");
+    } catch (err) {
+      console.warn("getCurrentAddress", err);
+      if (addrEl) addrEl.textContent = "Connected (address RPC pending wallet support)";
+      setStatus(
+        "Connected. Address read failed — wallet may use different RPC params. Mint still possible via takeOffer when enabled.",
+        "warn"
+      );
+    }
+  }
+
+  async function connect() {
+    try {
+      setStatus("Loading WalletConnect…");
+      await ensureClient();
+      setStatus("Open Sage → WalletConnect, then scan or approve the session.");
+
+      const { uri, approval } = await client.connect({
+        requiredNamespaces: {
+          chia: {
+            methods: cfg.walletConnect.requiredNamespaces.chia.methods,
+            chains: [cfg.walletConnect.chainId],
+            events: cfg.walletConnect.requiredNamespaces.chia.events || [],
+          },
+        },
+      });
+
+      if (uri && qrBox) {
+        qrBox.hidden = false;
+        qrBox.innerHTML = "";
+        // Prefer QR if library available; always show copyable URI
+        const pre = document.createElement("pre");
+        pre.className = "wc-uri";
+        pre.textContent = uri;
+        qrBox.appendChild(pre);
+
+        const copy = document.createElement("button");
+        copy.type = "button";
+        copy.className = "btn";
+        copy.textContent = "Copy WalletConnect URI";
+        copy.onclick = async () => {
+          await navigator.clipboard.writeText(uri);
+          setStatus("URI copied — paste into Sage WalletConnect.", "ok");
+        };
+        qrBox.appendChild(copy);
+
+        // Optional QR via external image API (no secrets in URI beyond session)
+        try {
+          const img = document.createElement("img");
+          img.alt = "WalletConnect QR";
+          img.width = 220;
+          img.height = 220;
+          img.className = "wc-qr-img";
+          img.src =
+            "https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=" +
+            encodeURIComponent(uri);
+          qrBox.insertBefore(img, pre);
+        } catch (_) {
+          /* non-fatal */
+        }
+      }
+
+      session = await approval();
+      if (qrBox) qrBox.hidden = true;
+      await refreshAddress();
+      updateUi();
+    } catch (err) {
+      console.error(err);
+      setStatus(String(err.message || err), "err");
+      updateUi();
+    }
+  }
+
+  async function disconnect() {
+    try {
+      if (client && session) {
+        await client.disconnect({
+          topic: session.topic,
+          reason: { code: 6000, message: "User disconnected" },
+        });
+      }
+    } catch (_) {
+      /* ignore */
+    }
+    session = null;
+    if (qrBox) qrBox.hidden = true;
+    setStatus("Disconnected.", "warn");
+    updateUi();
+  }
+
+  async function mint() {
+    if (!cfg.mint.enabled) {
+      setStatus("Mint is not enabled yet — offer / MintGarden link pending.", "warn");
+      return;
+    }
+    // Prefer external MintGarden URL if set (simplest secure path)
+    if (cfg.mint.mintgardenUrl) {
+      window.open(cfg.mint.mintgardenUrl, "_blank", "noopener");
+      setStatus("Opened MintGarden — complete mint in Sage / browser wallet.", "ok");
+      return;
+    }
+    if (!session || !client) {
+      setStatus("Connect wallet first.", "err");
+      return;
+    }
+    if (!cfg.mint.offerUrl) {
+      setStatus("No offer URL configured in js/config.js.", "err");
+      return;
+    }
+    try {
+      setStatus("Fetching offer…");
+      const offerRes = await fetch(cfg.mint.offerUrl);
+      if (!offerRes.ok) throw new Error("Failed to fetch mint offer");
+      const offerText = await offerRes.text();
+      setStatus("Approve takeOffer in Sage…");
+      const result = await client.request({
+        topic: session.topic,
+        chainId: cfg.walletConnect.chainId,
+        request: {
+          method: "chia_takeOffer",
+          params: {
+            offer: offerText.trim(),
+            fee: 0,
+          },
+        },
+      });
+      setStatus("Mint offer submitted: " + JSON.stringify(result).slice(0, 120), "ok");
+    } catch (err) {
+      console.error(err);
+      setStatus(String(err.message || err), "err");
+    }
+  }
+
+  if (connectBtn) connectBtn.addEventListener("click", connect);
+  if (disconnectBtn) disconnectBtn.addEventListener("click", disconnect);
+  if (mintBtn) mintBtn.addEventListener("click", mint);
+
+  // Surface setup state on load
+  if (!(cfg.walletConnect.projectId || "").trim()) {
+    setStatus(
+      "WalletConnect projectId not set. Add it in js/config.js (cloud.reown.com), then Connect works with Sage.",
+      "warn"
+    );
+  } else {
+    setStatus("Ready — connect Sage via WalletConnect.", "ok");
+  }
+  updateUi();
+})();

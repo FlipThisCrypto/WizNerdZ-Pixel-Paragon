@@ -178,19 +178,19 @@
         </p>
         <div class="cols-2">
           <div>
-            <h3>North star</h3>
+            <h3>North star / One Thing</h3>
             <ul>
-              <li>Ship a clean, mint-ready 8,888 set on Chia</li>
-              <li>Host art + metadata on GitHub Pages for tooling</li>
-              <li>Mint via MintGarden (icon/banner handled there)</li>
-              <li>Land page grows later (mint UI, filters, lore)</li>
+              <li><strong>NOW:</strong> Community PFP → WizNerdZ 1:1 nominations through <strong>midnight July 31, 2026 (US Eastern)</strong></li>
+              <li>Secure mint via Sage WalletConnect on Pages + MintGarden/offers</li>
+              <li>Splits 40% dev / 40% wizards / 20% Bepe.Love · royalties 10% same split</li>
+              <li>Ship mint-ready 8,888 on Chia after nomination lock</li>
             </ul>
           </div>
           <div>
             <h3>Non-goals (for now)</h3>
             <ul>
-              <li>No custom one-off species outside trait system (baseline stays generative)</li>
-              <li>No icon/banner fields in on-chain meta (MintGarden)</li>
+              <li>No custodial mint keys in the browser or repo</li>
+              <li>No icon/banner fields in on-chain meta (MintGarden UI)</li>
               <li>No reintroducing the old 64×64 rulepack pipeline (archived locally)</li>
             </ul>
           </div>
@@ -307,18 +307,50 @@
           </div></li>
         </ul>
 
-        <h3>C · Landing page &amp; product</h3>
+        <h3>B2 · Secure mint economics &amp; WalletConnect</h3>
         <ul class="tasks">
-          <li class="wip"><div class="check">~</div><div>
-            <div class="task-title">Landing page v1 (live shell)</div>
-            <div class="task-meta">Basic stats + specials gallery live at Pages. Mint CTA is placeholder only.</div>
+          <li class="done"><div class="check">✓</div><div>
+            <div class="task-title">Landing: Eastern countdown + splits/royalties + PFP nominate + Sage WC scaffold</div>
+            <div class="task-meta">
+              Live files: <code>docs/index.html</code>, <code>docs/js/*</code>, <code>docs/MINT.md</code>.
+              Countdown → midnight July 31, 2026 US Eastern. Mint 40/40/20 · royalty 10% same split.
+            </div>
           </div></li>
           <li class="todo"><div class="check">→</div><div>
-            <div class="task-title">Landing page v2 — mint section</div>
+            <div class="task-title">Fill WalletConnect projectId + payout xch addresses</div>
             <div class="task-meta">
-              <strong>Instructions:</strong> Add mint button / embed / deep-link to MintGarden offer.
-              Show price, supply remaining, wallet connect if applicable.
-              File: repo <code>docs/index.html</code>.
+              <strong>Instructions:</strong> Free project ID at <code>cloud.reown.com</code>.
+              Edit <code>docs/js/config.js</code>: <code>walletConnect.projectId</code>,
+              <code>mintSplits.developer/wizards/bepeLove.address</code>. Commit + push Pages.
+            </div>
+          </div></li>
+          <li class="todo"><div class="check">→</div><div>
+            <div class="task-title">Arm mint (MintGarden URL or offer + mint.enabled)</div>
+            <div class="task-meta">
+              Set royalty 10% with 40/40/20 recipients on marketplace.
+              Point primary proceeds at the three wallets. Enable only after test mints.
+            </div>
+          </div></li>
+          <li class="wip"><div class="check">~</div><div>
+            <div class="task-title">Gather community PFP nominations</div>
+            <div class="task-meta">
+              Deadline midnight July 31, 2026 Eastern. Form opens GitHub issues.
+              After lock: produce 1:1 art, assign free token IDs, rebuild slots, push.
+            </div>
+          </div></li>
+        </ul>
+
+        <h3>C · Landing page &amp; product</h3>
+        <ul class="tasks">
+          <li class="done"><div class="check">✓</div><div>
+            <div class="task-title">Landing page v2 (mint + nominate + countdown)</div>
+            <div class="task-meta">Sage WalletConnect UI, economics panel, nomination form, EST/Eastern counter.</div>
+          </div></li>
+          <li class="todo"><div class="check">→</div><div>
+            <div class="task-title">Landing page v3 — live mint price / remaining supply</div>
+            <div class="task-meta">
+              <strong>Instructions:</strong> When offers are live, show price, remaining, deep-link status.
+              File: repo <code>docs/index.html</code> + <code>js/config.js</code>.
             </div>
           </div></li>
           <li class="todo"><div class="check">→</div><div>

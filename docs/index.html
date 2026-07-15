@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>WizNerdZ Pixel Paragon</title>
-  <meta name="description" content="WizNerdZ Pixel Paragon — 8,888 generative pixel wizards on the Chia blockchain by Fiend Studios." />
+  <title>WizNerdZ Pixel Paragon — Mint &amp; Nominate</title>
+  <meta name="description" content="WizNerdZ Pixel Paragon — 8,888 generative pixel wizards on Chia by Fiend Studios. Nominate community PFPs as 1:1 wizards. Mint with Sage WalletConnect." />
   <link rel="icon" href="assets/logo_mark.png" type="image/png" />
   <style>
     :root {
@@ -16,6 +16,10 @@
       --purple: #8b2fe8;
       --magenta: #ff3dff;
       --line: #2a2540;
+      --ok: #34d399;
+      --warn: #fbbf24;
+      --err: #f87171;
+      --bepe: #60a5fa;
     }
     * { box-sizing: border-box; }
     body {
@@ -30,7 +34,7 @@
     header {
       max-width: 1100px;
       margin: 0 auto;
-      padding: 40px 20px 20px;
+      padding: 28px 20px 12px;
       display: flex;
       gap: 20px;
       align-items: center;
@@ -44,15 +48,8 @@
       border: 2px solid var(--line);
       padding: 8px 12px;
     }
-    h1 {
-      margin: 0 0 6px;
-      font-size: 1.6rem;
-      letter-spacing: 0.04em;
-    }
-    .tag {
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
+    h1 { margin: 0 0 6px; font-size: 1.55rem; letter-spacing: 0.04em; }
+    .tag { color: var(--muted); font-size: 0.9rem; }
     main { max-width: 1100px; margin: 0 auto; padding: 10px 20px 60px; }
     .panel {
       background: var(--panel);
@@ -61,6 +58,50 @@
       padding: 20px;
       margin-bottom: 18px;
     }
+    h2 { margin: 0 0 12px; font-size: 1.05rem; color: var(--gold); }
+    h3 { margin: 16px 0 8px; font-size: 0.95rem; color: var(--magenta); }
+    p { line-height: 1.5; color: var(--text); }
+    .muted { color: var(--muted); font-size: 0.88rem; }
+    .ok { color: var(--ok); }
+    .warn { color: var(--warn); }
+    .err { color: var(--err); }
+
+    /* Countdown */
+    #countdown-banner {
+      border: 1px solid var(--gold);
+      background: linear-gradient(180deg, #2a1a08, #141422);
+      position: relative;
+      overflow: hidden;
+    }
+    #countdown-banner.closed {
+      border-color: var(--err);
+      background: linear-gradient(180deg, #2a1010, #141422);
+    }
+    .cd-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(64px, 1fr));
+      gap: 10px;
+      max-width: 420px;
+      margin: 12px 0;
+    }
+    .cd-unit {
+      background: #0e0e18;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      text-align: center;
+      padding: 12px 6px;
+    }
+    .cd-unit b {
+      display: block;
+      font-size: 1.6rem;
+      color: var(--gold);
+      letter-spacing: 0.06em;
+    }
+    .cd-unit span { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; }
+    #cd-status { font-weight: 600; margin: 8px 0 0; }
+    #cd-status.closed { color: var(--err); }
+    #cd-stamp { margin-top: 8px; }
+
     .stats {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -71,8 +112,11 @@
       border: 1px solid var(--line);
       border-radius: 10px;
       padding: 14px;
+      font-size: 0.85rem;
+      color: var(--muted);
     }
-    .stat b { display: block; color: var(--gold); font-size: 1.2rem; margin-top: 4px; }
+    .stat b { display: block; color: var(--gold); font-size: 1.15rem; margin-top: 4px; }
+
     .links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
     .btn {
       display: inline-block;
@@ -81,8 +125,104 @@
       border-radius: 8px;
       background: linear-gradient(180deg, #2a1450, #1a0e30);
       color: var(--text);
+      cursor: pointer;
+      font: inherit;
     }
-    .btn:hover { border-color: var(--magenta); color: #fff; }
+    .btn:hover:not(:disabled) { border-color: var(--magenta); color: #fff; }
+    .btn:disabled { opacity: 0.45; cursor: not-allowed; }
+    .btn.primary {
+      border-color: var(--gold);
+      background: linear-gradient(180deg, #4a3a10, #2a2008);
+      color: #fff8d6;
+    }
+    .btn.danger { border-color: #7f1d1d; background: #1f1010; }
+
+    /* Splits */
+    .split-bars { display: flex; flex-direction: column; gap: 10px; margin: 12px 0; }
+    .split-row { display: grid; grid-template-columns: 140px 1fr 48px; gap: 10px; align-items: center; font-size: 0.85rem; }
+    .bar-track {
+      height: 14px;
+      background: #0e0e18;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      overflow: hidden;
+    }
+    .bar-fill { height: 100%; border-radius: 8px; }
+    .bar-dev { background: linear-gradient(90deg, #8b2fe8, #c084fc); width: 40%; }
+    .bar-wiz { background: linear-gradient(90deg, #f0c020, #fde68a); width: 40%; }
+    .bar-bepe { background: linear-gradient(90deg, #2563eb, #60a5fa); width: 20%; }
+    .split-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 10px; }
+    .split-table th, .split-table td {
+      border: 1px solid var(--line);
+      padding: 8px 10px;
+      text-align: left;
+    }
+    .split-table th { color: var(--muted); font-weight: 600; background: #0e0e18; }
+    code, .mono { font-family: inherit; color: #e9d5ff; font-size: 0.8rem; word-break: break-all; }
+
+    /* Wallet */
+    .wc-box {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    @media (min-width: 720px) {
+      .wc-box { grid-template-columns: 1.2fr 1fr; }
+    }
+    .wc-status { font-size: 0.88rem; min-height: 1.4em; }
+    .wc-status.ok { color: var(--ok); }
+    .wc-status.warn { color: var(--warn); }
+    .wc-status.err { color: var(--err); }
+    #wc-qr {
+      background: #0e0e18;
+      border: 1px dashed var(--line);
+      border-radius: 10px;
+      padding: 12px;
+      text-align: center;
+    }
+    .wc-qr-img { display: block; margin: 0 auto 10px; image-rendering: auto; background: #fff; border-radius: 8px; }
+    .wc-uri {
+      white-space: pre-wrap;
+      word-break: break-all;
+      font-size: 0.65rem;
+      color: var(--muted);
+      text-align: left;
+      max-height: 80px;
+      overflow: auto;
+    }
+    .addr-line { font-size: 0.9rem; }
+    .addr-line b { color: var(--gold); }
+
+    /* Forms */
+    label { display: block; font-size: 0.8rem; color: var(--muted); margin: 10px 0 4px; }
+    input, select, textarea {
+      width: 100%;
+      max-width: 520px;
+      background: #0e0e18;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--text);
+      padding: 10px 12px;
+      font: inherit;
+    }
+    textarea { min-height: 80px; resize: vertical; }
+    .form-actions { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 10px; }
+    .nom-card {
+      background: #0e0e18;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+      font-size: 0.85rem;
+    }
+    .callout {
+      border-left: 3px solid var(--magenta);
+      padding: 4px 0 4px 12px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    .callout strong { color: var(--text); }
+
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
@@ -111,7 +251,6 @@
       overflow: hidden;
       text-overflow: ellipsis;
     }
-    h2 { margin: 0 0 12px; font-size: 1.05rem; color: var(--gold); }
     footer {
       max-width: 1100px;
       margin: 0 auto;
@@ -119,12 +258,17 @@
       color: var(--muted);
       font-size: 0.8rem;
     }
-    .mint-note {
-      border-left: 3px solid var(--magenta);
-      padding-left: 12px;
-      color: var(--muted);
-      font-size: 0.9rem;
+    nav.top-links {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.8rem;
     }
+    nav.top-links a { color: var(--muted); }
+    nav.top-links a:hover { color: var(--gold); }
   </style>
 </head>
 <body>
@@ -132,37 +276,190 @@
     <img class="logo" src="assets/logo_badge.png" alt="WizNerdZ Pixel Paragon" />
     <div>
       <h1>WizNerdZ Pixel Paragon</h1>
-      <div class="tag">8,888 generative pixel wizards on Chia · by Fiend Studios</div>
+      <div class="tag">8,888 generative pixel wizards on Chia · Fiend Studios</div>
     </div>
   </header>
 
+  <nav class="top-links">
+    <a href="#nominate"><strong>Nominate PFP</strong></a>
+    <a href="#countdown">Deadline</a>
+    <a href="#mint">Mint / Wallet</a>
+    <a href="#economics">Splits &amp; royalties</a>
+    <a href="#specials">Specials</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="https://x.com/FiendStudios" target="_blank" rel="noopener">@FiendStudios</a>
+  </nav>
+
   <main>
+    <!-- COUNTDOWN -->
+    <section class="panel" id="countdown-banner">
+      <h2 id="countdown">Nomination deadline · Eastern Time</h2>
+      <p>
+        The full collection freezes after remaining <strong>Chia community 1:1 PFPs</strong> are added.
+        Until then: nominate members for a WizNerdZ-themed wizard PFP.
+        Closes at <strong>midnight July 31, 2026 (US Eastern)</strong>.
+      </p>
+      <div class="cd-grid" aria-live="polite">
+        <div class="cd-unit"><b id="cd-days">--</b><span>Days</span></div>
+        <div class="cd-unit"><b id="cd-hours">--</b><span>Hours</span></div>
+        <div class="cd-unit"><b id="cd-mins">--</b><span>Mins</span></div>
+        <div class="cd-unit"><b id="cd-secs">--</b><span>Secs</span></div>
+      </div>
+      <p id="cd-status">Time remaining until nominations close (Eastern Time).</p>
+      <p id="cd-stamp" class="muted"></p>
+      <div class="links" style="margin-top:14px">
+        <a class="btn primary" href="#nominate">Nominate someone now ↓</a>
+      </div>
+    </section>
+
+    <!-- NOMINATE (primary action while timer runs) -->
+    <section class="panel" id="nominate">
+      <h2>Nominate from this page → WizNerdZ 1:1</h2>
+      <p class="callout">
+        <strong>Yes — nominate right here.</strong>
+        Fill the form and submit. It opens a GitHub issue on the official repo so Fiend Studios
+        can track every nomination publicly. A copy is also saved in this browser.
+      </p>
+      <p>
+        Nominate a Chia community member (or yourself via a friend) for a
+        <strong>1:1 WizNerdZ-themed wizard</strong> based on their PFP.
+        Deadline: <strong>midnight July 31, 2026 (US Eastern)</strong>.
+      </p>
+      <form id="nominate-form">
+        <label for="nomineeHandle">Nominee handle *</label>
+        <input id="nomineeHandle" name="nomineeHandle" required placeholder="@someone or display name" maxlength="80" autocomplete="nickname" />
+
+        <label for="nomineePlatform">Platform</label>
+        <select id="nomineePlatform" name="nomineePlatform">
+          <option value="X/Twitter">X / Twitter</option>
+          <option value="Discord">Discord</option>
+          <option value="Chia community">Chia community</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <label for="nominatorHandle">Your handle (nominator)</label>
+        <input id="nominatorHandle" name="nominatorHandle" placeholder="@you" maxlength="80" />
+
+        <label for="wallet">Nominee claim wallet (xch… optional)</label>
+        <input id="wallet" name="wallet" placeholder="xch1..." maxlength="120" autocomplete="off" spellcheck="false" />
+
+        <label for="pfpUrl">PFP / reference image URL</label>
+        <input id="pfpUrl" name="pfpUrl" type="url" placeholder="https://..." maxlength="400" />
+
+        <label for="notes">Notes (class vibe, colors, lore)</label>
+        <textarea id="notes" name="notes" maxlength="800" placeholder="Optional guidance for the 1:1 art"></textarea>
+
+        <div class="form-actions">
+          <button type="submit" class="btn primary">Submit nomination</button>
+          <a class="btn" id="view-issues-link" href="https://github.com/FlipThisCrypto/WizNerdZ-Pixel-Paragon/issues?q=is%3Aissue+PFP+Nomination" target="_blank" rel="noopener">View open nominations</a>
+        </div>
+      </form>
+      <div id="nominate-result" style="margin-top:12px"></div>
+      <h3>Saved on this device</h3>
+      <div id="local-noms"></div>
+      <p class="muted">
+        Official submissions = GitHub issues titled <code>[PFP Nomination] …</code>.
+        You must be logged into GitHub when the issue tab opens for it to post.
+      </p>
+    </section>
+
+    <!-- STATS -->
     <section class="panel">
+      <p id="collection-status" class="callout" style="margin-top:0"></p>
       <div class="stats">
         <div class="stat">Supply <b>8,888</b></div>
-        <div class="stat">Specials <b>10 × 1/1</b></div>
+        <div class="stat">Baseline specials <b>10 × 1/1</b></div>
         <div class="stat">Art size <b>640×640</b></div>
         <div class="stat">Standard <b>CHIP-0007</b></div>
+        <div class="stat">Royalties <b>10%</b></div>
+        <div class="stat">Mint splits <b>40 / 40 / 20</b></div>
       </div>
       <div class="links">
         <a class="btn" href="https://x.com/FiendStudios" target="_blank" rel="noopener">Twitter / X</a>
         <a class="btn" href="https://github.com/FlipThisCrypto/WizNerdZ-Pixel-Paragon" target="_blank" rel="noopener">GitHub</a>
         <a class="btn" href="collection.json">collection.json</a>
         <a class="btn" href="rarity.csv">rarity.csv</a>
-        <a class="btn" href="special_placements.json">specials map</a>
+        <a class="btn" href="MINT.md">Mint economics</a>
       </div>
     </section>
 
-    <section class="panel">
-      <h2>Minting</h2>
-      <p class="mint-note">
-        Mint integration will be added here. Metadata and art are live on this site for preview and tooling.
+    <!-- MINT + WALLETCONNECT -->
+    <section class="panel" id="mint">
+      <h2>Secure mint · Sage WalletConnect</h2>
+      <p class="callout">
+        <strong>Keys never touch this site.</strong>
+        Connect with <a href="https://sagewallet.net/" target="_blank" rel="noopener">Sage</a>
+        (or any Chia WalletConnect wallet). Mint stays disabled until community 1:1s are locked
+        and offers / MintGarden go live — you can still connect and test WalletConnect now.
+      </p>
+      <div class="wc-box" style="margin-top:14px">
+        <div>
+          <div class="addr-line">Connected wallet: <b id="wc-address">Not connected</b></div>
+          <p id="wc-status" class="wc-status">Loading…</p>
+          <div class="links">
+            <button type="button" class="btn primary" id="btn-connect">Connect Sage (WalletConnect)</button>
+            <button type="button" class="btn danger" id="btn-disconnect" hidden>Disconnect</button>
+            <button type="button" class="btn" id="btn-mint" disabled>Mint (after collection freeze)</button>
+          </div>
+          <p class="muted" style="margin-top:10px">
+            WalletConnect project is configured. Mint button arms when
+            <code>mint.enabled</code> is set after the nomination window and 1:1 art land.
+          </p>
+        </div>
+        <div id="wc-qr" hidden></div>
+      </div>
+    </section>
+
+    <!-- ECONOMICS -->
+    <section class="panel" id="economics">
+      <h2>Mint splits &amp; royalties</h2>
+      <p class="muted">Predetermined economics. Community PFP 1:1 program is the active One Thing until the deadline.</p>
+
+      <h3>Primary mint proceeds</h3>
+      <div class="split-bars">
+        <div class="split-row">
+          <span>Developer</span>
+          <div class="bar-track"><div class="bar-fill bar-dev"></div></div>
+          <span>40%</span>
+        </div>
+        <div class="split-row">
+          <span>Wizards</span>
+          <div class="bar-track"><div class="bar-fill bar-wiz"></div></div>
+          <span>40%</span>
+        </div>
+        <div class="split-row">
+          <span>Bepe.Love pool</span>
+          <div class="bar-track"><div class="bar-fill bar-bepe"></div></div>
+          <span>20%</span>
+        </div>
+      </div>
+
+      <h3>Royalties (secondary sales)</h3>
+      <p>Total royalty <strong>10%</strong>, split the same way:</p>
+      <table class="split-table">
+        <thead>
+          <tr><th>Recipient</th><th>Share of royalty</th><th>Effective of sale</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Developer</td><td>40% of 10%</td><td><strong>4%</strong></td></tr>
+          <tr><td>Wizards</td><td>40% of 10%</td><td><strong>4%</strong></td></tr>
+          <tr><td>Bepe.Love pool</td><td>20% of 10%</td><td><strong>2%</strong></td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:12px">
+        <strong>Public mint &amp; royalty wallet</strong><br />
+        <code id="treasury-display" class="mono"></code>
+      </p>
+      <p class="muted">
+        One receive address is configured for mint and royalties for now.
+        Split policy (40/40/20) still applies — distribute from this wallet or assign distinct
+        <code>xch</code> addresses later in <code>js/config.js</code>.
       </p>
     </section>
 
-    <section class="panel">
-      <h2>Named specials (1 of 1)</h2>
-      <div class="gallery" id="specials"></div>
+    <section class="panel" id="specials">
+      <h2>Named specials (baseline 1 of 1)</h2>
+      <div class="gallery" id="specials-gallery"></div>
     </section>
 
     <section class="panel">
@@ -174,9 +471,25 @@
   <footer>
     WizNerdZ Pixel Paragon · Fiend Studios ·
     <a href="https://x.com/FiendStudios">@FiendStudios</a>
+    · Countdown uses <strong>US Eastern</strong> (EDT in July)
   </footer>
 
+  <script src="js/config.js"></script>
+  <script src="js/countdown.js"></script>
+  <script src="js/nominate.js"></script>
+  <script src="js/wallet.js"></script>
   <script>
+    (function () {
+      const cfg = window.WIZNERDZ_CONFIG;
+      if (!cfg) return;
+      const st = document.getElementById('collection-status');
+      if (st && cfg.collection.statusMessage) {
+        st.innerHTML = '<strong>Collection status:</strong> ' + cfg.collection.statusMessage;
+      }
+      const tw = document.getElementById('treasury-display');
+      if (tw) tw.textContent = cfg.treasuryWallet || '(not set)';
+    })();
+
     const specials = [
       { id: 42, name: 'Tom', file: 'Tom' },
       { id: 787, name: 'Fiend', file: 'Fiend' },
@@ -189,17 +502,14 @@
       { id: 8483, name: 'James', file: 'James' },
       { id: 8700, name: 'Staker', file: 'Staker' },
     ];
-    const specialsEl = document.getElementById('specials');
+    const specialsEl = document.getElementById('specials-gallery');
     specials.sort((a, b) => a.id - b.id).forEach(s => {
       const fig = document.createElement('figure');
       fig.innerHTML = `<a href="images/${s.id}.png"><img src="specials/${s.file}.png" alt="${s.name}" loading="lazy" /></a><figcaption>#${s.id} ${s.name}</figcaption>`;
       specialsEl.appendChild(fig);
     });
-
-    // Sample generative tokens for gallery
     const previewEl = document.getElementById('preview');
-    const sampleIds = [1, 7, 42, 100, 250, 500, 787, 1000, 2000, 3333, 5000, 7777];
-    sampleIds.forEach(id => {
+    [1, 7, 42, 100, 250, 500, 787, 1000, 2000, 3333, 5000, 7777].forEach(id => {
       const fig = document.createElement('figure');
       fig.innerHTML = `<a href="images/${id}.png"><img src="images/${id}.png" alt="WizNerdz #${id}" loading="lazy" /></a><figcaption>#${id}</figcaption>`;
       previewEl.appendChild(fig);
