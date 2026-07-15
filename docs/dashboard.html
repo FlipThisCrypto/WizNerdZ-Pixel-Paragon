@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WizNerdZ Pixel Paragon — Project Dashboard</title>
+  <style>
+    :root {
+      --bg: #0a0a12;
+      --panel: #12121e;
+      --panel2: #181828;
+      --text: #f2eefc;
+      --muted: #9a92b3;
+      --gold: #f0c020;
+      --purple: #8b2fe8;
+      --magenta: #ff3dff;
+      --green: #4ade80;
+      --red: #f87171;
+      --blue: #60a5fa;
+      --line: #2a2540;
+      --done: #14532d;
+      --todo: #3b1d5c;
+      --wip: #713f12;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background:
+        radial-gradient(900px 500px at 10% -10%, #2a1450 0%, transparent 50%),
+        radial-gradient(700px 400px at 100% 0%, #1a3040 0%, transparent 45%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    a { color: var(--gold); text-decoration: none; }
+    a:hover { color: var(--magenta); }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 28px 20px 80px; }
+    header {
+      display: flex; flex-wrap: wrap; gap: 18px; align-items: center;
+      margin-bottom: 28px; padding-bottom: 20px; border-bottom: 1px solid var(--line);
+    }
+    header img {
+      height: 56px; image-rendering: pixelated;
+      background: #000; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px;
+    }
+    h1 { margin: 0 0 4px; font-size: 1.75rem; letter-spacing: 0.02em; }
+    .sub { color: var(--muted); font-size: 0.95rem; }
+    .pill {
+      display: inline-block; font-size: 0.72rem; font-weight: 700;
+      padding: 3px 8px; border-radius: 999px; margin-right: 6px; letter-spacing: 0.04em;
+    }
+    .pill.live { background: #14532d; color: #bbf7d0; }
+    .pill.chain { background: #1e3a5f; color: #bfdbfe; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+    .full { grid-column: 1 / -1; }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 18px 18px 16px;
+    }
+    .panel h2 {
+      margin: 0 0 12px;
+      font-size: 1.05rem;
+      color: var(--gold);
+      display: flex; align-items: center; gap: 8px;
+    }
+    .panel h3 { margin: 14px 0 8px; font-size: 0.9rem; color: var(--purple); }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 10px;
+    }
+    .stat {
+      background: var(--panel2);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 12px;
+    }
+    .stat span { display: block; color: var(--muted); font-size: 0.75rem; }
+    .stat b { font-size: 1.15rem; color: var(--gold); }
+    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th { color: var(--muted); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    code, .path {
+      font-family: ui-monospace, Consolas, monospace;
+      font-size: 0.82rem;
+      background: #0c0c16;
+      padding: 1px 6px;
+      border-radius: 4px;
+      color: #d8d0ff;
+    }
+    ul.tasks { list-style: none; padding: 0; margin: 0; }
+    ul.tasks li {
+      display: grid;
+      grid-template-columns: 28px 1fr;
+      gap: 10px;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+      border-radius: 10px;
+      border: 1px solid var(--line);
+      background: var(--panel2);
+    }
+    ul.tasks li.done { border-color: #166534; background: linear-gradient(90deg, #052e16 0%, var(--panel2) 40%); }
+    ul.tasks li.wip { border-color: #a16207; background: linear-gradient(90deg, #422006 0%, var(--panel2) 40%); }
+    ul.tasks li.todo { border-color: #6b21a8; }
+    .check {
+      width: 22px; height: 22px; border-radius: 6px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.75rem; font-weight: 800; margin-top: 2px;
+    }
+    .done .check { background: var(--green); color: #052e16; }
+    .wip .check { background: var(--gold); color: #422006; }
+    .todo .check { background: #3b0764; color: #e9d5ff; border: 1px solid #7e22ce; }
+    .task-title { font-weight: 700; margin-bottom: 2px; }
+    .task-meta { color: var(--muted); font-size: 0.84rem; }
+    .task-meta strong { color: #c4b5fd; font-weight: 600; }
+    .cols-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    @media (max-width: 700px) { .cols-2 { grid-template-columns: 1fr; } }
+    .note {
+      font-size: 0.86rem;
+      color: var(--muted);
+      border-left: 3px solid var(--magenta);
+      padding: 8px 12px;
+      margin: 10px 0;
+      background: #160f22;
+      border-radius: 0 8px 8px 0;
+    }
+    .links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .btn {
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid var(--purple);
+      background: linear-gradient(180deg, #2a1450, #160e2a);
+      color: var(--text);
+      font-size: 0.85rem;
+    }
+    .btn:hover { border-color: var(--magenta); color: #fff; }
+    footer { margin-top: 28px; color: var(--muted); font-size: 0.8rem; }
+    .toc a { display: inline-block; margin: 0 10px 6px 0; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="assets/logo_badge.png" alt="WizNerdZ Pixel Paragon" onerror="this.style.display='none'" />
+      <div>
+        <h1>WizNerdZ Pixel Paragon — Project Dashboard</h1>
+        <div class="sub">
+          <span class="pill live">LIVE</span>
+          <span class="pill chain">CHIA · CHIP-0007</span>
+          Single source of truth for status, paths, and next steps
+        </div>
+        <div class="toc" style="margin-top:10px">
+          <a href="#direction">Direction</a>
+          <a href="#status">Status</a>
+          <a href="#tasks">Task list</a>
+          <a href="#specials">Specials</a>
+          <a href="#pipeline">Pipeline</a>
+          <a href="#paths">Paths</a>
+          <a href="#mint">Mint / MintGarden</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- DIRECTION -->
+      <section class="panel full" id="direction">
+        <h2>1 · Project direction</h2>
+        <p>
+          <strong>WizNerdZ Pixel Paragon</strong> is an <strong>8,888-piece</strong> generative pixel-art NFT collection
+          for the <strong>Chia blockchain</strong> (CHIP-0007), published by <strong>Fiend Studios</strong>.
+          Art is assembled from curated 32×32→640×640 layers with class-matched robes/hats,
+          light backgrounds for black-outline POP, and optional rare extras (staff / spell / familiar).
+        </p>
+        <div class="cols-2">
+          <div>
+            <h3>North star</h3>
+            <ul>
+              <li>Ship a clean, mint-ready 8,888 set on Chia</li>
+              <li>Host art + metadata on GitHub Pages for tooling</li>
+              <li>Mint via MintGarden (icon/banner handled there)</li>
+              <li>Land page grows later (mint UI, filters, lore)</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Non-goals (for now)</h3>
+            <ul>
+              <li>No custom one-off species outside trait system (baseline stays generative)</li>
+              <li>No icon/banner fields in on-chain meta (MintGarden)</li>
+              <li>No reintroducing the old 64×64 rulepack pipeline (archived locally)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="links">
+          <a class="btn" href="https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/" target="_blank">GitHub Pages site</a>
+          <a class="btn" href="https://github.com/FlipThisCrypto/WizNerdZ-Pixel-Paragon" target="_blank">GitHub repo</a>
+          <a class="btn" href="https://x.com/FiendStudios" target="_blank">@FiendStudios</a>
+          <a class="btn" href="COLLECTION_README.md">Local collection README</a>
+        </div>
+      </section>
+
+      <!-- STATUS -->
+      <section class="panel full" id="status">
+        <h2>2 · Current status</h2>
+        <div class="stats">
+          <div class="stat"><span>Supply</span><b>8,888</b></div>
+          <div class="stat"><span>Generative</span><b>8,878</b></div>
+          <div class="stat"><span>Specials 1/1</span><b>10</b></div>
+          <div class="stat"><span>Image size</span><b>640×640</b></div>
+          <div class="stat"><span>Meta standard</span><b>CHIP-0007</b></div>
+          <div class="stat"><span>Logo stamp</span><b>2× top-right</b></div>
+          <div class="stat"><span>Staff None</span><b>~52%</b></div>
+          <div class="stat"><span>Spell None</span><b>~56%</b></div>
+          <div class="stat"><span>Familiar None</span><b>~57%</b></div>
+        </div>
+        <h3>Metadata collection links</h3>
+        <table>
+          <tr><th>Field</th><th>Value</th></tr>
+          <tr><td>twitter</td><td><code>https://x.com/FiendStudios</code></td></tr>
+          <tr><td>website</td><td><code>https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/</code></td></tr>
+          <tr><td>icon / banner</td><td><strong>Removed</strong> (MintGarden)</td></tr>
+        </table>
+        <h3>Token attributes (generative)</h3>
+        <p class="note">
+          Background · Face · Eyes · Mouth · Class · Shirt · Wizard Hat · Facial Hair · Glasses · Bridge ·
+          <strong>Staff</strong> · <strong>Spell Effect</strong> · <strong>Familiar</strong> · Special · Rarity
+        </p>
+      </section>
+
+      <!-- TASK LIST -->
+      <section class="panel full" id="tasks">
+        <h2>3 · Task list (project board)</h2>
+        <p class="note">
+          Status legend:
+          <span class="pill live">DONE</span>
+          <span class="pill" style="background:#713f12;color:#fde68a">WIP</span>
+          <span class="pill" style="background:#3b0764;color:#e9d5ff">TODO</span>
+        </p>
+
+        <h3>A · Foundation (done)</h3>
+        <ul class="tasks">
+          <li class="done"><div class="check">✓</div><div>
+            <div class="task-title">Improve base trait library</div>
+            <div class="task-meta">Light BGs, class-matched shirt/hat, 1px black outer outline, shirt body mask (Alchemist), white beards, louvered glasses option, taped bridge rare glasses. Source: <span class="path">tools/improve_collection.py</span> · traits in <span class="path">traits/</span></div>
+          </div></li>
+          <li class="done"><div class="check">✓</div><div>
+            <div class="task-title">Generate 8,888 collection</div>
+            <div class="task-meta">8,878 weighted generative + 10 specials. Tom <strong>#42</strong>, Fiend <strong>#787</strong>. Seed 8888. Output: <span class="path">collection_8888/</span></div>
+          </div></li>
+          <li class="done"><div class="check">✓</div><div>
+            <div class="task-title">Named specials (baseline + a few custom)</div>
+            <div class="task-meta">Aster, Art Boss, Blake, Tom, Staker, Steve, Fiend, James, Papa, Profet — <span class="path">special/*_640.png</span> used in mint set</div>
+          </div></li>
+          <li class="done"><div class="check">✓</div><div>
+            <div class="task-title">Rarity extras: Staff / Spell / Familiar</div>
+            <div class="task-meta">Weighted; None-heavy so extras don’t dominate. No Shadow Tendrils / Summoning Circle. Staff right edge ~8px from canvas right. Source: <span class="path">tools/add_rarity_layers.py</span>, <span class="path">tools/fix_staff_spells.py</span></div>
+          </div></li>
+          <li class="done"><div class="check">✓</div><div>
+            <div class="task-title">Brand logo stamp</div>
+            <div class="task-meta">2× badge top-right on all NFTs. Masters: <span class="path">special/logo/logo_badge.png</span>, <span class="path">logo_mark.png</span></div>
+          </div></li>
+          <li class="done"><div class="check">✓</div><div>
+            <div class="task-title">Publish GitHub + Pages</div>
+            <div class="task-meta">Repo only contains current drop under <code>docs/</code>. Old 64×64 pipeline removed from remote; backed up locally.</div>
+          </div></li>
+        </ul>
+
+        <h3>B · Mint readiness (next)</h3>
+        <ul class="tasks">
+          <li class="todo"><div class="check">→</div><div>
+            <div class="task-title">MintGarden collection setup</div>
+            <div class="task-meta">
+              <strong>Instructions:</strong> Create collection on MintGarden; set icon + banner in their UI.
+              Point media URLs at Pages:
+              <code>https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/{id}.png</code>
+              and metadata
+              <code>.../metadata/{id}.json</code>.
+              Confirm CHIP-0007 field mapping with their importer.
+            </div>
+          </div></li>
+          <li class="todo"><div class="check">→</div><div>
+            <div class="task-title">Absolute image URLs in metadata (if required)</div>
+            <div class="task-meta">
+              <strong>Instructions:</strong> If MintGarden needs full URLs in each JSON <code>data.image</code> / image field,
+              batch-rewrite all 8,888 metadata files, re-sync to <code>docs/metadata/</code>, commit + push.
+              Script suggestion: small Python loop over <span class="path">collection_8888/metadata</span>.
+            </div>
+          </div></li>
+          <li class="todo"><div class="check">→</div><div>
+            <div class="task-title">IPFS / permanent media (optional but recommended)</div>
+            <div class="task-meta">
+              <strong>Instructions:</strong> Pin <code>images/</code> + <code>metadata/</code> to NFT.Storage or Pinata.
+              Update website/image base URI if mint flow prefers CID over GitHub Pages.
+              Keep Pages as marketing site either way.
+            </div>
+          </div></li>
+          <li class="todo"><div class="check">→</div><div>
+            <div class="task-title">Test mint of 1–3 tokens</div>
+            <div class="task-meta">
+              <strong>Instructions:</strong> Mint #1 (standard), #42 Tom (1/1), #787 Fiend (1/1).
+              Verify traits, rarity, images, Twitter/website links on explorer/marketplace.
+            </div>
+          </div></li>
+        </ul>
+
+        <h3>C · Landing page &amp; product</h3>
+        <ul class="tasks">
+          <li class="wip"><div class="check">~</div><div>
+            <div class="task-title">Landing page v1 (live shell)</div>
+            <div class="task-meta">Basic stats + specials gallery live at Pages. Mint CTA is placeholder only.</div>
+          </div></li>
+          <li class="todo"><div class="check">→</div><div>
+            <div class="task-title">Landing page v2 — mint section</div>
+            <div class="task-meta">
+              <strong>Instructions:</strong> Add mint button / embed / deep-link to MintGarden offer.
+              Show price, supply remaining, wallet connect if applicable.
+              File: repo <code>docs/index.html</code>.
+            </div>
+          </div></li>
+          <li class="todo"><div class="check">→</div><div>
+            <div class="task-title">Gallery browser (optional)</div>
+            <div class="task-meta">
+              <strong>Instructions:</strong> Filter by Class / Staff / Spell / Familiar / Special.
+              Load from <code>metadata/*.json</code> + <code>images/</code>. Keep pixelated CSS.
+            </div>
+          </div></li>
+          <li class="todo"><div class="check">→</div><div>
+            <div class="task-title">Rarity page</div>
+            <div class="task-meta">
+              <strong>Instructions:</strong> Render <code>rarity.csv</code> as tables; document 1/1 specials and weight model.
+            </div>
+          </div></li>
+        </ul>
+
+        <h3>D · Art / balance polish (as needed)</h3>
+        <ul class="tasks">
+          <li class="todo"><div class="check">→</div><div>
+            <div class="task-title">Staff / familiar visual QA pass</div>
+            <div class="task-meta">
+              Spot-check staffs at right margin (~5–10px), logo top-right clearance from hats,
+              familiars not colliding with logo (logo moved TR to fix this).
+              Adjust in <span class="path">tools/add_rarity_layers.py</span> + re-run <span class="path">fix_staff_spells.py</span>, then push.
+            </div>
+          </div></li>
+          <li class="todo"><div class="check">→</div><div>
+            <div class="task-title">Trait weight tuning</div>
+            <div class="task-meta">
+              Edit <span class="path">traits/*#weight.png</span> names and/or
+              <span class="path">traits_extra/weights.json</span> catalogs; regenerate if distribution targets change.
+            </div>
+          </div></li>
+          <li class="todo"><div class="check">→</div><div>
+            <div class="task-title">New named specials</div>
+            <div class="task-meta">
+              <strong>Instructions:</strong> Build from official traits when possible; save
+              <code>special/Name_640.png</code> + JSON; assign a free token id; rebuild that slot; push.
+            </div>
+          </div></li>
+        </ul>
+
+        <h3>E · Ops / backups</h3>
+        <ul class="tasks">
+          <li class="done"><div class="check">✓</div><div>
+            <div class="task-title">Legacy GitHub art backup</div>
+            <div class="task-meta"><span class="path">G:\WizNerdz\_archive\WizNerdZ_Pixel_Paragon_legacy_github_backup\</span></div>
+          </div></li>
+          <li class="todo"><div class="check">→</div><div>
+            <div class="task-title">Full local cold backup of collection_8888</div>
+            <div class="task-meta">
+              <strong>Instructions:</strong> Zip <span class="path">working directory/collection_8888</span>
+              + <span class="path">traits</span> + <span class="path">special</span> to external drive / cloud.
+              Keep one copy offline before public mint.
+            </div>
+          </div></li>
+          <li class="todo"><div class="check">→</div><div>
+            <div class="task-title">Freeze release tag</div>
+            <div class="task-meta">
+              <strong>Instructions:</strong> When mint-ready:
+              <code>git tag v1.0.0-mint</code> on
+              <code>FlipThisCrypto/WizNerdZ-Pixel-Paragon</code> and push tags.
+            </div>
+          </div></li>
+        </ul>
+      </section>
+
+      <!-- SPECIALS -->
+      <section class="panel" id="specials">
+        <h2>4 · Named specials (1 of 1)</h2>
+        <table>
+          <thead><tr><th>#</th><th>Name</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td>42</td><td>Tom</td><td>Blood Mage · Fel green · fixed id</td></tr>
+            <tr><td>787</td><td>Fiend</td><td>Warlock Fel · white beard · fixed id</td></tr>
+            <tr><td>2264</td><td>Aster</td><td>Pyromancer · long red-orange beard</td></tr>
+            <tr><td>3736</td><td>Art Boss</td><td>Sand Sage · Bark Skin</td></tr>
+            <tr><td>5625</td><td>Profet</td><td>Void Walker · ash face · goatee</td></tr>
+            <tr><td>6146</td><td>Blake</td><td>Deep Sea · blue</td></tr>
+            <tr><td>6949</td><td>Steve</td><td>Special bird / Chia coin (custom art)</td></tr>
+            <tr><td>7462</td><td>Papa</td><td>Pyromancer · Louvered Shades</td></tr>
+            <tr><td>8483</td><td>James</td><td>Spirit Guide · Bark Skin</td></tr>
+            <tr><td>8700</td><td>Staker</td><td>Beret + sunset visor (custom headwear)</td></tr>
+          </tbody>
+        </table>
+        <p class="note">Art files: <span class="path">special/*_640.png</span> · Live on Pages under <code>/specials/</code> and token images.</p>
+      </section>
+
+      <!-- PIPELINE -->
+      <section class="panel" id="pipeline">
+        <h2>5 · Pipeline &amp; tools</h2>
+        <table>
+          <thead><tr><th>Script</th><th>Purpose</th></tr></thead>
+          <tbody>
+            <tr><td><code>tools/improve_collection.py</code></td><td>Build improved 320px traits from 32px masters (don’t overwrite user shirt mask lightly)</td></tr>
+            <tr><td><code>tools/generate_8888.py</code></td><td>Full 8888 generate + specials placement + rarity pass</td></tr>
+            <tr><td><code>tools/generate_collection.py</code></td><td>Sample packs / glasses-mouth rebuild helpers</td></tr>
+            <tr><td><code>tools/add_rarity_layers.py</code></td><td>Staff / spell / familiar art + weights + logo stamp logic</td></tr>
+            <tr><td><code>tools/fix_staff_spells.py</code></td><td>Rebuild extras from clean DNA bases (layout/weight fixes)</td></tr>
+            <tr><td><code>tools/apply_character_outline.py</code></td><td>Optional post outline helper</td></tr>
+          </tbody>
+        </table>
+        <h3>Regenerate / fix cycle</h3>
+        <ol style="font-size:0.9rem;color:var(--muted)">
+          <li>Edit traits or <code>add_rarity_layers.py</code> weights/art</li>
+          <li>Run <code>fix_staff_spells.py</code> (or full <code>generate_8888.py</code> only if DNA must change)</li>
+          <li>Copy <code>collection_8888/images</code> + <code>metadata</code> → repo <code>docs/</code></li>
+          <li><code>git commit</code> + <code>git push</code> → Pages updates</li>
+        </ol>
+      </section>
+
+      <!-- PATHS -->
+      <section class="panel full" id="paths">
+        <h2>6 · Important local paths</h2>
+        <table>
+          <thead><tr><th>What</th><th>Path</th></tr></thead>
+          <tbody>
+            <tr><td>Working root</td><td><span class="path">G:\WizNerdz\_archive\legacy_old1\working directory\</span></td></tr>
+            <tr><td>Mint set</td><td><span class="path">…\collection_8888\images\</span> + <span class="path">metadata\</span></td></tr>
+            <tr><td>Improved traits</td><td><span class="path">…\traits\</span></td></tr>
+            <tr><td>Extra layers</td><td><span class="path">…\traits_extra\</span></td></tr>
+            <tr><td>Named specials</td><td><span class="path">…\special\</span></td></tr>
+            <tr><td>Logo masters</td><td><span class="path">…\special\logo\logo_badge.png</span>, <span class="path">logo_mark.png</span></td></tr>
+            <tr><td>GitHub Pages clone</td><td><span class="path">…\github_pages_repo\</span> (remote: FlipThisCrypto/WizNerdZ-Pixel-Paragon)</td></tr>
+            <tr><td>Legacy GitHub backup</td><td><span class="path">G:\WizNerdz\_archive\WizNerdZ_Pixel_Paragon_legacy_github_backup\</span></td></tr>
+            <tr><td>32px originals (read-only)</td><td><span class="path">G:\WizNerdz\_archive\legacy_old1\{Background,face,…}\</span></td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- MINT -->
+      <section class="panel full" id="mint">
+        <h2>7 · Mint direction (MintGarden + Chia)</h2>
+        <div class="cols-2">
+          <div>
+            <h3>Metadata rules for mint</h3>
+            <ul>
+              <li>Format: <strong>CHIP-0007</strong></li>
+              <li>Twitter + website set on every token</li>
+              <li>No icon/banner in JSON</li>
+              <li>Specials: <code>Rarity: 1 of 1</code>, <code>Supply: 1</code></li>
+              <li>Series numbers 1–8888</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Suggested media base</h3>
+            <p class="note">
+              Image: <code>https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/&lt;id&gt;.png</code><br />
+              Meta: <code>https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/metadata/&lt;id&gt;.json</code>
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      WizNerdZ Pixel Paragon project dashboard · local file:
+      <code>docs/dashboard.html (GitHub Pages)</code>
+      · Open in any browser (double-click). Logo image loads if path
+      <code>special/logo/logo_badge.png</code> is next to this file.
+    </footer>
+  </div>
+</body>
+</html>
