@@ -5,7 +5,7 @@
  * - Never put private keys, mnemonics, or offer secrets here.
  * - Only public xch addresses and public WalletConnect project ID.
  */
-window.WIZNERDZ_CONFIG = {
+window.WIZNERDZ_CONFIG = Object.freeze({
   collection: {
     name: "WizNerdZ Pixel Paragon",
     id: "wiznerdz-chia-gen1",
@@ -111,4 +111,4 @@ window.WIZNERDZ_CONFIG = {
     statusNote:
       "Mint arms after community 1:1 PFPs are locked into the set. Connect Sage anytime; takeOffer goes live when offers publish.",
   },
-};
+});
