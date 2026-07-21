@@ -1,0 +1,27 @@
+{
+  "service": "wiznerdz-pixel-paragon",
+  "status": "ok",
+  "version": "r2.1",
+  "updated": "2026-07-21",
+  "collection": {
+    "id": "wiznerdz-chia-gen1",
+    "series_total": 8888,
+    "media_base": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon"
+  },
+  "checks": {
+    "pages": "live",
+    "mint_enabled": false,
+    "nominations_open_until_utc": "2026-08-01T04:00:00.000Z",
+    "metadata_image_urls": "absolute",
+    "walletconnect_configured": true
+  },
+  "endpoints": {
+    "home": "./",
+    "token": "./token.html?id=1",
+    "rarity": "./rarity.html",
+    "collection": "./collection.json",
+    "specials": "./specials.json",
+    "metadata_sample": "./metadata/1.json",
+    "image_sample": "./images/1.png"
+  }
+}
