@@ -95,6 +95,7 @@
     // Restore existing session if any
     if (client.session && client.session.length) {
       session = client.session.getAll()[0];
+      setStatus("Restored previous WalletConnect session.", "ok");
       await refreshAddress();
     }
     return client;
