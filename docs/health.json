@@ -1,7 +1,7 @@
 {
   "service": "wiznerdz-pixel-paragon",
   "status": "ok",
-  "version": "r2.1",
+  "version": "r2.30",
   "updated": "2026-07-21",
   "collection": {
     "id": "wiznerdz-chia-gen1",
@@ -13,7 +13,9 @@
     "mint_enabled": false,
     "nominations_open_until_utc": "2026-08-01T04:00:00.000Z",
     "metadata_image_urls": "absolute",
-    "walletconnect_configured": true
+    "walletconnect_configured": true,
+    "live_nominations_board": true,
+    "offline_shell": true
   },
   "endpoints": {
     "home": "./",
@@ -22,6 +24,8 @@
     "collection": "./collection.json",
     "specials": "./specials.json",
     "metadata_sample": "./metadata/1.json",
-    "image_sample": "./images/1.png"
+    "image_sample": "./images/1.png",
+    "operator": "./operator.html",
+    "compare": "./compare.html"
   }
 }
