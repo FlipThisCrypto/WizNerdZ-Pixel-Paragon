@@ -1,0 +1,9 @@
+/* TEAM */
+Publisher: Fiend Studios
+Contact: https://x.com/FiendStudios
+Site: https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/
+
+/* SITE */
+Standards: CHIP-0007, HTML5, static GitHub Pages
+Components: nomination form, Sage WalletConnect, token viewer, rarity table
+Last update: 2026-07-21
