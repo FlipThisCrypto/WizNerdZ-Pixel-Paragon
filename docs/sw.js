@@ -1,5 +1,5 @@
 /* WizNerdZ shell service worker — offline fallback for core pages only */
-const CACHE = "wiznerdz-shell-v1";
+const CACHE = "wiznerdz-shell-v3";
 const PRECACHE = [
   "./",
   "./index.html",
@@ -59,4 +59,11 @@ self.addEventListener("fetch", (event) => {
       .then((res) => res)
       .catch(() => caches.match(req))
   );
+});
+
+
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
+    self.skipWaiting();
+  }
 });

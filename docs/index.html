@@ -1339,7 +1339,21 @@
     })();
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
-        navigator.serviceWorker.register("sw.js").catch(() => {});
+        navigator.serviceWorker.register("sw.js").then((reg) => {
+          if (reg.waiting) reg.waiting.postMessage({ type: "SKIP_WAITING" });
+          reg.addEventListener("updatefound", () => {
+            const nw = reg.installing;
+            if (!nw) return;
+            nw.addEventListener("statechange", () => {
+              if (nw.state === "installed" && navigator.serviceWorker.controller) {
+                console.info("[WizNerdZ] New shell available — reload to activate.");
+              }
+            });
+          });
+        }).catch(() => {});
+        navigator.serviceWorker.addEventListener("controllerchange", () => {
+          /* optional soft reload once */
+        });
       });
     }
   </script>
