@@ -286,12 +286,12 @@
               Confirm CHIP-0007 field mapping with their importer.
             </div>
           </div></li>
-          <li class="todo"><div class="check">→</div><div>
-            <div class="task-title">Absolute image URLs in metadata (if required)</div>
+          <li class="done"><div class="check">✓</div><div>
+            <div class="task-title">Absolute image URLs in metadata</div>
             <div class="task-meta">
-              <strong>Instructions:</strong> If MintGarden needs full URLs in each JSON <code>data.image</code> / image field,
-              batch-rewrite all 8,888 metadata files, re-sync to <code>docs/metadata/</code>, commit + push.
-              Script suggestion: small Python loop over <span class="path">collection_8888/metadata</span>.
+              Done: all 8,888 CHIP-0007 files use
+              <code>https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/{id}.png</code>
+              on root <code>image</code> and <code>data.image</code>. Verified via <code>scripts/verify_metadata.py</code>.
             </div>
           </div></li>
           <li class="todo"><div class="check">→</div><div>
