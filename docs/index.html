@@ -1082,8 +1082,8 @@
         <label for="pfpUrl">PFP / reference image URL</label>
         <input id="pfpUrl" name="pfpUrl" type="url" placeholder="https://..." maxlength="400" />
 
-        <label for="notes">Notes (class vibe, colors, lore)</label>
-        <textarea id="notes" name="notes" maxlength="800" placeholder="Optional guidance for the 1:1 art"></textarea>
+        <label for="notes">Notes (class vibe, colors, lore) <span class="muted" id="notes-count">0/800</span></label>
+        <textarea id="notes" name="notes" maxlength="800" placeholder="Optional guidance for the 1:1 art" aria-describedby="notes-count"></textarea>
 
         <div class="form-actions">
           <button type="submit" class="btn primary">Submit nomination</button>

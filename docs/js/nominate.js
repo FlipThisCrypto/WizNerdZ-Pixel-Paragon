@@ -94,6 +94,16 @@
     }
   }
 
+  const notes = form.notes;
+  const notesCount = document.getElementById("notes-count");
+  if (notes && notesCount) {
+    const syncNotes = () => {
+      notesCount.textContent = notes.value.length + "/800";
+    };
+    notes.addEventListener("input", syncNotes);
+    syncNotes();
+  }
+
   // Live wallet hint
   const walletInput = form.wallet;
   if (walletInput) {
