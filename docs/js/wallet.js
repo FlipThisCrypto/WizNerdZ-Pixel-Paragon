@@ -127,6 +127,7 @@
 
   async function connect() {
     try {
+      if (connectBtn) connectBtn.disabled = true;
       setStatus("Loading WalletConnect…");
       await ensureClient();
       setStatus("Open Sage → WalletConnect, then scan or approve the session.");
@@ -194,6 +195,9 @@
     } catch (err) {
       console.error(err);
       setStatus(String(err.message || err), "err");
+      updateUi();
+    } finally {
+      if (connectBtn && !(session && session.topic)) connectBtn.disabled = false;
       updateUi();
     }
   }
