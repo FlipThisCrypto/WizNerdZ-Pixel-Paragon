@@ -949,6 +949,22 @@
       a { color: #000 !important; text-decoration: underline; }
     }
 
+    @media (prefers-contrast: more) {
+      :root {
+        --muted: #c5ceda;
+        --line: rgba(232, 238, 246, 0.55);
+        --green: #b8ffc6;
+        --blue-6: #d0eaff;
+      }
+      .panel {
+        border-width: 2px;
+        box-shadow: none;
+      }
+      .btn, .btn.primary {
+        border-width: 2px;
+      }
+    }
+
     /* Accessibility */
     .skip-link {
       position: absolute;
