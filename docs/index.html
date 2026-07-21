@@ -1118,6 +1118,8 @@
         <label for="nominatorHandle">Your handle (nominator)</label>
         <input id="nominatorHandle" name="nominatorHandle" placeholder="@you" maxlength="80" />
 
+        <details id="advanced-nom" style="margin-top:12px">
+        <summary style="cursor:pointer;color:var(--blue-6)">Optional details (wallet, PFP URL, notes)</summary>
         <label for="wallet">Nominee claim wallet (xch… optional)</label>
         <input id="wallet" name="wallet" placeholder="xch1..." maxlength="120" autocomplete="off" spellcheck="false" />
 
@@ -1127,6 +1129,7 @@
         <label for="notes">Notes (class vibe, colors, lore) <span class="muted" id="notes-count">0/800</span></label>
         <textarea id="notes" name="notes" maxlength="800" placeholder="Optional guidance for the 1:1 art" aria-describedby="notes-count"></textarea>
 
+        </details>
         <div class="form-actions">
           <button type="submit" class="btn primary">Submit nomination</button>
           <a class="btn" id="view-issues-link" href="https://github.com/FlipThisCrypto/WizNerdZ-Pixel-Paragon/issues?q=is%3Aissue+PFP+Nomination" target="_blank" rel="noopener">View open nominations</a>
