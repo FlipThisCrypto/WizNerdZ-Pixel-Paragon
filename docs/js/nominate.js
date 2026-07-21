@@ -11,6 +11,10 @@
   if (!form || !cfg) return;
 
   const KEY = "wiznerdz_pfp_nominations_v1";
+  const MAX_LOCAL = 50;
+
+  /** Bech32-style xch addresses: xch1 + ~58 data chars (mainnet). */
+  const XCH_RE = /^xch1[qpzry9x8gf2tvdw0s3jn54khce6mua7l]{50,90}$/i;
 
   function loadLocal() {
     try {
@@ -21,7 +25,13 @@
   }
 
   function saveLocal(arr) {
-    localStorage.setItem(KEY, JSON.stringify(arr));
+    localStorage.setItem(KEY, JSON.stringify(arr.slice(-MAX_LOCAL)));
+  }
+
+  function showErr(msg) {
+    if (!out) return;
+    out.innerHTML = "<p class='err' role='alert'>" + escapeHtml(msg) + "</p>";
+    out.focus && out.setAttribute("tabindex", "-1");
   }
 
   function renderLocal() {
@@ -58,13 +68,48 @@
     return Date.now() >= end;
   }
 
+  function validateWallet(w) {
+    if (!w) return null;
+    if (!XCH_RE.test(w)) {
+      return "Wallet must be a valid mainnet Chia address starting with xch1 (or leave blank).";
+    }
+    return null;
+  }
+
+  function validatePfpUrl(u) {
+    if (!u) return null;
+    try {
+      const parsed = new URL(u);
+      if (parsed.protocol !== "https:" && parsed.protocol !== "http:") {
+        return "PFP URL must start with http:// or https://.";
+      }
+      return null;
+    } catch {
+      return "PFP / reference URL is not a valid URL.";
+    }
+  }
+
+  // Live wallet hint
+  const walletInput = form.wallet;
+  if (walletInput) {
+    walletInput.addEventListener("input", () => {
+      const w = walletInput.value.trim();
+      if (!w) {
+        walletInput.setCustomValidity("");
+        return;
+      }
+      walletInput.setCustomValidity(
+        XCH_RE.test(w) ? "" : "Enter a valid xch1… address or leave blank."
+      );
+    });
+  }
+
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     if (deadlinePassed()) {
-      if (out) {
-        out.innerHTML =
-          "<p class='err'>The nomination window is closed (after midnight July 31, 2026 US Eastern).</p>";
-      }
+      showErr(
+        "The nomination window is closed (after midnight July 31, 2026 US Eastern)."
+      );
       return;
     }
 
@@ -79,8 +124,27 @@
       type: "WizNerdZ community PFP 1:1 nomination",
     };
 
-    if (!data.nomineeHandle) {
-      if (out) out.innerHTML = "<p class='err'>Nominee handle is required.</p>";
+    if (!data.nomineeHandle || data.nomineeHandle.length < 2) {
+      showErr("Nominee handle is required (at least 2 characters).");
+      form.nomineeHandle.focus();
+      return;
+    }
+    if (data.nomineeHandle.length > 80) {
+      showErr("Nominee handle is too long (max 80 characters).");
+      return;
+    }
+
+    const wErr = validateWallet(data.wallet);
+    if (wErr) {
+      showErr(wErr);
+      form.wallet.focus();
+      return;
+    }
+
+    const uErr = validatePfpUrl(data.pfpUrl);
+    if (uErr) {
+      showErr(uErr);
+      form.pfpUrl.focus();
       return;
     }
 
@@ -115,13 +179,16 @@
 
     if (out) {
       out.innerHTML = `
-        <p class="ok">Saved on this device. Completing the GitHub issue is the official nomination.</p>
+        <p class="ok" role="status">Saved on this device. Completing the GitHub issue is the official nomination.</p>
         <p><a class="btn primary" href="${issueUrl}" target="_blank" rel="noopener">Finish on GitHub (opens issue form)</a></p>
         <p class="muted">Log into GitHub if prompted, then click <strong>Create</strong> on the prefilled issue. That is how Fiend Studios receives your nomination.</p>`;
     }
 
-    // Open prefilled issue form (user confirms Create — no write API key needed)
-    window.open(issueUrl, "_blank", "noopener");
+    const win = window.open(issueUrl, "_blank", "noopener");
+    if (!win && out) {
+      out.innerHTML +=
+        "<p class='warn' role='status'>Popup blocked — use the button above to open the GitHub issue form.</p>";
+    }
   });
 
   renderLocal();
