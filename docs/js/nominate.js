@@ -191,5 +191,54 @@
     }
   });
 
+  function exportCsv() {
+    const arr = loadLocal();
+    if (!arr.length) {
+      showErr("No local nominations to export on this device.");
+      return;
+    }
+    const headers = [
+      "createdAt",
+      "nomineeHandle",
+      "nomineePlatform",
+      "nominatorHandle",
+      "wallet",
+      "pfpUrl",
+      "notes",
+    ];
+    const rows = [headers.join(",")];
+    arr.forEach((n) => {
+      rows.push(
+        headers
+          .map((h) => {
+            const v = String(n[h] == null ? "" : n[h]);
+            return '"' + v.replace(/"/g, '""') + '"';
+          })
+          .join(",")
+      );
+    });
+    const blob = new Blob([rows.join("\n")], { type: "text/csv;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download =
+      "wiznerdz-pfp-nominations-" +
+      new Date().toISOString().slice(0, 10) +
+      ".csv";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+    if (out) {
+      out.innerHTML =
+        "<p class='ok' role='status'>Downloaded CSV of " +
+        arr.length +
+        " local nomination(s).</p>";
+    }
+  }
+
+  const exportBtn = document.getElementById("btn-export-noms");
+  if (exportBtn) exportBtn.addEventListener("click", exportCsv);
+
   renderLocal();
 })();

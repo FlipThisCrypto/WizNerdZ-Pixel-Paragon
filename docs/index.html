@@ -1016,10 +1016,14 @@
       </form>
       <div id="nominate-result" style="margin-top:12px"></div>
       <h3>Saved on this device</h3>
+      <div class="form-actions" style="margin-top:0;margin-bottom:10px">
+        <button type="button" class="btn" id="btn-export-noms">Export local nominations (CSV)</button>
+      </div>
       <div id="local-noms"></div>
       <p class="muted">
         Official submissions = GitHub issues titled <code>[PFP Nomination] …</code>.
         You must be logged into GitHub when the issue tab opens for it to post.
+        CSV export is only this browser’s copies (for your records).
       </p>
     </section>
 
@@ -1156,7 +1160,7 @@
   </noscript>
   <script src="js/config.js?v=20260721"></script>
   <script src="js/countdown.js?v=20260721"></script>
-  <script src="js/nominate.js?v=20260721"></script>
+  <script src="js/nominate.js?v=20260721b"></script>
   <script src="js/wallet.js?v=20260721"></script>
   <script>
     (function () {
