@@ -93,6 +93,17 @@ README.md
 
 Legacy 64×64 rulepack pipeline art was removed from this repo (local backup only).
 
+## Scripts
+
+From the repository root:
+
+```bash
+python scripts/verify_metadata.py   # all 8888 CHIP-0007 absolute image URLs + PNGs
+python scripts/verify_specials.py   # named 1/1 placements + rarity
+```
+
+CI runs these via `.github/workflows/verify-metadata.yml`.
+
 ## License
 
 See `LICENSE`.
