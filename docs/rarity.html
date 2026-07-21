@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WizNerdZ Rarity</title>
+  <meta name="description" content="Trait frequencies for WizNerdZ Pixel Paragon on Chia." />
+  <meta name="theme-color" content="#05060a" />
+  <link rel="icon" href="assets/logo_mark.png" type="image/png" />
+  <style>
+    :root {
+      --bg:#05060a; --text:#e8eef6; --muted:#8b96a8; --green:#9dffb0;
+      --blue:#a8d4ff; --line:rgba(168,212,255,.25);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:"Segoe UI",system-ui,sans-serif; color:var(--text);
+      background:radial-gradient(ellipse 900px 400px at 20% -10%,rgba(61,155,232,.18),transparent 55%),
+                 linear-gradient(165deg,#020308,#061428);
+      padding:24px 16px 48px;
+    }
+    a{color:var(--blue)} a:hover{color:var(--green)}
+    .wrap{max-width:960px;margin:0 auto}
+    h1{margin:0 0 8px;font-size:1.4rem}
+    h1 span{color:var(--green)}
+    .muted{color:var(--muted);font-size:.9rem}
+    .toolbar{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0;align-items:center}
+    input,select{
+      padding:10px 12px;border-radius:10px;border:1px solid var(--line);
+      background:#0a0c12;color:var(--text);font:inherit
+    }
+    input{min-width:200px;flex:1}
+    table{width:100%;border-collapse:collapse;font-size:.86rem}
+    th,td{border:1px solid var(--line);padding:8px 10px;text-align:left}
+    th{background:rgba(6,20,40,.75);color:var(--blue);position:sticky;top:0}
+    tr:nth-child(even) td{background:rgba(2,3,8,.35)}
+    .err{color:#ff8a9a}
+    .card{
+      border:1px solid var(--line);border-radius:16px;padding:16px;
+      background:linear-gradient(155deg,rgba(244,247,251,.06),rgba(6,20,40,.95));
+      box-shadow:0 0 40px rgba(18,64,110,.35)
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="muted"><a href="./">← Home</a> · <a href="token.html?id=1">Token viewer</a> · <a href="rarity.csv">Raw CSV</a></p>
+    <h1>Trait rarity <span>table</span></h1>
+    <p class="muted">Loaded from <code>rarity.csv</code> · higher count = more common</p>
+    <div class="toolbar">
+      <input id="q" type="search" placeholder="Filter trait or value…" autocomplete="off" />
+      <select id="sort">
+        <option value="count-desc">Count ↓</option>
+        <option value="count-asc">Count ↑</option>
+        <option value="name">Name A–Z</option>
+      </select>
+      <span class="muted" id="count"></span>
+    </div>
+    <div class="card">
+      <p id="status" class="muted">Loading rarity.csv…</p>
+      <table id="tbl" hidden>
+        <thead><tr><th>Trait</th><th>Value</th><th>Count</th><th>%</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+  <script>
+    const TOTAL = 8888;
+    let rows = [];
+
+    function parseCsv(text) {
+      const lines = text.trim().split(/\r?\n/);
+      if (!lines.length) return [];
+      const headers = lines[0].split(",").map((h) => h.trim().toLowerCase());
+      const out = [];
+      for (let i = 1; i < lines.length; i++) {
+        const cols = lines[i].split(",");
+        const obj = {};
+        headers.forEach((h, idx) => {
+          obj[h] = (cols[idx] || "").trim();
+        });
+        // flexible column names
+        const trait = obj.trait || obj.trait_type || obj.category || obj.type || cols[0];
+        const value = obj.value || obj.name || cols[1];
+        let count = parseInt(obj.count || obj.freq || obj.frequency || cols[2], 10);
+        if (!trait || !value || !Number.isFinite(count)) continue;
+        out.push({ trait, value, count, pct: (100 * count) / TOTAL });
+      }
+      return out;
+    }
+
+    function render() {
+      const q = document.getElementById("q").value.trim().toLowerCase();
+      const sort = document.getElementById("sort").value;
+      let list = rows.slice();
+      if (q) {
+        list = list.filter(
+          (r) =>
+            r.trait.toLowerCase().includes(q) ||
+            r.value.toLowerCase().includes(q)
+        );
+      }
+      list.sort((a, b) => {
+        if (sort === "count-asc") return a.count - b.count;
+        if (sort === "name")
+          return (a.trait + a.value).localeCompare(b.trait + b.value);
+        return b.count - a.count;
+      });
+      const tb = document.querySelector("#tbl tbody");
+      tb.innerHTML = list
+        .map(
+          (r) =>
+            "<tr><td>" +
+            esc(r.trait) +
+            "</td><td>" +
+            esc(r.value) +
+            "</td><td>" +
+            r.count +
+            "</td><td>" +
+            r.pct.toFixed(2) +
+            "%</td></tr>"
+        )
+        .join("");
+      document.getElementById("count").textContent = list.length + " rows";
+    }
+
+    function esc(s) {
+      return String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+    }
+
+    fetch("rarity.csv")
+      .then((r) => {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.text();
+      })
+      .then((t) => {
+        rows = parseCsv(t);
+        if (!rows.length) throw new Error("No rows parsed — check CSV headers");
+        document.getElementById("status").hidden = true;
+        document.getElementById("tbl").hidden = false;
+        render();
+      })
+      .catch((e) => {
+        document.getElementById("status").className = "err";
+        document.getElementById("status").textContent = String(e.message || e);
+      });
+
+    document.getElementById("q").addEventListener("input", render);
+    document.getElementById("sort").addEventListener("change", render);
+  </script>
+</body>
+</html>
