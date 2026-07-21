@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Compare WizNerdZ</title>
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="icon" href="assets/logo_mark.png" type="image/png" />
+  <style>
+    body{margin:0;font-family:var(--font-ui);background:linear-gradient(165deg,var(--black-0),var(--blue-1));color:var(--text);padding:24px 16px}
+    a{color:var(--blue-6)} a:hover{color:var(--green)}
+    .wrap{max-width:960px;margin:0 auto}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    @media(max-width:700px){.grid{grid-template-columns:1fr}}
+    .card{border:1px solid var(--line);border-radius:16px;padding:16px;background:linear-gradient(155deg,rgba(244,247,251,.08),rgba(6,20,40,.95))}
+    img{width:100%;aspect-ratio:1;image-rendering:pixelated;border-radius:12px;border:1px solid var(--line);background:#000}
+    input,button{font:inherit;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--black-2);color:var(--text)}
+    button{cursor:pointer;background:linear-gradient(180deg,#d8ffe4,var(--green));color:var(--black-0);font-weight:700}
+    table{width:100%;border-collapse:collapse;font-size:.85rem;margin-top:10px}
+    th,td{border:1px solid var(--line);padding:6px 8px;text-align:left}
+    .same{color:var(--muted)} .diff{color:var(--green);font-weight:600}
+    .muted{color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="muted"><a href="./">← Home</a> · <a href="token.html?id=1">Token</a></p>
+    <h1>Compare two WizNerdZ</h1>
+    <p class="muted">Side-by-side traits — highlights differences (decision support for collectors).</p>
+    <div style="display:flex;flex-wrap:wrap;gap:10px;margin:12px 0">
+      <label>A <input id="a" type="number" min="1" max="8888" value="42" /></label>
+      <label>B <input id="b" type="number" min="1" max="8888" value="787" /></label>
+      <button type="button" id="go">Compare</button>
+    </div>
+    <div class="grid">
+      <div class="card"><h2 id="ta">A</h2><img id="ia" alt="A" /><div id="pa"></div></div>
+      <div class="card"><h2 id="tb">B</h2><img id="ib" alt="B" /><div id="pb"></div></div>
+    </div>
+    <div class="card" style="margin-top:16px">
+      <h2>Trait diff</h2>
+      <p id="status" class="muted">Pick two IDs and compare.</p>
+      <table id="diff" hidden><thead><tr><th>Trait</th><th>A</th><th>B</th></tr></thead><tbody></tbody></table>
+    </div>
+  </div>
+  <script>
+    async function loadMeta(id) {
+      id = Math.min(8888, Math.max(1, parseInt(id, 10) || 1));
+      const res = await fetch("metadata/" + id + ".json");
+      if (!res.ok) throw new Error("meta " + id);
+      return res.json();
+    }
+    function mapTraits(meta) {
+      const m = {};
+      (meta.attributes || []).forEach((a) => {
+        if (a.trait_type) m[a.trait_type] = String(a.value);
+      });
+      return m;
+    }
+    async function compare() {
+      const a = document.getElementById("a").value;
+      const b = document.getElementById("b").value;
+      const status = document.getElementById("status");
+      try {
+        const [ma, mb] = await Promise.all([loadMeta(a), loadMeta(b)]);
+        document.getElementById("ta").textContent = ma.name || "#" + a;
+        document.getElementById("tb").textContent = mb.name || "#" + b;
+        document.getElementById("ia").src = "images/" + a + ".png";
+        document.getElementById("ib").src = "images/" + b + ".png";
+        history.replaceState(null, "", "compare.html?a=" + a + "&b=" + b);
+        const ta = mapTraits(ma), tb = mapTraits(mb);
+        const keys = Array.from(new Set([...Object.keys(ta), ...Object.keys(tb)])).sort();
+        let diffs = 0;
+        const rows = keys.map((k) => {
+          const va = ta[k] || "—", vb = tb[k] || "—";
+          const same = va === vb;
+          if (!same) diffs++;
+          return "<tr class='" + (same ? "same" : "diff") + "'><th>" + k + "</th><td>" + va + "</td><td>" + vb + "</td></tr>";
+        });
+        document.querySelector("#diff tbody").innerHTML = rows.join("");
+        document.getElementById("diff").hidden = false;
+        status.textContent = diffs + " differing trait(s) of " + keys.length;
+      } catch (e) {
+        status.textContent = String(e.message || e);
+      }
+    }
+    document.getElementById("go").onclick = compare;
+    const p = new URLSearchParams(location.search);
+    if (p.get("a")) document.getElementById("a").value = p.get("a");
+    if (p.get("b")) document.getElementById("b").value = p.get("b");
+    compare();
+  </script>
+</body>
+</html>
