@@ -149,6 +149,8 @@
         html += "</tbody>";
         traits.innerHTML = html;
         traits.hidden = false;
+        const rar = attrs.find(a => a.trait_type === 'Rarity');
+        if (rar) status.textContent = (meta.name || '') + ' · Rarity: ' + rar.value;
 
         links.innerHTML =
           '<a class="btn" href="' +
