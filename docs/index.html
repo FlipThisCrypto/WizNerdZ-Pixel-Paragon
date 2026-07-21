@@ -996,6 +996,7 @@
       <p id="cd-stamp" class="muted"></p>
       <div class="links" style="margin-top:14px">
         <a class="btn primary" href="#nominate">Nominate someone now ↓</a>
+        <button type="button" class="btn" id="btn-share-campaign">Copy campaign link</button>
       </div>
     </section>
 
@@ -1207,6 +1208,23 @@
       }
       const tw = document.getElementById('treasury-display');
       if (tw) tw.textContent = cfg.treasuryWallet || '(not set)';
+      const shareBtn = document.getElementById('btn-share-campaign');
+      if (shareBtn) {
+        shareBtn.addEventListener('click', async () => {
+          const url = (cfg.collection && cfg.collection.website) || location.href;
+          const text =
+            'Nominate a Chia community PFP for a WizNerdZ 1:1 before midnight July 31, 2026 US Eastern: ' +
+            url +
+            '#nominate';
+          try {
+            await navigator.clipboard.writeText(text);
+            shareBtn.textContent = 'Copied!';
+            setTimeout(() => { shareBtn.textContent = 'Copy campaign link'; }, 2000);
+          } catch {
+            shareBtn.textContent = 'Copy failed';
+          }
+        });
+      }
     })();
 
     const specials = [
