@@ -107,8 +107,19 @@ Use title prefix `[PFP Nomination]` (form does this). Optionally add label `pfp-
 | `js/wallet.js` | Sage WalletConnect client |
 | `js/countdown.js` | Eastern deadline timer |
 | `js/nominate.js` | Nomination form |
+| `token.html` | Token deep-link viewer |
+| `rarity.html` | Interactive rarity table |
 | `dashboard.html` | Ops board |
 | `images/` · `metadata/` | Public collection media |
+| `scripts/verify_metadata.py` | Integrity check absolute image URLs |
+| `scripts/verify_specials.py` | Integrity check named 1/1 specials |
+
+### Local verification
+
+```bash
+python scripts/verify_metadata.py
+python scripts/verify_specials.py
+```
 
 ---
 
