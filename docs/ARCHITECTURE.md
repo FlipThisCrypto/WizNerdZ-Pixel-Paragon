@@ -61,3 +61,10 @@ Static, mint-oriented presentation of an 8,888 CHIP-0007 collection on Chia, wit
 - GitHub API rate limit → board cache
 - WC CDN fail → connect errors surfaced; mint still disarmed
 - Offline → SW serves shell; images may fail until online
+
+## Round 3 additions
+
+- Integrity manifests + DR/canary/perf scripts
+- Chaos drills, feature flags, funnel metrics
+- SLOs, incidents, governance freeze
+- Lite mode, tab sync, config validation
