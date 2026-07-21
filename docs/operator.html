@@ -30,6 +30,12 @@
   <script src="js/config.js"></script>
   <script>
     document.getElementById('t').textContent = (window.WIZNERDZ_CONFIG&&WIZNERDZ_CONFIG.treasuryWallet)||'';
+                const d=document.getElementById('env-diag');
+                if(d){
+                  d.textContent = 'UA online=' + navigator.onLine + ' · lang=' + navigator.language +
+                    ' · tz=' + Intl.DateTimeFormat().resolvedOptions().timeZone +
+                    ' · mintEnabled=' + !!(WIZNERDZ_CONFIG&&WIZNERDZ_CONFIG.mint&&WIZNERDZ_CONFIG.mint.enabled);
+                }
   </script>
 </body>
 </html>
