@@ -5,6 +5,7 @@
 | Surface | URL |
 |---------|-----|
 | Site | https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/ |
+| Operator | …/operator.html |
 | Health | …/health.json |
 | Nominations | Landing form → GitHub Issues + live board |
 | Art / meta | …/images/{id}.png · …/metadata/{id}.json |
