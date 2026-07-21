@@ -52,6 +52,9 @@
 | `/rarity.csv` | Trait frequencies |
 | `/specials/` | Named specials showcase |
 | `/dashboard.html` | Ops board |
+| `/operator.html` | Operator console |
+| `/compare.html` | Trait compare |
+| `/health.json` | Health contract |
 | `/MINT.md` | Mint economics & checklist |
 | `/404.html` | Branded not-found page |
 
