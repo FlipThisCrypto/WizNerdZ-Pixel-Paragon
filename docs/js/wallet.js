@@ -8,6 +8,14 @@
  */
 (function () {
   const cfg = window.WIZNERDZ_CONFIG;
+  if (window.WIZNERDZ_FLAGS && window.WIZNERDZ_FLAGS.wallet === false) {
+    if (statusEl) {
+      statusEl.textContent = "WalletConnect disabled by feature flag.";
+      statusEl.className = "wc-status warn";
+    }
+    if (connectBtn) connectBtn.disabled = true;
+    return;
+  }
   const statusEl = document.getElementById("wc-status");
   const addrEl = document.getElementById("wc-address");
   const connectBtn = document.getElementById("btn-connect");
