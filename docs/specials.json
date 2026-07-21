@@ -1,15 +1,57 @@
 {
   "description": "Named 1-of-1 WizNerdZ specials (baseline). Community PFP 1:1s added after nomination deadline.",
   "specials": [
-    { "id": 42, "name": "Tom", "file": "Tom" },
-    { "id": 787, "name": "Fiend", "file": "Fiend" },
-    { "id": 2264, "name": "Aster", "file": "Aster" },
-    { "id": 3736, "name": "Art Boss", "file": "Art_Boss" },
-    { "id": 5625, "name": "Profet", "file": "Profet" },
-    { "id": 6146, "name": "Blake", "file": "Blake" },
-    { "id": 6949, "name": "Steve", "file": "Steve" },
-    { "id": 7462, "name": "Papa", "file": "Papa" },
-    { "id": 8483, "name": "James", "file": "James" },
-    { "id": 8700, "name": "Staker", "file": "Staker" }
-  ]
+    {
+      "id": 42,
+      "name": "Tom",
+      "file": "Tom"
+    },
+    {
+      "id": 787,
+      "name": "Fiend",
+      "file": "Fiend"
+    },
+    {
+      "id": 2264,
+      "name": "Aster",
+      "file": "Aster"
+    },
+    {
+      "id": 3736,
+      "name": "Art Boss",
+      "file": "Art_Boss"
+    },
+    {
+      "id": 5625,
+      "name": "Profet",
+      "file": "Profet"
+    },
+    {
+      "id": 6146,
+      "name": "Blake",
+      "file": "Blake"
+    },
+    {
+      "id": 6949,
+      "name": "Steve",
+      "file": "Steve"
+    },
+    {
+      "id": 7462,
+      "name": "Papa",
+      "file": "Papa"
+    },
+    {
+      "id": 8483,
+      "name": "James",
+      "file": "James"
+    },
+    {
+      "id": 8700,
+      "name": "Staker",
+      "file": "Staker"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "updated": "2026-07-21"
 }
