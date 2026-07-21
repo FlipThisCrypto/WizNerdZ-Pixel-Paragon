@@ -43,6 +43,9 @@
         el.status.classList.add("closed");
       }
       if (el.banner) el.banner.classList.add("closed");
+      try {
+        window.dispatchEvent(new CustomEvent("wiznerdz:deadline", { detail: { open: false } }));
+      } catch (_) {}
       return;
     }
     const sec = Math.floor(diff / 1000);

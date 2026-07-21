@@ -237,6 +237,23 @@
     }
   }
 
+  function setFormOpen(open) {
+    const controls = form.querySelectorAll("input, select, textarea, button[type='submit']");
+    controls.forEach((c) => {
+      c.disabled = !open;
+    });
+    if (!open) {
+      showErr(
+        "The nomination window is closed (after midnight July 31, 2026 US Eastern)."
+      );
+    }
+  }
+
+  if (deadlinePassed()) setFormOpen(false);
+  window.addEventListener("wiznerdz:deadline", (ev) => {
+    if (ev.detail && ev.detail.open === false) setFormOpen(false);
+  });
+
   const exportBtn = document.getElementById("btn-export-noms");
   if (exportBtn) exportBtn.addEventListener("click", exportCsv);
 
