@@ -903,6 +903,51 @@
       .mobile-cta { transition: none; }
     }
 
+    /* Anchor offset under sticky mobile CTA / fixed chrome */
+    #countdown-banner,
+    #nominate,
+    #mint,
+    #economics,
+    #specials,
+    #main-content {
+      scroll-margin-top: 16px;
+    }
+    @media (max-width: 720px) {
+      #countdown-banner,
+      #nominate,
+      #mint,
+      #economics,
+      #specials {
+        scroll-margin-bottom: 88px;
+        scroll-margin-top: 12px;
+      }
+    }
+
+    @media print {
+      body {
+        background: #fff !important;
+        color: #111 !important;
+        padding-bottom: 0 !important;
+      }
+      body::before,
+      .panel::before,
+      .chrome-rail,
+      .mobile-cta,
+      .wiz-band,
+      .skip-link,
+      nav.top-links,
+      #wc-qr,
+      .btn { display: none !important; }
+      .panel {
+        box-shadow: none !important;
+        border: 1px solid #ccc !important;
+        background: #fff !important;
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+      a { color: #000 !important; text-decoration: underline; }
+    }
+
     /* Accessibility */
     .skip-link {
       position: absolute;
