@@ -240,5 +240,17 @@
   const exportBtn = document.getElementById("btn-export-noms");
   if (exportBtn) exportBtn.addEventListener("click", exportCsv);
 
+  // Optional: prefill claim wallet from connected Sage session
+  window.addEventListener("wiznerdz:wallet", (ev) => {
+    const addr = (ev.detail && ev.detail.address) || "";
+    if (!form.wallet) return;
+    if (!addr) return;
+    if (form.wallet.value.trim()) return; // do not overwrite user input
+    if (XCH_RE.test(addr)) {
+      form.wallet.value = addr;
+      form.wallet.setCustomValidity("");
+    }
+  });
+
   renderLocal();
 })();

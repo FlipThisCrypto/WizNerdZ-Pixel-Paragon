@@ -24,6 +24,17 @@
     statusEl.className = "wc-status" + (cls ? " " + cls : "");
   }
 
+  /** Notify page listeners (e.g. nominate form) when address is known. */
+  function publishAddress(addr) {
+    try {
+      window.dispatchEvent(
+        new CustomEvent("wiznerdz:wallet", { detail: { address: addr || "" } })
+      );
+    } catch (_) {
+      /* ignore */
+    }
+  }
+
   function shortAddr(a) {
     if (!a || a.length < 16) return a || "—";
     return a.slice(0, 10) + "…" + a.slice(-6);
@@ -101,10 +112,12 @@
           ? result
           : result?.address || result?.data || JSON.stringify(result);
       if (addrEl) addrEl.textContent = shortAddr(String(addr));
+      publishAddress(String(addr));
       setStatus("Connected via WalletConnect (Sage-compatible).", "ok");
     } catch (err) {
       console.warn("getCurrentAddress", err);
       if (addrEl) addrEl.textContent = "Connected (address RPC pending wallet support)";
+      publishAddress("");
       setStatus(
         "Connected. Address read failed — wallet may use different RPC params. Mint still possible via takeOffer when enabled.",
         "warn"
@@ -198,6 +211,7 @@
     }
     session = null;
     if (qrBox) qrBox.hidden = true;
+    publishAddress("");
     setStatus("Disconnected.", "warn");
     updateUi();
   }
