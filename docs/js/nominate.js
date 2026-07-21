@@ -147,6 +147,7 @@
       pfpUrl: form.pfpUrl.value.trim(),
       notes: form.notes.value.trim(),
       createdAt: new Date().toISOString(),
+      submitId: (crypto.randomUUID && crypto.randomUUID()) || String(Date.now()),
       type: "WizNerdZ community PFP 1:1 nomination",
     };
 
