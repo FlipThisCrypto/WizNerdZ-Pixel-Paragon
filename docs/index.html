@@ -1144,10 +1144,20 @@
     · Countdown uses <strong>US Eastern</strong> (EDT in July)
   </footer>
 
-  <script src="js/config.js"></script>
-  <script src="js/countdown.js"></script>
-  <script src="js/nominate.js"></script>
-  <script src="js/wallet.js"></script>
+  <noscript>
+    <div style="max-width:1100px;margin:20px auto;padding:16px 20px;color:#e8eef6;background:#10141c;border:1px solid rgba(168,212,255,.3);border-radius:12px;font-family:system-ui,sans-serif">
+      <strong style="color:#9dffb0">JavaScript is off.</strong>
+      You can still browse art under <a href="images/1.png" style="color:#a8d4ff">/images/</a>,
+      metadata under <a href="metadata/1.json" style="color:#a8d4ff">/metadata/</a>,
+      and open a nomination issue on
+      <a href="https://github.com/FlipThisCrypto/WizNerdZ-Pixel-Paragon/issues/new" style="color:#a8d4ff">GitHub</a>.
+      Countdown, WalletConnect, and the nomination form require JavaScript.
+    </div>
+  </noscript>
+  <script src="js/config.js?v=20260721"></script>
+  <script src="js/countdown.js?v=20260721"></script>
+  <script src="js/nominate.js?v=20260721"></script>
+  <script src="js/wallet.js?v=20260721"></script>
   <script>
     (function () {
       const cfg = window.WIZNERDZ_CONFIG;
