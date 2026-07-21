@@ -45,6 +45,7 @@
       if (el.banner) el.banner.classList.add("closed");
       try {
         window.dispatchEvent(new CustomEvent("wiznerdz:deadline", { detail: { open: false } }));
+        if (window.WIZNERDZ_TELEMETRY) WIZNERDZ_TELEMETRY.track("deadline_closed", {});
       } catch (_) {}
       return;
     }
