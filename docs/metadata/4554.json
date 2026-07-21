@@ -87,7 +87,7 @@
   "series_number": 4554,
   "series_total": 8888,
   "data": {
-    "image": "4554.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4554.png",
     "dna": "647c1031424086fb2cc118ffab25e215c0463009f7d9988736d05b6ac76f6262",
     "dna_raw": "bg_Orange#8.png|Sands of Time#10.png|eyes_Green#12.png|mouth#100.png|Warlock Fel#10.png|Chin_Strap_Dark_Brown#10.png|Taped Ethereal Visions#1.png|Warlock Fel#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "4554.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4554.png"
 }

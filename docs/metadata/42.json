@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #42",
-  "description": "Tom is a named WizNerd special \u2014 Fel Corrupted green skin, full black beard, Blood Mage red class, and teal backdrop. Built from the official WizNerdz trait set with class-matched hat and shirt, 320x320, collection-standard outline.",
+  "description": "Tom is a named WizNerd special — Fel Corrupted green skin, full black beard, Blood Mage red class, and teal backdrop. Built from the official WizNerdz trait set with class-matched hat and shirt, 320x320, collection-standard outline.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -95,7 +95,7 @@
   "series_number": 42,
   "series_total": 8888,
   "data": {
-    "image": "42.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/42.png",
     "special": "Tom",
     "special_key": "Tom",
     "source": "Tom_640.png",
@@ -113,6 +113,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "42.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/42.png"
 }

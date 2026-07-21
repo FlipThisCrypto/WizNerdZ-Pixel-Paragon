@@ -87,7 +87,7 @@
   "series_number": 650,
   "series_total": 8888,
   "data": {
-    "image": "650.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/650.png",
     "dna": "dbcd6a59c686d2f274eac2c1e2575a1d4b6493d401ea6af11daef814343b6247",
     "dna_raw": "bg_Gold#3.png|Rotten Flesh#10.png|eyes_Light_Blue#8.png|mouth#100.png|Sand Sage#10.png|Medium_Rounded_Dark_Brown#30.png|Dune Drifters#8.png|Sand Sage#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "650.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/650.png"
 }

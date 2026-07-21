@@ -87,7 +87,7 @@
   "series_number": 4825,
   "series_total": 8888,
   "data": {
-    "image": "4825.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4825.png",
     "dna": "f50cdc3c21c17ab8ac26cbc4fa03b35924fe2d3d82ad854e31053b20a0040772",
     "dna_raw": "bg_Green#10.png|Frostbitten#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Deep Sea#10.png|Full_Beard_Black#18.png|Taped Potion Masters#1.png|Deep Sea#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "4825.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4825.png"
 }

@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #7462",
-  "description": "Papa is a named WizNerd \u2014 Charred Ash face, Pyromancer class-matched robes and hat, yellow background, compact Louvered Shades. 320x320 collection style.",
+  "description": "Papa is a named WizNerd — Charred Ash face, Pyromancer class-matched robes and hat, yellow background, compact Louvered Shades. 320x320 collection style.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -95,7 +95,7 @@
   "series_number": 7462,
   "series_total": 8888,
   "data": {
-    "image": "7462.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7462.png",
     "special": "Papa",
     "special_key": "Papa",
     "source": "Papa_640.png",
@@ -113,6 +113,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "7462.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7462.png"
 }

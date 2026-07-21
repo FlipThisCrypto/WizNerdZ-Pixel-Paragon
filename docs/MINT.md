@@ -75,7 +75,7 @@ Apply the same addresses in MintGarden / marketplace royalty settings so seconda
 - [ ] Collect community 1:1 noms through deadline; lock list
 - [ ] Produce remaining 1:1 art; assign token IDs; freeze collection
 - [ ] Cold backup of `collection_8888` + traits + specials
-- [ ] Absolute image URLs in metadata if importer requires them
+- [x] Absolute image URLs in all 8,888 metadata files (`data.image` + root `image`)
 - [ ] MintGarden (or offer host) collection created
 - [ ] Test mint: #1, #42 Tom, #787 Fiend
 - [ ] Arm `mint.enabled` + publish Pages

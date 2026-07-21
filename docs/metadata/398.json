@@ -87,7 +87,7 @@
   "series_number": 398,
   "series_total": 8888,
   "data": {
-    "image": "398.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/398.png",
     "dna": "3bd1b364ec01445df36c9e27db95949ee406f318184f5d3642005217c5c4f1f8",
     "dna_raw": "bg_Red.png|Chaos Warped#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Spirit Guide#10.png|Long_Rounded_Black#26.png|Elder Keepers#8.png|Spirit Guide#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "398.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/398.png"
 }

@@ -87,7 +87,7 @@
   "series_number": 8087,
   "series_total": 8888,
   "data": {
-    "image": "8087.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8087.png",
     "dna": "62f0a64f5cf9f548de34967f09e6275f7c424a1db8f92c60818d9c437b5467bd",
     "dna_raw": "bg_Pink#8.png|Potion Stained#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Cryomancer#10.png|Long_Pointy_Black#22.png|Epoch Eyes#8.png|Cryomancer#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "8087.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8087.png"
 }

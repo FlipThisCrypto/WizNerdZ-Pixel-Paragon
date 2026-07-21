@@ -87,7 +87,7 @@
   "series_number": 1986,
   "series_total": 8888,
   "data": {
-    "image": "1986.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1986.png",
     "dna": "ea07e5a5e8eb71e2a8cb7e76a33c5ebe525970f97a3d032a0ce0045c97f4ab85",
     "dna_raw": "bg_Green#10.png|Glamour Tint#10.png|eyes_Blue#14.png|mouth#100.png|High Sorcerer#10.png|Long_Rounded_Black#26.png|Elder Keepers#8.png|High Sorcerer#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "1986.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1986.png"
 }

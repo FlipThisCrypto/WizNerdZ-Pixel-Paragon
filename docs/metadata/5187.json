@@ -87,7 +87,7 @@
   "series_number": 5187,
   "series_total": 8888,
   "data": {
-    "image": "5187.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5187.png",
     "dna": "e95c354395db7d517d71921d379b9013ae64d8f205fba1159b56bb0a1e2fa138",
     "dna_raw": "bg_Red.png|Sands of Time#10.png|eyes_Hazel#10.png|mouth#100.png|Storm Caller#10.png|Goatee_Dark_Brown#20.png|Frost Sight#8.png|Storm Caller#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "5187.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5187.png"
 }

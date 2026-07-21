@@ -87,7 +87,7 @@
   "series_number": 2079,
   "series_total": 8888,
   "data": {
-    "image": "2079.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2079.png",
     "dna": "a5e2fb619f9379df6d627dc83aaf69838b5e9e3d582e8bd3e696d6a63e8c103a",
     "dna_raw": "bg_Brown#4.png|Potion Stained#10.png|eyes_Gray#8.png|mouth#100.png|Mystic Seer#10.png|Long_Pointy_Dark_Brown#20.png|Sanguine Sight#8.png|Mystic Seer#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "2079.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2079.png"
 }

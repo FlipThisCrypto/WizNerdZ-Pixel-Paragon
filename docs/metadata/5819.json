@@ -87,7 +87,7 @@
   "series_number": 5819,
   "series_total": 8888,
   "data": {
-    "image": "5819.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5819.png",
     "dna": "ae7e9a6bc3fe090ddef41c6da518fcaa82b3143cfb79326a87e63ea5bc3e1a25",
     "dna_raw": "bg_Pink#8.png|Sands of Time#10.png|eyes_Blue#14.png|mouth#100.png|High Sorcerer#10.png|Medium_Rounded_Red_Orange#15.png|Taped Abyssal Shades#1.png|High Sorcerer#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "5819.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5819.png"
 }

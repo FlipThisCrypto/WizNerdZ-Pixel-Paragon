@@ -99,7 +99,7 @@
   "series_number": 8700,
   "series_total": 8888,
   "data": {
-    "image": "8700.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8700.png",
     "special": "Staker",
     "special_key": "Staker",
     "source": "Staker_640.png",
@@ -117,6 +117,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "8700.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8700.png"
 }

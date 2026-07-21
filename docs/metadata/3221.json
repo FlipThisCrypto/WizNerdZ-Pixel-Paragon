@@ -87,7 +87,7 @@
   "series_number": 3221,
   "series_total": 8888,
   "data": {
-    "image": "3221.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3221.png",
     "dna": "71be2e3ccce8ea1739d22fe669cb3a6c3e1353e73997fe5e700299297b6ab12f",
     "dna_raw": "bg_Pink#8.png|Potion Stained#10.png|eyes_Light_Blue#8.png|mouth#100.png|Void Walker#10.png|Goatee_Blonde#12.png|Omen Readers#8.png|Void Walker#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "3221.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3221.png"
 }

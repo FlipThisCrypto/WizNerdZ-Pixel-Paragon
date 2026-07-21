@@ -87,7 +87,7 @@
   "series_number": 6757,
   "series_total": 8888,
   "data": {
-    "image": "6757.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6757.png",
     "dna": "249d5da5bcc000a2b80559ce4b77630c4de12e15b28b3db90025e8c7463206b5",
     "dna_raw": "bg_Teal#8.png|Rune Etched#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Necromancer#10.png|Medium_Rounded_White_Gray#12.png|Abyssal Shades#8.png|Necromancer#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "6757.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6757.png"
 }

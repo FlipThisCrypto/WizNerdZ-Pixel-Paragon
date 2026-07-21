@@ -9,6 +9,9 @@
   "size": 640,
   "class_matched": true,
   "seed": 8888,
+  "media_base": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon",
+  "image_uri_template": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/{id}.png",
+  "metadata_uri_template": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/metadata/{id}.json",
   "special_placements": {
     "42": "Tom",
     "787": "Fiend",

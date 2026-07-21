@@ -87,7 +87,7 @@
   "series_number": 3161,
   "series_total": 8888,
   "data": {
-    "image": "3161.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3161.png",
     "dna": "a9d4a23ce4c668a3f7d9f4de994d281a4cadb95fca764f090dfa4a752098a9bd",
     "dna_raw": "bg_Green#10.png|Chaos Warped#10.png|eyes_Green#12.png|mouth#100.png|Arcane Mage#10.png|Chin_Strap_Brown#9.png|Trench Scopes#8.png|Arcane Mage#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "3161.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3161.png"
 }

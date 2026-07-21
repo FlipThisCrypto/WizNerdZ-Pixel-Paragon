@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #6146",
-  "description": "Blake is a named WizNerd special \u2014 Bark Skin face, full brown beard, Deep Sea class blues, and bold tempest glasses. Built from the official WizNerdz trait set with class-matched hat and shirt, 320x320, collection-standard outline.",
+  "description": "Blake is a named WizNerd special — Bark Skin face, full brown beard, Deep Sea class blues, and bold tempest glasses. Built from the official WizNerdz trait set with class-matched hat and shirt, 320x320, collection-standard outline.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -95,7 +95,7 @@
   "series_number": 6146,
   "series_total": 8888,
   "data": {
-    "image": "6146.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6146.png",
     "special": "Blake",
     "special_key": "Blake",
     "source": "Blake_640.png",
@@ -113,6 +113,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "6146.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6146.png"
 }

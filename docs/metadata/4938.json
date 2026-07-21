@@ -87,7 +87,7 @@
   "series_number": 4938,
   "series_total": 8888,
   "data": {
-    "image": "4938.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4938.png",
     "dna": "f8cf41b71c281eddf992add2454277efb78221593b9ebc53da20e43fda886cc3",
     "dna_raw": "bg_Gold#3.png|Sands of Time#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Chronomancer#10.png|Medium_Rounded_Dark_Brown#30.png|Dune Drifters#8.png|Chronomancer#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "4938.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4938.png"
 }

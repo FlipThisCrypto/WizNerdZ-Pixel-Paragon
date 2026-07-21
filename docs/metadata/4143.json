@@ -87,7 +87,7 @@
   "series_number": 4143,
   "series_total": 8888,
   "data": {
-    "image": "4143.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4143.png",
     "dna": "8be1ed6490544f419d09bc19615370a8a4d3d7077903b4188081c5bfc64f9517",
     "dna_raw": "bg_Brown#4.png|Fel Corrupted#10.png|eyes_Gray#8.png|mouth#100.png|Blood Mage#10.png|Medium_Rounded_Dark_Brown#30.png|Dune Drifters#8.png|Blood Mage#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "4143.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4143.png"
 }

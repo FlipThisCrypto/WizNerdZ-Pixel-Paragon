@@ -87,7 +87,7 @@
   "series_number": 8039,
   "series_total": 8888,
   "data": {
-    "image": "8039.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8039.png",
     "dna": "643848bf3d03f573a5ccf65261e59f8b4e306d4f3332b073d317f9ff5235479d",
     "dna_raw": "bg_Yellow#10.png|Fel Corrupted#10.png|eyes_Hazel#10.png|mouth#100.png|Shadow Priest#10.png|Goatee_Black#22.png|Dune Drifters#8.png|Shadow Priest#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "8039.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8039.png"
 }

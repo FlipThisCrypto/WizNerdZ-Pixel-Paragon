@@ -87,7 +87,7 @@
   "series_number": 6509,
   "series_total": 8888,
   "data": {
-    "image": "6509.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6509.png",
     "dna": "09f7824d6061000b5d015e5fc353d2e670c2f9828a6cf0f0bbc7e188ccfd5e5d",
     "dna_raw": "bg_Yellow#10.png|Frostbitten#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Alchemist#10.png|Goatee_Blonde#12.png|Potion Masters#8.png|Alchemist#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "6509.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6509.png"
 }

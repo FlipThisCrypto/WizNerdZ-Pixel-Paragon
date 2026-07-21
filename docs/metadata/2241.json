@@ -87,7 +87,7 @@
   "series_number": 2241,
   "series_total": 8888,
   "data": {
-    "image": "2241.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2241.png",
     "dna": "9b98efc2f43980d8629e58cf3dbdd8706a6dbb4e3d758f932229e71eef6a077d",
     "dna_raw": "bg_Yellow#10.png|Mana Veined#10.png|eyes_Green#12.png|mouth#100.png|Deep Sea#10.png|Chin_Strap_Red_Orange#5.png|Potion Masters#8.png|Deep Sea#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "2241.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2241.png"
 }

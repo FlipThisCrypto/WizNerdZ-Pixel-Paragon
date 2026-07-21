@@ -87,7 +87,7 @@
   "series_number": 1897,
   "series_total": 8888,
   "data": {
-    "image": "1897.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1897.png",
     "dna": "c6c7f147d43cbe4b9f11cc9b82ea88a004ad5d95328524de85cfb4e018fb4372",
     "dna_raw": "bg_White#6.png|Sands of Time#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Void Walker#10.png|Chin_Strap_Black#11.png|Sanguine Sight#8.png|Void Walker#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "1897.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1897.png"
 }

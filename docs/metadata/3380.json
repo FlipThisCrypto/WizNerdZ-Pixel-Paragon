@@ -87,7 +87,7 @@
   "series_number": 3380,
   "series_total": 8888,
   "data": {
-    "image": "3380.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3380.png",
     "dna": "77e569af8fac707af8753c2ca0020bd5806c8862fea72d12ba4e8caa46378a4b",
     "dna_raw": "bg_Pink#8.png|Rune Etched#10.png|eyes_Gray#8.png|mouth#100.png|Shadow Priest#10.png|Long_Braid_Black#15.png|Sigil Scanners#8.png|Shadow Priest#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "3380.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3380.png"
 }

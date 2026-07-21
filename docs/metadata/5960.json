@@ -87,7 +87,7 @@
   "series_number": 5960,
   "series_total": 8888,
   "data": {
-    "image": "5960.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5960.png",
     "dna": "92ef2d793926338602ade299efb1e088966d9b00f87a79169dd11a04c659ccb1",
     "dna_raw": "bg_Blue#12.png|Mana Veined#10.png|eyes_Light_Blue#8.png|mouth#100.png|Earth Shaman#10.png|Long_Braid_Blonde#8.png|Taped Epoch Eyes#1.png|Earth Shaman#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "5960.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5960.png"
 }

@@ -87,7 +87,7 @@
   "series_number": 4021,
   "series_total": 8888,
   "data": {
-    "image": "4021.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4021.png",
     "dna": "02132e29eaac3ed1c2d5360624fb833f4fcf22b40c2f94ab8ecf7e954fb1df4d",
     "dna_raw": "bg_Gray#6.png|Mana Veined#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Arcane Mage#10.png|Chin_Strap_Red_Orange#5.png|Taped Epoch Eyes#1.png|Arcane Mage#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "4021.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4021.png"
 }

@@ -87,7 +87,7 @@
   "series_number": 2546,
   "series_total": 8888,
   "data": {
-    "image": "2546.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2546.png",
     "dna": "f02a485d252a992bd570f3903742313b44f51b358bba78e4fb99a48f12075be9",
     "dna_raw": "bg_Teal#8.png|Mud Cracked#10.png|eyes_Gray#8.png|mouth#100.png|Sand Sage#10.png|Goatee_Dark_Brown#20.png|Sanguine Sight#8.png|Sand Sage#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "2546.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2546.png"
 }

@@ -87,7 +87,7 @@
   "series_number": 8174,
   "series_total": 8888,
   "data": {
-    "image": "8174.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8174.png",
     "dna": "73f9372649db9bd84888d95d54b87f333e88d46b992383f494a32bf45a854ebb",
     "dna_raw": "bg_Pink#8.png|Potion Stained#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Vampire Lord#10.png|Medium_Rounded_Brown#27.png|Dune Drifters#8.png|Vampire Lord#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "8174.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8174.png"
 }

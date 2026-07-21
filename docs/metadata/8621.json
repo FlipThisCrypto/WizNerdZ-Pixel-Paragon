@@ -87,7 +87,7 @@
   "series_number": 8621,
   "series_total": 8888,
   "data": {
-    "image": "8621.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8621.png",
     "dna": "93ef237ab03bad550f639698b05228ec0c0c350d00e50ecf853b0e6a77b3c011",
     "dna_raw": "bg_White#6.png|Rotten Flesh#10.png|eyes_Green#12.png|mouth#100.png|Earth Shaman#10.png|Full_Beard_White_Gray#7.png|Elder Keepers#8.png|Earth Shaman#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "8621.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8621.png"
 }

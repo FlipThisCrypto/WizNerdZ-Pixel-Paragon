@@ -87,7 +87,7 @@
   "series_number": 5139,
   "series_total": 8888,
   "data": {
-    "image": "5139.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5139.png",
     "dna": "6d00c84475c329eee555d8ce2e4c63422e8a450f7ed503c43f84a04377722c3f",
     "dna_raw": "bg_Orange#8.png|Bark Skin#10.png|eyes_Blue#14.png|mouth#100.png|Druid#10.png|Long_Rounded_White_Gray#9.png|Potion Masters#8.png|Druid#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "5139.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5139.png"
 }

@@ -1,5 +1,14 @@
 # WizNerdz Collection (8888)
 
+## Media URIs (absolute)
+
+Each CHIP-0007 metadata file uses absolute GitHub Pages URLs:
+
+- `image` / `data.image` → `https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/{id}.png`
+- `data.image_basename` → `{id}.png` (local/relative basename retained for tooling)
+
+Metadata: `https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/metadata/{id}.json`
+
 ## Contents
 - `images/1.png` … `images/8888.png` — 640×640 PNG
 - `metadata/1.json` … `metadata/8888.json` — CHIP-0007

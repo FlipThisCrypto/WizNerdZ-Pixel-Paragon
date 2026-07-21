@@ -87,7 +87,7 @@
   "series_number": 6317,
   "series_total": 8888,
   "data": {
-    "image": "6317.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6317.png",
     "dna": "074b9fd4317a5373d842ffaec0b62e22762efbfbf097f5c22bd135be1bed717b",
     "dna_raw": "bg_Green#10.png|Sands of Time#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Druid#10.png|Medium_Rounded_White_Gray#12.png|Taped Dune Drifters#1.png|Druid#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "6317.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6317.png"
 }

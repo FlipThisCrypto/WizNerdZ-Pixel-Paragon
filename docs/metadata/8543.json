@@ -87,7 +87,7 @@
   "series_number": 8543,
   "series_total": 8888,
   "data": {
-    "image": "8543.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8543.png",
     "dna": "6f9e94b7d767c246b60ba1eef98b19f63f10ef1c0153f6a39e5668c786b4267c",
     "dna_raw": "bg_Pink#8.png|Frostbitten#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Cleric Light#10.png|Long_Braid_Dark_Brown#13.png|Taped Oracle Orbs#1.png|Cleric Light#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "8543.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8543.png"
 }

@@ -87,7 +87,7 @@
   "series_number": 473,
   "series_total": 8888,
   "data": {
-    "image": "473.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/473.png",
     "dna": "e73e98c6c157e0ab3a87b59366ded14275fa63b68d4e1ae64a970180e7b3a06e",
     "dna_raw": "bg_Indigo#8.png|Rotten Flesh#10.png|eyes_Hazel#10.png|mouth#100.png|Warlock Fel#10.png|Long_Rounded_Black#26.png|Fel Oculars#8.png|Warlock Fel#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "473.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/473.png"
 }

@@ -22,8 +22,8 @@
 |------|---------|
 | `/` | Landing page |
 | `/images/{id}.png` | Token art |
-| `/metadata/{id}.json` | Token metadata |
-| `/collection.json` | Collection header |
+| `/metadata/{id}.json` | Token metadata (CHIP-0007; absolute `image` URLs) |
+| `/collection.json` | Collection header + media URI templates |
 | `/rarity.csv` | Trait frequencies |
 | `/specials/` | Named specials showcase |
 

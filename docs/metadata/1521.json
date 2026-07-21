@@ -87,7 +87,7 @@
   "series_number": 1521,
   "series_total": 8888,
   "data": {
-    "image": "1521.png",
+    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1521.png",
     "dna": "fd79edf7cde41805dd6598b5e5c19a52d35a7889e06aeb4d7f5883a644b9bd7a",
     "dna_raw": "bg_Indigo#8.png|Sands of Time#10.png|eyes_Green#12.png|mouth#100.png|Blood Mage#10.png|Long_Rounded_Black#26.png|Lich Lenses#8.png|Blood Mage#10.png",
     "canvas": "640x640",
@@ -187,6 +187,8 @@
       "logo": "WizNerdZ Pixel Paragon 2x top-right",
       "staff_right_margin": 8,
       "staff_offset_y": 30
-    }
-  }
+    },
+    "image_basename": "1521.png"
+  },
+  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1521.png"
 }
