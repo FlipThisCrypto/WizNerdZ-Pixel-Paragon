@@ -33,3 +33,9 @@ We aim to acknowledge reports within a few business days and prioritize issues t
 - GitHub platform issues
 - Marketplace/MintGarden bugs outside our collection config
 - Artistic trait disagreements
+
+## Third-party calls
+
+- GitHub Issues Search API (public, unauthenticated) for the nominations board
+- WalletConnect relay + esm.sh modules for Sage connect
+- No analytics beacons; telemetry is local-only
