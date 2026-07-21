@@ -22,3 +22,9 @@ Do not open PRs that replace generative slots without coordination.
 
 - Site/mint UX: GitHub Issues with steps to reproduce.
 - Security: see [SECURITY.md](SECURITY.md).
+
+## Operator tools
+
+- `docs/operator.html` — day-to-day links
+- `docs/OPS.md` — incident runbook
+- Live nominations board on landing (GitHub API)
