@@ -68,23 +68,58 @@
     const TOTAL = 8888;
     let rows = [];
 
+    /** Minimal RFC4180-ish CSV line parser (handles quoted commas). */
+    function splitCsvLine(line) {
+      const cols = [];
+      let cur = "";
+      let inQ = false;
+      for (let i = 0; i < line.length; i++) {
+        const ch = line[i];
+        if (inQ) {
+          if (ch === '"' && line[i + 1] === '"') {
+            cur += '"';
+            i++;
+          } else if (ch === '"') {
+            inQ = false;
+          } else {
+            cur += ch;
+          }
+        } else if (ch === '"') {
+          inQ = true;
+        } else if (ch === ",") {
+          cols.push(cur);
+          cur = "";
+        } else {
+          cur += ch;
+        }
+      }
+      cols.push(cur);
+      return cols;
+    }
+
     function parseCsv(text) {
       const lines = text.trim().split(/\r?\n/);
       if (!lines.length) return [];
-      const headers = lines[0].split(",").map((h) => h.trim().toLowerCase());
+      const headers = splitCsvLine(lines[0]).map((h) =>
+        h.trim().toLowerCase().replace(/^"|"$/g, "")
+      );
       const out = [];
       for (let i = 1; i < lines.length; i++) {
-        const cols = lines[i].split(",");
+        if (!lines[i].trim()) continue;
+        const cols = splitCsvLine(lines[i]).map((c) => c.trim());
         const obj = {};
         headers.forEach((h, idx) => {
-          obj[h] = (cols[idx] || "").trim();
+          obj[h] = cols[idx] || "";
         });
-        // flexible column names
-        const trait = obj.trait || obj.trait_type || obj.category || obj.type || cols[0];
+        const trait =
+          obj.trait || obj.trait_type || obj.category || obj.type || cols[0];
         const value = obj.value || obj.name || cols[1];
         let count = parseInt(obj.count || obj.freq || obj.frequency || cols[2], 10);
-        if (!trait || !value || !Number.isFinite(count)) continue;
-        out.push({ trait, value, count, pct: (100 * count) / TOTAL });
+        let pct = parseFloat(obj.pct || obj.percent || cols[3]);
+        if (!trait || value === undefined || value === "" || !Number.isFinite(count))
+          continue;
+        if (!Number.isFinite(pct)) pct = (100 * count) / TOTAL;
+        out.push({ trait, value, count, pct });
       }
       return out;
     }
