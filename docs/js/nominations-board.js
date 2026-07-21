@@ -20,6 +20,11 @@
     statusEl.className = "muted" + (cls ? " " + cls : "");
   }
 
+  if (window.WIZNERDZ_FLAGS && window.WIZNERDZ_FLAGS.board === false) {
+    setStatus("Nominations board disabled by feature flag.", "warn");
+    return;
+  }
+
   function escapeHtml(s) {
     return String(s || "")
       .replace(/&/g, "&amp;")
