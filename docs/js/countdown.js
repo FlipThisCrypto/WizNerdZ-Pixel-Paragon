@@ -57,6 +57,9 @@
     if (el.hours) el.hours.textContent = pad(hours);
     if (el.mins) el.mins.textContent = pad(mins);
     if (el.secs) el.secs.textContent = pad(secs);
+    if (el.status && days < 2 && diff > 0) {
+      el.status.textContent = "Final 48 hours — submit nominations before the Eastern midnight deadline.";
+    }
 
     // Live Eastern clock stamp for clarity
     if (el.stamp) {
