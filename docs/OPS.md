@@ -59,3 +59,9 @@ Never force-push `main` for production recovery.
 ## Secrets policy
 
 No private keys in repo. Only public xch + public WC projectId.
+
+## Chaos drills
+
+1. Open `/?chaos=1&chaosMode=board`
+2. `/?chaos=1&chaosMode=health`
+3. Disable: localStorage.removeItem('wiznerdz_chaos')
