@@ -195,6 +195,13 @@
       return;
     }
 
+    if (window.WIZNERDZ_TELEMETRY) {
+      WIZNERDZ_TELEMETRY.track("nomination_submit", {
+        platform: data.nomineePlatform,
+        hasWallet: !!data.wallet,
+        hasPfp: !!data.pfpUrl,
+      });
+    }
     const arr = loadLocal();
     arr.push(data);
     saveLocal(arr);
