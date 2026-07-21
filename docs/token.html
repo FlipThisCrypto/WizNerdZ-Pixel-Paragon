@@ -72,6 +72,10 @@
         <label class="muted" for="token-id">Token ID</label>
         <input id="token-id" type="number" min="1" max="8888" step="1" />
         <button type="button" class="btn primary" id="btn-go">View</button>
+        <button type="button" class="btn" id="btn-prev" title="Previous">← Prev</button>
+        <button type="button" class="btn" id="btn-next" title="Next">Next →</button>
+        <button type="button" class="btn" id="btn-rand" title="Random">Random</button>
+        <button type="button" class="btn" id="btn-share" title="Copy link">Copy link</button>
       </div>
       <img class="art" id="art" alt="Token art" width="420" height="420" hidden />
       <table id="traits" hidden></table>
@@ -172,8 +176,33 @@
     }
 
     document.getElementById("btn-go").addEventListener("click", () => load(input.value));
+    document.getElementById("btn-prev").addEventListener("click", () => {
+      load(clampId((parseInt(input.value, 10) || 1) - 1));
+    });
+    document.getElementById("btn-next").addEventListener("click", () => {
+      load(clampId((parseInt(input.value, 10) || 1) + 1));
+    });
+    document.getElementById("btn-rand").addEventListener("click", () => {
+      load(1 + Math.floor(Math.random() * TOTAL));
+    });
+    document.getElementById("btn-share").addEventListener("click", async () => {
+      const id = clampId(input.value);
+      const url =
+        "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/token.html?id=" +
+        id;
+      try {
+        await navigator.clipboard.writeText(url);
+        status.className = "muted";
+        status.textContent = "Copied share link for #" + id;
+      } catch {
+        status.className = "err";
+        status.textContent = "Copy failed — select address bar manually.";
+      }
+    });
     input.addEventListener("keydown", (e) => {
       if (e.key === "Enter") load(input.value);
+      if (e.key === "ArrowLeft") load(clampId((parseInt(input.value, 10) || 1) - 1));
+      if (e.key === "ArrowRight") load(clampId((parseInt(input.value, 10) || 1) + 1));
     });
 
     load(params.get("id") || 1);
