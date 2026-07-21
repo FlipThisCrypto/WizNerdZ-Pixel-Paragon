@@ -10,6 +10,7 @@
   const REPO = "FlipThisCrypto/WizNerdZ-Pixel-Paragon";
   const CACHE_KEY = "wiznerdz_noms_board_v1";
   const CACHE_TTL_MS = 5 * 60 * 1000;
+  let backoffUntil = 0;
   const statusEl = document.getElementById("noms-board-status");
   const listEl = document.getElementById("noms-board-list");
   const refreshBtn = document.getElementById("noms-board-refresh");
@@ -146,6 +147,12 @@
   }
 
   async function fetchIssues(force) {
+    if (!force && Date.now() < backoffUntil) {
+      setStatus("GitHub backoff active - using cache until API cools down.", "warn");
+      const cached = readCache();
+      if (cached) render(cached.items, { fromCache: true, age: "backoff" });
+      return;
+    }
     if (!nominationsWindowOpen()) {
       setStatus("Nomination window closed — historical open issues may still appear below.", "warn");
     }
@@ -175,6 +182,7 @@
         },
       });
       if (res.status === 403 || res.status === 429) {
+        backoffUntil = Date.now() + 15 * 60 * 1000;
         if (cached) {
           render(cached.items, { fromCache: true, age: "rate-limited" });
           setStatus(
