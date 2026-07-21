@@ -110,3 +110,7 @@ CI runs these via `.github/workflows/verify-metadata.yml`.
 ## License
 
 See `LICENSE`.
+
+## Resilience (Round 3)
+
+See `docs/SLO.md`, `docs/GOVERNANCE.md`, `docs/INCIDENTS.md`, `docs/RELEASE_CHECKLIST.md`, and integrity scripts under `scripts/`.
