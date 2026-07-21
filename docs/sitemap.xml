@@ -50,4 +50,19 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/SLO.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/integrity-manifest.json</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/insights.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
