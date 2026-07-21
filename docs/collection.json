@@ -105,5 +105,11 @@
     "Class:Rune Keeper": 390,
     "Shirt:Rune Keeper": 390,
     "Wizard Hat:Rune Keeper": 390
+  },
+  "schema_version": "1.1.0",
+  "round2": {
+    "compare": true,
+    "live_nominations_board": true,
+    "health": true
   }
 }
