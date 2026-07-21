@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WizNerdZ Insights</title>
+  <link rel="stylesheet" href="css/tokens.css" />
+  <style>
+    body{margin:0;font-family:var(--font-ui);background:linear-gradient(165deg,var(--black-0),var(--blue-1));color:var(--text);padding:24px}
+    a{color:var(--blue-6)}.card{max-width:900px;margin:0 auto;padding:18px;border:1px solid var(--line);border-radius:16px;background:rgba(6,20,40,.92)}
+    .bar{height:10px;background:linear-gradient(90deg,var(--blue-4),var(--green));border-radius:99px;margin:4px 0 10px}
+    .muted{color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <p class="muted"><a href="./">← Home</a> · <a href="rarity.html">Rarity</a></p>
+    <h1>Collection insights</h1>
+    <p class="muted" id="status">Loading rarity.csv…</p>
+    <div id="out"></div>
+  </div>
+  <script>
+    function parseLine(line){
+      const cols=[]; let cur='', q=false;
+      for (let i=0;i<line.length;i++){
+        const ch=line[i];
+        if(q){ if(ch=='"'&&line[i+1]=='"'){cur+='"';i++;} else if(ch=='"') q=false; else cur+=ch; }
+        else if(ch=='"') q=true; else if(ch==','){cols.push(cur);cur='';} else cur+=ch;
+      }
+      cols.push(cur); return cols;
+    }
+    fetch('rarity.csv').then(r=>r.text()).then(text=>{
+      const lines=text.trim().split(/\r?\n/).slice(1);
+      const classRows=[];
+      lines.forEach(line=>{
+        const c=parseLine(line);
+        if((c[0]||'').replace(/"/g,'')==='Class'){
+          classRows.push({name:(c[1]||'').replace(/"/g,''), count:parseInt(c[2],10)||0});
+        }
+      });
+      classRows.sort((a,b)=>b.count-a.count);
+      const max=classRows[0]?classRows[0].count:1;
+      document.getElementById('status').textContent=classRows.length+' classes (from rarity.csv)';
+      document.getElementById('out').innerHTML=classRows.map(r=>
+        '<div><strong>'+r.name+'</strong> · '+r.count+
+        '<div class="bar" style="width:'+Math.max(4,(100*r.count/max))+'%"></div></div>'
+      ).join('');
+    }).catch(e=>{document.getElementById('status').textContent=String(e);});
+  </script>
+</body>
+</html>
