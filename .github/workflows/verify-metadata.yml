@@ -28,3 +28,5 @@ jobs:
         run: python scripts/verify_specials.py
       - name: Fast metadata sample contracts
         run: python scripts/verify_metadata_sample.py
+      - name: Health JSON contract
+        run: python scripts/verify_health.py
