@@ -1,0 +1,99 @@
+{
+  "algorithm": "sha256",
+  "purpose": "detect corruption / accidental overwrite of critical art",
+  "specials": [
+    {
+      "path": "specials/Art_Boss.png",
+      "sha256": "3a5e3a8876ede956b08c92a1b93c7727d6100593eb5bb711b874ed1964c4efec",
+      "bytes": 7411
+    },
+    {
+      "path": "specials/Aster.png",
+      "sha256": "89d4627c8276731c74932e014fe6ac986c0ac58fec83a7624f3fa409d2ed2737",
+      "bytes": 7360
+    },
+    {
+      "path": "specials/Blake.png",
+      "sha256": "289eb59da01443bf6d54d279e7bfba12910e3aeb9ea6e7cc53237466602bd001",
+      "bytes": 7503
+    },
+    {
+      "path": "specials/Fiend.png",
+      "sha256": "25da9354458fc350b6628a713aead2e5707dceab6ae35f8ee98eb7af7666bd7f",
+      "bytes": 6860
+    },
+    {
+      "path": "specials/James.png",
+      "sha256": "fffe427913822c0e63f6d2ca57de504873c0754d4e8917071700b40570665d79",
+      "bytes": 6565
+    },
+    {
+      "path": "specials/Papa.png",
+      "sha256": "acad77a07ab6279859603131cff75dafc567857d5578e001210436a9ff8c54b0",
+      "bytes": 6677
+    },
+    {
+      "path": "specials/Profet.png",
+      "sha256": "b48c77cb313606d530a9d45185433e540e4deec07499dd6c7b80bf5c6fc2391b",
+      "bytes": 6456
+    },
+    {
+      "path": "specials/Staker.png",
+      "sha256": "b38f477fcc6b4b4f0b42ca25c011a12daa9240eaaf2655bfa31d3d935e8171c0",
+      "bytes": 6537
+    },
+    {
+      "path": "specials/Steve.png",
+      "sha256": "b337a859b2ac470ec11d3fa1a71c41f555ea2976ca6d086791309353438100d2",
+      "bytes": 11354
+    },
+    {
+      "path": "specials/Tom.png",
+      "sha256": "c56b2cc53979366b8f585aa126ca40ee24f371a8968c12d390d009ae64120fe7",
+      "bytes": 6559
+    }
+  ],
+  "samples": [
+    {
+      "path": "images/1.png",
+      "sha256": "fe02e97c0d19201d0efa1af337c8cb2912cbd3327dc03c7efa3a7a9c3884ff08",
+      "bytes": 7519
+    },
+    {
+      "path": "images/42.png",
+      "sha256": "30b58559c920e2f916f49f6c1f30ac0338daf2831b1a6f6c78b72d9061ad0748",
+      "bytes": 7793
+    },
+    {
+      "path": "images/100.png",
+      "sha256": "11da750545f50dc1c1ceb96b21e4809f41abca07da43aea56940948723acbfd2",
+      "bytes": 8173
+    },
+    {
+      "path": "images/787.png",
+      "sha256": "1e35b12fc1a76ee36c3be7d05285d873d0bf1e996b8888574dd165e86dadcd60",
+      "bytes": 8040
+    },
+    {
+      "path": "images/1000.png",
+      "sha256": "4b584e48ceef6ed9bc8cbe9db1d67cbd86905d7b8b164c08301a88ed6733e942",
+      "bytes": 8621
+    },
+    {
+      "path": "images/2264.png",
+      "sha256": "575fe54993661ea46efbcc52e3a71b7e124b48fd6491d0df08e74ae41db007ba",
+      "bytes": 8438
+    },
+    {
+      "path": "images/5000.png",
+      "sha256": "05466779273f1b61505dfe5b199e728725cbd948b7196b69ef605c8334ca6879",
+      "bytes": 8553
+    },
+    {
+      "path": "images/8888.png",
+      "sha256": "510394eba831d7d01225db94bebd6a396bcbc5e26b98760d184b2e8817b26f29",
+      "bytes": 7621
+    }
+  ],
+  "note": "Full-collection hashing via scripts/build_image_manifest.py"
+}
