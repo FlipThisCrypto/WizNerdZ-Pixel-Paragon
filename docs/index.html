@@ -1152,6 +1152,9 @@
         <strong>Public mint &amp; royalty wallet</strong><br />
         <code id="treasury-display" class="mono"></code>
       </p>
+      <div class="links" style="margin-top:8px">
+        <button type="button" class="btn" id="btn-copy-treasury">Copy wallet address</button>
+      </div>
       <p class="muted">
         One receive address is configured for mint and royalties for now.
         Split policy (40/40/20) still applies — distribute from this wallet or assign distinct
@@ -1208,6 +1211,18 @@
       }
       const tw = document.getElementById('treasury-display');
       if (tw) tw.textContent = cfg.treasuryWallet || '(not set)';
+      const copyT = document.getElementById('btn-copy-treasury');
+      if (copyT && cfg.treasuryWallet) {
+        copyT.addEventListener('click', async () => {
+          try {
+            await navigator.clipboard.writeText(cfg.treasuryWallet);
+            copyT.textContent = 'Copied!';
+            setTimeout(() => { copyT.textContent = 'Copy wallet address'; }, 2000);
+          } catch {
+            copyT.textContent = 'Copy failed';
+          }
+        });
+      }
       const shareBtn = document.getElementById('btn-share-campaign');
       if (shareBtn) {
         shareBtn.addEventListener('click', async () => {
