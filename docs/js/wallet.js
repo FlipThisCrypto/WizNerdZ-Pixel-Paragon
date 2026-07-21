@@ -18,6 +18,15 @@
   let client = null;
   let session = null;
 
+  function classifyErr(err) {
+    const m = String(err && err.message ? err.message : err || "");
+    if (/user reject|denied|cancel/i.test(m)) return "Request cancelled in wallet.";
+    if (/network|fetch|failed to fetch/i.test(m)) return "Network error — check connection and retry.";
+    if (/projectId|unauthorized/i.test(m)) return "WalletConnect project configuration error.";
+    if (/timeout/i.test(m)) return "Wallet request timed out — open Sage and try again.";
+    return m || "Unknown wallet error";
+  }
+
   function setStatus(msg, cls) {
     if (!statusEl) return;
     statusEl.textContent = msg;
@@ -194,7 +203,7 @@
       updateUi();
     } catch (err) {
       console.error(err);
-      setStatus(String(err.message || err), "err");
+      setStatus(classifyErr(err), "err");
       updateUi();
     } finally {
       if (connectBtn && !(session && session.topic)) connectBtn.disabled = false;
@@ -259,7 +268,7 @@
       setStatus("Mint offer submitted: " + JSON.stringify(result).slice(0, 120), "ok");
     } catch (err) {
       console.error(err);
-      setStatus(String(err.message || err), "err");
+      setStatus(classifyErr(err), "err");
     }
   }
 
