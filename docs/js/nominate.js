@@ -37,6 +37,11 @@
   function renderLocal() {
     if (!listEl) return;
     const arr = loadLocal();
+    const badge = document.getElementById("local-nom-count");
+    if (badge) {
+      badge.textContent = String(arr.length);
+      badge.hidden = arr.length === 0;
+    }
     if (!arr.length) {
       listEl.innerHTML =
         "<p class='muted'>No nominations saved in this browser yet. Submit the form to open a GitHub issue and keep a local copy.</p>";
