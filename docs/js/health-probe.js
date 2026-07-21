@@ -12,6 +12,8 @@
     { name: "metadata #1", url: "metadata/1.json" },
     { name: "image #1", url: "images/1.png", binary: true },
     { name: "config", url: "js/config.js" },
+    { name: "special_placements", url: "special_placements.json" },
+    { name: "rarity.csv", url: "rarity.csv" },
   ];
 
   async function probe() {
