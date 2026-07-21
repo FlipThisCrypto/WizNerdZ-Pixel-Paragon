@@ -875,6 +875,34 @@
       .cd-unit b { font-size: 1.35rem; }
     }
 
+    /* Mobile sticky nominate CTA */
+    .mobile-cta {
+      display: none;
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 50;
+      padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+      background: linear-gradient(180deg, transparent, rgba(2, 3, 8, 0.92) 28%, rgba(2, 3, 8, 0.98));
+      border-top: 1px solid var(--line);
+      box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.45);
+      justify-content: center;
+      gap: 10px;
+    }
+    .mobile-cta a {
+      flex: 1;
+      text-align: center;
+      max-width: 420px;
+    }
+    @media (max-width: 720px) {
+      .mobile-cta { display: flex; }
+      body { padding-bottom: 76px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .mobile-cta { transition: none; }
+    }
+
     /* Accessibility */
     .skip-link {
       position: absolute;
@@ -1141,6 +1169,10 @@
       <div class="gallery" id="preview"></div>
     </section>
   </main>
+
+  <div class="mobile-cta" aria-label="Quick actions">
+    <a class="btn primary" href="#nominate">Nominate a PFP</a>
+  </div>
 
   <footer role="contentinfo">
     WizNerdZ Pixel Paragon · Fiend Studios ·
