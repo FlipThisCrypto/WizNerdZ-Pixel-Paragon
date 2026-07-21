@@ -40,6 +40,16 @@
   }
 
   window.WIZNERDZ_TELEMETRY = {
+    storageEstimate: async function () {
+      try {
+        if (navigator.storage && navigator.storage.estimate) {
+          const e = await navigator.storage.estimate();
+          return { usage: e.usage || 0, quota: e.quota || 0 };
+        }
+      } catch (e) {}
+      return null;
+    },
+
     track: track,
     dump: function () {
       return load();
