@@ -131,7 +131,29 @@
       if (uri && qrBox) {
         qrBox.hidden = false;
         qrBox.innerHTML = "";
-        // Prefer QR if library available; always show copyable URI
+
+        // Client-side QR only — never send WC URI to a third-party image API
+        try {
+          const QR = await import("https://esm.sh/qrcode@1.5.4");
+          const canvas = document.createElement("canvas");
+          canvas.className = "wc-qr-img";
+          canvas.setAttribute("role", "img");
+          canvas.setAttribute("aria-label", "WalletConnect QR code");
+          await QR.toCanvas(canvas, uri, {
+            width: 220,
+            margin: 2,
+            color: { dark: "#020308", light: "#f4f7fb" },
+          });
+          qrBox.appendChild(canvas);
+        } catch (qrErr) {
+          console.warn("local QR render failed", qrErr);
+          const note = document.createElement("p");
+          note.className = "muted";
+          note.textContent =
+            "QR unavailable — copy the URI into Sage WalletConnect.";
+          qrBox.appendChild(note);
+        }
+
         const pre = document.createElement("pre");
         pre.className = "wc-uri";
         pre.textContent = uri;
@@ -142,25 +164,14 @@
         copy.className = "btn";
         copy.textContent = "Copy WalletConnect URI";
         copy.onclick = async () => {
-          await navigator.clipboard.writeText(uri);
-          setStatus("URI copied — paste into Sage WalletConnect.", "ok");
+          try {
+            await navigator.clipboard.writeText(uri);
+            setStatus("URI copied — paste into Sage WalletConnect.", "ok");
+          } catch {
+            setStatus("Copy failed — select the URI text manually.", "warn");
+          }
         };
         qrBox.appendChild(copy);
-
-        // Optional QR via external image API (no secrets in URI beyond session)
-        try {
-          const img = document.createElement("img");
-          img.alt = "WalletConnect QR";
-          img.width = 220;
-          img.height = 220;
-          img.className = "wc-qr-img";
-          img.src =
-            "https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=" +
-            encodeURIComponent(uri);
-          qrBox.insertBefore(img, pre);
-        } catch (_) {
-          /* non-fatal */
-        }
       }
 
       session = await approval();
