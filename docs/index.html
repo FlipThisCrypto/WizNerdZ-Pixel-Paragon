@@ -1101,7 +1101,7 @@
             <button type="button" class="btn danger" id="btn-disconnect" hidden>Disconnect</button>
             <button type="button" class="btn" id="btn-mint" disabled>Mint (after collection freeze)</button>
           </div>
-          <p class="muted" style="margin-top:10px">
+          <p class="muted" style="margin-top:10px" id="mint-config-note">
             WalletConnect project is configured. Mint button arms when
             <code>mint.enabled</code> is set after the nomination window and 1:1 art land.
           </p>
@@ -1239,6 +1239,19 @@
             shareBtn.textContent = 'Copy failed';
           }
         });
+      }
+      const mintNote = document.getElementById('mint-config-note');
+      if (mintNote && cfg.mint) {
+        if (cfg.mint.enabled) {
+          mintNote.innerHTML =
+            '<strong style="color:var(--green)">Mint is ARMED.</strong> ' +
+            (cfg.mint.statusNote || 'Use Connect + Mint with Sage.');
+        } else {
+          mintNote.innerHTML =
+            '<strong>Mint status: disarmed.</strong> ' +
+            (cfg.mint.statusNote ||
+              'Arms after community 1:1 PFPs freeze and offers publish.');
+        }
       }
     })();
 
