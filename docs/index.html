@@ -1242,22 +1242,7 @@
       }
     })();
 
-    const specials = [
-      { id: 42, name: 'Tom', file: 'Tom' },
-      { id: 787, name: 'Fiend', file: 'Fiend' },
-      { id: 2264, name: 'Aster', file: 'Aster' },
-      { id: 3736, name: 'Art Boss', file: 'Art_Boss' },
-      { id: 5625, name: 'Profet', file: 'Profet' },
-      { id: 6146, name: 'Blake', file: 'Blake' },
-      { id: 6949, name: 'Steve', file: 'Steve' },
-      { id: 7462, name: 'Papa', file: 'Papa' },
-      { id: 8483, name: 'James', file: 'James' },
-      { id: 8700, name: 'Staker', file: 'Staker' },
-    ];
-
     const sampleIds = [1, 7, 42, 100, 250, 500, 787, 1000, 2000, 3333, 5000, 7777];
-
-    // Distinct pools for section bands (generative + a few specials mixed)
     const bandPools = [
       [42, 787, 1, 100, 250, 500, 1000, 2000, 3333, 5000, 7777, 2264],
       [6146, 6949, 7, 111, 222, 333, 444, 555, 666, 888, 999, 1200],
@@ -1288,31 +1273,53 @@
       return a;
     }
 
-    // Top hero: all 10 specials (eager) + a few samples
-    const hero = document.getElementById('hero-strip');
-    if (hero) {
+    function renderSpecials(specials) {
+      const hero = document.getElementById('hero-strip');
+      if (hero) {
+        specials
+          .slice()
+          .sort((a, b) => a.id - b.id)
+          .forEach((s) => {
+            const a = document.createElement('a');
+            a.href = 'token.html?id=' + s.id;
+            a.title = '#' + s.id + ' ' + s.name;
+            const img = document.createElement('img');
+            img.src = 'specials/' + s.file + '.png';
+            img.alt = s.name;
+            img.loading = 'eager';
+            img.decoding = 'async';
+            a.appendChild(img);
+            const cap = document.createElement('span');
+            cap.className = 'hero-label';
+            cap.textContent = '#' + s.id + ' ' + s.name;
+            a.appendChild(cap);
+            hero.appendChild(a);
+          });
+        [1, 100, 1000, 5000].forEach((id) => {
+          hero.appendChild(imgTile(id, { eager: true, label: '#' + id }));
+        });
+      }
+
+      const specialsEl = document.getElementById('specials-gallery');
       specials
         .slice()
         .sort((a, b) => a.id - b.id)
         .forEach((s) => {
-          const a = document.createElement('a');
-          a.href = 'token.html?id=' + s.id;
-          a.title = '#' + s.id + ' ' + s.name;
-          const img = document.createElement('img');
-          img.src = 'specials/' + s.file + '.png';
-          img.alt = s.name;
-          img.loading = 'eager';
-          img.decoding = 'async';
-          a.appendChild(img);
-          const cap = document.createElement('span');
-          cap.className = 'hero-label';
-          cap.textContent = '#' + s.id + ' ' + s.name;
-          a.appendChild(cap);
-          hero.appendChild(a);
+          const fig = document.createElement('figure');
+          fig.innerHTML =
+            '<a href="token.html?id=' +
+            s.id +
+            '"><img src="specials/' +
+            s.file +
+            '.png" alt="' +
+            s.name +
+            '" loading="lazy" /></a><figcaption>#' +
+            s.id +
+            ' ' +
+            s.name +
+            '</figcaption>';
+          specialsEl.appendChild(fig);
         });
-      [1, 100, 1000, 5000].forEach((id) => {
-        hero.appendChild(imgTile(id, { eager: true, label: '#' + id }));
-      });
     }
 
     // Section separator bands
@@ -1333,27 +1340,6 @@
       }
     });
 
-    const specialsEl = document.getElementById('specials-gallery');
-    specials
-      .slice()
-      .sort((a, b) => a.id - b.id)
-      .forEach((s) => {
-        const fig = document.createElement('figure');
-        fig.innerHTML =
-          '<a href="token.html?id=' +
-          s.id +
-          '"><img src="specials/' +
-          s.file +
-          '.png" alt="' +
-          s.name +
-          '" loading="lazy" /></a><figcaption>#' +
-          s.id +
-          ' ' +
-          s.name +
-          '</figcaption>';
-        specialsEl.appendChild(fig);
-      });
-
     const previewEl = document.getElementById('preview');
     sampleIds.forEach((id) => {
       const fig = document.createElement('figure');
@@ -1369,6 +1355,23 @@
         '</figcaption>';
       previewEl.appendChild(fig);
     });
+
+    const fallbackSpecials = [
+      { id: 42, name: 'Tom', file: 'Tom' },
+      { id: 787, name: 'Fiend', file: 'Fiend' },
+      { id: 2264, name: 'Aster', file: 'Aster' },
+      { id: 3736, name: 'Art Boss', file: 'Art_Boss' },
+      { id: 5625, name: 'Profet', file: 'Profet' },
+      { id: 6146, name: 'Blake', file: 'Blake' },
+      { id: 6949, name: 'Steve', file: 'Steve' },
+      { id: 7462, name: 'Papa', file: 'Papa' },
+      { id: 8483, name: 'James', file: 'James' },
+      { id: 8700, name: 'Staker', file: 'Staker' },
+    ];
+    fetch('specials.json')
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((data) => renderSpecials(data.specials || fallbackSpecials))
+      .catch(() => renderSpecials(fallbackSpecials));
   </script>
 </body>
 </html>
