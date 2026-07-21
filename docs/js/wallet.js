@@ -268,9 +268,15 @@
   if (mintBtn) mintBtn.addEventListener("click", mint);
 
   // Surface setup state on load
-  if (!(cfg.walletConnect.projectId || "").trim()) {
+  const pid = (cfg.walletConnect.projectId || "").trim();
+  if (!pid) {
     setStatus(
       "WalletConnect projectId not set. Add it in js/config.js (cloud.reown.com), then Connect works with Sage.",
+      "warn"
+    );
+  } else if (!/^[a-f0-9]{32}$/i.test(pid)) {
+    setStatus(
+      "WalletConnect projectId looks unexpected (expected 32 hex chars). Connect may still work — verify at cloud.reown.com.",
       "warn"
     );
   } else {
