@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WizNerdZ Token</title>
+  <meta name="theme-color" content="#05060a" />
+  <link rel="icon" href="assets/logo_mark.png" type="image/png" />
+  <style>
+    :root {
+      --bg: #05060a; --text: #e8eef6; --muted: #8b96a8; --green: #9dffb0;
+      --blue: #a8d4ff; --line: rgba(168,212,255,.25);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; font-family: "Segoe UI", system-ui, sans-serif;
+      color: var(--text);
+      background: radial-gradient(ellipse 800px 400px at 50% -10%, rgba(61,155,232,.2), transparent 55%),
+                  linear-gradient(165deg, #020308, #061428);
+      padding: 24px 16px 48px;
+    }
+    a { color: var(--blue); }
+    a:hover { color: var(--green); }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    .nav { margin-bottom: 16px; font-size: 0.85rem; }
+    .card {
+      border: 1px solid var(--line); border-radius: 16px; padding: 20px;
+      background: linear-gradient(155deg, rgba(244,247,251,.08), rgba(6,20,40,.95));
+      box-shadow: 0 0 48px rgba(18,64,110,.4), inset 0 1px 0 rgba(255,255,255,.15);
+    }
+    h1 { margin: 0 0 8px; font-size: 1.35rem; letter-spacing: .04em; }
+    h1 span { color: var(--green); }
+    .muted { color: var(--muted); font-size: 0.9rem; }
+    .art {
+      width: min(100%, 420px); aspect-ratio: 1; image-rendering: pixelated;
+      border-radius: 12px; border: 1px solid var(--line); display: block;
+      margin: 16px auto; background: #0a0c10;
+      box-shadow: 0 0 28px rgba(61,155,232,.25);
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; margin-top: 12px; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; }
+    th { color: var(--blue); width: 38%; background: rgba(6,20,40,.6); }
+    .err { color: #ff8a9a; }
+    .row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+    .btn {
+      display: inline-block; padding: 10px 14px; border-radius: 10px;
+      border: 1px solid var(--line); color: var(--text); text-decoration: none;
+      background: linear-gradient(180deg, rgba(232,238,246,.15), rgba(6,20,40,.95));
+    }
+    .btn.primary {
+      color: #020308; font-weight: 700; border-color: rgba(157,255,176,.6);
+      background: linear-gradient(180deg, #d8ffe4, var(--green) 50%, #3d9a68);
+    }
+    input#token-id {
+      width: 120px; padding: 10px 12px; border-radius: 10px;
+      border: 1px solid var(--line); background: #0a0c12; color: var(--text);
+      font: inherit;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <a href="./">← WizNerdZ home</a> ·
+      <a href="./#nominate">Nominate</a> ·
+      <a href="dashboard.html">Dashboard</a>
+    </div>
+    <div class="card">
+      <h1 id="title">WizNerdZ <span>#…</span></h1>
+      <p class="muted" id="status">Loading…</p>
+      <div class="row">
+        <label class="muted" for="token-id">Token ID</label>
+        <input id="token-id" type="number" min="1" max="8888" step="1" />
+        <button type="button" class="btn primary" id="btn-go">View</button>
+      </div>
+      <img class="art" id="art" alt="Token art" width="420" height="420" hidden />
+      <table id="traits" hidden></table>
+      <div class="row" id="links" hidden></div>
+    </div>
+  </div>
+  <script>
+    const TOTAL = 8888;
+    const params = new URLSearchParams(location.search);
+    const input = document.getElementById("token-id");
+    const title = document.getElementById("title");
+    const status = document.getElementById("status");
+    const art = document.getElementById("art");
+    const traits = document.getElementById("traits");
+    const links = document.getElementById("links");
+
+    function clampId(n) {
+      n = parseInt(n, 10);
+      if (!Number.isFinite(n) || n < 1) return 1;
+      if (n > TOTAL) return TOTAL;
+      return n;
+    }
+
+    async function load(id) {
+      id = clampId(id);
+      input.value = id;
+      const path = "metadata/" + id + ".json";
+      const imgPath = "images/" + id + ".png";
+      const absMeta =
+        "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/metadata/" + id + ".json";
+      const absImg =
+        "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/" + id + ".png";
+
+      history.replaceState(null, "", "token.html?id=" + id);
+      title.innerHTML = "WizNerdZ <span>#" + id + "</span>";
+      status.textContent = "Loading metadata…";
+      art.hidden = true;
+      traits.hidden = true;
+      links.hidden = true;
+
+      try {
+        const res = await fetch(path, { cache: "no-cache" });
+        if (!res.ok) throw new Error("Metadata HTTP " + res.status);
+        const meta = await res.json();
+        document.title = (meta.name || "WizNerdZ #" + id) + " · WizNerdZ";
+        status.textContent = meta.description
+          ? meta.description.slice(0, 160) + (meta.description.length > 160 ? "…" : "")
+          : "CHIP-0007 metadata loaded.";
+
+        art.src = imgPath;
+        art.alt = meta.name || "WizNerdZ #" + id;
+        art.hidden = false;
+
+        const attrs = meta.attributes || [];
+        let html =
+          "<thead><tr><th>Trait</th><th>Value</th></tr></thead><tbody>";
+        attrs.forEach((a) => {
+          const k = a.trait_type || a.type || "";
+          const v = a.value == null ? "" : String(a.value);
+          if (!k) return;
+          html +=
+            "<tr><th>" +
+            escapeHtml(k) +
+            "</th><td>" +
+            escapeHtml(v) +
+            "</td></tr>";
+        });
+        html += "</tbody>";
+        traits.innerHTML = html;
+        traits.hidden = false;
+
+        links.innerHTML =
+          '<a class="btn" href="' +
+          imgPath +
+          '" target="_blank" rel="noopener">Open image</a>' +
+          '<a class="btn" href="' +
+          path +
+          '" target="_blank" rel="noopener">Open metadata JSON</a>' +
+          '<a class="btn" href="' +
+          absImg +
+          '" target="_blank" rel="noopener">Absolute image URL</a>';
+        links.hidden = false;
+
+        // Dynamic social-ish title for copy/share
+        const og = meta.name || "WizNerdZ #" + id;
+      } catch (err) {
+        status.className = "err";
+        status.textContent = String(err.message || err);
+      }
+    }
+
+    function escapeHtml(s) {
+      return String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    document.getElementById("btn-go").addEventListener("click", () => load(input.value));
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") load(input.value);
+    });
+
+    load(params.get("id") || 1);
+  </script>
+</body>
+</html>
