@@ -1,7 +1,7 @@
 {
   "service": "wiznerdz-pixel-paragon",
   "status": "ok",
-  "version": "r2.30",
+  "version": "r3.50",
   "updated": "2026-07-21",
   "collection": {
     "id": "wiznerdz-chia-gen1",
@@ -15,7 +15,10 @@
     "metadata_image_urls": "absolute",
     "walletconnect_configured": true,
     "live_nominations_board": true,
-    "offline_shell": true
+    "offline_shell": true,
+    "integrity_manifest": true,
+    "chaos_mode": "opt-in",
+    "slos": true
   },
   "endpoints": {
     "home": "./",
