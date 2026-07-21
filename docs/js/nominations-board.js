@@ -107,6 +107,8 @@
         "Showing " + items.length + " open nomination issue(s) from GitHub.",
         "ok"
       );
+      const bc = document.getElementById("noms-board-count");
+      if (bc) { bc.textContent = String(items.length); bc.hidden = false; }
     }
   }
 
