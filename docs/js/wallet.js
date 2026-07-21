@@ -231,6 +231,8 @@
   }
 
   async function mint() {
+    if (mintBtn) { mintBtn.disabled = true; mintBtn.textContent = "Minting…"; }
+    try {
     if (!cfg.mint.enabled) {
       setStatus("Mint is not enabled yet — offer / MintGarden link pending.", "warn");
       return;
@@ -270,6 +272,16 @@
     } catch (err) {
       console.error(err);
       setStatus(classifyErr(err), "err");
+    } finally {
+      if (mintBtn) {
+        mintBtn.textContent = "Mint (after collection freeze)";
+      }
+      updateUi();
+    }
+    } catch (errOuter) {
+      setStatus(classifyErr(errOuter), "err");
+      if (mintBtn) mintBtn.textContent = "Mint (after collection freeze)";
+      updateUi();
     }
   }
 
