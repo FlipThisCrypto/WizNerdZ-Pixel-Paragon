@@ -1073,8 +1073,10 @@
         <a class="btn" href="https://x.com/FiendStudios" target="_blank" rel="noopener">Twitter / X</a>
         <a class="btn" href="https://github.com/FlipThisCrypto/WizNerdZ-Pixel-Paragon" target="_blank" rel="noopener">GitHub</a>
         <a class="btn" href="collection.json">collection.json</a>
+        <a class="btn" href="rarity.html">Rarity table</a>
         <a class="btn" href="rarity.csv">rarity.csv</a>
         <a class="btn" href="MINT.md">Mint economics</a>
+        <a class="btn" href="token.html?id=42">Token #42</a>
       </div>
     </section>
 
@@ -1236,7 +1238,7 @@
     function imgTile(id, opts) {
       opts = opts || {};
       const a = document.createElement('a');
-      a.href = 'images/' + id + '.png';
+      a.href = 'token.html?id=' + id;
       a.title = 'WizNerdZ #' + id;
       const img = document.createElement('img');
       img.src = 'images/' + id + '.png';
@@ -1261,7 +1263,7 @@
         .sort((a, b) => a.id - b.id)
         .forEach((s) => {
           const a = document.createElement('a');
-          a.href = 'images/' + s.id + '.png';
+          a.href = 'token.html?id=' + s.id;
           a.title = '#' + s.id + ' ' + s.name;
           const img = document.createElement('img');
           img.src = 'specials/' + s.file + '.png';
@@ -1305,9 +1307,9 @@
       .forEach((s) => {
         const fig = document.createElement('figure');
         fig.innerHTML =
-          '<a href="images/' +
+          '<a href="token.html?id=' +
           s.id +
-          '.png"><img src="specials/' +
+          '"><img src="specials/' +
           s.file +
           '.png" alt="' +
           s.name +
@@ -1323,9 +1325,9 @@
     sampleIds.forEach((id) => {
       const fig = document.createElement('figure');
       fig.innerHTML =
-        '<a href="images/' +
+        '<a href="token.html?id=' +
         id +
-        '.png"><img src="images/' +
+        '"><img src="images/' +
         id +
         '.png" alt="WizNerdz #' +
         id +
