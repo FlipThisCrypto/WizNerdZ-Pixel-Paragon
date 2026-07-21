@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WizNerdZ Operator Console</title>
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="icon" href="assets/logo_mark.png" type="image/png" />
+  <style>
+    body{margin:0;font-family:var(--font-ui);background:linear-gradient(165deg,var(--black-0),var(--blue-1));color:var(--text);padding:24px}
+    a{color:var(--blue-6)} .card{max-width:900px;margin:0 auto 16px;padding:18px;border:1px solid var(--line);border-radius:16px;background:rgba(6,20,40,.9)}
+    .muted{color:var(--muted)} code{color:var(--green)}
+    ul{line-height:1.7}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Operator console</h1>
+    <p class="muted">Single pane for Fiend Studios day-to-day ops (static, no secrets).</p>
+    <ul>
+      <li><a href="./#nominate">Landing nominate + live board</a></li>
+      <li><a href="./#ops">Health probe</a> · <a href="health.json">health.json</a></li>
+      <li><a href="https://github.com/FlipThisCrypto/WizNerdZ-Pixel-Paragon/issues?q=is%3Aissue+PFP+Nomination">GitHub nominations</a></li>
+      <li><a href="OPS.md">OPS runbook</a> · <a href="ARCHITECTURE.md">Architecture</a> · <a href="MINT.md">Mint</a></li>
+      <li><a href="dashboard.html">Project dashboard</a></li>
+      <li>Verify: <code>python scripts/verify_metadata.py</code> · <code>verify_specials.py</code> · <code>verify_metadata_sample.py</code></li>
+      <li>Treasury: <code id="t"></code></li>
+    </ul>
+  </div>
+  <script src="js/config.js"></script>
+  <script>
+    document.getElementById('t').textContent = (window.WIZNERDZ_CONFIG&&WIZNERDZ_CONFIG.treasuryWallet)||'';
+  </script>
+</body>
+</html>
