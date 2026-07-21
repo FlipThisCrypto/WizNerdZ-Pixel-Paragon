@@ -30,3 +30,15 @@ jobs:
         run: python scripts/verify_metadata_sample.py
       - name: Health JSON contract
         run: python scripts/verify_health.py
+
+- name: Integrity manifest
+  run: python scripts/verify_integrity_manifest.py
+- name: DR checklist
+  run: python scripts/dr_checklist.py
+- name: Perf budget
+  run: python scripts/perf_budget.py
+- name: Image dimensions sample
+  run: python scripts/verify_image_dimensions.py
+- name: Trait completeness sample
+  run: python scripts/verify_trait_completeness.py
+
