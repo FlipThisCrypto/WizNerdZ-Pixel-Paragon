@@ -1034,7 +1034,10 @@
     <div class="hero-art-frame">
       <div class="hero-strip" id="hero-strip"></div>
     </div>
-    <p class="hero-caption">Featured art · <span>named 1/1s</span> &amp; sample wizards</p>
+    <p class="hero-caption">
+      Featured art · <span>named 1/1s</span> &amp; sample wizards
+      · <a href="#" id="btn-random-wizard">Open random wizard →</a>
+    </p>
   </section>
 
   <main id="main-content" tabindex="-1">
@@ -1318,6 +1321,15 @@
             (cfg.mint.statusNote ||
               'Arms after community 1:1 PFPs freeze and offers publish.');
         }
+      }
+      const randW = document.getElementById('btn-random-wizard');
+      if (randW) {
+        randW.addEventListener('click', (e) => {
+          e.preventDefault();
+          const total = (cfg.collection && cfg.collection.seriesTotal) || 8888;
+          const id = 1 + Math.floor(Math.random() * total);
+          location.href = 'token.html?id=' + id;
+        });
       }
     })();
 
