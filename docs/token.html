@@ -77,6 +77,7 @@
         <button type="button" class="btn" id="btn-next" title="Next">Next →</button>
         <button type="button" class="btn" id="btn-rand" title="Random">Random</button>
         <button type="button" class="btn" id="btn-share" title="Copy link">Copy link</button>
+        <a class="btn" id="btn-compare" href="compare.html">Compare</a>
       </div>
       <img class="art" id="art" alt="Token art" width="420" height="420" hidden />
       <table id="traits" hidden></table>
@@ -215,6 +216,14 @@
         status.textContent = "Copy failed — select address bar manually.";
       }
     });
+    function syncCompareLink() {
+      const id = clampId(input.value);
+      const other = id === 42 ? 787 : 42;
+      document.getElementById("btn-compare").href =
+        "compare.html?a=" + id + "&b=" + other;
+    }
+    input.addEventListener("change", syncCompareLink);
+    syncCompareLink();
     input.addEventListener("keydown", (e) => {
       if (e.key === "Enter") load(input.value);
       if (e.key === "ArrowLeft") load(clampId((parseInt(input.value, 10) || 1) - 1));
