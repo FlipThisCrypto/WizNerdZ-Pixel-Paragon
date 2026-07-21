@@ -26,3 +26,5 @@ jobs:
         run: python scripts/verify_metadata.py
       - name: Verify named specials placements
         run: python scripts/verify_specials.py
+      - name: Fast metadata sample contracts
+        run: python scripts/verify_metadata_sample.py
