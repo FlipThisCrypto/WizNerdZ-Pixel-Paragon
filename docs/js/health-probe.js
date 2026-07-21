@@ -14,6 +14,7 @@
     { name: "config", url: "js/config.js" },
     { name: "special_placements", url: "special_placements.json" },
     { name: "rarity.csv", url: "rarity.csv" },
+    { name: "integrity-manifest", url: "integrity-manifest.json" },
   ];
 
   async function probe() {
