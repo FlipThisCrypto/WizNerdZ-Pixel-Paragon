@@ -1173,6 +1173,7 @@
       <div class="links" style="margin-top:10px">
         <a class="btn" href="health.json" target="_blank" rel="noopener">health.json</a>
         <a class="btn" href="dashboard.html">Dashboard</a>
+        <button type="button" class="btn" id="btn-export-telemetry">Export local telemetry</button>
       </div>
     </section>
 
@@ -1295,6 +1296,7 @@
       Countdown, WalletConnect, and the nomination form require JavaScript.
     </div>
   </noscript>
+  <script src="js/telemetry.js?v=20260721r2"></script>
   <script src="js/config.js?v=20260721r2"></script>
   <script src="js/countdown.js?v=20260721r2"></script>
   <script src="js/wallet.js?v=20260721r2"></script>
@@ -1366,8 +1368,13 @@
           e.preventDefault();
           const total = (cfg.collection && cfg.collection.seriesTotal) || 8888;
           const id = 1 + Math.floor(Math.random() * total);
+          if (window.WIZNERDZ_TELEMETRY) WIZNERDZ_TELEMETRY.track('random_wizard', { id: id });
           location.href = 'token.html?id=' + id;
         });
+      }
+      const telBtn = document.getElementById('btn-export-telemetry');
+      if (telBtn && window.WIZNERDZ_TELEMETRY) {
+        telBtn.addEventListener('click', () => WIZNERDZ_TELEMETRY.exportJson());
       }
     })();
 
