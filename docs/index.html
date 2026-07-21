@@ -1301,6 +1301,13 @@
   <script src="js/nominations-board.js?v=20260721r2"></script>
   <script src="js/health-probe.js?v=20260721r2"></script>
   <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("sw.js").catch(() => {});
+      });
+    }
+  </script>
+  <script>
     (function () {
       const cfg = window.WIZNERDZ_CONFIG;
       if (!cfg) return;
