@@ -131,7 +131,18 @@
     } catch (_) {}
   }
 
+  function nominationsWindowOpen() {
+    try {
+      const end = Date.parse((cfg.nomination && cfg.nomination.deadlineUtc) || "2026-08-01T04:00:00.000Z");
+      return Date.now() < end;
+    } catch (e) { return true; }
+  }
+
   async function fetchIssues(force) {
+    if (!nominationsWindowOpen()) {
+      setStatus("Nomination window closed — historical open issues may still appear below.", "warn");
+    }
+
     setStatus("Loading nominations from GitHub…");
     const cached = readCache();
     if (!force && cached && Date.now() - cached.ts < CACHE_TTL_MS) {
