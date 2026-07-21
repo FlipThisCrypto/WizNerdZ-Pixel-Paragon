@@ -1,0 +1,52 @@
+/* WizNerdZ design tokens — single source for chrome wet-paint theme */
+:root {
+  --black-0: #020308;
+  --black-1: #05060a;
+  --black-2: #0a0c12;
+  --black-3: #10141c;
+
+  --silver-1: #e8eef6;
+  --silver-2: #c5ceda;
+  --silver-3: #8b96a8;
+  --silver-4: #5c6778;
+  --chrome-hi: #f4f7fb;
+  --chrome-mid: #9aa8bc;
+  --chrome-lo: #3a4454;
+
+  --blue-1: #061428;
+  --blue-2: #0a2a4a;
+  --blue-3: #12406e;
+  --blue-4: #1a6bb5;
+  --blue-5: #3d9be8;
+  --blue-6: #a8d4ff;
+
+  --green: #9dffb0;
+  --green-soft: #6ee7a0;
+  --green-dim: rgba(157, 255, 176, 0.14);
+  --green-glow: rgba(157, 255, 176, 0.45);
+
+  --text: var(--silver-1);
+  --muted: var(--silver-3);
+  --line: rgba(168, 212, 255, 0.22);
+  --line-bright: rgba(232, 238, 246, 0.45);
+
+  --ok: var(--green);
+  --warn: #e8d48a;
+  --err: #ff8a9a;
+
+  --panel-radius: 16px;
+  --glow-blue: rgba(61, 155, 232, 0.35);
+  --glow-blue-deep: rgba(18, 64, 110, 0.55);
+  --glow-green: rgba(157, 255, 176, 0.22);
+
+  --font-ui: "Segoe UI", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --max-width: 1100px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --touch-min: 44px;
+}
