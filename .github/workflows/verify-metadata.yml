@@ -42,3 +42,10 @@ jobs:
 - name: Trait completeness sample
   run: python scripts/verify_trait_completeness.py
 
+- name: DNA uniqueness sample
+  run: python scripts/verify_dna_uniqueness_sample.py
+- name: Series continuity
+  run: python scripts/verify_series_continuity.py
+- name: Mint arm preflight
+  run: python scripts/mint_arm_preflight.py
+
