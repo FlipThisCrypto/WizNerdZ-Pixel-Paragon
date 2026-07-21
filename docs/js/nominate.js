@@ -121,6 +121,17 @@
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
+    const rl = window.WIZNERDZ_RATE
+      ? window.WIZNERDZ_RATE.allow("nominate", 8, 30 * 60 * 1000)
+      : { ok: true };
+    if (!rl.ok) {
+      showErr(
+        "Too many nominations from this browser. Try again in about " +
+          Math.ceil((rl.retryMs || 600000) / 60000) +
+          " minute(s)."
+      );
+      return;
+    }
     if (deadlinePassed()) {
       showErr(
         "The nomination window is closed (after midnight July 31, 2026 US Eastern)."
