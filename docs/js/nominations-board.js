@@ -198,9 +198,48 @@
     }
   }
 
+  function exportBoardCsv() {
+    const cached = readCache();
+    const items = (cached && cached.items) || [];
+    if (!items.length) {
+      setStatus("No board data to export — refresh first.", "warn");
+      return;
+    }
+    const headers = [
+      "number",
+      "title",
+      "nominee",
+      "platform",
+      "nominator",
+      "wallet",
+      "user",
+      "created",
+      "url",
+    ];
+    const lines = [headers.join(",")];
+    items.forEach((n) => {
+      lines.push(
+        headers
+          .map((h) => '"' + String(n[h] == null ? "" : n[h]).replace(/"/g, '""') + '"')
+          .join(",")
+      );
+    });
+    const blob = new Blob([lines.join("\n")], { type: "text/csv;charset=utf-8" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "wiznerdz-live-nominations.csv";
+    a.click();
+    URL.revokeObjectURL(a.href);
+    setStatus("Exported " + items.length + " live nomination row(s).", "ok");
+    if (window.WIZNERDZ_TELEMETRY)
+      WIZNERDZ_TELEMETRY.track("export_live_noms", { n: items.length });
+  }
+
   if (refreshBtn) {
     refreshBtn.addEventListener("click", () => fetchIssues(true));
   }
+  const exportLive = document.getElementById("noms-board-export");
+  if (exportLive) exportLive.addEventListener("click", exportBoardCsv);
 
   // Load after a tick so first paint isn't blocked
   if (document.readyState === "loading") {
