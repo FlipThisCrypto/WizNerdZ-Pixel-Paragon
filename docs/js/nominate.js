@@ -149,6 +149,27 @@
       return;
     }
 
+    // Local duplicate protection (same device / same handle+platform)
+    const dedupeKey =
+      data.nomineeHandle.toLowerCase() + "|" + data.nomineePlatform.toLowerCase();
+    const prior = loadLocal().find(
+      (n) =>
+        (n.nomineeHandle || "").toLowerCase() +
+          "|" +
+          (n.nomineePlatform || "").toLowerCase() ===
+        dedupeKey
+    );
+    if (prior) {
+      const ok = window.confirm(
+        "You already nominated " +
+          data.nomineeHandle +
+          " (" +
+          data.nomineePlatform +
+          ") on this device. Submit another issue anyway?"
+      );
+      if (!ok) return;
+    }
+
     const wErr = validateWallet(data.wallet);
     if (wErr) {
       showErr(wErr);
