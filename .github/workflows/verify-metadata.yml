@@ -24,3 +24,5 @@ jobs:
           python-version: "3.12"
       - name: Verify CHIP-0007 absolute image URLs
         run: python scripts/verify_metadata.py
+      - name: Verify named specials placements
+        run: python scripts/verify_specials.py
