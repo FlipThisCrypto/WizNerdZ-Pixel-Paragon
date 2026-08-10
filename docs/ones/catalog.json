@@ -1,74 +1,84 @@
 {
-  "description": "All WizNerdZ 1-of-1s for mint planning. Display names are simple community-facing labels (not legal names).",
+  "description": "All WizNerdZ 1-of-1s for mint planning. PNG filenames are {token_id}_{DisplayName}.png \u2014 clean labels only. Actual NFT metadata name is '{Display} \u00b7 WizNerdz #{id}'.",
   "named_specials": [
     {
       "token_id": 42,
       "display_name": "Tom",
       "kind": "named",
-      "ones_file": "ones/0042_Tom_named.png",
+      "nft_name": "Tom \u00b7 WizNerdz #42",
+      "ones_file": "ones/0042_Tom.png",
       "image": "images/42.png"
     },
     {
       "token_id": 787,
       "display_name": "Fiend",
       "kind": "named",
-      "ones_file": "ones/0787_Fiend_named.png",
+      "nft_name": "Fiend \u00b7 WizNerdz #787",
+      "ones_file": "ones/0787_Fiend.png",
       "image": "images/787.png"
     },
     {
       "token_id": 2264,
       "display_name": "Aster",
       "kind": "named",
-      "ones_file": "ones/2264_Aster_named.png",
+      "nft_name": "Aster \u00b7 WizNerdz #2264",
+      "ones_file": "ones/2264_Aster.png",
       "image": "images/2264.png"
     },
     {
       "token_id": 3736,
       "display_name": "Art Boss",
       "kind": "named",
-      "ones_file": "ones/3736_Art_Boss_named.png",
+      "nft_name": "Art Boss \u00b7 WizNerdz #3736",
+      "ones_file": "ones/3736_Art_Boss.png",
       "image": "images/3736.png"
     },
     {
       "token_id": 5625,
       "display_name": "Profet",
       "kind": "named",
-      "ones_file": "ones/5625_Profet_named.png",
+      "nft_name": "Profet \u00b7 WizNerdz #5625",
+      "ones_file": "ones/5625_Profet.png",
       "image": "images/5625.png"
     },
     {
       "token_id": 6146,
       "display_name": "Blake",
       "kind": "named",
-      "ones_file": "ones/6146_Blake_named.png",
+      "nft_name": "Blake \u00b7 WizNerdz #6146",
+      "ones_file": "ones/6146_Blake.png",
       "image": "images/6146.png"
     },
     {
       "token_id": 6949,
       "display_name": "Steve",
       "kind": "named",
-      "ones_file": "ones/6949_Steve_named.png",
+      "nft_name": "Steve \u00b7 WizNerdz #6949",
+      "ones_file": "ones/6949_Steve.png",
       "image": "images/6949.png"
     },
     {
       "token_id": 7462,
       "display_name": "Papa",
       "kind": "named",
-      "ones_file": "ones/7462_Papa_named.png",
+      "nft_name": "Papa \u00b7 WizNerdz #7462",
+      "ones_file": "ones/7462_Papa.png",
       "image": "images/7462.png"
     },
     {
       "token_id": 8483,
       "display_name": "James",
       "kind": "named",
-      "ones_file": "ones/8483_James_named.png",
+      "nft_name": "James \u00b7 WizNerdz #8483",
+      "ones_file": "ones/8483_James.png",
       "image": "images/8483.png"
     },
     {
       "token_id": 8700,
       "display_name": "Staker",
       "kind": "named",
-      "ones_file": "ones/8700_Staker_named.png",
+      "nft_name": "Staker \u00b7 WizNerdz #8700",
+      "ones_file": "ones/8700_Staker.png",
       "image": "images/8700.png"
     }
   ],
@@ -77,480 +87,540 @@
       "token_id": 205,
       "display_name": "Oops",
       "handle": "@OopsOrngz",
+      "nft_name": "Oops \u00b7 WizNerdz #205",
+      "ones_file": "ones/0205_Oops.png",
       "image": "images/205.png",
-      "ones_file": "ones/0205_Oops_OopsOrngz.png",
       "metadata": "metadata/205.json"
     },
     {
       "token_id": 399,
       "display_name": "Siipi",
       "handle": "@iamSiipi",
+      "nft_name": "Siipi \u00b7 WizNerdz #399",
+      "ones_file": "ones/0399_Siipi.png",
       "image": "images/399.png",
-      "ones_file": "ones/0399_Siipi_iamSiipi.png",
       "metadata": "metadata/399.json"
     },
     {
       "token_id": 639,
       "display_name": "DatArt",
       "handle": "@DatArtPerson",
+      "nft_name": "DatArt \u00b7 WizNerdz #639",
+      "ones_file": "ones/0639_DatArt.png",
       "image": "images/639.png",
-      "ones_file": "ones/0639_DatArt_DatArtPerson.png",
       "metadata": "metadata/639.json"
     },
     {
       "token_id": 849,
       "display_name": "Profet",
       "handle": "@nftprofetmaster",
+      "nft_name": "Profet \u00b7 WizNerdz #849",
+      "ones_file": "ones/0849_Profet.png",
       "image": "images/849.png",
-      "ones_file": "ones/0849_Profet_nftprofetmaster.png",
       "metadata": "metadata/849.json"
     },
     {
       "token_id": 900,
       "display_name": "Permuto",
       "handle": "@permutocapital",
+      "nft_name": "Permuto \u00b7 WizNerdz #900",
+      "ones_file": "ones/0900_Permuto.png",
       "image": "images/900.png",
-      "ones_file": "ones/0900_Permuto_permutocapital.png",
       "metadata": "metadata/900.json"
     },
     {
       "token_id": 1090,
       "display_name": "Silicon",
       "handle": "@silicondotnet",
+      "nft_name": "Silicon \u00b7 WizNerdz #1090",
+      "ones_file": "ones/1090_Silicon.png",
       "image": "images/1090.png",
-      "ones_file": "ones/1090_Silicon_silicondotnet.png",
       "metadata": "metadata/1090.json"
     },
     {
       "token_id": 1454,
       "display_name": "Thy",
       "handle": "@thyrevolution",
+      "nft_name": "Thy \u00b7 WizNerdz #1454",
+      "ones_file": "ones/1454_Thy.png",
       "image": "images/1454.png",
-      "ones_file": "ones/1454_Thy_thyrevolution.png",
       "metadata": "metadata/1454.json"
     },
     {
       "token_id": 1736,
       "display_name": "SpaceScan",
       "handle": "@spacescan_io",
+      "nft_name": "SpaceScan \u00b7 WizNerdz #1736",
+      "ones_file": "ones/1736_SpaceScan.png",
       "image": "images/1736.png",
-      "ones_file": "ones/1736_SpaceScan_spacescan_io.png",
       "metadata": "metadata/1736.json"
     },
     {
       "token_id": 1759,
       "display_name": "Ender",
       "handle": "@endertown",
+      "nft_name": "Ender \u00b7 WizNerdz #1759",
+      "ones_file": "ones/1759_Ender.png",
       "image": "images/1759.png",
-      "ones_file": "ones/1759_Ender_endertown.png",
       "metadata": "metadata/1759.json"
     },
     {
       "token_id": 2106,
       "display_name": "Trashformers",
       "handle": "@trashformersnft",
+      "nft_name": "Trashformers \u00b7 WizNerdz #2106",
+      "ones_file": "ones/2106_Trashformers.png",
       "image": "images/2106.png",
-      "ones_file": "ones/2106_Trashformers_trashformersnft.png",
       "metadata": "metadata/2106.json"
     },
     {
       "token_id": 2308,
       "display_name": "Dracattus",
       "handle": "@DracattusDev",
+      "nft_name": "Dracattus \u00b7 WizNerdz #2308",
+      "ones_file": "ones/2308_Dracattus.png",
       "image": "images/2308.png",
-      "ones_file": "ones/2308_Dracattus_DracattusDev.png",
       "metadata": "metadata/2308.json"
     },
     {
       "token_id": 2321,
       "display_name": "Chia Gods",
       "handle": "@ChiaGodsNFT",
+      "nft_name": "Chia Gods \u00b7 WizNerdz #2321",
+      "ones_file": "ones/2321_Chia_Gods.png",
       "image": "images/2321.png",
-      "ones_file": "ones/2321_Chia_Gods_ChiaGodsNFT.png",
       "metadata": "metadata/2321.json"
     },
     {
       "token_id": 2351,
       "display_name": "Gooey",
       "handle": "@OrangeGooey",
+      "nft_name": "Gooey \u00b7 WizNerdz #2351",
+      "ones_file": "ones/2351_Gooey.png",
       "image": "images/2351.png",
-      "ones_file": "ones/2351_Gooey_OrangeGooey.png",
       "metadata": "metadata/2351.json"
     },
     {
       "token_id": 2529,
       "display_name": "Lost Gifs",
       "handle": "@CF_Lost_Gifs",
+      "nft_name": "Lost Gifs \u00b7 WizNerdz #2529",
+      "ones_file": "ones/2529_Lost_Gifs.png",
       "image": "images/2529.png",
-      "ones_file": "ones/2529_Lost_Gifs_CF_Lost_Gifs.png",
       "metadata": "metadata/2529.json"
     },
     {
       "token_id": 2868,
       "display_name": "Grig",
       "handle": "@SpiritBits",
+      "nft_name": "Grig \u00b7 WizNerdz #2868",
+      "ones_file": "ones/2868_Grig.png",
       "image": "images/2868.png",
-      "ones_file": "ones/2868_Grig_SpiritBits.png",
       "metadata": "metadata/2868.json"
     },
     {
       "token_id": 3130,
       "display_name": "Whale",
       "handle": "@time2buyxch",
+      "nft_name": "Whale \u00b7 WizNerdz #3130",
+      "ones_file": "ones/3130_Whale.png",
       "image": "images/3130.png",
-      "ones_file": "ones/3130_Whale_time2buyxch.png",
       "metadata": "metadata/3130.json"
     },
     {
       "token_id": 3146,
       "display_name": "Bullish",
       "handle": "@Bullish0xCrypto",
+      "nft_name": "Bullish \u00b7 WizNerdz #3146",
+      "ones_file": "ones/3146_Bullish.png",
       "image": "images/3146.png",
-      "ones_file": "ones/3146_Bullish_Bullish0xCrypto.png",
       "metadata": "metadata/3146.json"
     },
     {
       "token_id": 3332,
       "display_name": "Mini Marmot",
       "handle": "@MiniMarmots",
+      "nft_name": "Mini Marmot \u00b7 WizNerdz #3332",
+      "ones_file": "ones/3332_Mini_Marmot.png",
       "image": "images/3332.png",
-      "ones_file": "ones/3332_Mini_Marmot_MiniMarmots.png",
       "metadata": "metadata/3332.json"
     },
     {
       "token_id": 3601,
       "display_name": "Max",
       "handle": "@BraidsBlock",
+      "nft_name": "Max \u00b7 WizNerdz #3601",
+      "ones_file": "ones/3601_Max.png",
       "image": "images/3601.png",
-      "ones_file": "ones/3601_Max_BraidsBlock.png",
       "metadata": "metadata/3601.json"
     },
     {
       "token_id": 3647,
       "display_name": "Grizzle",
       "handle": "@Grizzle341",
+      "nft_name": "Grizzle \u00b7 WizNerdz #3647",
+      "ones_file": "ones/3647_Grizzle.png",
       "image": "images/3647.png",
-      "ones_file": "ones/3647_Grizzle_Grizzle341.png",
       "metadata": "metadata/3647.json"
     },
     {
       "token_id": 4358,
       "display_name": "Chia",
       "handle": "@chia_project",
+      "nft_name": "Chia \u00b7 WizNerdz #4358",
+      "ones_file": "ones/4358_Chia.png",
       "image": "images/4358.png",
-      "ones_file": "ones/4358_Chia_chia_project.png",
       "metadata": "metadata/4358.json"
     },
     {
       "token_id": 4929,
       "display_name": "Memecoin",
       "handle": "@ChiaMemecoin",
+      "nft_name": "Memecoin \u00b7 WizNerdz #4929",
+      "ones_file": "ones/4929_Memecoin.png",
       "image": "images/4929.png",
-      "ones_file": "ones/4929_Memecoin_ChiaMemecoin.png",
       "metadata": "metadata/4929.json"
     },
     {
       "token_id": 5012,
       "display_name": "Mobilx",
       "handle": "@m0b1lx",
+      "nft_name": "Mobilx \u00b7 WizNerdz #5012",
+      "ones_file": "ones/5012_Mobilx.png",
       "image": "images/5012.png",
-      "ones_file": "ones/5012_Mobilx_m0b1lx.png",
       "metadata": "metadata/5012.json"
     },
     {
       "token_id": 5074,
       "display_name": "Fiend",
       "handle": "@FiendStudios",
+      "nft_name": "Fiend \u00b7 WizNerdz #5074",
+      "ones_file": "ones/5074_Fiend.png",
       "image": "images/5074.png",
-      "ones_file": "ones/5074_Fiend_FiendStudios.png",
       "metadata": "metadata/5074.json"
     },
     {
       "token_id": 5095,
       "display_name": "Seedsnapp",
       "handle": "@seedsnapp",
+      "nft_name": "Seedsnapp \u00b7 WizNerdz #5095",
+      "ones_file": "ones/5095_Seedsnapp.png",
       "image": "images/5095.png",
-      "ones_file": "ones/5095_Seedsnapp_seedsnapp.png",
       "metadata": "metadata/5095.json"
     },
     {
       "token_id": 5189,
       "display_name": "Matthew",
       "handle": "@MatthewSHintz",
+      "nft_name": "Matthew \u00b7 WizNerdz #5189",
+      "ones_file": "ones/5189_Matthew.png",
       "image": "images/5189.png",
-      "ones_file": "ones/5189_Matthew_MatthewSHintz.png",
       "metadata": "metadata/5189.json"
     },
     {
       "token_id": 5279,
       "display_name": "Sol",
       "handle": "@solomonslot",
+      "nft_name": "Sol \u00b7 WizNerdz #5279",
+      "ones_file": "ones/5279_Sol.png",
       "image": "images/5279.png",
-      "ones_file": "ones/5279_Sol_solomonslot.png",
       "metadata": "metadata/5279.json"
     },
     {
       "token_id": 5413,
       "display_name": "Hyperhex",
       "handle": "@HYP3RH3X",
+      "nft_name": "Hyperhex \u00b7 WizNerdz #5413",
+      "ones_file": "ones/5413_Hyperhex.png",
       "image": "images/5413.png",
-      "ones_file": "ones/5413_Hyperhex_HYP3RH3X.png",
       "metadata": "metadata/5413.json"
     },
     {
       "token_id": 5762,
       "display_name": "MintGarden",
       "handle": "@MintGarden_io",
+      "nft_name": "MintGarden \u00b7 WizNerdz #5762",
+      "ones_file": "ones/5762_MintGarden.png",
       "image": "images/5762.png",
-      "ones_file": "ones/5762_MintGarden_MintGarden_io.png",
       "metadata": "metadata/5762.json"
     },
     {
       "token_id": 5804,
       "display_name": "Anarkoic",
       "handle": "@anarkoicxchia",
+      "nft_name": "Anarkoic \u00b7 WizNerdz #5804",
+      "ones_file": "ones/5804_Anarkoic.png",
       "image": "images/5804.png",
-      "ones_file": "ones/5804_Anarkoic_anarkoicxchia.png",
       "metadata": "metadata/5804.json"
     },
     {
       "token_id": 5915,
       "display_name": "Rigidity",
       "handle": "@Rigidity16",
+      "nft_name": "Rigidity \u00b7 WizNerdz #5915",
+      "ones_file": "ones/5915_Rigidity.png",
       "image": "images/5915.png",
-      "ones_file": "ones/5915_Rigidity_Rigidity16.png",
       "metadata": "metadata/5915.json"
     },
     {
       "token_id": 5943,
       "display_name": "Lucky 8",
       "handle": "@Lucky8Token",
+      "nft_name": "Lucky 8 \u00b7 WizNerdz #5943",
+      "ones_file": "ones/5943_Lucky_8.png",
       "image": "images/5943.png",
-      "ones_file": "ones/5943_Lucky_8_Lucky8Token.png",
       "metadata": "metadata/5943.json"
     },
     {
       "token_id": 5985,
       "display_name": "Circuit",
       "handle": "@Circuit_DAO",
+      "nft_name": "Circuit \u00b7 WizNerdz #5985",
+      "ones_file": "ones/5985_Circuit.png",
       "image": "images/5985.png",
-      "ones_file": "ones/5985_Circuit_Circuit_DAO.png",
       "metadata": "metadata/5985.json"
     },
     {
       "token_id": 6057,
       "display_name": "Mayor",
       "handle": "@MayorAbandoned",
+      "nft_name": "Mayor \u00b7 WizNerdz #6057",
+      "ones_file": "ones/6057_Mayor.png",
       "image": "images/6057.png",
-      "ones_file": "ones/6057_Mayor_MayorAbandoned.png",
       "metadata": "metadata/6057.json"
     },
     {
       "token_id": 6169,
       "display_name": "Heart",
       "handle": "@ArtwithHeartNFT",
+      "nft_name": "Heart \u00b7 WizNerdz #6169",
+      "ones_file": "ones/6169_Heart.png",
       "image": "images/6169.png",
-      "ones_file": "ones/6169_Heart_ArtwithHeartNFT.png",
       "metadata": "metadata/6169.json"
     },
     {
       "token_id": 6206,
       "display_name": "Dexie",
       "handle": "@dexie_space",
+      "nft_name": "Dexie \u00b7 WizNerdz #6206",
+      "ones_file": "ones/6206_Dexie.png",
       "image": "images/6206.png",
-      "ones_file": "ones/6206_Dexie_dexie_space.png",
       "metadata": "metadata/6206.json"
     },
     {
       "token_id": 6280,
       "display_name": "Ignore",
       "handle": "@ignoreart",
+      "nft_name": "Ignore \u00b7 WizNerdz #6280",
+      "ones_file": "ones/6280_Ignore.png",
       "image": "images/6280.png",
-      "ones_file": "ones/6280_Ignore_ignoreart.png",
       "metadata": "metadata/6280.json"
     },
     {
       "token_id": 6414,
       "display_name": "Dan",
       "handle": "@DanPerry_Chia",
+      "nft_name": "Dan \u00b7 WizNerdz #6414",
+      "ones_file": "ones/6414_Dan.png",
       "image": "images/6414.png",
-      "ones_file": "ones/6414_Dan_DanPerry_Chia.png",
       "metadata": "metadata/6414.json"
     },
     {
       "token_id": 6439,
       "display_name": "TMoney",
       "handle": "@TeeMoney1738",
+      "nft_name": "TMoney \u00b7 WizNerdz #6439",
+      "ones_file": "ones/6439_TMoney.png",
       "image": "images/6439.png",
-      "ones_file": "ones/6439_TMoney_TeeMoney1738.png",
       "metadata": "metadata/6439.json"
     },
     {
       "token_id": 6477,
       "display_name": "Steve",
       "handle": "@steppsr",
+      "nft_name": "Steve \u00b7 WizNerdz #6477",
+      "ones_file": "ones/6477_Steve.png",
       "image": "images/6477.png",
-      "ones_file": "ones/6477_Steve_steppsr.png",
       "metadata": "metadata/6477.json"
     },
     {
       "token_id": 6632,
       "display_name": "Bram",
       "handle": "@bramcohen",
+      "nft_name": "Bram \u00b7 WizNerdz #6632",
+      "ones_file": "ones/6632_Bram.png",
       "image": "images/6632.png",
-      "ones_file": "ones/6632_Bram_bramcohen.png",
       "metadata": "metadata/6632.json"
     },
     {
       "token_id": 6947,
       "display_name": "Monkeyzoo",
       "handle": "@monkeyzoo",
+      "nft_name": "Monkeyzoo \u00b7 WizNerdz #6947",
+      "ones_file": "ones/6947_Monkeyzoo.png",
       "image": "images/6947.png",
-      "ones_file": "ones/6947_Monkeyzoo_monkeyzoo.png",
       "metadata": "metadata/6947.json"
     },
     {
       "token_id": 7014,
       "display_name": "Dennis",
       "handle": "@MrDennisV",
+      "nft_name": "Dennis \u00b7 WizNerdz #7014",
+      "ones_file": "ones/7014_Dennis.png",
       "image": "images/7014.png",
-      "ones_file": "ones/7014_Dennis_MrDennisV.png",
       "metadata": "metadata/7014.json"
     },
     {
       "token_id": 7034,
       "display_name": "Phunky",
       "handle": "@abit_HEX",
+      "nft_name": "Phunky \u00b7 WizNerdz #7034",
+      "ones_file": "ones/7034_Phunky.png",
       "image": "images/7034.png",
-      "ones_file": "ones/7034_Phunky_abit_HEX.png",
       "metadata": "metadata/7034.json"
     },
     {
       "token_id": 7071,
       "display_name": "Peel",
       "handle": "@neilpeel_me",
+      "nft_name": "Peel \u00b7 WizNerdz #7071",
+      "ones_file": "ones/7071_Peel.png",
       "image": "images/7071.png",
-      "ones_file": "ones/7071_Peel_neilpeel_me.png",
       "metadata": "metadata/7071.json"
     },
     {
       "token_id": 7130,
       "display_name": "XCH Foundation",
       "handle": "@XchFoundation",
+      "nft_name": "XCH Foundation \u00b7 WizNerdz #7130",
+      "ones_file": "ones/7130_XCH_Foundation.png",
       "image": "images/7130.png",
-      "ones_file": "ones/7130_XCH_Foundation_XchFoundation.png",
       "metadata": "metadata/7130.json"
     },
     {
       "token_id": 7219,
       "display_name": "Gene",
       "handle": "@hoffmang",
+      "nft_name": "Gene \u00b7 WizNerdz #7219",
+      "ones_file": "ones/7219_Gene.png",
       "image": "images/7219.png",
-      "ones_file": "ones/7219_Gene_hoffmang.png",
       "metadata": "metadata/7219.json"
     },
     {
       "token_id": 7267,
       "display_name": "Orc",
       "handle": "@RightSexyOrc",
+      "nft_name": "Orc \u00b7 WizNerdz #7267",
+      "ones_file": "ones/7267_Orc.png",
       "image": "images/7267.png",
-      "ones_file": "ones/7267_Orc_RightSexyOrc.png",
       "metadata": "metadata/7267.json"
     },
     {
       "token_id": 7275,
       "display_name": "Ben",
       "handle": "@BenAtreidesVing",
+      "nft_name": "Ben \u00b7 WizNerdz #7275",
+      "ones_file": "ones/7275_Ben.png",
       "image": "images/7275.png",
-      "ones_file": "ones/7275_Ben_BenAtreidesVing.png",
       "metadata": "metadata/7275.json"
     },
     {
       "token_id": 7508,
       "display_name": "Cass Fairies",
       "handle": "@CassFairiesClub",
+      "nft_name": "Cass Fairies \u00b7 WizNerdz #7508",
+      "ones_file": "ones/7508_Cass_Fairies.png",
       "image": "images/7508.png",
-      "ones_file": "ones/7508_Cass_Fairies_CassFairiesClub.png",
       "metadata": "metadata/7508.json"
     },
     {
       "token_id": 7513,
       "display_name": "Strange",
       "handle": "@_xDrStrange",
+      "nft_name": "Strange \u00b7 WizNerdz #7513",
+      "ones_file": "ones/7513_Strange.png",
       "image": "images/7513.png",
-      "ones_file": "ones/7513_Strange__xDrStrange.png",
       "metadata": "metadata/7513.json"
     },
     {
       "token_id": 7625,
       "display_name": "Namesdao",
       "handle": "@theNamesdao",
+      "nft_name": "Namesdao \u00b7 WizNerdz #7625",
+      "ones_file": "ones/7625_Namesdao.png",
       "image": "images/7625.png",
-      "ones_file": "ones/7625_Namesdao_theNamesdao.png",
       "metadata": "metadata/7625.json"
     },
     {
       "token_id": 7831,
       "display_name": "RVD",
       "handle": "@Crypto_RVD",
+      "nft_name": "RVD \u00b7 WizNerdz #7831",
+      "ones_file": "ones/7831_RVD.png",
       "image": "images/7831.png",
-      "ones_file": "ones/7831_RVD_Crypto_RVD.png",
       "metadata": "metadata/7831.json"
     },
     {
       "token_id": 7881,
       "display_name": "Okra",
       "handle": "@SpaceOkra",
+      "nft_name": "Okra \u00b7 WizNerdz #7881",
+      "ones_file": "ones/7881_Okra.png",
       "image": "images/7881.png",
-      "ones_file": "ones/7881_Okra_SpaceOkra.png",
       "metadata": "metadata/7881.json"
     },
     {
       "token_id": 7942,
       "display_name": "Acevail",
       "handle": "@acevail_",
+      "nft_name": "Acevail \u00b7 WizNerdz #7942",
+      "ones_file": "ones/7942_Acevail.png",
       "image": "images/7942.png",
-      "ones_file": "ones/7942_Acevail_acevail_.png",
       "metadata": "metadata/7942.json"
     },
     {
       "token_id": 7953,
       "display_name": "Timelord",
       "handle": "@SlowestTimelord",
+      "nft_name": "Timelord \u00b7 WizNerdz #7953",
+      "ones_file": "ones/7953_Timelord.png",
       "image": "images/7953.png",
-      "ones_file": "ones/7953_Timelord_SlowestTimelord.png",
       "metadata": "metadata/7953.json"
     },
     {
       "token_id": 8210,
       "display_name": "Sage",
       "handle": "@sage_wallet",
+      "nft_name": "Sage \u00b7 WizNerdz #8210",
+      "ones_file": "ones/8210_Sage.png",
       "image": "images/8210.png",
-      "ones_file": "ones/8210_Sage_sage_wallet.png",
       "metadata": "metadata/8210.json"
     },
     {
       "token_id": 8538,
       "display_name": "Planet",
       "handle": "@ChiaPlanet",
+      "nft_name": "Planet \u00b7 WizNerdz #8538",
+      "ones_file": "ones/8538_Planet.png",
       "image": "images/8538.png",
-      "ones_file": "ones/8538_Planet_ChiaPlanet.png",
       "metadata": "metadata/8538.json"
     },
     {
       "token_id": 8686,
       "display_name": "DIG",
       "handle": "@digdotnet",
+      "nft_name": "DIG \u00b7 WizNerdz #8686",
+      "ones_file": "ones/8686_DIG.png",
       "image": "images/8686.png",
-      "ones_file": "ones/8686_DIG_digdotnet.png",
       "metadata": "metadata/8686.json"
     },
     {
       "token_id": 8839,
       "display_name": "Chamber",
       "handle": "@DigitalChamber",
+      "nft_name": "Chamber \u00b7 WizNerdz #8839",
+      "ones_file": "ones/8839_Chamber.png",
       "image": "images/8839.png",
-      "ones_file": "ones/8839_Chamber_DigitalChamber.png",
       "metadata": "metadata/8839.json"
     }
   ],
