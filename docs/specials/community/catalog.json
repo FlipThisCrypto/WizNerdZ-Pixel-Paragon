@@ -1,14 +1,13 @@
 {
   "count": 62,
   "guide": "1OF1_ART_GUIDE.md",
-  "note": "Official trait composites; themed handles use hard-pixel overlays only",
+  "note": "Official trait composites only; hoffmang uses white facial-hair trait (no AI/overlay extras)",
   "items": [
     {
       "handle": "@DracattusDev",
-      "file": "special\\community_1of1\\DracattusDev_640.png",
+      "file": "special\\\\community_1of1\\\\DracattusDev_640.png",
       "class": "Chaos Weaver",
       "background": "Red",
-      "custom_element": "dragon familiar",
       "dna": "1a29b2726af6b2a4"
     },
     {
@@ -20,10 +19,9 @@
     },
     {
       "handle": "@monkeyzoo",
-      "file": "special\\community_1of1\\monkeyzoo_640.png",
+      "file": "special\\\\community_1of1\\\\monkeyzoo_640.png",
       "class": "Spirit Guide",
       "background": "Teal",
-      "custom_element": "monkey familiar",
       "dna": "f142a79dca111091"
     },
     {
@@ -84,10 +82,9 @@
     },
     {
       "handle": "@HYP3RH3X",
-      "file": "special\\community_1of1\\HYP3RH3X_640.png",
+      "file": "special\\\\community_1of1\\\\HYP3RH3X_640.png",
       "class": "Void Walker",
       "background": "Blue",
-      "custom_element": "pixel critter familiar",
       "dna": "0d2f56446ae1f854"
     },
     {
@@ -190,10 +187,9 @@
     },
     {
       "handle": "@Rigidity16",
-      "file": "special\\community_1of1\\Rigidity16_640.png",
+      "file": "special\\\\community_1of1\\\\Rigidity16_640.png",
       "class": "Arcane Mage",
       "background": "Teal",
-      "custom_element": "duck with shades",
       "dna": "95d83456d00b8c40"
     },
     {
@@ -205,7 +201,7 @@
     },
     {
       "handle": "@hoffmang",
-      "file": "special\\community_1of1\\hoffmang_640.png",
+      "file": "special\\\\community_1of1\\\\hoffmang_640.png",
       "class": "Arcane Mage",
       "background": "Violet",
       "custom_element": "white beard",
@@ -269,10 +265,9 @@
     },
     {
       "handle": "@OrangeGooey",
-      "file": "special\\community_1of1\\OrangeGooey_640.png",
+      "file": "special\\\\community_1of1\\\\OrangeGooey_640.png",
       "class": "Alchemist",
       "background": "Gold",
-      "custom_element": "orange accents + wood plank",
       "dna": "d62c1067a5cc2345"
     },
     {
@@ -291,10 +286,9 @@
     },
     {
       "handle": "@nftprofetmaster",
-      "file": "special\\community_1of1\\nftprofetmaster_640.png",
+      "file": "special\\\\community_1of1\\\\nftprofetmaster_640.png",
       "class": "Mystic Seer",
       "background": "Orange",
-      "custom_element": "middle finger gesture",
       "dna": "01d5088155af246d"
     },
     {
@@ -306,10 +300,9 @@
     },
     {
       "handle": "@acevail_",
-      "file": "special\\community_1of1\\acevail__640.png",
+      "file": "special\\\\community_1of1\\\\acevail__640.png",
       "class": "Deep Sea",
       "background": "Blue",
-      "custom_element": "fox familiar",
       "dna": "8f3999b8d513f741"
     },
     {
@@ -342,10 +335,9 @@
     },
     {
       "handle": "@ArtwithHeartNFT",
-      "file": "special\\community_1of1\\ArtwithHeartNFT_640.png",
+      "file": "special\\\\community_1of1\\\\ArtwithHeartNFT_640.png",
       "class": "Spirit Guide",
       "background": "Red",
-      "custom_element": "lion element",
       "dna": "96777a8a4c964aa3"
     },
     {
@@ -371,10 +363,9 @@
     },
     {
       "handle": "@Lucky8Token",
-      "file": "special\\community_1of1\\Lucky8Token_640.png",
+      "file": "special\\\\community_1of1\\\\Lucky8Token_640.png",
       "class": "High Sorcerer",
       "background": "Teal",
-      "custom_element": "four-leaf clover",
       "dna": "3ecdf9f226e50393"
     },
     {
@@ -428,26 +419,23 @@
     },
     {
       "handle": "@Grizzle341",
-      "file": "special\\community_1of1\\Grizzle341_640.png",
+      "file": "special\\\\community_1of1\\\\Grizzle341_640.png",
       "class": "Chaos Weaver",
       "background": "Brown",
-      "custom_element": "bug eyes",
       "dna": "d063f9ea731a8091"
     },
     {
       "handle": "@OopsOrngz",
-      "file": "special\\community_1of1\\OopsOrngz_640.png",
+      "file": "special\\\\community_1of1\\\\OopsOrngz_640.png",
       "class": "Pyromancer",
       "background": "Yellow",
-      "custom_element": "oranges + one-eyed plank",
       "dna": "ff1ccfaf41c91d4d"
     },
     {
       "handle": "@Bullish0xCrypto",
-      "file": "special\\community_1of1\\Bullish0xCrypto_640.png",
+      "file": "special\\\\community_1of1\\\\Bullish0xCrypto_640.png",
       "class": "High Sorcerer",
       "background": "Gray",
-      "custom_element": "gold crown chest badge",
       "dna": "fc03e8bedfe159a3"
     }
   ]
