@@ -3,49 +3,41 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>WizNerdZ Insights</title>
+  <title>WizNerdZ — About the collection</title>
+  <meta name="robots" content="index,follow" />
   <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="icon" href="assets/logo_mark.png" type="image/png" />
   <style>
-    body{margin:0;font-family:var(--font-ui);background:linear-gradient(165deg,var(--black-0),var(--blue-1));color:var(--text);padding:24px}
-    a{color:var(--blue-6)}.card{max-width:900px;margin:0 auto;padding:18px;border:1px solid var(--line);border-radius:16px;background:rgba(6,20,40,.92)}
-    .bar{height:10px;background:linear-gradient(90deg,var(--blue-4),var(--green));border-radius:99px;margin:4px 0 10px}
-    .muted{color:var(--muted)}
+    body{margin:0;font-family:var(--font-ui,system-ui,sans-serif);background:linear-gradient(165deg,#020308,#061428);color:#e8eef6;padding:24px}
+    a{color:#a8d4ff} a:hover{color:#9dffb0}
+    .card{max-width:720px;margin:0 auto;padding:22px;border:1px solid rgba(168,212,255,.25);border-radius:16px;background:rgba(6,20,40,.92)}
+    h1{margin:0 0 12px;font-size:1.35rem}
+    h1 span{color:#9dffb0}
+    .muted{color:#8b96a8;line-height:1.55}
+    ul{line-height:1.7;color:#c5ceda}
   </style>
 </head>
 <body>
   <div class="card">
-    <p class="muted"><a href="./">← Home</a> · <a href="rarity.html">Rarity</a></p>
-    <h1>Collection insights</h1>
-    <p class="muted" id="status">Loading rarity.csv…</p>
-    <div id="out"></div>
+    <p class="muted"><a href="./">← Home</a> · <a href="community-1of1.html">1-of-1s</a></p>
+    <h1>About the <span>collection</span></h1>
+    <p class="muted">
+      Public rarity rankings are <strong>not published</strong> so the mint stays fair —
+      no sniping lists before drop.
+    </p>
+    <ul>
+      <li><strong>8,888</strong> total supply on Chia (CHIP-0007)</li>
+      <li><strong>70</strong> one-of-ones (10 named specials + 60 community)</li>
+      <li>Class-matched robe + wizard hat on generative pieces</li>
+      <li>640×640 pixel art · staff / spell / familiar extras</li>
+      <li>Mint splits 40% / 40% / 20% · royalties 10%</li>
+    </ul>
+    <p class="muted">
+      Browse wizards in the <a href="token.html?id=1">token viewer</a>,
+      explore <a href="community-1of1.html">1-of-1s</a>, and follow
+      <a href="https://x.com/FiendStudios" target="_blank" rel="noopener">@FiendStudios</a>
+      for mint day.
+    </p>
   </div>
-  <script>
-    function parseLine(line){
-      const cols=[]; let cur='', q=false;
-      for (let i=0;i<line.length;i++){
-        const ch=line[i];
-        if(q){ if(ch=='"'&&line[i+1]=='"'){cur+='"';i++;} else if(ch=='"') q=false; else cur+=ch; }
-        else if(ch=='"') q=true; else if(ch==','){cols.push(cur);cur='';} else cur+=ch;
-      }
-      cols.push(cur); return cols;
-    }
-    fetch('rarity.csv').then(r=>r.text()).then(text=>{
-      const lines=text.trim().split(/\r?\n/).slice(1);
-      const classRows=[];
-      lines.forEach(line=>{
-        const c=parseLine(line);
-        if((c[0]||'').replace(/"/g,'')==='Class'){
-          classRows.push({name:(c[1]||'').replace(/"/g,''), count:parseInt(c[2],10)||0});
-        }
-      });
-      classRows.sort((a,b)=>b.count-a.count);
-      const max=classRows[0]?classRows[0].count:1;
-      document.getElementById('status').textContent=classRows.length+' classes (from rarity.csv)';
-      document.getElementById('out').innerHTML=classRows.map(r=>
-        '<div><strong>'+r.name+'</strong> · '+r.count+
-        '<div class="bar" style="width:'+Math.max(4,(100*r.count/max))+'%"></div></div>'
-      ).join('');
-    }).catch(e=>{document.getElementById('status').textContent=String(e);});
-  </script>
 </body>
 </html>

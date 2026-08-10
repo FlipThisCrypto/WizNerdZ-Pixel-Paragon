@@ -14,23 +14,20 @@ window.WIZNERDZ_CONFIG = Object.freeze({
     twitter: "https://x.com/FiendStudios",
     github: "https://github.com/FlipThisCrypto/WizNerdZ-Pixel-Paragon",
     repoIssues: "https://github.com/FlipThisCrypto/WizNerdZ-Pixel-Paragon/issues/new",
-    /** Collection art freezes after community 1:1 nominations close and are minted into the set. */
-    collectionFrozen: false,
+    /** Full set including named + community 1-of-1s is in place. */
+    collectionFrozen: true,
     statusMessage:
-      "Baseline generative set is ready. Full collection freezes after community 1:1 PFPs are added (nominations open until deadline).",
+      "Collection art is complete — 8,888 WizNerdZ including 70 one-of-ones (10 named specials + 60 community). Drop coming soon. Follow @FiendStudios for mint day.",
   },
 
-  /**
-   * Community PFP nomination window (US Eastern).
-   * Midnight end of July 31, 2026 = 2026-08-01T00:00:00 America/New_York (EDT = UTC−4)
-   */
+  /** Nominations closed — community 1-of-1s are already in the set. */
   nomination: {
-    enabled: true,
+    enabled: false,
     deadlineIsoEastern: "2026-08-01T00:00:00",
     deadlineUtc: "2026-08-01T04:00:00.000Z",
     timezone: "America/New_York",
-    label: "Midnight July 31, 2026 (US Eastern / EDT)",
-    pfpSlotsTarget: "Open — nominate Chia community members until the deadline",
+    label: "Nominations closed",
+    pfpSlotsTarget: "Closed — community 1-of-1s locked into the collection",
   },
 
   /**
@@ -109,6 +106,6 @@ window.WIZNERDZ_CONFIG = Object.freeze({
     mintgardenUrl: "",
     offerUrl: "",
     statusNote:
-      "Mint arms after community 1:1 PFPs are locked into the set. Connect Sage anytime; takeOffer goes live when offers publish.",
+      "Mint is not live yet — drop is coming soon. Connect Sage anytime to get ready; takeOffer arms when offers publish.",
   },
 });

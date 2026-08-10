@@ -11,18 +11,21 @@
 
 ## What’s live now
 
-1. **Community PFP nominations** (the current One Thing) — form on the landing page opens a GitHub Issue. Deadline: **midnight July 31, 2026 (US Eastern)**. Countdown is on the site.
-2. **Full 8,888 CHIP-0007 metadata + art** on GitHub Pages with **absolute image URLs**.
-3. **Sage WalletConnect** connect UI (mint stays disarmed until community 1:1s freeze and offers publish).
-4. **Economics** documented: mint **40% / 40% / 20%** (developer / wizards / Bepe.Love); royalties **10%** with the same split.
+1. **Promo site** — collection art complete, **drop coming soon**.
+2. **Full 8,888 CHIP-0007 metadata + art** on GitHub Pages (absolute image URLs).
+3. **70 one-of-ones** showcased (10 named specials + 60 community).
+4. **Sage WalletConnect** connect UI (mint disarmed until drop day).
+5. **Economics**: mint **40% / 40% / 20%** (developer / wizards / Bepe.Love); royalties **10%** same split.
+6. **No public rarity rankings** (fair mint — rankings not linked or indexed).
 
 ## Collection
 
 | | |
 |--|--|
 | Supply | 8,888 |
-| Generative | 8,878 |
+| Generative | 8,818 |
 | Named specials | 10 × **1 of 1** |
+| Community 1/1s | 60 × **1 of 1** |
 | Image size | 640×640 PNG |
 | Metadata | CHIP-0007 |
 
@@ -45,80 +48,42 @@
 
 | Path | Content |
 |------|---------|
-| `/` | Landing (countdown, nominate, mint WC, economics) |
+| `/` | Landing (promo, galleries, mint WC, economics) |
 | `/images/{id}.png` | Token art |
 | `/metadata/{id}.json` | CHIP-0007 (absolute `image` URLs) |
 | `/collection.json` | Collection header + media URI templates |
-| `/rarity.md` | Human rarity report (method, tiers, 1/1 list, rarest) |
-| `/rarity.csv` | Trait value frequencies (count + %) |
-| `/rarity_ranking.csv` | Full token ranking (rank, score, tier) |
-| `/rarity.json` | Machine-readable rarity summary |
 | `/ones/` | All 70 1-of-1s browse pack |
-| `/specials/` | Named specials showcase |
-| `/dashboard.html` | Ops board |
-| `/operator.html` | Operator console |
-| `/compare.html` | Trait compare |
+| `/community-1of1.html` | Full 1/1 gallery |
+| `/specials/` | Named specials art |
+| `/token.html?id=N` | Token viewer (traits without rarity ranks) |
 | `/health.json` | Health contract |
 | `/MINT.md` | Mint economics & checklist |
-| `/404.html` | Branded not-found page |
 
 Example:
 
 - Art: `https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/42.png`
 - Meta: `https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/metadata/42.json`
 
-## Nominations
-
-1. Open the [landing page](https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/#nominate).
-2. Submit the form → prefilled GitHub issue → click **Create**.
-3. Track issues titled `[PFP Nomination] …`.
-
-After the deadline, Fiend Studios locks the list, produces remaining 1:1 art, freezes the set, then arms mint.
-
 ## Design notes
 
 - Class-matched shirt + wizard hat (generative)
 - Trait weights via filename `#weight` plus staff / spell / familiar extras
-- Named specials are unique (1 of 1)
+- Named + community specials are unique (1 of 1)
 - Metadata includes Twitter + website only (no icon/banner — MintGarden UI)
+- Public site does **not** publish rarity rank tables (by design for mint fairness)
 
 ## Repo layout
 
 ```
 docs/                 ← GitHub Pages root (the live collection)
   index.html
-  js/                 ← config, countdown, nominate, wallet
+  js/                 ← config, wallet, health, telemetry
   images/
   metadata/
   assets/
   specials/
   ones/
   collection.json
-  rarity.md
-  rarity.csv
-  rarity_ranking.csv
-  rarity.json
 LICENSE
 README.md
 ```
-
-Legacy 64×64 rulepack pipeline art was removed from this repo (local backup only).
-
-## Scripts
-
-From the repository root:
-
-```bash
-python scripts/verify_metadata.py   # all 8888 CHIP-0007 absolute image URLs + PNGs
-python scripts/verify_specials.py   # named 1/1 placements + rarity
-```
-
-CI runs these via `.github/workflows/verify-metadata.yml`.
-
-## License
-
-See `LICENSE`.
-
-## Resilience (Round 3)
-
-See `docs/SLO.md`, `docs/GOVERNANCE.md`, `docs/INCIDENTS.md`, `docs/RELEASE_CHECKLIST.md`, and integrity scripts under `scripts/`.

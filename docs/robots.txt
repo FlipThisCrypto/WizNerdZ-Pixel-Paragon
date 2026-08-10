@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
+Disallow: /rarity.html
+Disallow: /rarity.csv
+Disallow: /rarity.md
+Disallow: /rarity.json
+Disallow: /rarity_ranking.csv
+Disallow: /dashboard.html
+Disallow: /operator.html
 
 Sitemap: https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/sitemap.xml

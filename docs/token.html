@@ -63,8 +63,8 @@
   <div class="wrap">
     <div class="nav">
       <a href="./">← WizNerdZ home</a> ·
-      <a href="./#nominate">Nominate</a> ·
-      <a href="dashboard.html">Dashboard</a>
+      <a href="community-1of1.html">1-of-1s</a> ·
+      <a href="https://x.com/FiendStudios" target="_blank" rel="noopener">@FiendStudios</a>
     </div>
     <div class="card">
       <h1 id="title">WizNerdZ <span>#…</span></h1>
@@ -157,8 +157,22 @@
             tr.style.display = tr.textContent.toLowerCase().includes(q) ? '' : 'none';
           });
         }; }
-        const rar = attrs.find(a => a.trait_type === 'Rarity');
-        if (rar) status.textContent = (meta.name || '') + ' · Rarity: ' + rar.value;
+        // Do not surface rarity ranks publicly (mint fairness).
+        const dn = attrs.find(a => a.trait_type === 'Display Name' || a.trait_type === 'Name');
+        const handle = attrs.find(a => a.trait_type === 'Community Handle');
+        const special = attrs.find(a => a.trait_type === 'Special');
+        let statusBits = [meta.name || ''];
+        if (dn && dn.value) statusBits.push(String(dn.value));
+        if (handle && handle.value) statusBits.push(String(handle.value));
+        if (special && special.value && special.value !== 'Standard') statusBits.push(String(special.value));
+        status.textContent = statusBits.filter(Boolean).join(' · ');
+
+        // Hide Rarity / Supply / rank-like traits from public table
+        const hideTraits = new Set(['Rarity', 'Supply']);
+        traits.querySelectorAll('tbody tr').forEach((tr) => {
+          const th = tr.querySelector('th');
+          if (th && hideTraits.has(th.textContent.trim())) tr.remove();
+        });
 
         links.innerHTML =
           '<a class="btn" href="' +
@@ -170,7 +184,6 @@
           '<a class="btn" href="' +
           absImg +
           '" target="_blank" rel="noopener">Absolute image URL</a>';
-        links.innerHTML += '<a class="btn" href="rarity.html">Rarity table</a>';
         links.hidden = false;
 
         // Update document meta for nicer shares when possible
