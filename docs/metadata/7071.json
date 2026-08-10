@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #7071",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 WizNerd for @neilpeel_me \u2014 Fiend Studios / WizNerdZ Pixel Paragon. Assembled from official traits per 1OF1_ART_GUIDE (light BG, class-matched, 1px rim, logo TR).",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -28,11 +28,11 @@
     },
     {
       "trait_type": "Face",
-      "value": "Frostbitten"
+      "value": "Radiant Pale"
     },
     {
       "trait_type": "Eyes",
-      "value": "Amber"
+      "value": "Hazel"
     },
     {
       "trait_type": "Mouth",
@@ -40,23 +40,23 @@
     },
     {
       "trait_type": "Class",
-      "value": "Chaos Weaver"
+      "value": "Arcane Mage"
     },
     {
       "trait_type": "Shirt",
-      "value": "Chaos Weaver"
+      "value": "Arcane Mage"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Chaos Weaver"
+      "value": "Arcane Mage"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Medium Rounded Brown"
+      "value": "Medium Rounded Black"
     },
     {
       "trait_type": "Glasses",
-      "value": "Sanguine Sight"
+      "value": "Omen Readers"
     },
     {
       "trait_type": "Bridge",
@@ -64,23 +64,19 @@
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "Wooden Wand"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "Time Distortion"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "Owl"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@neilpeel_me"
+    },
+    {
+      "trait_type": "Name",
+      "value": "neilpeel_me"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,15 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7071.png",
-    "dna": "18174c86c72997a8d509d87e7f32ee9dd949882123512bc0da4e919992090236",
-    "dna_raw": "bg_Violet#8.png|Frostbitten#10.png|eyes_Amber#6.png|mouth#100.png|Chaos Weaver#10.png|Medium_Rounded_Brown#27.png|Sanguine Sight#8.png|Chaos Weaver#10.png",
+    "dna": "163b763704634446ddb64984163a01fa01d947acc89096e7db0e432f359ce537",
+    "dna_raw": "bg_Violet#8.png|Radiant Pale#10.png|eyes_Hazel#10.png|mouth#100.png|Arcane Mage#10.png|Medium_Rounded_Black#33.png|Omen Readers#8.png|Arcane Mage#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 8,
-      "face": 10,
-      "eyes": 6,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 27,
-      "glasses": 8,
-      "wizard hat": 10
-    },
-    "rarity_rank": "634/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Rare",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Violet",
-        "count": 676,
-        "pct": 7.6058
-      },
-      "Face": {
-        "value": "Frostbitten",
-        "count": 389,
-        "pct": 4.3767
-      },
-      "Eyes": {
-        "value": "Amber",
-        "count": 653,
-        "pct": 7.347
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Chaos Weaver",
-        "count": 383,
-        "pct": 4.3092
-      },
-      "Shirt": {
-        "value": "Chaos Weaver",
-        "count": 383,
-        "pct": 4.3092
-      },
-      "Wizard Hat": {
-        "value": "Chaos Weaver",
-        "count": 383,
-        "pct": 4.3092
-      },
-      "Facial Hair": {
-        "value": "Medium Rounded Brown",
-        "count": 373,
-        "pct": 4.1967
-      },
-      "Glasses": {
-        "value": "Sanguine Sight",
-        "count": 395,
-        "pct": 4.4442
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "Wooden Wand",
-        "count": 876,
-        "pct": 9.856
-      },
-      "Spell Effect": {
-        "value": "Time Distortion",
-        "count": 263,
-        "pct": 2.959
-      },
-      "Familiar": {
-        "value": "Owl",
-        "count": 488,
-        "pct": 5.4905
-      }
-    },
-    "extra_layers": {
-      "staff": "Wooden Wand",
-      "spell": "Time Distortion",
-      "familiar": "Owl",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@neilpeel_me",
+    "guide": "1OF1_ART_GUIDE.md",
+    "max_supply": 1,
     "image_basename": "7071.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7071.png"

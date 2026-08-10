@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #2868",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 WizNerd for @SpiritBits \u2014 Fiend Studios / WizNerdZ Pixel Paragon. Assembled from official traits per 1OF1_ART_GUIDE (light BG, class-matched, 1px rim, logo TR).",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -28,11 +28,11 @@
     },
     {
       "trait_type": "Face",
-      "value": "Sands of Time"
+      "value": "Exsanguinated"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Gray"
     },
     {
       "trait_type": "Mouth",
@@ -40,47 +40,43 @@
     },
     {
       "trait_type": "Class",
-      "value": "Sand Sage"
+      "value": "Spirit Guide"
     },
     {
       "trait_type": "Shirt",
-      "value": "Sand Sage"
+      "value": "Spirit Guide"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Sand Sage"
+      "value": "Spirit Guide"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Medium Rounded Dark Brown"
+      "value": "Long Pointy Blonde"
     },
     {
       "trait_type": "Glasses",
-      "value": "Tempest Visors"
+      "value": "Dune Drifters"
     },
     {
       "trait_type": "Bridge",
-      "value": "Taped Repair"
+      "value": "Clean"
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "Ice Staff"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "Fireball"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "None"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@SpiritBits"
+    },
+    {
+      "trait_type": "Name",
+      "value": "SpiritBits"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,15 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2868.png",
-    "dna": "2196cf045926e3721d2c3e7d124ef5263ec229b5ede2e888a6397c9db1b5ce1b",
-    "dna_raw": "bg_Orange#8.png|Sands of Time#10.png|eyes_Blue#14.png|mouth#100.png|Sand Sage#10.png|Medium_Rounded_Dark_Brown#30.png|Taped Tempest Visors#1.png|Sand Sage#10.png",
+    "dna": "d2e7551398eb57440fb6f3fa91e7aa9c01287bf69630fa58aec562411fbfc716",
+    "dna_raw": "bg_Orange#8.png|Exsanguinated#10.png|eyes_Gray#8.png|mouth#100.png|Spirit Guide#10.png|Long_Pointy_Blonde#12.png|Dune Drifters#8.png|Spirit Guide#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 8,
-      "face": 10,
-      "eyes": 14,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 30,
-      "glasses": 1,
-      "wizard hat": 10
-    },
-    "rarity_rank": "1424/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Orange",
-        "count": 655,
-        "pct": 7.3695
-      },
-      "Face": {
-        "value": "Sands of Time",
-        "count": 363,
-        "pct": 4.0842
-      },
-      "Eyes": {
-        "value": "Blue",
-        "count": 1460,
-        "pct": 16.4266
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Sand Sage",
-        "count": 378,
-        "pct": 4.2529
-      },
-      "Shirt": {
-        "value": "Sand Sage",
-        "count": 378,
-        "pct": 4.2529
-      },
-      "Wizard Hat": {
-        "value": "Sand Sage",
-        "count": 378,
-        "pct": 4.2529
-      },
-      "Facial Hair": {
-        "value": "Medium Rounded Dark Brown",
-        "count": 458,
-        "pct": 5.153
-      },
-      "Glasses": {
-        "value": "Tempest Visors",
-        "count": 393,
-        "pct": 4.4217
-      },
-      "Bridge": {
-        "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "Ice Staff",
-        "count": 460,
-        "pct": 5.1755
-      },
-      "Spell Effect": {
-        "value": "Fireball",
-        "count": 554,
-        "pct": 6.2331
-      },
-      "Familiar": {
-        "value": "None",
-        "count": 5041,
-        "pct": 56.7169
-      }
-    },
-    "extra_layers": {
-      "staff": "Ice Staff",
-      "spell": "Fireball",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@SpiritBits",
+    "guide": "1OF1_ART_GUIDE.md",
+    "max_supply": 1,
     "image_basename": "2868.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2868.png"

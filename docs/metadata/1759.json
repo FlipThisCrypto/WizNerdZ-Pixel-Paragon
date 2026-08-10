@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #1759",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 WizNerd for @endertown \u2014 Fiend Studios / WizNerdZ Pixel Paragon. Assembled from official traits per 1OF1_ART_GUIDE (light BG, class-matched, 1px rim, logo TR).",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,15 +24,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Gold"
+      "value": "Violet"
     },
     {
       "trait_type": "Face",
-      "value": "Mud Cracked"
+      "value": "Rune Etched"
     },
     {
       "trait_type": "Eyes",
-      "value": "Dark Brown"
+      "value": "Hazel"
     },
     {
       "trait_type": "Mouth",
@@ -52,7 +52,7 @@
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Chin Strap Black"
+      "value": "Goatee Dark Brown"
     },
     {
       "trait_type": "Glasses",
@@ -64,23 +64,19 @@
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "Fire Staff"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "None"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "Owl"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@endertown"
+    },
+    {
+      "trait_type": "Name",
+      "value": "endertown"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,15 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1759.png",
-    "dna": "8bd5642002272b986a8fd4e2e034498f7632ba980087814b1af89bbb61d68db4",
-    "dna_raw": "bg_Gold#3.png|Mud Cracked#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Illusionist#10.png|Chin_Strap_Black#11.png|Trench Scopes#8.png|Illusionist#10.png",
+    "dna": "ca1f3be7d9cec622855ba79e31c2143869fcd2d3abb9b70aac51551f4eab6b09",
+    "dna_raw": "bg_Violet#8.png|Rune Etched#10.png|eyes_Hazel#10.png|mouth#100.png|Illusionist#10.png|Goatee_Dark_Brown#20.png|Trench Scopes#8.png|Illusionist#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 3,
-      "face": 10,
-      "eyes": 8,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 11,
-      "glasses": 8,
-      "wizard hat": 10
-    },
-    "rarity_rank": "932/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Rare",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Gold",
-        "count": 238,
-        "pct": 2.6778
-      },
-      "Face": {
-        "value": "Mud Cracked",
-        "count": 386,
-        "pct": 4.3429
-      },
-      "Eyes": {
-        "value": "Dark Brown",
-        "count": 827,
-        "pct": 9.3047
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Illusionist",
-        "count": 375,
-        "pct": 4.2192
-      },
-      "Shirt": {
-        "value": "Illusionist",
-        "count": 375,
-        "pct": 4.2192
-      },
-      "Wizard Hat": {
-        "value": "Illusionist",
-        "count": 375,
-        "pct": 4.2192
-      },
-      "Facial Hair": {
-        "value": "Chin Strap Black",
-        "count": 163,
-        "pct": 1.8339
-      },
-      "Glasses": {
-        "value": "Trench Scopes",
-        "count": 391,
-        "pct": 4.3992
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "Fire Staff",
-        "count": 437,
-        "pct": 4.9167
-      },
-      "Spell Effect": {
-        "value": "None",
-        "count": 4944,
-        "pct": 55.6256
-      },
-      "Familiar": {
-        "value": "Owl",
-        "count": 488,
-        "pct": 5.4905
-      }
-    },
-    "extra_layers": {
-      "staff": "Fire Staff",
-      "spell": "None",
-      "familiar": "Owl",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@endertown",
+    "guide": "1OF1_ART_GUIDE.md",
+    "max_supply": 1,
     "image_basename": "1759.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1759.png"

@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #7275",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 WizNerd for @BenAtreidesVing \u2014 Fiend Studios / WizNerdZ Pixel Paragon. Assembled from official traits per 1OF1_ART_GUIDE (light BG, class-matched, 1px rim, logo TR).",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,15 +24,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Yellow"
+      "value": "Teal"
     },
     {
       "trait_type": "Face",
-      "value": "Glamour Tint"
+      "value": "Mystic Aura"
     },
     {
       "trait_type": "Eyes",
-      "value": "Dark Brown"
+      "value": "Medium Brown"
     },
     {
       "trait_type": "Mouth",
@@ -40,23 +40,23 @@
     },
     {
       "trait_type": "Class",
-      "value": "Arcane Mage"
+      "value": "Chaos Weaver"
     },
     {
       "trait_type": "Shirt",
-      "value": "Arcane Mage"
+      "value": "Chaos Weaver"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Arcane Mage"
+      "value": "Chaos Weaver"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Long Pointy Dark Brown"
+      "value": "Long Pointy Brown"
     },
     {
       "trait_type": "Glasses",
-      "value": "Trench Scopes"
+      "value": "Crimson Glare"
     },
     {
       "trait_type": "Bridge",
@@ -64,23 +64,19 @@
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "None"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "None"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "None"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@BenAtreidesVing"
+    },
+    {
+      "trait_type": "Name",
+      "value": "BenAtreidesVing"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,15 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7275.png",
-    "dna": "6e630f4693ce8716597c708c4be8d450662db00c01138e2335d8679600f466a1",
-    "dna_raw": "bg_Yellow#10.png|Glamour Tint#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Arcane Mage#10.png|Long_Pointy_Dark_Brown#20.png|Taped Trench Scopes#1.png|Arcane Mage#10.png",
+    "dna": "be6f42c750979efa330dad2b1a9825302215a84aac62e0e7f66abcde137f92a4",
+    "dna_raw": "bg_Teal#8.png|Mystic Aura#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Chaos Weaver#10.png|Long_Pointy_Brown#18.png|Taped Crimson Glare#1.png|Chaos Weaver#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 10,
-      "face": 10,
-      "eyes": 8,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 20,
-      "glasses": 1,
-      "wizard hat": 10
-    },
-    "rarity_rank": "6886/8878",
-    "rarity_score": 1e-12,
-    "rarity_tier": "Common",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Yellow",
-        "count": 797,
-        "pct": 8.9671
-      },
-      "Face": {
-        "value": "Glamour Tint",
-        "count": 384,
-        "pct": 4.3204
-      },
-      "Eyes": {
-        "value": "Dark Brown",
-        "count": 827,
-        "pct": 9.3047
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Arcane Mage",
-        "count": 397,
-        "pct": 4.4667
-      },
-      "Shirt": {
-        "value": "Arcane Mage",
-        "count": 397,
-        "pct": 4.4667
-      },
-      "Wizard Hat": {
-        "value": "Arcane Mage",
-        "count": 397,
-        "pct": 4.4667
-      },
-      "Facial Hair": {
-        "value": "Long Pointy Dark Brown",
-        "count": 332,
-        "pct": 3.7354
-      },
-      "Glasses": {
-        "value": "Trench Scopes",
-        "count": 391,
-        "pct": 4.3992
-      },
-      "Bridge": {
-        "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "None",
-        "count": 4606,
-        "pct": 51.8227
-      },
-      "Spell Effect": {
-        "value": "None",
-        "count": 4944,
-        "pct": 55.6256
-      },
-      "Familiar": {
-        "value": "None",
-        "count": 5041,
-        "pct": 56.7169
-      }
-    },
-    "extra_layers": {
-      "staff": "None",
-      "spell": "None",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@BenAtreidesVing",
+    "guide": "1OF1_ART_GUIDE.md",
+    "max_supply": 1,
     "image_basename": "7275.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7275.png"

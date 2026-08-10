@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #4358",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 WizNerd for @chia_project \u2014 Fiend Studios / WizNerdZ Pixel Paragon. Assembled from official traits per 1OF1_ART_GUIDE (light BG, class-matched, 1px rim, logo TR).",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,15 +24,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Green"
+      "value": "Blue"
     },
     {
       "trait_type": "Face",
-      "value": "Potion Stained"
+      "value": "Frostbitten"
     },
     {
       "trait_type": "Eyes",
-      "value": "Light Blue"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
@@ -40,47 +40,43 @@
     },
     {
       "trait_type": "Class",
-      "value": "Shadow Priest"
+      "value": "Arcane Mage"
     },
     {
       "trait_type": "Shirt",
-      "value": "Shadow Priest"
+      "value": "Arcane Mage"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Shadow Priest"
+      "value": "Arcane Mage"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Long Braid Brown"
+      "value": "Long Braid Red Orange"
     },
     {
       "trait_type": "Glasses",
-      "value": "Lich Lenses"
+      "value": "Epoch Eyes"
     },
     {
       "trait_type": "Bridge",
-      "value": "Taped Repair"
+      "value": "Clean"
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "None"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "None"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "None"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@chia_project"
+    },
+    {
+      "trait_type": "Name",
+      "value": "chia_project"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,15 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4358.png",
-    "dna": "a5bc1336d277609e9fca0741d87998e65b905b545f184af94d5cdc74e1885e35",
-    "dna_raw": "bg_Green#10.png|Potion Stained#10.png|eyes_Light_Blue#8.png|mouth#100.png|Shadow Priest#10.png|Long_Braid_Brown#12.png|Taped Lich Lenses#1.png|Shadow Priest#10.png",
+    "dna": "d27c9b3e9a5293fa48a9b7fe6fbe97ac041fa8d20b50861c538185f37b9475c8",
+    "dna_raw": "bg_Blue#12.png|Frostbitten#10.png|eyes_Blue#14.png|mouth#100.png|Arcane Mage#10.png|Long_Braid_Red_Orange#7.png|Epoch Eyes#8.png|Arcane Mage#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 10,
-      "face": 10,
-      "eyes": 8,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 12,
-      "glasses": 1,
-      "wizard hat": 10
-    },
-    "rarity_rank": "6387/8878",
-    "rarity_score": 1e-12,
-    "rarity_tier": "Common",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Green",
-        "count": 837,
-        "pct": 9.4172
-      },
-      "Face": {
-        "value": "Potion Stained",
-        "count": 422,
-        "pct": 4.748
-      },
-      "Eyes": {
-        "value": "Light Blue",
-        "count": 883,
-        "pct": 9.9347
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Shadow Priest",
-        "count": 406,
-        "pct": 4.568
-      },
-      "Shirt": {
-        "value": "Shadow Priest",
-        "count": 406,
-        "pct": 4.568
-      },
-      "Wizard Hat": {
-        "value": "Shadow Priest",
-        "count": 406,
-        "pct": 4.568
-      },
-      "Facial Hair": {
-        "value": "Long Braid Brown",
-        "count": 177,
-        "pct": 1.9914
-      },
-      "Glasses": {
-        "value": "Lich Lenses",
-        "count": 394,
-        "pct": 4.4329
-      },
-      "Bridge": {
-        "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "None",
-        "count": 4606,
-        "pct": 51.8227
-      },
-      "Spell Effect": {
-        "value": "None",
-        "count": 4944,
-        "pct": 55.6256
-      },
-      "Familiar": {
-        "value": "None",
-        "count": 5041,
-        "pct": 56.7169
-      }
-    },
-    "extra_layers": {
-      "staff": "None",
-      "spell": "None",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@chia_project",
+    "guide": "1OF1_ART_GUIDE.md",
+    "max_supply": 1,
     "image_basename": "4358.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4358.png"

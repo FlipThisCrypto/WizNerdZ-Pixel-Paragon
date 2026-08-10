@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #2106",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 WizNerd for @trashformersnft \u2014 Fiend Studios / WizNerdZ Pixel Paragon. Assembled from official traits per 1OF1_ART_GUIDE (light BG, class-matched, 1px rim, logo TR).",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,15 +24,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Indigo"
+      "value": "Blue"
     },
     {
       "trait_type": "Face",
-      "value": "Sands of Time"
+      "value": "Rotten Flesh"
     },
     {
       "trait_type": "Eyes",
-      "value": "Dark Brown"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
@@ -40,19 +40,19 @@
     },
     {
       "trait_type": "Class",
-      "value": "Warlock Fel"
+      "value": "Cryomancer"
     },
     {
       "trait_type": "Shirt",
-      "value": "Warlock Fel"
+      "value": "Cryomancer"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Warlock Fel"
+      "value": "Cryomancer"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Chin Strap Dark Brown"
+      "value": "Medium Rounded Red Orange"
     },
     {
       "trait_type": "Glasses",
@@ -64,23 +64,19 @@
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "Wooden Wand"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "Floating Runes"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "None"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@trashformersnft"
+    },
+    {
+      "trait_type": "Name",
+      "value": "trashformersnft"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,15 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2106.png",
-    "dna": "813b444504e60dccafe0f1142de23fc59c864a20ba106b371993c9e701b00ec3",
-    "dna_raw": "bg_Indigo#8.png|Sands of Time#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Warlock Fel#10.png|Chin_Strap_Dark_Brown#10.png|Epoch Eyes#8.png|Warlock Fel#10.png",
+    "dna": "3009ce7378eec589c0d5d6ad36366a52ef072071c3144b6713a17b77a71bdf5c",
+    "dna_raw": "bg_Blue#12.png|Rotten Flesh#10.png|eyes_Blue#14.png|mouth#100.png|Cryomancer#10.png|Medium_Rounded_Red_Orange#15.png|Epoch Eyes#8.png|Cryomancer#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 8,
-      "face": 10,
-      "eyes": 8,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 10,
-      "glasses": 8,
-      "wizard hat": 10
-    },
-    "rarity_rank": "2825/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Indigo",
-        "count": 636,
-        "pct": 7.1557
-      },
-      "Face": {
-        "value": "Sands of Time",
-        "count": 363,
-        "pct": 4.0842
-      },
-      "Eyes": {
-        "value": "Dark Brown",
-        "count": 827,
-        "pct": 9.3047
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Warlock Fel",
-        "count": 394,
-        "pct": 4.4329
-      },
-      "Shirt": {
-        "value": "Warlock Fel",
-        "count": 394,
-        "pct": 4.4329
-      },
-      "Wizard Hat": {
-        "value": "Warlock Fel",
-        "count": 394,
-        "pct": 4.4329
-      },
-      "Facial Hair": {
-        "value": "Chin Strap Dark Brown",
-        "count": 138,
-        "pct": 1.5527
-      },
-      "Glasses": {
-        "value": "Epoch Eyes",
-        "count": 339,
-        "pct": 3.8141
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "Wooden Wand",
-        "count": 876,
-        "pct": 9.856
-      },
-      "Spell Effect": {
-        "value": "Floating Runes",
-        "count": 722,
-        "pct": 8.1233
-      },
-      "Familiar": {
-        "value": "None",
-        "count": 5041,
-        "pct": 56.7169
-      }
-    },
-    "extra_layers": {
-      "staff": "Wooden Wand",
-      "spell": "Floating Runes",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@trashformersnft",
+    "guide": "1OF1_ART_GUIDE.md",
+    "max_supply": 1,
     "image_basename": "2106.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2106.png"

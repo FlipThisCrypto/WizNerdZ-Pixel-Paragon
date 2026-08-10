@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #3332",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 WizNerd for @MiniMarmots \u2014 Fiend Studios / WizNerdZ Pixel Paragon. Assembled from official traits per 1OF1_ART_GUIDE (light BG, class-matched, 1px rim, logo TR).",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,15 +24,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Teal"
+      "value": "Blue"
     },
     {
       "trait_type": "Face",
-      "value": "Void Touched"
+      "value": "Drowned"
     },
     {
       "trait_type": "Eyes",
-      "value": "Medium Brown"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
@@ -40,23 +40,23 @@
     },
     {
       "trait_type": "Class",
-      "value": "Arcane Mage"
+      "value": "Druid"
     },
     {
       "trait_type": "Shirt",
-      "value": "Arcane Mage"
+      "value": "Druid"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Arcane Mage"
+      "value": "Druid"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Long Pointy White Gray"
+      "value": "Long Rounded Dark Brown"
     },
     {
       "trait_type": "Glasses",
-      "value": "Elder Keepers"
+      "value": "Mystic Gaze"
     },
     {
       "trait_type": "Bridge",
@@ -64,23 +64,19 @@
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "None"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "None"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "Ghost"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@MiniMarmots"
+    },
+    {
+      "trait_type": "Name",
+      "value": "MiniMarmots"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,15 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3332.png",
-    "dna": "6caaef766ddc78234cedf3143f0eaa7e8e3f01a9dd8bf44ce1383b2fe0f7d217",
-    "dna_raw": "bg_Teal#8.png|Void Touched#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Arcane Mage#10.png|Long_Pointy_White_Gray#8.png|Elder Keepers#8.png|Arcane Mage#10.png",
+    "dna": "5fc4d4baab27e9e5317dde3f6e4cade4e86d9eb0b97394566b334641435857c1",
+    "dna_raw": "bg_Blue#12.png|Drowned#10.png|eyes_Blue#14.png|mouth#100.png|Druid#10.png|Long_Rounded_Dark_Brown#23.png|Mystic Gaze#8.png|Druid#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 8,
-      "face": 10,
-      "eyes": 10,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 8,
-      "glasses": 8,
-      "wizard hat": 10
-    },
-    "rarity_rank": "4416/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Common",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Teal",
-        "count": 671,
-        "pct": 7.5495
-      },
-      "Face": {
-        "value": "Void Touched",
-        "count": 414,
-        "pct": 4.658
-      },
-      "Eyes": {
-        "value": "Medium Brown",
-        "count": 1015,
-        "pct": 11.4199
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Arcane Mage",
-        "count": 397,
-        "pct": 4.4667
-      },
-      "Shirt": {
-        "value": "Arcane Mage",
-        "count": 397,
-        "pct": 4.4667
-      },
-      "Wizard Hat": {
-        "value": "Arcane Mage",
-        "count": 397,
-        "pct": 4.4667
-      },
-      "Facial Hair": {
-        "value": "Long Pointy White Gray",
-        "count": 116,
-        "pct": 1.3051
-      },
-      "Glasses": {
-        "value": "Elder Keepers",
-        "count": 394,
-        "pct": 4.4329
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "None",
-        "count": 4606,
-        "pct": 51.8227
-      },
-      "Spell Effect": {
-        "value": "None",
-        "count": 4944,
-        "pct": 55.6256
-      },
-      "Familiar": {
-        "value": "Ghost",
-        "count": 307,
-        "pct": 3.4541
-      }
-    },
-    "extra_layers": {
-      "staff": "None",
-      "spell": "None",
-      "familiar": "Ghost",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@MiniMarmots",
+    "guide": "1OF1_ART_GUIDE.md",
+    "max_supply": 1,
     "image_basename": "3332.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3332.png"

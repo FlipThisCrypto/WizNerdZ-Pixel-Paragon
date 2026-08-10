@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #2308",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 for @DracattusDev. Remade from scratch with official traits (1OF1_ART_GUIDE). No overlay extras.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,15 +24,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Silver"
+      "value": "Pink"
     },
     {
       "trait_type": "Face",
-      "value": "Radiant Pale"
+      "value": "Exsanguinated"
     },
     {
       "trait_type": "Eyes",
-      "value": "Gray"
+      "value": "Hazel"
     },
     {
       "trait_type": "Mouth",
@@ -40,47 +40,43 @@
     },
     {
       "trait_type": "Class",
-      "value": "Earth Shaman"
+      "value": "Chaos Weaver"
     },
     {
       "trait_type": "Shirt",
-      "value": "Earth Shaman"
+      "value": "Chaos Weaver"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Earth Shaman"
+      "value": "Chaos Weaver"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Long Rounded White Gray"
+      "value": "Goatee Blonde"
     },
     {
       "trait_type": "Glasses",
-      "value": "Louvered Shades"
+      "value": "Trench Scopes"
     },
     {
       "trait_type": "Bridge",
-      "value": "Clean"
+      "value": "Taped Repair"
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "None"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "Sparks"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "Owl"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@DracattusDev"
+    },
+    {
+      "trait_type": "Name",
+      "value": "DracattusDev"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,16 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2308.png",
-    "dna": "c64bc2dafafcb9d6b7fc58a17c9673411ee78abe03b5f361d6e7fbd236b953a6",
-    "dna_raw": "bg_Silver#4.png|Radiant Pale#10.png|eyes_Gray#8.png|mouth#100.png|Earth Shaman#10.png|Long_Rounded_White_Gray#9.png|Louvered Shades#2.png|Earth Shaman#10.png",
+    "dna": "10c025a3ae1c8ad213be2552a4eaec56abbfb1cec0b49c859b79a4bed37a6a2a",
+    "dna_raw": "bg_Pink#8.png|Exsanguinated#10.png|eyes_Hazel#10.png|mouth#100.png|Chaos Weaver#10.png|Goatee_Blonde#12.png|Taped Trench Scopes#1.png|Chaos Weaver#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 4,
-      "face": 10,
-      "eyes": 8,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 9,
-      "glasses": 2,
-      "wizard hat": 10
-    },
-    "rarity_rank": "647/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Rare",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Silver",
-        "count": 328,
-        "pct": 3.6904
-      },
-      "Face": {
-        "value": "Radiant Pale",
-        "count": 363,
-        "pct": 4.0842
-      },
-      "Eyes": {
-        "value": "Gray",
-        "count": 818,
-        "pct": 9.2034
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Earth Shaman",
-        "count": 406,
-        "pct": 4.568
-      },
-      "Shirt": {
-        "value": "Earth Shaman",
-        "count": 406,
-        "pct": 4.568
-      },
-      "Wizard Hat": {
-        "value": "Earth Shaman",
-        "count": 406,
-        "pct": 4.568
-      },
-      "Facial Hair": {
-        "value": "Long Rounded White Gray",
-        "count": 135,
-        "pct": 1.5189
-      },
-      "Glasses": {
-        "value": "Louvered Shades",
-        "count": 97,
-        "pct": 1.0914
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "None",
-        "count": 4606,
-        "pct": 51.8227
-      },
-      "Spell Effect": {
-        "value": "Sparks",
-        "count": 856,
-        "pct": 9.631
-      },
-      "Familiar": {
-        "value": "Owl",
-        "count": 488,
-        "pct": 5.4905
-      }
-    },
-    "extra_layers": {
-      "staff": "None",
-      "spell": "Sparks",
-      "familiar": "Owl",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@DracattusDev",
+    "max_supply": 1,
+    "render": "trait_pipeline_scratch",
+    "seed_salt": 2026081042,
     "image_basename": "2308.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2308.png"

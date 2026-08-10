@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #6442",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 WizNerd for @FomoTheShow \u2014 Fiend Studios / WizNerdZ Pixel Paragon. Assembled from official traits per 1OF1_ART_GUIDE (light BG, class-matched, 1px rim, logo TR).",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,15 +24,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Blue"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
-      "value": "Drowned"
+      "value": "Rotten Flesh"
     },
     {
       "trait_type": "Eyes",
-      "value": "Light Brown"
+      "value": "Medium Brown"
     },
     {
       "trait_type": "Mouth",
@@ -40,23 +40,23 @@
     },
     {
       "trait_type": "Class",
-      "value": "Chronomancer"
+      "value": "Vampire Lord"
     },
     {
       "trait_type": "Shirt",
-      "value": "Chronomancer"
+      "value": "Vampire Lord"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Chronomancer"
+      "value": "Vampire Lord"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Full Beard Black"
+      "value": "Full Beard Dark Brown"
     },
     {
       "trait_type": "Glasses",
-      "value": "Crimson Glare"
+      "value": "Sanguine Sight"
     },
     {
       "trait_type": "Bridge",
@@ -64,23 +64,19 @@
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "Gnarled Staff"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "Ice Shards"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "Owl"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@FomoTheShow"
+    },
+    {
+      "trait_type": "Name",
+      "value": "FomoTheShow"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,15 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6442.png",
-    "dna": "906fa1dd56019b25ebf932bc4ee6b965d66baa76aa58a50ada58033febe1af32",
-    "dna_raw": "bg_Blue#12.png|Drowned#10.png|eyes_Light_Brown#8.png|mouth#100.png|Chronomancer#10.png|Full_Beard_Black#18.png|Crimson Glare#8.png|Chronomancer#10.png",
+    "dna": "54a9fea779e5135d10b479dd54efa3ec989b34d918384f154f87839667c3ae36",
+    "dna_raw": "bg_Green#10.png|Rotten Flesh#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Vampire Lord#10.png|Full_Beard_Dark_Brown#17.png|Sanguine Sight#8.png|Vampire Lord#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 12,
-      "face": 10,
-      "eyes": 8,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 18,
-      "glasses": 8,
-      "wizard hat": 10
-    },
-    "rarity_rank": "857/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Rare",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Blue",
-        "count": 938,
-        "pct": 10.5536
-      },
-      "Face": {
-        "value": "Drowned",
-        "count": 381,
-        "pct": 4.2867
-      },
-      "Eyes": {
-        "value": "Light Brown",
-        "count": 846,
-        "pct": 9.5185
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Chronomancer",
-        "count": 354,
-        "pct": 3.9829
-      },
-      "Shirt": {
-        "value": "Chronomancer",
-        "count": 354,
-        "pct": 3.9829
-      },
-      "Wizard Hat": {
-        "value": "Chronomancer",
-        "count": 354,
-        "pct": 3.9829
-      },
-      "Facial Hair": {
-        "value": "Full Beard Black",
-        "count": 279,
-        "pct": 3.1391
-      },
-      "Glasses": {
-        "value": "Crimson Glare",
-        "count": 395,
-        "pct": 4.4442
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "Gnarled Staff",
-        "count": 675,
-        "pct": 7.5945
-      },
-      "Spell Effect": {
-        "value": "Ice Shards",
-        "count": 480,
-        "pct": 5.4005
-      },
-      "Familiar": {
-        "value": "Owl",
-        "count": 488,
-        "pct": 5.4905
-      }
-    },
-    "extra_layers": {
-      "staff": "Gnarled Staff",
-      "spell": "Ice Shards",
-      "familiar": "Owl",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@FomoTheShow",
+    "guide": "1OF1_ART_GUIDE.md",
+    "max_supply": 1,
     "image_basename": "6442.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6442.png"

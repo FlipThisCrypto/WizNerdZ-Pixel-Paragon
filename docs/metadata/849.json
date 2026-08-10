@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #849",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 for @nftprofetmaster. Remade from scratch with official traits (1OF1_ART_GUIDE). No overlay extras.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,15 +24,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Green"
+      "value": "Silver"
     },
     {
       "trait_type": "Face",
-      "value": "Fel Corrupted"
+      "value": "Bark Skin"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Light Blue"
     },
     {
       "trait_type": "Mouth",
@@ -40,23 +40,23 @@
     },
     {
       "trait_type": "Class",
-      "value": "High Sorcerer"
+      "value": "Spirit Guide"
     },
     {
       "trait_type": "Shirt",
-      "value": "High Sorcerer"
+      "value": "Spirit Guide"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "High Sorcerer"
+      "value": "Spirit Guide"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Long Rounded Dark Brown"
+      "value": "Goatee Red Orange"
     },
     {
       "trait_type": "Glasses",
-      "value": "Fel Oculars"
+      "value": "Terra Frames"
     },
     {
       "trait_type": "Bridge",
@@ -64,23 +64,19 @@
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "Wooden Wand"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "Ice Shards"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "None"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@nftprofetmaster"
+    },
+    {
+      "trait_type": "Name",
+      "value": "nftprofetmaster"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,16 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/849.png",
-    "dna": "ed5e89331cb5550f2c23ecc80b229cd119b17995b6d5037af120bf87c0afba99",
-    "dna_raw": "bg_Green#10.png|Fel Corrupted#10.png|eyes_Blue#14.png|mouth#100.png|High Sorcerer#10.png|Long_Rounded_Dark_Brown#23.png|Fel Oculars#8.png|High Sorcerer#10.png",
+    "dna": "26c84e31fd9e71ea8ed5e5780ac705bb9d65137fbbc5956262be02489b521151",
+    "dna_raw": "bg_Silver#4.png|Bark Skin#10.png|eyes_Light_Blue#8.png|mouth#100.png|Spirit Guide#10.png|Goatee_Red_Orange#10.png|Terra Frames#8.png|Spirit Guide#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 10,
-      "face": 10,
-      "eyes": 14,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 23,
-      "glasses": 8,
-      "wizard hat": 10
-    },
-    "rarity_rank": "4473/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Common",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Green",
-        "count": 837,
-        "pct": 9.4172
-      },
-      "Face": {
-        "value": "Fel Corrupted",
-        "count": 389,
-        "pct": 4.3767
-      },
-      "Eyes": {
-        "value": "Blue",
-        "count": 1460,
-        "pct": 16.4266
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "High Sorcerer",
-        "count": 358,
-        "pct": 4.0279
-      },
-      "Shirt": {
-        "value": "High Sorcerer",
-        "count": 358,
-        "pct": 4.0279
-      },
-      "Wizard Hat": {
-        "value": "High Sorcerer",
-        "count": 358,
-        "pct": 4.0279
-      },
-      "Facial Hair": {
-        "value": "Long Rounded Dark Brown",
-        "count": 318,
-        "pct": 3.5779
-      },
-      "Glasses": {
-        "value": "Fel Oculars",
-        "count": 404,
-        "pct": 4.5455
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "Wooden Wand",
-        "count": 876,
-        "pct": 9.856
-      },
-      "Spell Effect": {
-        "value": "Ice Shards",
-        "count": 480,
-        "pct": 5.4005
-      },
-      "Familiar": {
-        "value": "None",
-        "count": 5041,
-        "pct": 56.7169
-      }
-    },
-    "extra_layers": {
-      "staff": "Wooden Wand",
-      "spell": "Ice Shards",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@nftprofetmaster",
+    "max_supply": 1,
+    "render": "trait_pipeline_scratch",
+    "seed_salt": 2026081042,
     "image_basename": "849.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/849.png"

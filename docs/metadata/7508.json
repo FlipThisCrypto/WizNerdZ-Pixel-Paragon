@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #7508",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 WizNerd for @CassFairiesClub \u2014 Fiend Studios / WizNerdZ Pixel Paragon. Assembled from official traits per 1OF1_ART_GUIDE (light BG, class-matched, 1px rim, logo TR).",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,15 +24,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Orange"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
-      "value": "Mana Veined"
+      "value": "Rune Etched"
     },
     {
       "trait_type": "Eyes",
-      "value": "Medium Brown"
+      "value": "Green"
     },
     {
       "trait_type": "Mouth",
@@ -40,23 +40,23 @@
     },
     {
       "trait_type": "Class",
-      "value": "Chronomancer"
+      "value": "Cleric Light"
     },
     {
       "trait_type": "Shirt",
-      "value": "Chronomancer"
+      "value": "Cleric Light"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Chronomancer"
+      "value": "Cleric Light"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Goatee White Gray"
+      "value": "Goatee Black"
     },
     {
       "trait_type": "Glasses",
-      "value": "Divine Spectacles"
+      "value": "Crimson Glare"
     },
     {
       "trait_type": "Bridge",
@@ -64,23 +64,19 @@
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "Gnarled Staff"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "Ice Shards"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "Frog"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Epic"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@CassFairiesClub"
+    },
+    {
+      "trait_type": "Name",
+      "value": "CassFairiesClub"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,15 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7508.png",
-    "dna": "1e4b684d65f4c583ee51e594d5a28cfa02ecd7a5429067ca2917609f8d9885db",
-    "dna_raw": "bg_Orange#8.png|Mana Veined#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Chronomancer#10.png|Goatee_White_Gray#8.png|Divine Spectacles#8.png|Chronomancer#10.png",
+    "dna": "68c167c69a1afa6e9093ed424e2b885f58367eb18caefc4e75ef635f4c3de060",
+    "dna_raw": "bg_Green#10.png|Rune Etched#10.png|eyes_Green#12.png|mouth#100.png|Cleric Light#10.png|Goatee_Black#22.png|Crimson Glare#8.png|Cleric Light#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 8,
-      "face": 10,
-      "eyes": 10,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 8,
-      "glasses": 8,
-      "wizard hat": 10
-    },
-    "rarity_rank": "418/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Epic",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Orange",
-        "count": 655,
-        "pct": 7.3695
-      },
-      "Face": {
-        "value": "Mana Veined",
-        "count": 383,
-        "pct": 4.3092
-      },
-      "Eyes": {
-        "value": "Medium Brown",
-        "count": 1015,
-        "pct": 11.4199
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Chronomancer",
-        "count": 354,
-        "pct": 3.9829
-      },
-      "Shirt": {
-        "value": "Chronomancer",
-        "count": 354,
-        "pct": 3.9829
-      },
-      "Wizard Hat": {
-        "value": "Chronomancer",
-        "count": 354,
-        "pct": 3.9829
-      },
-      "Facial Hair": {
-        "value": "Goatee White Gray",
-        "count": 97,
-        "pct": 1.0914
-      },
-      "Glasses": {
-        "value": "Divine Spectacles",
-        "count": 393,
-        "pct": 4.4217
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "Gnarled Staff",
-        "count": 675,
-        "pct": 7.5945
-      },
-      "Spell Effect": {
-        "value": "Ice Shards",
-        "count": 480,
-        "pct": 5.4005
-      },
-      "Familiar": {
-        "value": "Frog",
-        "count": 709,
-        "pct": 7.977
-      }
-    },
-    "extra_layers": {
-      "staff": "Gnarled Staff",
-      "spell": "Ice Shards",
-      "familiar": "Frog",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@CassFairiesClub",
+    "guide": "1OF1_ART_GUIDE.md",
+    "max_supply": 1,
     "image_basename": "7508.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7508.png"

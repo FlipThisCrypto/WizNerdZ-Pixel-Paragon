@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #3647",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 for @Grizzle341. Remade from scratch with official traits (1OF1_ART_GUIDE). No overlay extras.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,15 +24,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Gray"
+      "value": "Teal"
     },
     {
       "trait_type": "Face",
-      "value": "Void Touched"
+      "value": "Rotten Flesh"
     },
     {
       "trait_type": "Eyes",
-      "value": "Light Brown"
+      "value": "Hazel"
     },
     {
       "trait_type": "Mouth",
@@ -40,23 +40,23 @@
     },
     {
       "trait_type": "Class",
-      "value": "Deep Sea"
+      "value": "Cleric Light"
     },
     {
       "trait_type": "Shirt",
-      "value": "Deep Sea"
+      "value": "Cleric Light"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Deep Sea"
+      "value": "Cleric Light"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Goatee Brown"
+      "value": "Long Pointy Black"
     },
     {
       "trait_type": "Glasses",
-      "value": "Astral Focus"
+      "value": "Elder Keepers"
     },
     {
       "trait_type": "Bridge",
@@ -64,23 +64,19 @@
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "Bone Scepter"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "Reality Fracture"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "None"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@Grizzle341"
+    },
+    {
+      "trait_type": "Name",
+      "value": "Grizzle341"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,16 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3647.png",
-    "dna": "219d83972c3b225b5510f5f132c7f451e5d53de83f78869cd001a112971fe291",
-    "dna_raw": "bg_Gray#6.png|Void Touched#10.png|eyes_Light_Brown#8.png|mouth#100.png|Deep Sea#10.png|Goatee_Brown#18.png|Astral Focus#8.png|Deep Sea#10.png",
+    "dna": "7210932ffbee0a8fcd109bdbcea2968d7f5efaf80a3d7dec1319b947f2f9a4f9",
+    "dna_raw": "bg_Teal#8.png|Rotten Flesh#10.png|eyes_Hazel#10.png|mouth#100.png|Cleric Light#10.png|Long_Pointy_Black#22.png|Elder Keepers#8.png|Cleric Light#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 6,
-      "face": 10,
-      "eyes": 8,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 18,
-      "glasses": 8,
-      "wizard hat": 10
-    },
-    "rarity_rank": "1184/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Rare",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Gray",
-        "count": 462,
-        "pct": 5.198
-      },
-      "Face": {
-        "value": "Void Touched",
-        "count": 414,
-        "pct": 4.658
-      },
-      "Eyes": {
-        "value": "Light Brown",
-        "count": 846,
-        "pct": 9.5185
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Deep Sea",
-        "count": 419,
-        "pct": 4.7142
-      },
-      "Shirt": {
-        "value": "Deep Sea",
-        "count": 419,
-        "pct": 4.7142
-      },
-      "Wizard Hat": {
-        "value": "Deep Sea",
-        "count": 419,
-        "pct": 4.7142
-      },
-      "Facial Hair": {
-        "value": "Goatee Brown",
-        "count": 277,
-        "pct": 3.1166
-      },
-      "Glasses": {
-        "value": "Astral Focus",
-        "count": 363,
-        "pct": 4.0842
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "Bone Scepter",
-        "count": 307,
-        "pct": 3.4541
-      },
-      "Spell Effect": {
-        "value": "Reality Fracture",
-        "count": 218,
-        "pct": 2.4527
-      },
-      "Familiar": {
-        "value": "None",
-        "count": 5041,
-        "pct": 56.7169
-      }
-    },
-    "extra_layers": {
-      "staff": "Bone Scepter",
-      "spell": "Reality Fracture",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@Grizzle341",
+    "max_supply": 1,
+    "render": "trait_pipeline_scratch",
+    "seed_salt": 2026081042,
     "image_basename": "3647.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3647.png"

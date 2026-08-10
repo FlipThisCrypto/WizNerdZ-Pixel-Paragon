@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #6947",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 for @monkeyzoo. Remade from scratch with official traits (1OF1_ART_GUIDE). No overlay extras.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,7 +24,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Violet"
+      "value": "White"
     },
     {
       "trait_type": "Face",
@@ -32,7 +32,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Gray"
+      "value": "Amber"
     },
     {
       "trait_type": "Mouth",
@@ -40,23 +40,23 @@
     },
     {
       "trait_type": "Class",
-      "value": "Storm Caller"
+      "value": "Spirit Guide"
     },
     {
       "trait_type": "Shirt",
-      "value": "Storm Caller"
+      "value": "Spirit Guide"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Storm Caller"
+      "value": "Spirit Guide"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Medium Rounded Red Orange"
+      "value": "Full Beard Brown"
     },
     {
       "trait_type": "Glasses",
-      "value": "Glamour Glass"
+      "value": "Fel Oculars"
     },
     {
       "trait_type": "Bridge",
@@ -64,23 +64,19 @@
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "Dragon Staff"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "None"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "Ghost"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@monkeyzoo"
+    },
+    {
+      "trait_type": "Name",
+      "value": "monkeyzoo"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,16 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6947.png",
-    "dna": "79295e3ecebabbb6fabf400289517d9a21edc4dd067d13905e2db2c9ff411382",
-    "dna_raw": "bg_Violet#8.png|Frostbitten#10.png|eyes_Gray#8.png|mouth#100.png|Storm Caller#10.png|Medium_Rounded_Red_Orange#15.png|Glamour Glass#8.png|Storm Caller#10.png",
+    "dna": "91d878fa7b0335cc2cdf592846f2864879926f366634421e20e62b75fa668927",
+    "dna_raw": "bg_White#6.png|Frostbitten#10.png|eyes_Amber#6.png|mouth#100.png|Spirit Guide#10.png|Full_Beard_Brown#15.png|Fel Oculars#8.png|Spirit Guide#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 8,
-      "face": 10,
-      "eyes": 8,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 15,
-      "glasses": 8,
-      "wizard hat": 10
-    },
-    "rarity_rank": "1505/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Violet",
-        "count": 676,
-        "pct": 7.6058
-      },
-      "Face": {
-        "value": "Frostbitten",
-        "count": 389,
-        "pct": 4.3767
-      },
-      "Eyes": {
-        "value": "Gray",
-        "count": 818,
-        "pct": 9.2034
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Storm Caller",
-        "count": 429,
-        "pct": 4.8267
-      },
-      "Shirt": {
-        "value": "Storm Caller",
-        "count": 429,
-        "pct": 4.8267
-      },
-      "Wizard Hat": {
-        "value": "Storm Caller",
-        "count": 429,
-        "pct": 4.8267
-      },
-      "Facial Hair": {
-        "value": "Medium Rounded Red Orange",
-        "count": 255,
-        "pct": 2.869
-      },
-      "Glasses": {
-        "value": "Glamour Glass",
-        "count": 370,
-        "pct": 4.1629
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "Dragon Staff",
-        "count": 244,
-        "pct": 2.7453
-      },
-      "Spell Effect": {
-        "value": "None",
-        "count": 4944,
-        "pct": 55.6256
-      },
-      "Familiar": {
-        "value": "Ghost",
-        "count": 307,
-        "pct": 3.4541
-      }
-    },
-    "extra_layers": {
-      "staff": "Dragon Staff",
-      "spell": "None",
-      "familiar": "Ghost",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@monkeyzoo",
+    "max_supply": 1,
+    "render": "trait_pipeline_scratch",
+    "seed_salt": 2026081042,
     "image_basename": "6947.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6947.png"

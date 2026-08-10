@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #3130",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 WizNerd for @time2buyxch \u2014 Fiend Studios / WizNerdZ Pixel Paragon. Assembled from official traits per 1OF1_ART_GUIDE (light BG, class-matched, 1px rim, logo TR).",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,15 +24,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Violet"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
-      "value": "Charred Ash"
+      "value": "Ghostly"
     },
     {
       "trait_type": "Eyes",
-      "value": "Light Brown"
+      "value": "Green"
     },
     {
       "trait_type": "Mouth",
@@ -40,23 +40,23 @@
     },
     {
       "trait_type": "Class",
-      "value": "Pyromancer"
+      "value": "Void Walker"
     },
     {
       "trait_type": "Shirt",
-      "value": "Pyromancer"
+      "value": "Void Walker"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Pyromancer"
+      "value": "Void Walker"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Full Beard Dark Brown"
+      "value": "Long Braid Black"
     },
     {
       "trait_type": "Glasses",
-      "value": "Mystic Gaze"
+      "value": "Ethereal Visions"
     },
     {
       "trait_type": "Bridge",
@@ -64,23 +64,19 @@
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "None"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "None"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "None"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@time2buyxch"
+    },
+    {
+      "trait_type": "Name",
+      "value": "time2buyxch"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,15 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3130.png",
-    "dna": "ec8d7c058e092278d4751ab546e2dc639ad3fa295fe18abae0dda2f6a0f99826",
-    "dna_raw": "bg_Violet#8.png|Charred Ash#10.png|eyes_Light_Brown#8.png|mouth#100.png|Pyromancer#10.png|Full_Beard_Dark_Brown#17.png|Mystic Gaze#8.png|Pyromancer#10.png",
+    "dna": "3bd16bfa1f479cd07c0ee48036dae58992e8682ad5021f9233442845fdccce47",
+    "dna_raw": "bg_Green#10.png|Ghostly#10.png|eyes_Green#12.png|mouth#100.png|Void Walker#10.png|Long_Braid_Black#15.png|Ethereal Visions#8.png|Void Walker#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 8,
-      "face": 10,
-      "eyes": 8,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 17,
-      "glasses": 8,
-      "wizard hat": 10
-    },
-    "rarity_rank": "7978/8878",
-    "rarity_score": 4e-12,
-    "rarity_tier": "Common",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Violet",
-        "count": 676,
-        "pct": 7.6058
-      },
-      "Face": {
-        "value": "Charred Ash",
-        "count": 395,
-        "pct": 4.4442
-      },
-      "Eyes": {
-        "value": "Light Brown",
-        "count": 846,
-        "pct": 9.5185
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
-      },
-      "Shirt": {
-        "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
-      },
-      "Wizard Hat": {
-        "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
-      },
-      "Facial Hair": {
-        "value": "Full Beard Dark Brown",
-        "count": 256,
-        "pct": 2.8803
-      },
-      "Glasses": {
-        "value": "Mystic Gaze",
-        "count": 384,
-        "pct": 4.3204
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "None",
-        "count": 4606,
-        "pct": 51.8227
-      },
-      "Spell Effect": {
-        "value": "None",
-        "count": 4944,
-        "pct": 55.6256
-      },
-      "Familiar": {
-        "value": "None",
-        "count": 5041,
-        "pct": 56.7169
-      }
-    },
-    "extra_layers": {
-      "staff": "None",
-      "spell": "None",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@time2buyxch",
+    "guide": "1OF1_ART_GUIDE.md",
+    "max_supply": 1,
     "image_basename": "3130.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3130.png"

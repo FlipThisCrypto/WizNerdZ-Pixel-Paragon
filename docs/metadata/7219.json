@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #7219",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 for @hoffmang \u2014 white beard (official facial-hair traits). Official trait composite (1OF1_ART_GUIDE).",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,15 +24,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Black"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
-      "value": "Ghostly"
+      "value": "Charred Ash"
     },
     {
       "trait_type": "Eyes",
-      "value": "Hazel"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
@@ -40,47 +40,47 @@
     },
     {
       "trait_type": "Class",
-      "value": "Void Walker"
+      "value": "Arcane Mage"
     },
     {
       "trait_type": "Shirt",
-      "value": "Void Walker"
+      "value": "Arcane Mage"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Void Walker"
+      "value": "Arcane Mage"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Long Pointy Blonde"
+      "value": "Long Braid White Gray"
     },
     {
       "trait_type": "Glasses",
-      "value": "Dune Drifters"
+      "value": "Entropy Shades"
     },
     {
       "trait_type": "Bridge",
       "value": "Clean"
     },
     {
+      "trait_type": "Custom Element",
+      "value": "white beard"
+    },
+    {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "None"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "Time Distortion"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "None"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@hoffmang"
+    },
+    {
+      "trait_type": "Name",
+      "value": "hoffmang"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +88,17 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7219.png",
-    "dna": "57f54b06c86d7042a68fe9e09b6a8db89dbf702931145289dc20d984d186ccfb",
-    "dna_raw": "bg_Black#5.png|Ghostly#10.png|eyes_Hazel#10.png|mouth#100.png|Void Walker#10.png|Long_Pointy_Blonde#12.png|Dune Drifters#8.png|Void Walker#10.png",
+    "dna": "eb613a40204401e403ae65f15aacf76edf21ce893f4cd0735a9c83baa240bf13",
+    "dna_raw": "bg_Green#10.png|Charred Ash#10.png|eyes_Blue#14.png|mouth#100.png|Arcane Mage#10.png|Long_Braid_White_Gray#5.png|Entropy Shades#8.png|Arcane Mage#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 5,
-      "face": 10,
-      "eyes": 10,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 12,
-      "glasses": 8,
-      "wizard hat": 10
-    },
-    "rarity_rank": "3867/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Common",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Black",
-        "count": 403,
-        "pct": 4.5342
-      },
-      "Face": {
-        "value": "Ghostly",
-        "count": 412,
-        "pct": 4.6355
-      },
-      "Eyes": {
-        "value": "Hazel",
-        "count": 1088,
-        "pct": 12.2412
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Void Walker",
-        "count": 366,
-        "pct": 4.1179
-      },
-      "Shirt": {
-        "value": "Void Walker",
-        "count": 366,
-        "pct": 4.1179
-      },
-      "Wizard Hat": {
-        "value": "Void Walker",
-        "count": 366,
-        "pct": 4.1179
-      },
-      "Facial Hair": {
-        "value": "Long Pointy Blonde",
-        "count": 169,
-        "pct": 1.9014
-      },
-      "Glasses": {
-        "value": "Dune Drifters",
-        "count": 390,
-        "pct": 4.3879
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "None",
-        "count": 4606,
-        "pct": 51.8227
-      },
-      "Spell Effect": {
-        "value": "Time Distortion",
-        "count": 263,
-        "pct": 2.959
-      },
-      "Familiar": {
-        "value": "None",
-        "count": 5041,
-        "pct": 56.7169
-      }
-    },
-    "extra_layers": {
-      "staff": "None",
-      "spell": "Time Distortion",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@hoffmang",
+    "max_supply": 1,
+    "render": "trait_pipeline_scratch",
+    "seed_salt": 2026081042,
+    "custom_element": "white beard",
     "image_basename": "7219.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7219.png"

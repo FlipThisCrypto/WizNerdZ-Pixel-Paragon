@@ -8,196 +8,224 @@
       "file": "special\\community_1of1\\DracattusDev_640.png",
       "class": "Chaos Weaver",
       "background": "Pink",
-      "dna": "10c025a3ae1c8ad2"
+      "dna": "10c025a3ae1c8ad2",
+      "token_id": 2308
     },
     {
       "handle": "@MrDennisV",
       "file": "special\\community_1of1\\MrDennisV_640.png",
       "class": "Arcane Mage",
       "background": "White",
-      "dna": "34735fd2147febd4"
+      "dna": "34735fd2147febd4",
+      "token_id": 7014
     },
     {
       "handle": "@monkeyzoo",
       "file": "special\\community_1of1\\monkeyzoo_640.png",
       "class": "Spirit Guide",
       "background": "White",
-      "dna": "91d878fa7b0335cc"
+      "dna": "91d878fa7b0335cc",
+      "token_id": 6947
     },
     {
       "handle": "@MayorAbandoned",
       "file": "special\\community_1of1\\MayorAbandoned_640.png",
       "class": "Chronomancer",
       "background": "Indigo",
-      "dna": "92c0cff079d887aa"
+      "dna": "92c0cff079d887aa",
+      "token_id": 6057
     },
     {
       "handle": "@FiendStudios",
       "file": "special\\community_1of1\\FiendStudios_640.png",
       "class": "Warlock Fel",
       "background": "Gold",
-      "dna": "84ea56937bd9f2fb"
+      "dna": "84ea56937bd9f2fb",
+      "token_id": 5074
     },
     {
       "handle": "@MiniMarmots",
       "file": "special\\community_1of1\\MiniMarmots_640.png",
       "class": "Druid",
       "background": "Blue",
-      "dna": "5fc4d4baab27e9e5"
+      "dna": "5fc4d4baab27e9e5",
+      "token_id": 3332
     },
     {
       "handle": "@BraidsBlock",
       "file": "special\\community_1of1\\BraidsBlock_640.png",
       "class": "Arcane Mage",
       "background": "White",
-      "dna": "ef85171cfea8bdc6"
+      "dna": "ef85171cfea8bdc6",
+      "token_id": 3601
     },
     {
       "handle": "@DanPerry_Chia",
       "file": "special\\community_1of1\\DanPerry_Chia_640.png",
       "class": "Druid",
       "background": "Red",
-      "dna": "6441e7285af83d4a"
+      "dna": "6441e7285af83d4a",
+      "token_id": 6414
     },
     {
       "handle": "@endertown",
       "file": "special\\community_1of1\\endertown_640.png",
       "class": "Illusionist",
       "background": "Violet",
-      "dna": "ca1f3be7d9cec622"
+      "dna": "ca1f3be7d9cec622",
+      "token_id": 1759
     },
     {
       "handle": "@SpaceOkra",
       "file": "special\\community_1of1\\SpaceOkra_640.png",
       "class": "Illusionist",
       "background": "Pink",
-      "dna": "6b8d0a1868727aaf"
+      "dna": "6b8d0a1868727aaf",
+      "token_id": 7881
     },
     {
       "handle": "@abit_HEX",
       "file": "special\\community_1of1\\abit_HEX_640.png",
       "class": "Cryomancer",
       "background": "Red",
-      "dna": "0cbb609040776303"
+      "dna": "0cbb609040776303",
+      "token_id": 7034
     },
     {
       "handle": "@HYP3RH3X",
       "file": "special\\community_1of1\\HYP3RH3X_640.png",
       "class": "Void Walker",
       "background": "Red",
-      "dna": "826e599a42a71392"
+      "dna": "826e599a42a71392",
+      "token_id": 5413
     },
     {
       "handle": "@ignoreart",
       "file": "special\\community_1of1\\ignoreart_640.png",
       "class": "Chaos Weaver",
       "background": "Gray",
-      "dna": "b61968aa81c9de54"
+      "dna": "b61968aa81c9de54",
+      "token_id": 6280
     },
     {
       "handle": "@seedsnapp",
       "file": "special\\community_1of1\\seedsnapp_640.png",
       "class": "Cleric Light",
       "background": "Teal",
-      "dna": "2625bf2105caeec4"
+      "dna": "2625bf2105caeec4",
+      "token_id": 5095
     },
     {
       "handle": "@ChiaGodsNFT",
       "file": "special\\community_1of1\\ChiaGodsNFT_640.png",
       "class": "Alchemist",
       "background": "Gray",
-      "dna": "23f6260ce5ace007"
+      "dna": "23f6260ce5ace007",
+      "token_id": 2321
     },
     {
       "handle": "@CF_Lost_Gifs",
       "file": "special\\community_1of1\\CF_Lost_Gifs_640.png",
       "class": "Warlock Fel",
       "background": "Silver",
-      "dna": "54a1176f76feab73"
+      "dna": "54a1176f76feab73",
+      "token_id": 2529
     },
     {
       "handle": "@SpiritBits",
       "file": "special\\community_1of1\\SpiritBits_640.png",
       "class": "Spirit Guide",
       "background": "Orange",
-      "dna": "d2e7551398eb5744"
+      "dna": "d2e7551398eb5744",
+      "token_id": 2868
     },
     {
       "handle": "@CassFairiesClub",
       "file": "special\\community_1of1\\CassFairiesClub_640.png",
       "class": "Cleric Light",
       "background": "Green",
-      "dna": "68c167c69a1afa6e"
+      "dna": "68c167c69a1afa6e",
+      "token_id": 7508
     },
     {
       "handle": "@DatArtPerson",
       "file": "special\\community_1of1\\DatArtPerson_640.png",
       "class": "Pyromancer",
       "background": "Gold",
-      "dna": "54d8e7e8df10a209"
+      "dna": "54d8e7e8df10a209",
+      "token_id": 639
     },
     {
       "handle": "@AlexisMpus69903",
       "file": "special\\community_1of1\\AlexisMpus69903_640.png",
       "class": "Rune Keeper",
       "background": "Gold",
-      "dna": "1c23c1122eb72956"
+      "dna": "1c23c1122eb72956",
+      "token_id": 4040
     },
     {
       "handle": "@solomonslot",
       "file": "special\\community_1of1\\solomonslot_640.png",
       "class": "Cleric Light",
       "background": "Teal",
-      "dna": "f462ab7a1eabc876"
+      "dna": "f462ab7a1eabc876",
+      "token_id": 5279
     },
     {
       "handle": "@time2buyxch",
       "file": "special\\community_1of1\\time2buyxch_640.png",
       "class": "Void Walker",
       "background": "Green",
-      "dna": "3bd16bfa1f479cd0"
+      "dna": "3bd16bfa1f479cd0",
+      "token_id": 3130
     },
     {
       "handle": "@neilpeel_me",
       "file": "special\\community_1of1\\neilpeel_me_640.png",
       "class": "Arcane Mage",
       "background": "Violet",
-      "dna": "163b763704634446"
+      "dna": "163b763704634446",
+      "token_id": 7071
     },
     {
       "handle": "@_xDrStrange",
       "file": "special\\community_1of1\\_xDrStrange_640.png",
       "class": "Chronomancer",
       "background": "White",
-      "dna": "0b302ee89ded18c4"
+      "dna": "0b302ee89ded18c4",
+      "token_id": 7513
     },
     {
       "handle": "@steppsr",
       "file": "special\\community_1of1\\steppsr_640.png",
       "class": "Cryomancer",
       "background": "Gray",
-      "dna": "ddea50e82b147120"
+      "dna": "ddea50e82b147120",
+      "token_id": 6477
     },
     {
       "handle": "@chia_project",
       "file": "special\\community_1of1\\chia_project_640.png",
       "class": "Arcane Mage",
       "background": "Blue",
-      "dna": "d27c9b3e9a5293fa"
+      "dna": "d27c9b3e9a5293fa",
+      "token_id": 4358
     },
     {
       "handle": "@Rigidity16",
       "file": "special\\community_1of1\\Rigidity16_640.png",
       "class": "Rune Keeper",
       "background": "Gray",
-      "dna": "1c20855b4827a0b6"
+      "dna": "1c20855b4827a0b6",
+      "token_id": 5915
     },
     {
       "handle": "@bramcohen",
       "file": "special\\community_1of1\\bramcohen_640.png",
       "class": "Rune Keeper",
       "background": "Pink",
-      "dna": "f3da9d572d915b44"
+      "dna": "f3da9d572d915b44",
+      "token_id": 6632
     },
     {
       "handle": "@hoffmang",
@@ -205,63 +233,72 @@
       "class": "Arcane Mage",
       "background": "Green",
       "dna": "eb613a40204401e4",
-      "custom_element": "white beard"
+      "custom_element": "white beard",
+      "token_id": 7219
     },
     {
       "handle": "@SlowestTimelord",
       "file": "special\\community_1of1\\SlowestTimelord_640.png",
       "class": "Chronomancer",
       "background": "Teal",
-      "dna": "ed08f6d5a81fab57"
+      "dna": "ed08f6d5a81fab57",
+      "token_id": 7953
     },
     {
       "handle": "@spacescan_io",
       "file": "special\\community_1of1\\spacescan_io_640.png",
       "class": "Arcane Mage",
       "background": "Brown",
-      "dna": "cd804dbfd84060db"
+      "dna": "cd804dbfd84060db",
+      "token_id": 1736
     },
     {
       "handle": "@sage_wallet",
       "file": "special\\community_1of1\\sage_wallet_640.png",
       "class": "Arcane Mage",
       "background": "Red",
-      "dna": "42d239cec3367a56"
+      "dna": "42d239cec3367a56",
+      "token_id": 8210
     },
     {
       "handle": "@dexie_space",
       "file": "special\\community_1of1\\dexie_space_640.png",
       "class": "Chronomancer",
       "background": "Violet",
-      "dna": "19b473186674020e"
+      "dna": "19b473186674020e",
+      "token_id": 6206
     },
     {
       "handle": "@MintGarden_io",
       "file": "special\\community_1of1\\MintGarden_io_640.png",
       "class": "Druid",
       "background": "Brown",
-      "dna": "f29ca3e01f2aae25"
+      "dna": "f29ca3e01f2aae25",
+      "token_id": 5762
     },
     {
       "handle": "@Circuit_DAO",
       "file": "special\\community_1of1\\Circuit_DAO_640.png",
       "class": "Rune Keeper",
       "background": "Pink",
-      "dna": "c54a67fc5d5a9b28"
+      "dna": "c54a67fc5d5a9b28",
+      "token_id": 5985
     },
     {
       "handle": "@MatthewSHintz",
       "file": "special\\community_1of1\\MatthewSHintz_640.png",
       "class": "Deep Sea",
       "background": "Green",
-      "dna": "7bc7cc62ae855fca"
+      "dna": "7bc7cc62ae855fca",
+      "token_id": 5189
     },
     {
       "handle": "@digdotnet",
       "file": "special\\community_1of1\\digdotnet_640.png",
       "class": "Rune Keeper",
       "background": "Brown",
-      "dna": "332fa55dbdf88bb2"
+      "dna": "332fa55dbdf88bb2",
+      "token_id": 8686
     },
     {
       "handle": "@OrangeGooey",
@@ -269,175 +306,201 @@
       "class": "Alchemist",
       "background": "Orange",
       "dna": "c556ac18faac60c1",
-      "custom_element": "orange skin + orange background"
+      "custom_element": "orange skin + orange background",
+      "token_id": 2351
     },
     {
       "handle": "@iamSiipi",
       "file": "special\\community_1of1\\iamSiipi_640.png",
       "class": "Chronomancer",
       "background": "White",
-      "dna": "7d8fc838bb279422"
+      "dna": "7d8fc838bb279422",
+      "token_id": 399
     },
     {
       "handle": "@ChiaMemecoin",
       "file": "special\\community_1of1\\ChiaMemecoin_640.png",
       "class": "Pyromancer",
       "background": "Teal",
-      "dna": "6d9db639def768ff"
+      "dna": "6d9db639def768ff",
+      "token_id": 4929
     },
     {
       "handle": "@nftprofetmaster",
       "file": "special\\community_1of1\\nftprofetmaster_640.png",
       "class": "Spirit Guide",
       "background": "Silver",
-      "dna": "26c84e31fd9e71ea"
+      "dna": "26c84e31fd9e71ea",
+      "token_id": 849
     },
     {
       "handle": "@m0b1lx",
       "file": "special\\community_1of1\\m0b1lx_640.png",
       "class": "Earth Shaman",
       "background": "Brown",
-      "dna": "26ac9965977ce21d"
+      "dna": "26ac9965977ce21d",
+      "token_id": 5012
     },
     {
       "handle": "@acevail_",
       "file": "special\\community_1of1\\acevail__640.png",
       "class": "Pyromancer",
       "background": "Green",
-      "dna": "2179b1d90bed3720"
+      "dna": "2179b1d90bed3720",
+      "token_id": 7942
     },
     {
       "handle": "@permutocapital",
       "file": "special\\community_1of1\\permutocapital_640.png",
       "class": "Storm Caller",
       "background": "Violet",
-      "dna": "bdf46ec2d2091f2c"
+      "dna": "bdf46ec2d2091f2c",
+      "token_id": 900
     },
     {
       "handle": "@theNamesdao",
       "file": "special\\community_1of1\\theNamesdao_640.png",
       "class": "Arcane Mage",
       "background": "Orange",
-      "dna": "17bf75c0f4054b29"
+      "dna": "17bf75c0f4054b29",
+      "token_id": 7625
     },
     {
       "handle": "@silicondotnet",
       "file": "special\\community_1of1\\silicondotnet_640.png",
       "class": "Blood Mage",
       "background": "Green",
-      "dna": "699f71f21f2274c5"
+      "dna": "699f71f21f2274c5",
+      "token_id": 1090
     },
     {
       "handle": "@FomoTheShow",
       "file": "special\\community_1of1\\FomoTheShow_640.png",
       "class": "Vampire Lord",
       "background": "Green",
-      "dna": "54a9fea779e5135d"
+      "dna": "54a9fea779e5135d",
+      "token_id": 6442
     },
     {
       "handle": "@ArtwithHeartNFT",
       "file": "special\\community_1of1\\ArtwithHeartNFT_640.png",
       "class": "Deep Sea",
       "background": "Violet",
-      "dna": "104fe750efd223ff"
+      "dna": "104fe750efd223ff",
+      "token_id": 6169
     },
     {
       "handle": "@TeeMoney1738",
       "file": "special\\community_1of1\\TeeMoney1738_640.png",
       "class": "Illusionist",
       "background": "Red",
-      "dna": "63853dab8d261414"
+      "dna": "63853dab8d261414",
+      "token_id": 6439
     },
     {
       "handle": "@thyrevolution",
       "file": "special\\community_1of1\\thyrevolution_640.png",
       "class": "Earth Shaman",
       "background": "Red",
-      "dna": "6bfe7077fa64d6ba"
+      "dna": "6bfe7077fa64d6ba",
+      "token_id": 1454
     },
     {
       "handle": "@anarkoicxchia",
       "file": "special\\community_1of1\\anarkoicxchia_640.png",
       "class": "Blood Mage",
       "background": "Teal",
-      "dna": "8d9c5ba6edd9e450"
+      "dna": "8d9c5ba6edd9e450",
+      "token_id": 5804
     },
     {
       "handle": "@Lucky8Token",
       "file": "special\\community_1of1\\Lucky8Token_640.png",
       "class": "Alchemist",
       "background": "Orange",
-      "dna": "ae54ef018757e6b8"
+      "dna": "ae54ef018757e6b8",
+      "token_id": 5943
     },
     {
       "handle": "@trashformersnft",
       "file": "special\\community_1of1\\trashformersnft_640.png",
       "class": "Cryomancer",
       "background": "Blue",
-      "dna": "3009ce7378eec589"
+      "dna": "3009ce7378eec589",
+      "token_id": 2106
     },
     {
       "handle": "@DigitalChamber",
       "file": "special\\community_1of1\\DigitalChamber_640.png",
       "class": "Rune Keeper",
       "background": "White",
-      "dna": "b02d9db851ff2733"
+      "dna": "b02d9db851ff2733",
+      "token_id": 8839
     },
     {
       "handle": "@XchFoundation",
       "file": "special\\community_1of1\\XchFoundation_640.png",
       "class": "Cleric Light",
       "background": "Red",
-      "dna": "57afa28c53be5e40"
+      "dna": "57afa28c53be5e40",
+      "token_id": 7130
     },
     {
       "handle": "@RightSexyOrc",
       "file": "special\\community_1of1\\RightSexyOrc_640.png",
       "class": "Alchemist",
       "background": "Silver",
-      "dna": "10b18eacca8cf0d8"
+      "dna": "10b18eacca8cf0d8",
+      "token_id": 7267
     },
     {
       "handle": "@Crypto_RVD",
       "file": "special\\community_1of1\\Crypto_RVD_640.png",
       "class": "Sand Sage",
       "background": "Violet",
-      "dna": "7519a2118120bc60"
+      "dna": "7519a2118120bc60",
+      "token_id": 7831
     },
     {
       "handle": "@BenAtreidesVing",
       "file": "special\\community_1of1\\BenAtreidesVing_640.png",
       "class": "Chaos Weaver",
       "background": "Teal",
-      "dna": "be6f42c750979efa"
+      "dna": "be6f42c750979efa",
+      "token_id": 7275
     },
     {
       "handle": "@ChiaPlanet",
       "file": "special\\community_1of1\\ChiaPlanet_640.png",
       "class": "Chaos Weaver",
       "background": "White",
-      "dna": "0777254ed4e93c8d"
+      "dna": "0777254ed4e93c8d",
+      "token_id": 8538
     },
     {
       "handle": "@Grizzle341",
       "file": "special\\community_1of1\\Grizzle341_640.png",
       "class": "Cleric Light",
       "background": "Teal",
-      "dna": "7210932ffbee0a8f"
+      "dna": "7210932ffbee0a8f",
+      "token_id": 3647
     },
     {
       "handle": "@OopsOrngz",
       "file": "special\\community_1of1\\OopsOrngz_640.png",
       "class": "Warlock Fel",
       "background": "Brown",
-      "dna": "30ec141556c150ff"
+      "dna": "30ec141556c150ff",
+      "token_id": 205
     },
     {
       "handle": "@Bullish0xCrypto",
       "file": "special\\community_1of1\\Bullish0xCrypto_640.png",
       "class": "Deep Sea",
       "background": "Pink",
-      "dna": "886d31b07f1f7ccd"
+      "dna": "886d31b07f1f7ccd",
+      "token_id": 3146
     }
-  ]
+  ],
+  "injected": true
 }

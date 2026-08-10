@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #4929",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 WizNerd for @ChiaMemecoin \u2014 Fiend Studios / WizNerdZ Pixel Paragon. Assembled from official traits per 1OF1_ART_GUIDE (light BG, class-matched, 1px rim, logo TR).",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,15 +24,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Red"
+      "value": "Teal"
     },
     {
       "trait_type": "Face",
-      "value": "Drowned"
+      "value": "Charred Ash"
     },
     {
       "trait_type": "Eyes",
-      "value": "Light Brown"
+      "value": "Dark Brown"
     },
     {
       "trait_type": "Mouth",
@@ -40,23 +40,23 @@
     },
     {
       "trait_type": "Class",
-      "value": "Arcane Mage"
+      "value": "Pyromancer"
     },
     {
       "trait_type": "Shirt",
-      "value": "Arcane Mage"
+      "value": "Pyromancer"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Arcane Mage"
+      "value": "Pyromancer"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Long Rounded Red Orange"
+      "value": "Chin Strap Brown"
     },
     {
       "trait_type": "Glasses",
-      "value": "Crimson Glare"
+      "value": "Magma Goggles"
     },
     {
       "trait_type": "Bridge",
@@ -64,23 +64,19 @@
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "Bone Scepter"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "None"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "Raven"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@ChiaMemecoin"
+    },
+    {
+      "trait_type": "Name",
+      "value": "ChiaMemecoin"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,15 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4929.png",
-    "dna": "2f81a78a873c1f37c29d3d4b28225c67879f09c97338532b6f929ced817ce6a9",
-    "dna_raw": "bg_Red.png|Drowned#10.png|eyes_Light_Brown#8.png|mouth#100.png|Arcane Mage#10.png|Long_Rounded_Red_Orange#12.png|Crimson Glare#8.png|Arcane Mage#10.png",
+    "dna": "6d9db639def768ff027cab1ee04fdb78154e5c40e10620922d31570b85370c66",
+    "dna_raw": "bg_Teal#8.png|Charred Ash#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Pyromancer#10.png|Chin_Strap_Brown#9.png|Magma Goggles#8.png|Pyromancer#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 10,
-      "face": 10,
-      "eyes": 8,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 12,
-      "glasses": 8,
-      "wizard hat": 10
-    },
-    "rarity_rank": "2112/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Uncommon",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Red",
-        "count": 787,
-        "pct": 8.8546
-      },
-      "Face": {
-        "value": "Drowned",
-        "count": 381,
-        "pct": 4.2867
-      },
-      "Eyes": {
-        "value": "Light Brown",
-        "count": 846,
-        "pct": 9.5185
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Arcane Mage",
-        "count": 397,
-        "pct": 4.4667
-      },
-      "Shirt": {
-        "value": "Arcane Mage",
-        "count": 397,
-        "pct": 4.4667
-      },
-      "Wizard Hat": {
-        "value": "Arcane Mage",
-        "count": 397,
-        "pct": 4.4667
-      },
-      "Facial Hair": {
-        "value": "Long Rounded Red Orange",
-        "count": 184,
-        "pct": 2.0702
-      },
-      "Glasses": {
-        "value": "Crimson Glare",
-        "count": 395,
-        "pct": 4.4442
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "Bone Scepter",
-        "count": 307,
-        "pct": 3.4541
-      },
-      "Spell Effect": {
-        "value": "None",
-        "count": 4944,
-        "pct": 55.6256
-      },
-      "Familiar": {
-        "value": "Raven",
-        "count": 603,
-        "pct": 6.7844
-      }
-    },
-    "extra_layers": {
-      "staff": "Bone Scepter",
-      "spell": "None",
-      "familiar": "Raven",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@ChiaMemecoin",
+    "guide": "1OF1_ART_GUIDE.md",
+    "max_supply": 1,
     "image_basename": "4929.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4929.png"

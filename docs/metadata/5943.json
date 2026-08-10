@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #5943",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 for @Lucky8Token. Remade from scratch with official traits (1OF1_ART_GUIDE). No overlay extras.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,11 +24,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "White"
+      "value": "Orange"
     },
     {
       "trait_type": "Face",
-      "value": "Storm Grey"
+      "value": "Celestial Blue"
     },
     {
       "trait_type": "Eyes",
@@ -40,23 +40,23 @@
     },
     {
       "trait_type": "Class",
-      "value": "Deep Sea"
+      "value": "Alchemist"
     },
     {
       "trait_type": "Shirt",
-      "value": "Deep Sea"
+      "value": "Alchemist"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Deep Sea"
+      "value": "Alchemist"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Goatee Blonde"
+      "value": "Long Rounded White Gray"
     },
     {
       "trait_type": "Glasses",
-      "value": "Entropy Shades"
+      "value": "Ethereal Visions"
     },
     {
       "trait_type": "Bridge",
@@ -64,23 +64,19 @@
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "Timekeeper Staff"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "Poison Mist"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "Baby Dragon"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@Lucky8Token"
+    },
+    {
+      "trait_type": "Name",
+      "value": "Lucky8Token"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,16 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5943.png",
-    "dna": "0dadfde1aa81f6ba85b33dcbc8c8b8936342656c29454206a990fd87978aee26",
-    "dna_raw": "bg_White#6.png|Storm Grey#10.png|eyes_Light_Brown#8.png|mouth#100.png|Deep Sea#10.png|Goatee_Blonde#12.png|Entropy Shades#8.png|Deep Sea#10.png",
+    "dna": "ae54ef018757e6b87b975795a694c33d9a6f33a569435e69d88a9d490fecd70a",
+    "dna_raw": "bg_Orange#8.png|Celestial Blue#10.png|eyes_Light_Brown#8.png|mouth#100.png|Alchemist#10.png|Long_Rounded_White_Gray#9.png|Ethereal Visions#8.png|Alchemist#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 6,
-      "face": 10,
-      "eyes": 8,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 12,
-      "glasses": 8,
-      "wizard hat": 10
-    },
-    "rarity_rank": "86/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Legendary",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "White",
-        "count": 491,
-        "pct": 5.5243
-      },
-      "Face": {
-        "value": "Storm Grey",
-        "count": 404,
-        "pct": 4.5455
-      },
-      "Eyes": {
-        "value": "Light Brown",
-        "count": 846,
-        "pct": 9.5185
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Deep Sea",
-        "count": 419,
-        "pct": 4.7142
-      },
-      "Shirt": {
-        "value": "Deep Sea",
-        "count": 419,
-        "pct": 4.7142
-      },
-      "Wizard Hat": {
-        "value": "Deep Sea",
-        "count": 419,
-        "pct": 4.7142
-      },
-      "Facial Hair": {
-        "value": "Goatee Blonde",
-        "count": 151,
-        "pct": 1.6989
-      },
-      "Glasses": {
-        "value": "Entropy Shades",
-        "count": 390,
-        "pct": 4.3879
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "Timekeeper Staff",
-        "count": 221,
-        "pct": 2.4865
-      },
-      "Spell Effect": {
-        "value": "Poison Mist",
-        "count": 388,
-        "pct": 4.3654
-      },
-      "Familiar": {
-        "value": "Baby Dragon",
-        "count": 388,
-        "pct": 4.3654
-      }
-    },
-    "extra_layers": {
-      "staff": "Timekeeper Staff",
-      "spell": "Poison Mist",
-      "familiar": "Baby Dragon",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@Lucky8Token",
+    "max_supply": 1,
+    "render": "trait_pipeline_scratch",
+    "seed_salt": 2026081042,
     "image_basename": "5943.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5943.png"

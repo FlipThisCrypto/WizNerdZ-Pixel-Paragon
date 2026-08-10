@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
   "name": "WizNerdz #2529",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "description": "Community 1-of-1 WizNerd for @CF_Lost_Gifs \u2014 Fiend Studios / WizNerdZ Pixel Paragon. Assembled from official traits per 1OF1_ART_GUIDE (light BG, class-matched, 1px rim, logo TR).",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,15 +24,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Blue"
+      "value": "Silver"
     },
     {
       "trait_type": "Face",
-      "value": "Bark Skin"
+      "value": "Ghostly"
     },
     {
       "trait_type": "Eyes",
-      "value": "Amber"
+      "value": "Dark Brown"
     },
     {
       "trait_type": "Mouth",
@@ -40,23 +40,23 @@
     },
     {
       "trait_type": "Class",
-      "value": "Pyromancer"
+      "value": "Warlock Fel"
     },
     {
       "trait_type": "Shirt",
-      "value": "Pyromancer"
+      "value": "Warlock Fel"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Pyromancer"
+      "value": "Warlock Fel"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Long Braid Red Orange"
+      "value": "Full Beard Dark Brown"
     },
     {
       "trait_type": "Glasses",
-      "value": "Lich Lenses"
+      "value": "Sanguine Sight"
     },
     {
       "trait_type": "Bridge",
@@ -64,23 +64,19 @@
     },
     {
       "trait_type": "Special",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Staff",
-      "value": "Fire Staff"
-    },
-    {
-      "trait_type": "Spell Effect",
-      "value": "None"
-    },
-    {
-      "trait_type": "Familiar",
-      "value": "Black Cat"
+      "value": "Community 1 of 1"
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@CF_Lost_Gifs"
+    },
+    {
+      "trait_type": "Name",
+      "value": "CF_Lost_Gifs"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -88,106 +84,15 @@
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2529.png",
-    "dna": "0ad862b4d68386005c7bf250905f3ff6bea464a0718e55b83af43134e729b05d",
-    "dna_raw": "bg_Blue#12.png|Bark Skin#10.png|eyes_Amber#6.png|mouth#100.png|Pyromancer#10.png|Long_Braid_Red_Orange#7.png|Lich Lenses#8.png|Pyromancer#10.png",
+    "dna": "54a1176f76feab73d7aaeebd766f5fd617eb83c6c08f396bceed7a265fc52a37",
+    "dna_raw": "bg_Silver#4.png|Ghostly#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Warlock Fel#10.png|Full_Beard_Dark_Brown#17.png|Sanguine Sight#8.png|Warlock Fel#10.png",
     "canvas": "640x640",
     "border_px": 1,
     "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 12,
-      "face": 10,
-      "eyes": 6,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 7,
-      "glasses": 8,
-      "wizard hat": 10
-    },
-    "rarity_rank": "1209/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Rare",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Blue",
-        "count": 938,
-        "pct": 10.5536
-      },
-      "Face": {
-        "value": "Bark Skin",
-        "count": 358,
-        "pct": 4.0279
-      },
-      "Eyes": {
-        "value": "Amber",
-        "count": 653,
-        "pct": 7.347
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
-      },
-      "Shirt": {
-        "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
-      },
-      "Wizard Hat": {
-        "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
-      },
-      "Facial Hair": {
-        "value": "Long Braid Red Orange",
-        "count": 102,
-        "pct": 1.1476
-      },
-      "Glasses": {
-        "value": "Lich Lenses",
-        "count": 394,
-        "pct": 4.4329
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "Fire Staff",
-        "count": 437,
-        "pct": 4.9167
-      },
-      "Spell Effect": {
-        "value": "None",
-        "count": 4944,
-        "pct": 55.6256
-      },
-      "Familiar": {
-        "value": "Black Cat",
-        "count": 487,
-        "pct": 5.4793
-      }
-    },
-    "extra_layers": {
-      "staff": "Fire Staff",
-      "spell": "None",
-      "familiar": "Black Cat",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
+    "community_1of1": true,
+    "handle": "@CF_Lost_Gifs",
+    "guide": "1OF1_ART_GUIDE.md",
+    "max_supply": 1,
     "image_basename": "2529.png"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2529.png"
