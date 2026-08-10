@@ -49,7 +49,11 @@
 | `/images/{id}.png` | Token art |
 | `/metadata/{id}.json` | CHIP-0007 (absolute `image` URLs) |
 | `/collection.json` | Collection header + media URI templates |
-| `/rarity.csv` | Trait frequencies |
+| `/rarity.md` | Human rarity report (method, tiers, 1/1 list, rarest) |
+| `/rarity.csv` | Trait value frequencies (count + %) |
+| `/rarity_ranking.csv` | Full token ranking (rank, score, tier) |
+| `/rarity.json` | Machine-readable rarity summary |
+| `/ones/` | All 70 1-of-1s browse pack |
 | `/specials/` | Named specials showcase |
 | `/dashboard.html` | Ops board |
 | `/operator.html` | Operator console |
@@ -88,8 +92,12 @@ docs/                 ← GitHub Pages root (the live collection)
   metadata/
   assets/
   specials/
+  ones/
   collection.json
+  rarity.md
   rarity.csv
+  rarity_ranking.csv
+  rarity.json
 LICENSE
 README.md
 ```
