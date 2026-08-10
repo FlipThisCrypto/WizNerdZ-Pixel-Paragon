@@ -1154,6 +1154,13 @@
           <span>20%</span>
         </div>
       </div>
+      <p class="callout" style="margin-top:14px">
+        <strong>$JUICE liquidity:</strong>
+        <strong>50% of the developer portion</strong> (half of the 40% dev share =
+        <strong>20% of total primary mint proceeds</strong>) is used to fund
+        <strong>$JUICE</strong> liquidity. The remaining half of the developer share
+        supports ongoing development and ops.
+      </p>
 
       <h3>Royalties (secondary sales)</h3>
       <p>Total royalty <strong>10%</strong>, split the same way:</p>
@@ -1167,6 +1174,10 @@
           <tr><td>Bepe.Love pool</td><td>20% of 10%</td><td><strong>2%</strong></td></tr>
         </tbody>
       </table>
+      <p class="muted" style="margin-top:10px">
+        Developer royalty share follows the same commitment: <strong>50%</strong> of the
+        developer royalty bucket may support <strong>$JUICE</strong> liquidity where applicable.
+      </p>
       <p style="margin-top:14px">
         <strong>Public mint &amp; royalty wallet</strong><br />
         <code id="treasury-display" class="mono"></code>
@@ -1178,6 +1189,7 @@
         One receive address is configured for mint and royalties for now.
         Split policy (40/40/20) still applies — distribute from this wallet or assign distinct
         <code>xch</code> addresses later in <code>js/config.js</code>.
+        <strong>$JUICE</strong> liquidity is taken from the developer share after receive.
       </p>
     </section>
 

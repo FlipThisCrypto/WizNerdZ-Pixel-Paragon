@@ -16,7 +16,8 @@
 3. **70 one-of-ones** showcased (10 named specials + 60 community).
 4. **Sage WalletConnect** connect UI (mint disarmed until drop day).
 5. **Economics**: mint **40% / 40% / 20%** (developer / wizards / Bepe.Love); royalties **10%** same split.
-6. **No public rarity rankings** (fair mint — rankings not linked or indexed).
+6. **$JUICE liquidity**: **50% of the developer portion** (20% of primary mint proceeds) funds **$JUICE** liquidity.
+7. **No public rarity rankings** (fair mint — rankings not linked or indexed; ranks live in metadata only).
 
 ## Collection
 

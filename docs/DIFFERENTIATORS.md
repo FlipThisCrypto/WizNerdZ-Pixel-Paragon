@@ -1,7 +1,7 @@
 # Strategic differentiators — WizNerdZ
 
 1. **Community-owned 1:1 path** — nominations with public issue ledger, not closed Discord DMs only  
-2. **Transparent economics** — 40/40/20 mint + 10% royalty split documented on-site  
+2. **Transparent economics** — 40/40/20 mint + 10% royalty split documented on-site; **50% of developer share → $JUICE liquidity**
 3. **Non-custodial mint posture** — Sage WalletConnect; keys never on Pages  
 4. **Verifiable media** — absolute URLs + integrity manifests + CI gates  
 5. **Operator maturity** — health, OPS, incidents, governance freeze, chaos drills  

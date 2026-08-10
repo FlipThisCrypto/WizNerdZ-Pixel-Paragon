@@ -4,13 +4,10 @@
 **Chain:** Chia (CHIP-0007)  
 **Site:** https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/
 
-## The One Thing (this cycle)
+## Status
 
-**Community PFP → WizNerdZ 1:1 nominations** until **midnight July 31, 2026 (US Eastern)**.
-
-Users nominate other users so Fiend Studios can create themed wizard PFPs for collection visibility. Baseline named specials (Tom, Fiend, …) already exist; community PFPs are the additional 1:1 program.
-
-Live countdown: site home (`index.html`).
+Collection art is complete (8,888 including 70 one-of-ones). **Drop coming soon.**  
+Nominations are closed. Public rarity rank tables are not published pre-mint (fair mint).
 
 ---
 
@@ -21,6 +18,18 @@ Live countdown: site home (`index.html`).
 | Developer        | **40%** |
 | Wizards          | **40%** |
 | Bepe.Love pool   | **20%** |
+
+### $JUICE liquidity (developer share)
+
+**50% of the developer portion** is used for **$JUICE liquidity**.
+
+| | Share of primary mint |
+|--|----------------------:|
+| Developer total | 40% |
+| → **$JUICE liquidity** | **20%** of primary (50% of dev) |
+| → Development / ops | **20%** of primary (50% of dev) |
+| Wizards | 40% |
+| Bepe.Love pool | 20% |
 
 Configure public `xch` addresses in `js/config.js` → `mintSplits.*.address` before arming mint.
 
@@ -33,7 +42,8 @@ Configure public `xch` addresses in `js/config.js` → `mintSplits.*.address` be
 | Wizards | 40% of royalty → **4%** of sale |
 | Bepe.Love pool | 20% of royalty → **2%** of sale |
 
-Apply the same addresses in MintGarden / marketplace royalty settings so secondary sales honor the split.
+Apply the same addresses in MintGarden / marketplace royalty settings so secondary sales honor the split.  
+**50% of the developer royalty bucket** may also support **$JUICE** liquidity where applicable.
 
 ---
 
@@ -62,20 +72,22 @@ Apply the same addresses in MintGarden / marketplace royalty settings so seconda
 | WalletConnect `projectId` | `52a9997711dde5c4f822e5b08ea8f275` |
 | Mint + royalty receive wallet | `xch1qsclhhahfzs85xeemjye65yck2u6g9dpps0jtkwgjemzzndlu63qjej0te` |
 | Split policy | 40% / 40% / 20% (same address for now; distribute or split addresses later) |
+| $JUICE liquidity | 50% of developer portion (20% of primary mint) |
 | Royalties | 10% same ratio |
-| Nomination UI | Landing page form → GitHub Issues |
-| Deadline | Midnight July 31, 2026 US Eastern |
+| Nominations | Closed — community 1/1s in set |
+| Drop | Coming soon |
 
 ### Operator checklist
 
 - [x] WalletConnect project ID
 - [x] Public mint/royalty `xch` address
-- [x] Landing nomination form + Eastern countdown
+- [x] Landing promo site (drop-soon, 1/1 galleries, no public rarity ranks)
+- [x] $JUICE liquidity policy documented (50% of developer share)
 - [ ] Confirm royalty fields on marketplace match 10% + splits
-- [ ] Collect community 1:1 noms through deadline; lock list
-- [ ] Produce remaining 1:1 art; assign token IDs; freeze collection
+- [x] Community 1:1s locked into collection (60 + 10 named)
 - [ ] Cold backup of `collection_8888` + traits + specials
 - [x] Absolute image URLs in all 8,888 metadata files (`data.image` + root `image`)
+- [x] Rarity ranks embedded in metadata
 - [ ] MintGarden (or offer host) collection created
 - [ ] Test mint: #1, #42 Tom, #787 Fiend
 - [ ] Arm `mint.enabled` + publish Pages

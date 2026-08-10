@@ -40,6 +40,8 @@ window.WIZNERDZ_CONFIG = Object.freeze({
   /**
    * Primary sale splits (predetermined).
    * 40% developer · 40% wizards · 20% Bepe.Love pool
+   * Of the developer 40%: half (50%) is reserved for $JUICE liquidity
+   * (= 20% of total primary mint proceeds).
    */
   mintSplits: {
     developer: {
@@ -47,6 +49,12 @@ window.WIZNERDZ_CONFIG = Object.freeze({
       label: "Developer",
       address:
         "xch1qsclhhahfzs85xeemjye65yck2u6g9dpps0jtkwgjemzzndlu63qjej0te",
+      /** Share of the developer bucket used for $JUICE liquidity. */
+      juiceLiquidityOfDeveloperPct: 50,
+      /** Effective share of total primary mint → $JUICE liquidity. */
+      juiceLiquidityOfTotalPct: 20,
+      note:
+        "50% of the developer portion funds $JUICE liquidity (20% of primary mint proceeds).",
     },
     wizards: {
       pct: 40,
