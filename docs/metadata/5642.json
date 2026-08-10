@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2205/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "2151/8818",
+    "rarity_score": 3.58e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Yellow",
-        "count": 797,
-        "pct": 8.9671
+        "count": 789,
+        "pct": 8.8771
       },
       "Face": {
         "value": "Mystic Aura",
-        "count": 378,
-        "pct": 4.2529
+        "count": 381,
+        "pct": 4.2867
       },
       "Eyes": {
         "value": "Gray",
-        "count": 818,
-        "pct": 9.2034
+        "count": 816,
+        "pct": 9.1809
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
-      },
-      "Shirt": {
-        "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
-      },
-      "Wizard Hat": {
-        "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
-      },
-      "Facial Hair": {
-        "value": "Long Pointy Dark Brown",
-        "count": 332,
-        "pct": 3.7354
-      },
-      "Glasses": {
-        "value": "Astral Focus",
-        "count": 363,
-        "pct": 4.0842
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "Lightning Rod",
         "count": 354,
         "pct": 3.9829
       },
+      "Shirt": {
+        "value": "Pyromancer",
+        "count": 354,
+        "pct": 3.9829
+      },
+      "Wizard Hat": {
+        "value": "Pyromancer",
+        "count": 354,
+        "pct": 3.9829
+      },
+      "Facial Hair": {
+        "value": "Long Pointy Dark Brown",
+        "count": 330,
+        "pct": 3.7129
+      },
+      "Glasses": {
+        "value": "Astral Focus",
+        "count": 359,
+        "pct": 4.0392
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7900,
+        "pct": 88.8839
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8818,
+        "pct": 99.2124
+      },
+      "Staff": {
+        "value": "Lightning Rod",
+        "count": 356,
+        "pct": 4.0054
+      },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Owl",
-        "count": 488,
-        "pct": 5.4905
+        "count": 486,
+        "pct": 5.468
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "5642.png"
+    "image_basename": "5642.png",
+    "rarity_rank_numeric": 2151,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5642.png"
 }

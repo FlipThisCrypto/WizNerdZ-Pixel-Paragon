@@ -104,8 +104,8 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "2405/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "2348/8818",
+    "rarity_score": 4.13e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -116,13 +116,13 @@
       },
       "Face": {
         "value": "Mystic Aura",
-        "count": 378,
-        "pct": 4.2529
+        "count": 381,
+        "pct": 4.2867
       },
       "Eyes": {
         "value": "Medium Brown",
-        "count": 1015,
-        "pct": 11.4199
+        "count": 1009,
+        "pct": 11.3524
       },
       "Mouth": {
         "value": "Classic",
@@ -146,38 +146,38 @@
       },
       "Facial Hair": {
         "value": "Chin Strap Black",
-        "count": 163,
-        "pct": 1.8339
+        "count": 161,
+        "pct": 1.8114
       },
       "Glasses": {
         "value": "Frost Sight",
-        "count": 366,
-        "pct": 4.1179
+        "count": 363,
+        "pct": 4.0842
       },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Gnarled Staff",
-        "count": 675,
-        "pct": 7.5945
+        "count": 673,
+        "pct": 7.572
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "None",
-        "count": 5041,
-        "pct": 56.7169
+        "count": 5043,
+        "pct": 56.7394
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "1382.png"
+    "image_basename": "1382.png",
+    "rarity_rank_numeric": 2348,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1382.png"
 }

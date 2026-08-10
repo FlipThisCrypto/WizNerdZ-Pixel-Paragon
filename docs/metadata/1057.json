@@ -104,20 +104,20 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "1900/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "1868/8818",
+    "rarity_score": 2.84e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Indigo",
-        "count": 636,
-        "pct": 7.1557
+        "count": 635,
+        "pct": 7.1445
       },
       "Face": {
         "value": "Chaos Warped",
-        "count": 400,
-        "pct": 4.5005
+        "count": 399,
+        "pct": 4.4892
       },
       "Eyes": {
         "value": "Blue",
@@ -146,23 +146,23 @@
       },
       "Facial Hair": {
         "value": "Medium Rounded Dark Brown",
-        "count": 458,
-        "pct": 5.153
+        "count": 454,
+        "pct": 5.108
       },
       "Glasses": {
         "value": "Mystic Gaze",
-        "count": 384,
-        "pct": 4.3204
+        "count": 385,
+        "pct": 4.3317
       },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Wooden Wand",
@@ -171,13 +171,13 @@
       },
       "Spell Effect": {
         "value": "Lightning Arc",
-        "count": 463,
-        "pct": 5.2093
+        "count": 464,
+        "pct": 5.2205
       },
       "Familiar": {
         "value": "None",
-        "count": 5041,
-        "pct": 56.7169
+        "count": 5043,
+        "pct": 56.7394
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "1057.png"
+    "image_basename": "1057.png",
+    "rarity_rank_numeric": 1868,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1057.png"
 }

@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "551/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "537/8818",
+    "rarity_score": 4.4e-15,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Pink",
-        "count": 641,
-        "pct": 7.212
+        "count": 638,
+        "pct": 7.1782
       },
       "Face": {
         "value": "Chaos Warped",
-        "count": 400,
-        "pct": 4.5005
+        "count": 399,
+        "pct": 4.4892
       },
       "Eyes": {
         "value": "Green",
-        "count": 1297,
-        "pct": 14.5927
+        "count": 1301,
+        "pct": 14.6377
       },
       "Mouth": {
         "value": "Classic",
@@ -131,48 +131,48 @@
       },
       "Class": {
         "value": "Deep Sea",
-        "count": 419,
-        "pct": 4.7142
+        "count": 418,
+        "pct": 4.703
       },
       "Shirt": {
         "value": "Deep Sea",
-        "count": 419,
-        "pct": 4.7142
+        "count": 418,
+        "pct": 4.703
       },
       "Wizard Hat": {
         "value": "Deep Sea",
-        "count": 419,
-        "pct": 4.7142
+        "count": 418,
+        "pct": 4.703
       },
       "Facial Hair": {
         "value": "Chin Strap Blonde",
-        "count": 99,
-        "pct": 1.1139
+        "count": 98,
+        "pct": 1.1026
       },
       "Glasses": {
         "value": "Entropy Shades",
-        "count": 390,
-        "pct": 4.3879
+        "count": 387,
+        "pct": 4.3542
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Fire Staff",
-        "count": 437,
-        "pct": 4.9167
+        "count": 441,
+        "pct": 4.9617
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 856,
-        "pct": 9.631
+        "count": 862,
+        "pct": 9.6985
       },
       "Familiar": {
         "value": "Baby Dragon",
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "3939.png"
+    "image_basename": "3939.png",
+    "rarity_rank_numeric": 537,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3939.png"
 }

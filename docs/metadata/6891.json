@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "588/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "597/8818",
+    "rarity_score": 5e-15,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Pink",
-        "count": 641,
-        "pct": 7.212
+        "count": 638,
+        "pct": 7.1782
       },
       "Face": {
         "value": "Mystic Aura",
-        "count": 378,
-        "pct": 4.2529
+        "count": 381,
+        "pct": 4.2867
       },
       "Eyes": {
         "value": "Green",
-        "count": 1297,
-        "pct": 14.5927
+        "count": 1301,
+        "pct": 14.6377
       },
       "Mouth": {
         "value": "Classic",
@@ -146,23 +146,23 @@
       },
       "Facial Hair": {
         "value": "Long Rounded Brown",
-        "count": 309,
-        "pct": 3.4766
+        "count": 308,
+        "pct": 3.4653
       },
       "Glasses": {
         "value": "Elder Keepers",
-        "count": 394,
-        "pct": 4.4329
+        "count": 397,
+        "pct": 4.4667
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Crystal Wand",
@@ -171,13 +171,13 @@
       },
       "Spell Effect": {
         "value": "Floating Runes",
-        "count": 722,
-        "pct": 8.1233
+        "count": 724,
+        "pct": 8.1458
       },
       "Familiar": {
         "value": "Miniature Cosmic Beast",
-        "count": 199,
-        "pct": 2.239
+        "count": 201,
+        "pct": 2.2615
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "6891.png"
+    "image_basename": "6891.png",
+    "rarity_rank_numeric": 597,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6891.png"
 }

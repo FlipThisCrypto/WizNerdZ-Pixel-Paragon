@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "917/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "892/8818",
+    "rarity_score": 8.3e-15,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Yellow",
-        "count": 797,
-        "pct": 8.9671
+        "count": 789,
+        "pct": 8.8771
       },
       "Face": {
         "value": "Rotten Flesh",
-        "count": 374,
-        "pct": 4.2079
+        "count": 375,
+        "pct": 4.2192
       },
       "Eyes": {
         "value": "Gray",
-        "count": 818,
-        "pct": 9.2034
+        "count": 816,
+        "pct": 9.1809
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
+        "count": 354,
+        "pct": 3.9829
       },
       "Shirt": {
         "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
+        "count": 354,
+        "pct": 3.9829
       },
       "Wizard Hat": {
         "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
+        "count": 354,
+        "pct": 3.9829
       },
       "Facial Hair": {
         "value": "Goatee Brown",
-        "count": 277,
-        "pct": 3.1166
+        "count": 275,
+        "pct": 3.0941
       },
       "Glasses": {
         "value": "Glamour Glass",
-        "count": 370,
-        "pct": 4.1629
+        "count": 368,
+        "pct": 4.1404
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Gnarled Staff",
-        "count": 675,
-        "pct": 7.5945
+        "count": 673,
+        "pct": 7.572
       },
       "Spell Effect": {
         "value": "Floating Runes",
-        "count": 722,
-        "pct": 8.1233
+        "count": 724,
+        "pct": 8.1458
       },
       "Familiar": {
         "value": "Owl",
-        "count": 488,
-        "pct": 5.4905
+        "count": 486,
+        "pct": 5.468
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "4037.png"
+    "image_basename": "4037.png",
+    "rarity_rank_numeric": 892,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4037.png"
 }

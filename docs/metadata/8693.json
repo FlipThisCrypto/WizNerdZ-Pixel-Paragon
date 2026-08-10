@@ -80,7 +80,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "Uncommon"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3594/8878",
-    "rarity_score": 0.0,
-    "rarity_tier": "Common",
+    "rarity_rank": "3519/8818",
+    "rarity_score": 9.09e-14,
+    "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Pink",
-        "count": 641,
-        "pct": 7.212
+        "count": 638,
+        "pct": 7.1782
       },
       "Face": {
         "value": "Shadow Form",
-        "count": 382,
-        "pct": 4.2979
+        "count": 379,
+        "pct": 4.2642
       },
       "Eyes": {
         "value": "Medium Brown",
-        "count": 1015,
-        "pct": 11.4199
+        "count": 1009,
+        "pct": 11.3524
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Vampire Lord",
-        "count": 403,
-        "pct": 4.5342
+        "count": 401,
+        "pct": 4.5117
       },
       "Shirt": {
         "value": "Vampire Lord",
-        "count": 403,
-        "pct": 4.5342
+        "count": 401,
+        "pct": 4.5117
       },
       "Wizard Hat": {
         "value": "Vampire Lord",
-        "count": 403,
-        "pct": 4.5342
+        "count": 401,
+        "pct": 4.5117
       },
       "Facial Hair": {
         "value": "Full Beard Blonde",
-        "count": 156,
-        "pct": 1.7552
+        "count": 155,
+        "pct": 1.7439
       },
       "Glasses": {
         "value": "Trench Scopes",
-        "count": 391,
-        "pct": 4.3992
+        "count": 392,
+        "pct": 4.4104
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Gnarled Staff",
-        "count": 675,
-        "pct": 7.5945
+        "count": 673,
+        "pct": 7.572
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 856,
-        "pct": 9.631
+        "count": 862,
+        "pct": 9.6985
       },
       "Familiar": {
         "value": "None",
-        "count": 5041,
-        "pct": 56.7169
+        "count": 5043,
+        "pct": 56.7394
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "8693.png"
+    "image_basename": "8693.png",
+    "rarity_rank_numeric": 3519,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8693.png"
 }

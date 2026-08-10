@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2613/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "2594/8818",
+    "rarity_score": 4.89e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Blue",
-        "count": 938,
-        "pct": 10.5536
+        "count": 936,
+        "pct": 10.5311
       },
       "Face": {
         "value": "Frostbitten",
-        "count": 389,
-        "pct": 4.3767
+        "count": 384,
+        "pct": 4.3204
       },
       "Eyes": {
         "value": "Light Brown",
-        "count": 846,
-        "pct": 9.5185
+        "count": 847,
+        "pct": 9.5297
       },
       "Mouth": {
         "value": "Classic",
@@ -131,38 +131,38 @@
       },
       "Class": {
         "value": "Alchemist",
-        "count": 383,
-        "pct": 4.3092
+        "count": 386,
+        "pct": 4.3429
       },
       "Shirt": {
         "value": "Alchemist",
-        "count": 383,
-        "pct": 4.3092
+        "count": 386,
+        "pct": 4.3429
       },
       "Wizard Hat": {
         "value": "Alchemist",
-        "count": 383,
-        "pct": 4.3092
+        "count": 386,
+        "pct": 4.3429
       },
       "Facial Hair": {
         "value": "Goatee Brown",
-        "count": 277,
-        "pct": 3.1166
+        "count": 275,
+        "pct": 3.0941
       },
       "Glasses": {
         "value": "Astral Focus",
-        "count": 363,
-        "pct": 4.0842
+        "count": 359,
+        "pct": 4.0392
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Wooden Wand",
@@ -171,13 +171,13 @@
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Miniature Cosmic Beast",
-        "count": 199,
-        "pct": 2.239
+        "count": 201,
+        "pct": 2.2615
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "8128.png"
+    "image_basename": "8128.png",
+    "rarity_rank_numeric": 2594,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8128.png"
 }

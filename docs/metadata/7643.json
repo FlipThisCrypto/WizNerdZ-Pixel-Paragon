@@ -104,25 +104,25 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "855/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "832/8818",
+    "rarity_score": 7.4e-15,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Blue",
-        "count": 938,
-        "pct": 10.5536
+        "count": 936,
+        "pct": 10.5311
       },
       "Face": {
         "value": "Storm Grey",
-        "count": 404,
-        "pct": 4.5455
+        "count": 401,
+        "pct": 4.5117
       },
       "Eyes": {
         "value": "Light Brown",
-        "count": 846,
-        "pct": 9.5185
+        "count": 847,
+        "pct": 9.5297
       },
       "Mouth": {
         "value": "Classic",
@@ -146,38 +146,38 @@
       },
       "Facial Hair": {
         "value": "Long Pointy Dark Brown",
-        "count": 332,
-        "pct": 3.7354
+        "count": 330,
+        "pct": 3.7129
       },
       "Glasses": {
         "value": "Magma Goggles",
-        "count": 385,
-        "pct": 4.3317
+        "count": 388,
+        "pct": 4.3654
       },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "Ice Shards",
-        "count": 480,
-        "pct": 5.4005
+        "count": 476,
+        "pct": 5.3555
       },
       "Familiar": {
         "value": "Ghost",
-        "count": 307,
-        "pct": 3.4541
+        "count": 306,
+        "pct": 3.4428
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "7643.png"
+    "image_basename": "7643.png",
+    "rarity_rank_numeric": 832,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7643.png"
 }

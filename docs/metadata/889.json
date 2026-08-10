@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2952/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "2978/8818",
+    "rarity_score": 6.43e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Red",
-        "count": 787,
-        "pct": 8.8546
+        "count": 792,
+        "pct": 8.9109
       },
       "Face": {
         "value": "Ghostly",
-        "count": 412,
-        "pct": 4.6355
+        "count": 416,
+        "pct": 4.6805
       },
       "Eyes": {
         "value": "Light Brown",
-        "count": 846,
-        "pct": 9.5185
+        "count": 847,
+        "pct": 9.5297
       },
       "Mouth": {
         "value": "Classic",
@@ -146,8 +146,8 @@
       },
       "Facial Hair": {
         "value": "Goatee Dark Brown",
-        "count": 296,
-        "pct": 3.3303
+        "count": 298,
+        "pct": 3.3528
       },
       "Glasses": {
         "value": "Oracle Orbs",
@@ -156,23 +156,23 @@
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Fire Staff",
-        "count": 437,
-        "pct": 4.9167
+        "count": 441,
+        "pct": 4.9617
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Black Cat",
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "889.png"
+    "image_basename": "889.png",
+    "rarity_rank_numeric": 2978,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/889.png"
 }

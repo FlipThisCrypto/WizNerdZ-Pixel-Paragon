@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "321/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "321/8818",
+    "rarity_score": 2.5e-15,
     "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Brown",
-        "count": 327,
-        "pct": 3.6791
+        "count": 332,
+        "pct": 3.7354
       },
       "Face": {
         "value": "Rotten Flesh",
-        "count": 374,
-        "pct": 4.2079
+        "count": 375,
+        "pct": 4.2192
       },
       "Eyes": {
         "value": "Hazel",
-        "count": 1088,
-        "pct": 12.2412
+        "count": 1091,
+        "pct": 12.275
       },
       "Mouth": {
         "value": "Classic",
@@ -146,8 +146,8 @@
       },
       "Facial Hair": {
         "value": "Chin Strap Blonde",
-        "count": 99,
-        "pct": 1.1139
+        "count": 98,
+        "pct": 1.1026
       },
       "Glasses": {
         "value": "Oracle Orbs",
@@ -156,28 +156,28 @@
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Ice Staff",
-        "count": 460,
-        "pct": 5.1755
+        "count": 459,
+        "pct": 5.1643
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 856,
-        "pct": 9.631
+        "count": 862,
+        "pct": 9.6985
       },
       "Familiar": {
         "value": "Raven",
-        "count": 603,
-        "pct": 6.7844
+        "count": 604,
+        "pct": 6.7957
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "2214.png"
+    "image_basename": "2214.png",
+    "rarity_rank_numeric": 321,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2214.png"
 }

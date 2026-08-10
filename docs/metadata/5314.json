@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3865/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "3783/8818",
+    "rarity_score": 1.101e-13,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Yellow",
-        "count": 797,
-        "pct": 8.9671
+        "count": 789,
+        "pct": 8.8771
       },
       "Face": {
         "value": "Potion Stained",
-        "count": 422,
-        "pct": 4.748
+        "count": 424,
+        "pct": 4.7705
       },
       "Eyes": {
         "value": "Green",
-        "count": 1297,
-        "pct": 14.5927
+        "count": 1301,
+        "pct": 14.6377
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Void Walker",
-        "count": 366,
-        "pct": 4.1179
+        "count": 361,
+        "pct": 4.0617
       },
       "Shirt": {
         "value": "Void Walker",
-        "count": 366,
-        "pct": 4.1179
+        "count": 361,
+        "pct": 4.0617
       },
       "Wizard Hat": {
         "value": "Void Walker",
-        "count": 366,
-        "pct": 4.1179
+        "count": 361,
+        "pct": 4.0617
       },
       "Facial Hair": {
         "value": "Long Rounded Brown",
-        "count": 309,
-        "pct": 3.4766
+        "count": 308,
+        "pct": 3.4653
       },
       "Glasses": {
         "value": "Tempest Visors",
-        "count": 393,
-        "pct": 4.4217
+        "count": 392,
+        "pct": 4.4104
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Ice Staff",
-        "count": 460,
-        "pct": 5.1755
+        "count": 459,
+        "pct": 5.1643
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Raven",
-        "count": 603,
-        "pct": 6.7844
+        "count": 604,
+        "pct": 6.7957
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "5314.png"
+    "image_basename": "5314.png",
+    "rarity_rank_numeric": 3783,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5314.png"
 }

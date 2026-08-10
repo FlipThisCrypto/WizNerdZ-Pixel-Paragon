@@ -104,15 +104,15 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "586/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "586/8818",
+    "rarity_score": 4.9e-15,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Blue",
-        "count": 938,
-        "pct": 10.5536
+        "count": 936,
+        "pct": 10.5311
       },
       "Face": {
         "value": "Vampiric",
@@ -131,48 +131,48 @@
       },
       "Class": {
         "value": "Warlock Fel",
-        "count": 394,
-        "pct": 4.4329
+        "count": 395,
+        "pct": 4.4442
       },
       "Shirt": {
         "value": "Warlock Fel",
-        "count": 394,
-        "pct": 4.4329
+        "count": 395,
+        "pct": 4.4442
       },
       "Wizard Hat": {
         "value": "Warlock Fel",
-        "count": 394,
-        "pct": 4.4329
+        "count": 395,
+        "pct": 4.4442
       },
       "Facial Hair": {
         "value": "Medium Rounded Blonde",
-        "count": 269,
-        "pct": 3.0266
+        "count": 270,
+        "pct": 3.0378
       },
       "Glasses": {
         "value": "Abyssal Shades",
-        "count": 351,
-        "pct": 3.9491
+        "count": 352,
+        "pct": 3.9604
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Ice Staff",
-        "count": 460,
-        "pct": 5.1755
+        "count": 459,
+        "pct": 5.1643
       },
       "Spell Effect": {
         "value": "Lightning Arc",
-        "count": 463,
-        "pct": 5.2093
+        "count": 464,
+        "pct": 5.2205
       },
       "Familiar": {
         "value": "Baby Dragon",
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "8631.png"
+    "image_basename": "8631.png",
+    "rarity_rank_numeric": 586,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8631.png"
 }

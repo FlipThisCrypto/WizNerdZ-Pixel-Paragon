@@ -104,20 +104,20 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "2197/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "2171/8818",
+    "rarity_score": 3.65e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Blue",
-        "count": 938,
-        "pct": 10.5536
+        "count": 936,
+        "pct": 10.5311
       },
       "Face": {
         "value": "Shadow Form",
-        "count": 382,
-        "pct": 4.2979
+        "count": 379,
+        "pct": 4.2642
       },
       "Eyes": {
         "value": "Blue",
@@ -146,23 +146,23 @@
       },
       "Facial Hair": {
         "value": "Long Braid Black",
-        "count": 223,
-        "pct": 2.509
+        "count": 226,
+        "pct": 2.5428
       },
       "Glasses": {
         "value": "Entropy Shades",
-        "count": 390,
-        "pct": 4.3879
+        "count": 387,
+        "pct": 4.3542
       },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Wooden Wand",
@@ -171,13 +171,13 @@
       },
       "Spell Effect": {
         "value": "Floating Runes",
-        "count": 722,
-        "pct": 8.1233
+        "count": 724,
+        "pct": 8.1458
       },
       "Familiar": {
         "value": "None",
-        "count": 5041,
-        "pct": 56.7169
+        "count": 5043,
+        "pct": 56.7394
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "6714.png"
+    "image_basename": "6714.png",
+    "rarity_rank_numeric": 2171,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6714.png"
 }

@@ -83,14 +83,6 @@
       "value": "Community 1 of 1"
     },
     {
-      "trait_type": "Rarity",
-      "value": "1 of 1"
-    },
-    {
-      "trait_type": "Supply",
-      "value": "1"
-    },
-    {
       "trait_type": "Community Handle",
       "value": "@hoffmang"
     },
@@ -101,6 +93,14 @@
     {
       "trait_type": "Name",
       "value": "Gene"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Supply",
+      "value": "1"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -128,7 +128,10 @@
       "familiar": "Slime",
       "logo": "WizNerdZ Pixel Paragon 2x"
     },
-    "display_name": "Gene"
+    "display_name": "Gene",
+    "rarity_score": null,
+    "rarity_rank_numeric": 0,
+    "rarity_pool": "1of1"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7219.png"
 }

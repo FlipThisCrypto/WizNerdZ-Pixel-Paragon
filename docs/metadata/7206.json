@@ -104,15 +104,15 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "223/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "228/8818",
+    "rarity_score": 1.8e-15,
     "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Indigo",
-        "count": 636,
-        "pct": 7.1557
+        "count": 635,
+        "pct": 7.1445
       },
       "Face": {
         "value": "Radiant Pale",
@@ -146,28 +146,28 @@
       },
       "Facial Hair": {
         "value": "Long Braid Dark Brown",
-        "count": 217,
-        "pct": 2.4415
+        "count": 218,
+        "pct": 2.4527
       },
       "Glasses": {
         "value": "Trench Scopes",
-        "count": 391,
-        "pct": 4.3992
+        "count": 392,
+        "pct": 4.4104
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Fire Staff",
-        "count": 437,
-        "pct": 4.9167
+        "count": 441,
+        "pct": 4.9617
       },
       "Spell Effect": {
         "value": "Reality Fracture",
@@ -176,8 +176,8 @@
       },
       "Familiar": {
         "value": "Raven",
-        "count": 603,
-        "pct": 6.7844
+        "count": 604,
+        "pct": 6.7957
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "7206.png"
+    "image_basename": "7206.png",
+    "rarity_rank_numeric": 228,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7206.png"
 }

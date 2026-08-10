@@ -104,15 +104,15 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "4505/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "4492/8818",
+    "rarity_score": 2.016e-13,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Blue",
-        "count": 938,
-        "pct": 10.5536
+        "count": 936,
+        "pct": 10.5311
       },
       "Face": {
         "value": "Mud Cracked",
@@ -121,8 +121,8 @@
       },
       "Eyes": {
         "value": "Amber",
-        "count": 653,
-        "pct": 7.347
+        "count": 654,
+        "pct": 7.3582
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Cleric Light",
-        "count": 391,
-        "pct": 4.3992
+        "count": 395,
+        "pct": 4.4442
       },
       "Shirt": {
         "value": "Cleric Light",
-        "count": 391,
-        "pct": 4.3992
+        "count": 395,
+        "pct": 4.4442
       },
       "Wizard Hat": {
         "value": "Cleric Light",
-        "count": 391,
-        "pct": 4.3992
+        "count": 395,
+        "pct": 4.4442
       },
       "Facial Hair": {
         "value": "Long Pointy Blonde",
-        "count": 169,
-        "pct": 1.9014
+        "count": 167,
+        "pct": 1.8789
       },
       "Glasses": {
         "value": "Terra Frames",
-        "count": 365,
-        "pct": 4.1067
+        "count": 366,
+        "pct": 4.1179
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Ghost",
-        "count": 307,
-        "pct": 3.4541
+        "count": 306,
+        "pct": 3.4428
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "6016.png"
+    "image_basename": "6016.png",
+    "rarity_rank_numeric": 4492,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6016.png"
 }

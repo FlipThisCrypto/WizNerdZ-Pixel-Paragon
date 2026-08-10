@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3930/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "3924/8818",
+    "rarity_score": 1.231e-13,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Green",
-        "count": 837,
-        "pct": 9.4172
+        "count": 835,
+        "pct": 9.3947
       },
       "Face": {
         "value": "Fel Corrupted",
-        "count": 389,
-        "pct": 4.3767
+        "count": 390,
+        "pct": 4.3879
       },
       "Eyes": {
         "value": "Light Brown",
-        "count": 846,
-        "pct": 9.5185
+        "count": 847,
+        "pct": 9.5297
       },
       "Mouth": {
         "value": "Classic",
@@ -131,23 +131,23 @@
       },
       "Class": {
         "value": "Cleric Light",
-        "count": 391,
-        "pct": 4.3992
+        "count": 395,
+        "pct": 4.4442
       },
       "Shirt": {
         "value": "Cleric Light",
-        "count": 391,
-        "pct": 4.3992
+        "count": 395,
+        "pct": 4.4442
       },
       "Wizard Hat": {
         "value": "Cleric Light",
-        "count": 391,
-        "pct": 4.3992
+        "count": 395,
+        "pct": 4.4442
       },
       "Facial Hair": {
         "value": "Medium Rounded Dark Brown",
-        "count": 458,
-        "pct": 5.153
+        "count": 454,
+        "pct": 5.108
       },
       "Glasses": {
         "value": "Sigil Scanners",
@@ -156,13 +156,13 @@
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Crystal Wand",
@@ -171,13 +171,13 @@
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Owl",
-        "count": 488,
-        "pct": 5.4905
+        "count": 486,
+        "pct": 5.468
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "5778.png"
+    "image_basename": "5778.png",
+    "rarity_rank_numeric": 3924,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5778.png"
 }

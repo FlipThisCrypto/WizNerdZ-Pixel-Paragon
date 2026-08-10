@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "6406/8878",
-    "rarity_score": 1e-12,
+    "rarity_rank": "6353/8818",
+    "rarity_score": 6.805e-13,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Red",
-        "count": 787,
-        "pct": 8.8546
+        "count": 792,
+        "pct": 8.9109
       },
       "Face": {
         "value": "Potion Stained",
-        "count": 422,
-        "pct": 4.748
+        "count": 424,
+        "pct": 4.7705
       },
       "Eyes": {
         "value": "Green",
-        "count": 1297,
-        "pct": 14.5927
+        "count": 1301,
+        "pct": 14.6377
       },
       "Mouth": {
         "value": "Classic",
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Mystic Seer",
-        "count": 384,
-        "pct": 4.3204
+        "count": 381,
+        "pct": 4.2867
       },
       "Shirt": {
         "value": "Mystic Seer",
-        "count": 384,
-        "pct": 4.3204
+        "count": 381,
+        "pct": 4.2867
       },
       "Wizard Hat": {
         "value": "Mystic Seer",
-        "count": 384,
-        "pct": 4.3204
+        "count": 381,
+        "pct": 4.2867
       },
       "Facial Hair": {
         "value": "Long Rounded Blonde",
@@ -151,28 +151,28 @@
       },
       "Glasses": {
         "value": "Omen Readers",
-        "count": 408,
-        "pct": 4.5905
+        "count": 407,
+        "pct": 4.5792
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Black Cat",
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "7100.png"
+    "image_basename": "7100.png",
+    "rarity_rank_numeric": 6353,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7100.png"
 }

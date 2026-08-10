@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "5718/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "5686/8818",
+    "rarity_score": 4.668e-13,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -116,8 +116,8 @@
       },
       "Face": {
         "value": "Mana Veined",
-        "count": 383,
-        "pct": 4.3092
+        "count": 382,
+        "pct": 4.2979
       },
       "Eyes": {
         "value": "Dark Brown",
@@ -146,8 +146,8 @@
       },
       "Facial Hair": {
         "value": "Medium Rounded Black",
-        "count": 499,
-        "pct": 5.6143
+        "count": 501,
+        "pct": 5.6368
       },
       "Glasses": {
         "value": "Potion Masters",
@@ -156,13 +156,13 @@
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Dragon Staff",
@@ -171,13 +171,13 @@
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "None",
-        "count": 5041,
-        "pct": 56.7169
+        "count": 5043,
+        "pct": 56.7394
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "3308.png"
+    "image_basename": "3308.png",
+    "rarity_rank_numeric": 5686,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3308.png"
 }

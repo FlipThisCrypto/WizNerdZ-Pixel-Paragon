@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3272/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "3173/8818",
+    "rarity_score": 7.33e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Black",
-        "count": 403,
-        "pct": 4.5342
+        "count": 400,
+        "pct": 4.5005
       },
       "Face": {
         "value": "Sands of Time",
-        "count": 363,
-        "pct": 4.0842
+        "count": 360,
+        "pct": 4.0504
       },
       "Eyes": {
         "value": "Gray",
-        "count": 818,
-        "pct": 9.2034
+        "count": 816,
+        "pct": 9.1809
       },
       "Mouth": {
         "value": "Classic",
@@ -131,23 +131,23 @@
       },
       "Class": {
         "value": "Mystic Seer",
-        "count": 384,
-        "pct": 4.3204
+        "count": 381,
+        "pct": 4.2867
       },
       "Shirt": {
         "value": "Mystic Seer",
-        "count": 384,
-        "pct": 4.3204
+        "count": 381,
+        "pct": 4.2867
       },
       "Wizard Hat": {
         "value": "Mystic Seer",
-        "count": 384,
-        "pct": 4.3204
+        "count": 381,
+        "pct": 4.2867
       },
       "Facial Hair": {
         "value": "Medium Rounded Dark Brown",
-        "count": 458,
-        "pct": 5.153
+        "count": 454,
+        "pct": 5.108
       },
       "Glasses": {
         "value": "Sigil Scanners",
@@ -156,28 +156,28 @@
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 856,
-        "pct": 9.631
+        "count": 862,
+        "pct": 9.6985
       },
       "Familiar": {
         "value": "Owl",
-        "count": 488,
-        "pct": 5.4905
+        "count": 486,
+        "pct": 5.468
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "588.png"
+    "image_basename": "588.png",
+    "rarity_rank_numeric": 3173,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/588.png"
 }

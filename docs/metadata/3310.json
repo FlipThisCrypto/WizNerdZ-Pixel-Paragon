@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "367/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "368/8818",
+    "rarity_score": 2.9e-15,
     "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Silver",
-        "count": 328,
-        "pct": 3.6904
+        "count": 329,
+        "pct": 3.7016
       },
       "Face": {
         "value": "Frostbitten",
-        "count": 389,
-        "pct": 4.3767
+        "count": 384,
+        "pct": 4.3204
       },
       "Eyes": {
         "value": "Light Brown",
-        "count": 846,
-        "pct": 9.5185
+        "count": 847,
+        "pct": 9.5297
       },
       "Mouth": {
         "value": "Classic",
@@ -146,33 +146,33 @@
       },
       "Facial Hair": {
         "value": "Long Rounded Brown",
-        "count": 309,
-        "pct": 3.4766
+        "count": 308,
+        "pct": 3.4653
       },
       "Glasses": {
         "value": "Magma Goggles",
-        "count": 385,
-        "pct": 4.3317
+        "count": 388,
+        "pct": 4.3654
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Lightning Rod",
-        "count": 354,
-        "pct": 3.9829
+        "count": 356,
+        "pct": 4.0054
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 856,
-        "pct": 9.631
+        "count": 862,
+        "pct": 9.6985
       },
       "Familiar": {
         "value": "Baby Dragon",
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "3310.png"
+    "image_basename": "3310.png",
+    "rarity_rank_numeric": 368,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3310.png"
 }

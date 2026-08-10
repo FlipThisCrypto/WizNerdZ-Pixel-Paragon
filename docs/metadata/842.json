@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "4392/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "4344/8818",
+    "rarity_score": 1.776e-13,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Indigo",
-        "count": 636,
-        "pct": 7.1557
+        "count": 635,
+        "pct": 7.1445
       },
       "Face": {
         "value": "Mana Veined",
-        "count": 383,
-        "pct": 4.3092
+        "count": 382,
+        "pct": 4.2979
       },
       "Eyes": {
         "value": "Hazel",
-        "count": 1088,
-        "pct": 12.2412
+        "count": 1091,
+        "pct": 12.275
       },
       "Mouth": {
         "value": "Classic",
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "High Sorcerer",
-        "count": 358,
-        "pct": 4.0279
+        "count": 356,
+        "pct": 4.0054
       },
       "Shirt": {
         "value": "High Sorcerer",
-        "count": 358,
-        "pct": 4.0279
+        "count": 356,
+        "pct": 4.0054
       },
       "Wizard Hat": {
         "value": "High Sorcerer",
-        "count": 358,
-        "pct": 4.0279
+        "count": 356,
+        "pct": 4.0054
       },
       "Facial Hair": {
         "value": "Long Rounded Blonde",
@@ -151,18 +151,18 @@
       },
       "Glasses": {
         "value": "Trench Scopes",
-        "count": 391,
-        "pct": 4.3992
+        "count": 392,
+        "pct": 4.4104
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Dragon Staff",
@@ -171,13 +171,13 @@
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "None",
-        "count": 5041,
-        "pct": 56.7169
+        "count": 5043,
+        "pct": 56.7394
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "842.png"
+    "image_basename": "842.png",
+    "rarity_rank_numeric": 4344,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/842.png"
 }

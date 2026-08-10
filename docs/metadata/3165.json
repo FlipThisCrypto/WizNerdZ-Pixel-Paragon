@@ -104,15 +104,15 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "6701/8878",
-    "rarity_score": 1e-12,
+    "rarity_rank": "6668/8818",
+    "rarity_score": 8.411e-13,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Pink",
-        "count": 641,
-        "pct": 7.212
+        "count": 638,
+        "pct": 7.1782
       },
       "Face": {
         "value": "Glamour Tint",
@@ -121,8 +121,8 @@
       },
       "Eyes": {
         "value": "Light Blue",
-        "count": 883,
-        "pct": 9.9347
+        "count": 882,
+        "pct": 9.9235
       },
       "Mouth": {
         "value": "Classic",
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Arcane Mage",
-        "count": 397,
-        "pct": 4.4667
+        "count": 398,
+        "pct": 4.4779
       },
       "Shirt": {
         "value": "Arcane Mage",
-        "count": 397,
-        "pct": 4.4667
+        "count": 398,
+        "pct": 4.4779
       },
       "Wizard Hat": {
         "value": "Arcane Mage",
-        "count": 397,
-        "pct": 4.4667
+        "count": 398,
+        "pct": 4.4779
       },
       "Facial Hair": {
         "value": "Long Rounded Black",
@@ -156,13 +156,13 @@
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Crystal Wand",
@@ -171,13 +171,13 @@
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "None",
-        "count": 5041,
-        "pct": 56.7169
+        "count": 5043,
+        "pct": 56.7394
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "3165.png"
+    "image_basename": "3165.png",
+    "rarity_rank_numeric": 6668,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3165.png"
 }

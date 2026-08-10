@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1949/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "1942/8818",
+    "rarity_score": 3.01e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Pink",
-        "count": 641,
-        "pct": 7.212
+        "count": 638,
+        "pct": 7.1782
       },
       "Face": {
         "value": "Desiccated",
-        "count": 396,
-        "pct": 4.4554
+        "count": 395,
+        "pct": 4.4442
       },
       "Eyes": {
         "value": "Light Blue",
-        "count": 883,
-        "pct": 9.9347
+        "count": 882,
+        "pct": 9.9235
       },
       "Mouth": {
         "value": "Classic",
@@ -146,23 +146,23 @@
       },
       "Facial Hair": {
         "value": "Medium Rounded Black",
-        "count": 499,
-        "pct": 5.6143
+        "count": 501,
+        "pct": 5.6368
       },
       "Glasses": {
         "value": "Omen Readers",
-        "count": 408,
-        "pct": 4.5905
+        "count": 407,
+        "pct": 4.5792
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Wooden Wand",
@@ -171,13 +171,13 @@
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 856,
-        "pct": 9.631
+        "count": 862,
+        "pct": 9.6985
       },
       "Familiar": {
         "value": "Slime",
-        "count": 401,
-        "pct": 4.5117
+        "count": 404,
+        "pct": 4.5455
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "4255.png"
+    "image_basename": "4255.png",
+    "rarity_rank_numeric": 1942,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4255.png"
 }

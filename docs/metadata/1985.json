@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1431/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "1432/8818",
+    "rarity_score": 1.82e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -116,13 +116,13 @@
       },
       "Face": {
         "value": "Shadow Form",
-        "count": 382,
-        "pct": 4.2979
+        "count": 379,
+        "pct": 4.2642
       },
       "Eyes": {
         "value": "Gray",
-        "count": 818,
-        "pct": 9.2034
+        "count": 816,
+        "pct": 9.1809
       },
       "Mouth": {
         "value": "Classic",
@@ -131,38 +131,38 @@
       },
       "Class": {
         "value": "Rune Keeper",
-        "count": 390,
-        "pct": 4.3879
+        "count": 393,
+        "pct": 4.4217
       },
       "Shirt": {
         "value": "Rune Keeper",
-        "count": 390,
-        "pct": 4.3879
+        "count": 393,
+        "pct": 4.4217
       },
       "Wizard Hat": {
         "value": "Rune Keeper",
-        "count": 390,
-        "pct": 4.3879
+        "count": 393,
+        "pct": 4.4217
       },
       "Facial Hair": {
         "value": "Long Braid Black",
-        "count": 223,
-        "pct": 2.509
+        "count": 226,
+        "pct": 2.5428
       },
       "Glasses": {
         "value": "Lich Lenses",
-        "count": 394,
-        "pct": 4.4329
+        "count": 393,
+        "pct": 4.4217
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Dragon Staff",
@@ -171,13 +171,13 @@
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Raven",
-        "count": 603,
-        "pct": 6.7844
+        "count": 604,
+        "pct": 6.7957
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "1985.png"
+    "image_basename": "1985.png",
+    "rarity_rank_numeric": 1432,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1985.png"
 }

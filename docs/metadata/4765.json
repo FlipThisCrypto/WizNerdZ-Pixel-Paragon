@@ -104,15 +104,15 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "5066/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "4987/8818",
+    "rarity_score": 2.938e-13,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Yellow",
-        "count": 797,
-        "pct": 8.9671
+        "count": 789,
+        "pct": 8.8771
       },
       "Face": {
         "value": "Vampiric",
@@ -131,38 +131,38 @@
       },
       "Class": {
         "value": "Storm Caller",
-        "count": 429,
-        "pct": 4.8267
+        "count": 426,
+        "pct": 4.793
       },
       "Shirt": {
         "value": "Storm Caller",
-        "count": 429,
-        "pct": 4.8267
+        "count": 426,
+        "pct": 4.793
       },
       "Wizard Hat": {
         "value": "Storm Caller",
-        "count": 429,
-        "pct": 4.8267
+        "count": 426,
+        "pct": 4.793
       },
       "Facial Hair": {
         "value": "Long Pointy Blonde",
-        "count": 169,
-        "pct": 1.9014
+        "count": 167,
+        "pct": 1.8789
       },
       "Glasses": {
         "value": "Elder Keepers",
-        "count": 394,
-        "pct": 4.4329
+        "count": 397,
+        "pct": 4.4667
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Wooden Wand",
@@ -171,13 +171,13 @@
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 856,
-        "pct": 9.631
+        "count": 862,
+        "pct": 9.6985
       },
       "Familiar": {
         "value": "None",
-        "count": 5041,
-        "pct": 56.7169
+        "count": 5043,
+        "pct": 56.7394
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "4765.png"
+    "image_basename": "4765.png",
+    "rarity_rank_numeric": 4987,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4765.png"
 }

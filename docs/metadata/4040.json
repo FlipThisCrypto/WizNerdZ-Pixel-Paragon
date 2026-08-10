@@ -77,6 +77,10 @@
     {
       "trait_type": "Familiar",
       "value": "Baby Dragon"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -96,6 +100,85 @@
       "spell": "Floating Runes",
       "familiar": "Baby Dragon",
       "logo": "WizNerdZ Pixel Paragon 2x"
+    },
+    "rarity_rank": "1300/8818",
+    "rarity_rank_numeric": 1300,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818,
+    "rarity_score": 1.55e-14,
+    "rarity_tier": "Rare",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Green",
+        "count": 835,
+        "pct": 9.3947
+      },
+      "Face": {
+        "value": "Glamour Tint",
+        "count": 384,
+        "pct": 4.3204
+      },
+      "Eyes": {
+        "value": "Blue",
+        "count": 1460,
+        "pct": 16.4266
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Mystic Seer",
+        "count": 381,
+        "pct": 4.2867
+      },
+      "Shirt": {
+        "value": "Mystic Seer",
+        "count": 381,
+        "pct": 4.2867
+      },
+      "Wizard Hat": {
+        "value": "Mystic Seer",
+        "count": 381,
+        "pct": 4.2867
+      },
+      "Facial Hair": {
+        "value": "Long Rounded Blonde",
+        "count": 192,
+        "pct": 2.1602
+      },
+      "Glasses": {
+        "value": "Potion Masters",
+        "count": 390,
+        "pct": 4.3879
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7900,
+        "pct": 88.8839
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8818,
+        "pct": 99.2124
+      },
+      "Staff": {
+        "value": "Wooden Wand",
+        "count": 876,
+        "pct": 9.856
+      },
+      "Spell Effect": {
+        "value": "Floating Runes",
+        "count": 724,
+        "pct": 8.1458
+      },
+      "Familiar": {
+        "value": "Baby Dragon",
+        "count": 388,
+        "pct": 4.3654
+      }
     }
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4040.png"

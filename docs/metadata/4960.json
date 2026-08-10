@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "512/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "508/8818",
+    "rarity_score": 4.2e-15,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Violet",
-        "count": 676,
-        "pct": 7.6058
+        "count": 677,
+        "pct": 7.617
       },
       "Face": {
         "value": "Rotten Flesh",
-        "count": 374,
-        "pct": 4.2079
+        "count": 375,
+        "pct": 4.2192
       },
       "Eyes": {
         "value": "Green",
-        "count": 1297,
-        "pct": 14.5927
+        "count": 1301,
+        "pct": 14.6377
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Deep Sea",
-        "count": 419,
-        "pct": 4.7142
+        "count": 418,
+        "pct": 4.703
       },
       "Shirt": {
         "value": "Deep Sea",
-        "count": 419,
-        "pct": 4.7142
+        "count": 418,
+        "pct": 4.703
       },
       "Wizard Hat": {
         "value": "Deep Sea",
-        "count": 419,
-        "pct": 4.7142
+        "count": 418,
+        "pct": 4.703
       },
       "Facial Hair": {
         "value": "Long Braid Dark Brown",
-        "count": 217,
-        "pct": 2.4415
+        "count": 218,
+        "pct": 2.4527
       },
       "Glasses": {
         "value": "Entropy Shades",
-        "count": 390,
-        "pct": 4.3879
+        "count": 387,
+        "pct": 4.3542
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Gnarled Staff",
-        "count": 675,
-        "pct": 7.5945
+        "count": 673,
+        "pct": 7.572
       },
       "Spell Effect": {
         "value": "Lightning Arc",
-        "count": 463,
-        "pct": 5.2093
+        "count": 464,
+        "pct": 5.2205
       },
       "Familiar": {
         "value": "Miniature Cosmic Beast",
-        "count": 199,
-        "pct": 2.239
+        "count": 201,
+        "pct": 2.2615
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "4960.png"
+    "image_basename": "4960.png",
+    "rarity_rank_numeric": 508,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4960.png"
 }

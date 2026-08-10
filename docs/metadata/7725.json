@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1495/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "1461/8818",
+    "rarity_score": 1.88e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Yellow",
-        "count": 797,
-        "pct": 8.9671
+        "count": 789,
+        "pct": 8.8771
       },
       "Face": {
         "value": "Exsanguinated",
-        "count": 329,
-        "pct": 3.7016
+        "count": 332,
+        "pct": 3.7354
       },
       "Eyes": {
         "value": "Amber",
-        "count": 653,
-        "pct": 7.347
+        "count": 654,
+        "pct": 7.3582
       },
       "Mouth": {
         "value": "Classic",
@@ -131,48 +131,48 @@
       },
       "Class": {
         "value": "Mystic Seer",
-        "count": 384,
-        "pct": 4.3204
+        "count": 381,
+        "pct": 4.2867
       },
       "Shirt": {
         "value": "Mystic Seer",
-        "count": 384,
-        "pct": 4.3204
+        "count": 381,
+        "pct": 4.2867
       },
       "Wizard Hat": {
         "value": "Mystic Seer",
-        "count": 384,
-        "pct": 4.3204
+        "count": 381,
+        "pct": 4.2867
       },
       "Facial Hair": {
         "value": "Long Braid Black",
-        "count": 223,
-        "pct": 2.509
+        "count": 226,
+        "pct": 2.5428
       },
       "Glasses": {
         "value": "Trench Scopes",
-        "count": 391,
-        "pct": 4.3992
+        "count": 392,
+        "pct": 4.4104
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "Poison Mist",
-        "count": 388,
-        "pct": 4.3654
+        "count": 385,
+        "pct": 4.3317
       },
       "Familiar": {
         "value": "Baby Dragon",
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "7725.png"
+    "image_basename": "7725.png",
+    "rarity_rank_numeric": 1461,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7725.png"
 }

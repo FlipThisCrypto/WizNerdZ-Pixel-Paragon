@@ -104,25 +104,25 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "2692/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "2639/8818",
+    "rarity_score": 5.08e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Blue",
-        "count": 938,
-        "pct": 10.5536
+        "count": 936,
+        "pct": 10.5311
       },
       "Face": {
         "value": "Rotten Flesh",
-        "count": 374,
-        "pct": 4.2079
+        "count": 375,
+        "pct": 4.2192
       },
       "Eyes": {
         "value": "Light Blue",
-        "count": 883,
-        "pct": 9.9347
+        "count": 882,
+        "pct": 9.9235
       },
       "Mouth": {
         "value": "Classic",
@@ -131,23 +131,23 @@
       },
       "Class": {
         "value": "Mystic Seer",
-        "count": 384,
-        "pct": 4.3204
+        "count": 381,
+        "pct": 4.2867
       },
       "Shirt": {
         "value": "Mystic Seer",
-        "count": 384,
-        "pct": 4.3204
+        "count": 381,
+        "pct": 4.2867
       },
       "Wizard Hat": {
         "value": "Mystic Seer",
-        "count": 384,
-        "pct": 4.3204
+        "count": 381,
+        "pct": 4.2867
       },
       "Facial Hair": {
         "value": "Long Rounded Brown",
-        "count": 309,
-        "pct": 3.4766
+        "count": 308,
+        "pct": 3.4653
       },
       "Glasses": {
         "value": "Potion Masters",
@@ -156,28 +156,28 @@
       },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Phoenix",
-        "count": 265,
-        "pct": 2.9815
+        "count": 267,
+        "pct": 3.0041
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "4743.png"
+    "image_basename": "4743.png",
+    "rarity_rank_numeric": 2639,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4743.png"
 }

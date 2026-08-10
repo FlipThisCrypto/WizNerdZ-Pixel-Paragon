@@ -104,8 +104,8 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "3353/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "3332/8818",
+    "rarity_score": 8.11e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -121,8 +121,8 @@
       },
       "Eyes": {
         "value": "Medium Brown",
-        "count": 1015,
-        "pct": 11.4199
+        "count": 1009,
+        "pct": 11.3524
       },
       "Mouth": {
         "value": "Classic",
@@ -146,38 +146,38 @@
       },
       "Facial Hair": {
         "value": "Goatee Black",
-        "count": 353,
-        "pct": 3.9716
+        "count": 356,
+        "pct": 4.0054
       },
       "Glasses": {
         "value": "Omen Readers",
-        "count": 408,
-        "pct": 4.5905
+        "count": 407,
+        "pct": 4.5792
       },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Fire Staff",
-        "count": 437,
-        "pct": 4.9167
+        "count": 441,
+        "pct": 4.9617
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "None",
-        "count": 5041,
-        "pct": 56.7169
+        "count": 5043,
+        "pct": 56.7394
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "3384.png"
+    "image_basename": "3384.png",
+    "rarity_rank_numeric": 3332,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3384.png"
 }

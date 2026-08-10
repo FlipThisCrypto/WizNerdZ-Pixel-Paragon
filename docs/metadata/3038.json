@@ -104,25 +104,25 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "469/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "476/8818",
+    "rarity_score": 3.8e-15,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Blue",
-        "count": 938,
-        "pct": 10.5536
+        "count": 936,
+        "pct": 10.5311
       },
       "Face": {
         "value": "Void Touched",
-        "count": 414,
-        "pct": 4.658
+        "count": 412,
+        "pct": 4.6355
       },
       "Eyes": {
         "value": "Light Blue",
-        "count": 883,
-        "pct": 9.9347
+        "count": 882,
+        "pct": 9.9235
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Rune Keeper",
-        "count": 390,
-        "pct": 4.3879
+        "count": 393,
+        "pct": 4.4217
       },
       "Shirt": {
         "value": "Rune Keeper",
-        "count": 390,
-        "pct": 4.3879
+        "count": 393,
+        "pct": 4.4217
       },
       "Wizard Hat": {
         "value": "Rune Keeper",
-        "count": 390,
-        "pct": 4.3879
+        "count": 393,
+        "pct": 4.4217
       },
       "Facial Hair": {
         "value": "Long Braid White Gray",
-        "count": 69,
-        "pct": 0.7763
+        "count": 71,
+        "pct": 0.7988
       },
       "Glasses": {
         "value": "Trench Scopes",
-        "count": 391,
-        "pct": 4.3992
+        "count": 392,
+        "pct": 4.4104
       },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Gnarled Staff",
-        "count": 675,
-        "pct": 7.5945
+        "count": 673,
+        "pct": 7.572
       },
       "Spell Effect": {
         "value": "Ice Shards",
-        "count": 480,
-        "pct": 5.4005
+        "count": 476,
+        "pct": 5.3555
       },
       "Familiar": {
         "value": "None",
-        "count": 5041,
-        "pct": 56.7169
+        "count": 5043,
+        "pct": 56.7394
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "3038.png"
+    "image_basename": "3038.png",
+    "rarity_rank_numeric": 476,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3038.png"
 }

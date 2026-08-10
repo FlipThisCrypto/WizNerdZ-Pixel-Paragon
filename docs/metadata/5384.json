@@ -104,15 +104,15 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1433/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "1409/8818",
+    "rarity_score": 1.76e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Green",
-        "count": 837,
-        "pct": 9.4172
+        "count": 835,
+        "pct": 9.3947
       },
       "Face": {
         "value": "Vampiric",
@@ -121,8 +121,8 @@
       },
       "Eyes": {
         "value": "Green",
-        "count": 1297,
-        "pct": 14.5927
+        "count": 1301,
+        "pct": 14.6377
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "High Sorcerer",
-        "count": 358,
-        "pct": 4.0279
+        "count": 356,
+        "pct": 4.0054
       },
       "Shirt": {
         "value": "High Sorcerer",
-        "count": 358,
-        "pct": 4.0279
+        "count": 356,
+        "pct": 4.0054
       },
       "Wizard Hat": {
         "value": "High Sorcerer",
-        "count": 358,
-        "pct": 4.0279
+        "count": 356,
+        "pct": 4.0054
       },
       "Facial Hair": {
         "value": "Full Beard Black",
-        "count": 279,
-        "pct": 3.1391
+        "count": 278,
+        "pct": 3.1278
       },
       "Glasses": {
         "value": "Epoch Eyes",
-        "count": 339,
-        "pct": 3.8141
+        "count": 340,
+        "pct": 3.8254
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Timekeeper Staff",
-        "count": 221,
-        "pct": 2.4865
+        "count": 220,
+        "pct": 2.4752
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Phoenix",
-        "count": 265,
-        "pct": 2.9815
+        "count": 267,
+        "pct": 3.0041
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "5384.png"
+    "image_basename": "5384.png",
+    "rarity_rank_numeric": 1409,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5384.png"
 }

@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "6580/8878",
-    "rarity_score": 1e-12,
+    "rarity_rank": "6567/8818",
+    "rarity_score": 7.875e-13,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Violet",
-        "count": 676,
-        "pct": 7.6058
+        "count": 677,
+        "pct": 7.617
       },
       "Face": {
         "value": "Desiccated",
-        "count": 396,
-        "pct": 4.4554
+        "count": 395,
+        "pct": 4.4442
       },
       "Eyes": {
         "value": "Green",
-        "count": 1297,
-        "pct": 14.5927
+        "count": 1301,
+        "pct": 14.6377
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Cryomancer",
-        "count": 341,
-        "pct": 3.8366
+        "count": 344,
+        "pct": 3.8704
       },
       "Shirt": {
         "value": "Cryomancer",
-        "count": 341,
-        "pct": 3.8366
+        "count": 344,
+        "pct": 3.8704
       },
       "Wizard Hat": {
         "value": "Cryomancer",
-        "count": 341,
-        "pct": 3.8366
+        "count": 344,
+        "pct": 3.8704
       },
       "Facial Hair": {
         "value": "Full Beard Black",
-        "count": 279,
-        "pct": 3.1391
+        "count": 278,
+        "pct": 3.1278
       },
       "Glasses": {
         "value": "Mystic Gaze",
-        "count": 384,
-        "pct": 4.3204
+        "count": 385,
+        "pct": 4.3317
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Frog",
-        "count": 709,
-        "pct": 7.977
+        "count": 702,
+        "pct": 7.8983
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "3683.png"
+    "image_basename": "3683.png",
+    "rarity_rank_numeric": 6567,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3683.png"
 }

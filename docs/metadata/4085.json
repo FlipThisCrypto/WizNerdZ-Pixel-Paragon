@@ -104,25 +104,25 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "970/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "932/8818",
+    "rarity_score": 8.9e-15,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Violet",
-        "count": 676,
-        "pct": 7.6058
+        "count": 677,
+        "pct": 7.617
       },
       "Face": {
         "value": "Charred Ash",
-        "count": 395,
-        "pct": 4.4442
+        "count": 392,
+        "pct": 4.4104
       },
       "Eyes": {
         "value": "Gray",
-        "count": 818,
-        "pct": 9.2034
+        "count": 816,
+        "pct": 9.1809
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Shadow Priest",
-        "count": 406,
-        "pct": 4.568
+        "count": 403,
+        "pct": 4.5342
       },
       "Shirt": {
         "value": "Shadow Priest",
-        "count": 406,
-        "pct": 4.568
+        "count": 403,
+        "pct": 4.5342
       },
       "Wizard Hat": {
         "value": "Shadow Priest",
-        "count": 406,
-        "pct": 4.568
+        "count": 403,
+        "pct": 4.5342
       },
       "Facial Hair": {
         "value": "Long Pointy Dark Brown",
-        "count": 332,
-        "pct": 3.7354
+        "count": 330,
+        "pct": 3.7129
       },
       "Glasses": {
         "value": "Terra Frames",
-        "count": 365,
-        "pct": 4.1067
+        "count": 366,
+        "pct": 4.1179
       },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Ice Staff",
-        "count": 460,
-        "pct": 5.1755
+        "count": 459,
+        "pct": 5.1643
       },
       "Spell Effect": {
         "value": "Fireball",
-        "count": 554,
-        "pct": 6.2331
+        "count": 556,
+        "pct": 6.2556
       },
       "Familiar": {
         "value": "None",
-        "count": 5041,
-        "pct": 56.7169
+        "count": 5043,
+        "pct": 56.7394
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "4085.png"
+    "image_basename": "4085.png",
+    "rarity_rank_numeric": 932,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4085.png"
 }

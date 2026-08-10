@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2575/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "2549/8818",
+    "rarity_score": 4.73e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Yellow",
-        "count": 797,
-        "pct": 8.9671
+        "count": 789,
+        "pct": 8.8771
       },
       "Face": {
         "value": "Exsanguinated",
-        "count": 329,
-        "pct": 3.7016
+        "count": 332,
+        "pct": 3.7354
       },
       "Eyes": {
         "value": "Gray",
-        "count": 818,
-        "pct": 9.2034
+        "count": 816,
+        "pct": 9.1809
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Chaos Weaver",
-        "count": 383,
-        "pct": 4.3092
+        "count": 384,
+        "pct": 4.3204
       },
       "Shirt": {
         "value": "Chaos Weaver",
-        "count": 383,
-        "pct": 4.3092
+        "count": 384,
+        "pct": 4.3204
       },
       "Wizard Hat": {
         "value": "Chaos Weaver",
-        "count": 383,
-        "pct": 4.3092
+        "count": 384,
+        "pct": 4.3204
       },
       "Facial Hair": {
         "value": "Full Beard Black",
-        "count": 279,
-        "pct": 3.1391
+        "count": 278,
+        "pct": 3.1278
       },
       "Glasses": {
         "value": "Tempest Visors",
-        "count": 393,
-        "pct": 4.4217
+        "count": 392,
+        "pct": 4.4104
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Ice Staff",
-        "count": 460,
-        "pct": 5.1755
+        "count": 459,
+        "pct": 5.1643
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Owl",
-        "count": 488,
-        "pct": 5.4905
+        "count": 486,
+        "pct": 5.468
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "6151.png"
+    "image_basename": "6151.png",
+    "rarity_rank_numeric": 2549,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6151.png"
 }

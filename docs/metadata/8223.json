@@ -104,20 +104,20 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1776/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "1798/8818",
+    "rarity_score": 2.66e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "White",
-        "count": 491,
-        "pct": 5.5243
+        "count": 497,
+        "pct": 5.5918
       },
       "Face": {
         "value": "Fel Corrupted",
-        "count": 389,
-        "pct": 4.3767
+        "count": 390,
+        "pct": 4.3879
       },
       "Eyes": {
         "value": "Blue",
@@ -151,33 +151,33 @@
       },
       "Glasses": {
         "value": "Trench Scopes",
-        "count": 391,
-        "pct": 4.3992
+        "count": 392,
+        "pct": 4.4104
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Lightning Rod",
-        "count": 354,
-        "pct": 3.9829
+        "count": 356,
+        "pct": 4.0054
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Slime",
-        "count": 401,
-        "pct": 4.5117
+        "count": 404,
+        "pct": 4.5455
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "8223.png"
+    "image_basename": "8223.png",
+    "rarity_rank_numeric": 1798,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8223.png"
 }

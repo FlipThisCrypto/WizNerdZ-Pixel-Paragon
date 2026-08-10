@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "7353/8878",
-    "rarity_score": 1e-12,
+    "rarity_rank": "7289/8818",
+    "rarity_score": 1.4172e-12,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Violet",
-        "count": 676,
-        "pct": 7.6058
+        "count": 677,
+        "pct": 7.617
       },
       "Face": {
         "value": "Mystic Aura",
-        "count": 378,
-        "pct": 4.2529
+        "count": 381,
+        "pct": 4.2867
       },
       "Eyes": {
         "value": "Green",
-        "count": 1297,
-        "pct": 14.5927
+        "count": 1301,
+        "pct": 14.6377
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Vampire Lord",
-        "count": 403,
-        "pct": 4.5342
+        "count": 401,
+        "pct": 4.5117
       },
       "Shirt": {
         "value": "Vampire Lord",
-        "count": 403,
-        "pct": 4.5342
+        "count": 401,
+        "pct": 4.5117
       },
       "Wizard Hat": {
         "value": "Vampire Lord",
-        "count": 403,
-        "pct": 4.5342
+        "count": 401,
+        "pct": 4.5117
       },
       "Facial Hair": {
         "value": "Long Pointy Dark Brown",
-        "count": 332,
-        "pct": 3.7354
+        "count": 330,
+        "pct": 3.7129
       },
       "Glasses": {
         "value": "Frost Sight",
-        "count": 366,
-        "pct": 4.1179
+        "count": 363,
+        "pct": 4.0842
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "Floating Runes",
-        "count": 722,
-        "pct": 8.1233
+        "count": 724,
+        "pct": 8.1458
       },
       "Familiar": {
         "value": "None",
-        "count": 5041,
-        "pct": 56.7169
+        "count": 5043,
+        "pct": 56.7394
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "115.png"
+    "image_basename": "115.png",
+    "rarity_rank_numeric": 7289,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/115.png"
 }

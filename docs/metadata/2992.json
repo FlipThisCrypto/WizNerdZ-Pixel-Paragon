@@ -104,25 +104,25 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "2461/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "2459/8818",
+    "rarity_score": 4.42e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "White",
-        "count": 491,
-        "pct": 5.5243
+        "count": 497,
+        "pct": 5.5918
       },
       "Face": {
         "value": "Sands of Time",
-        "count": 363,
-        "pct": 4.0842
+        "count": 360,
+        "pct": 4.0504
       },
       "Eyes": {
         "value": "Light Brown",
-        "count": 846,
-        "pct": 9.5185
+        "count": 847,
+        "pct": 9.5297
       },
       "Mouth": {
         "value": "Classic",
@@ -146,8 +146,8 @@
       },
       "Facial Hair": {
         "value": "Goatee Dark Brown",
-        "count": 296,
-        "pct": 3.3303
+        "count": 298,
+        "pct": 3.3528
       },
       "Glasses": {
         "value": "Ethereal Visions",
@@ -156,23 +156,23 @@
       },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Black Cat",
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "2992.png"
+    "image_basename": "2992.png",
+    "rarity_rank_numeric": 2459,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2992.png"
 }

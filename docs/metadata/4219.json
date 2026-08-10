@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1636/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "1634/8818",
+    "rarity_score": 2.27e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "White",
-        "count": 491,
-        "pct": 5.5243
+        "count": 497,
+        "pct": 5.5918
       },
       "Face": {
         "value": "Ghostly",
-        "count": 412,
-        "pct": 4.6355
+        "count": 416,
+        "pct": 4.6805
       },
       "Eyes": {
         "value": "Amber",
-        "count": 653,
-        "pct": 7.347
+        "count": 654,
+        "pct": 7.3582
       },
       "Mouth": {
         "value": "Classic",
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Deep Sea",
-        "count": 419,
-        "pct": 4.7142
+        "count": 418,
+        "pct": 4.703
       },
       "Shirt": {
         "value": "Deep Sea",
-        "count": 419,
-        "pct": 4.7142
+        "count": 418,
+        "pct": 4.703
       },
       "Wizard Hat": {
         "value": "Deep Sea",
-        "count": 419,
-        "pct": 4.7142
+        "count": 418,
+        "pct": 4.703
       },
       "Facial Hair": {
         "value": "Long Rounded Black",
@@ -151,23 +151,23 @@
       },
       "Glasses": {
         "value": "Magma Goggles",
-        "count": 385,
-        "pct": 4.3317
+        "count": 388,
+        "pct": 4.3654
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "Reality Fracture",
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "4219.png"
+    "image_basename": "4219.png",
+    "rarity_rank_numeric": 1634,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4219.png"
 }

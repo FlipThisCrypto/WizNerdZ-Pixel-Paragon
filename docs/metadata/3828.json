@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1799/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "1765/8818",
+    "rarity_score": 2.58e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Violet",
-        "count": 676,
-        "pct": 7.6058
+        "count": 677,
+        "pct": 7.617
       },
       "Face": {
         "value": "Mystic Aura",
-        "count": 378,
-        "pct": 4.2529
+        "count": 381,
+        "pct": 4.2867
       },
       "Eyes": {
         "value": "Light Brown",
-        "count": 846,
-        "pct": 9.5185
+        "count": 847,
+        "pct": 9.5297
       },
       "Mouth": {
         "value": "Classic",
@@ -131,38 +131,38 @@
       },
       "Class": {
         "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
+        "count": 354,
+        "pct": 3.9829
       },
       "Shirt": {
         "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
+        "count": 354,
+        "pct": 3.9829
       },
       "Wizard Hat": {
         "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
+        "count": 354,
+        "pct": 3.9829
       },
       "Facial Hair": {
         "value": "Medium Rounded Blonde",
-        "count": 269,
-        "pct": 3.0266
+        "count": 270,
+        "pct": 3.0378
       },
       "Glasses": {
         "value": "Astral Focus",
-        "count": 363,
-        "pct": 4.0842
+        "count": 359,
+        "pct": 4.0392
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Dragon Staff",
@@ -171,13 +171,13 @@
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Frog",
-        "count": 709,
-        "pct": 7.977
+        "count": 702,
+        "pct": 7.8983
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "3828.png"
+    "image_basename": "3828.png",
+    "rarity_rank_numeric": 1765,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3828.png"
 }

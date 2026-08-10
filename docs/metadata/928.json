@@ -104,25 +104,25 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "810/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "771/8818",
+    "rarity_score": 6.7e-15,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Violet",
-        "count": 676,
-        "pct": 7.6058
+        "count": 677,
+        "pct": 7.617
       },
       "Face": {
         "value": "Shadow Form",
-        "count": 382,
-        "pct": 4.2979
+        "count": 379,
+        "pct": 4.2642
       },
       "Eyes": {
         "value": "Medium Brown",
-        "count": 1015,
-        "pct": 11.4199
+        "count": 1009,
+        "pct": 11.3524
       },
       "Mouth": {
         "value": "Classic",
@@ -131,38 +131,38 @@
       },
       "Class": {
         "value": "Sand Sage",
-        "count": 378,
-        "pct": 4.2529
+        "count": 376,
+        "pct": 4.2304
       },
       "Shirt": {
         "value": "Sand Sage",
-        "count": 378,
-        "pct": 4.2529
+        "count": 376,
+        "pct": 4.2304
       },
       "Wizard Hat": {
         "value": "Sand Sage",
-        "count": 378,
-        "pct": 4.2529
+        "count": 376,
+        "pct": 4.2304
       },
       "Facial Hair": {
         "value": "Full Beard Blonde",
-        "count": 156,
-        "pct": 1.7552
+        "count": 155,
+        "pct": 1.7439
       },
       "Glasses": {
         "value": "Terra Frames",
-        "count": 365,
-        "pct": 4.1067
+        "count": 366,
+        "pct": 4.1179
       },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Wooden Wand",
@@ -171,13 +171,13 @@
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Owl",
-        "count": 488,
-        "pct": 5.4905
+        "count": 486,
+        "pct": 5.468
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "928.png"
+    "image_basename": "928.png",
+    "rarity_rank_numeric": 771,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/928.png"
 }

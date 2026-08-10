@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "327/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "315/8818",
+    "rarity_score": 2.5e-15,
     "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Green",
-        "count": 837,
-        "pct": 9.4172
+        "count": 835,
+        "pct": 9.3947
       },
       "Face": {
         "value": "Storm Grey",
-        "count": 404,
-        "pct": 4.5455
+        "count": 401,
+        "pct": 4.5117
       },
       "Eyes": {
         "value": "Medium Brown",
-        "count": 1015,
-        "pct": 11.4199
+        "count": 1009,
+        "pct": 11.3524
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Warlock Fel",
-        "count": 394,
-        "pct": 4.4329
-      },
-      "Shirt": {
-        "value": "Warlock Fel",
-        "count": 394,
-        "pct": 4.4329
-      },
-      "Wizard Hat": {
-        "value": "Warlock Fel",
-        "count": 394,
-        "pct": 4.4329
-      },
-      "Facial Hair": {
-        "value": "Long Pointy White Gray",
-        "count": 116,
-        "pct": 1.3051
-      },
-      "Glasses": {
-        "value": "Sanguine Sight",
         "count": 395,
         "pct": 4.4442
       },
+      "Shirt": {
+        "value": "Warlock Fel",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Wizard Hat": {
+        "value": "Warlock Fel",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Facial Hair": {
+        "value": "Long Pointy White Gray",
+        "count": 115,
+        "pct": 1.2939
+      },
+      "Glasses": {
+        "value": "Sanguine Sight",
+        "count": 396,
+        "pct": 4.4554
+      },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Worldbreaker Wand",
-        "count": 192,
-        "pct": 2.1602
+        "count": 191,
+        "pct": 2.149
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 856,
-        "pct": 9.631
+        "count": 862,
+        "pct": 9.6985
       },
       "Familiar": {
         "value": "Owl",
-        "count": 488,
-        "pct": 5.4905
+        "count": 486,
+        "pct": 5.468
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "4209.png"
+    "image_basename": "4209.png",
+    "rarity_rank_numeric": 315,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4209.png"
 }

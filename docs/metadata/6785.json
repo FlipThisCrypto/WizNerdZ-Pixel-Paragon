@@ -104,20 +104,20 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "3902/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "3821/8818",
+    "rarity_score": 1.137e-13,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Green",
-        "count": 837,
-        "pct": 9.4172
+        "count": 835,
+        "pct": 9.3947
       },
       "Face": {
         "value": "Frostbitten",
-        "count": 389,
-        "pct": 4.3767
+        "count": 384,
+        "pct": 4.3204
       },
       "Eyes": {
         "value": "Dark Brown",
@@ -146,38 +146,38 @@
       },
       "Facial Hair": {
         "value": "Goatee Brown",
-        "count": 277,
-        "pct": 3.1166
+        "count": 275,
+        "pct": 3.0941
       },
       "Glasses": {
         "value": "Entropy Shades",
-        "count": 390,
-        "pct": 4.3879
+        "count": 387,
+        "pct": 4.3542
       },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Frog",
-        "count": 709,
-        "pct": 7.977
+        "count": 702,
+        "pct": 7.8983
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "6785.png"
+    "image_basename": "6785.png",
+    "rarity_rank_numeric": 3821,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6785.png"
 }

@@ -104,20 +104,20 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "531/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "520/8818",
+    "rarity_score": 4.2e-15,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Violet",
-        "count": 676,
-        "pct": 7.6058
+        "count": 677,
+        "pct": 7.617
       },
       "Face": {
         "value": "Mana Veined",
-        "count": 383,
-        "pct": 4.3092
+        "count": 382,
+        "pct": 4.2979
       },
       "Eyes": {
         "value": "Dark Brown",
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Sand Sage",
-        "count": 378,
-        "pct": 4.2529
+        "count": 376,
+        "pct": 4.2304
       },
       "Shirt": {
         "value": "Sand Sage",
-        "count": 378,
-        "pct": 4.2529
+        "count": 376,
+        "pct": 4.2304
       },
       "Wizard Hat": {
         "value": "Sand Sage",
-        "count": 378,
-        "pct": 4.2529
+        "count": 376,
+        "pct": 4.2304
       },
       "Facial Hair": {
         "value": "Long Rounded Black",
@@ -151,33 +151,33 @@
       },
       "Glasses": {
         "value": "Glamour Glass",
-        "count": 370,
-        "pct": 4.1629
+        "count": 368,
+        "pct": 4.1404
       },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "Floating Runes",
-        "count": 722,
-        "pct": 8.1233
+        "count": 724,
+        "pct": 8.1458
       },
       "Familiar": {
         "value": "Miniature Cosmic Beast",
-        "count": 199,
-        "pct": 2.239
+        "count": 201,
+        "pct": 2.2615
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "507.png"
+    "image_basename": "507.png",
+    "rarity_rank_numeric": 520,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/507.png"
 }

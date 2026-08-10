@@ -104,25 +104,25 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "18/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "19/8818",
+    "rarity_score": 3e-16,
     "rarity_tier": "Legendary",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Teal",
-        "count": 671,
-        "pct": 7.5495
+        "count": 673,
+        "pct": 7.572
       },
       "Face": {
         "value": "Desiccated",
-        "count": 396,
-        "pct": 4.4554
+        "count": 395,
+        "pct": 4.4442
       },
       "Eyes": {
         "value": "Green",
-        "count": 1297,
-        "pct": 14.5927
+        "count": 1301,
+        "pct": 14.6377
       },
       "Mouth": {
         "value": "Classic",
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Blood Mage",
-        "count": 367,
-        "pct": 4.1292
+        "count": 369,
+        "pct": 4.1517
       },
       "Shirt": {
         "value": "Blood Mage",
-        "count": 367,
-        "pct": 4.1292
+        "count": 369,
+        "pct": 4.1517
       },
       "Wizard Hat": {
         "value": "Blood Mage",
-        "count": 366,
-        "pct": 4.1179
+        "count": 368,
+        "pct": 4.1404
       },
       "Facial Hair": {
         "value": "Long Pointy Brown",
@@ -151,33 +151,33 @@
       },
       "Glasses": {
         "value": "Dune Drifters",
-        "count": 390,
-        "pct": 4.3879
+        "count": 391,
+        "pct": 4.3992
       },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Bone Scepter",
-        "count": 307,
-        "pct": 3.4541
+        "count": 305,
+        "pct": 3.4316
       },
       "Spell Effect": {
         "value": "Fireball",
-        "count": 554,
-        "pct": 6.2331
+        "count": 556,
+        "pct": 6.2556
       },
       "Familiar": {
         "value": "Miniature Cosmic Beast",
-        "count": 199,
-        "pct": 2.239
+        "count": 201,
+        "pct": 2.2615
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "3087.png"
+    "image_basename": "3087.png",
+    "rarity_rank_numeric": 19,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3087.png"
 }

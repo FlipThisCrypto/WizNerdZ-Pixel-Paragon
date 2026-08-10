@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1112/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "1076/8818",
+    "rarity_score": 1.12e-14,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Indigo",
-        "count": 636,
-        "pct": 7.1557
+        "count": 635,
+        "pct": 7.1445
       },
       "Face": {
         "value": "Exsanguinated",
-        "count": 329,
-        "pct": 3.7016
+        "count": 332,
+        "pct": 3.7354
       },
       "Eyes": {
         "value": "Light Blue",
-        "count": 883,
-        "pct": 9.9347
+        "count": 882,
+        "pct": 9.9235
       },
       "Mouth": {
         "value": "Classic",
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Void Walker",
-        "count": 366,
-        "pct": 4.1179
+        "count": 361,
+        "pct": 4.0617
       },
       "Shirt": {
         "value": "Void Walker",
-        "count": 366,
-        "pct": 4.1179
+        "count": 361,
+        "pct": 4.0617
       },
       "Wizard Hat": {
         "value": "Void Walker",
-        "count": 366,
-        "pct": 4.1179
+        "count": 361,
+        "pct": 4.0617
       },
       "Facial Hair": {
         "value": "Long Rounded Black",
@@ -151,18 +151,18 @@
       },
       "Glasses": {
         "value": "Astral Focus",
-        "count": 363,
-        "pct": 4.0842
+        "count": 359,
+        "pct": 4.0392
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Wooden Wand",
@@ -171,8 +171,8 @@
       },
       "Spell Effect": {
         "value": "Sparks",
-        "count": 856,
-        "pct": 9.631
+        "count": 862,
+        "pct": 9.6985
       },
       "Familiar": {
         "value": "Baby Dragon",
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "515.png"
+    "image_basename": "515.png",
+    "rarity_rank_numeric": 1076,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/515.png"
 }

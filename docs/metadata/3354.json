@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "131/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "132/8818",
+    "rarity_score": 1.1e-15,
     "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -121,8 +121,8 @@
       },
       "Eyes": {
         "value": "Light Blue",
-        "count": 883,
-        "pct": 9.9347
+        "count": 882,
+        "pct": 9.9235
       },
       "Mouth": {
         "value": "Classic",
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Chaos Weaver",
-        "count": 383,
-        "pct": 4.3092
+        "count": 384,
+        "pct": 4.3204
       },
       "Shirt": {
         "value": "Chaos Weaver",
-        "count": 383,
-        "pct": 4.3092
+        "count": 384,
+        "pct": 4.3204
       },
       "Wizard Hat": {
         "value": "Chaos Weaver",
-        "count": 383,
-        "pct": 4.3092
+        "count": 384,
+        "pct": 4.3204
       },
       "Facial Hair": {
         "value": "Goatee Red Orange",
@@ -151,33 +151,33 @@
       },
       "Glasses": {
         "value": "Frost Sight",
-        "count": 366,
-        "pct": 4.1179
+        "count": 363,
+        "pct": 4.0842
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Timekeeper Staff",
-        "count": 221,
-        "pct": 2.4865
+        "count": 220,
+        "pct": 2.4752
       },
       "Spell Effect": {
         "value": "Fireball",
-        "count": 554,
-        "pct": 6.2331
+        "count": 556,
+        "pct": 6.2556
       },
       "Familiar": {
         "value": "Slime",
-        "count": 401,
-        "pct": 4.5117
+        "count": 404,
+        "pct": 4.5455
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "3354.png"
+    "image_basename": "3354.png",
+    "rarity_rank_numeric": 132,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3354.png"
 }

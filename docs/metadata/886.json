@@ -104,20 +104,20 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2400/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "2381/8818",
+    "rarity_score": 4.21e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Black",
-        "count": 403,
-        "pct": 4.5342
+        "count": 400,
+        "pct": 4.5005
       },
       "Face": {
         "value": "Ghostly",
-        "count": 412,
-        "pct": 4.6355
+        "count": 416,
+        "pct": 4.6805
       },
       "Eyes": {
         "value": "Dark Brown",
@@ -146,8 +146,8 @@
       },
       "Facial Hair": {
         "value": "Goatee Brown",
-        "count": 277,
-        "pct": 3.1166
+        "count": 275,
+        "pct": 3.0941
       },
       "Glasses": {
         "value": "Oracle Orbs",
@@ -156,23 +156,23 @@
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "Floating Runes",
-        "count": 722,
-        "pct": 8.1233
+        "count": 724,
+        "pct": 8.1458
       },
       "Familiar": {
         "value": "Black Cat",
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "886.png"
+    "image_basename": "886.png",
+    "rarity_rank_numeric": 2381,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/886.png"
 }

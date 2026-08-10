@@ -104,20 +104,20 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "116/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "121/8818",
+    "rarity_score": 1.1e-15,
     "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "White",
-        "count": 491,
-        "pct": 5.5243
+        "count": 497,
+        "pct": 5.5918
       },
       "Face": {
         "value": "Rotten Flesh",
-        "count": 374,
-        "pct": 4.2079
+        "count": 375,
+        "pct": 4.2192
       },
       "Eyes": {
         "value": "Dark Brown",
@@ -151,28 +151,28 @@
       },
       "Glasses": {
         "value": "Fel Oculars",
-        "count": 404,
-        "pct": 4.5455
+        "count": 405,
+        "pct": 4.5567
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Lightning Rod",
-        "count": 354,
-        "pct": 3.9829
+        "count": 356,
+        "pct": 4.0054
       },
       "Spell Effect": {
         "value": "Lightning Arc",
-        "count": 463,
-        "pct": 5.2093
+        "count": 464,
+        "pct": 5.2205
       },
       "Familiar": {
         "value": "Black Cat",
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "7364.png"
+    "image_basename": "7364.png",
+    "rarity_rank_numeric": 121,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7364.png"
 }

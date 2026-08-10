@@ -104,20 +104,20 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "273/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "278/8818",
+    "rarity_score": 2.2e-15,
     "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Red",
-        "count": 787,
-        "pct": 8.8546
+        "count": 792,
+        "pct": 8.9109
       },
       "Face": {
         "value": "Frostbitten",
-        "count": 389,
-        "pct": 4.3767
+        "count": 384,
+        "pct": 4.3204
       },
       "Eyes": {
         "value": "Blue",
@@ -146,38 +146,38 @@
       },
       "Facial Hair": {
         "value": "Chin Strap Dark Brown",
-        "count": 138,
-        "pct": 1.5527
+        "count": 141,
+        "pct": 1.5864
       },
       "Glasses": {
         "value": "Dune Drifters",
-        "count": 390,
-        "pct": 4.3879
+        "count": 391,
+        "pct": 4.3992
       },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Lightning Rod",
-        "count": 354,
-        "pct": 3.9829
+        "count": 356,
+        "pct": 4.0054
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Miniature Cosmic Beast",
-        "count": 199,
-        "pct": 2.239
+        "count": 201,
+        "pct": 2.2615
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "7151.png"
+    "image_basename": "7151.png",
+    "rarity_rank_numeric": 278,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7151.png"
 }

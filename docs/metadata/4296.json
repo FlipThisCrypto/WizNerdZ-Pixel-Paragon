@@ -104,20 +104,20 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "4233/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "4236/8818",
+    "rarity_score": 1.621e-13,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Pink",
-        "count": 641,
-        "pct": 7.212
+        "count": 638,
+        "pct": 7.1782
       },
       "Face": {
         "value": "Exsanguinated",
-        "count": 329,
-        "pct": 3.7016
+        "count": 332,
+        "pct": 3.7354
       },
       "Eyes": {
         "value": "Blue",
@@ -131,23 +131,23 @@
       },
       "Class": {
         "value": "Cryomancer",
-        "count": 341,
-        "pct": 3.8366
+        "count": 344,
+        "pct": 3.8704
       },
       "Shirt": {
         "value": "Cryomancer",
-        "count": 341,
-        "pct": 3.8366
+        "count": 344,
+        "pct": 3.8704
       },
       "Wizard Hat": {
         "value": "Cryomancer",
-        "count": 341,
-        "pct": 3.8366
+        "count": 344,
+        "pct": 3.8704
       },
       "Facial Hair": {
         "value": "Medium Rounded Black",
-        "count": 499,
-        "pct": 5.6143
+        "count": 501,
+        "pct": 5.6368
       },
       "Glasses": {
         "value": "Sigil Scanners",
@@ -156,28 +156,28 @@
       },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Frog",
-        "count": 709,
-        "pct": 7.977
+        "count": 702,
+        "pct": 7.8983
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "4296.png"
+    "image_basename": "4296.png",
+    "rarity_rank_numeric": 4236,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4296.png"
 }

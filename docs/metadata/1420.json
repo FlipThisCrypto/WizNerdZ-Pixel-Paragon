@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3918/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "3939/8818",
+    "rarity_score": 1.249e-13,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Violet",
-        "count": 676,
-        "pct": 7.6058
+        "count": 677,
+        "pct": 7.617
       },
       "Face": {
         "value": "Rune Etched",
-        "count": 381,
-        "pct": 4.2867
+        "count": 385,
+        "pct": 4.3317
       },
       "Eyes": {
         "value": "Green",
-        "count": 1297,
-        "pct": 14.5927
+        "count": 1301,
+        "pct": 14.6377
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Chaos Weaver",
-        "count": 383,
-        "pct": 4.3092
+        "count": 384,
+        "pct": 4.3204
       },
       "Shirt": {
         "value": "Chaos Weaver",
-        "count": 383,
-        "pct": 4.3092
+        "count": 384,
+        "pct": 4.3204
       },
       "Wizard Hat": {
         "value": "Chaos Weaver",
-        "count": 383,
-        "pct": 4.3092
+        "count": 384,
+        "pct": 4.3204
       },
       "Facial Hair": {
         "value": "Medium Rounded Red Orange",
-        "count": 255,
-        "pct": 2.869
+        "count": 256,
+        "pct": 2.8803
       },
       "Glasses": {
         "value": "Magma Goggles",
-        "count": 385,
-        "pct": 4.3317
+        "count": 388,
+        "pct": 4.3654
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "Floating Runes",
-        "count": 722,
-        "pct": 8.1233
+        "count": 724,
+        "pct": 8.1458
       },
       "Familiar": {
         "value": "Raven",
-        "count": 603,
-        "pct": 6.7844
+        "count": 604,
+        "pct": 6.7957
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "1420.png"
+    "image_basename": "1420.png",
+    "rarity_rank_numeric": 3939,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1420.png"
 }

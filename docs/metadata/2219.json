@@ -104,25 +104,25 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "3/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "3/8818",
+    "rarity_score": 1e-16,
     "rarity_tier": "Legendary",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Silver",
-        "count": 328,
-        "pct": 3.6904
+        "count": 329,
+        "pct": 3.7016
       },
       "Face": {
         "value": "Mana Veined",
-        "count": 383,
-        "pct": 4.3092
+        "count": 382,
+        "pct": 4.2979
       },
       "Eyes": {
         "value": "Amber",
-        "count": 653,
-        "pct": 7.347
+        "count": 654,
+        "pct": 7.3582
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Cleric Light",
-        "count": 391,
-        "pct": 4.3992
-      },
-      "Shirt": {
-        "value": "Cleric Light",
-        "count": 391,
-        "pct": 4.3992
-      },
-      "Wizard Hat": {
-        "value": "Cleric Light",
-        "count": 391,
-        "pct": 4.3992
-      },
-      "Facial Hair": {
-        "value": "Chin Strap Black",
-        "count": 163,
-        "pct": 1.8339
-      },
-      "Glasses": {
-        "value": "Crimson Glare",
         "count": 395,
         "pct": 4.4442
       },
+      "Shirt": {
+        "value": "Cleric Light",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Wizard Hat": {
+        "value": "Cleric Light",
+        "count": 395,
+        "pct": 4.4442
+      },
+      "Facial Hair": {
+        "value": "Chin Strap Black",
+        "count": 161,
+        "pct": 1.8114
+      },
+      "Glasses": {
+        "value": "Crimson Glare",
+        "count": 397,
+        "pct": 4.4667
+      },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Ice Staff",
-        "count": 460,
-        "pct": 5.1755
+        "count": 459,
+        "pct": 5.1643
       },
       "Spell Effect": {
         "value": "Fireball",
-        "count": 554,
-        "pct": 6.2331
+        "count": 556,
+        "pct": 6.2556
       },
       "Familiar": {
         "value": "Ghost",
-        "count": 307,
-        "pct": 3.4541
+        "count": 306,
+        "pct": 3.4428
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "2219.png"
+    "image_basename": "2219.png",
+    "rarity_rank_numeric": 3,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2219.png"
 }

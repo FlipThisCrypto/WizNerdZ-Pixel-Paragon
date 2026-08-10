@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "148/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "154/8818",
+    "rarity_score": 1.3e-15,
     "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "White",
-        "count": 491,
-        "pct": 5.5243
+        "count": 497,
+        "pct": 5.5918
       },
       "Face": {
         "value": "Void Touched",
-        "count": 414,
-        "pct": 4.658
+        "count": 412,
+        "pct": 4.6355
       },
       "Eyes": {
         "value": "Light Blue",
-        "count": 883,
-        "pct": 9.9347
+        "count": 882,
+        "pct": 9.9235
       },
       "Mouth": {
         "value": "Classic",
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Blood Mage",
-        "count": 367,
-        "pct": 4.1292
+        "count": 369,
+        "pct": 4.1517
       },
       "Shirt": {
         "value": "Blood Mage",
-        "count": 367,
-        "pct": 4.1292
+        "count": 369,
+        "pct": 4.1517
       },
       "Wizard Hat": {
         "value": "Blood Mage",
-        "count": 366,
-        "pct": 4.1179
+        "count": 368,
+        "pct": 4.1404
       },
       "Facial Hair": {
         "value": "Goatee Red Orange",
@@ -151,33 +151,33 @@
       },
       "Glasses": {
         "value": "Trench Scopes",
-        "count": 391,
-        "pct": 4.3992
+        "count": 392,
+        "pct": 4.4104
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Timekeeper Staff",
-        "count": 221,
-        "pct": 2.4865
+        "count": 220,
+        "pct": 2.4752
       },
       "Spell Effect": {
         "value": "Fireball",
-        "count": 554,
-        "pct": 6.2331
+        "count": 556,
+        "pct": 6.2556
       },
       "Familiar": {
         "value": "Raven",
-        "count": 603,
-        "pct": 6.7844
+        "count": 604,
+        "pct": 6.7957
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "377.png"
+    "image_basename": "377.png",
+    "rarity_rank_numeric": 154,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/377.png"
 }

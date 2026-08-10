@@ -104,20 +104,20 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1564/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "1535/8818",
+    "rarity_score": 2.03e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Yellow",
-        "count": 797,
-        "pct": 8.9671
+        "count": 789,
+        "pct": 8.8771
       },
       "Face": {
         "value": "Potion Stained",
-        "count": 422,
-        "pct": 4.748
+        "count": 424,
+        "pct": 4.7705
       },
       "Eyes": {
         "value": "Blue",
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Arcane Mage",
-        "count": 397,
-        "pct": 4.4667
+        "count": 398,
+        "pct": 4.4779
       },
       "Shirt": {
         "value": "Arcane Mage",
-        "count": 397,
-        "pct": 4.4667
+        "count": 398,
+        "pct": 4.4779
       },
       "Wizard Hat": {
         "value": "Arcane Mage",
-        "count": 397,
-        "pct": 4.4667
+        "count": 398,
+        "pct": 4.4779
       },
       "Facial Hair": {
         "value": "Full Beard Dark Brown",
@@ -156,13 +156,13 @@
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Wooden Wand",
@@ -171,8 +171,8 @@
       },
       "Spell Effect": {
         "value": "Ice Shards",
-        "count": 480,
-        "pct": 5.4005
+        "count": 476,
+        "pct": 5.3555
       },
       "Familiar": {
         "value": "Black Cat",
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "8091.png"
+    "image_basename": "8091.png",
+    "rarity_rank_numeric": 1535,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8091.png"
 }

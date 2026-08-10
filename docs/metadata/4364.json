@@ -104,15 +104,15 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "263/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "253/8818",
+    "rarity_score": 1.9e-15,
     "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Yellow",
-        "count": 797,
-        "pct": 8.9671
+        "count": 789,
+        "pct": 8.8771
       },
       "Face": {
         "value": "Glamour Tint",
@@ -131,48 +131,48 @@
       },
       "Class": {
         "value": "Sand Sage",
-        "count": 378,
-        "pct": 4.2529
+        "count": 376,
+        "pct": 4.2304
       },
       "Shirt": {
         "value": "Sand Sage",
-        "count": 378,
-        "pct": 4.2529
+        "count": 376,
+        "pct": 4.2304
       },
       "Wizard Hat": {
         "value": "Sand Sage",
-        "count": 378,
-        "pct": 4.2529
+        "count": 376,
+        "pct": 4.2304
       },
       "Facial Hair": {
         "value": "Chin Strap Blonde",
-        "count": 99,
-        "pct": 1.1139
+        "count": 98,
+        "pct": 1.1026
       },
       "Glasses": {
         "value": "Trench Scopes",
-        "count": 391,
-        "pct": 4.3992
+        "count": 392,
+        "pct": 4.4104
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Fire Staff",
-        "count": 437,
-        "pct": 4.9167
+        "count": 441,
+        "pct": 4.9617
       },
       "Spell Effect": {
         "value": "Poison Mist",
-        "count": 388,
-        "pct": 4.3654
+        "count": 385,
+        "pct": 4.3317
       },
       "Familiar": {
         "value": "Baby Dragon",
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "4364.png"
+    "image_basename": "4364.png",
+    "rarity_rank_numeric": 253,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4364.png"
 }

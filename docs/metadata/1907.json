@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2876/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "2807/8818",
+    "rarity_score": 5.7e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Yellow",
-        "count": 797,
-        "pct": 8.9671
+        "count": 789,
+        "pct": 8.8771
       },
       "Face": {
         "value": "Charred Ash",
-        "count": 395,
-        "pct": 4.4442
+        "count": 392,
+        "pct": 4.4104
       },
       "Eyes": {
         "value": "Hazel",
-        "count": 1088,
-        "pct": 12.2412
+        "count": 1091,
+        "pct": 12.275
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Shadow Priest",
-        "count": 406,
-        "pct": 4.568
+        "count": 403,
+        "pct": 4.5342
       },
       "Shirt": {
         "value": "Shadow Priest",
-        "count": 406,
-        "pct": 4.568
+        "count": 403,
+        "pct": 4.5342
       },
       "Wizard Hat": {
         "value": "Shadow Priest",
-        "count": 406,
-        "pct": 4.568
+        "count": 403,
+        "pct": 4.5342
       },
       "Facial Hair": {
         "value": "Long Pointy Dark Brown",
-        "count": 332,
-        "pct": 3.7354
+        "count": 330,
+        "pct": 3.7129
       },
       "Glasses": {
         "value": "Elder Keepers",
-        "count": 394,
-        "pct": 4.4329
+        "count": 397,
+        "pct": 4.4667
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Ice Staff",
-        "count": 460,
-        "pct": 5.1755
+        "count": 459,
+        "pct": 5.1643
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Phoenix",
-        "count": 265,
-        "pct": 2.9815
+        "count": 267,
+        "pct": 3.0041
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "1907.png"
+    "image_basename": "1907.png",
+    "rarity_rank_numeric": 2807,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1907.png"
 }

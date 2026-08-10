@@ -104,20 +104,20 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2840/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "2746/8818",
+    "rarity_score": 5.43e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Yellow",
-        "count": 797,
-        "pct": 8.9671
+        "count": 789,
+        "pct": 8.8771
       },
       "Face": {
         "value": "Frostbitten",
-        "count": 389,
-        "pct": 4.3767
+        "count": 384,
+        "pct": 4.3204
       },
       "Eyes": {
         "value": "Blue",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Vampire Lord",
-        "count": 403,
-        "pct": 4.5342
+        "count": 401,
+        "pct": 4.5117
       },
       "Shirt": {
         "value": "Vampire Lord",
-        "count": 403,
-        "pct": 4.5342
+        "count": 401,
+        "pct": 4.5117
       },
       "Wizard Hat": {
         "value": "Vampire Lord",
-        "count": 403,
-        "pct": 4.5342
+        "count": 401,
+        "pct": 4.5117
       },
       "Facial Hair": {
         "value": "Long Pointy Dark Brown",
-        "count": 332,
-        "pct": 3.7354
+        "count": 330,
+        "pct": 3.7129
       },
       "Glasses": {
         "value": "Mystic Gaze",
-        "count": 384,
-        "pct": 4.3204
+        "count": 385,
+        "pct": 4.3317
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Bone Scepter",
-        "count": 307,
-        "pct": 3.4541
+        "count": 305,
+        "pct": 3.4316
       },
       "Spell Effect": {
         "value": "None",
-        "count": 4944,
-        "pct": 55.6256
+        "count": 4942,
+        "pct": 55.6031
       },
       "Familiar": {
         "value": "Ghost",
-        "count": 307,
-        "pct": 3.4541
+        "count": 306,
+        "pct": 3.4428
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "2648.png"
+    "image_basename": "2648.png",
+    "rarity_rank_numeric": 2746,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2648.png"
 }

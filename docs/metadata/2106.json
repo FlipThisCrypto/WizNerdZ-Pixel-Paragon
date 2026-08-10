@@ -79,14 +79,6 @@
       "value": "Community 1 of 1"
     },
     {
-      "trait_type": "Rarity",
-      "value": "1 of 1"
-    },
-    {
-      "trait_type": "Supply",
-      "value": "1"
-    },
-    {
       "trait_type": "Community Handle",
       "value": "@trashformersnft"
     },
@@ -97,6 +89,14 @@
     {
       "trait_type": "Name",
       "value": "Trashformers"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Supply",
+      "value": "1"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -122,7 +122,10 @@
       "familiar": "None",
       "logo": "WizNerdZ Pixel Paragon 2x"
     },
-    "display_name": "Trashformers"
+    "display_name": "Trashformers",
+    "rarity_score": null,
+    "rarity_rank_numeric": 0,
+    "rarity_pool": "1of1"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2106.png"
 }

@@ -104,20 +104,20 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "196/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "190/8818",
+    "rarity_score": 1.6e-15,
     "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Yellow",
-        "count": 797,
-        "pct": 8.9671
+        "count": 789,
+        "pct": 8.8771
       },
       "Face": {
         "value": "Bark Skin",
-        "count": 358,
-        "pct": 4.0279
+        "count": 356,
+        "pct": 4.0054
       },
       "Eyes": {
         "value": "Blue",
@@ -131,38 +131,38 @@
       },
       "Class": {
         "value": "Storm Caller",
-        "count": 429,
-        "pct": 4.8267
+        "count": 426,
+        "pct": 4.793
       },
       "Shirt": {
         "value": "Storm Caller",
-        "count": 429,
-        "pct": 4.8267
+        "count": 426,
+        "pct": 4.793
       },
       "Wizard Hat": {
         "value": "Storm Caller",
-        "count": 429,
-        "pct": 4.8267
+        "count": 426,
+        "pct": 4.793
       },
       "Facial Hair": {
         "value": "Long Braid White Gray",
-        "count": 69,
-        "pct": 0.7763
+        "count": 71,
+        "pct": 0.7988
       },
       "Glasses": {
         "value": "Tempest Visors",
-        "count": 393,
-        "pct": 4.4217
+        "count": 392,
+        "pct": 4.4104
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Dragon Staff",
@@ -171,13 +171,13 @@
       },
       "Spell Effect": {
         "value": "Lightning Arc",
-        "count": 463,
-        "pct": 5.2093
+        "count": 464,
+        "pct": 5.2205
       },
       "Familiar": {
         "value": "Owl",
-        "count": 488,
-        "pct": 5.4905
+        "count": 486,
+        "pct": 5.468
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "4706.png"
+    "image_basename": "4706.png",
+    "rarity_rank_numeric": 190,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4706.png"
 }

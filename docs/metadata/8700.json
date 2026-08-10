@@ -87,16 +87,16 @@
       "value": "None"
     },
     {
+      "trait_type": "Display Name",
+      "value": "Staker"
+    },
+    {
       "trait_type": "Rarity",
       "value": "1 of 1"
     },
     {
       "trait_type": "Supply",
       "value": "1"
-    },
-    {
-      "trait_type": "Display Name",
-      "value": "Staker"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -123,7 +123,10 @@
       "staff_offset_y": 30
     },
     "image_basename": "8700.png",
-    "display_name": "Staker"
+    "display_name": "Staker",
+    "rarity_score": null,
+    "rarity_rank_numeric": 0,
+    "rarity_pool": "1of1"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8700.png"
 }

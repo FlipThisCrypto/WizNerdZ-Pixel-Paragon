@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1959/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "1893/8818",
+    "rarity_score": 2.91e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -116,8 +116,8 @@
       },
       "Face": {
         "value": "Shadow Form",
-        "count": 382,
-        "pct": 4.2979
+        "count": 379,
+        "pct": 4.2642
       },
       "Eyes": {
         "value": "Blue",
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Shadow Priest",
-        "count": 406,
-        "pct": 4.568
+        "count": 403,
+        "pct": 4.5342
       },
       "Shirt": {
         "value": "Shadow Priest",
-        "count": 406,
-        "pct": 4.568
+        "count": 403,
+        "pct": 4.5342
       },
       "Wizard Hat": {
         "value": "Shadow Priest",
-        "count": 406,
-        "pct": 4.568
+        "count": 403,
+        "pct": 4.5342
       },
       "Facial Hair": {
         "value": "Long Rounded Blonde",
@@ -151,28 +151,28 @@
       },
       "Glasses": {
         "value": "Fel Oculars",
-        "count": 404,
-        "pct": 4.5455
+        "count": 405,
+        "pct": 4.5567
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "Poison Mist",
-        "count": 388,
-        "pct": 4.3654
+        "count": 385,
+        "pct": 4.3317
       },
       "Familiar": {
         "value": "Baby Dragon",
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "2669.png"
+    "image_basename": "2669.png",
+    "rarity_rank_numeric": 1893,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2669.png"
 }

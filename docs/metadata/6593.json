@@ -104,25 +104,25 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "145/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "156/8818",
+    "rarity_score": 1.3e-15,
     "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "White",
-        "count": 491,
-        "pct": 5.5243
+        "count": 497,
+        "pct": 5.5918
       },
       "Face": {
         "value": "Rune Etched",
-        "count": 381,
-        "pct": 4.2867
+        "count": 385,
+        "pct": 4.3317
       },
       "Eyes": {
         "value": "Light Blue",
-        "count": 883,
-        "pct": 9.9347
+        "count": 882,
+        "pct": 9.9235
       },
       "Mouth": {
         "value": "Classic",
@@ -131,43 +131,43 @@
       },
       "Class": {
         "value": "Cryomancer",
-        "count": 341,
-        "pct": 3.8366
+        "count": 344,
+        "pct": 3.8704
       },
       "Shirt": {
         "value": "Cryomancer",
-        "count": 341,
-        "pct": 3.8366
+        "count": 344,
+        "pct": 3.8704
       },
       "Wizard Hat": {
         "value": "Cryomancer",
-        "count": 341,
-        "pct": 3.8366
+        "count": 344,
+        "pct": 3.8704
       },
       "Facial Hair": {
         "value": "Long Rounded Brown",
-        "count": 309,
-        "pct": 3.4766
+        "count": 308,
+        "pct": 3.4653
       },
       "Glasses": {
         "value": "Trench Scopes",
-        "count": 391,
-        "pct": 4.3992
+        "count": 392,
+        "pct": 4.4104
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
+        "count": 7900,
+        "pct": 88.8839
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "Ice Staff",
-        "count": 460,
-        "pct": 5.1755
+        "count": 459,
+        "pct": 5.1643
       },
       "Spell Effect": {
         "value": "Reality Fracture",
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "6593.png"
+    "image_basename": "6593.png",
+    "rarity_rank_numeric": 156,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6593.png"
 }

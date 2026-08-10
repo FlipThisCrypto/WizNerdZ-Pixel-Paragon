@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "341/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "338/8818",
+    "rarity_score": 2.7e-15,
     "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -121,8 +121,8 @@
       },
       "Eyes": {
         "value": "Medium Brown",
-        "count": 1015,
-        "pct": 11.4199
+        "count": 1009,
+        "pct": 11.3524
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
-      },
-      "Shirt": {
-        "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
-      },
-      "Wizard Hat": {
-        "value": "Pyromancer",
-        "count": 355,
-        "pct": 3.9941
-      },
-      "Facial Hair": {
-        "value": "Goatee Black",
-        "count": 353,
-        "pct": 3.9716
-      },
-      "Glasses": {
-        "value": "Terra Frames",
-        "count": 365,
-        "pct": 4.1067
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "Lightning Rod",
         "count": 354,
         "pct": 3.9829
       },
+      "Shirt": {
+        "value": "Pyromancer",
+        "count": 354,
+        "pct": 3.9829
+      },
+      "Wizard Hat": {
+        "value": "Pyromancer",
+        "count": 354,
+        "pct": 3.9829
+      },
+      "Facial Hair": {
+        "value": "Goatee Black",
+        "count": 356,
+        "pct": 4.0054
+      },
+      "Glasses": {
+        "value": "Terra Frames",
+        "count": 366,
+        "pct": 4.1179
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7900,
+        "pct": 88.8839
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8818,
+        "pct": 99.2124
+      },
+      "Staff": {
+        "value": "Lightning Rod",
+        "count": 356,
+        "pct": 4.0054
+      },
       "Spell Effect": {
         "value": "Floating Runes",
-        "count": 722,
-        "pct": 8.1233
+        "count": 724,
+        "pct": 8.1458
       },
       "Familiar": {
         "value": "Ghost",
-        "count": 307,
-        "pct": 3.4541
+        "count": 306,
+        "pct": 3.4428
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "7488.png"
+    "image_basename": "7488.png",
+    "rarity_rank_numeric": 338,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7488.png"
 }

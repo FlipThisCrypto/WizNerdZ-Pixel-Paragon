@@ -77,6 +77,10 @@
     {
       "trait_type": "Familiar",
       "value": "None"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -96,6 +100,85 @@
       "spell": "None",
       "familiar": "None",
       "logo": "WizNerdZ Pixel Paragon 2x"
+    },
+    "rarity_rank": "4672/8818",
+    "rarity_rank_numeric": 4672,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818,
+    "rarity_score": 2.333e-13,
+    "rarity_tier": "Common",
+    "max_supply": 8888,
+    "attribute_rarity": {
+      "Background": {
+        "value": "Indigo",
+        "count": 635,
+        "pct": 7.1445
+      },
+      "Face": {
+        "value": "Exsanguinated",
+        "count": 332,
+        "pct": 3.7354
+      },
+      "Eyes": {
+        "value": "Amber",
+        "count": 654,
+        "pct": 7.3582
+      },
+      "Mouth": {
+        "value": "Classic",
+        "count": 8887,
+        "pct": 99.9887
+      },
+      "Class": {
+        "value": "Necromancer",
+        "count": 388,
+        "pct": 4.3654
+      },
+      "Shirt": {
+        "value": "Necromancer",
+        "count": 388,
+        "pct": 4.3654
+      },
+      "Wizard Hat": {
+        "value": "Necromancer",
+        "count": 388,
+        "pct": 4.3654
+      },
+      "Facial Hair": {
+        "value": "Medium Rounded Brown",
+        "count": 373,
+        "pct": 4.1967
+      },
+      "Glasses": {
+        "value": "Lich Lenses",
+        "count": 393,
+        "pct": 4.4217
+      },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7900,
+        "pct": 88.8839
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8818,
+        "pct": 99.2124
+      },
+      "Staff": {
+        "value": "Dragon Staff",
+        "count": 244,
+        "pct": 2.7453
+      },
+      "Spell Effect": {
+        "value": "None",
+        "count": 4942,
+        "pct": 55.6031
+      },
+      "Familiar": {
+        "value": "None",
+        "count": 5043,
+        "pct": 56.7394
+      }
     }
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6442.png"

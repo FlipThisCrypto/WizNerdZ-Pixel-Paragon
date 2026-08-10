@@ -104,15 +104,15 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "103/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "103/8818",
+    "rarity_score": 9e-16,
     "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Green",
-        "count": 837,
-        "pct": 9.4172
+        "count": 835,
+        "pct": 9.3947
       },
       "Face": {
         "value": "Mud Cracked",
@@ -121,8 +121,8 @@
       },
       "Eyes": {
         "value": "Light Brown",
-        "count": 846,
-        "pct": 9.5185
+        "count": 847,
+        "pct": 9.5297
       },
       "Mouth": {
         "value": "Classic",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "High Sorcerer",
-        "count": 358,
-        "pct": 4.0279
+        "count": 356,
+        "pct": 4.0054
       },
       "Shirt": {
         "value": "High Sorcerer",
-        "count": 358,
-        "pct": 4.0279
+        "count": 356,
+        "pct": 4.0054
       },
       "Wizard Hat": {
         "value": "High Sorcerer",
-        "count": 358,
-        "pct": 4.0279
+        "count": 356,
+        "pct": 4.0054
       },
       "Facial Hair": {
         "value": "Long Braid Dark Brown",
-        "count": 217,
-        "pct": 2.4415
+        "count": 218,
+        "pct": 2.4527
       },
       "Glasses": {
         "value": "Magma Goggles",
-        "count": 385,
-        "pct": 4.3317
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "Lightning Rod",
-        "count": 354,
-        "pct": 3.9829
-      },
-      "Spell Effect": {
-        "value": "Poison Mist",
         "count": 388,
         "pct": 4.3654
       },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7900,
+        "pct": 88.8839
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8818,
+        "pct": 99.2124
+      },
+      "Staff": {
+        "value": "Lightning Rod",
+        "count": 356,
+        "pct": 4.0054
+      },
+      "Spell Effect": {
+        "value": "Poison Mist",
+        "count": 385,
+        "pct": 4.3317
+      },
       "Familiar": {
         "value": "Miniature Cosmic Beast",
-        "count": 199,
-        "pct": 2.239
+        "count": 201,
+        "pct": 2.2615
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "1347.png"
+    "image_basename": "1347.png",
+    "rarity_rank_numeric": 103,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1347.png"
 }

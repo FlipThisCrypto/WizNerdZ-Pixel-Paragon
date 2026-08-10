@@ -104,25 +104,25 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "794/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "792/8818",
+    "rarity_score": 6.9e-15,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Yellow",
-        "count": 797,
-        "pct": 8.9671
+        "count": 789,
+        "pct": 8.8771
       },
       "Face": {
         "value": "Storm Grey",
-        "count": 404,
-        "pct": 4.5455
+        "count": 401,
+        "pct": 4.5117
       },
       "Eyes": {
         "value": "Light Blue",
-        "count": 883,
-        "pct": 9.9347
+        "count": 882,
+        "pct": 9.9235
       },
       "Mouth": {
         "value": "Classic",
@@ -131,48 +131,48 @@
       },
       "Class": {
         "value": "Rune Keeper",
-        "count": 390,
-        "pct": 4.3879
-      },
-      "Shirt": {
-        "value": "Rune Keeper",
-        "count": 390,
-        "pct": 4.3879
-      },
-      "Wizard Hat": {
-        "value": "Rune Keeper",
-        "count": 390,
-        "pct": 4.3879
-      },
-      "Facial Hair": {
-        "value": "Medium Rounded Red Orange",
-        "count": 255,
-        "pct": 2.869
-      },
-      "Glasses": {
-        "value": "Divine Spectacles",
         "count": 393,
         "pct": 4.4217
       },
+      "Shirt": {
+        "value": "Rune Keeper",
+        "count": 393,
+        "pct": 4.4217
+      },
+      "Wizard Hat": {
+        "value": "Rune Keeper",
+        "count": 393,
+        "pct": 4.4217
+      },
+      "Facial Hair": {
+        "value": "Medium Rounded Red Orange",
+        "count": 256,
+        "pct": 2.8803
+      },
+      "Glasses": {
+        "value": "Divine Spectacles",
+        "count": 392,
+        "pct": 4.4104
+      },
       "Bridge": {
         "value": "Taped Repair",
-        "count": 989,
-        "pct": 11.1274
+        "count": 987,
+        "pct": 11.1049
       },
       "Special": {
         "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
+        "count": 8818,
+        "pct": 99.2124
       },
       "Staff": {
         "value": "None",
-        "count": 4606,
-        "pct": 51.8227
+        "count": 4607,
+        "pct": 51.8339
       },
       "Spell Effect": {
         "value": "Fireball",
-        "count": 554,
-        "pct": 6.2331
+        "count": 556,
+        "pct": 6.2556
       },
       "Familiar": {
         "value": "Baby Dragon",
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "6400.png"
+    "image_basename": "6400.png",
+    "rarity_rank_numeric": 792,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6400.png"
 }

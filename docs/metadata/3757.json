@@ -104,15 +104,15 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2711/8878",
-    "rarity_score": 0.0,
+    "rarity_rank": "2683/8818",
+    "rarity_score": 5.24e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Indigo",
-        "count": 636,
-        "pct": 7.1557
+        "count": 635,
+        "pct": 7.1445
       },
       "Face": {
         "value": "Radiant Pale",
@@ -131,53 +131,53 @@
       },
       "Class": {
         "value": "Blood Mage",
-        "count": 367,
-        "pct": 4.1292
+        "count": 369,
+        "pct": 4.1517
       },
       "Shirt": {
         "value": "Blood Mage",
-        "count": 367,
-        "pct": 4.1292
+        "count": 369,
+        "pct": 4.1517
       },
       "Wizard Hat": {
         "value": "Blood Mage",
-        "count": 366,
-        "pct": 4.1179
+        "count": 368,
+        "pct": 4.1404
       },
       "Facial Hair": {
         "value": "Medium Rounded Dark Brown",
-        "count": 458,
-        "pct": 5.153
+        "count": 454,
+        "pct": 5.108
       },
       "Glasses": {
         "value": "Magma Goggles",
-        "count": 385,
-        "pct": 4.3317
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7898,
-        "pct": 88.8614
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8878,
-        "pct": 99.8875
-      },
-      "Staff": {
-        "value": "None",
-        "count": 4606,
-        "pct": 51.8227
-      },
-      "Spell Effect": {
-        "value": "Poison Mist",
         "count": 388,
         "pct": 4.3654
       },
+      "Bridge": {
+        "value": "Clean",
+        "count": 7900,
+        "pct": 88.8839
+      },
+      "Special": {
+        "value": "Standard",
+        "count": 8818,
+        "pct": 99.2124
+      },
+      "Staff": {
+        "value": "None",
+        "count": 4607,
+        "pct": 51.8339
+      },
+      "Spell Effect": {
+        "value": "Poison Mist",
+        "count": 385,
+        "pct": 4.3317
+      },
       "Familiar": {
         "value": "Ghost",
-        "count": 307,
-        "pct": 3.4541
+        "count": 306,
+        "pct": 3.4428
       }
     },
     "extra_layers": {
@@ -188,7 +188,10 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "3757.png"
+    "image_basename": "3757.png",
+    "rarity_rank_numeric": 2683,
+    "rarity_pool": "generative",
+    "rarity_pool_size": 8818
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3757.png"
 }

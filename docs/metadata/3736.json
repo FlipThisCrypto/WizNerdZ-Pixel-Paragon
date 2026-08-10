@@ -83,16 +83,16 @@
       "value": "Phoenix"
     },
     {
+      "trait_type": "Display Name",
+      "value": "Art Boss"
+    },
+    {
       "trait_type": "Rarity",
       "value": "1 of 1"
     },
     {
       "trait_type": "Supply",
       "value": "1"
-    },
-    {
-      "trait_type": "Display Name",
-      "value": "Art Boss"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -119,7 +119,10 @@
       "staff_offset_y": 30
     },
     "image_basename": "3736.png",
-    "display_name": "Art Boss"
+    "display_name": "Art Boss",
+    "rarity_score": null,
+    "rarity_rank_numeric": 0,
+    "rarity_pool": "1of1"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3736.png"
 }

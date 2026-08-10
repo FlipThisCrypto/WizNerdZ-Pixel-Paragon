@@ -83,16 +83,16 @@
       "value": "None"
     },
     {
+      "trait_type": "Display Name",
+      "value": "James"
+    },
+    {
       "trait_type": "Rarity",
       "value": "1 of 1"
     },
     {
       "trait_type": "Supply",
       "value": "1"
-    },
-    {
-      "trait_type": "Display Name",
-      "value": "James"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -119,7 +119,10 @@
       "staff_offset_y": 30
     },
     "image_basename": "8483.png",
-    "display_name": "James"
+    "display_name": "James",
+    "rarity_score": null,
+    "rarity_rank_numeric": 0,
+    "rarity_pool": "1of1"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8483.png"
 }

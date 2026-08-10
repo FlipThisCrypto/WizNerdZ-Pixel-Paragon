@@ -83,16 +83,16 @@
       "value": "Black Cat"
     },
     {
+      "trait_type": "Display Name",
+      "value": "Profet"
+    },
+    {
       "trait_type": "Rarity",
       "value": "1 of 1"
     },
     {
       "trait_type": "Supply",
       "value": "1"
-    },
-    {
-      "trait_type": "Display Name",
-      "value": "Profet"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -119,7 +119,10 @@
       "staff_offset_y": 30
     },
     "image_basename": "5625.png",
-    "display_name": "Profet"
+    "display_name": "Profet",
+    "rarity_score": null,
+    "rarity_rank_numeric": 0,
+    "rarity_pool": "1of1"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5625.png"
 }

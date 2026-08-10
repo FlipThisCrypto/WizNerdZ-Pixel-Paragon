@@ -83,16 +83,16 @@
       "value": "Baby Dragon"
     },
     {
+      "trait_type": "Display Name",
+      "value": "Fiend"
+    },
+    {
       "trait_type": "Rarity",
       "value": "1 of 1"
     },
     {
       "trait_type": "Supply",
       "value": "1"
-    },
-    {
-      "trait_type": "Display Name",
-      "value": "Fiend"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -119,7 +119,10 @@
       "staff_offset_y": 30
     },
     "image_basename": "787.png",
-    "display_name": "Fiend"
+    "display_name": "Fiend",
+    "rarity_score": null,
+    "rarity_rank_numeric": 0,
+    "rarity_pool": "1of1"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/787.png"
 }
