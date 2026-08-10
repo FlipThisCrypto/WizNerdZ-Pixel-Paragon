@@ -1,15 +1,15 @@
 {
   "count": 62,
   "guide": "1OF1_ART_GUIDE.md",
-  "note": "Community 1:1s; select handles have themed custom elements",
+  "note": "Official trait composites; themed handles use hard-pixel overlays only",
   "items": [
     {
       "handle": "@DracattusDev",
       "file": "special\\community_1of1\\DracattusDev_640.png",
       "class": "Chaos Weaver",
       "background": "Red",
-      "dna": "1a29b2726af6b2a4",
-      "custom_element": "dragon familiar"
+      "custom_element": "dragon familiar",
+      "dna": "1a29b2726af6b2a4"
     },
     {
       "handle": "@MrDennisV",
@@ -23,8 +23,8 @@
       "file": "special\\community_1of1\\monkeyzoo_640.png",
       "class": "Spirit Guide",
       "background": "Teal",
-      "dna": "f142a79dca111091",
-      "custom_element": "monkey familiar"
+      "custom_element": "monkey familiar",
+      "dna": "f142a79dca111091"
     },
     {
       "handle": "@MayorAbandoned",
@@ -87,8 +87,8 @@
       "file": "special\\community_1of1\\HYP3RH3X_640.png",
       "class": "Void Walker",
       "background": "Blue",
-      "dna": "0d2f56446ae1f854",
-      "custom_element": "pokemon-style familiar"
+      "custom_element": "pixel critter familiar",
+      "dna": "0d2f56446ae1f854"
     },
     {
       "handle": "@ignoreart",
@@ -193,8 +193,8 @@
       "file": "special\\community_1of1\\Rigidity16_640.png",
       "class": "Arcane Mage",
       "background": "Teal",
-      "dna": "95d83456d00b8c40",
-      "custom_element": "duck with shades"
+      "custom_element": "duck with shades",
+      "dna": "95d83456d00b8c40"
     },
     {
       "handle": "@bramcohen",
@@ -208,8 +208,8 @@
       "file": "special\\community_1of1\\hoffmang_640.png",
       "class": "Arcane Mage",
       "background": "Violet",
-      "dna": "12d5b4e7dfb6dd17",
-      "custom_element": "white beard"
+      "custom_element": "white beard",
+      "dna": "ba46f46edf41a123"
     },
     {
       "handle": "@SlowestTimelord",
@@ -272,8 +272,8 @@
       "file": "special\\community_1of1\\OrangeGooey_640.png",
       "class": "Alchemist",
       "background": "Gold",
-      "dna": "d62c1067a5cc2345",
-      "custom_element": "orange palette + wood plank"
+      "custom_element": "orange accents + wood plank",
+      "dna": "d62c1067a5cc2345"
     },
     {
       "handle": "@iamSiipi",
@@ -291,11 +291,11 @@
     },
     {
       "handle": "@nftprofetmaster",
-      "file": "special\\\\community_1of1\\\\nftprofetmaster_640.png",
+      "file": "special\\community_1of1\\nftprofetmaster_640.png",
       "class": "Mystic Seer",
       "background": "Orange",
-      "dna": "01d5088155af246d",
-      "custom_element": "middle finger gesture"
+      "custom_element": "middle finger gesture",
+      "dna": "01d5088155af246d"
     },
     {
       "handle": "@m0b1lx",
@@ -309,8 +309,8 @@
       "file": "special\\community_1of1\\acevail__640.png",
       "class": "Deep Sea",
       "background": "Blue",
-      "dna": "8f3999b8d513f741",
-      "custom_element": "fox familiar"
+      "custom_element": "fox familiar",
+      "dna": "8f3999b8d513f741"
     },
     {
       "handle": "@permutocapital",
@@ -345,8 +345,8 @@
       "file": "special\\community_1of1\\ArtwithHeartNFT_640.png",
       "class": "Spirit Guide",
       "background": "Red",
-      "dna": "96777a8a4c964aa3",
-      "custom_element": "lion element"
+      "custom_element": "lion element",
+      "dna": "96777a8a4c964aa3"
     },
     {
       "handle": "@TeeMoney1738",
@@ -374,8 +374,8 @@
       "file": "special\\community_1of1\\Lucky8Token_640.png",
       "class": "High Sorcerer",
       "background": "Teal",
-      "dna": "3ecdf9f226e50393",
-      "custom_element": "four-leaf clover"
+      "custom_element": "four-leaf clover",
+      "dna": "3ecdf9f226e50393"
     },
     {
       "handle": "@trashformersnft",
@@ -429,17 +429,26 @@
     {
       "handle": "@Grizzle341",
       "file": "special\\community_1of1\\Grizzle341_640.png",
-      "custom_element": "bug eyes"
+      "class": "Chaos Weaver",
+      "background": "Brown",
+      "custom_element": "bug eyes",
+      "dna": "d063f9ea731a8091"
     },
     {
       "handle": "@OopsOrngz",
       "file": "special\\community_1of1\\OopsOrngz_640.png",
-      "custom_element": "oranges + one-eyed plank"
+      "class": "Pyromancer",
+      "background": "Yellow",
+      "custom_element": "oranges + one-eyed plank",
+      "dna": "ff1ccfaf41c91d4d"
     },
     {
       "handle": "@Bullish0xCrypto",
-      "file": "special\\\\community_1of1\\\\Bullish0xCrypto_640.png",
-      "custom_element": "crown"
+      "file": "special\\community_1of1\\Bullish0xCrypto_640.png",
+      "class": "High Sorcerer",
+      "background": "Gray",
+      "custom_element": "gold crown chest badge",
+      "dna": "fc03e8bedfe159a3"
     }
   ]
 }
