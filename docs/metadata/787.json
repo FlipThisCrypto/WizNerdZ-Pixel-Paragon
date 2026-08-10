@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
-  "name": "WizNerdz #787",
-  "description": "Fiend is a named WizNerd — Fel Corrupted face, Warlock Fel class-matched robe and hat, green eyes, fel oculars, white beard, blue background. Official traits only.",
+  "name": "Fiend \u00b7 WizNerdz #787",
+  "description": "Fiend is a named WizNerd \u2014 Fel Corrupted face, Warlock Fel class-matched robe and hat, green eyes, fel oculars, white beard, blue background. Official traits only.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -89,6 +89,10 @@
     {
       "trait_type": "Supply",
       "value": "1"
+    },
+    {
+      "trait_type": "Display Name",
+      "value": "Fiend"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -114,7 +118,8 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "787.png"
+    "image_basename": "787.png",
+    "display_name": "Fiend"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/787.png"
 }

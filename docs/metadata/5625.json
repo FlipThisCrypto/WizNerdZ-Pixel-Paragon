@@ -1,6 +1,6 @@
 {
   "format": "CHIP-0007",
-  "name": "WizNerdz #5625",
+  "name": "Profet \u00b7 WizNerdz #5625",
   "description": "Profet is a named WizNerd assembled only from official collection traits: Charred Ash face, Void Walker class-matched robe and hat, black goatee, abyssal shades, black background. 320x320 with collection outline.",
   "sensitive_content": false,
   "collection": {
@@ -89,6 +89,10 @@
     {
       "trait_type": "Supply",
       "value": "1"
+    },
+    {
+      "trait_type": "Display Name",
+      "value": "Profet"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -114,7 +118,8 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "5625.png"
+    "image_basename": "5625.png",
+    "display_name": "Profet"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5625.png"
 }

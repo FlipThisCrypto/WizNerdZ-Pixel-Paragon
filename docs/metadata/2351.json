@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
-  "name": "WizNerdz #2351",
-  "description": "Community 1-of-1 for @OrangeGooey \u2014 orange background and orange skin. Official trait composite (1OF1_ART_GUIDE).",
+  "name": "Gooey \u00b7 WizNerdz #2351",
+  "description": "Gooey (@OrangeGooey) \u2014 community 1-of-1 WizNerd. WizNerdZ Pixel Paragon by Fiend Studios.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -67,10 +67,6 @@
       "value": "orange skin + orange background"
     },
     {
-      "trait_type": "Name",
-      "value": "OrangeGooey"
-    },
-    {
       "trait_type": "Staff",
       "value": "None"
     },
@@ -97,6 +93,14 @@
     {
       "trait_type": "Community Handle",
       "value": "@OrangeGooey"
+    },
+    {
+      "trait_type": "Display Name",
+      "value": "Gooey"
+    },
+    {
+      "trait_type": "Name",
+      "value": "Gooey"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -123,7 +127,8 @@
       "spell": "None",
       "familiar": "None",
       "logo": "WizNerdZ Pixel Paragon 2x"
-    }
+    },
+    "display_name": "Gooey"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2351.png"
 }

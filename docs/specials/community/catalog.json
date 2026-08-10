@@ -9,7 +9,8 @@
       "class": "Chaos Weaver",
       "background": "Pink",
       "dna": "10c025a3ae1c8ad2",
-      "token_id": 2308
+      "token_id": 2308,
+      "display_name": "Dracattus"
     },
     {
       "handle": "@MrDennisV",
@@ -17,7 +18,8 @@
       "class": "Arcane Mage",
       "background": "White",
       "dna": "34735fd2147febd4",
-      "token_id": 7014
+      "token_id": 7014,
+      "display_name": "Dennis"
     },
     {
       "handle": "@monkeyzoo",
@@ -25,7 +27,8 @@
       "class": "Spirit Guide",
       "background": "White",
       "dna": "91d878fa7b0335cc",
-      "token_id": 6947
+      "token_id": 6947,
+      "display_name": "Monkeyzoo"
     },
     {
       "handle": "@MayorAbandoned",
@@ -33,7 +36,8 @@
       "class": "Chronomancer",
       "background": "Indigo",
       "dna": "92c0cff079d887aa",
-      "token_id": 6057
+      "token_id": 6057,
+      "display_name": "Mayor"
     },
     {
       "handle": "@FiendStudios",
@@ -41,7 +45,8 @@
       "class": "Warlock Fel",
       "background": "Gold",
       "dna": "84ea56937bd9f2fb",
-      "token_id": 5074
+      "token_id": 5074,
+      "display_name": "Fiend"
     },
     {
       "handle": "@MiniMarmots",
@@ -49,7 +54,8 @@
       "class": "Druid",
       "background": "Blue",
       "dna": "5fc4d4baab27e9e5",
-      "token_id": 3332
+      "token_id": 3332,
+      "display_name": "Mini Marmot"
     },
     {
       "handle": "@BraidsBlock",
@@ -57,7 +63,8 @@
       "class": "Arcane Mage",
       "background": "White",
       "dna": "ef85171cfea8bdc6",
-      "token_id": 3601
+      "token_id": 3601,
+      "display_name": "Max"
     },
     {
       "handle": "@DanPerry_Chia",
@@ -65,7 +72,8 @@
       "class": "Druid",
       "background": "Red",
       "dna": "6441e7285af83d4a",
-      "token_id": 6414
+      "token_id": 6414,
+      "display_name": "Dan"
     },
     {
       "handle": "@endertown",
@@ -73,7 +81,8 @@
       "class": "Illusionist",
       "background": "Violet",
       "dna": "ca1f3be7d9cec622",
-      "token_id": 1759
+      "token_id": 1759,
+      "display_name": "Ender"
     },
     {
       "handle": "@SpaceOkra",
@@ -81,7 +90,8 @@
       "class": "Illusionist",
       "background": "Pink",
       "dna": "6b8d0a1868727aaf",
-      "token_id": 7881
+      "token_id": 7881,
+      "display_name": "Okra"
     },
     {
       "handle": "@abit_HEX",
@@ -89,7 +99,8 @@
       "class": "Cryomancer",
       "background": "Red",
       "dna": "0cbb609040776303",
-      "token_id": 7034
+      "token_id": 7034,
+      "display_name": "Phunky"
     },
     {
       "handle": "@HYP3RH3X",
@@ -97,7 +108,8 @@
       "class": "Void Walker",
       "background": "Red",
       "dna": "826e599a42a71392",
-      "token_id": 5413
+      "token_id": 5413,
+      "display_name": "Hyperhex"
     },
     {
       "handle": "@ignoreart",
@@ -105,7 +117,8 @@
       "class": "Chaos Weaver",
       "background": "Gray",
       "dna": "b61968aa81c9de54",
-      "token_id": 6280
+      "token_id": 6280,
+      "display_name": "Ignore"
     },
     {
       "handle": "@seedsnapp",
@@ -113,7 +126,8 @@
       "class": "Cleric Light",
       "background": "Teal",
       "dna": "2625bf2105caeec4",
-      "token_id": 5095
+      "token_id": 5095,
+      "display_name": "Seedsnapp"
     },
     {
       "handle": "@ChiaGodsNFT",
@@ -121,7 +135,8 @@
       "class": "Alchemist",
       "background": "Gray",
       "dna": "23f6260ce5ace007",
-      "token_id": 2321
+      "token_id": 2321,
+      "display_name": "Chia Gods"
     },
     {
       "handle": "@CF_Lost_Gifs",
@@ -129,7 +144,8 @@
       "class": "Warlock Fel",
       "background": "Silver",
       "dna": "54a1176f76feab73",
-      "token_id": 2529
+      "token_id": 2529,
+      "display_name": "Lost Gifs"
     },
     {
       "handle": "@SpiritBits",
@@ -137,7 +153,8 @@
       "class": "Spirit Guide",
       "background": "Orange",
       "dna": "d2e7551398eb5744",
-      "token_id": 2868
+      "token_id": 2868,
+      "display_name": "Grig"
     },
     {
       "handle": "@CassFairiesClub",
@@ -145,7 +162,8 @@
       "class": "Cleric Light",
       "background": "Green",
       "dna": "68c167c69a1afa6e",
-      "token_id": 7508
+      "token_id": 7508,
+      "display_name": "Cass Fairies"
     },
     {
       "handle": "@DatArtPerson",
@@ -153,7 +171,8 @@
       "class": "Pyromancer",
       "background": "Gold",
       "dna": "54d8e7e8df10a209",
-      "token_id": 639
+      "token_id": 639,
+      "display_name": "DatArt"
     },
     {
       "handle": "@solomonslot",
@@ -161,7 +180,8 @@
       "class": "Cleric Light",
       "background": "Teal",
       "dna": "f462ab7a1eabc876",
-      "token_id": 5279
+      "token_id": 5279,
+      "display_name": "Sol"
     },
     {
       "handle": "@time2buyxch",
@@ -169,7 +189,8 @@
       "class": "Void Walker",
       "background": "Green",
       "dna": "3bd16bfa1f479cd0",
-      "token_id": 3130
+      "token_id": 3130,
+      "display_name": "Whale"
     },
     {
       "handle": "@neilpeel_me",
@@ -177,7 +198,8 @@
       "class": "Arcane Mage",
       "background": "Violet",
       "dna": "163b763704634446",
-      "token_id": 7071
+      "token_id": 7071,
+      "display_name": "Peel"
     },
     {
       "handle": "@_xDrStrange",
@@ -185,7 +207,8 @@
       "class": "Chronomancer",
       "background": "White",
       "dna": "0b302ee89ded18c4",
-      "token_id": 7513
+      "token_id": 7513,
+      "display_name": "Strange"
     },
     {
       "handle": "@steppsr",
@@ -193,7 +216,8 @@
       "class": "Cryomancer",
       "background": "Gray",
       "dna": "ddea50e82b147120",
-      "token_id": 6477
+      "token_id": 6477,
+      "display_name": "Steve"
     },
     {
       "handle": "@chia_project",
@@ -201,7 +225,8 @@
       "class": "Arcane Mage",
       "background": "Blue",
       "dna": "d27c9b3e9a5293fa",
-      "token_id": 4358
+      "token_id": 4358,
+      "display_name": "Chia"
     },
     {
       "handle": "@Rigidity16",
@@ -209,7 +234,8 @@
       "class": "Rune Keeper",
       "background": "Gray",
       "dna": "1c20855b4827a0b6",
-      "token_id": 5915
+      "token_id": 5915,
+      "display_name": "Rigidity"
     },
     {
       "handle": "@bramcohen",
@@ -217,7 +243,8 @@
       "class": "Rune Keeper",
       "background": "Pink",
       "dna": "f3da9d572d915b44",
-      "token_id": 6632
+      "token_id": 6632,
+      "display_name": "Bram"
     },
     {
       "handle": "@hoffmang",
@@ -226,7 +253,8 @@
       "background": "Green",
       "dna": "eb613a40204401e4",
       "custom_element": "white beard",
-      "token_id": 7219
+      "token_id": 7219,
+      "display_name": "Gene"
     },
     {
       "handle": "@SlowestTimelord",
@@ -234,7 +262,8 @@
       "class": "Chronomancer",
       "background": "Teal",
       "dna": "ed08f6d5a81fab57",
-      "token_id": 7953
+      "token_id": 7953,
+      "display_name": "Timelord"
     },
     {
       "handle": "@spacescan_io",
@@ -242,7 +271,8 @@
       "class": "Arcane Mage",
       "background": "Brown",
       "dna": "cd804dbfd84060db",
-      "token_id": 1736
+      "token_id": 1736,
+      "display_name": "SpaceScan"
     },
     {
       "handle": "@sage_wallet",
@@ -250,7 +280,8 @@
       "class": "Arcane Mage",
       "background": "Red",
       "dna": "42d239cec3367a56",
-      "token_id": 8210
+      "token_id": 8210,
+      "display_name": "Sage"
     },
     {
       "handle": "@dexie_space",
@@ -258,7 +289,8 @@
       "class": "Chronomancer",
       "background": "Violet",
       "dna": "19b473186674020e",
-      "token_id": 6206
+      "token_id": 6206,
+      "display_name": "Dexie"
     },
     {
       "handle": "@MintGarden_io",
@@ -266,7 +298,8 @@
       "class": "Druid",
       "background": "Brown",
       "dna": "f29ca3e01f2aae25",
-      "token_id": 5762
+      "token_id": 5762,
+      "display_name": "MintGarden"
     },
     {
       "handle": "@Circuit_DAO",
@@ -274,7 +307,8 @@
       "class": "Rune Keeper",
       "background": "Pink",
       "dna": "c54a67fc5d5a9b28",
-      "token_id": 5985
+      "token_id": 5985,
+      "display_name": "Circuit"
     },
     {
       "handle": "@MatthewSHintz",
@@ -282,7 +316,8 @@
       "class": "Deep Sea",
       "background": "Green",
       "dna": "7bc7cc62ae855fca",
-      "token_id": 5189
+      "token_id": 5189,
+      "display_name": "Matthew"
     },
     {
       "handle": "@digdotnet",
@@ -290,7 +325,8 @@
       "class": "Rune Keeper",
       "background": "Brown",
       "dna": "332fa55dbdf88bb2",
-      "token_id": 8686
+      "token_id": 8686,
+      "display_name": "DIG"
     },
     {
       "handle": "@OrangeGooey",
@@ -299,7 +335,8 @@
       "background": "Orange",
       "dna": "c556ac18faac60c1",
       "custom_element": "orange skin + orange background",
-      "token_id": 2351
+      "token_id": 2351,
+      "display_name": "Gooey"
     },
     {
       "handle": "@iamSiipi",
@@ -307,7 +344,8 @@
       "class": "Chronomancer",
       "background": "White",
       "dna": "7d8fc838bb279422",
-      "token_id": 399
+      "token_id": 399,
+      "display_name": "Siipi"
     },
     {
       "handle": "@ChiaMemecoin",
@@ -315,7 +353,8 @@
       "class": "Pyromancer",
       "background": "Teal",
       "dna": "6d9db639def768ff",
-      "token_id": 4929
+      "token_id": 4929,
+      "display_name": "Memecoin"
     },
     {
       "handle": "@nftprofetmaster",
@@ -323,7 +362,8 @@
       "class": "Spirit Guide",
       "background": "Silver",
       "dna": "26c84e31fd9e71ea",
-      "token_id": 849
+      "token_id": 849,
+      "display_name": "Profet"
     },
     {
       "handle": "@m0b1lx",
@@ -331,7 +371,8 @@
       "class": "Earth Shaman",
       "background": "Brown",
       "dna": "26ac9965977ce21d",
-      "token_id": 5012
+      "token_id": 5012,
+      "display_name": "Mobilx"
     },
     {
       "handle": "@acevail_",
@@ -339,7 +380,8 @@
       "class": "Pyromancer",
       "background": "Green",
       "dna": "2179b1d90bed3720",
-      "token_id": 7942
+      "token_id": 7942,
+      "display_name": "Acevail"
     },
     {
       "handle": "@permutocapital",
@@ -347,7 +389,8 @@
       "class": "Storm Caller",
       "background": "Violet",
       "dna": "bdf46ec2d2091f2c",
-      "token_id": 900
+      "token_id": 900,
+      "display_name": "Permuto"
     },
     {
       "handle": "@theNamesdao",
@@ -355,7 +398,8 @@
       "class": "Arcane Mage",
       "background": "Orange",
       "dna": "17bf75c0f4054b29",
-      "token_id": 7625
+      "token_id": 7625,
+      "display_name": "Namesdao"
     },
     {
       "handle": "@silicondotnet",
@@ -363,7 +407,8 @@
       "class": "Blood Mage",
       "background": "Green",
       "dna": "699f71f21f2274c5",
-      "token_id": 1090
+      "token_id": 1090,
+      "display_name": "Silicon"
     },
     {
       "handle": "@ArtwithHeartNFT",
@@ -371,7 +416,8 @@
       "class": "Deep Sea",
       "background": "Violet",
       "dna": "104fe750efd223ff",
-      "token_id": 6169
+      "token_id": 6169,
+      "display_name": "Heart"
     },
     {
       "handle": "@TeeMoney1738",
@@ -379,7 +425,8 @@
       "class": "Illusionist",
       "background": "Red",
       "dna": "63853dab8d261414",
-      "token_id": 6439
+      "token_id": 6439,
+      "display_name": "TMoney"
     },
     {
       "handle": "@thyrevolution",
@@ -387,7 +434,8 @@
       "class": "Earth Shaman",
       "background": "Red",
       "dna": "6bfe7077fa64d6ba",
-      "token_id": 1454
+      "token_id": 1454,
+      "display_name": "Thy"
     },
     {
       "handle": "@anarkoicxchia",
@@ -395,7 +443,8 @@
       "class": "Blood Mage",
       "background": "Teal",
       "dna": "8d9c5ba6edd9e450",
-      "token_id": 5804
+      "token_id": 5804,
+      "display_name": "Anarkoic"
     },
     {
       "handle": "@Lucky8Token",
@@ -403,7 +452,8 @@
       "class": "Alchemist",
       "background": "Orange",
       "dna": "ae54ef018757e6b8",
-      "token_id": 5943
+      "token_id": 5943,
+      "display_name": "Lucky 8"
     },
     {
       "handle": "@trashformersnft",
@@ -411,7 +461,8 @@
       "class": "Cryomancer",
       "background": "Blue",
       "dna": "3009ce7378eec589",
-      "token_id": 2106
+      "token_id": 2106,
+      "display_name": "Trashformers"
     },
     {
       "handle": "@DigitalChamber",
@@ -419,7 +470,8 @@
       "class": "Rune Keeper",
       "background": "White",
       "dna": "b02d9db851ff2733",
-      "token_id": 8839
+      "token_id": 8839,
+      "display_name": "Chamber"
     },
     {
       "handle": "@XchFoundation",
@@ -427,7 +479,8 @@
       "class": "Cleric Light",
       "background": "Red",
       "dna": "57afa28c53be5e40",
-      "token_id": 7130
+      "token_id": 7130,
+      "display_name": "XCH Foundation"
     },
     {
       "handle": "@RightSexyOrc",
@@ -435,7 +488,8 @@
       "class": "Alchemist",
       "background": "Silver",
       "dna": "10b18eacca8cf0d8",
-      "token_id": 7267
+      "token_id": 7267,
+      "display_name": "Orc"
     },
     {
       "handle": "@Crypto_RVD",
@@ -443,7 +497,8 @@
       "class": "Sand Sage",
       "background": "Violet",
       "dna": "7519a2118120bc60",
-      "token_id": 7831
+      "token_id": 7831,
+      "display_name": "RVD"
     },
     {
       "handle": "@BenAtreidesVing",
@@ -451,7 +506,8 @@
       "class": "Chaos Weaver",
       "background": "Teal",
       "dna": "be6f42c750979efa",
-      "token_id": 7275
+      "token_id": 7275,
+      "display_name": "Ben"
     },
     {
       "handle": "@ChiaPlanet",
@@ -459,7 +515,8 @@
       "class": "Chaos Weaver",
       "background": "White",
       "dna": "0777254ed4e93c8d",
-      "token_id": 8538
+      "token_id": 8538,
+      "display_name": "Planet"
     },
     {
       "handle": "@Grizzle341",
@@ -467,7 +524,8 @@
       "class": "Cleric Light",
       "background": "Teal",
       "dna": "7210932ffbee0a8f",
-      "token_id": 3647
+      "token_id": 3647,
+      "display_name": "Grizzle"
     },
     {
       "handle": "@OopsOrngz",
@@ -475,7 +533,8 @@
       "class": "Warlock Fel",
       "background": "Brown",
       "dna": "30ec141556c150ff",
-      "token_id": 205
+      "token_id": 205,
+      "display_name": "Oops"
     },
     {
       "handle": "@Bullish0xCrypto",
@@ -483,12 +542,75 @@
       "class": "Deep Sea",
       "background": "Pink",
       "dna": "886d31b07f1f7ccd",
-      "token_id": 3146
+      "token_id": 3146,
+      "display_name": "Bullish"
     }
   ],
   "injected": true,
   "removed": [
     "AlexisMpus69903",
     "FomoTheShow"
-  ]
+  ],
+  "display_names": {
+    "@DracattusDev": "Dracattus",
+    "@MrDennisV": "Dennis",
+    "@monkeyzoo": "Monkeyzoo",
+    "@MayorAbandoned": "Mayor",
+    "@FiendStudios": "Fiend",
+    "@MiniMarmots": "Mini Marmot",
+    "@BraidsBlock": "Max",
+    "@DanPerry_Chia": "Dan",
+    "@endertown": "Ender",
+    "@SpaceOkra": "Okra",
+    "@abit_HEX": "Phunky",
+    "@HYP3RH3X": "Hyperhex",
+    "@ignoreart": "Ignore",
+    "@seedsnapp": "Seedsnapp",
+    "@ChiaGodsNFT": "Chia Gods",
+    "@CF_Lost_Gifs": "Lost Gifs",
+    "@SpiritBits": "Grig",
+    "@CassFairiesClub": "Cass Fairies",
+    "@DatArtPerson": "DatArt",
+    "@solomonslot": "Sol",
+    "@time2buyxch": "Whale",
+    "@neilpeel_me": "Peel",
+    "@_xDrStrange": "Strange",
+    "@steppsr": "Steve",
+    "@chia_project": "Chia",
+    "@Rigidity16": "Rigidity",
+    "@bramcohen": "Bram",
+    "@hoffmang": "Gene",
+    "@SlowestTimelord": "Timelord",
+    "@spacescan_io": "SpaceScan",
+    "@sage_wallet": "Sage",
+    "@dexie_space": "Dexie",
+    "@MintGarden_io": "MintGarden",
+    "@Circuit_DAO": "Circuit",
+    "@MatthewSHintz": "Matthew",
+    "@digdotnet": "DIG",
+    "@OrangeGooey": "Gooey",
+    "@iamSiipi": "Siipi",
+    "@ChiaMemecoin": "Memecoin",
+    "@nftprofetmaster": "Profet",
+    "@m0b1lx": "Mobilx",
+    "@acevail_": "Acevail",
+    "@permutocapital": "Permuto",
+    "@theNamesdao": "Namesdao",
+    "@silicondotnet": "Silicon",
+    "@ArtwithHeartNFT": "Heart",
+    "@TeeMoney1738": "TMoney",
+    "@thyrevolution": "Thy",
+    "@anarkoicxchia": "Anarkoic",
+    "@Lucky8Token": "Lucky 8",
+    "@trashformersnft": "Trashformers",
+    "@DigitalChamber": "Chamber",
+    "@XchFoundation": "XCH Foundation",
+    "@RightSexyOrc": "Orc",
+    "@Crypto_RVD": "RVD",
+    "@BenAtreidesVing": "Ben",
+    "@ChiaPlanet": "Planet",
+    "@Bullish0xCrypto": "Bullish",
+    "@Grizzle341": "Grizzle",
+    "@OopsOrngz": "Oops"
+  }
 }

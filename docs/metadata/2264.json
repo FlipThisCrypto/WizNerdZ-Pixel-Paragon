@@ -1,6 +1,6 @@
 {
   "format": "CHIP-0007",
-  "name": "WizNerdz #2264",
+  "name": "Aster \u00b7 WizNerdz #2264",
   "description": "Aster is a named orange Pyromancer WizNerd with a long wizard beard, class-matched robe and hat, amber eyes, and magma glasses. Official traits only.",
   "sensitive_content": false,
   "collection": {
@@ -89,6 +89,10 @@
     {
       "trait_type": "Supply",
       "value": "1"
+    },
+    {
+      "trait_type": "Display Name",
+      "value": "Aster"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -114,7 +118,8 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "2264.png"
+    "image_basename": "2264.png",
+    "display_name": "Aster"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2264.png"
 }

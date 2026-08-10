@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
-  "name": "WizNerdz #7034",
-  "description": "Community 1-of-1 WizNerd for @abit_HEX \u2014 Fiend Studios / WizNerdZ Pixel Paragon. Assembled from official traits per 1OF1_ART_GUIDE (light BG, class-matched, 1px rim, logo TR).",
+  "name": "Phunky \u00b7 WizNerdz #7034",
+  "description": "Phunky (@abit_HEX) \u2014 community 1-of-1 WizNerd. WizNerdZ Pixel Paragon by Fiend Studios.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -63,10 +63,6 @@
       "value": "Clean"
     },
     {
-      "trait_type": "Name",
-      "value": "abit_HEX"
-    },
-    {
       "trait_type": "Staff",
       "value": "Gnarled Staff"
     },
@@ -93,6 +89,14 @@
     {
       "trait_type": "Community Handle",
       "value": "@abit_HEX"
+    },
+    {
+      "trait_type": "Display Name",
+      "value": "Phunky"
+    },
+    {
+      "trait_type": "Name",
+      "value": "Phunky"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -117,7 +121,8 @@
       "spell": "Poison Mist",
       "familiar": "None",
       "logo": "WizNerdZ Pixel Paragon 2x"
-    }
+    },
+    "display_name": "Phunky"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7034.png"
 }

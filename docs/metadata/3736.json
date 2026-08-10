@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
-  "name": "WizNerdz #3736",
-  "description": "Art Boss is a named WizNerd special — earthy Bark Skin face, Sand Sage gold robes, and popsicle-pink backdrop. Built from the official WizNerdz trait set with class-matched hat and shirt, 320x320, collection-standard outline.",
+  "name": "Art Boss \u00b7 WizNerdz #3736",
+  "description": "Art Boss is a named WizNerd special \u2014 earthy Bark Skin face, Sand Sage gold robes, and popsicle-pink backdrop. Built from the official WizNerdz trait set with class-matched hat and shirt, 320x320, collection-standard outline.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -89,6 +89,10 @@
     {
       "trait_type": "Supply",
       "value": "1"
+    },
+    {
+      "trait_type": "Display Name",
+      "value": "Art Boss"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -114,7 +118,8 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "3736.png"
+    "image_basename": "3736.png",
+    "display_name": "Art Boss"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3736.png"
 }

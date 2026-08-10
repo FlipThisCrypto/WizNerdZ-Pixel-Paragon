@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
-  "name": "WizNerdz #7942",
-  "description": "Community 1-of-1 for @acevail_. Remade from scratch with official traits (1OF1_ART_GUIDE). No overlay extras.",
+  "name": "Acevail \u00b7 WizNerdz #7942",
+  "description": "Acevail (@acevail_) \u2014 community 1-of-1 WizNerd. WizNerdZ Pixel Paragon by Fiend Studios.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -63,10 +63,6 @@
       "value": "Clean"
     },
     {
-      "trait_type": "Name",
-      "value": "acevail_"
-    },
-    {
       "trait_type": "Staff",
       "value": "Lightning Rod"
     },
@@ -93,6 +89,14 @@
     {
       "trait_type": "Community Handle",
       "value": "@acevail_"
+    },
+    {
+      "trait_type": "Display Name",
+      "value": "Acevail"
+    },
+    {
+      "trait_type": "Name",
+      "value": "Acevail"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -118,7 +122,8 @@
       "spell": "None",
       "familiar": "Baby Dragon",
       "logo": "WizNerdZ Pixel Paragon 2x"
-    }
+    },
+    "display_name": "Acevail"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7942.png"
 }

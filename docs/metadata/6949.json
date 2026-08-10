@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
-  "name": "WizNerdz #6949",
-  "description": "Steve is a named WizNerd special — navy bird, prism rainbow visor, orange beak, and a floating Chia coin. 320x320 WizNerdz pixel style with black outline.",
+  "name": "Steve \u00b7 WizNerdz #6949",
+  "description": "Steve is a named WizNerd special \u2014 navy bird, prism rainbow visor, orange beak, and a floating Chia coin. 320x320 WizNerdz pixel style with black outline.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -77,6 +77,10 @@
     {
       "trait_type": "Supply",
       "value": "1"
+    },
+    {
+      "trait_type": "Display Name",
+      "value": "Steve"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -102,7 +106,8 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "6949.png"
+    "image_basename": "6949.png",
+    "display_name": "Steve"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6949.png"
 }

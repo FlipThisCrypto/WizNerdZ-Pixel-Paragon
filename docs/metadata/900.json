@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
-  "name": "WizNerdz #900",
-  "description": "Community 1-of-1 WizNerd for @permutocapital \u2014 Fiend Studios / WizNerdZ Pixel Paragon. Assembled from official traits per 1OF1_ART_GUIDE (light BG, class-matched, 1px rim, logo TR).",
+  "name": "Permuto \u00b7 WizNerdz #900",
+  "description": "Permuto (@permutocapital) \u2014 community 1-of-1 WizNerd. WizNerdZ Pixel Paragon by Fiend Studios.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -63,10 +63,6 @@
       "value": "Clean"
     },
     {
-      "trait_type": "Name",
-      "value": "permutocapital"
-    },
-    {
       "trait_type": "Staff",
       "value": "None"
     },
@@ -93,6 +89,14 @@
     {
       "trait_type": "Community Handle",
       "value": "@permutocapital"
+    },
+    {
+      "trait_type": "Display Name",
+      "value": "Permuto"
+    },
+    {
+      "trait_type": "Name",
+      "value": "Permuto"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -117,7 +121,8 @@
       "spell": "Sparks",
       "familiar": "None",
       "logo": "WizNerdZ Pixel Paragon 2x"
-    }
+    },
+    "display_name": "Permuto"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/900.png"
 }

@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
-  "name": "WizNerdz #849",
-  "description": "Community 1-of-1 for @nftprofetmaster. Remade from scratch with official traits (1OF1_ART_GUIDE). No overlay extras.",
+  "name": "Profet \u00b7 WizNerdz #849",
+  "description": "Profet (@nftprofetmaster) \u2014 community 1-of-1 WizNerd. WizNerdZ Pixel Paragon by Fiend Studios.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -63,10 +63,6 @@
       "value": "Clean"
     },
     {
-      "trait_type": "Name",
-      "value": "nftprofetmaster"
-    },
-    {
       "trait_type": "Staff",
       "value": "None"
     },
@@ -93,6 +89,14 @@
     {
       "trait_type": "Community Handle",
       "value": "@nftprofetmaster"
+    },
+    {
+      "trait_type": "Display Name",
+      "value": "Profet"
+    },
+    {
+      "trait_type": "Name",
+      "value": "Profet"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -118,7 +122,8 @@
       "spell": "Reality Fracture",
       "familiar": "None",
       "logo": "WizNerdZ Pixel Paragon 2x"
-    }
+    },
+    "display_name": "Profet"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/849.png"
 }

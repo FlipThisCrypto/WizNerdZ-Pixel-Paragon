@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
-  "name": "WizNerdz #6169",
-  "description": "Community 1-of-1 for @ArtwithHeartNFT. Remade from scratch with official traits (1OF1_ART_GUIDE). No overlay extras.",
+  "name": "Heart \u00b7 WizNerdz #6169",
+  "description": "Heart (@ArtwithHeartNFT) \u2014 community 1-of-1 WizNerd. WizNerdZ Pixel Paragon by Fiend Studios.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -63,10 +63,6 @@
       "value": "Clean"
     },
     {
-      "trait_type": "Name",
-      "value": "ArtwithHeartNFT"
-    },
-    {
       "trait_type": "Staff",
       "value": "Bone Scepter"
     },
@@ -93,6 +89,14 @@
     {
       "trait_type": "Community Handle",
       "value": "@ArtwithHeartNFT"
+    },
+    {
+      "trait_type": "Display Name",
+      "value": "Heart"
+    },
+    {
+      "trait_type": "Name",
+      "value": "Heart"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -118,7 +122,8 @@
       "spell": "None",
       "familiar": "None",
       "logo": "WizNerdZ Pixel Paragon 2x"
-    }
+    },
+    "display_name": "Heart"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6169.png"
 }

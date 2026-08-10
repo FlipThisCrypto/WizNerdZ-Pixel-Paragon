@@ -1,0 +1,560 @@
+{
+  "description": "All WizNerdZ 1-of-1s for mint planning. Display names are simple community-facing labels (not legal names).",
+  "named_specials": [
+    {
+      "token_id": 42,
+      "display_name": "Tom",
+      "kind": "named",
+      "ones_file": "ones/0042_Tom_named.png",
+      "image": "images/42.png"
+    },
+    {
+      "token_id": 787,
+      "display_name": "Fiend",
+      "kind": "named",
+      "ones_file": "ones/0787_Fiend_named.png",
+      "image": "images/787.png"
+    },
+    {
+      "token_id": 2264,
+      "display_name": "Aster",
+      "kind": "named",
+      "ones_file": "ones/2264_Aster_named.png",
+      "image": "images/2264.png"
+    },
+    {
+      "token_id": 3736,
+      "display_name": "Art Boss",
+      "kind": "named",
+      "ones_file": "ones/3736_Art_Boss_named.png",
+      "image": "images/3736.png"
+    },
+    {
+      "token_id": 5625,
+      "display_name": "Profet",
+      "kind": "named",
+      "ones_file": "ones/5625_Profet_named.png",
+      "image": "images/5625.png"
+    },
+    {
+      "token_id": 6146,
+      "display_name": "Blake",
+      "kind": "named",
+      "ones_file": "ones/6146_Blake_named.png",
+      "image": "images/6146.png"
+    },
+    {
+      "token_id": 6949,
+      "display_name": "Steve",
+      "kind": "named",
+      "ones_file": "ones/6949_Steve_named.png",
+      "image": "images/6949.png"
+    },
+    {
+      "token_id": 7462,
+      "display_name": "Papa",
+      "kind": "named",
+      "ones_file": "ones/7462_Papa_named.png",
+      "image": "images/7462.png"
+    },
+    {
+      "token_id": 8483,
+      "display_name": "James",
+      "kind": "named",
+      "ones_file": "ones/8483_James_named.png",
+      "image": "images/8483.png"
+    },
+    {
+      "token_id": 8700,
+      "display_name": "Staker",
+      "kind": "named",
+      "ones_file": "ones/8700_Staker_named.png",
+      "image": "images/8700.png"
+    }
+  ],
+  "community_1of1": [
+    {
+      "token_id": 205,
+      "display_name": "Oops",
+      "handle": "@OopsOrngz",
+      "image": "images/205.png",
+      "ones_file": "ones/0205_Oops_OopsOrngz.png",
+      "metadata": "metadata/205.json"
+    },
+    {
+      "token_id": 399,
+      "display_name": "Siipi",
+      "handle": "@iamSiipi",
+      "image": "images/399.png",
+      "ones_file": "ones/0399_Siipi_iamSiipi.png",
+      "metadata": "metadata/399.json"
+    },
+    {
+      "token_id": 639,
+      "display_name": "DatArt",
+      "handle": "@DatArtPerson",
+      "image": "images/639.png",
+      "ones_file": "ones/0639_DatArt_DatArtPerson.png",
+      "metadata": "metadata/639.json"
+    },
+    {
+      "token_id": 849,
+      "display_name": "Profet",
+      "handle": "@nftprofetmaster",
+      "image": "images/849.png",
+      "ones_file": "ones/0849_Profet_nftprofetmaster.png",
+      "metadata": "metadata/849.json"
+    },
+    {
+      "token_id": 900,
+      "display_name": "Permuto",
+      "handle": "@permutocapital",
+      "image": "images/900.png",
+      "ones_file": "ones/0900_Permuto_permutocapital.png",
+      "metadata": "metadata/900.json"
+    },
+    {
+      "token_id": 1090,
+      "display_name": "Silicon",
+      "handle": "@silicondotnet",
+      "image": "images/1090.png",
+      "ones_file": "ones/1090_Silicon_silicondotnet.png",
+      "metadata": "metadata/1090.json"
+    },
+    {
+      "token_id": 1454,
+      "display_name": "Thy",
+      "handle": "@thyrevolution",
+      "image": "images/1454.png",
+      "ones_file": "ones/1454_Thy_thyrevolution.png",
+      "metadata": "metadata/1454.json"
+    },
+    {
+      "token_id": 1736,
+      "display_name": "SpaceScan",
+      "handle": "@spacescan_io",
+      "image": "images/1736.png",
+      "ones_file": "ones/1736_SpaceScan_spacescan_io.png",
+      "metadata": "metadata/1736.json"
+    },
+    {
+      "token_id": 1759,
+      "display_name": "Ender",
+      "handle": "@endertown",
+      "image": "images/1759.png",
+      "ones_file": "ones/1759_Ender_endertown.png",
+      "metadata": "metadata/1759.json"
+    },
+    {
+      "token_id": 2106,
+      "display_name": "Trashformers",
+      "handle": "@trashformersnft",
+      "image": "images/2106.png",
+      "ones_file": "ones/2106_Trashformers_trashformersnft.png",
+      "metadata": "metadata/2106.json"
+    },
+    {
+      "token_id": 2308,
+      "display_name": "Dracattus",
+      "handle": "@DracattusDev",
+      "image": "images/2308.png",
+      "ones_file": "ones/2308_Dracattus_DracattusDev.png",
+      "metadata": "metadata/2308.json"
+    },
+    {
+      "token_id": 2321,
+      "display_name": "Chia Gods",
+      "handle": "@ChiaGodsNFT",
+      "image": "images/2321.png",
+      "ones_file": "ones/2321_Chia_Gods_ChiaGodsNFT.png",
+      "metadata": "metadata/2321.json"
+    },
+    {
+      "token_id": 2351,
+      "display_name": "Gooey",
+      "handle": "@OrangeGooey",
+      "image": "images/2351.png",
+      "ones_file": "ones/2351_Gooey_OrangeGooey.png",
+      "metadata": "metadata/2351.json"
+    },
+    {
+      "token_id": 2529,
+      "display_name": "Lost Gifs",
+      "handle": "@CF_Lost_Gifs",
+      "image": "images/2529.png",
+      "ones_file": "ones/2529_Lost_Gifs_CF_Lost_Gifs.png",
+      "metadata": "metadata/2529.json"
+    },
+    {
+      "token_id": 2868,
+      "display_name": "Grig",
+      "handle": "@SpiritBits",
+      "image": "images/2868.png",
+      "ones_file": "ones/2868_Grig_SpiritBits.png",
+      "metadata": "metadata/2868.json"
+    },
+    {
+      "token_id": 3130,
+      "display_name": "Whale",
+      "handle": "@time2buyxch",
+      "image": "images/3130.png",
+      "ones_file": "ones/3130_Whale_time2buyxch.png",
+      "metadata": "metadata/3130.json"
+    },
+    {
+      "token_id": 3146,
+      "display_name": "Bullish",
+      "handle": "@Bullish0xCrypto",
+      "image": "images/3146.png",
+      "ones_file": "ones/3146_Bullish_Bullish0xCrypto.png",
+      "metadata": "metadata/3146.json"
+    },
+    {
+      "token_id": 3332,
+      "display_name": "Mini Marmot",
+      "handle": "@MiniMarmots",
+      "image": "images/3332.png",
+      "ones_file": "ones/3332_Mini_Marmot_MiniMarmots.png",
+      "metadata": "metadata/3332.json"
+    },
+    {
+      "token_id": 3601,
+      "display_name": "Max",
+      "handle": "@BraidsBlock",
+      "image": "images/3601.png",
+      "ones_file": "ones/3601_Max_BraidsBlock.png",
+      "metadata": "metadata/3601.json"
+    },
+    {
+      "token_id": 3647,
+      "display_name": "Grizzle",
+      "handle": "@Grizzle341",
+      "image": "images/3647.png",
+      "ones_file": "ones/3647_Grizzle_Grizzle341.png",
+      "metadata": "metadata/3647.json"
+    },
+    {
+      "token_id": 4358,
+      "display_name": "Chia",
+      "handle": "@chia_project",
+      "image": "images/4358.png",
+      "ones_file": "ones/4358_Chia_chia_project.png",
+      "metadata": "metadata/4358.json"
+    },
+    {
+      "token_id": 4929,
+      "display_name": "Memecoin",
+      "handle": "@ChiaMemecoin",
+      "image": "images/4929.png",
+      "ones_file": "ones/4929_Memecoin_ChiaMemecoin.png",
+      "metadata": "metadata/4929.json"
+    },
+    {
+      "token_id": 5012,
+      "display_name": "Mobilx",
+      "handle": "@m0b1lx",
+      "image": "images/5012.png",
+      "ones_file": "ones/5012_Mobilx_m0b1lx.png",
+      "metadata": "metadata/5012.json"
+    },
+    {
+      "token_id": 5074,
+      "display_name": "Fiend",
+      "handle": "@FiendStudios",
+      "image": "images/5074.png",
+      "ones_file": "ones/5074_Fiend_FiendStudios.png",
+      "metadata": "metadata/5074.json"
+    },
+    {
+      "token_id": 5095,
+      "display_name": "Seedsnapp",
+      "handle": "@seedsnapp",
+      "image": "images/5095.png",
+      "ones_file": "ones/5095_Seedsnapp_seedsnapp.png",
+      "metadata": "metadata/5095.json"
+    },
+    {
+      "token_id": 5189,
+      "display_name": "Matthew",
+      "handle": "@MatthewSHintz",
+      "image": "images/5189.png",
+      "ones_file": "ones/5189_Matthew_MatthewSHintz.png",
+      "metadata": "metadata/5189.json"
+    },
+    {
+      "token_id": 5279,
+      "display_name": "Sol",
+      "handle": "@solomonslot",
+      "image": "images/5279.png",
+      "ones_file": "ones/5279_Sol_solomonslot.png",
+      "metadata": "metadata/5279.json"
+    },
+    {
+      "token_id": 5413,
+      "display_name": "Hyperhex",
+      "handle": "@HYP3RH3X",
+      "image": "images/5413.png",
+      "ones_file": "ones/5413_Hyperhex_HYP3RH3X.png",
+      "metadata": "metadata/5413.json"
+    },
+    {
+      "token_id": 5762,
+      "display_name": "MintGarden",
+      "handle": "@MintGarden_io",
+      "image": "images/5762.png",
+      "ones_file": "ones/5762_MintGarden_MintGarden_io.png",
+      "metadata": "metadata/5762.json"
+    },
+    {
+      "token_id": 5804,
+      "display_name": "Anarkoic",
+      "handle": "@anarkoicxchia",
+      "image": "images/5804.png",
+      "ones_file": "ones/5804_Anarkoic_anarkoicxchia.png",
+      "metadata": "metadata/5804.json"
+    },
+    {
+      "token_id": 5915,
+      "display_name": "Rigidity",
+      "handle": "@Rigidity16",
+      "image": "images/5915.png",
+      "ones_file": "ones/5915_Rigidity_Rigidity16.png",
+      "metadata": "metadata/5915.json"
+    },
+    {
+      "token_id": 5943,
+      "display_name": "Lucky 8",
+      "handle": "@Lucky8Token",
+      "image": "images/5943.png",
+      "ones_file": "ones/5943_Lucky_8_Lucky8Token.png",
+      "metadata": "metadata/5943.json"
+    },
+    {
+      "token_id": 5985,
+      "display_name": "Circuit",
+      "handle": "@Circuit_DAO",
+      "image": "images/5985.png",
+      "ones_file": "ones/5985_Circuit_Circuit_DAO.png",
+      "metadata": "metadata/5985.json"
+    },
+    {
+      "token_id": 6057,
+      "display_name": "Mayor",
+      "handle": "@MayorAbandoned",
+      "image": "images/6057.png",
+      "ones_file": "ones/6057_Mayor_MayorAbandoned.png",
+      "metadata": "metadata/6057.json"
+    },
+    {
+      "token_id": 6169,
+      "display_name": "Heart",
+      "handle": "@ArtwithHeartNFT",
+      "image": "images/6169.png",
+      "ones_file": "ones/6169_Heart_ArtwithHeartNFT.png",
+      "metadata": "metadata/6169.json"
+    },
+    {
+      "token_id": 6206,
+      "display_name": "Dexie",
+      "handle": "@dexie_space",
+      "image": "images/6206.png",
+      "ones_file": "ones/6206_Dexie_dexie_space.png",
+      "metadata": "metadata/6206.json"
+    },
+    {
+      "token_id": 6280,
+      "display_name": "Ignore",
+      "handle": "@ignoreart",
+      "image": "images/6280.png",
+      "ones_file": "ones/6280_Ignore_ignoreart.png",
+      "metadata": "metadata/6280.json"
+    },
+    {
+      "token_id": 6414,
+      "display_name": "Dan",
+      "handle": "@DanPerry_Chia",
+      "image": "images/6414.png",
+      "ones_file": "ones/6414_Dan_DanPerry_Chia.png",
+      "metadata": "metadata/6414.json"
+    },
+    {
+      "token_id": 6439,
+      "display_name": "TMoney",
+      "handle": "@TeeMoney1738",
+      "image": "images/6439.png",
+      "ones_file": "ones/6439_TMoney_TeeMoney1738.png",
+      "metadata": "metadata/6439.json"
+    },
+    {
+      "token_id": 6477,
+      "display_name": "Steve",
+      "handle": "@steppsr",
+      "image": "images/6477.png",
+      "ones_file": "ones/6477_Steve_steppsr.png",
+      "metadata": "metadata/6477.json"
+    },
+    {
+      "token_id": 6632,
+      "display_name": "Bram",
+      "handle": "@bramcohen",
+      "image": "images/6632.png",
+      "ones_file": "ones/6632_Bram_bramcohen.png",
+      "metadata": "metadata/6632.json"
+    },
+    {
+      "token_id": 6947,
+      "display_name": "Monkeyzoo",
+      "handle": "@monkeyzoo",
+      "image": "images/6947.png",
+      "ones_file": "ones/6947_Monkeyzoo_monkeyzoo.png",
+      "metadata": "metadata/6947.json"
+    },
+    {
+      "token_id": 7014,
+      "display_name": "Dennis",
+      "handle": "@MrDennisV",
+      "image": "images/7014.png",
+      "ones_file": "ones/7014_Dennis_MrDennisV.png",
+      "metadata": "metadata/7014.json"
+    },
+    {
+      "token_id": 7034,
+      "display_name": "Phunky",
+      "handle": "@abit_HEX",
+      "image": "images/7034.png",
+      "ones_file": "ones/7034_Phunky_abit_HEX.png",
+      "metadata": "metadata/7034.json"
+    },
+    {
+      "token_id": 7071,
+      "display_name": "Peel",
+      "handle": "@neilpeel_me",
+      "image": "images/7071.png",
+      "ones_file": "ones/7071_Peel_neilpeel_me.png",
+      "metadata": "metadata/7071.json"
+    },
+    {
+      "token_id": 7130,
+      "display_name": "XCH Foundation",
+      "handle": "@XchFoundation",
+      "image": "images/7130.png",
+      "ones_file": "ones/7130_XCH_Foundation_XchFoundation.png",
+      "metadata": "metadata/7130.json"
+    },
+    {
+      "token_id": 7219,
+      "display_name": "Gene",
+      "handle": "@hoffmang",
+      "image": "images/7219.png",
+      "ones_file": "ones/7219_Gene_hoffmang.png",
+      "metadata": "metadata/7219.json"
+    },
+    {
+      "token_id": 7267,
+      "display_name": "Orc",
+      "handle": "@RightSexyOrc",
+      "image": "images/7267.png",
+      "ones_file": "ones/7267_Orc_RightSexyOrc.png",
+      "metadata": "metadata/7267.json"
+    },
+    {
+      "token_id": 7275,
+      "display_name": "Ben",
+      "handle": "@BenAtreidesVing",
+      "image": "images/7275.png",
+      "ones_file": "ones/7275_Ben_BenAtreidesVing.png",
+      "metadata": "metadata/7275.json"
+    },
+    {
+      "token_id": 7508,
+      "display_name": "Cass Fairies",
+      "handle": "@CassFairiesClub",
+      "image": "images/7508.png",
+      "ones_file": "ones/7508_Cass_Fairies_CassFairiesClub.png",
+      "metadata": "metadata/7508.json"
+    },
+    {
+      "token_id": 7513,
+      "display_name": "Strange",
+      "handle": "@_xDrStrange",
+      "image": "images/7513.png",
+      "ones_file": "ones/7513_Strange__xDrStrange.png",
+      "metadata": "metadata/7513.json"
+    },
+    {
+      "token_id": 7625,
+      "display_name": "Namesdao",
+      "handle": "@theNamesdao",
+      "image": "images/7625.png",
+      "ones_file": "ones/7625_Namesdao_theNamesdao.png",
+      "metadata": "metadata/7625.json"
+    },
+    {
+      "token_id": 7831,
+      "display_name": "RVD",
+      "handle": "@Crypto_RVD",
+      "image": "images/7831.png",
+      "ones_file": "ones/7831_RVD_Crypto_RVD.png",
+      "metadata": "metadata/7831.json"
+    },
+    {
+      "token_id": 7881,
+      "display_name": "Okra",
+      "handle": "@SpaceOkra",
+      "image": "images/7881.png",
+      "ones_file": "ones/7881_Okra_SpaceOkra.png",
+      "metadata": "metadata/7881.json"
+    },
+    {
+      "token_id": 7942,
+      "display_name": "Acevail",
+      "handle": "@acevail_",
+      "image": "images/7942.png",
+      "ones_file": "ones/7942_Acevail_acevail_.png",
+      "metadata": "metadata/7942.json"
+    },
+    {
+      "token_id": 7953,
+      "display_name": "Timelord",
+      "handle": "@SlowestTimelord",
+      "image": "images/7953.png",
+      "ones_file": "ones/7953_Timelord_SlowestTimelord.png",
+      "metadata": "metadata/7953.json"
+    },
+    {
+      "token_id": 8210,
+      "display_name": "Sage",
+      "handle": "@sage_wallet",
+      "image": "images/8210.png",
+      "ones_file": "ones/8210_Sage_sage_wallet.png",
+      "metadata": "metadata/8210.json"
+    },
+    {
+      "token_id": 8538,
+      "display_name": "Planet",
+      "handle": "@ChiaPlanet",
+      "image": "images/8538.png",
+      "ones_file": "ones/8538_Planet_ChiaPlanet.png",
+      "metadata": "metadata/8538.json"
+    },
+    {
+      "token_id": 8686,
+      "display_name": "DIG",
+      "handle": "@digdotnet",
+      "image": "images/8686.png",
+      "ones_file": "ones/8686_DIG_digdotnet.png",
+      "metadata": "metadata/8686.json"
+    },
+    {
+      "token_id": 8839,
+      "display_name": "Chamber",
+      "handle": "@DigitalChamber",
+      "image": "images/8839.png",
+      "ones_file": "ones/8839_Chamber_DigitalChamber.png",
+      "metadata": "metadata/8839.json"
+    }
+  ],
+  "total_1of1": 70,
+  "community_count": 60,
+  "named_count": 10
+}

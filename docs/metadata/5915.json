@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
-  "name": "WizNerdz #5915",
-  "description": "Community 1-of-1 for @Rigidity16. Remade from scratch with official traits (1OF1_ART_GUIDE). No overlay extras.",
+  "name": "Rigidity \u00b7 WizNerdz #5915",
+  "description": "Rigidity (@Rigidity16) \u2014 community 1-of-1 WizNerd. WizNerdZ Pixel Paragon by Fiend Studios.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -63,10 +63,6 @@
       "value": "Clean"
     },
     {
-      "trait_type": "Name",
-      "value": "Rigidity16"
-    },
-    {
       "trait_type": "Staff",
       "value": "Fire Staff"
     },
@@ -93,6 +89,14 @@
     {
       "trait_type": "Community Handle",
       "value": "@Rigidity16"
+    },
+    {
+      "trait_type": "Display Name",
+      "value": "Rigidity"
+    },
+    {
+      "trait_type": "Name",
+      "value": "Rigidity"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -118,7 +122,8 @@
       "spell": "None",
       "familiar": "None",
       "logo": "WizNerdZ Pixel Paragon 2x"
-    }
+    },
+    "display_name": "Rigidity"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5915.png"
 }

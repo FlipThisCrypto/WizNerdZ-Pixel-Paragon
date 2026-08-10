@@ -1,6 +1,6 @@
 {
   "format": "CHIP-0007",
-  "name": "WizNerdz #8700",
+  "name": "Staker \u00b7 WizNerdz #8700",
   "description": "Staker is a named WizNerd special with a green beret and sunset rainbow visor, dark full beard, and red Blood Mage robes on a violet field. 320x320 collection style.",
   "sensitive_content": false,
   "collection": {
@@ -93,6 +93,10 @@
     {
       "trait_type": "Supply",
       "value": "1"
+    },
+    {
+      "trait_type": "Display Name",
+      "value": "Staker"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -118,7 +122,8 @@
       "staff_right_margin": 8,
       "staff_offset_y": 30
     },
-    "image_basename": "8700.png"
+    "image_basename": "8700.png",
+    "display_name": "Staker"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8700.png"
 }

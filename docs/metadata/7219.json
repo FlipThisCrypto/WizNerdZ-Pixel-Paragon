@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
-  "name": "WizNerdz #7219",
-  "description": "Community 1-of-1 for @hoffmang \u2014 white beard (official facial-hair traits). Official trait composite (1OF1_ART_GUIDE).",
+  "name": "Gene \u00b7 WizNerdz #7219",
+  "description": "Gene (@hoffmang) \u2014 community 1-of-1 WizNerd. WizNerdZ Pixel Paragon by Fiend Studios.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -67,10 +67,6 @@
       "value": "white beard"
     },
     {
-      "trait_type": "Name",
-      "value": "hoffmang"
-    },
-    {
       "trait_type": "Staff",
       "value": "Gnarled Staff"
     },
@@ -97,6 +93,14 @@
     {
       "trait_type": "Community Handle",
       "value": "@hoffmang"
+    },
+    {
+      "trait_type": "Display Name",
+      "value": "Gene"
+    },
+    {
+      "trait_type": "Name",
+      "value": "Gene"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -123,7 +127,8 @@
       "spell": "Time Distortion",
       "familiar": "Slime",
       "logo": "WizNerdZ Pixel Paragon 2x"
-    }
+    },
+    "display_name": "Gene"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7219.png"
 }
