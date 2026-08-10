@@ -63,6 +63,22 @@
       "value": "Clean"
     },
     {
+      "trait_type": "Name",
+      "value": "iamSiipi"
+    },
+    {
+      "trait_type": "Staff",
+      "value": "Wooden Wand"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Floating Runes"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Raven"
+    },
+    {
       "trait_type": "Special",
       "value": "Community 1 of 1"
     },
@@ -71,12 +87,12 @@
       "value": "1 of 1"
     },
     {
-      "trait_type": "Community Handle",
-      "value": "@iamSiipi"
+      "trait_type": "Supply",
+      "value": "1"
     },
     {
-      "trait_type": "Name",
-      "value": "iamSiipi"
+      "trait_type": "Community Handle",
+      "value": "@iamSiipi"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -93,7 +109,15 @@
     "handle": "@iamSiipi",
     "guide": "1OF1_ART_GUIDE.md",
     "max_supply": 1,
-    "image_basename": "399.png"
+    "image_basename": "399.png",
+    "rarity_tier": "1 of 1",
+    "rarity_rank": "1/1",
+    "extra_layers": {
+      "staff": "Wooden Wand",
+      "spell": "Floating Runes",
+      "familiar": "Raven",
+      "logo": "WizNerdZ Pixel Paragon 2x"
+    }
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/399.png"
 }

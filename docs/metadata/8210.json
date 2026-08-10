@@ -63,6 +63,22 @@
       "value": "Clean"
     },
     {
+      "trait_type": "Name",
+      "value": "sage_wallet"
+    },
+    {
+      "trait_type": "Staff",
+      "value": "None"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Fireball"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "None"
+    },
+    {
       "trait_type": "Special",
       "value": "Community 1 of 1"
     },
@@ -71,12 +87,12 @@
       "value": "1 of 1"
     },
     {
-      "trait_type": "Community Handle",
-      "value": "@sage_wallet"
+      "trait_type": "Supply",
+      "value": "1"
     },
     {
-      "trait_type": "Name",
-      "value": "sage_wallet"
+      "trait_type": "Community Handle",
+      "value": "@sage_wallet"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -93,7 +109,15 @@
     "handle": "@sage_wallet",
     "guide": "1OF1_ART_GUIDE.md",
     "max_supply": 1,
-    "image_basename": "8210.png"
+    "image_basename": "8210.png",
+    "rarity_tier": "1 of 1",
+    "rarity_rank": "1/1",
+    "extra_layers": {
+      "staff": "None",
+      "spell": "Fireball",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x"
+    }
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8210.png"
 }

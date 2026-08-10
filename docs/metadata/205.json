@@ -63,6 +63,22 @@
       "value": "Taped Repair"
     },
     {
+      "trait_type": "Name",
+      "value": "OopsOrngz"
+    },
+    {
+      "trait_type": "Staff",
+      "value": "Wooden Wand"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "None"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "None"
+    },
+    {
       "trait_type": "Special",
       "value": "Community 1 of 1"
     },
@@ -71,12 +87,12 @@
       "value": "1 of 1"
     },
     {
-      "trait_type": "Community Handle",
-      "value": "@OopsOrngz"
+      "trait_type": "Supply",
+      "value": "1"
     },
     {
-      "trait_type": "Name",
-      "value": "OopsOrngz"
+      "trait_type": "Community Handle",
+      "value": "@OopsOrngz"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -94,7 +110,15 @@
     "max_supply": 1,
     "render": "trait_pipeline_scratch",
     "seed_salt": 2026081042,
-    "image_basename": "205.png"
+    "image_basename": "205.png",
+    "rarity_tier": "1 of 1",
+    "rarity_rank": "1/1",
+    "extra_layers": {
+      "staff": "Wooden Wand",
+      "spell": "None",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x"
+    }
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/205.png"
 }

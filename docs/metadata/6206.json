@@ -63,6 +63,22 @@
       "value": "Taped Repair"
     },
     {
+      "trait_type": "Name",
+      "value": "dexie_space"
+    },
+    {
+      "trait_type": "Staff",
+      "value": "Fire Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "None"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "None"
+    },
+    {
       "trait_type": "Special",
       "value": "Community 1 of 1"
     },
@@ -71,12 +87,12 @@
       "value": "1 of 1"
     },
     {
-      "trait_type": "Community Handle",
-      "value": "@dexie_space"
+      "trait_type": "Supply",
+      "value": "1"
     },
     {
-      "trait_type": "Name",
-      "value": "dexie_space"
+      "trait_type": "Community Handle",
+      "value": "@dexie_space"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -93,7 +109,15 @@
     "handle": "@dexie_space",
     "guide": "1OF1_ART_GUIDE.md",
     "max_supply": 1,
-    "image_basename": "6206.png"
+    "image_basename": "6206.png",
+    "rarity_tier": "1 of 1",
+    "rarity_rank": "1/1",
+    "extra_layers": {
+      "staff": "Fire Staff",
+      "spell": "None",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x"
+    }
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6206.png"
 }

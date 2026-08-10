@@ -63,6 +63,22 @@
       "value": "Clean"
     },
     {
+      "trait_type": "Name",
+      "value": "Crypto_RVD"
+    },
+    {
+      "trait_type": "Staff",
+      "value": "None"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Lightning Arc"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "None"
+    },
+    {
       "trait_type": "Special",
       "value": "Community 1 of 1"
     },
@@ -71,12 +87,12 @@
       "value": "1 of 1"
     },
     {
-      "trait_type": "Community Handle",
-      "value": "@Crypto_RVD"
+      "trait_type": "Supply",
+      "value": "1"
     },
     {
-      "trait_type": "Name",
-      "value": "Crypto_RVD"
+      "trait_type": "Community Handle",
+      "value": "@Crypto_RVD"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -93,7 +109,15 @@
     "handle": "@Crypto_RVD",
     "guide": "1OF1_ART_GUIDE.md",
     "max_supply": 1,
-    "image_basename": "7831.png"
+    "image_basename": "7831.png",
+    "rarity_tier": "1 of 1",
+    "rarity_rank": "1/1",
+    "extra_layers": {
+      "staff": "None",
+      "spell": "Lightning Arc",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x"
+    }
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7831.png"
 }

@@ -63,6 +63,22 @@
       "value": "Clean"
     },
     {
+      "trait_type": "Name",
+      "value": "HYP3RH3X"
+    },
+    {
+      "trait_type": "Staff",
+      "value": "Timekeeper Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Sparks"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Phoenix"
+    },
+    {
       "trait_type": "Special",
       "value": "Community 1 of 1"
     },
@@ -71,12 +87,12 @@
       "value": "1 of 1"
     },
     {
-      "trait_type": "Community Handle",
-      "value": "@HYP3RH3X"
+      "trait_type": "Supply",
+      "value": "1"
     },
     {
-      "trait_type": "Name",
-      "value": "HYP3RH3X"
+      "trait_type": "Community Handle",
+      "value": "@HYP3RH3X"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -94,7 +110,15 @@
     "max_supply": 1,
     "render": "trait_pipeline_scratch",
     "seed_salt": 2026081042,
-    "image_basename": "5413.png"
+    "image_basename": "5413.png",
+    "rarity_tier": "1 of 1",
+    "rarity_rank": "1/1",
+    "extra_layers": {
+      "staff": "Timekeeper Staff",
+      "spell": "Sparks",
+      "familiar": "Phoenix",
+      "logo": "WizNerdZ Pixel Paragon 2x"
+    }
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5413.png"
 }

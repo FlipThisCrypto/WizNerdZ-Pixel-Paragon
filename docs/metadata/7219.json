@@ -67,6 +67,22 @@
       "value": "white beard"
     },
     {
+      "trait_type": "Name",
+      "value": "hoffmang"
+    },
+    {
+      "trait_type": "Staff",
+      "value": "Gnarled Staff"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Time Distortion"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "Slime"
+    },
+    {
       "trait_type": "Special",
       "value": "Community 1 of 1"
     },
@@ -75,12 +91,12 @@
       "value": "1 of 1"
     },
     {
-      "trait_type": "Community Handle",
-      "value": "@hoffmang"
+      "trait_type": "Supply",
+      "value": "1"
     },
     {
-      "trait_type": "Name",
-      "value": "hoffmang"
+      "trait_type": "Community Handle",
+      "value": "@hoffmang"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -99,7 +115,15 @@
     "render": "trait_pipeline_scratch",
     "seed_salt": 2026081042,
     "custom_element": "white beard",
-    "image_basename": "7219.png"
+    "image_basename": "7219.png",
+    "rarity_tier": "1 of 1",
+    "rarity_rank": "1/1",
+    "extra_layers": {
+      "staff": "Gnarled Staff",
+      "spell": "Time Distortion",
+      "familiar": "Slime",
+      "logo": "WizNerdZ Pixel Paragon 2x"
+    }
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7219.png"
 }

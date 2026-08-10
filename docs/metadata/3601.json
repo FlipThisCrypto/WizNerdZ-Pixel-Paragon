@@ -63,6 +63,22 @@
       "value": "Clean"
     },
     {
+      "trait_type": "Name",
+      "value": "BraidsBlock"
+    },
+    {
+      "trait_type": "Staff",
+      "value": "Crystal Wand"
+    },
+    {
+      "trait_type": "Spell Effect",
+      "value": "Reality Fracture"
+    },
+    {
+      "trait_type": "Familiar",
+      "value": "None"
+    },
+    {
       "trait_type": "Special",
       "value": "Community 1 of 1"
     },
@@ -71,12 +87,12 @@
       "value": "1 of 1"
     },
     {
-      "trait_type": "Community Handle",
-      "value": "@BraidsBlock"
+      "trait_type": "Supply",
+      "value": "1"
     },
     {
-      "trait_type": "Name",
-      "value": "BraidsBlock"
+      "trait_type": "Community Handle",
+      "value": "@BraidsBlock"
     }
   ],
   "minting_tool": "WizNerdz Foundry Pipeline",
@@ -93,7 +109,15 @@
     "handle": "@BraidsBlock",
     "guide": "1OF1_ART_GUIDE.md",
     "max_supply": 1,
-    "image_basename": "3601.png"
+    "image_basename": "3601.png",
+    "rarity_tier": "1 of 1",
+    "rarity_rank": "1/1",
+    "extra_layers": {
+      "staff": "Crystal Wand",
+      "spell": "Reality Fracture",
+      "familiar": "None",
+      "logo": "WizNerdZ Pixel Paragon 2x"
+    }
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3601.png"
 }
