@@ -1,0 +1,420 @@
+{
+  "count": 59,
+  "guide": "1OF1_ART_GUIDE.md",
+  "note": "Trait-composited 1:1s; token IDs assigned on collection freeze",
+  "items": [
+    {
+      "handle": "@DracattusDev",
+      "file": "special\\community_1of1\\DracattusDev_640.png",
+      "class": "Chaos Weaver",
+      "background": "Red",
+      "dna": "1a29b2726af6b2a4"
+    },
+    {
+      "handle": "@MrDennisV",
+      "file": "special\\community_1of1\\MrDennisV_640.png",
+      "class": "Arcane Mage",
+      "background": "White",
+      "dna": "34735fd2147febd4"
+    },
+    {
+      "handle": "@monkeyzoo",
+      "file": "special\\community_1of1\\monkeyzoo_640.png",
+      "class": "Spirit Guide",
+      "background": "Teal",
+      "dna": "f142a79dca111091"
+    },
+    {
+      "handle": "@MayorAbandoned",
+      "file": "special\\community_1of1\\MayorAbandoned_640.png",
+      "class": "Chronomancer",
+      "background": "Indigo",
+      "dna": "92c0cff079d887aa"
+    },
+    {
+      "handle": "@FiendStudios",
+      "file": "special\\community_1of1\\FiendStudios_640.png",
+      "class": "Warlock Fel",
+      "background": "Gold",
+      "dna": "84ea56937bd9f2fb"
+    },
+    {
+      "handle": "@MiniMarmots",
+      "file": "special\\community_1of1\\MiniMarmots_640.png",
+      "class": "Druid",
+      "background": "Blue",
+      "dna": "5fc4d4baab27e9e5"
+    },
+    {
+      "handle": "@BraidsBlock",
+      "file": "special\\community_1of1\\BraidsBlock_640.png",
+      "class": "Arcane Mage",
+      "background": "White",
+      "dna": "ef85171cfea8bdc6"
+    },
+    {
+      "handle": "@DanPerry_Chia",
+      "file": "special\\community_1of1\\DanPerry_Chia_640.png",
+      "class": "Druid",
+      "background": "Red",
+      "dna": "6441e7285af83d4a"
+    },
+    {
+      "handle": "@endertown",
+      "file": "special\\community_1of1\\endertown_640.png",
+      "class": "Illusionist",
+      "background": "Violet",
+      "dna": "ca1f3be7d9cec622"
+    },
+    {
+      "handle": "@SpaceOkra",
+      "file": "special\\community_1of1\\SpaceOkra_640.png",
+      "class": "Illusionist",
+      "background": "Pink",
+      "dna": "6b8d0a1868727aaf"
+    },
+    {
+      "handle": "@abit_HEX",
+      "file": "special\\community_1of1\\abit_HEX_640.png",
+      "class": "Cryomancer",
+      "background": "Red",
+      "dna": "0cbb609040776303"
+    },
+    {
+      "handle": "@HYP3RH3X",
+      "file": "special\\community_1of1\\HYP3RH3X_640.png",
+      "class": "Void Walker",
+      "background": "Blue",
+      "dna": "0d2f56446ae1f854"
+    },
+    {
+      "handle": "@ignoreart",
+      "file": "special\\community_1of1\\ignoreart_640.png",
+      "class": "Chaos Weaver",
+      "background": "Gray",
+      "dna": "b61968aa81c9de54"
+    },
+    {
+      "handle": "@seedsnapp",
+      "file": "special\\community_1of1\\seedsnapp_640.png",
+      "class": "Cleric Light",
+      "background": "Teal",
+      "dna": "2625bf2105caeec4"
+    },
+    {
+      "handle": "@ChiaGodsNFT",
+      "file": "special\\community_1of1\\ChiaGodsNFT_640.png",
+      "class": "Alchemist",
+      "background": "Gray",
+      "dna": "23f6260ce5ace007"
+    },
+    {
+      "handle": "@CF_Lost_Gifs",
+      "file": "special\\community_1of1\\CF_Lost_Gifs_640.png",
+      "class": "Warlock Fel",
+      "background": "Silver",
+      "dna": "54a1176f76feab73"
+    },
+    {
+      "handle": "@SpiritBits",
+      "file": "special\\community_1of1\\SpiritBits_640.png",
+      "class": "Spirit Guide",
+      "background": "Orange",
+      "dna": "d2e7551398eb5744"
+    },
+    {
+      "handle": "@CassFairiesClub",
+      "file": "special\\community_1of1\\CassFairiesClub_640.png",
+      "class": "Cleric Light",
+      "background": "Green",
+      "dna": "68c167c69a1afa6e"
+    },
+    {
+      "handle": "@DatArtPerson",
+      "file": "special\\community_1of1\\DatArtPerson_640.png",
+      "class": "Pyromancer",
+      "background": "Gold",
+      "dna": "54d8e7e8df10a209"
+    },
+    {
+      "handle": "@AlexisMpus69903",
+      "file": "special\\community_1of1\\AlexisMpus69903_640.png",
+      "class": "Rune Keeper",
+      "background": "Gold",
+      "dna": "1c23c1122eb72956"
+    },
+    {
+      "handle": "@solomonslot",
+      "file": "special\\community_1of1\\solomonslot_640.png",
+      "class": "Cleric Light",
+      "background": "Teal",
+      "dna": "f462ab7a1eabc876"
+    },
+    {
+      "handle": "@time2buyxch",
+      "file": "special\\community_1of1\\time2buyxch_640.png",
+      "class": "Void Walker",
+      "background": "Green",
+      "dna": "3bd16bfa1f479cd0"
+    },
+    {
+      "handle": "@neilpeel_me",
+      "file": "special\\community_1of1\\neilpeel_me_640.png",
+      "class": "Arcane Mage",
+      "background": "Violet",
+      "dna": "163b763704634446"
+    },
+    {
+      "handle": "@_xDrStrange",
+      "file": "special\\community_1of1\\_xDrStrange_640.png",
+      "class": "Chronomancer",
+      "background": "White",
+      "dna": "0b302ee89ded18c4"
+    },
+    {
+      "handle": "@steppsr",
+      "file": "special\\community_1of1\\steppsr_640.png",
+      "class": "Cryomancer",
+      "background": "Gray",
+      "dna": "ddea50e82b147120"
+    },
+    {
+      "handle": "@chia_project",
+      "file": "special\\community_1of1\\chia_project_640.png",
+      "class": "Arcane Mage",
+      "background": "Blue",
+      "dna": "d27c9b3e9a5293fa"
+    },
+    {
+      "handle": "@Rigidity16",
+      "file": "special\\community_1of1\\Rigidity16_640.png",
+      "class": "Arcane Mage",
+      "background": "Teal",
+      "dna": "95d83456d00b8c40"
+    },
+    {
+      "handle": "@bramcohen",
+      "file": "special\\community_1of1\\bramcohen_640.png",
+      "class": "Rune Keeper",
+      "background": "Pink",
+      "dna": "f3da9d572d915b44"
+    },
+    {
+      "handle": "@hoffmang",
+      "file": "special\\community_1of1\\hoffmang_640.png",
+      "class": "Arcane Mage",
+      "background": "Violet",
+      "dna": "12d5b4e7dfb6dd17"
+    },
+    {
+      "handle": "@SlowestTimelord",
+      "file": "special\\community_1of1\\SlowestTimelord_640.png",
+      "class": "Chronomancer",
+      "background": "Teal",
+      "dna": "ed08f6d5a81fab57"
+    },
+    {
+      "handle": "@spacescan_io",
+      "file": "special\\community_1of1\\spacescan_io_640.png",
+      "class": "Arcane Mage",
+      "background": "Brown",
+      "dna": "cd804dbfd84060db"
+    },
+    {
+      "handle": "@sage_wallet",
+      "file": "special\\community_1of1\\sage_wallet_640.png",
+      "class": "Arcane Mage",
+      "background": "Red",
+      "dna": "42d239cec3367a56"
+    },
+    {
+      "handle": "@dexie_space",
+      "file": "special\\community_1of1\\dexie_space_640.png",
+      "class": "Chronomancer",
+      "background": "Violet",
+      "dna": "19b473186674020e"
+    },
+    {
+      "handle": "@MintGarden_io",
+      "file": "special\\community_1of1\\MintGarden_io_640.png",
+      "class": "Druid",
+      "background": "Brown",
+      "dna": "f29ca3e01f2aae25"
+    },
+    {
+      "handle": "@Circuit_DAO",
+      "file": "special\\community_1of1\\Circuit_DAO_640.png",
+      "class": "Rune Keeper",
+      "background": "Pink",
+      "dna": "c54a67fc5d5a9b28"
+    },
+    {
+      "handle": "@MatthewSHintz",
+      "file": "special\\community_1of1\\MatthewSHintz_640.png",
+      "class": "Deep Sea",
+      "background": "Green",
+      "dna": "7bc7cc62ae855fca"
+    },
+    {
+      "handle": "@digdotnet",
+      "file": "special\\community_1of1\\digdotnet_640.png",
+      "class": "Rune Keeper",
+      "background": "Brown",
+      "dna": "332fa55dbdf88bb2"
+    },
+    {
+      "handle": "@OrangeGooey",
+      "file": "special\\community_1of1\\OrangeGooey_640.png",
+      "class": "Alchemist",
+      "background": "Gold",
+      "dna": "d62c1067a5cc2345"
+    },
+    {
+      "handle": "@iamSiipi",
+      "file": "special\\community_1of1\\iamSiipi_640.png",
+      "class": "Chronomancer",
+      "background": "White",
+      "dna": "7d8fc838bb279422"
+    },
+    {
+      "handle": "@ChiaMemecoin",
+      "file": "special\\community_1of1\\ChiaMemecoin_640.png",
+      "class": "Pyromancer",
+      "background": "Teal",
+      "dna": "6d9db639def768ff"
+    },
+    {
+      "handle": "@nftprofetmaster",
+      "file": "special\\community_1of1\\nftprofetmaster_640.png",
+      "class": "Mystic Seer",
+      "background": "Orange",
+      "dna": "01d5088155af246d"
+    },
+    {
+      "handle": "@m0b1lx",
+      "file": "special\\community_1of1\\m0b1lx_640.png",
+      "class": "Earth Shaman",
+      "background": "Brown",
+      "dna": "26ac9965977ce21d"
+    },
+    {
+      "handle": "@acevail_",
+      "file": "special\\community_1of1\\acevail__640.png",
+      "class": "Deep Sea",
+      "background": "Blue",
+      "dna": "8f3999b8d513f741"
+    },
+    {
+      "handle": "@permutocapital",
+      "file": "special\\community_1of1\\permutocapital_640.png",
+      "class": "Storm Caller",
+      "background": "Violet",
+      "dna": "bdf46ec2d2091f2c"
+    },
+    {
+      "handle": "@theNamesdao",
+      "file": "special\\community_1of1\\theNamesdao_640.png",
+      "class": "Arcane Mage",
+      "background": "Orange",
+      "dna": "17bf75c0f4054b29"
+    },
+    {
+      "handle": "@silicondotnet",
+      "file": "special\\community_1of1\\silicondotnet_640.png",
+      "class": "Blood Mage",
+      "background": "Green",
+      "dna": "699f71f21f2274c5"
+    },
+    {
+      "handle": "@FomoTheShow",
+      "file": "special\\community_1of1\\FomoTheShow_640.png",
+      "class": "Vampire Lord",
+      "background": "Green",
+      "dna": "54a9fea779e5135d"
+    },
+    {
+      "handle": "@ArtwithHeartNFT",
+      "file": "special\\community_1of1\\ArtwithHeartNFT_640.png",
+      "class": "Spirit Guide",
+      "background": "Red",
+      "dna": "96777a8a4c964aa3"
+    },
+    {
+      "handle": "@TeeMoney1738",
+      "file": "special\\community_1of1\\TeeMoney1738_640.png",
+      "class": "Illusionist",
+      "background": "Red",
+      "dna": "63853dab8d261414"
+    },
+    {
+      "handle": "@thyrevolution",
+      "file": "special\\community_1of1\\thyrevolution_640.png",
+      "class": "Earth Shaman",
+      "background": "Red",
+      "dna": "6bfe7077fa64d6ba"
+    },
+    {
+      "handle": "@anarkoicxchia",
+      "file": "special\\community_1of1\\anarkoicxchia_640.png",
+      "class": "Blood Mage",
+      "background": "Teal",
+      "dna": "8d9c5ba6edd9e450"
+    },
+    {
+      "handle": "@Lucky8Token",
+      "file": "special\\community_1of1\\Lucky8Token_640.png",
+      "class": "High Sorcerer",
+      "background": "Teal",
+      "dna": "3ecdf9f226e50393"
+    },
+    {
+      "handle": "@trashformersnft",
+      "file": "special\\community_1of1\\trashformersnft_640.png",
+      "class": "Cryomancer",
+      "background": "Blue",
+      "dna": "3009ce7378eec589"
+    },
+    {
+      "handle": "@DigitalChamber",
+      "file": "special\\community_1of1\\DigitalChamber_640.png",
+      "class": "Rune Keeper",
+      "background": "White",
+      "dna": "b02d9db851ff2733"
+    },
+    {
+      "handle": "@XchFoundation",
+      "file": "special\\community_1of1\\XchFoundation_640.png",
+      "class": "Cleric Light",
+      "background": "Red",
+      "dna": "57afa28c53be5e40"
+    },
+    {
+      "handle": "@RightSexyOrc",
+      "file": "special\\community_1of1\\RightSexyOrc_640.png",
+      "class": "Alchemist",
+      "background": "Silver",
+      "dna": "10b18eacca8cf0d8"
+    },
+    {
+      "handle": "@Crypto_RVD",
+      "file": "special\\community_1of1\\Crypto_RVD_640.png",
+      "class": "Sand Sage",
+      "background": "Violet",
+      "dna": "7519a2118120bc60"
+    },
+    {
+      "handle": "@BenAtreidesVing",
+      "file": "special\\community_1of1\\BenAtreidesVing_640.png",
+      "class": "Chaos Weaver",
+      "background": "Teal",
+      "dna": "be6f42c750979efa"
+    },
+    {
+      "handle": "@ChiaPlanet",
+      "file": "special\\community_1of1\\ChiaPlanet_640.png",
+      "class": "Chaos Weaver",
+      "background": "White",
+      "dna": "0777254ed4e93c8d"
+    }
+  ]
+}

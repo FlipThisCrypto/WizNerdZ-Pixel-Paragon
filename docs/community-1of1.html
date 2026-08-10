@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Community 1-of-1 WizNerdZ</title>
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="icon" href="assets/logo_mark.png" type="image/png" />
+  <style>
+    body {
+      margin: 0;
+      font-family: var(--font-ui, system-ui, sans-serif);
+      background: linear-gradient(165deg, #020308, #061428);
+      color: #e8eef6;
+      padding: 24px 16px 48px;
+    }
+    a { color: #a8d4ff; }
+    a:hover { color: #9dffb0; }
+    .wrap { max-width: 1100px; margin: 0 auto; }
+    h1 { margin: 0 0 8px; font-size: 1.4rem; }
+    h1 span { color: #9dffb0; }
+    .muted { color: #8b96a8; font-size: 0.9rem; }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 12px;
+      margin-top: 20px;
+    }
+    figure {
+      margin: 0;
+      background: #0a0c12;
+      border: 1px solid rgba(168, 212, 255, 0.22);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(18, 64, 110, 0.35);
+    }
+    img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+      image-rendering: pixelated;
+      display: block;
+      background: #111;
+    }
+    figcaption {
+      font-size: 0.68rem;
+      padding: 6px 8px;
+      color: #9b93b5;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    figcaption strong { color: #9dffb0; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="muted">
+      <a href="./">← Home</a> ·
+      <a href="1OF1_ART_GUIDE.md">1-of-1 guide</a> ·
+      <a href="specials/community/catalog.json">catalog.json</a>
+    </p>
+    <h1>Community <span>1-of-1</span> WizNerdZ</h1>
+    <p class="muted">
+      59 Fiend Studios batch nominations — official traits, light-BG preference, class-matched,
+      640×640, logo top-right. Token IDs assigned on collection freeze.
+    </p>
+    <div class="gallery" id="g"></div>
+  </div>
+  <script>
+    fetch("specials/community/catalog.json")
+      .then((r) => r.json())
+      .then((data) => {
+        const el = document.getElementById("g");
+        (data.items || []).forEach((item) => {
+          const h = (item.handle || "").replace(/^@/, "");
+          const fig = document.createElement("figure");
+          fig.innerHTML =
+            '<a href="specials/community/' +
+            h +
+            '.png"><img src="specials/community/' +
+            h +
+            '.png" alt="' +
+            item.handle +
+            '" loading="lazy" /></a>' +
+            "<figcaption><strong>" +
+            item.handle +
+            "</strong><br/>" +
+            (item.class || "") +
+            "</figcaption>";
+          el.appendChild(fig);
+        });
+      })
+      .catch((e) => {
+        document.getElementById("g").textContent = String(e);
+      });
+  </script>
+</body>
+</html>
