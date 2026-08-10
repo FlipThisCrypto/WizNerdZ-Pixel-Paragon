@@ -1,5 +1,5 @@
 {
-  "count": 61,
+  "count": 62,
   "guide": "1OF1_ART_GUIDE.md",
   "note": "Community 1:1s; select handles have themed custom elements",
   "items": [
@@ -291,10 +291,11 @@
     },
     {
       "handle": "@nftprofetmaster",
-      "file": "special\\community_1of1\\nftprofetmaster_640.png",
+      "file": "special\\\\community_1of1\\\\nftprofetmaster_640.png",
       "class": "Mystic Seer",
       "background": "Orange",
-      "dna": "01d5088155af246d"
+      "dna": "01d5088155af246d",
+      "custom_element": "middle finger gesture"
     },
     {
       "handle": "@m0b1lx",
@@ -434,6 +435,11 @@
       "handle": "@OopsOrngz",
       "file": "special\\community_1of1\\OopsOrngz_640.png",
       "custom_element": "oranges + one-eyed plank"
+    },
+    {
+      "handle": "@Bullish0xCrypto",
+      "file": "special\\\\community_1of1\\\\Bullish0xCrypto_640.png",
+      "custom_element": "crown"
     }
   ]
 }
