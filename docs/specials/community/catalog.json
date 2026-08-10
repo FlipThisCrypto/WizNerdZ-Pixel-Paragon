@@ -1,5 +1,5 @@
 {
-  "count": 62,
+  "count": 60,
   "guide": "1OF1_ART_GUIDE.md",
   "note": "Scratch remakes of edited handles: pure traits; hoffmang white beard; OrangeGooey orange BG + orange skin recolor",
   "items": [
@@ -154,14 +154,6 @@
       "background": "Gold",
       "dna": "54d8e7e8df10a209",
       "token_id": 639
-    },
-    {
-      "handle": "@AlexisMpus69903",
-      "file": "special\\community_1of1\\AlexisMpus69903_640.png",
-      "class": "Rune Keeper",
-      "background": "Gold",
-      "dna": "1c23c1122eb72956",
-      "token_id": 4040
     },
     {
       "handle": "@solomonslot",
@@ -374,14 +366,6 @@
       "token_id": 1090
     },
     {
-      "handle": "@FomoTheShow",
-      "file": "special\\community_1of1\\FomoTheShow_640.png",
-      "class": "Vampire Lord",
-      "background": "Green",
-      "dna": "54a9fea779e5135d",
-      "token_id": 6442
-    },
-    {
       "handle": "@ArtwithHeartNFT",
       "file": "special\\community_1of1\\ArtwithHeartNFT_640.png",
       "class": "Deep Sea",
@@ -502,5 +486,9 @@
       "token_id": 3146
     }
   ],
-  "injected": true
+  "injected": true,
+  "removed": [
+    "AlexisMpus69903",
+    "FomoTheShow"
+  ]
 }

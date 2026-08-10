@@ -156,11 +156,6 @@
       "file": "community/Grizzle341.png"
     },
     {
-      "id": 4040,
-      "handle": "@AlexisMpus69903",
-      "file": "community/AlexisMpus69903.png"
-    },
-    {
       "id": 4358,
       "handle": "@chia_project",
       "file": "community/chia_project.png"
@@ -254,11 +249,6 @@
       "id": 6439,
       "handle": "@TeeMoney1738",
       "file": "community/TeeMoney1738.png"
-    },
-    {
-      "id": 6442,
-      "handle": "@FomoTheShow",
-      "file": "community/FomoTheShow.png"
     },
     {
       "id": 6477,
@@ -366,5 +356,5 @@
       "file": "community/DigitalChamber.png"
     }
   ],
-  "community_count": 62
+  "community_count": 60
 }

@@ -32,7 +32,6 @@
     "3332": "MiniMarmots",
     "3601": "BraidsBlock",
     "3647": "Grizzle341",
-    "4040": "AlexisMpus69903",
     "4358": "chia_project",
     "4929": "ChiaMemecoin",
     "5012": "m0b1lx",
@@ -52,7 +51,6 @@
     "6280": "ignoreart",
     "6414": "DanPerry_Chia",
     "6439": "TeeMoney1738",
-    "6442": "FomoTheShow",
     "6477": "steppsr",
     "6632": "bramcohen",
     "6947": "monkeyzoo",
@@ -76,5 +74,6 @@
     "8839": "DigitalChamber"
   },
   "seed": 8888,
-  "note": "Community 1-of-1s replace generative tokens at these IDs"
+  "note": "Community 1-of-1s replace generative tokens at these IDs",
+  "community_count": 60
 }
