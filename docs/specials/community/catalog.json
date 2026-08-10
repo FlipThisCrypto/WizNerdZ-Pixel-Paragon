@@ -1,14 +1,14 @@
 {
   "count": 62,
   "guide": "1OF1_ART_GUIDE.md",
-  "note": "Official trait composites only; hoffmang uses white facial-hair trait (no AI/overlay extras)",
+  "note": "Scratch remakes of edited handles: pure traits; hoffmang white beard; OrangeGooey orange BG + orange skin recolor",
   "items": [
     {
       "handle": "@DracattusDev",
-      "file": "special\\\\community_1of1\\\\DracattusDev_640.png",
+      "file": "special\\community_1of1\\DracattusDev_640.png",
       "class": "Chaos Weaver",
-      "background": "Red",
-      "dna": "1a29b2726af6b2a4"
+      "background": "Pink",
+      "dna": "10c025a3ae1c8ad2"
     },
     {
       "handle": "@MrDennisV",
@@ -19,10 +19,10 @@
     },
     {
       "handle": "@monkeyzoo",
-      "file": "special\\\\community_1of1\\\\monkeyzoo_640.png",
+      "file": "special\\community_1of1\\monkeyzoo_640.png",
       "class": "Spirit Guide",
-      "background": "Teal",
-      "dna": "f142a79dca111091"
+      "background": "White",
+      "dna": "91d878fa7b0335cc"
     },
     {
       "handle": "@MayorAbandoned",
@@ -82,10 +82,10 @@
     },
     {
       "handle": "@HYP3RH3X",
-      "file": "special\\\\community_1of1\\\\HYP3RH3X_640.png",
+      "file": "special\\community_1of1\\HYP3RH3X_640.png",
       "class": "Void Walker",
-      "background": "Blue",
-      "dna": "0d2f56446ae1f854"
+      "background": "Red",
+      "dna": "826e599a42a71392"
     },
     {
       "handle": "@ignoreart",
@@ -187,10 +187,10 @@
     },
     {
       "handle": "@Rigidity16",
-      "file": "special\\\\community_1of1\\\\Rigidity16_640.png",
-      "class": "Arcane Mage",
-      "background": "Teal",
-      "dna": "95d83456d00b8c40"
+      "file": "special\\community_1of1\\Rigidity16_640.png",
+      "class": "Rune Keeper",
+      "background": "Gray",
+      "dna": "1c20855b4827a0b6"
     },
     {
       "handle": "@bramcohen",
@@ -201,11 +201,11 @@
     },
     {
       "handle": "@hoffmang",
-      "file": "special\\\\community_1of1\\\\hoffmang_640.png",
+      "file": "special\\community_1of1\\hoffmang_640.png",
       "class": "Arcane Mage",
-      "background": "Violet",
-      "custom_element": "white beard",
-      "dna": "ba46f46edf41a123"
+      "background": "Green",
+      "dna": "eb613a40204401e4",
+      "custom_element": "white beard"
     },
     {
       "handle": "@SlowestTimelord",
@@ -265,10 +265,11 @@
     },
     {
       "handle": "@OrangeGooey",
-      "file": "special\\\\community_1of1\\\\OrangeGooey_640.png",
+      "file": "special\\community_1of1\\OrangeGooey_640.png",
       "class": "Alchemist",
-      "background": "Gold",
-      "dna": "d62c1067a5cc2345"
+      "background": "Orange",
+      "dna": "c556ac18faac60c1",
+      "custom_element": "orange skin + orange background"
     },
     {
       "handle": "@iamSiipi",
@@ -286,10 +287,10 @@
     },
     {
       "handle": "@nftprofetmaster",
-      "file": "special\\\\community_1of1\\\\nftprofetmaster_640.png",
-      "class": "Mystic Seer",
-      "background": "Orange",
-      "dna": "01d5088155af246d"
+      "file": "special\\community_1of1\\nftprofetmaster_640.png",
+      "class": "Spirit Guide",
+      "background": "Silver",
+      "dna": "26c84e31fd9e71ea"
     },
     {
       "handle": "@m0b1lx",
@@ -300,10 +301,10 @@
     },
     {
       "handle": "@acevail_",
-      "file": "special\\\\community_1of1\\\\acevail__640.png",
-      "class": "Deep Sea",
-      "background": "Blue",
-      "dna": "8f3999b8d513f741"
+      "file": "special\\community_1of1\\acevail__640.png",
+      "class": "Pyromancer",
+      "background": "Green",
+      "dna": "2179b1d90bed3720"
     },
     {
       "handle": "@permutocapital",
@@ -335,10 +336,10 @@
     },
     {
       "handle": "@ArtwithHeartNFT",
-      "file": "special\\\\community_1of1\\\\ArtwithHeartNFT_640.png",
-      "class": "Spirit Guide",
-      "background": "Red",
-      "dna": "96777a8a4c964aa3"
+      "file": "special\\community_1of1\\ArtwithHeartNFT_640.png",
+      "class": "Deep Sea",
+      "background": "Violet",
+      "dna": "104fe750efd223ff"
     },
     {
       "handle": "@TeeMoney1738",
@@ -363,10 +364,10 @@
     },
     {
       "handle": "@Lucky8Token",
-      "file": "special\\\\community_1of1\\\\Lucky8Token_640.png",
-      "class": "High Sorcerer",
-      "background": "Teal",
-      "dna": "3ecdf9f226e50393"
+      "file": "special\\community_1of1\\Lucky8Token_640.png",
+      "class": "Alchemist",
+      "background": "Orange",
+      "dna": "ae54ef018757e6b8"
     },
     {
       "handle": "@trashformersnft",
@@ -419,24 +420,24 @@
     },
     {
       "handle": "@Grizzle341",
-      "file": "special\\\\community_1of1\\\\Grizzle341_640.png",
-      "class": "Chaos Weaver",
-      "background": "Brown",
-      "dna": "d063f9ea731a8091"
+      "file": "special\\community_1of1\\Grizzle341_640.png",
+      "class": "Cleric Light",
+      "background": "Teal",
+      "dna": "7210932ffbee0a8f"
     },
     {
       "handle": "@OopsOrngz",
-      "file": "special\\\\community_1of1\\\\OopsOrngz_640.png",
-      "class": "Pyromancer",
-      "background": "Yellow",
-      "dna": "ff1ccfaf41c91d4d"
+      "file": "special\\community_1of1\\OopsOrngz_640.png",
+      "class": "Warlock Fel",
+      "background": "Brown",
+      "dna": "30ec141556c150ff"
     },
     {
       "handle": "@Bullish0xCrypto",
-      "file": "special\\\\community_1of1\\\\Bullish0xCrypto_640.png",
-      "class": "High Sorcerer",
-      "background": "Gray",
-      "dna": "fc03e8bedfe159a3"
+      "file": "special\\community_1of1\\Bullish0xCrypto_640.png",
+      "class": "Deep Sea",
+      "background": "Pink",
+      "dna": "886d31b07f1f7ccd"
     }
   ]
 }
