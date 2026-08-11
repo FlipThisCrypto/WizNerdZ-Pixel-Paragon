@@ -6,8 +6,10 @@
   "collection": {
     "id": "wiznerdz-chia-gen1",
     "series_total": 8888,
-    "one_of_ones": 70,
-    "media_base": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon"
+    "one_of_ones": 71,
+    "media_base": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon",
+    "community_1of1": 61,
+    "named_1of1": 10
   },
   "checks": {
     "pages": "live",

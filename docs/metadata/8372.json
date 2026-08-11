@@ -104,7 +104,7 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2777/8818",
+    "rarity_rank": "2778/8817",
     "rarity_score": 5.57e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
@@ -156,13 +156,13 @@
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7900,
-        "pct": 88.8839
+        "count": 7899,
+        "pct": 88.8726
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "Dragon Staff",
@@ -189,9 +189,9 @@
       "staff_offset_y": 30
     },
     "image_basename": "8372.png",
-    "rarity_rank_numeric": 2777,
+    "rarity_rank_numeric": 2778,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8372.png"
 }

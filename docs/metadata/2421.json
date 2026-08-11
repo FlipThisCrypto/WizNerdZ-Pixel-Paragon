@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "2233/8818",
-    "rarity_score": 3.82e-14,
+    "rarity_rank": "2239/8817",
+    "rarity_score": 3.85e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Cryomancer",
-        "count": 344,
-        "pct": 3.8704
+        "count": 345,
+        "pct": 3.8816
       },
       "Shirt": {
         "value": "Cryomancer",
-        "count": 344,
-        "pct": 3.8704
+        "count": 345,
+        "pct": 3.8816
       },
       "Wizard Hat": {
         "value": "Cryomancer",
-        "count": 344,
-        "pct": 3.8704
+        "count": 345,
+        "pct": 3.8816
       },
       "Facial Hair": {
         "value": "Medium Rounded Brown",
@@ -156,13 +156,13 @@
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7900,
-        "pct": 88.8839
+        "count": 7899,
+        "pct": 88.8726
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "None",
@@ -171,8 +171,8 @@
       },
       "Spell Effect": {
         "value": "Ice Shards",
-        "count": 476,
-        "pct": 5.3555
+        "count": 475,
+        "pct": 5.3443
       },
       "Familiar": {
         "value": "Owl",
@@ -189,9 +189,9 @@
       "staff_offset_y": 30
     },
     "image_basename": "2421.png",
-    "rarity_rank_numeric": 2233,
+    "rarity_rank_numeric": 2239,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2421.png"
 }

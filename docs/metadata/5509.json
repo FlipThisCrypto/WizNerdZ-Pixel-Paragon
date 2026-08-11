@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1123/8818",
-    "rarity_score": 1.2e-14,
+    "rarity_rank": "1136/8817",
+    "rarity_score": 1.22e-14,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -146,8 +146,8 @@
       },
       "Facial Hair": {
         "value": "Chin Strap White Gray",
-        "count": 70,
-        "pct": 0.7876
+        "count": 71,
+        "pct": 0.7988
       },
       "Glasses": {
         "value": "Entropy Shades",
@@ -156,13 +156,13 @@
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7900,
-        "pct": 88.8839
+        "count": 7899,
+        "pct": 88.8726
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "Ice Staff",
@@ -189,9 +189,9 @@
       "staff_offset_y": 30
     },
     "image_basename": "5509.png",
-    "rarity_rank_numeric": 1123,
+    "rarity_rank_numeric": 1136,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5509.png"
 }

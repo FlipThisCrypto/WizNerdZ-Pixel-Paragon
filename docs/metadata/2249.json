@@ -104,8 +104,8 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "3700/8818",
-    "rarity_score": 1.026e-13,
+    "rarity_rank": "3713/8817",
+    "rarity_score": 1.035e-13,
     "rarity_tier": "Common",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -121,8 +121,8 @@
       },
       "Eyes": {
         "value": "Green",
-        "count": 1301,
-        "pct": 14.6377
+        "count": 1300,
+        "pct": 14.6265
       },
       "Mouth": {
         "value": "Classic",
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Cryomancer",
-        "count": 344,
-        "pct": 3.8704
+        "count": 345,
+        "pct": 3.8816
       },
       "Shirt": {
         "value": "Cryomancer",
-        "count": 344,
-        "pct": 3.8704
+        "count": 345,
+        "pct": 3.8816
       },
       "Wizard Hat": {
         "value": "Cryomancer",
-        "count": 344,
-        "pct": 3.8704
+        "count": 345,
+        "pct": 3.8816
       },
       "Facial Hair": {
         "value": "Long Rounded Dark Brown",
@@ -161,8 +161,8 @@
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "None",
@@ -189,9 +189,9 @@
       "staff_offset_y": 30
     },
     "image_basename": "2249.png",
-    "rarity_rank_numeric": 3700,
+    "rarity_rank_numeric": 3713,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2249.png"
 }

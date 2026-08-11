@@ -104,8 +104,8 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "1965/8818",
-    "rarity_score": 3.09e-14,
+    "rarity_rank": "1953/8817",
+    "rarity_score": 3.05e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Chaos Weaver",
-        "count": 384,
-        "pct": 4.3204
+        "count": 383,
+        "pct": 4.3092
       },
       "Shirt": {
         "value": "Chaos Weaver",
-        "count": 384,
-        "pct": 4.3204
+        "count": 383,
+        "pct": 4.3092
       },
       "Wizard Hat": {
         "value": "Chaos Weaver",
-        "count": 384,
-        "pct": 4.3204
+        "count": 383,
+        "pct": 4.3092
       },
       "Facial Hair": {
         "value": "Medium Rounded Blonde",
@@ -161,8 +161,8 @@
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "None",
@@ -171,8 +171,8 @@
       },
       "Spell Effect": {
         "value": "Ice Shards",
-        "count": 476,
-        "pct": 5.3555
+        "count": 475,
+        "pct": 5.3443
       },
       "Familiar": {
         "value": "None",
@@ -189,9 +189,9 @@
       "staff_offset_y": 30
     },
     "image_basename": "3864.png",
-    "rarity_rank_numeric": 1965,
+    "rarity_rank_numeric": 1953,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3864.png"
 }

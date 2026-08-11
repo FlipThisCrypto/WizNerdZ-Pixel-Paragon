@@ -14,8 +14,8 @@ Nominations are closed. Public rarity rank tables are not published pre-mint (fa
 | Kind | Count | Source |
 |------|------:|--------|
 | **Named 1-of-1s** | **from `ones/named/`** (currently **10**) | Authoritative folder enumeration — not a hard-coded README constant |
-| Community 1-of-1s | 60 | `ones/community/` + placements |
-| **Total 1-of-1s** | **70** | named + community |
+| Community 1-of-1s | 61 | `ones/community/` + placements (includes Ice Labs #1111) |
+| **Total 1-of-1s** | **71** | named + community |
 
 Named specials (Tom, Fiend, Aster, Art Boss, Profet, Blake, Steve, Papa, James, Staker) each power one **Named Premium** sealed box when not reserved.
 
@@ -124,7 +124,7 @@ Apply the same addresses in MintGarden / marketplace royalty settings so seconda
 - [x] Landing promo site (drop-soon, 1/1 galleries, no public rarity ranks)
 - [x] $JUICE liquidity policy documented (50% of developer share)
 - [ ] Confirm royalty fields on marketplace match 10% + splits
-- [x] Community 1:1s locked into collection (60 community + named from `ones/named/`)
+- [x] Community 1:1s locked into collection (61 community + named from `ones/named/`, incl. Ice Labs #1111)
 - [x] Production sealed allocation + public commitment published under `mint/`
 - [x] Sealed-box UX page (`sealed-boxes.html`) — no pre-open NFT IDs
 - [ ] Cold backup of `collection_8888` + traits + specials + **private** allocation

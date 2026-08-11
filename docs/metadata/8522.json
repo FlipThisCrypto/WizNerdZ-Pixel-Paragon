@@ -104,8 +104,8 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "2779/8818",
-    "rarity_score": 5.59e-14,
+    "rarity_rank": "2779/8817",
+    "rarity_score": 5.57e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -161,8 +161,8 @@
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "None",
@@ -171,8 +171,8 @@
       },
       "Spell Effect": {
         "value": "Ice Shards",
-        "count": 476,
-        "pct": 5.3555
+        "count": 475,
+        "pct": 5.3443
       },
       "Familiar": {
         "value": "None",
@@ -191,7 +191,7 @@
     "image_basename": "8522.png",
     "rarity_rank_numeric": 2779,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8522.png"
 }

@@ -104,7 +104,7 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "665/8818",
+    "rarity_rank": "665/8817",
     "rarity_score": 5.5e-15,
     "rarity_tier": "Rare",
     "max_supply": 8888,
@@ -161,8 +161,8 @@
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "None",
@@ -191,7 +191,7 @@
     "image_basename": "1974.png",
     "rarity_rank_numeric": 665,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1974.png"
 }

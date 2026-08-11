@@ -104,15 +104,15 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "762/8818",
+    "rarity_rank": "762/8817",
     "rarity_score": 6.5e-15,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Gray",
-        "count": 462,
-        "pct": 5.198
+        "count": 461,
+        "pct": 5.1868
       },
       "Face": {
         "value": "Frostbitten",
@@ -161,8 +161,8 @@
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "Bone Scepter",
@@ -191,7 +191,7 @@
     "image_basename": "742.png",
     "rarity_rank_numeric": 762,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/742.png"
 }

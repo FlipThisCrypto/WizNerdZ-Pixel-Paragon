@@ -101,10 +101,10 @@
       "familiar": "None",
       "logo": "WizNerdZ Pixel Paragon 2x"
     },
-    "rarity_rank": "4672/8818",
-    "rarity_rank_numeric": 4672,
+    "rarity_rank": "4671/8817",
+    "rarity_rank_numeric": 4671,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818,
+    "rarity_pool_size": 8817,
     "rarity_score": 2.333e-13,
     "rarity_tier": "Common",
     "max_supply": 8888,
@@ -156,13 +156,13 @@
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7900,
-        "pct": 88.8839
+        "count": 7899,
+        "pct": 88.8726
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "Dragon Staff",

@@ -104,15 +104,15 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1879/8818",
-    "rarity_score": 2.87e-14,
+    "rarity_rank": "1879/8817",
+    "rarity_score": 2.86e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Gray",
-        "count": 462,
-        "pct": 5.198
+        "count": 461,
+        "pct": 5.1868
       },
       "Face": {
         "value": "Mana Veined",
@@ -156,13 +156,13 @@
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7900,
-        "pct": 88.8839
+        "count": 7899,
+        "pct": 88.8726
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "Lightning Rod",
@@ -191,7 +191,7 @@
     "image_basename": "6612.png",
     "rarity_rank_numeric": 1879,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6612.png"
 }

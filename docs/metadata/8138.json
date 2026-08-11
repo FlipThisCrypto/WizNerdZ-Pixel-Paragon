@@ -104,8 +104,8 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "1107/8818",
-    "rarity_score": 1.18e-14,
+    "rarity_rank": "1105/8817",
+    "rarity_score": 1.17e-14,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Chaos Weaver",
-        "count": 384,
-        "pct": 4.3204
+        "count": 383,
+        "pct": 4.3092
       },
       "Shirt": {
         "value": "Chaos Weaver",
-        "count": 384,
-        "pct": 4.3204
+        "count": 383,
+        "pct": 4.3092
       },
       "Wizard Hat": {
         "value": "Chaos Weaver",
-        "count": 384,
-        "pct": 4.3204
+        "count": 383,
+        "pct": 4.3092
       },
       "Facial Hair": {
         "value": "Goatee Black",
@@ -161,8 +161,8 @@
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "Wooden Wand",
@@ -189,9 +189,9 @@
       "staff_offset_y": 30
     },
     "image_basename": "8138.png",
-    "rarity_rank_numeric": 1107,
+    "rarity_rank_numeric": 1105,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8138.png"
 }

@@ -104,15 +104,15 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "1984/8818",
-    "rarity_score": 3.14e-14,
+    "rarity_rank": "1982/8817",
+    "rarity_score": 3.13e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Gray",
-        "count": 462,
-        "pct": 5.198
+        "count": 461,
+        "pct": 5.1868
       },
       "Face": {
         "value": "Glamour Tint",
@@ -161,8 +161,8 @@
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "Lightning Rod",
@@ -189,9 +189,9 @@
       "staff_offset_y": 30
     },
     "image_basename": "3657.png",
-    "rarity_rank_numeric": 1984,
+    "rarity_rank_numeric": 1982,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3657.png"
 }

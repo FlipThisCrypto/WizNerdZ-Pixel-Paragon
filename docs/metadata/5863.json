@@ -104,7 +104,7 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "5/8818",
+    "rarity_rank": "5/8817",
     "rarity_score": 1e-16,
     "rarity_tier": "Legendary",
     "max_supply": 8888,
@@ -146,8 +146,8 @@
       },
       "Facial Hair": {
         "value": "Chin Strap Brown",
-        "count": 111,
-        "pct": 1.2489
+        "count": 110,
+        "pct": 1.2376
       },
       "Glasses": {
         "value": "Frost Sight",
@@ -161,8 +161,8 @@
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "Wooden Wand",
@@ -191,7 +191,7 @@
     "image_basename": "5863.png",
     "rarity_rank_numeric": 5,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5863.png"
 }

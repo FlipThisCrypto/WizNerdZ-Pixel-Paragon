@@ -104,7 +104,7 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "69/8818",
+    "rarity_rank": "69/8817",
     "rarity_score": 7e-16,
     "rarity_tier": "Legendary",
     "max_supply": 8888,
@@ -121,8 +121,8 @@
       },
       "Eyes": {
         "value": "Green",
-        "count": 1301,
-        "pct": 14.6377
+        "count": 1300,
+        "pct": 14.6265
       },
       "Mouth": {
         "value": "Classic",
@@ -161,8 +161,8 @@
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "Fire Staff",
@@ -191,7 +191,7 @@
     "image_basename": "89.png",
     "rarity_rank_numeric": 69,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/89.png"
 }

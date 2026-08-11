@@ -104,15 +104,15 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "328/8818",
+    "rarity_rank": "329/8817",
     "rarity_score": 2.5e-15,
     "rarity_tier": "Epic",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Gray",
-        "count": 462,
-        "pct": 5.198
+        "count": 461,
+        "pct": 5.1868
       },
       "Face": {
         "value": "Frostbitten",
@@ -151,8 +151,8 @@
       },
       "Glasses": {
         "value": "Mystic Gaze",
-        "count": 385,
-        "pct": 4.3317
+        "count": 386,
+        "pct": 4.3429
       },
       "Bridge": {
         "value": "Taped Repair",
@@ -161,8 +161,8 @@
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "Wooden Wand",
@@ -189,9 +189,9 @@
       "staff_offset_y": 30
     },
     "image_basename": "7479.png",
-    "rarity_rank_numeric": 328,
+    "rarity_rank_numeric": 329,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7479.png"
 }

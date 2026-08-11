@@ -71,7 +71,8 @@
     "8210": "sage_wallet",
     "8538": "ChiaPlanet",
     "8686": "digdotnet",
-    "8839": "DigitalChamber"
+    "8839": "DigitalChamber",
+    "1111": "IceLabs"
   },
   "all": {
     "42": "Tom",
@@ -143,9 +144,13 @@
     "8210": "sage_wallet",
     "8538": "ChiaPlanet",
     "8686": "digdotnet",
-    "8839": "DigitalChamber"
+    "8839": "DigitalChamber",
+    "1111": {
+      "kind": "community",
+      "name": "IceLabs"
+    }
   },
   "seed": 8888,
-  "community_count": 60,
+  "community_count": 61,
   "named_count": 10
 }

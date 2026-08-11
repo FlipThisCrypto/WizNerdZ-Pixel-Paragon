@@ -104,7 +104,7 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "3073/8818",
+    "rarity_rank": "3071/8817",
     "rarity_score": 6.8e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
@@ -161,8 +161,8 @@
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "Crystal Wand",
@@ -189,9 +189,9 @@
       "staff_offset_y": 30
     },
     "image_basename": "2890.png",
-    "rarity_rank_numeric": 3073,
+    "rarity_rank_numeric": 3071,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2890.png"
 }

@@ -104,7 +104,7 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "224/8818",
+    "rarity_rank": "222/8817",
     "rarity_score": 1.8e-15,
     "rarity_tier": "Epic",
     "max_supply": 8888,
@@ -146,13 +146,13 @@
       },
       "Facial Hair": {
         "value": "Chin Strap Brown",
-        "count": 111,
-        "pct": 1.2489
+        "count": 110,
+        "pct": 1.2376
       },
       "Glasses": {
         "value": "Mystic Gaze",
-        "count": 385,
-        "pct": 4.3317
+        "count": 386,
+        "pct": 4.3429
       },
       "Bridge": {
         "value": "Taped Repair",
@@ -161,8 +161,8 @@
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "Ice Staff",
@@ -189,9 +189,9 @@
       "staff_offset_y": 30
     },
     "image_basename": "7604.png",
-    "rarity_rank_numeric": 224,
+    "rarity_rank_numeric": 222,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7604.png"
 }

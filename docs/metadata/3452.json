@@ -104,7 +104,7 @@
       "glasses": 1,
       "wizard hat": 10
     },
-    "rarity_rank": "119/8818",
+    "rarity_rank": "119/8817",
     "rarity_score": 1e-15,
     "rarity_tier": "Epic",
     "max_supply": 8888,
@@ -161,8 +161,8 @@
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "Timekeeper Staff",
@@ -191,7 +191,7 @@
     "image_basename": "3452.png",
     "rarity_rank_numeric": 119,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3452.png"
 }

@@ -104,15 +104,15 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "3441/8818",
-    "rarity_score": 8.66e-14,
+    "rarity_rank": "3423/8817",
+    "rarity_score": 8.55e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
       "Background": {
         "value": "Gray",
-        "count": 462,
-        "pct": 5.198
+        "count": 461,
+        "pct": 5.1868
       },
       "Face": {
         "value": "Fel Corrupted",
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Chaos Weaver",
-        "count": 384,
-        "pct": 4.3204
+        "count": 383,
+        "pct": 4.3092
       },
       "Shirt": {
         "value": "Chaos Weaver",
-        "count": 384,
-        "pct": 4.3204
+        "count": 383,
+        "pct": 4.3092
       },
       "Wizard Hat": {
         "value": "Chaos Weaver",
-        "count": 384,
-        "pct": 4.3204
+        "count": 383,
+        "pct": 4.3092
       },
       "Facial Hair": {
         "value": "Long Rounded Black",
@@ -156,13 +156,13 @@
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7900,
-        "pct": 88.8839
+        "count": 7899,
+        "pct": 88.8726
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "Crystal Wand",
@@ -171,8 +171,8 @@
       },
       "Spell Effect": {
         "value": "Ice Shards",
-        "count": 476,
-        "pct": 5.3555
+        "count": 475,
+        "pct": 5.3443
       },
       "Familiar": {
         "value": "None",
@@ -189,9 +189,9 @@
       "staff_offset_y": 30
     },
     "image_basename": "2973.png",
-    "rarity_rank_numeric": 3441,
+    "rarity_rank_numeric": 3423,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2973.png"
 }

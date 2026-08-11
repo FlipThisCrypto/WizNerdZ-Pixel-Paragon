@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "1734/8818",
-    "rarity_score": 2.51e-14,
+    "rarity_rank": "1750/8817",
+    "rarity_score": 2.56e-14,
     "rarity_tier": "Uncommon",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -146,23 +146,23 @@
       },
       "Facial Hair": {
         "value": "Chin Strap White Gray",
-        "count": 70,
-        "pct": 0.7876
+        "count": 71,
+        "pct": 0.7988
       },
       "Glasses": {
         "value": "Mystic Gaze",
-        "count": 385,
-        "pct": 4.3317
+        "count": 386,
+        "pct": 4.3429
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7900,
-        "pct": 88.8839
+        "count": 7899,
+        "pct": 88.8726
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "None",
@@ -189,9 +189,9 @@
       "staff_offset_y": 30
     },
     "image_basename": "6114.png",
-    "rarity_rank_numeric": 1734,
+    "rarity_rank_numeric": 1750,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6114.png"
 }

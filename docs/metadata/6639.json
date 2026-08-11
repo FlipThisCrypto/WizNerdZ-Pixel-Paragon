@@ -104,7 +104,7 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "170/8818",
+    "rarity_rank": "172/8817",
     "rarity_score": 1.4e-15,
     "rarity_tier": "Epic",
     "max_supply": 8888,
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Cryomancer",
-        "count": 344,
-        "pct": 3.8704
+        "count": 345,
+        "pct": 3.8816
       },
       "Shirt": {
         "value": "Cryomancer",
-        "count": 344,
-        "pct": 3.8704
+        "count": 345,
+        "pct": 3.8816
       },
       "Wizard Hat": {
         "value": "Cryomancer",
-        "count": 344,
-        "pct": 3.8704
+        "count": 345,
+        "pct": 3.8816
       },
       "Facial Hair": {
         "value": "Long Pointy Red Orange",
@@ -151,18 +151,18 @@
       },
       "Glasses": {
         "value": "Mystic Gaze",
-        "count": 385,
-        "pct": 4.3317
+        "count": 386,
+        "pct": 4.3429
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7900,
-        "pct": 88.8839
+        "count": 7899,
+        "pct": 88.8726
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "Crystal Wand",
@@ -189,9 +189,9 @@
       "staff_offset_y": 30
     },
     "image_basename": "6639.png",
-    "rarity_rank_numeric": 170,
+    "rarity_rank_numeric": 172,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6639.png"
 }

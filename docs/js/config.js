@@ -17,7 +17,7 @@ window.WIZNERDZ_CONFIG = Object.freeze({
     /** Full set including named + community 1-of-1s is in place. */
     collectionFrozen: true,
     statusMessage:
-      "Collection art is complete — 8,888 WizNerdZ including 70 one-of-ones (10 named specials + 60 community). Drop coming soon. Follow @FiendStudios for mint day.",
+      "Collection art is complete — 8,888 WizNerdZ including 71 one-of-ones (10 named specials + 61 community). Drop coming soon. Follow @FiendStudios for mint day.",
   },
 
   /** Nominations closed — community 1-of-1s are already in the set. */

@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
-  "name": "WizNerdz #1111",
-  "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
+  "name": "Ice Labs \u00b7 WizNerdz #1111",
+  "description": "Ice Labs (@IceLabs) \u2014 community 1-of-1 WizNerd. Blue light-to-dark monotone Cryomancer with amber pop accent. WizNerdZ Pixel Paragon by Fiend Studios.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -24,7 +24,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Gray"
+      "value": "Ice Gradient"
     },
     {
       "trait_type": "Face",
@@ -32,7 +32,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Green"
+      "value": "eyes Light Blue"
     },
     {
       "trait_type": "Mouth",
@@ -40,31 +40,23 @@
     },
     {
       "trait_type": "Class",
-      "value": "Chaos Weaver"
+      "value": "Cryomancer"
     },
     {
       "trait_type": "Shirt",
-      "value": "Chaos Weaver"
+      "value": "Cryomancer"
     },
     {
       "trait_type": "Wizard Hat",
-      "value": "Chaos Weaver"
+      "value": "Cryomancer"
     },
     {
       "trait_type": "Facial Hair",
-      "value": "Chin Strap Brown"
+      "value": "Chin Strap White Gray"
     },
     {
       "trait_type": "Glasses",
-      "value": "Sigil Scanners"
-    },
-    {
-      "trait_type": "Bridge",
-      "value": "Clean"
-    },
-    {
-      "trait_type": "Special",
-      "value": "Standard"
+      "value": "Mystic Gaze"
     },
     {
       "trait_type": "Staff",
@@ -72,126 +64,59 @@
     },
     {
       "trait_type": "Spell Effect",
-      "value": "Ice Shards"
+      "value": "Amber Core"
     },
     {
       "trait_type": "Familiar",
       "value": "None"
     },
     {
+      "trait_type": "Special",
+      "value": "Community 1 of 1"
+    },
+    {
+      "trait_type": "Display Name",
+      "value": "Ice Labs"
+    },
+    {
+      "trait_type": "Community Handle",
+      "value": "@IceLabs"
+    },
+    {
+      "trait_type": "Name",
+      "value": "Ice Labs"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Blue Monotone + Amber Pop"
+    },
+    {
       "trait_type": "Rarity",
-      "value": "Common"
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "Supply",
+      "value": "1"
     }
   ],
-  "minting_tool": "WizNerdz Foundry Pipeline",
   "series_number": 1111,
   "series_total": 8888,
   "data": {
     "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1111.png",
-    "dna": "389ca2104047c2986ec4cb9561a32f63f71a6c2b56c27277908deff0e140aa50",
-    "dna_raw": "bg_Gray#6.png|Frostbitten#10.png|eyes_Green#12.png|mouth#100.png|Chaos Weaver#10.png|Chin_Strap_Brown#9.png|Sigil Scanners#8.png|Chaos Weaver#10.png",
-    "canvas": "640x640",
-    "border_px": 1,
-    "class_matched": true,
-    "rarity_weighted": true,
-    "trait_weights": {
-      "Background": 6,
-      "face": 10,
-      "eyes": 12,
-      "mouth": 100,
-      "shirt": 10,
-      "facial hair": 9,
-      "glasses": 8,
-      "wizard hat": 10
-    },
-    "rarity_rank": "4528/8818",
-    "rarity_score": 2.065e-13,
-    "rarity_tier": "Common",
-    "max_supply": 8888,
-    "attribute_rarity": {
-      "Background": {
-        "value": "Gray",
-        "count": 462,
-        "pct": 5.198
-      },
-      "Face": {
-        "value": "Frostbitten",
-        "count": 384,
-        "pct": 4.3204
-      },
-      "Eyes": {
-        "value": "Green",
-        "count": 1301,
-        "pct": 14.6377
-      },
-      "Mouth": {
-        "value": "Classic",
-        "count": 8887,
-        "pct": 99.9887
-      },
-      "Class": {
-        "value": "Chaos Weaver",
-        "count": 384,
-        "pct": 4.3204
-      },
-      "Shirt": {
-        "value": "Chaos Weaver",
-        "count": 384,
-        "pct": 4.3204
-      },
-      "Wizard Hat": {
-        "value": "Chaos Weaver",
-        "count": 384,
-        "pct": 4.3204
-      },
-      "Facial Hair": {
-        "value": "Chin Strap Brown",
-        "count": 111,
-        "pct": 1.2489
-      },
-      "Glasses": {
-        "value": "Sigil Scanners",
-        "count": 396,
-        "pct": 4.4554
-      },
-      "Bridge": {
-        "value": "Clean",
-        "count": 7900,
-        "pct": 88.8839
-      },
-      "Special": {
-        "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
-      },
-      "Staff": {
-        "value": "None",
-        "count": 4607,
-        "pct": 51.8339
-      },
-      "Spell Effect": {
-        "value": "Ice Shards",
-        "count": 476,
-        "pct": 5.3555
-      },
-      "Familiar": {
-        "value": "None",
-        "count": 5043,
-        "pct": 56.7394
-      }
-    },
-    "extra_layers": {
-      "staff": "None",
-      "spell": "Ice Shards",
-      "familiar": "None",
-      "logo": "WizNerdZ Pixel Paragon 2x top-right",
-      "staff_right_margin": 8,
-      "staff_offset_y": 30
-    },
     "image_basename": "1111.png",
-    "rarity_rank_numeric": 4528,
-    "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "canvas": "640x640",
+    "community_1of1": true,
+    "handle": "@IceLabs",
+    "display_name": "Ice Labs",
+    "guide": "1OF1_ART_GUIDE.md",
+    "max_supply": 1,
+    "rarity_rank": "1/1",
+    "rarity_tier": "1 of 1",
+    "rarity_score": null,
+    "rarity_rank_numeric": 0,
+    "rarity_pool": "1of1",
+    "dna": "ice-labs-cryomancer-blue-mono-amber-pop-1111",
+    "palette": "blue_monotone_light_to_dark_plus_amber_pop"
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1111.png"
 }

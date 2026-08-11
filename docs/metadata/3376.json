@@ -104,8 +104,8 @@
       "glasses": 8,
       "wizard hat": 10
     },
-    "rarity_rank": "884/8818",
-    "rarity_score": 8.3e-15,
+    "rarity_rank": "883/8817",
+    "rarity_score": 8.2e-15,
     "rarity_tier": "Rare",
     "max_supply": 8888,
     "attribute_rarity": {
@@ -131,18 +131,18 @@
       },
       "Class": {
         "value": "Chaos Weaver",
-        "count": 384,
-        "pct": 4.3204
+        "count": 383,
+        "pct": 4.3092
       },
       "Shirt": {
         "value": "Chaos Weaver",
-        "count": 384,
-        "pct": 4.3204
+        "count": 383,
+        "pct": 4.3092
       },
       "Wizard Hat": {
         "value": "Chaos Weaver",
-        "count": 384,
-        "pct": 4.3204
+        "count": 383,
+        "pct": 4.3092
       },
       "Facial Hair": {
         "value": "Chin Strap Dark Brown",
@@ -151,18 +151,18 @@
       },
       "Glasses": {
         "value": "Mystic Gaze",
-        "count": 385,
-        "pct": 4.3317
+        "count": 386,
+        "pct": 4.3429
       },
       "Bridge": {
         "value": "Clean",
-        "count": 7900,
-        "pct": 88.8839
+        "count": 7899,
+        "pct": 88.8726
       },
       "Special": {
         "value": "Standard",
-        "count": 8818,
-        "pct": 99.2124
+        "count": 8817,
+        "pct": 99.2012
       },
       "Staff": {
         "value": "Dragon Staff",
@@ -189,9 +189,9 @@
       "staff_offset_y": 30
     },
     "image_basename": "3376.png",
-    "rarity_rank_numeric": 884,
+    "rarity_rank_numeric": 883,
     "rarity_pool": "generative",
-    "rarity_pool_size": 8818
+    "rarity_pool_size": 8817
   },
   "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3376.png"
 }

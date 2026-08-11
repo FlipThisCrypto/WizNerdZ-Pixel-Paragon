@@ -138,6 +138,15 @@
       "metadata": "metadata/1090.json"
     },
     {
+      "token_id": 1111,
+      "display_name": "Ice Labs",
+      "handle": "@IceLabs",
+      "nft_name": "Ice Labs \u00b7 WizNerdz #1111",
+      "ones_file": "ones/1111_Ice_Labs.png",
+      "image": "images/1111.png",
+      "metadata": "metadata/1111.json"
+    },
+    {
       "token_id": 1454,
       "display_name": "Thy",
       "handle": "@thyrevolution",
