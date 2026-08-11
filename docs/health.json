@@ -28,6 +28,14 @@
     "collection": "./collection.json",
     "specials": "./specials.json",
     "metadata_sample": "./metadata/1.json",
-    "image_sample": "./images/1.png"
+    "image_sample": "./images/1.png",
+    "sealed_boxes": "./sealed-boxes.html",
+    "mint_commitment": "./mint/commitment.json",
+    "mint_sealed_catalog": "./mint/sealed_boxes.json"
+  },
+  "checks_extra": {
+    "sealed_box_catalog": true,
+    "mint_allocation_commitment_public": true,
+    "mint_enabled": false
   }
 }

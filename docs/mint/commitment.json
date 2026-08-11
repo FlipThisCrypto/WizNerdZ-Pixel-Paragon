@@ -1,0 +1,9 @@
+{
+  "commitment_sha256": "f776f1a6d05dc4a2fc102859fe0cbb1d0f304465c9a1c3bb86e0507c2fbb99dd",
+  "algorithm": "SHA-256",
+  "payload_description": "Canonical JSON of {seed, premium[{box_id,contents}], other{tier:[{box_id,contents}]}, reserves} with sort_keys and separators=(',', ':')",
+  "generated_at": "2026-08-11T04:46:55.981638+00:00",
+  "allocation_seed_committed": true,
+  "status": "committed",
+  "verify": "python -m mint_system.independent_audit  (or commitment.verify_commitment)"
+}

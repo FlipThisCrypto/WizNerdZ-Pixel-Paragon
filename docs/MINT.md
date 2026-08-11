@@ -6,8 +6,48 @@
 
 ## Status
 
-Collection art is complete (8,888 including 70 one-of-ones). **Drop coming soon.**  
+Collection art is complete (**8,888** NFTs). **Drop coming soon.**  
 Nominations are closed. Public rarity rank tables are not published pre-mint (fair mint).
+
+### One-of-ones (inventory-derived)
+
+| Kind | Count | Source |
+|------|------:|--------|
+| **Named 1-of-1s** | **from `ones/named/`** (currently **10**) | Authoritative folder enumeration — not a hard-coded README constant |
+| Community 1-of-1s | 60 | `ones/community/` + placements |
+| **Total 1-of-1s** | **70** | named + community |
+
+Named specials (Tom, Fiend, Aster, Art Boss, Profet, Blake, Steve, Papa, James, Staker) each power one **Named Premium** sealed box when not reserved.
+
+---
+
+## Sealed-box mint (allocation system)
+
+The mint sells **sealed products**, not open cherry-picking of token IDs.
+
+| Tier | Guarantee | Default price |
+|------|-----------|--------------:|
+| Named Premium | 1× named 1-of-1 from `named/` + 8 random standard | **5 XCH** |
+| Elite | 1× Legendary + fillers | **2 XCH** |
+| Rare | 1× Epic + fillers | **1 XCH** |
+| Standard Bundle | 1× Rare + fillers | **0.5 XCH** |
+| Blind Single | 1 random remaining NFT | **0.15 XCH** |
+
+**Rarity basis:** August 10, 2026 ranking (`rarity_ranking.csv`).  
+**Reserves:** only explicitly listed token IDs (default none).  
+**Master equation:** Minted + Reserved = **8888**.
+
+### Fairness: Commit → Mint → Reveal → Verify
+
+1. Offline production allocation assigns every NFT to exactly one destination.
+2. **SHA-256 commitment** of the private allocation is published (`mint/commitment.json`) **before** sales.
+3. Public catalog (`mint/sealed_boxes.json`, [sealed-boxes.html](sealed-boxes.html)) lists box id / tier / price / guarantee only — **never** NFT IDs.
+4. After **confirmed XCH payment**, the buyer opens the box and receives the **pre-assigned** NFTs (no re-draw).
+5. After the mint, the private allocation can be disclosed and verified against the commitment.
+
+Operator tooling lives in the working-directory `mint_system/` package (allocate, purchase service, independent audit). GitHub Pages remains non-custodial; payment confirmation must run on a backend that never marks a box sold from a frontend-only request.
+
+See also: launch report under `mint_system/reports/LAUNCH_REPORT.md` in the working tree.
 
 ---
 
@@ -84,10 +124,13 @@ Apply the same addresses in MintGarden / marketplace royalty settings so seconda
 - [x] Landing promo site (drop-soon, 1/1 galleries, no public rarity ranks)
 - [x] $JUICE liquidity policy documented (50% of developer share)
 - [ ] Confirm royalty fields on marketplace match 10% + splits
-- [x] Community 1:1s locked into collection (60 + 10 named)
-- [ ] Cold backup of `collection_8888` + traits + specials
+- [x] Community 1:1s locked into collection (60 community + named from `ones/named/`)
+- [x] Production sealed allocation + public commitment published under `mint/`
+- [x] Sealed-box UX page (`sealed-boxes.html`) — no pre-open NFT IDs
+- [ ] Cold backup of `collection_8888` + traits + specials + **private** allocation
 - [x] Absolute image URLs in all 8,888 metadata files (`data.image` + root `image`)
 - [x] Rarity ranks embedded in metadata
+- [ ] Wire live XCH payment confirmation → purchase service
 - [ ] MintGarden (or offer host) collection created
 - [ ] Test mint: #1, #42 Tom, #787 Fiend
 - [ ] Arm `mint.enabled` + publish Pages
