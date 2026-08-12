@@ -1,0 +1,428 @@
+/**
+ * WizNerdZ reveal system styles.
+ *
+ * Two visual languages on purpose:
+ *   .wz-reveal-root ...  MAGIC — pixelated, CRT, runes, purple/green energy
+ *   .wz-results ......   OWNERSHIP — modern, calm, uses the site's own tokens
+ *
+ * Purple is introduced here ONLY. The site palette (tokens.css) is untouched.
+ * All motion is transform/opacity so it stays on the compositor.
+ */
+
+:root {
+  --wz-purple: #c9a2ff;
+  --wz-purple-deep: #6b3fa0;
+  --wz-purple-glow: rgba(201, 162, 255, 0.45);
+  --wz-energy: #9dffb0;
+  --wz-void: #020308;
+  --wz-shake: 0px;
+}
+
+/* ---------------------------------------------------------------- layers */
+.wz-reveal-root {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  font-family: var(--font-mono, ui-monospace, monospace);
+}
+.wz-reveal-root .wz-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.wz-layer--atmos { z-index: 1; }
+.wz-layer--spell { z-index: 2; }
+.wz-layer--particles { z-index: 3; }
+.wz-layer--video { z-index: 4; }
+.wz-layer--stage { z-index: 5; }
+
+/* CRT / vignette overlay across the whole reveal — sells "computer running
+   an ancient system". Scanlines + soft vignette + a faint moving glow. */
+.wz-crt {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+  opacity: 0.5;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.5) 1px, transparent 1px, transparent 3px);
+}
+.wz-crt::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  mix-blend-mode: normal;
+  background: radial-gradient(ellipse at 50% 45%, transparent 42%, rgba(2, 3, 8, 0.55) 100%);
+}
+@media (max-width: 767px) { .wz-crt { opacity: 0.32; } }
+
+.wz-veil {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: var(--wz-void);
+  opacity: 0;
+  transition: opacity 260ms ease;
+}
+.wz-veil--black { opacity: 1; }
+
+/* dim the site while the spell builds */
+body.wz-dimmed { overflow: hidden; }
+.wz-reveal-root.wz-dim::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(2, 3, 8, 0.55) 0%, rgba(2, 3, 8, 0.92) 70%);
+  animation: wz-dim-in 700ms ease forwards;
+}
+@keyframes wz-dim-in { from { opacity: 0; } to { opacity: 1; } }
+
+/* --------------------------------------------------------------- terminal */
+.wz-terminal {
+  position: absolute;
+  left: 50%;
+  top: 42%;
+  transform: translate(-50%, -50%);
+  z-index: 7;
+  color: var(--wz-energy);
+  font-size: clamp(0.72rem, 2.4vw, 1rem);
+  letter-spacing: 0.14em;
+  text-shadow: 0 0 12px var(--wz-energy);
+  opacity: 0;
+  transition: opacity 200ms ease;
+  white-space: nowrap;
+}
+.wz-terminal--show { opacity: 1; }
+
+/* ------------------------------------------------------------- CRT / video */
+.wz-crt-line {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: min(78vw, 900px);
+  height: 2px;
+  transform: translate(-50%, -50%) scaleX(0);
+  background: linear-gradient(90deg, transparent, var(--wz-energy), #fff, var(--wz-energy), transparent);
+  box-shadow: 0 0 18px var(--wz-energy);
+  transition: transform 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  z-index: 6;
+}
+.wz-crt-flicker { transform: translate(-50%, -50%) scaleX(1); animation: wz-flicker 320ms steps(2) 2; }
+.wz-crt-open { height: 62vh; transition: height 380ms cubic-bezier(0.16, 1, 0.3, 1); background: var(--wz-void); box-shadow: 0 0 40px var(--wz-purple-glow); }
+@keyframes wz-flicker { 0%,100% { opacity: 1; } 50% { opacity: 0.25; } }
+
+.wz-reveal-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 420ms ease;
+  pointer-events: none; /* never looks or behaves like a player */
+  background: var(--wz-void);
+}
+.wz-video-live { opacity: 1; }
+/* hand-off: video dissolves as the live spell takes over */
+.wz-video-handoff { opacity: 0; transition: opacity var(--wz-handoff-ms, 1400ms) ease-in; }
+.wz-reveal-video::-webkit-media-controls { display: none !important; }
+
+/* ------------------------------------------------------------- NFT summon */
+.wz-layer--stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(8px, 2vw, 20px);
+  flex-wrap: wrap;
+  padding: 4vh 4vw;
+}
+.wz-nft {
+  --aura: var(--wz-purple);
+  position: relative;
+  margin: 0;
+  width: clamp(96px, 20vw, 200px);
+  opacity: 0;
+  transform: scale(0.2);
+  will-change: transform, opacity;
+}
+/* ornate glowing frame around each summoned WizNerd — echoes the collection's
+   bold black-outlined art with an energy border in the rarity colour */
+.wz-nft .wz-nft-frame {
+  position: relative;
+  padding: 6px;
+  border-radius: 10px;
+  background:
+    linear-gradient(160deg, rgba(255, 255, 255, 0.06), rgba(0, 0, 0, 0.2)),
+    #05060a;
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.9),
+    0 0 0 2px color-mix(in srgb, var(--aura) 70%, transparent),
+    0 0 26px color-mix(in srgb, var(--aura) 55%, transparent),
+    0 14px 34px rgba(0, 0, 0, 0.6);
+}
+/* corner rune ticks */
+.wz-nft .wz-nft-frame::before,
+.wz-nft .wz-nft-frame::after {
+  content: "";
+  position: absolute;
+  width: 10px; height: 10px;
+  border: 2px solid var(--aura);
+  opacity: 0.85;
+}
+.wz-nft .wz-nft-frame::before { top: -1px; left: -1px; border-right: 0; border-bottom: 0; }
+.wz-nft .wz-nft-frame::after { bottom: -1px; right: -1px; border-left: 0; border-top: 0; }
+.wz-nft img, .wz-nft-placeholder {
+  width: 100%;
+  aspect-ratio: 1;
+  display: block;
+  image-rendering: pixelated; /* crisp original pixel art */
+  border-radius: 5px;
+  background: #0a0c12;
+}
+/* light-glow floor under the NFT — it sits ON the portal */
+.wz-nft::after {
+  content: "";
+  position: absolute;
+  left: 50%; bottom: -14px;
+  width: 78%; height: 16px;
+  transform: translateX(-50%);
+  background: radial-gradient(ellipse at center, color-mix(in srgb, var(--aura) 60%, transparent), transparent 70%);
+  filter: blur(3px);
+  opacity: 0.8;
+}
+.wz-nft-placeholder {
+  display: grid;
+  place-items: center;
+  color: var(--wz-purple);
+  font-size: 1.1rem;
+  border: 1px dashed var(--wz-purple-deep);
+}
+.wz-nft figcaption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  margin-top: 6px;
+  font-size: 0.68rem;
+  color: var(--silver-2, #c5ceda);
+  text-align: center;
+}
+.wz-nft-rarity { color: var(--wz-energy); letter-spacing: 0.08em; }
+
+/* the POP: 20% -> 130% -> 95% -> 100% */
+.wz-nft--pop { animation: wz-pop var(--pop-ms, 620ms) cubic-bezier(0.2, 1.4, 0.3, 1) forwards; }
+@keyframes wz-pop {
+  0%   { opacity: 0; transform: scale(0.2); }
+  55%  { opacity: 1; transform: scale(1.3); }
+  78%  { transform: scale(0.95); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.wz-nft--one-of-one { --aura: #ffd479; }
+.wz-nft--high { --aura: #ffd479; }
+.wz-nft--one-of-one .wz-nft-frame {
+  animation: wz-legend-pulse 1.4s ease-in-out infinite;
+}
+@keyframes wz-legend-pulse {
+  0%, 100% { box-shadow: 0 0 0 1px rgba(0,0,0,.9), 0 0 0 2px #ffd479, 0 0 26px rgba(255,212,121,.6), 0 14px 34px rgba(0,0,0,.6); }
+  50% { box-shadow: 0 0 0 1px rgba(0,0,0,.9), 0 0 0 3px #ffe6a0, 0 0 46px rgba(255,212,121,.9), 0 14px 34px rgba(0,0,0,.6); }
+}
+
+body.wz-shaking { animation: wz-shake 300ms cubic-bezier(0.36, 0.07, 0.19, 0.97) both; }
+@keyframes wz-shake {
+  10%, 90% { transform: translate3d(calc(var(--wz-shake) * -0.3), 0, 0); }
+  30%, 70% { transform: translate3d(var(--wz-shake), 0, 0); }
+  50% { transform: translate3d(calc(var(--wz-shake) * -1), 0, 0); }
+}
+
+/* ------------------------------------------------------------- legendary */
+.wz-freeze .wz-layer--spell,
+.wz-freeze .wz-layer--particles { opacity: 0.06; transition: opacity 200ms ease; }
+.wz-legendary-panel {
+  position: absolute;
+  inset: 0;
+  z-index: 8;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 8vw;
+  gap: 10px;
+  color: var(--wz-energy);
+  font-size: clamp(0.8rem, 2.6vw, 1.15rem);
+  letter-spacing: 0.12em;
+}
+.wz-leg-line { margin: 0; text-shadow: 0 0 14px var(--wz-energy); }
+.wz-cursor { animation: wz-blink 900ms steps(2) infinite; font-size: 1.2em; }
+@keyframes wz-blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
+
+.wz-glitch { animation: wz-glitch 420ms steps(3) 2; }
+@keyframes wz-glitch {
+  0% { filter: none; }
+  33% { filter: hue-rotate(90deg) saturate(3); transform: translate3d(3px, 0, 0); }
+  66% { filter: invert(1); transform: translate3d(-4px, 0, 0); }
+  100% { filter: none; }
+}
+
+.wz-legendary-banner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0.4);
+  z-index: 9;
+  font-size: clamp(1.4rem, 7vw, 4rem);
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  color: #ffd479;
+  text-shadow: 0 0 30px rgba(255, 212, 121, 0.9), 0 0 70px rgba(255, 212, 121, 0.5);
+  opacity: 0;
+  transition: opacity 300ms ease, transform 480ms cubic-bezier(0.2, 1.5, 0.3, 1);
+  white-space: nowrap;
+}
+.wz-legendary-banner--in { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+
+/* --------------------------------------------------------------- results */
+/* Deliberate contrast: modern, clean, uses the site's own tokens. */
+.wz-results {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  pointer-events: auto;
+  overflow-y: auto;
+  /* faint arcane aurora bleeding up from the base — ties the modern results
+     screen back to the magic without breaking its calm */
+  background:
+    radial-gradient(1000px 500px at 20% 0%, rgba(139, 47, 232, 0.14), transparent 60%),
+    radial-gradient(900px 480px at 85% 12%, rgba(40, 168, 56, 0.1), transparent 60%),
+    linear-gradient(180deg, #06040c 0%, #0a0c12 100%);
+  padding: clamp(20px, 5vw, 56px);
+  font-family: var(--font-ui, system-ui, sans-serif);
+  color: var(--text, #e8eef6);
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 340ms ease, transform 340ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.wz-results--in { opacity: 1; transform: none; }
+.wz-results-head { max-width: 1100px; margin: 0 auto 28px; }
+.wz-results-kicker {
+  margin: 0 0 6px;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.72rem;
+  letter-spacing: 0.3em;
+  color: var(--wz-purple);
+}
+.wz-results-head h2 { margin: 0 0 4px; font-size: clamp(1.4rem, 4vw, 2.2rem); font-weight: 650; }
+.wz-results-sub { margin: 0; color: var(--muted, #8b96a8); }
+.wz-results-badge {
+  display: inline-block;
+  margin: 10px 0 0;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: rgba(255, 212, 121, 0.12);
+  border: 1px solid rgba(255, 212, 121, 0.4);
+  color: #ffd479;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+}
+.wz-results-tx { margin: 10px 0 0; font-size: 0.78rem; color: var(--muted, #8b96a8); }
+.wz-results-tx code { word-break: break-all; }
+
+.wz-results-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 16px;
+}
+.wz-card {
+  background: linear-gradient(160deg, #10141c, #0a0c12);
+  border: 1px solid var(--line, rgba(168, 212, 255, 0.22));
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 180ms ease, border-color 180ms ease;
+}
+.wz-card:hover { transform: translateY(-3px); border-color: var(--wz-purple); }
+.wz-card--one { border-color: rgba(255, 212, 121, 0.55); box-shadow: 0 0 26px rgba(255, 212, 121, 0.18); }
+.wz-card-img { position: relative; aspect-ratio: 1; background: #05060a; display: grid; place-items: center; }
+.wz-card-img img { width: 100%; height: 100%; object-fit: cover; image-rendering: pixelated; }
+.wz-card-fallback { position: absolute; color: var(--silver-4, #5c6778); font-family: var(--font-mono, monospace); opacity: 0; }
+.wz-card-img--fail .wz-card-fallback { opacity: 1; }
+.wz-card-body { padding: 12px; }
+.wz-card-body h3 { margin: 0 0 8px; font-size: 0.9rem; font-weight: 600; }
+.wz-card-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.wz-card-tags span {
+  font-size: 0.66rem;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: rgba(168, 212, 255, 0.08);
+  border: 1px solid var(--line, rgba(168, 212, 255, 0.22));
+  color: var(--silver-2, #c5ceda);
+}
+.wz-card-one { background: rgba(255, 212, 121, 0.14) !important; border-color: rgba(255, 212, 121, 0.5) !important; color: #ffd479 !important; }
+.wz-card-rarity { color: var(--wz-energy) !important; }
+
+.wz-results-actions {
+  max-width: 1100px;
+  margin: 32px auto 0;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.wz-btn {
+  appearance: none;
+  border: 1px solid var(--line, rgba(168, 212, 255, 0.22));
+  background: rgba(168, 212, 255, 0.06);
+  color: var(--text, #e8eef6);
+  border-radius: 10px;
+  padding: 12px 20px;
+  min-height: var(--touch-min, 44px);
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  cursor: pointer;
+  transition: background 160ms ease, border-color 160ms ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+.wz-btn:hover { background: rgba(201, 162, 255, 0.14); border-color: var(--wz-purple); }
+.wz-btn--primary { background: var(--wz-purple-deep); border-color: var(--wz-purple); }
+.wz-btn--ghost { background: transparent; }
+.wz-btn--sm { padding: 7px 12px; font-size: 0.7rem; min-height: 0; }
+.wz-btn:focus-visible { outline: 2px solid var(--wz-purple); outline-offset: 2px; }
+
+.wz-toast {
+  position: fixed;
+  bottom: 24px; left: 50%;
+  transform: translate(-50%, 12px);
+  background: #10141c;
+  border: 1px solid var(--wz-purple);
+  color: var(--text, #e8eef6);
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  opacity: 0;
+  transition: opacity 220ms ease, transform 220ms ease;
+  z-index: 20;
+}
+.wz-toast--in { opacity: 1; transform: translate(-50%, 0); }
+
+/* ------------------------------------------------------- reduced motion */
+.wz-reveal-root--plain .wz-layer,
+.wz-reveal-root--plain .wz-terminal { display: none !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  .wz-nft { opacity: 1; transform: none; animation: none !important; }
+  .wz-nft--pop { animation: none !important; }
+  .wz-results { transition: none; opacity: 1; transform: none; }
+  body.wz-shaking { animation: none !important; }
+  .wz-cursor, .wz-glitch, .wz-crt-flicker { animation: none !important; }
+}
+
+@media (max-width: 767px) {
+  .wz-layer--stage { gap: 8px; padding: 3vh 3vw; }
+  .wz-nft { width: clamp(80px, 27vw, 130px); }
+  .wz-results-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
+}

@@ -1,0 +1,82 @@
+/**
+ * Audio hooks. Ships with NO audio files — every cue is a no-op until assets
+ * land in docs/reveal/audio/<cue>.mp3. Nothing in the reveal awaits audio.
+ *
+ * Browser autoplay policy: AudioContext stays suspended until a user gesture.
+ * The summon is always user-initiated, so we resume on that gesture and simply
+ * stay silent if the browser still refuses.
+ */
+(function () {
+  class AudioController {
+    constructor() {
+      this.enabled = !!(window.WIZNERDZ_REVEAL_CONFIG || {}).audio?.enabled;
+      this.buffers = new Map();
+      this.ctx = null;
+      this.unlocked = false;
+      this.muted = false;
+      this.base = "reveal/audio";
+    }
+
+    /** Call from a real user gesture (the summon click). */
+    unlock() {
+      if (this.unlocked || !this.enabled) return;
+      try {
+        const AC = window.AudioContext || window.webkitAudioContext;
+        if (!AC) return;
+        this.ctx = new AC();
+        if (this.ctx.state === "suspended") this.ctx.resume().catch(() => {});
+        this.unlocked = true;
+      } catch (_) {
+        this.enabled = false; // audio simply unavailable; reveal continues
+      }
+    }
+
+    async preload(cues) {
+      if (!this.enabled || !this.ctx) return;
+      await Promise.all(
+        cues.map(async (cue) => {
+          if (this.buffers.has(cue)) return;
+          try {
+            const res = await fetch(`${this.base}/${cue}.mp3`, { cache: "force-cache" });
+            if (!res.ok) return; // missing asset is fine
+            const buf = await this.ctx.decodeAudioData(await res.arrayBuffer());
+            this.buffers.set(cue, buf);
+          } catch (_) {
+            /* missing/undecodable audio never blocks the reveal */
+          }
+        })
+      );
+    }
+
+    play(cue, { volume = 0.7, rate = 1 } = {}) {
+      if (!this.enabled || this.muted || !this.ctx) return;
+      const buf = this.buffers.get(cue);
+      if (!buf) return; // no asset yet — silent hook
+      try {
+        const src = this.ctx.createBufferSource();
+        const gain = this.ctx.createGain();
+        src.buffer = buf;
+        src.playbackRate.value = rate;
+        gain.gain.value = volume;
+        src.connect(gain).connect(this.ctx.destination);
+        src.start(0);
+      } catch (_) {
+        /* ignore */
+      }
+    }
+
+    stopAll() {
+      if (this.ctx && this.ctx.state === "running") {
+        this.ctx.suspend().catch(() => {});
+      }
+    }
+
+    resume() {
+      if (this.ctx && this.ctx.state === "suspended") {
+        this.ctx.resume().catch(() => {});
+      }
+    }
+  }
+
+  window.WizNerdzAudioController = AudioController;
+})();

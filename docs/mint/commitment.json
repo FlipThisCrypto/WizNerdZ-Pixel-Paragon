@@ -1,9 +1,43 @@
 {
-  "commitment_sha256": "f4b469e584e2acd0624c4a293fe097822e650b5b357fb05fd62cfa8da6197233",
-  "algorithm": "SHA-256",
-  "payload_description": "Canonical JSON of {seed, premium[{box_id,contents}], other{tier:[{box_id,contents}]}, reserves} with sort_keys and separators=(',', ':')",
-  "generated_at": "2026-08-11T14:10:58.993472+00:00",
+  "commitment_sha256": "c375b6e83d4cee9ba2987875390a2c4d4c5f9ca7f9c49b4afe2e5c1aaca7f390",
+  "commitment_version": "wiznerdz-merkle-v1",
+  "merkle_root": "278a44d106c26df2db8085fb0a6ff99f3732cca25b2818913a4366b7a7229ea6",
+  "commitment_header": {
+    "version": "wiznerdz-merkle-v1",
+    "merkle_root": "278a44d106c26df2db8085fb0a6ff99f3732cca25b2818913a4366b7a7229ea6",
+    "box_count": 4420,
+    "reserves": [],
+    "seed_commitment": "bfef1514322f1e5b3a9e6ad0b36c4926ec6d6d86c4e280e18584062dc3c4a9b9"
+  },
+  "algorithm": "SHA-256 Merkle tree over per-box salted leaves",
+  "leaf_format": "sha256(0x00 || canonical_json({box_id, contents, salt})), salt = HMAC-SHA256(allocation_seed, 'wiznerdz-leaf-salt-v1:' + box_id)",
+  "node_format": "sha256(0x01 || left || right); odd node promoted unchanged",
+  "box_order": "boxes sorted by box_id",
+  "header_format": "commitment_sha256 = sha256(canonical_json(commitment_header))",
+  "generated_at": "2026-08-12T19:05:34.948465+00:00",
   "allocation_seed_committed": true,
+  "seed_entropy_bits": 256,
+  "seed_disclosed": false,
   "status": "committed",
-  "verify": "python -m mint_system.independent_audit  (or commitment.verify_commitment)"
+  "verify": "python mint_system/verify_box_proof_cli.py --proof <buyer_proof.json>",
+  "supersedes": [
+    {
+      "commitment_sha256": "f4b469e584e2acd0624c4a293fe097822e650b5b357fb05fd62cfa8da6197233",
+      "algorithm": "v1 \u2014 single SHA-256 over the whole private payload",
+      "published": "2026-08-11",
+      "was_live": true,
+      "superseded": "2026-08-12",
+      "reason": "Two problems. (1) Proving any single box's contents required disclosing every box's contents. (2) The allocation seed was a human-readable pattern ('wiznerdz-mint-prod-YYYY-MM-DD-vN'); it was recovered from published data in 0.02 seconds and regenerated all 4438 boxes exactly, so the sealed contents were derivable by anyone. No sales had occurred."
+    },
+    {
+      "commitment_sha256": "1ef9be518950671230968488b3782d2a0bdfa937b61109d7909a5506916bfdb9",
+      "merkle_root": "f528fb6e570fff29c4a3268e6b929861a2cc2927570cccbfcaa1ba06b46c33c5",
+      "algorithm": "v2 Merkle \u2014 over the allocation generated from the weak seed",
+      "published": "never",
+      "was_live": false,
+      "superseded": "2026-08-12",
+      "reason": "Computed locally but never published. It committed to the same compromised allocation, and additionally published sha256(weak_seed) in its header, which made seed recovery a direct 3720-hash enumeration."
+    }
+  ],
+  "allocation_note": "Regenerated 2026-08-12 from a 256-bit CSPRNG seed held outside the repository. Box contents differ from all superseded allocations. No sale had occurred at any point during these replacements."
 }
