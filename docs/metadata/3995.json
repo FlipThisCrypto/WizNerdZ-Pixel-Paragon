@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3995,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3995.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTVQ82PxFyocnpUmVnAfc8Hv4eP23UPdbjodTfcdttjKC",
     "dna": "ed6c1b625e689aba483e634811cbf00a56a9e6cdecde2fa319c15d15e5d60133",
     "dna_raw": "bg_Red.png|Exsanguinated#10.png|eyes_Light_Brown#8.png|mouth#100.png|Void Walker#10.png|Full_Beard_Blonde#10.png|Louvered Shades#2.png|Void Walker#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3995.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTVQ82PxFyocnpUmVnAfc8Hv4eP23UPdbjodTfcdttjKC"
 }

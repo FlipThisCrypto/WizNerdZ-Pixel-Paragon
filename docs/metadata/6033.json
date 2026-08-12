@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6033,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6033.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmRjp74ce1hpmpqyzYo7wdLeNeAxuMEr8J3AEmerWUFoF2",
     "dna": "579d84f1d361a96e0416c4bb8346d2412d6f3f3446d58e2cdab133138688e060",
     "dna_raw": "bg_Indigo#8.png|Rune Etched#10.png|eyes_Light_Brown#8.png|mouth#100.png|Cleric Light#10.png|Chin_Strap_Blonde#6.png|Ethereal Visions#8.png|Cleric Light#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6033.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmRjp74ce1hpmpqyzYo7wdLeNeAxuMEr8J3AEmerWUFoF2"
 }

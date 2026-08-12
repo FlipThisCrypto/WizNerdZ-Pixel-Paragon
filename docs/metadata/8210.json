@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -103,7 +111,7 @@
   "series_number": 8210,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8210.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTYXkJXTgP89FH2jQGiEq573LsRKmBxdhp4cQPmoPk9ph",
     "dna": "42d239cec3367a5657b099146675a9622ebf4c46375448b3516bd566801acc60",
     "dna_raw": "bg_Red.png|Vampiric#10.png|eyes_Hazel#10.png|mouth#100.png|Arcane Mage#10.png|Full_Beard_Red_Orange#8.png|Crimson Glare#8.png|Arcane Mage#10.png",
     "canvas": "640x640",
@@ -127,5 +135,5 @@
     "rarity_rank_numeric": 0,
     "rarity_pool": "1of1"
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8210.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTYXkJXTgP89FH2jQGiEq573LsRKmBxdhp4cQPmoPk9ph"
 }

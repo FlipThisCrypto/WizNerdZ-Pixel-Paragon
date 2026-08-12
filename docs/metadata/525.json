@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 525,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/525.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTo1Ack9ju2q1HeAm6ZeTdn8QHH71qLrpTNkYURogV4jL",
     "dna": "a113c5d27f305d304d0863822dd76137dc9fc3a63f70421a8eddff6f0e19689a",
     "dna_raw": "bg_Red.png|Vampiric#10.png|eyes_Hazel#10.png|mouth#100.png|Necromancer#10.png|Long_Rounded_Black#26.png|Trench Scopes#8.png|Necromancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/525.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTo1Ack9ju2q1HeAm6ZeTdn8QHH71qLrpTNkYURogV4jL"
 }

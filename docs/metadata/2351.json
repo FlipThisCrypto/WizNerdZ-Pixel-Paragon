@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -107,7 +115,7 @@
   "series_number": 2351,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2351.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXHUuJAkMSvMN1wiyYUwPs8GPpJSEFhXy6SCBe4FXBtqq",
     "dna": "c556ac18faac60c18b29b8296ddd20d71a85e7de210bb7507023ef7a1f829e8b",
     "dna_raw": "bg_Orange#8.png|Glamour Tint#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Alchemist#10.png|Long_Pointy_Black#22.png|Fel Oculars#8.png|Alchemist#10.png|ORANGE_SKIN",
     "canvas": "640x640",
@@ -133,5 +141,5 @@
     "rarity_rank_numeric": 0,
     "rarity_pool": "1of1"
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2351.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXHUuJAkMSvMN1wiyYUwPs8GPpJSEFhXy6SCBe4FXBtqq"
 }

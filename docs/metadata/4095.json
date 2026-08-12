@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 4095,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4095.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmSK1NARTEESMskYv5TLjXBUjkziXZ1w6ibrQ3K1AC4wUS",
     "dna": "7e70d5d676af81b4fe6197fc7bb69b2c07a18272122f3886570c0cc7df57a554",
     "dna_raw": "bg_Pink#8.png|Vampiric#10.png|eyes_Light_Blue#8.png|mouth#100.png|Cryomancer#10.png|Goatee_Black#22.png|Astral Focus#8.png|Cryomancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4095.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmSK1NARTEESMskYv5TLjXBUjkziXZ1w6ibrQ3K1AC4wUS"
 }

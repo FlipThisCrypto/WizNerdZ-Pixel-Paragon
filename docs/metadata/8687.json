@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 8687,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8687.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmRarPw4ickfQUn8A3N37HMy5A1u7qsuJm5o85mSbCK74a",
     "dna": "616cecae495d057935b30e1d35f58054f291c723cc57e9d53d020af4e1f95bad",
     "dna_raw": "bg_Blue#12.png|Mud Cracked#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Sand Sage#10.png|Full_Beard_Blonde#10.png|Taped Elder Keepers#1.png|Sand Sage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8687.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmRarPw4ickfQUn8A3N37HMy5A1u7qsuJm5o85mSbCK74a"
 }

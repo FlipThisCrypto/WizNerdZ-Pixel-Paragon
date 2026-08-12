@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 7689,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7689.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXYRPbBTCxsiVtGm2N8b3Zr6SZd2g6ZtMxMLBq8ZApXwk",
     "dna": "327dc2aa2b0629d2d4e0e20ccc0d9c83b7770ec21158cd306528d2d2df7ac3ee",
     "dna_raw": "bg_Silver#4.png|Sands of Time#10.png|eyes_Blue#14.png|mouth#100.png|Earth Shaman#10.png|Long_Braid_Black#15.png|Elder Keepers#8.png|Earth Shaman#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7689.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXYRPbBTCxsiVtGm2N8b3Zr6SZd2g6ZtMxMLBq8ZApXwk"
 }

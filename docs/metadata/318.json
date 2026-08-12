@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 318,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/318.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmV8dnq86BwCg7w3RKSeRnWBpBphSj8PeQ68TRAq1izVi2",
     "dna": "b9a8ce0e62229faf643432891689273a3ffa6a77dfe6331acf9b9cb4057a1440",
     "dna_raw": "bg_Pink#8.png|Chaos Warped#10.png|eyes_Green#12.png|mouth#100.png|Chaos Weaver#10.png|Full_Beard_Blonde#10.png|Epoch Eyes#8.png|Chaos Weaver#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/318.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmV8dnq86BwCg7w3RKSeRnWBpBphSj8PeQ68TRAq1izVi2"
 }

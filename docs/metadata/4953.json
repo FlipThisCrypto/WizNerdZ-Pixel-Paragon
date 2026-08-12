@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 4953,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4953.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmPherqLvZAjqMQqw3krqHUUas6YKnhCk2qs9CgZBpCQxM",
     "dna": "bbd78e6ef6eb0f26016f581eb61004271580c4c223607672e6066397219ab971",
     "dna_raw": "bg_Orange#8.png|Radiant Pale#10.png|eyes_Amber#6.png|mouth#100.png|Cleric Light#10.png|Full_Beard_White_Gray#7.png|Oracle Orbs#8.png|Cleric Light#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4953.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmPherqLvZAjqMQqw3krqHUUas6YKnhCk2qs9CgZBpCQxM"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 294,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/294.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTVo6Asx7Ypdh29fu7jpSyTB2v3AuUC3rDZ19VUBKymhC",
     "dna": "90b1e34a86532f356c036918b958a1982ef2833c6e7fcd716da3887bfccb468d",
     "dna_raw": "bg_Red.png|Shadow Form#10.png|eyes_Blue#14.png|mouth#100.png|Cleric Light#10.png|Goatee_Brown#18.png|Divine Spectacles#8.png|Cleric Light#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/294.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTVo6Asx7Ypdh29fu7jpSyTB2v3AuUC3rDZ19VUBKymhC"
 }

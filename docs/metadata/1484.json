@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 1484,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1484.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmR98y5ypj3jGUhWM3aXiFfFk9dAnfjXPuMy1YunaWX3en",
     "dna": "951480f9796e32d99a3b600f3a1e690c3a4b1e35abb49f50f7d4e28942b8b8a8",
     "dna_raw": "bg_Gray#6.png|Mana Veined#10.png|eyes_Blue#14.png|mouth#100.png|Warlock Fel#10.png|Long_Braid_Brown#12.png|Potion Masters#8.png|Warlock Fel#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1484.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmR98y5ypj3jGUhWM3aXiFfFk9dAnfjXPuMy1YunaWX3en"
 }

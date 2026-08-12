@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 2055,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2055.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qmajxhs9mtKXX1iLf8ykU8GAHr93h7g87vg6aSHaWdH7qu",
     "dna": "ac9f784c6653a00463cf6c75dbb483b8ed23c84d447e63c15e3ece5429ff1837",
     "dna_raw": "bg_Brown#4.png|Desiccated#10.png|eyes_Light_Blue#8.png|mouth#100.png|Cleric Light#10.png|Full_Beard_Brown#15.png|Potion Masters#8.png|Cleric Light#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2055.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qmajxhs9mtKXX1iLf8ykU8GAHr93h7g87vg6aSHaWdH7qu"
 }

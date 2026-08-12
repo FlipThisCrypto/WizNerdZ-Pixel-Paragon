@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 2220,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2220.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmZkm2XapKRobzdNHoc11RDmNXBqcxfxMMUuDtypdnNP89",
     "dna": "cd808631034ee5c8ce0bb8d35987b5a081ccf2e69c3775f2c566effd0b3ece5c",
     "dna_raw": "bg_Gold#3.png|Radiant Pale#10.png|eyes_Light_Blue#8.png|mouth#100.png|Deep Sea#10.png|Long_Rounded_Black#26.png|Ethereal Visions#8.png|Deep Sea#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2220.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmZkm2XapKRobzdNHoc11RDmNXBqcxfxMMUuDtypdnNP89"
 }

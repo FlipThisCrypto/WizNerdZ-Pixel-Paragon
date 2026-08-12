@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 4158,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4158.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWpMXnk1gJYA84nhpS56XHgaqASY5WCDosecbd7JpmWod",
     "dna": "23254c20b7e7eb68f04b41f8bef1e30571a24864d226b31e3a62e5d764770155",
     "dna_raw": "bg_Blue#12.png|Rune Etched#10.png|eyes_Blue#14.png|mouth#100.png|Cryomancer#10.png|Goatee_Brown#18.png|Omen Readers#8.png|Cryomancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4158.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWpMXnk1gJYA84nhpS56XHgaqASY5WCDosecbd7JpmWod"
 }

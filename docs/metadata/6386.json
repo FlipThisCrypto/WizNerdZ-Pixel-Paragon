@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6386,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6386.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmUUxX8UFQ6TEN79dosvffH1rF1nZnFNX7MevbPhuAqDJY",
     "dna": "9f8770afc6d9b9e6ab9bd016794d9831c9a7fe9fa2d733eb431d749a8baec1bf",
     "dna_raw": "bg_White#6.png|Mud Cracked#10.png|eyes_Amber#6.png|mouth#100.png|Cryomancer#10.png|Chin_Strap_Red_Orange#5.png|Terra Frames#8.png|Cryomancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6386.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmUUxX8UFQ6TEN79dosvffH1rF1nZnFNX7MevbPhuAqDJY"
 }

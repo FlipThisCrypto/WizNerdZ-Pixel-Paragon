@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3813,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3813.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmYVC2PrPLrKnHKhpKmTbzTxE4khHRhSawBtpAPbr48cCe",
     "dna": "2c44d7bef512c40f053805f15fe805f4ae6ec8d5f44687894cc17b672d9ea01f",
     "dna_raw": "bg_Blue#12.png|Frostbitten#10.png|eyes_Blue#14.png|mouth#100.png|Spirit Guide#10.png|Full_Beard_Brown#15.png|Epoch Eyes#8.png|Spirit Guide#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3813.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmYVC2PrPLrKnHKhpKmTbzTxE4khHRhSawBtpAPbr48cCe"
 }

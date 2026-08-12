@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6730,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6730.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmaTJukqJdrw6n21Z8zbY7Q6rGMLLG5G24NAKYipAKfjFM",
     "dna": "43fdf9eaea2d6d2a7510c346d9556a33e260090207855ac86d342383eaab4a83",
     "dna_raw": "bg_Orange#8.png|Potion Stained#10.png|eyes_Amber#6.png|mouth#100.png|Blood Mage#10.png|Full_Beard_Blonde#10.png|Epoch Eyes#8.png|Blood Mage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6730.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmaTJukqJdrw6n21Z8zbY7Q6rGMLLG5G24NAKYipAKfjFM"
 }

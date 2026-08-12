@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3205,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3205.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmZHLwTpNQ9PC6jFoH9EFbZnwdm9bFkPb6XDLXoa4qSNNq",
     "dna": "2dfb3dcbc23c07e290f8b748e88f8cbd00049bfbcba29785e72a68fa1037480c",
     "dna_raw": "bg_Blue#12.png|Glamour Tint#10.png|eyes_Dark_Brown#8.png|mouth#100.png|High Sorcerer#10.png|Goatee_Dark_Brown#20.png|Dune Drifters#8.png|High Sorcerer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3205.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmZHLwTpNQ9PC6jFoH9EFbZnwdm9bFkPb6XDLXoa4qSNNq"
 }

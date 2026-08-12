@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 5682,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5682.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmP8k57zzL2Pn9g8Kuz7xwp9kkxBi6CsGiHCUNFS6cbRif",
     "dna": "3d54683828fbec56bf101ec2c3c1c1cd979a0f76ffe6fd774fc998d48aa3dc59",
     "dna_raw": "bg_Gray#6.png|Celestial Blue#10.png|eyes_Light_Brown#8.png|mouth#100.png|Spirit Guide#10.png|Medium_Rounded_Brown#27.png|Taped Sanguine Sight#1.png|Spirit Guide#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5682.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmP8k57zzL2Pn9g8Kuz7xwp9kkxBi6CsGiHCUNFS6cbRif"
 }

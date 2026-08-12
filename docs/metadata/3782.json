@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3782,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3782.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmRcgnWEbzBGuUsanSDLv4oen7361ecW2Fju7M8vt91a5V",
     "dna": "15677b65d29c5247530007b97845a021f4a8bf91893e8aa19379bbaab73d98e9",
     "dna_raw": "bg_Green#10.png|Charred Ash#10.png|eyes_Light_Blue#8.png|mouth#100.png|Chronomancer#10.png|Long_Rounded_Brown#21.png|Glamour Glass#8.png|Chronomancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3782.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmRcgnWEbzBGuUsanSDLv4oen7361ecW2Fju7M8vt91a5V"
 }

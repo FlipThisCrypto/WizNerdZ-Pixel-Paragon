@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3259,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3259.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmaQVYVXPabwKiBGP2s44U3Yzc4x6LhSnZS6n5csugyBeJ",
     "dna": "eb605c514030a2cfa9c5cb340f5fefcd163a39f3cb99e15bfbe5377e53b9e17d",
     "dna_raw": "bg_White#6.png|Void Touched#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Blood Mage#10.png|Chin_Strap_Dark_Brown#10.png|Dune Drifters#8.png|Blood Mage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3259.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmaQVYVXPabwKiBGP2s44U3Yzc4x6LhSnZS6n5csugyBeJ"
 }

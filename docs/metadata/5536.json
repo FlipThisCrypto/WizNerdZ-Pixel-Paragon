@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 5536,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5536.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmfUJGnRDP7c3g9fMwYM2xjaaJJXhYvZrzwKZAE75NTwZm",
     "dna": "6d5c80288f65b7fd22478a21dc406a9b1a2b050f2b1ec210110cc3892c5848cd",
     "dna_raw": "bg_Yellow#10.png|Frostbitten#10.png|eyes_Amber#6.png|mouth#100.png|Warlock Fel#10.png|Long_Rounded_Dark_Brown#23.png|Sigil Scanners#8.png|Warlock Fel#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5536.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmfUJGnRDP7c3g9fMwYM2xjaaJJXhYvZrzwKZAE75NTwZm"
 }

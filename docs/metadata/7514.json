@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 7514,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7514.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmRzXopNi14Zb9jckHE8538N37wU6zrr6LsvqHdm1fPa9m",
     "dna": "326cf443d84d07c8330be80efac0b376378737333ab2453f36b03102e4e0dd6e",
     "dna_raw": "bg_Black#5.png|Rotten Flesh#10.png|eyes_Light_Blue#8.png|mouth#100.png|Void Walker#10.png|Medium_Rounded_Red_Orange#15.png|Taped Omen Readers#1.png|Void Walker#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7514.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmRzXopNi14Zb9jckHE8538N37wU6zrr6LsvqHdm1fPa9m"
 }

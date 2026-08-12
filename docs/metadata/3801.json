@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3801,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3801.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qmaj6M5D9ReF9475LvV2qYyLF4jAUo3TCqSTPd81y1T7X3",
     "dna": "d26a68ab04c2a8b074e34b9faaadb508ef96e97286b5d6dab6203cc364ec9bbe",
     "dna_raw": "bg_White#6.png|Vampiric#10.png|eyes_Blue#14.png|mouth#100.png|Illusionist#10.png|Medium_Rounded_Dark_Brown#30.png|Astral Focus#8.png|Illusionist#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3801.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qmaj6M5D9ReF9475LvV2qYyLF4jAUo3TCqSTPd81y1T7X3"
 }

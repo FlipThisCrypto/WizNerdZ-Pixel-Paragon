@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -103,7 +111,7 @@
   "series_number": 639,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/639.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmYxgeNaYhyG6soUx7y7D9vbq1pR1JxaJrHrpY3KrRHYmB",
     "dna": "54d8e7e8df10a209c454d87fc621427b7bc3fc78c625c17d77c2e7149e4f0f31",
     "dna_raw": "bg_Gold#3.png|Drowned#10.png|eyes_Gray#8.png|mouth#100.png|Pyromancer#10.png|Full_Beard_Dark_Brown#17.png|Dune Drifters#8.png|Pyromancer#10.png",
     "canvas": "640x640",
@@ -127,5 +135,5 @@
     "rarity_rank_numeric": 0,
     "rarity_pool": "1of1"
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/639.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmYxgeNaYhyG6soUx7y7D9vbq1pR1JxaJrHrpY3KrRHYmB"
 }

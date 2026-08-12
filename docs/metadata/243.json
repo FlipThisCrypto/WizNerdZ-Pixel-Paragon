@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 243,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/243.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmZUrvjT3fLNNJjK9SQB4VNqA1iHjZTuNEx8B6HMJQURnn",
     "dna": "63cfd80f8ff09751806241be979619fb8497ea2e2cb61ce9c0a08a9ab7dcadc5",
     "dna_raw": "bg_White#6.png|Radiant Pale#10.png|eyes_Blue#14.png|mouth#100.png|Shadow Priest#10.png|Full_Beard_Black#18.png|Dune Drifters#8.png|Shadow Priest#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/243.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmZUrvjT3fLNNJjK9SQB4VNqA1iHjZTuNEx8B6HMJQURnn"
 }

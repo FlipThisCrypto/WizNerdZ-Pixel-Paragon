@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 2366,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2366.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXzT42dhdXXPnj3TocFpnWL9nu8y1MeHVLxSJQvAdW646",
     "dna": "83b8759f8f53ab07cffee51a852ad388d168b3b2b1c6edc48fca6e7d9bc1da86",
     "dna_raw": "bg_Violet#8.png|Sands of Time#10.png|eyes_Blue#14.png|mouth#100.png|Vampire Lord#10.png|Long_Rounded_Brown#21.png|Taped Potion Masters#1.png|Vampire Lord#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2366.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXzT42dhdXXPnj3TocFpnWL9nu8y1MeHVLxSJQvAdW646"
 }

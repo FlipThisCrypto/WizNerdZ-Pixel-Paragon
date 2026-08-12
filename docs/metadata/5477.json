@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 5477,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5477.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmYjEMotUTi8Wa2q6sByHb2JKMuqUDm117gQ15gk9TKWSB",
     "dna": "ac97d38e6be8dd0694a10431d2b6803a5a35dd5de469f0a895a0b70c51a02299",
     "dna_raw": "bg_Teal#8.png|Mana Veined#10.png|eyes_Hazel#10.png|mouth#100.png|Druid#10.png|Long_Braid_Dark_Brown#13.png|Elder Keepers#8.png|Druid#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5477.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmYjEMotUTi8Wa2q6sByHb2JKMuqUDm117gQ15gk9TKWSB"
 }

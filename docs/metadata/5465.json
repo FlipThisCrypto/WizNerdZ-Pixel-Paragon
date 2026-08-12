@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 5465,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5465.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTvEsC9rn712ku44uzahmXd5NRV8nSc9n2oJ714obQ7fh",
     "dna": "b01e341a38a935086d85e1c6e817c242755598164c1398daa2b8b9534005c979",
     "dna_raw": "bg_Yellow#10.png|Sands of Time#10.png|eyes_Blue#14.png|mouth#100.png|Mystic Seer#10.png|Long_Pointy_Brown#18.png|Sanguine Sight#8.png|Mystic Seer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5465.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTvEsC9rn712ku44uzahmXd5NRV8nSc9n2oJ714obQ7fh"
 }

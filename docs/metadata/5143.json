@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 5143,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5143.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmRcf9JnPWUYse3ShuJKR8xswJVXn9xLvBRKX3qCT1AHj8",
     "dna": "15ba6d412a83f9a5a55d5122a71e1df1e4d2d9b3f2a6dc1c9ddb0bc696dfecb4",
     "dna_raw": "bg_Violet#8.png|Sands of Time#10.png|eyes_Hazel#10.png|mouth#100.png|Cleric Light#10.png|Long_Pointy_Black#22.png|Potion Masters#8.png|Cleric Light#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5143.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmRcf9JnPWUYse3ShuJKR8xswJVXn9xLvBRKX3qCT1AHj8"
 }

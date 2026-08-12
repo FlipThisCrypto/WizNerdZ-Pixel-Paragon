@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6532,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6532.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmfPeqdP1JZdtUgA8r685iyxihcA2eKUB7Hzv8QvaMF5xR",
     "dna": "b7ac4e20a4952f7d91b419e6cd6159c736be0866b4615d89d21f6362ffc5fb3a",
     "dna_raw": "bg_Black#5.png|Celestial Blue#10.png|eyes_Gray#8.png|mouth#100.png|Cleric Light#10.png|Long_Braid_Brown#12.png|Dune Drifters#8.png|Cleric Light#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6532.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmfPeqdP1JZdtUgA8r685iyxihcA2eKUB7Hzv8QvaMF5xR"
 }

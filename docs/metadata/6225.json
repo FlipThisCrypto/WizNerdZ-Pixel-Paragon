@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6225,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6225.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWFbQcNVigNS5G3RxeRwdYvBaNhxJTrWAmWuRpJv3dBFD",
     "dna": "4ce023bde51e40acaade4ec72ab6d3392eeefa7d1d7d30817428891ecdf862bc",
     "dna_raw": "bg_White#6.png|Drowned#10.png|eyes_Amber#6.png|mouth#100.png|Void Walker#10.png|Long_Rounded_Dark_Brown#23.png|Fel Oculars#8.png|Void Walker#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6225.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWFbQcNVigNS5G3RxeRwdYvBaNhxJTrWAmWuRpJv3dBFD"
 }

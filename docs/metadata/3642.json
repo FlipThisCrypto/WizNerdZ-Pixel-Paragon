@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3642,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3642.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmP1iQ4L4ABoffg24gq94XtUjeBuVRnbohXneVz9dTcJvt",
     "dna": "7e5b15a793f7be6a9183e8fccacc6ad907966dbb9d637fa4aede6a053cc7a897",
     "dna_raw": "bg_Yellow#10.png|Rune Etched#10.png|eyes_Green#12.png|mouth#100.png|Shadow Priest#10.png|Medium_Rounded_Red_Orange#15.png|Potion Masters#8.png|Shadow Priest#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3642.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmP1iQ4L4ABoffg24gq94XtUjeBuVRnbohXneVz9dTcJvt"
 }

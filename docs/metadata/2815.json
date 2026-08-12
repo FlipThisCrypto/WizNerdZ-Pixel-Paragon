@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 2815,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2815.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXmtPcGLcW7NRcw9Pkgc6sHzh4UhdaanN2g8yU5SQua6e",
     "dna": "7e10534c49d0788a9062cf42f544fd0b21e79a0bc04863f5fc9bb2bbb8768e4b",
     "dna_raw": "bg_Blue#12.png|Sands of Time#10.png|eyes_Blue#14.png|mouth#100.png|Arcane Mage#10.png|Chin_Strap_Blonde#6.png|Taped Tempest Visors#1.png|Arcane Mage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2815.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXmtPcGLcW7NRcw9Pkgc6sHzh4UhdaanN2g8yU5SQua6e"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 5082,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5082.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTeZGis8UvWd8GBA8tNSSF5H7DucQ7bZwuVmbzGnZ9Jh6",
     "dna": "0f146f91727cc613abf62d54ce220f8ce74628ae011ac198858dbcd3a3db90cb",
     "dna_raw": "bg_Pink#8.png|Sands of Time#10.png|eyes_Green#12.png|mouth#100.png|Void Walker#10.png|Full_Beard_Blonde#10.png|Magma Goggles#8.png|Void Walker#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5082.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTeZGis8UvWd8GBA8tNSSF5H7DucQ7bZwuVmbzGnZ9Jh6"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 1159,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1159.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcxEmCbJos9rZBvk1eJS3VkAhHxrEw3Xh1oybuo4XNKs8",
     "dna": "1d29649a18101e460cbf4afa5169587ce3f85c72a51fd70281c93af6964b2462",
     "dna_raw": "bg_White#6.png|Chaos Warped#10.png|eyes_Gray#8.png|mouth#100.png|Spirit Guide#10.png|Full_Beard_Blonde#10.png|Mystic Gaze#8.png|Spirit Guide#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1159.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcxEmCbJos9rZBvk1eJS3VkAhHxrEw3Xh1oybuo4XNKs8"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3954,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3954.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmNbMpAvbQb8iGXRmuud49hFfKk7FoNXc2JaQAvAwpTNZJ",
     "dna": "e337f52e76a80d09363825cabf6da6945d6d22a9876e82f4fed32ff2c9e8d47a",
     "dna_raw": "bg_White#6.png|Celestial Blue#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Deep Sea#10.png|Medium_Rounded_Red_Orange#15.png|Taped Lich Lenses#1.png|Deep Sea#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3954.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmNbMpAvbQb8iGXRmuud49hFfKk7FoNXc2JaQAvAwpTNZJ"
 }

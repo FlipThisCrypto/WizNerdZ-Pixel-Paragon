@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 8753,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8753.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmRnVSp3sG7U4aX2TkvrJaeUMP5D3vEKDzvADJWwonuoBv",
     "dna": "2581b6d4de5a14e5428e2182cf3309025971530b6d7bcb4615bb75a263a0dcd6",
     "dna_raw": "bg_Pink#8.png|Sands of Time#10.png|eyes_Amber#6.png|mouth#100.png|Vampire Lord#10.png|Goatee_Blonde#12.png|Fel Oculars#8.png|Vampire Lord#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8753.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmRnVSp3sG7U4aX2TkvrJaeUMP5D3vEKDzvADJWwonuoBv"
 }

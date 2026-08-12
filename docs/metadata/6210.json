@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6210,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6210.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qmf8BMsatLCfVpNFwhCvJyU58c7mS8igYdDHvWEKJVytvC",
     "dna": "9583d1e62f9c2d348fbd768480ce79dfa65639a46079e21f225b27cf9743874a",
     "dna_raw": "bg_Green#10.png|Radiant Pale#10.png|eyes_Hazel#10.png|mouth#100.png|Earth Shaman#10.png|Goatee_Red_Orange#10.png|Dune Drifters#8.png|Earth Shaman#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6210.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qmf8BMsatLCfVpNFwhCvJyU58c7mS8igYdDHvWEKJVytvC"
 }

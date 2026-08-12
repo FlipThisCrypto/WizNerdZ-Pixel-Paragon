@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3058,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3058.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXUET1m8mw6gXJTNDBvd8zfzksXQNYTuEogJuBuY7aNsc",
     "dna": "ef9f15bd639a267652777b7a42de748b8903a2c3b9f83447f32d2517e52c7d9a",
     "dna_raw": "bg_Blue#12.png|Storm Grey#10.png|eyes_Light_Blue#8.png|mouth#100.png|Storm Caller#10.png|Long_Rounded_Brown#21.png|Magma Goggles#8.png|Storm Caller#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3058.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXUET1m8mw6gXJTNDBvd8zfzksXQNYTuEogJuBuY7aNsc"
 }

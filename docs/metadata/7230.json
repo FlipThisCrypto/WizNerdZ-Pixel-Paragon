@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 7230,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7230.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmZRhhBUD9fVrCYv9Ak1qCrfE8KV4RAF8zQaYrT39LHpsX",
     "dna": "c0f7b33431d85f02ce777f001790c104004aa155a25ce12ca95a87cfbb2a751b",
     "dna_raw": "bg_Violet#8.png|Mana Veined#10.png|eyes_Hazel#10.png|mouth#100.png|Vampire Lord#10.png|Long_Braid_Black#15.png|Fel Oculars#8.png|Vampire Lord#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7230.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmZRhhBUD9fVrCYv9Ak1qCrfE8KV4RAF8zQaYrT39LHpsX"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 7774,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7774.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWPGRK8CJh13CcqP4PtE7Vv9i2gW7qqu7rPQNKi9apvsp",
     "dna": "5616578ded23ad21f5da68b222d2d3b8c369a5c3b2ed7a7ba781554cc1e205be",
     "dna_raw": "bg_Gray#6.png|Frostbitten#10.png|eyes_Hazel#10.png|mouth#100.png|Arcane Mage#10.png|Goatee_Brown#18.png|Epoch Eyes#8.png|Arcane Mage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7774.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWPGRK8CJh13CcqP4PtE7Vv9i2gW7qqu7rPQNKi9apvsp"
 }

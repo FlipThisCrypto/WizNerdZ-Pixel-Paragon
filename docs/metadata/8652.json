@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 8652,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8652.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmUTkk2yLxnf8u6dFcqHWMd3qitWFhM23REzcyn76ToMV2",
     "dna": "de3793fd56248f469605966f6d371ae99dc86d18ad3c5a6da5b75d53af4d93eb",
     "dna_raw": "bg_Gold#3.png|Potion Stained#10.png|eyes_Green#12.png|mouth#100.png|Vampire Lord#10.png|Full_Beard_Dark_Brown#17.png|Mystic Gaze#8.png|Vampire Lord#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8652.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmUTkk2yLxnf8u6dFcqHWMd3qitWFhM23REzcyn76ToMV2"
 }

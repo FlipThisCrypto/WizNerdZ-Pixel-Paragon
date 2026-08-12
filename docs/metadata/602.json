@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 602,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/602.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmQF4WaiPCVpgyk6ugRvdXoL5D7ty7PQMupWiDASuVitew",
     "dna": "301bd4fe8c433f1a4151104a3a2f18b712b91cb63459cf5ee4f990939e0d509a",
     "dna_raw": "bg_Black#5.png|Frostbitten#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Deep Sea#10.png|Long_Braid_Brown#12.png|Dune Drifters#8.png|Deep Sea#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/602.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmQF4WaiPCVpgyk6ugRvdXoL5D7ty7PQMupWiDASuVitew"
 }

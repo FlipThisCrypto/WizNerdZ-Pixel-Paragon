@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 7083,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7083.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmekVYPt6no6k3MPNJbvFUeYXbJFny1VF81sVgWpt2nhfc",
     "dna": "6652c7a31fd5d4b0d09ae8d9134f5ade93c6166227d97f45412039dafbddc90f",
     "dna_raw": "bg_Green#10.png|Potion Stained#10.png|eyes_Green#12.png|mouth#100.png|Mystic Seer#10.png|Chin_Strap_Brown#9.png|Taped Dune Drifters#1.png|Mystic Seer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7083.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmekVYPt6no6k3MPNJbvFUeYXbJFny1VF81sVgWpt2nhfc"
 }

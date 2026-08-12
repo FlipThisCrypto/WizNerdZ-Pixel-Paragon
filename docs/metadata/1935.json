@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 1935,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1935.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qmcxj7fZa76F4cJCVnLhJbKK9zT4A5CkjcKrzUKzT6YjpY",
     "dna": "5c285332c8dee9dedc747f54b84de10e17800a89f199a77a1ee70ed6533a51b8",
     "dna_raw": "bg_Yellow#10.png|Mana Veined#10.png|eyes_Green#12.png|mouth#100.png|Storm Caller#10.png|Long_Pointy_Red_Orange#10.png|Ethereal Visions#8.png|Storm Caller#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1935.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qmcxj7fZa76F4cJCVnLhJbKK9zT4A5CkjcKrzUKzT6YjpY"
 }

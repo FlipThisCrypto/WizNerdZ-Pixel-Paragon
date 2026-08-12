@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 7056,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7056.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qme9Mv4YEw6MSNhTZpVJ9ahn3VnRX7UC3r5cStT6DuMMD7",
     "dna": "fb032f0ff2ef85e4c80aa27330446b897b5e64cc5df03605aa26f02e02dabf3e",
     "dna_raw": "bg_White#6.png|Desiccated#10.png|eyes_Amber#6.png|mouth#100.png|High Sorcerer#10.png|Goatee_Blonde#12.png|Oracle Orbs#8.png|High Sorcerer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7056.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qme9Mv4YEw6MSNhTZpVJ9ahn3VnRX7UC3r5cStT6DuMMD7"
 }

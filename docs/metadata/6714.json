@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6714,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6714.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmVKMwBaP3CLjkKdRL4Uw39Yp3z9YbkKq2RS6J32erkP23",
     "dna": "d521a6e30bc40303e917cf26ea896fca624f3ab6f09202b537364ec5dae2addb",
     "dna_raw": "bg_Blue#12.png|Shadow Form#10.png|eyes_Blue#14.png|mouth#100.png|Druid#10.png|Long_Braid_Black#15.png|Taped Entropy Shades#1.png|Druid#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6714.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmVKMwBaP3CLjkKdRL4Uw39Yp3z9YbkKq2RS6J32erkP23"
 }

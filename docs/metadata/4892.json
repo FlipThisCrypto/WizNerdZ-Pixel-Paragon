@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 4892,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4892.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmbHjGn8XYbUXzYvf3ag5LnCXotq5mUkqfrVrhmNUvpEwd",
     "dna": "e30318ebbc28c41a03f5f0c3368e1bffc8b807f9fc2cdcd07381b921c0a28706",
     "dna_raw": "bg_Pink#8.png|Rotten Flesh#10.png|eyes_Blue#14.png|mouth#100.png|Chaos Weaver#10.png|Full_Beard_Dark_Brown#17.png|Taped Trench Scopes#1.png|Chaos Weaver#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4892.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmbHjGn8XYbUXzYvf3ag5LnCXotq5mUkqfrVrhmNUvpEwd"
 }

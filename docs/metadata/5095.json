@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -103,7 +111,7 @@
   "series_number": 5095,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5095.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmdHJabqG6orsN2BxgqBcv4yX9LR6ZjXso9nWm1eG2udqY",
     "dna": "2625bf2105caeec4c4773825ea4d242761f6ba484ff52e919f6d45e494f054bf",
     "dna_raw": "bg_Teal#8.png|Chaos Warped#10.png|eyes_Amber#6.png|mouth#100.png|Cleric Light#10.png|Goatee_Black#22.png|Frost Sight#8.png|Cleric Light#10.png",
     "canvas": "640x640",
@@ -127,5 +135,5 @@
     "rarity_rank_numeric": 0,
     "rarity_pool": "1of1"
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5095.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmdHJabqG6orsN2BxgqBcv4yX9LR6ZjXso9nWm1eG2udqY"
 }

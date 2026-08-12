@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 1552,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1552.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmVxKsYE8o5gTn71N2CA62qkzebo1u2eMzi4diT9y7GzVT",
     "dna": "719f881676395ae8318e1787a43c08928c0f5df9c411aed4293f28ac695f28f0",
     "dna_raw": "bg_Black#5.png|Mystic Aura#10.png|eyes_Gray#8.png|mouth#100.png|Rune Keeper#10.png|Goatee_Dark_Brown#20.png|Taped Frost Sight#1.png|Rune Keeper#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1552.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmVxKsYE8o5gTn71N2CA62qkzebo1u2eMzi4diT9y7GzVT"
 }

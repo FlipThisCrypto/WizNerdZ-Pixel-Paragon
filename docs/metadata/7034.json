@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -103,7 +111,7 @@
   "series_number": 7034,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7034.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmNuKnS5x4YZtsqst1Mq2YA88eDEo13cmswAq2JEPQwFgy",
     "dna": "0cbb609040776303f9940e88f4cff5e6f20cc379b0d80dbf4467de6695c11beb",
     "dna_raw": "bg_Red.png|Charred Ash#10.png|eyes_Light_Blue#8.png|mouth#100.png|Cryomancer#10.png|Medium_Rounded_Red_Orange#15.png|Oracle Orbs#8.png|Cryomancer#10.png",
     "canvas": "640x640",
@@ -127,5 +135,5 @@
     "rarity_rank_numeric": 0,
     "rarity_pool": "1of1"
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7034.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmNuKnS5x4YZtsqst1Mq2YA88eDEo13cmswAq2JEPQwFgy"
 }

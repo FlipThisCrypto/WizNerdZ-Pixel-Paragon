@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 8266,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8266.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmfKfiH1ftEEhXLed989owsw6cKk1j18KZJb4gmMbWgdWB",
     "dna": "7f72da2b475a2429e028cd0498fc0337e1f581a664d2af047b0c851ed81378ea",
     "dna_raw": "bg_Green#10.png|Vampiric#10.png|eyes_Gray#8.png|mouth#100.png|Necromancer#10.png|Long_Rounded_Brown#21.png|Magma Goggles#8.png|Necromancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8266.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmfKfiH1ftEEhXLed989owsw6cKk1j18KZJb4gmMbWgdWB"
 }

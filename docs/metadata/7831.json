@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -103,7 +111,7 @@
   "series_number": 7831,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7831.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXJxqqVX3wDUQ2kd9tBBi2Bq18Tkpp36UL2kKhURXrxDG",
     "dna": "7519a2118120bc6034b2f23b5ed4b29c14d8746bdd2fbf7df2957e998f3503ae",
     "dna_raw": "bg_Violet#8.png|Rune Etched#10.png|eyes_Amber#6.png|mouth#100.png|Sand Sage#10.png|Long_Braid_White_Gray#5.png|Sanguine Sight#8.png|Sand Sage#10.png",
     "canvas": "640x640",
@@ -127,5 +135,5 @@
     "rarity_rank_numeric": 0,
     "rarity_pool": "1of1"
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7831.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXJxqqVX3wDUQ2kd9tBBi2Bq18Tkpp36UL2kKhURXrxDG"
 }

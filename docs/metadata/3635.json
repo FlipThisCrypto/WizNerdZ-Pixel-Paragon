@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3635,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3635.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXAzdupSMeW9rvycBKk5oFFpDYwbtkpZReZUGmZ4FU7de",
     "dna": "c5ae42d35b9d5a29ac9f50b94aaed69d774048d93cf877d9d92a63140f9c9955",
     "dna_raw": "bg_Blue#12.png|Mystic Aura#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Alchemist#10.png|Goatee_Red_Orange#10.png|Magma Goggles#8.png|Alchemist#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3635.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXAzdupSMeW9rvycBKk5oFFpDYwbtkpZReZUGmZ4FU7de"
 }

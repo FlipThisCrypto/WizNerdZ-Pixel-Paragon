@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -103,7 +111,7 @@
   "series_number": 6947,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6947.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmV1w9hS4qERobZYoM3RE7wboZgkX8z9a6AvWYeogXudQp",
     "dna": "91d878fa7b0335cc2cdf592846f2864879926f366634421e20e62b75fa668927",
     "dna_raw": "bg_White#6.png|Frostbitten#10.png|eyes_Amber#6.png|mouth#100.png|Spirit Guide#10.png|Full_Beard_Brown#15.png|Fel Oculars#8.png|Spirit Guide#10.png",
     "canvas": "640x640",
@@ -128,5 +136,5 @@
     "rarity_rank_numeric": 0,
     "rarity_pool": "1of1"
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6947.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmV1w9hS4qERobZYoM3RE7wboZgkX8z9a6AvWYeogXudQp"
 }

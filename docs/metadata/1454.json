@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -103,7 +111,7 @@
   "series_number": 1454,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1454.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmP3HKJ3VfvkpsHW7i9JC4PXY3FwWJgJsEKDXUHqyoKVHx",
     "dna": "6bfe7077fa64d6ba99c0fe24c72fa53fc1c452e00ec8df71a64c7823308f07a5",
     "dna_raw": "bg_Red.png|Storm Grey#10.png|eyes_Green#12.png|mouth#100.png|Earth Shaman#10.png|Goatee_Dark_Brown#20.png|Sanguine Sight#8.png|Earth Shaman#10.png",
     "canvas": "640x640",
@@ -127,5 +135,5 @@
     "rarity_rank_numeric": 0,
     "rarity_pool": "1of1"
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1454.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmP3HKJ3VfvkpsHW7i9JC4PXY3FwWJgJsEKDXUHqyoKVHx"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 5599,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5599.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmVRwwGvDnZBBeNUUStiTZGJBFzvCUWfArcW14aNHhJr2m",
     "dna": "85c7c3e49dee54156f9538c8446113d6b3c12d2f6e7f288a0de5c9993bab9b33",
     "dna_raw": "bg_Green#10.png|Mana Veined#10.png|eyes_Amber#6.png|mouth#100.png|Shadow Priest#10.png|Full_Beard_Black#18.png|Glamour Glass#8.png|Shadow Priest#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5599.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmVRwwGvDnZBBeNUUStiTZGJBFzvCUWfArcW14aNHhJr2m"
 }

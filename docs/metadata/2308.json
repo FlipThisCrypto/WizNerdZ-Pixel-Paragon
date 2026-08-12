@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -103,7 +111,7 @@
   "series_number": 2308,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2308.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmeVyN1ceARxoYF4MVTWYp82ZvpFNkMu596c1XafDGiGMv",
     "dna": "10c025a3ae1c8ad213be2552a4eaec56abbfb1cec0b49c859b79a4bed37a6a2a",
     "dna_raw": "bg_Pink#8.png|Exsanguinated#10.png|eyes_Hazel#10.png|mouth#100.png|Chaos Weaver#10.png|Goatee_Blonde#12.png|Taped Trench Scopes#1.png|Chaos Weaver#10.png",
     "canvas": "640x640",
@@ -128,5 +136,5 @@
     "rarity_rank_numeric": 0,
     "rarity_pool": "1of1"
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2308.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmeVyN1ceARxoYF4MVTWYp82ZvpFNkMu596c1XafDGiGMv"
 }

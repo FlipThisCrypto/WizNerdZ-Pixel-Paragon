@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 2983,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2983.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmdZ4dBAc38zP4cQnJJqcob2uuJg3Z2M2T44YADDHkabJw",
     "dna": "ea362a722b1d618d2547dd0dba1116548fb51c28186c00e19fccecbf90bf00c9",
     "dna_raw": "bg_Black#5.png|Shadow Form#10.png|eyes_Light_Brown#8.png|mouth#100.png|Vampire Lord#10.png|Long_Pointy_Blonde#12.png|Taped Elder Keepers#1.png|Vampire Lord#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2983.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmdZ4dBAc38zP4cQnJJqcob2uuJg3Z2M2T44YADDHkabJw"
 }

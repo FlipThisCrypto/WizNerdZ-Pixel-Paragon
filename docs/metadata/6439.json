@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -103,7 +111,7 @@
   "series_number": 6439,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6439.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmS47phRcBUN5MCMXa4HwNGEF3bFCVcoAtM3C4LqXZYjga",
     "dna": "63853dab8d261414f58f8deb7246fee0479752a6caaf7e06cf0c8d338de9890f",
     "dna_raw": "bg_Red.png|Drowned#10.png|eyes_Green#12.png|mouth#100.png|Illusionist#10.png|Long_Braid_Black#15.png|Crimson Glare#8.png|Illusionist#10.png",
     "canvas": "640x640",
@@ -127,5 +135,5 @@
     "rarity_rank_numeric": 0,
     "rarity_pool": "1of1"
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6439.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmS47phRcBUN5MCMXa4HwNGEF3bFCVcoAtM3C4LqXZYjga"
 }

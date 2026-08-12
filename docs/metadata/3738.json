@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3738,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3738.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmV4sPPD6F5cnZpApU8gGhNSw9hQFwZsby7SHBLYFAHG8n",
     "dna": "a77eaf0f1449bc2e942232812650d87285db76dd97ef2d7bd2006bd7a0e5a812",
     "dna_raw": "bg_Silver#4.png|Sands of Time#10.png|eyes_Gray#8.png|mouth#100.png|Arcane Mage#10.png|Medium_Rounded_Brown#27.png|Taped Divine Spectacles#1.png|Arcane Mage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3738.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmV4sPPD6F5cnZpApU8gGhNSw9hQFwZsby7SHBLYFAHG8n"
 }

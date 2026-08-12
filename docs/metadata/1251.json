@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 1251,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1251.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTDNfARJCiiaFxe2BGQHW4CPn6iaZ77Pz43nj9C41YeJ4",
     "dna": "1dfae6b3983354d1248d41ecfcbaeb8c8e552b8672ef7120c5fa916de3ccb3a7",
     "dna_raw": "bg_White#6.png|Drowned#10.png|eyes_Blue#14.png|mouth#100.png|Rune Keeper#10.png|Medium_Rounded_Brown#27.png|Elder Keepers#8.png|Rune Keeper#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1251.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTDNfARJCiiaFxe2BGQHW4CPn6iaZ77Pz43nj9C41YeJ4"
 }

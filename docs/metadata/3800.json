@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3800,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3800.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmRo7zZMAw1gzZwNJpUmUKRRfsS79zUq119fCJJJf2S7pd",
     "dna": "f45b09845a984060f374f2456e8d2480ef883e76298785ac5b90a048690b805b",
     "dna_raw": "bg_Silver#4.png|Bark Skin#10.png|eyes_Light_Blue#8.png|mouth#100.png|Cryomancer#10.png|Long_Pointy_Brown#18.png|Trench Scopes#8.png|Cryomancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3800.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmRo7zZMAw1gzZwNJpUmUKRRfsS79zUq119fCJJJf2S7pd"
 }

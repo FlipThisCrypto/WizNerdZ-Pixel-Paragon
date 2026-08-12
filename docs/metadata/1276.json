@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 1276,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1276.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcFyjYTNAub4cPoFgDsATp4N4fa3dKwpxy3h7NfYCe5Jt",
     "dna": "451eb3ca9ea3e0ddbf960e76afafdbde5368088d1213899c9dd839f402421007",
     "dna_raw": "bg_Orange#8.png|Mystic Aura#10.png|eyes_Gray#8.png|mouth#100.png|Spirit Guide#10.png|Goatee_Black#22.png|Dune Drifters#8.png|Spirit Guide#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1276.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcFyjYTNAub4cPoFgDsATp4N4fa3dKwpxy3h7NfYCe5Jt"
 }

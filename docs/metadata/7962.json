@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 7962,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7962.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcHyS8YeUTvbydUAradkwmB4pFn4Ldtzctmp2QWdyp4i7",
     "dna": "854e4328e12eb66a22a2e4c9711824fc2e1a1af12ebadfcf14a50c199cbb8e00",
     "dna_raw": "bg_Indigo#8.png|Potion Stained#10.png|eyes_Green#12.png|mouth#100.png|Mystic Seer#10.png|Goatee_Black#22.png|Taped Terra Frames#1.png|Mystic Seer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7962.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcHyS8YeUTvbydUAradkwmB4pFn4Ldtzctmp2QWdyp4i7"
 }

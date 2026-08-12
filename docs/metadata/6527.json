@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6527,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6527.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmX6icUMLjMPcETKfi8Ao2jNxZZg6C1x8q3ycAgik8gBuC",
     "dna": "43600f491f331fb1054280629eb4937cbcea54bc236b26763b3c1f1ce11b75cb",
     "dna_raw": "bg_Yellow#10.png|Vampiric#10.png|eyes_Blue#14.png|mouth#100.png|Blood Mage#10.png|Full_Beard_White_Gray#7.png|Divine Spectacles#8.png|Blood Mage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6527.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmX6icUMLjMPcETKfi8Ao2jNxZZg6C1x8q3ycAgik8gBuC"
 }

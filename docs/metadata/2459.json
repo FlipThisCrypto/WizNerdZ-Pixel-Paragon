@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 2459,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2459.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmSk1pNmvVgqEV2HcCpB8GbTijoUAR3pdGspq7qZ9JkMHW",
     "dna": "3fe4d9e2549985ac0464532d40da6a09b9a03a34868bf18efa61113955f777d6",
     "dna_raw": "bg_White#6.png|Glamour Tint#10.png|eyes_Amber#6.png|mouth#100.png|Arcane Mage#10.png|Medium_Rounded_Red_Orange#15.png|Glamour Glass#8.png|Arcane Mage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2459.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmSk1pNmvVgqEV2HcCpB8GbTijoUAR3pdGspq7qZ9JkMHW"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 4272,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4272.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmSn2o21vnCmSRuCocRtJCcFCKXQm4hN4NUgefVK8DsKnN",
     "dna": "1e000f942613cc4b13bfab7c065a45d2e585d7905c43149ad983e5d79ff1c9eb",
     "dna_raw": "bg_Silver#4.png|Radiant Pale#10.png|eyes_Green#12.png|mouth#100.png|Void Walker#10.png|Long_Rounded_Red_Orange#12.png|Taped Terra Frames#1.png|Void Walker#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4272.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmSn2o21vnCmSRuCocRtJCcFCKXQm4hN4NUgefVK8DsKnN"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 5358,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5358.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qma4K3nJFKLkTcoNJSWNZBcbbgc1tTEnRxVt6yN8mniVmp",
     "dna": "8183252ce1e0a236d6d09b0e4c63007b6ca3711ebb9b44529f4762f43a66f726",
     "dna_raw": "bg_Red.png|Mud Cracked#10.png|eyes_Green#12.png|mouth#100.png|Spirit Guide#10.png|Long_Rounded_Black#26.png|Abyssal Shades#8.png|Spirit Guide#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5358.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qma4K3nJFKLkTcoNJSWNZBcbbgc1tTEnRxVt6yN8mniVmp"
 }

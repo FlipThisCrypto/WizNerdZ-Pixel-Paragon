@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 4860,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4860.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmR3k91BpkNdyY3zJEyaLds5zBBBzYqB5GsH6h5oW6gbj9",
     "dna": "8dd82e7ab5e0fc0714d19b75bdef87fa20aef5e80a26cc0b927d7d62c2c247f5",
     "dna_raw": "bg_Red.png|Storm Grey#10.png|eyes_Hazel#10.png|mouth#100.png|Blood Mage#10.png|Long_Braid_Dark_Brown#13.png|Taped Magma Goggles#1.png|Blood Mage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4860.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmR3k91BpkNdyY3zJEyaLds5zBBBzYqB5GsH6h5oW6gbj9"
 }

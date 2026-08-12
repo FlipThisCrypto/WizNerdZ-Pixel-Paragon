@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 2003,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2003.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmbYKL4mNh4imH6bmtaVaki1LLfNA7ZdcTArZKe4NMJDr4",
     "dna": "47d824a0230e7bbff1c8a6ba2b2e7511c109adca2ae0fee097b8a667913c9a5b",
     "dna_raw": "bg_Pink#8.png|Void Touched#10.png|eyes_Amber#6.png|mouth#100.png|Mystic Seer#10.png|Long_Pointy_Blonde#12.png|Glamour Glass#8.png|Mystic Seer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2003.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmbYKL4mNh4imH6bmtaVaki1LLfNA7ZdcTArZKe4NMJDr4"
 }

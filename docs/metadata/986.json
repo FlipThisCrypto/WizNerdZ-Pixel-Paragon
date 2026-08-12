@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 986,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/986.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXst622P2nvtnSQDhqaX81MoWBk9jPGFEowKgxbLBCnxx",
     "dna": "8018e4f532d5ca3a8c67a4c641080d2d13594864ce825cd268d5b0b481f9b74f",
     "dna_raw": "bg_Orange#8.png|Radiant Pale#10.png|eyes_Light_Blue#8.png|mouth#100.png|Rune Keeper#10.png|Full_Beard_Dark_Brown#17.png|Taped Divine Spectacles#1.png|Rune Keeper#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/986.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXst622P2nvtnSQDhqaX81MoWBk9jPGFEowKgxbLBCnxx"
 }

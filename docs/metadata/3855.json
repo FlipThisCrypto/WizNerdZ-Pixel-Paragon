@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3855,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3855.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcGSACHB5EUrQbnUEuQkpDD7GcjqNJoVchJvqi7wosRN7",
     "dna": "5503f0d57c9f2731fea501a3e7bc17ff33b0bac01757240ba58bbc3b671f7a0f",
     "dna_raw": "bg_Blue#12.png|Rune Etched#10.png|eyes_Amber#6.png|mouth#100.png|Rune Keeper#10.png|Long_Rounded_Dark_Brown#23.png|Sanguine Sight#8.png|Rune Keeper#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3855.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcGSACHB5EUrQbnUEuQkpDD7GcjqNJoVchJvqi7wosRN7"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 5906,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5906.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcR2pT7wetmZH9ygvVnAKGTLqcfnUtqeAMBvCEVYSsAeW",
     "dna": "ce0f64fa7e3f321be906c48e6356fcfcda5d6c43ef3a95923c5fea39a59e10b7",
     "dna_raw": "bg_White#6.png|Radiant Pale#10.png|eyes_Gray#8.png|mouth#100.png|Cryomancer#10.png|Goatee_Blonde#12.png|Potion Masters#8.png|Cryomancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5906.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcR2pT7wetmZH9ygvVnAKGTLqcfnUtqeAMBvCEVYSsAeW"
 }

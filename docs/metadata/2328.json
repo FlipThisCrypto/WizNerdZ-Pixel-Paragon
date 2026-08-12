@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 2328,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2328.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmSBCUoEnJM5s3PnuZoDJgjYKEnNozKXGJ3anF3Rjh2PE4",
     "dna": "30b04f4482d17499d7a09bddeb751fc37c0fed6ea59c227374dd048faefa1047",
     "dna_raw": "bg_Red.png|Vampiric#10.png|eyes_Blue#14.png|mouth#100.png|Storm Caller#10.png|Chin_Strap_Black#11.png|Fel Oculars#8.png|Storm Caller#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2328.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmSBCUoEnJM5s3PnuZoDJgjYKEnNozKXGJ3anF3Rjh2PE4"
 }

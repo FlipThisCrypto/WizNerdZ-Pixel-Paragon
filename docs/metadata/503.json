@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 503,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/503.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmZyWXDYCvjxvZHr739ZMA9LzC5LXDUnPZXSbqjE8sVwEN",
     "dna": "83945f15537390a11489113d8324ebe5f02cb5a3273c5fef272d023f1fd33456",
     "dna_raw": "bg_Violet#8.png|Exsanguinated#10.png|eyes_Amber#6.png|mouth#100.png|Mystic Seer#10.png|Long_Braid_Black#15.png|Sanguine Sight#8.png|Mystic Seer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/503.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmZyWXDYCvjxvZHr739ZMA9LzC5LXDUnPZXSbqjE8sVwEN"
 }

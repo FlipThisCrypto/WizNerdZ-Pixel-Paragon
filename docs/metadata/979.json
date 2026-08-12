@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 979,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/979.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmdELmbfarmmrgQUxG3mvXtmCTirEZZ1Jva1MdGYZEuSnX",
     "dna": "0c96670a97875227a9299b9cfb9d3404f662a9df370262dc23be0dba44d8501b",
     "dna_raw": "bg_Indigo#8.png|Frostbitten#10.png|eyes_Hazel#10.png|mouth#100.png|Shadow Priest#10.png|Medium_Rounded_White_Gray#12.png|Taped Frost Sight#1.png|Shadow Priest#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/979.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmdELmbfarmmrgQUxG3mvXtmCTirEZZ1Jva1MdGYZEuSnX"
 }

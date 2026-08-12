@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3078,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3078.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmVkJv8MDe9v7wFwzU9u8QNtoBigtcXo8Yoip7hfNfNvdo",
     "dna": "bb159144bf8e20717fa2f7f4721fdbda195d8a1ad6db32f66dc18dcac0d856b0",
     "dna_raw": "bg_Yellow#10.png|Fel Corrupted#10.png|eyes_Gray#8.png|mouth#100.png|Illusionist#10.png|Full_Beard_Blonde#10.png|Taped Potion Masters#1.png|Illusionist#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3078.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmVkJv8MDe9v7wFwzU9u8QNtoBigtcXo8Yoip7hfNfNvdo"
 }

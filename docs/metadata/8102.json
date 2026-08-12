@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 8102,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8102.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWFqL72b8oQ7C4VgLPo68teAXmDRqPygr5cQn6gwyCMkH",
     "dna": "79f8053f3e97bec9ba44263efb9e942cd8df09c96fc2455cf017ed8631f2ba59",
     "dna_raw": "bg_Gray#6.png|Chaos Warped#10.png|eyes_Gray#8.png|mouth#100.png|Spirit Guide#10.png|Long_Rounded_Brown#21.png|Taped Oracle Orbs#1.png|Spirit Guide#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8102.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWFqL72b8oQ7C4VgLPo68teAXmDRqPygr5cQn6gwyCMkH"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 4790,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4790.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmbhgLjAZqGirW9jR68YU6iDjBKhQEZbBtWSyyWrZ432QM",
     "dna": "d875b01e0da742f0cc2188468e63f8c29d1437af01d0ecdc1745628c638842a1",
     "dna_raw": "bg_Black#5.png|Desiccated#10.png|eyes_Amber#6.png|mouth#100.png|Chronomancer#10.png|Medium_Rounded_Dark_Brown#30.png|Fel Oculars#8.png|Chronomancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4790.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmbhgLjAZqGirW9jR68YU6iDjBKhQEZbBtWSyyWrZ432QM"
 }

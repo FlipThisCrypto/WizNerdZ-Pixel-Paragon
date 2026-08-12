@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6965,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6965.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmbW1fNPTsfk3VAbKNJGuRG6urHrZEwY5sVFh4kxeJ73fJ",
     "dna": "9d1790f6e25a7f4e990d59174e7c5dbebfe45d5cde9a2b19b5362d11da3937ff",
     "dna_raw": "bg_Yellow#10.png|Radiant Pale#10.png|eyes_Gray#8.png|mouth#100.png|Vampire Lord#10.png|Goatee_Black#22.png|Magma Goggles#8.png|Vampire Lord#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6965.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmbW1fNPTsfk3VAbKNJGuRG6urHrZEwY5sVFh4kxeJ73fJ"
 }

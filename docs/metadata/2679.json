@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 2679,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2679.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmZyP59wgb9EdrsZvWrf4rRcrRiVin1B6hx3UfUtsuMc7H",
     "dna": "7ba045543721db2042282e6c9c793eb95ef1636c67ad4c10ea00703d72ae61b7",
     "dna_raw": "bg_Pink#8.png|Fel Corrupted#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Chaos Weaver#10.png|Medium_Rounded_White_Gray#12.png|Sigil Scanners#8.png|Chaos Weaver#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2679.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmZyP59wgb9EdrsZvWrf4rRcrRiVin1B6hx3UfUtsuMc7H"
 }

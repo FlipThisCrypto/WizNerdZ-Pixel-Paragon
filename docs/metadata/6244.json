@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6244,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6244.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmYivGWUx81j4oBAaFAbk1DvmEQeFanLGuVy7TV3zY6NaV",
     "dna": "7b44b5174791cb174e7e146b57da462133c27a5a11c5a727dd5d427b70da0fb3",
     "dna_raw": "bg_Green#10.png|Shadow Form#10.png|eyes_Green#12.png|mouth#100.png|Chronomancer#10.png|Long_Braid_Brown#12.png|Potion Masters#8.png|Chronomancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6244.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmYivGWUx81j4oBAaFAbk1DvmEQeFanLGuVy7TV3zY6NaV"
 }

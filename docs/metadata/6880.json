@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6880,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6880.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmQbhJqxtzg3AGiT7fo8aCdGBfeVT7ogvRbaY5kyjqu3ua",
     "dna": "cc2e757c45329aca85542996f0d2a0a3d2501d3bd999a63a5137b9e55ae6ffa8",
     "dna_raw": "bg_Teal#8.png|Ghostly#10.png|eyes_Light_Blue#8.png|mouth#100.png|Arcane Mage#10.png|Long_Braid_Dark_Brown#13.png|Taped Trench Scopes#1.png|Arcane Mage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6880.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmQbhJqxtzg3AGiT7fo8aCdGBfeVT7ogvRbaY5kyjqu3ua"
 }

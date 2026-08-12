@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 1928,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1928.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmZ4vqQpSSojG3BayB91SLGLcA9Hw5tAsdZPLEyjM2nSDj",
     "dna": "14c10966ae7bf1fef3d2c8451a499771d2a10ab09e8fb34e388ea6de206ebaf5",
     "dna_raw": "bg_Indigo#8.png|Bark Skin#10.png|eyes_Amber#6.png|mouth#100.png|Necromancer#10.png|Chin_Strap_Red_Orange#5.png|Elder Keepers#8.png|Necromancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1928.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmZ4vqQpSSojG3BayB91SLGLcA9Hw5tAsdZPLEyjM2nSDj"
 }

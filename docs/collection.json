@@ -1,6 +1,7 @@
 {
   "name": "WizNerdz",
-  "id": "wiznerdz-chia-gen1",
+  "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
+  "legacy_id": "wiznerdz-chia-gen1",
   "description": "WizNerdz is an 8,888 piece generative pixel collection on the Chia blockchain. Each WizNerd is uniquely assembled from curated trait layers with class-matched robes and wizard hats.",
   "format": "CHIP-0007",
   "series_total": 8888,

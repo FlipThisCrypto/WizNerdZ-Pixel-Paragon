@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 903,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/903.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmSCNYpdm1kjVyWXtB6EnGrhVTud1j9mqEDYnGrGLwfHE5",
     "dna": "121665a1720d16d7e19a1211d4a815603e55642232b3473f40aa148c6c14b112",
     "dna_raw": "bg_Indigo#8.png|Glamour Tint#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Storm Caller#10.png|Long_Braid_Black#15.png|Abyssal Shades#8.png|Storm Caller#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/903.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmSCNYpdm1kjVyWXtB6EnGrhVTud1j9mqEDYnGrGLwfHE5"
 }

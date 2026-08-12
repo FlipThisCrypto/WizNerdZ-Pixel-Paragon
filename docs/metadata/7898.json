@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 7898,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7898.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWquLyyk6nAyqJFu2kmMWr2XRWNMB2Be6UirYvnBnDu5Z",
     "dna": "b3d7a762154f89e2d466edf2eccc4a3cf475d2c48370649ee91bb3310ea72b08",
     "dna_raw": "bg_Pink#8.png|Mana Veined#10.png|eyes_Gray#8.png|mouth#100.png|Mystic Seer#10.png|Long_Braid_Blonde#8.png|Taped Astral Focus#1.png|Mystic Seer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7898.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWquLyyk6nAyqJFu2kmMWr2XRWNMB2Be6UirYvnBnDu5Z"
 }

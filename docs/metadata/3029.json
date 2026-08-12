@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3029,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3029.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmShK2HwnTT8WeK4PbsHKeTQqe75cy2L1y2uK1NKEWUS4d",
     "dna": "44c470d555c2f65efbbb5f20a71f8ee61cfadd26221f3d047b43e5ce904048d5",
     "dna_raw": "bg_Orange#8.png|Mud Cracked#10.png|eyes_Light_Brown#8.png|mouth#100.png|Deep Sea#10.png|Goatee_Black#22.png|Frost Sight#8.png|Deep Sea#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3029.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmShK2HwnTT8WeK4PbsHKeTQqe75cy2L1y2uK1NKEWUS4d"
 }

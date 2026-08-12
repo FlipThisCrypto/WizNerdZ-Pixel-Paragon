@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6794,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6794.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTYD4a9VE9KsrsqL5p7BrjH7tZFMFh8CZ6nwbQ33LSUKJ",
     "dna": "00e933c4fe03c843f52d8775e37c5fa0b24bd2c785d07b840f199a5c0ae41a31",
     "dna_raw": "bg_Teal#8.png|Potion Stained#10.png|eyes_Blue#14.png|mouth#100.png|Rune Keeper#10.png|Chin_Strap_Red_Orange#5.png|Glamour Glass#8.png|Rune Keeper#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6794.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTYD4a9VE9KsrsqL5p7BrjH7tZFMFh8CZ6nwbQ33LSUKJ"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 4897,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4897.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTxnHexQN9NPBtWVRj8T1q9TcE5Dyh9YjrumZ2V8SZ8F9",
     "dna": "bc9b1a67b3848e69326d2a2c7c22e61700e967a4df1b27f57442951c56cc1494",
     "dna_raw": "bg_Silver#4.png|Frostbitten#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Storm Caller#10.png|Goatee_Blonde#12.png|Fel Oculars#8.png|Storm Caller#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4897.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTxnHexQN9NPBtWVRj8T1q9TcE5Dyh9YjrumZ2V8SZ8F9"
 }

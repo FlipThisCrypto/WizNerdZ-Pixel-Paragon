@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 8133,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8133.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcyHnL7pBqrBYF8PEQRsxrvtrDPqHJ4d1dj2gmca3bJvr",
     "dna": "22bdb109dce27e4ce1b675163a6762c7b321a4d25ceb3fb1e629c8527994451a",
     "dna_raw": "bg_Teal#8.png|Void Touched#10.png|eyes_Green#12.png|mouth#100.png|Earth Shaman#10.png|Full_Beard_Dark_Brown#17.png|Tempest Visors#8.png|Earth Shaman#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8133.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcyHnL7pBqrBYF8PEQRsxrvtrDPqHJ4d1dj2gmca3bJvr"
 }

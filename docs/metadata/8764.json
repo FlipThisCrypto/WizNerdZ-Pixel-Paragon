@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 8764,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8764.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmQwVWu7t5fWAri4Gmf9BLQJwTgp8fcXh3e8EaxVK7mXfV",
     "dna": "bb7586c3a673407019ca8803885ed310bc8eaf475c5c89f270d6641fe88133c7",
     "dna_raw": "bg_Pink#8.png|Rotten Flesh#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Sand Sage#10.png|Long_Braid_Dark_Brown#13.png|Frost Sight#8.png|Sand Sage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8764.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmQwVWu7t5fWAri4Gmf9BLQJwTgp8fcXh3e8EaxVK7mXfV"
 }

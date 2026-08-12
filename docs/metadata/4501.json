@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 4501,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4501.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmPLV2nKu2nMzj72bzueVSTHfeqmW8WAz9aagdXb5xamR7",
     "dna": "86f502155cf57cb70d82d57cdedfb0c7ed84dba66019dd6f475b450cf2a0e3ae",
     "dna_raw": "bg_Gray#6.png|Ghostly#10.png|eyes_Amber#6.png|mouth#100.png|Illusionist#10.png|Full_Beard_Black#18.png|Magma Goggles#8.png|Illusionist#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4501.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmPLV2nKu2nMzj72bzueVSTHfeqmW8WAz9aagdXb5xamR7"
 }

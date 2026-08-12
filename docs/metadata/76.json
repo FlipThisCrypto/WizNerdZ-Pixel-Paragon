@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 76,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/76.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmU93FwWs25fk4GHPT9SKecDMLFKd7P5kEKWJx5UaEVw9k",
     "dna": "f6ab9d72015671c976cd99194bfa2f5ee0bcd8c54b35f74e68b418840f5842ad",
     "dna_raw": "bg_Pink#8.png|Sands of Time#10.png|eyes_Hazel#10.png|mouth#100.png|Alchemist#10.png|Medium_Rounded_Blonde#18.png|Mystic Gaze#8.png|Alchemist#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/76.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmU93FwWs25fk4GHPT9SKecDMLFKd7P5kEKWJx5UaEVw9k"
 }

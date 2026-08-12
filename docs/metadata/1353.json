@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 1353,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1353.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmUxiaCSLibVEvfpiB5u5kNE5BFhXQ2Zg7kDdTETwRj3Sm",
     "dna": "4a422b4e0cd2e33e31c23c14e079095ff9c6be027013fcff985debfa23fc0d59",
     "dna_raw": "bg_Gray#6.png|Celestial Blue#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Necromancer#10.png|Full_Beard_White_Gray#7.png|Ethereal Visions#8.png|Necromancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1353.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmUxiaCSLibVEvfpiB5u5kNE5BFhXQ2Zg7kDdTETwRj3Sm"
 }

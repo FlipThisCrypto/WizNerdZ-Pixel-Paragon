@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6232,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6232.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qmf8p5MUYsLxvWZBRDJA8F3W3PWz5XK3uwan6xmYEPAVbF",
     "dna": "6ad65e914ca9504838e70762a4fe90e2fe8c60d7c0dbc8a9c0ffe095af5c40f9",
     "dna_raw": "bg_Yellow#10.png|Void Touched#10.png|eyes_Light_Blue#8.png|mouth#100.png|Blood Mage#10.png|Long_Pointy_Blonde#12.png|Frost Sight#8.png|Blood Mage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6232.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qmf8p5MUYsLxvWZBRDJA8F3W3PWz5XK3uwan6xmYEPAVbF"
 }

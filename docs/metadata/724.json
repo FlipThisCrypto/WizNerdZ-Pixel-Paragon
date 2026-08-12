@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 724,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/724.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWEmtKKvC88addDe7TiRmSBLjLdN5YBf8SovHgC4j7nmL",
     "dna": "c7eb8517d5387eb0097825eb2712028b99c6123a35dce36c246d17c41a131f83",
     "dna_raw": "bg_Blue#12.png|Charred Ash#10.png|eyes_Amber#6.png|mouth#100.png|Necromancer#10.png|Long_Braid_Black#15.png|Fel Oculars#8.png|Necromancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/724.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWEmtKKvC88addDe7TiRmSBLjLdN5YBf8SovHgC4j7nmL"
 }

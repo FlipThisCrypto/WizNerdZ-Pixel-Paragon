@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 2816,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2816.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmPcCLV5DwnWub4tFz5BjM3YJYnhA51PwSf7vgkZQ7VzV8",
     "dna": "353665463d106fc6a9158e4401381c4344c0868b5d0012025c53e5b11309b50a",
     "dna_raw": "bg_Blue#12.png|Storm Grey#10.png|eyes_Light_Brown#8.png|mouth#100.png|Pyromancer#10.png|Long_Braid_Black#15.png|Potion Masters#8.png|Pyromancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2816.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmPcCLV5DwnWub4tFz5BjM3YJYnhA51PwSf7vgkZQ7VzV8"
 }

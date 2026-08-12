@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6478,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6478.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmUnbvimRWVFf5jyLHzJaueGANrZekFTGkfUJCEB9bEQyH",
     "dna": "ac7f2620d8cbba9f9d145c2edf2ce6d3a365bce8a96a1b02036971a039dae030",
     "dna_raw": "bg_Brown#4.png|Potion Stained#10.png|eyes_Light_Brown#8.png|mouth#100.png|Alchemist#10.png|Goatee_Brown#18.png|Tempest Visors#8.png|Alchemist#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6478.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmUnbvimRWVFf5jyLHzJaueGANrZekFTGkfUJCEB9bEQyH"
 }

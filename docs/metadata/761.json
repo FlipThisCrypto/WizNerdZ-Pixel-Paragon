@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 761,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/761.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTsBc48vkbUGb22rVfC6mc8ZtTXz1Ugq4LCXMn6Gxei2b",
     "dna": "246b4574fdea6aba6bb38a9a92cd718fc31924b22a982d04be7a29709ba41d11",
     "dna_raw": "bg_Gray#6.png|Potion Stained#10.png|eyes_Light_Blue#8.png|mouth#100.png|Rune Keeper#10.png|Long_Braid_Blonde#8.png|Epoch Eyes#8.png|Rune Keeper#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/761.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTsBc48vkbUGb22rVfC6mc8ZtTXz1Ugq4LCXMn6Gxei2b"
 }

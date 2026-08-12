@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 8505,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8505.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmVvqcKswsfXTuEVuWATCXcBRdo7uiXNaBZ2pXCzCM4iGB",
     "dna": "9be5fed2a10f4470bd2d6c946ef2f50c9cf019dd1270fa0d313227f044447d66",
     "dna_raw": "bg_Orange#8.png|Frostbitten#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Chronomancer#10.png|Medium_Rounded_Red_Orange#15.png|Ethereal Visions#8.png|Chronomancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8505.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmVvqcKswsfXTuEVuWATCXcBRdo7uiXNaBZ2pXCzCM4iGB"
 }

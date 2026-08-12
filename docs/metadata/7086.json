@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 7086,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7086.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmS6WT6us4c6N4A1ipWBtaprQqHEysYZsu2CB2k9hWRVE4",
     "dna": "ca526c582fd7865e3f3a68ddf9ceff48aebffd0090953459be9daee5a7f39381",
     "dna_raw": "bg_Blue#12.png|Storm Grey#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Arcane Mage#10.png|Chin_Strap_Dark_Brown#10.png|Sanguine Sight#8.png|Arcane Mage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7086.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmS6WT6us4c6N4A1ipWBtaprQqHEysYZsu2CB2k9hWRVE4"
 }

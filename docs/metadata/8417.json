@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 8417,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8417.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmabrNQE9FWCdt5gbV8pWRMt4G4a1gU2TdK6YHN7z6FS1o",
     "dna": "484ae955764e05a6ed7149049b434d1409e41e76a4f729df697d23bea25a0d72",
     "dna_raw": "bg_Pink#8.png|Potion Stained#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Arcane Mage#10.png|Medium_Rounded_Black#33.png|Potion Masters#8.png|Arcane Mage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8417.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmabrNQE9FWCdt5gbV8pWRMt4G4a1gU2TdK6YHN7z6FS1o"
 }

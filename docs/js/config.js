@@ -8,7 +8,8 @@
 window.WIZNERDZ_CONFIG = Object.freeze({
   collection: {
     name: "WizNerdZ Pixel Paragon",
-    id: "wiznerdz-chia-gen1",
+    id: "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
+    legacyId: "wiznerdz-chia-gen1",
     seriesTotal: 8888,
     website: "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/",
     twitter: "https://x.com/FiendStudios",

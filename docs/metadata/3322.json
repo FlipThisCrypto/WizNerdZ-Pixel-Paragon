@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3322,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3322.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmdjYWQcSKoLKaKqXBLQNJJxV7m7JxobaF5wP4vkQresLk",
     "dna": "cc817342ea36af80eb11c6bd9df5fe6b08799edfb63475e16bf14fdc9addb3a8",
     "dna_raw": "bg_Indigo#8.png|Rune Etched#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Illusionist#10.png|Full_Beard_Blonde#10.png|Entropy Shades#8.png|Illusionist#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3322.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmdjYWQcSKoLKaKqXBLQNJJxV7m7JxobaF5wP4vkQresLk"
 }

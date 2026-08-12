@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 8804,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8804.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qmf55DFrMKkhmQZbt4f5YmbcVm9hSzf7j3VnVP7TMXF6Fv",
     "dna": "2b870a7500a35470b12cbde4bf029b4a461d68070be6c3fc6fcc0578e2735c8c",
     "dna_raw": "bg_Teal#8.png|Chaos Warped#10.png|eyes_Medium_Brown#10.png|mouth#100.png|High Sorcerer#10.png|Goatee_Black#22.png|Elder Keepers#8.png|High Sorcerer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8804.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qmf55DFrMKkhmQZbt4f5YmbcVm9hSzf7j3VnVP7TMXF6Fv"
 }

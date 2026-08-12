@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 2102,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2102.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmU5nSenqjVJj2CZ1gXyq237noXq5pxwM7fYYt4sKAT3nm",
     "dna": "1041060414ef1306c99b1c8014f4e253c2210aca35943fe87f39e3cc55c7a6fc",
     "dna_raw": "bg_White#6.png|Bark Skin#10.png|eyes_Amber#6.png|mouth#100.png|Deep Sea#10.png|Medium_Rounded_Brown#27.png|Potion Masters#8.png|Deep Sea#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2102.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmU5nSenqjVJj2CZ1gXyq237noXq5pxwM7fYYt4sKAT3nm"
 }

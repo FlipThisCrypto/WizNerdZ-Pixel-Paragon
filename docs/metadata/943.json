@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 943,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/943.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWNfLgoNgSoqe2AxU2zZ4zdrHkWSU9P4y51PpC2P4z3UJ",
     "dna": "5ad7c5400e07ffc028bf69e16a67e127e9b6e5fd59d6eaccf1e9097161a4faf1",
     "dna_raw": "bg_Yellow#10.png|Shadow Form#10.png|eyes_Light_Brown#8.png|mouth#100.png|High Sorcerer#10.png|Full_Beard_Dark_Brown#17.png|Taped Fel Oculars#1.png|High Sorcerer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/943.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWNfLgoNgSoqe2AxU2zZ4zdrHkWSU9P4y51PpC2P4z3UJ"
 }

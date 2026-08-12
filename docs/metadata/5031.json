@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 5031,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5031.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcMhiA1VtkXAqv5MWF5A1cWapnkFc36midMB79C7j7E4m",
     "dna": "093813a5013616f9b9b9ceca86c6eadb71ebc392a4ae562ae751e5797a45f46e",
     "dna_raw": "bg_Black#5.png|Void Touched#10.png|eyes_Hazel#10.png|mouth#100.png|Chaos Weaver#10.png|Medium_Rounded_Blonde#18.png|Potion Masters#8.png|Chaos Weaver#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5031.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcMhiA1VtkXAqv5MWF5A1cWapnkFc36midMB79C7j7E4m"
 }

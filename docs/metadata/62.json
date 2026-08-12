@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 62,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/62.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmURTqghmqFWG9gf32rULLPcEPXtR18tb86pQsCY9KZK15",
     "dna": "a80e431d142c4edcf9a088e15d2388b8606069885b0f68f66e6553498e5f8952",
     "dna_raw": "bg_Green#10.png|Drowned#10.png|eyes_Gray#8.png|mouth#100.png|Pyromancer#10.png|Medium_Rounded_Black#33.png|Divine Spectacles#8.png|Pyromancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/62.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmURTqghmqFWG9gf32rULLPcEPXtR18tb86pQsCY9KZK15"
 }

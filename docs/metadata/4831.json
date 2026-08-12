@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 4831,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4831.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qmc9UjR3Q7QQLLgKx9UcWJ4DN6aTgjWip4rbTWrBkQaJtV",
     "dna": "b942e6e8ac7a1d2ecee5477b63537a0368e5b33d9862ff1f4518a94eb3ef540f",
     "dna_raw": "bg_Red.png|Storm Grey#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Druid#10.png|Medium_Rounded_Dark_Brown#30.png|Tempest Visors#8.png|Druid#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4831.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qmc9UjR3Q7QQLLgKx9UcWJ4DN6aTgjWip4rbTWrBkQaJtV"
 }

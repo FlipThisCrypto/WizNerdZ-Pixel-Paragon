@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 1908,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1908.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmNg1zLk6sV9FCkTkKnSQBoDAYhD1i2j98jWaCmWwMPUzK",
     "dna": "ef6d7b91fba37f5c582af9fad83e50e1725e846c6f78545cb18cf35708ae0cbb",
     "dna_raw": "bg_Black#5.png|Mystic Aura#10.png|eyes_Green#12.png|mouth#100.png|Druid#10.png|Long_Rounded_Dark_Brown#23.png|Fel Oculars#8.png|Druid#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1908.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmNg1zLk6sV9FCkTkKnSQBoDAYhD1i2j98jWaCmWwMPUzK"
 }

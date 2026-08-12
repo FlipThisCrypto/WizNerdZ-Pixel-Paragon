@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 5686,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5686.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qmd3uJa4C4JAWTgSBoje7CyUy7HuCTe1KGa5nKG5EtL2ik",
     "dna": "c575f9bfa5c10b528ec94109c13cd7ed2eb0d59e3fb278e11c57cfcb4282c39e",
     "dna_raw": "bg_Violet#8.png|Void Touched#10.png|eyes_Gray#8.png|mouth#100.png|Druid#10.png|Medium_Rounded_Black#33.png|Glamour Glass#8.png|Druid#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5686.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qmd3uJa4C4JAWTgSBoje7CyUy7HuCTe1KGa5nKG5EtL2ik"
 }

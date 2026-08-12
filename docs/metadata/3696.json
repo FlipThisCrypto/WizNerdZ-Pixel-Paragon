@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3696,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3696.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmNjZFJXedYCf8Z754ChYmBZarhMYYdHSr9B15DiAyAuRa",
     "dna": "a1fc3a9d78a7a01e6cc74fe29370d27f5299fb78c1e24342875475a8c00c5313",
     "dna_raw": "bg_White#6.png|Shadow Form#10.png|eyes_Amber#6.png|mouth#100.png|Alchemist#10.png|Full_Beard_Dark_Brown#17.png|Mystic Gaze#8.png|Alchemist#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3696.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmNjZFJXedYCf8Z754ChYmBZarhMYYdHSr9B15DiAyAuRa"
 }

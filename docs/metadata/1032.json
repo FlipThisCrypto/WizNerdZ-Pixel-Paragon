@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 1032,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1032.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTJrHSyvwqAJ4P33tJaYixXn7E1mAPXtv3BZq7dJGYJqv",
     "dna": "2ef2ed842433700372a91c39e9a7bcf957783855b1327fb6fe06026a988f445c",
     "dna_raw": "bg_Red.png|Frostbitten#10.png|eyes_Amber#6.png|mouth#100.png|Necromancer#10.png|Goatee_Dark_Brown#20.png|Epoch Eyes#8.png|Necromancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1032.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmTJrHSyvwqAJ4P33tJaYixXn7E1mAPXtv3BZq7dJGYJqv"
 }

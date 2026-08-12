@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6182,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6182.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmaNWvgeg4eH7RsmYL4HyC5HLMK3jj8SV38g89zeTxWiba",
     "dna": "b22b37f03e99e1dfabc4a28dc83470bd279a23d3961e0e4fab5469686ccdd252",
     "dna_raw": "bg_Green#10.png|Charred Ash#10.png|eyes_Blue#14.png|mouth#100.png|Blood Mage#10.png|Medium_Rounded_Dark_Brown#30.png|Tempest Visors#8.png|Blood Mage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6182.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmaNWvgeg4eH7RsmYL4HyC5HLMK3jj8SV38g89zeTxWiba"
 }

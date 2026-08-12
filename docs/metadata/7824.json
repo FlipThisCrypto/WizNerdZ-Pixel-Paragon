@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 7824,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7824.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmQgw7ED6gE59CkF2mAYSyh6cxaCUEMEL4RERh5xKVL98p",
     "dna": "9eef121f4b5075ecd31ef0485c53efe7f84951673adb3e0edc4b4f51b5cd3e84",
     "dna_raw": "bg_Violet#8.png|Rotten Flesh#10.png|eyes_Gray#8.png|mouth#100.png|Spirit Guide#10.png|Medium_Rounded_Brown#27.png|Magma Goggles#8.png|Spirit Guide#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7824.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmQgw7ED6gE59CkF2mAYSyh6cxaCUEMEL4RERh5xKVL98p"
 }

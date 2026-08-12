@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -103,7 +111,7 @@
   "series_number": 4929,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4929.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmQKMEBScbWgZQqFx2fCn49SCjETiQaieWkLUARx42ZW6G",
     "dna": "6d9db639def768ff027cab1ee04fdb78154e5c40e10620922d31570b85370c66",
     "dna_raw": "bg_Teal#8.png|Charred Ash#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Pyromancer#10.png|Chin_Strap_Brown#9.png|Magma Goggles#8.png|Pyromancer#10.png",
     "canvas": "640x640",
@@ -127,5 +135,5 @@
     "rarity_rank_numeric": 0,
     "rarity_pool": "1of1"
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/4929.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmQKMEBScbWgZQqFx2fCn49SCjETiQaieWkLUARx42ZW6G"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 2967,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2967.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmYv5B1ZzKvoW5ULVsW7w3ideLWS46C6PkoWNA1NECKVJv",
     "dna": "63e573a50a1ba26b36c98f299a4ac230f0bdd8969dfc0195ac77088025e93a62",
     "dna_raw": "bg_Gray#6.png|Glamour Tint#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Warlock Fel#10.png|Medium_Rounded_Blonde#18.png|Dune Drifters#8.png|Warlock Fel#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2967.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmYv5B1ZzKvoW5ULVsW7w3ideLWS46C6PkoWNA1NECKVJv"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 5770,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5770.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcdJDTdrPgZvDVVmb5GgyNNmvDrrrvaH4VeEu8ojkGD95",
     "dna": "df79da9441fe2a0bdf57cba648dc3a6569370490b8349af78999877cfd7a6409",
     "dna_raw": "bg_Pink#8.png|Fel Corrupted#10.png|eyes_Blue#14.png|mouth#100.png|Alchemist#10.png|Chin_Strap_Dark_Brown#10.png|Potion Masters#8.png|Alchemist#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/5770.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcdJDTdrPgZvDVVmb5GgyNNmvDrrrvaH4VeEu8ojkGD95"
 }

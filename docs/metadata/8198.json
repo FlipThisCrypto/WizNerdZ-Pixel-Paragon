@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 8198,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8198.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXi9SYJpzbHL49Dbe2rTXhhaCpxV2LXooSkf5e76inUtA",
     "dna": "b942868cc2594ba9428eca0e72a55c2f10e849256b70680741728b42993a7467",
     "dna_raw": "bg_Violet#8.png|Void Touched#10.png|eyes_Gray#8.png|mouth#100.png|Alchemist#10.png|Long_Rounded_Blonde#14.png|Ethereal Visions#8.png|Alchemist#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8198.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXi9SYJpzbHL49Dbe2rTXhhaCpxV2LXooSkf5e76inUtA"
 }

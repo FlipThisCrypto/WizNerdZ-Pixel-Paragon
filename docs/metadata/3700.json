@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3700,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3700.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWdNwtk6ukgTCrTTdh47GLnNJjQwenPnRKBX8pXRwLP7W",
     "dna": "41a0eed0eb96bc2959d3e585b56ff7a4fe696374c58164e4939027b1e8295cf7",
     "dna_raw": "bg_White#6.png|Mystic Aura#10.png|eyes_Light_Brown#8.png|mouth#100.png|Warlock Fel#10.png|Medium_Rounded_Blonde#18.png|Mystic Gaze#8.png|Warlock Fel#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3700.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWdNwtk6ukgTCrTTdh47GLnNJjQwenPnRKBX8pXRwLP7W"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 984,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/984.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmZSJpmmLfVsUBfKHzg8fNPRWXCJC1HQ8WvGvhetC8dSRm",
     "dna": "8f5682ac7e6357d78ed7b0e73395076773eb56a4e6f06322ee9bc41c761ca07e",
     "dna_raw": "bg_Yellow#10.png|Frostbitten#10.png|eyes_Green#12.png|mouth#100.png|Arcane Mage#10.png|Goatee_Blonde#12.png|Terra Frames#8.png|Arcane Mage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/984.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmZSJpmmLfVsUBfKHzg8fNPRWXCJC1HQ8WvGvhetC8dSRm"
 }

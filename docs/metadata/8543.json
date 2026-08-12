@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 8543,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8543.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmbMwKtBKe6BkFJtbzrcZNrdJweuFNQeK3VK291G7dw7zh",
     "dna": "6f9e94b7d767c246b60ba1eef98b19f63f10ef1c0153f6a39e5668c786b4267c",
     "dna_raw": "bg_Pink#8.png|Frostbitten#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Cleric Light#10.png|Long_Braid_Dark_Brown#13.png|Taped Oracle Orbs#1.png|Cleric Light#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8543.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmbMwKtBKe6BkFJtbzrcZNrdJweuFNQeK3VK291G7dw7zh"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3000,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3000.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWsXku1BBibvuiWQ8mLevxnx672xk5SQKXk16sLh2pWMm",
     "dna": "8048ab242ab3a95998984882e7df8089882cbdac92bc5a0445eaf95a8e29e03b",
     "dna_raw": "bg_Gray#6.png|Void Touched#10.png|eyes_Amber#6.png|mouth#100.png|Vampire Lord#10.png|Full_Beard_Blonde#10.png|Astral Focus#8.png|Vampire Lord#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3000.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmWsXku1BBibvuiWQ8mLevxnx672xk5SQKXk16sLh2pWMm"
 }

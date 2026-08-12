@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -103,7 +111,7 @@
   "series_number": 1090,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1090.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmX3V1iAtvzyoRtU9sDyDVHGgW8rbEDoe1pqRTE9ybquaa",
     "dna": "699f71f21f2274c59539343dd63ea17e3f78112221f7df99d290282f5b7f2ba1",
     "dna_raw": "bg_Green#10.png|Mystic Aura#10.png|eyes_Light_Brown#8.png|mouth#100.png|Blood Mage#10.png|Long_Pointy_Dark_Brown#20.png|Glamour Glass#8.png|Blood Mage#10.png",
     "canvas": "640x640",
@@ -127,5 +135,5 @@
     "rarity_rank_numeric": 0,
     "rarity_pool": "1of1"
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1090.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmX3V1iAtvzyoRtU9sDyDVHGgW8rbEDoe1pqRTE9ybquaa"
 }

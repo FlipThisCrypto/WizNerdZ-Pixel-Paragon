@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 670,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/670.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmNccN8v3yQykL2R426F9YDjg7DFTUc1WPypQ3y5aYvQQ6",
     "dna": "7e6f395115bcad5fd54a48597e05ac049fecc4a489fcf5c78aa2a1152747c231",
     "dna_raw": "bg_Blue#12.png|Rotten Flesh#10.png|eyes_Medium_Brown#10.png|mouth#100.png|Deep Sea#10.png|Goatee_Black#22.png|Taped Astral Focus#1.png|Deep Sea#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/670.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmNccN8v3yQykL2R426F9YDjg7DFTUc1WPypQ3y5aYvQQ6"
 }

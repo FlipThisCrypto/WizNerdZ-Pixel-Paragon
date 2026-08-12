@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 8202,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8202.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmRfeZ8zSsRGngTp8bMfBoC6dqCC2ZzNrZ2mrsRUAtLYUi",
     "dna": "427cb0242fe354dafdce6e7d02f5a7f3d1b3bfe91ac29689b2039e324d444892",
     "dna_raw": "bg_White#6.png|Ghostly#10.png|eyes_Hazel#10.png|mouth#100.png|Necromancer#10.png|Full_Beard_Red_Orange#8.png|Frost Sight#8.png|Necromancer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/8202.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmRfeZ8zSsRGngTp8bMfBoC6dqCC2ZzNrZ2mrsRUAtLYUi"
 }

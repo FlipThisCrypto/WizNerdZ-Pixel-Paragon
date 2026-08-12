@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -103,7 +111,7 @@
   "series_number": 6632,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6632.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmVfZnK5C5p3jvgth3DK4Rj9Sg8AfnMb6QzY2H6nPCnM9U",
     "dna": "f093f0f3eda769ae920451b80bdeebf76bc8ea7d960db96c18e80eabc3dbe58b",
     "dna_raw": "bg_Orange#8.png|Mana Veined#10.png|eyes_Hazel#10.png|mouth#100.png|Chronomancer#10.png|Divine Spectacles#8.png|Chronomancer#10.png|CLEAN_SHAVEN",
     "canvas": "640x640",
@@ -125,5 +133,5 @@
     "rarity_rank_numeric": 0,
     "rarity_pool": "1of1"
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6632.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmVfZnK5C5p3jvgth3DK4Rj9Sg8AfnMb6QzY2H6nPCnM9U"
 }

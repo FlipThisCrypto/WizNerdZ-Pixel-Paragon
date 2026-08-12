@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 3054,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3054.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmeAZaM51C9mpuRa9hrp3iLQg418YdP3bVxy8Q5MjKCpgP",
     "dna": "986606d980ec1df90e76994406a58058ce65451cb92bf0ef7f879d58b8d30102",
     "dna_raw": "bg_Gold#3.png|Fel Corrupted#10.png|eyes_Gray#8.png|mouth#100.png|Druid#10.png|Full_Beard_Dark_Brown#17.png|Abyssal Shades#8.png|Druid#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/3054.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmeAZaM51C9mpuRa9hrp3iLQg418YdP3bVxy8Q5MjKCpgP"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 7214,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7214.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmP3CgqcSX6P3pHfq4DqGCBdfdg9smBN3F8Y7gnJCULJ1J",
     "dna": "8d95d4d2e43e43ed309e182227c4b0032c136bbcd83c12fdbcf350de1180c05a",
     "dna_raw": "bg_Gray#6.png|Ghostly#10.png|eyes_Green#12.png|mouth#100.png|Blood Mage#10.png|Long_Braid_Black#15.png|Mystic Gaze#8.png|Blood Mage#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7214.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmP3CgqcSX6P3pHfq4DqGCBdfdg9smBN3F8Y7gnJCULJ1J"
 }

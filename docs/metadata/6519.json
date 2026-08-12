@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6519,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6519.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmNjX8jCjRazEb3EHafYYL1CjUe1wA9r8sxz8q55m7hytL",
     "dna": "9eab36fba3887e7d8596c597ba63af5c18c651500d7999a748acd1ebac9b5025",
     "dna_raw": "bg_Pink#8.png|Sands of Time#10.png|eyes_Green#12.png|mouth#100.png|Rune Keeper#10.png|Chin_Strap_Black#11.png|Sanguine Sight#8.png|Rune Keeper#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6519.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmNjX8jCjRazEb3EHafYYL1CjUe1wA9r8sxz8q55m7hytL"
 }

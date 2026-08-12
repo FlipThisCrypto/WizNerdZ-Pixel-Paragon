@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 743,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/743.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qme6dT8KuAGaWK22o2ZkrFC29TV1fvMokTeHx8VHMhCAXY",
     "dna": "47e5b56fde3f004b653a0000df982196a060a183cacc1f751b2160293547d5e6",
     "dna_raw": "bg_Orange#8.png|Mud Cracked#10.png|eyes_Dark_Brown#8.png|mouth#100.png|Cleric Light#10.png|Long_Braid_Black#15.png|Taped Magma Goggles#1.png|Cleric Light#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/743.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/Qme6dT8KuAGaWK22o2ZkrFC29TV1fvMokTeHx8VHMhCAXY"
 }

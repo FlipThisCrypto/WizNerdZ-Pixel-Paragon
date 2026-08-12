@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 7944,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7944.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmUzA8qsenqF3jsc4k4qoft9A34SAe7mDL3CeGG99rXwa3",
     "dna": "f66652c6269048f1cd70963e19214daed4c4276707d70cb23928f69f9602baae",
     "dna_raw": "bg_White#6.png|Bark Skin#10.png|eyes_Amber#6.png|mouth#100.png|Warlock Fel#10.png|Long_Pointy_Dark_Brown#20.png|Tempest Visors#8.png|Warlock Fel#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/7944.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmUzA8qsenqF3jsc4k4qoft9A34SAe7mDL3CeGG99rXwa3"
 }

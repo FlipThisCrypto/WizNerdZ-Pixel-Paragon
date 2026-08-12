@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 1365,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1365.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmR1urm62HHZWc2U8CfMVtEckE3izN5a82GpBHfJBB4SWQ",
     "dna": "acf60fbf57edbe1927c57451918ebd6fd60bfc3e083a33245efa6d165b76b0bc",
     "dna_raw": "bg_Yellow#10.png|Frostbitten#10.png|eyes_Hazel#10.png|mouth#100.png|Druid#10.png|Goatee_Dark_Brown#20.png|Terra Frames#8.png|Druid#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/1365.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmR1urm62HHZWc2U8CfMVtEckE3izN5a82GpBHfJBB4SWQ"
 }

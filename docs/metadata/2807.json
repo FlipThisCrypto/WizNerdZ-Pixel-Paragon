@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 2807,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2807.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXjWUPECx7pAD5SVjwMGKfAdf5pNrHKX9wXhK9jJaPso1",
     "dna": "f448092612d2bb5dc1d903d1d1ac078bc09344d15411e260484e79a4e51486fb",
     "dna_raw": "bg_Blue#12.png|Mana Veined#10.png|eyes_Green#12.png|mouth#100.png|Mystic Seer#10.png|Chin_Strap_Dark_Brown#10.png|Trench Scopes#8.png|Mystic Seer#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/2807.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmXjWUPECx7pAD5SVjwMGKfAdf5pNrHKX9wXhK9jJaPso1"
 }

@@ -5,7 +5,7 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
-    "id": "wiznerdz-chia-gen1",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
     "attributes": [
       {
         "type": "description",
@@ -18,6 +18,14 @@
       {
         "type": "website",
         "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmcD5QfsrkDXRD49LhLtWYQGmbvBR9SueUTiP828S3Xc93"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmUSs9UrfwNmKYavJAnBSexiXTywYS1aHBSnAq2PvWRmR2"
       }
     ]
   },
@@ -87,7 +95,7 @@
   "series_number": 6363,
   "series_total": 8888,
   "data": {
-    "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6363.png",
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmPFshDQPNApASM1wYnrkHp3Bje4EKEBXgSMVz3M1oJ1CV",
     "dna": "04918663a73690b9eedceec76505ef66ea3cd9710a79a404c6a6526c95f89a4c",
     "dna_raw": "bg_Brown#4.png|Vampiric#10.png|eyes_Blue#14.png|mouth#100.png|Spirit Guide#10.png|Full_Beard_Dark_Brown#17.png|Ethereal Visions#8.png|Spirit Guide#10.png",
     "canvas": "640x640",
@@ -193,5 +201,5 @@
     "rarity_pool": "generative",
     "rarity_pool_size": 8817
   },
-  "image": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/6363.png"
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmPFshDQPNApASM1wYnrkHp3Bje4EKEBXgSMVz3M1oJ1CV"
 }
