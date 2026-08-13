@@ -1,11 +1,12 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "mode": "public_sealed",
-  "generated_at": "2026-08-12T19:05:34.948433+00:00",
+  "generated_at": "2026-08-13T13:22:31.651440+00:00",
   "collection_total": 8888,
-  "commitment_sha256": "c375b6e83d4cee9ba2987875390a2c4d4c5f9ca7f9c49b4afe2e5c1aaca7f390",
-  "merkle_root": "278a44d106c26df2db8085fb0a6ff99f3732cca25b2818913a4366b7a7229ea6",
-  "box_count": 4420,
+  "commitment_sha256": "067fb6cc7ba997447824929b325877a111b26d354d3a7b72d6f223db01e2d533",
+  "merkle_root": "32d48bd3e53a2f16094e794bfa13d6aa6655e33a18815317e6da7cd1e2c988dd",
+  "box_count": 4196,
+  "note": "Sealed sellable catalog. 5% held as treasury (see COMMITMENT.md). NFT assignments private until purchase and open.",
   "boxes": [
     {
       "box_id": "PREM-0001",
@@ -98,15 +99,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "ELIT-0001",
-      "tier_id": "elite",
-      "label": "Elite Box",
-      "price_xch": 2.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Legendary",
-      "mint_status": "available"
-    },
-    {
       "box_id": "ELIT-0002",
       "tier_id": "elite",
       "label": "Elite Box",
@@ -126,15 +118,6 @@
     },
     {
       "box_id": "ELIT-0004",
-      "tier_id": "elite",
-      "label": "Elite Box",
-      "price_xch": 2.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Legendary",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "ELIT-0005",
       "tier_id": "elite",
       "label": "Elite Box",
       "price_xch": 2.0,
@@ -188,15 +171,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "ELIT-0011",
-      "tier_id": "elite",
-      "label": "Elite Box",
-      "price_xch": 2.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Legendary",
-      "mint_status": "available"
-    },
-    {
       "box_id": "ELIT-0012",
       "tier_id": "elite",
       "label": "Elite Box",
@@ -207,15 +181,6 @@
     },
     {
       "box_id": "ELIT-0013",
-      "tier_id": "elite",
-      "label": "Elite Box",
-      "price_xch": 2.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Legendary",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "ELIT-0014",
       "tier_id": "elite",
       "label": "Elite Box",
       "price_xch": 2.0,
@@ -332,15 +297,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "ELIT-0027",
-      "tier_id": "elite",
-      "label": "Elite Box",
-      "price_xch": 2.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Legendary",
-      "mint_status": "available"
-    },
-    {
       "box_id": "ELIT-0028",
       "tier_id": "elite",
       "label": "Elite Box",
@@ -395,15 +351,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "ELIT-0034",
-      "tier_id": "elite",
-      "label": "Elite Box",
-      "price_xch": 2.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Legendary",
-      "mint_status": "available"
-    },
-    {
       "box_id": "ELIT-0035",
       "tier_id": "elite",
       "label": "Elite Box",
@@ -422,15 +369,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "ELIT-0037",
-      "tier_id": "elite",
-      "label": "Elite Box",
-      "price_xch": 2.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Legendary",
-      "mint_status": "available"
-    },
-    {
       "box_id": "ELIT-0038",
       "tier_id": "elite",
       "label": "Elite Box",
@@ -441,15 +379,6 @@
     },
     {
       "box_id": "ELIT-0039",
-      "tier_id": "elite",
-      "label": "Elite Box",
-      "price_xch": 2.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Legendary",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "ELIT-0040",
       "tier_id": "elite",
       "label": "Elite Box",
       "price_xch": 2.0,
@@ -558,15 +487,6 @@
     },
     {
       "box_id": "ELIT-0052",
-      "tier_id": "elite",
-      "label": "Elite Box",
-      "price_xch": 2.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Legendary",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "ELIT-0053",
       "tier_id": "elite",
       "label": "Elite Box",
       "price_xch": 2.0,
@@ -684,15 +604,6 @@
     },
     {
       "box_id": "ELIT-0066",
-      "tier_id": "elite",
-      "label": "Elite Box",
-      "price_xch": 2.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Legendary",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "ELIT-0067",
       "tier_id": "elite",
       "label": "Elite Box",
       "price_xch": 2.0,
@@ -1070,24 +981,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "RARE-0022",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "RARE-0023",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
       "box_id": "RARE-0024",
       "tier_id": "rare",
       "label": "Rare Box",
@@ -1196,25 +1089,7 @@
       "mint_status": "available"
     },
     {
-      "box_id": "RARE-0036",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
       "box_id": "RARE-0037",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "RARE-0038",
       "tier_id": "rare",
       "label": "Rare Box",
       "price_xch": 1.0,
@@ -1287,15 +1162,6 @@
     },
     {
       "box_id": "RARE-0046",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "RARE-0047",
       "tier_id": "rare",
       "label": "Rare Box",
       "price_xch": 1.0,
@@ -1412,15 +1278,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "RARE-0060",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
       "box_id": "RARE-0061",
       "tier_id": "rare",
       "label": "Rare Box",
@@ -1494,15 +1351,6 @@
     },
     {
       "box_id": "RARE-0069",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "RARE-0070",
       "tier_id": "rare",
       "label": "Rare Box",
       "price_xch": 1.0,
@@ -1791,15 +1639,6 @@
     },
     {
       "box_id": "RARE-0102",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "RARE-0103",
       "tier_id": "rare",
       "label": "Rare Box",
       "price_xch": 1.0,
@@ -2231,15 +2070,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "RARE-0151",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
       "box_id": "RARE-0152",
       "tier_id": "rare",
       "label": "Rare Box",
@@ -2348,15 +2178,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "RARE-0164",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
       "box_id": "RARE-0165",
       "tier_id": "rare",
       "label": "Rare Box",
@@ -2403,15 +2224,6 @@
     },
     {
       "box_id": "RARE-0170",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "RARE-0171",
       "tier_id": "rare",
       "label": "Rare Box",
       "price_xch": 1.0,
@@ -2591,15 +2403,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "RARE-0191",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
       "box_id": "RARE-0192",
       "tier_id": "rare",
       "label": "Rare Box",
@@ -2709,15 +2512,6 @@
     },
     {
       "box_id": "RARE-0204",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "RARE-0205",
       "tier_id": "rare",
       "label": "Rare Box",
       "price_xch": 1.0,
@@ -2915,15 +2709,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "RARE-0227",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
       "box_id": "RARE-0228",
       "tier_id": "rare",
       "label": "Rare Box",
@@ -3015,24 +2800,6 @@
     },
     {
       "box_id": "RARE-0238",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "RARE-0239",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "RARE-0240",
       "tier_id": "rare",
       "label": "Rare Box",
       "price_xch": 1.0,
@@ -3257,15 +3024,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "RARE-0265",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
       "box_id": "RARE-0266",
       "tier_id": "rare",
       "label": "Rare Box",
@@ -3419,15 +3177,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "RARE-0283",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
       "box_id": "RARE-0284",
       "tier_id": "rare",
       "label": "Rare Box",
@@ -3519,15 +3268,6 @@
     },
     {
       "box_id": "RARE-0294",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "RARE-0295",
       "tier_id": "rare",
       "label": "Rare Box",
       "price_xch": 1.0,
@@ -3708,15 +3448,6 @@
     },
     {
       "box_id": "RARE-0315",
-      "tier_id": "rare",
-      "label": "Rare Box",
-      "price_xch": 1.0,
-      "nft_count": 3,
-      "guarantee": "1\u00d7 Epic",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "RARE-0316",
       "tier_id": "rare",
       "label": "Rare Box",
       "price_xch": 1.0,
@@ -4274,15 +4005,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0029",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0030",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -4508,15 +4230,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0055",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0056",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -4545,15 +4258,6 @@
     },
     {
       "box_id": "STAN-0059",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0060",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -4842,15 +4546,6 @@
     },
     {
       "box_id": "STAN-0092",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0093",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -5192,15 +4887,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0131",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0132",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -5318,25 +5004,7 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0145",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0146",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0147",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -5543,15 +5211,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0170",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0171",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -5670,15 +5329,6 @@
     },
     {
       "box_id": "STAN-0184",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0185",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -5993,15 +5643,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0220",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0221",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -6012,15 +5653,6 @@
     },
     {
       "box_id": "STAN-0222",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0223",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -6075,15 +5707,6 @@
     },
     {
       "box_id": "STAN-0229",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0230",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -6210,15 +5833,6 @@
     },
     {
       "box_id": "STAN-0244",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0245",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -6416,15 +6030,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0267",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0268",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -6462,15 +6067,6 @@
     },
     {
       "box_id": "STAN-0272",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0273",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -6579,15 +6175,6 @@
     },
     {
       "box_id": "STAN-0285",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0286",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -7109,15 +6696,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0344",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0345",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -7298,15 +6876,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0365",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0366",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -7343,15 +6912,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0370",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0371",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -7362,15 +6922,6 @@
     },
     {
       "box_id": "STAN-0372",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0373",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -7505,15 +7056,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0388",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0389",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -7632,15 +7174,6 @@
     },
     {
       "box_id": "STAN-0402",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0403",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -8063,15 +7596,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0450",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0451",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -8190,15 +7714,6 @@
     },
     {
       "box_id": "STAN-0464",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0465",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -8783,15 +8298,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0530",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0531",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -9188,15 +8694,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0575",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0576",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -9270,15 +8767,6 @@
     },
     {
       "box_id": "STAN-0584",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0585",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -9494,15 +8982,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0609",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0610",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -9521,15 +9000,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0612",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0613",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -9540,15 +9010,6 @@
     },
     {
       "box_id": "STAN-0614",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0615",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -9594,15 +9055,6 @@
     },
     {
       "box_id": "STAN-0620",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0621",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -9765,15 +9217,6 @@
     },
     {
       "box_id": "STAN-0639",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0640",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -10259,15 +9702,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0694",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0695",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -10287,15 +9721,6 @@
     },
     {
       "box_id": "STAN-0697",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0698",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -10502,15 +9927,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0721",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0722",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -10611,15 +10027,6 @@
     },
     {
       "box_id": "STAN-0733",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0734",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -11150,15 +10557,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0793",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0794",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -11178,15 +10576,6 @@
     },
     {
       "box_id": "STAN-0796",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0797",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -11735,15 +11124,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "STAN-0858",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
       "box_id": "STAN-0859",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
@@ -11772,15 +11152,6 @@
     },
     {
       "box_id": "STAN-0862",
-      "tier_id": "standard_bundle",
-      "label": "Standard Bundle",
-      "price_xch": 0.5,
-      "nft_count": 5,
-      "guarantee": "1\u00d7 Rare",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "STAN-0863",
       "tier_id": "standard_bundle",
       "label": "Standard Bundle",
       "price_xch": 0.5,
@@ -12068,15 +11439,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00016",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00017",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -12221,15 +11583,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00033",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00034",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -12312,15 +11665,6 @@
     },
     {
       "box_id": "BLND-00043",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00044",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -12437,24 +11781,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00057",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00058",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00059",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -12492,15 +11818,6 @@
     },
     {
       "box_id": "BLND-00063",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00064",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -12563,15 +11880,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00071",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00072",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -12582,15 +11890,6 @@
     },
     {
       "box_id": "BLND-00073",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00074",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -12626,15 +11925,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00078",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00079",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -12645,15 +11935,6 @@
     },
     {
       "box_id": "BLND-00080",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00081",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -12681,15 +11962,6 @@
     },
     {
       "box_id": "BLND-00084",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00085",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -12878,15 +12150,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00106",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00107",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -12959,15 +12222,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00115",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00116",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -13013,15 +12267,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00121",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00122",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -13058,25 +12303,7 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00126",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00127",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00128",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -13310,15 +12537,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00154",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00155",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -13455,15 +12673,6 @@
     },
     {
       "box_id": "BLND-00170",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00171",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -13742,15 +12951,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00202",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00203",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -13815,15 +13015,6 @@
     },
     {
       "box_id": "BLND-00210",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00211",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -14858,15 +14049,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00326",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00327",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -15003,15 +14185,6 @@
     },
     {
       "box_id": "BLND-00342",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00343",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -15245,25 +14418,7 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00369",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00370",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00371",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -15543,15 +14698,6 @@
     },
     {
       "box_id": "BLND-00402",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00403",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -15966,15 +15112,6 @@
     },
     {
       "box_id": "BLND-00449",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00450",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -16433,15 +15570,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00501",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00502",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -16506,24 +15634,6 @@
     },
     {
       "box_id": "BLND-00509",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00510",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00511",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -16658,15 +15768,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00526",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00527",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -16695,15 +15796,6 @@
     },
     {
       "box_id": "BLND-00530",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00531",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -16857,15 +15949,6 @@
     },
     {
       "box_id": "BLND-00548",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00549",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -17216,15 +16299,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00588",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00589",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -17235,15 +16309,6 @@
     },
     {
       "box_id": "BLND-00590",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00591",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -17433,15 +16498,6 @@
     },
     {
       "box_id": "BLND-00612",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00613",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -17829,15 +16885,6 @@
     },
     {
       "box_id": "BLND-00656",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00657",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -18377,15 +17424,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00717",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00718",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -18737,15 +17775,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00757",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00758",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -18819,15 +17848,6 @@
     },
     {
       "box_id": "BLND-00766",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00767",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -18935,24 +17955,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00779",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00780",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00781",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -18990,15 +17992,6 @@
     },
     {
       "box_id": "BLND-00785",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00786",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -19304,25 +18297,7 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00820",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00821",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00822",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -19394,15 +18369,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00830",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00831",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -19413,15 +18379,6 @@
     },
     {
       "box_id": "BLND-00832",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00833",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -19503,15 +18460,6 @@
     },
     {
       "box_id": "BLND-00842",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00843",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -19754,15 +18702,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00870",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00871",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -19809,15 +18748,6 @@
     },
     {
       "box_id": "BLND-00876",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00877",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -19988,24 +18918,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00896",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00897",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00898",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -20016,15 +18928,6 @@
     },
     {
       "box_id": "BLND-00899",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00900",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -20061,15 +18964,6 @@
     },
     {
       "box_id": "BLND-00904",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00905",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -20240,15 +19134,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-00924",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-00925",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -20403,15 +19288,6 @@
     },
     {
       "box_id": "BLND-00942",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00943",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -20871,15 +19747,6 @@
     },
     {
       "box_id": "BLND-00994",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-00995",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -21383,15 +20250,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01051",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01052",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -21420,15 +20278,6 @@
     },
     {
       "box_id": "BLND-01055",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01056",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -21554,15 +20403,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01070",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01071",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -21591,15 +20431,6 @@
     },
     {
       "box_id": "BLND-01074",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01075",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -21995,15 +20826,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01119",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01120",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -22086,15 +20908,6 @@
     },
     {
       "box_id": "BLND-01129",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01130",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -22508,15 +21321,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01176",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01177",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -22617,15 +21421,6 @@
     },
     {
       "box_id": "BLND-01188",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01189",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -23300,15 +22095,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01264",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01265",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -23337,15 +22123,6 @@
     },
     {
       "box_id": "BLND-01268",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01269",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -23454,15 +22231,6 @@
     },
     {
       "box_id": "BLND-01281",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01282",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -23696,15 +22464,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01308",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01309",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -23715,15 +22474,6 @@
     },
     {
       "box_id": "BLND-01310",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01311",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -23769,15 +22519,6 @@
     },
     {
       "box_id": "BLND-01316",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01317",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -24147,15 +22888,6 @@
     },
     {
       "box_id": "BLND-01358",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01359",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -24623,25 +23355,7 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01411",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01412",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01413",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -25325,15 +24039,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01489",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01490",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -25442,15 +24147,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01502",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01503",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -25532,15 +24228,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01512",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01513",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -25614,15 +24301,6 @@
     },
     {
       "box_id": "BLND-01521",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01522",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -26415,15 +25093,6 @@
     },
     {
       "box_id": "BLND-01610",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01611",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -27260,15 +25929,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01704",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01705",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -27719,15 +26379,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01755",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01756",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -28070,15 +26721,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01794",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01795",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -28286,15 +26928,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01818",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01819",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -28430,15 +27063,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01834",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01835",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -28449,15 +27073,6 @@
     },
     {
       "box_id": "BLND-01836",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01837",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -28538,15 +27153,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01846",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01847",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -28584,15 +27190,6 @@
     },
     {
       "box_id": "BLND-01851",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01852",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -28970,15 +27567,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01894",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01895",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -29268,15 +27856,6 @@
     },
     {
       "box_id": "BLND-01927",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01928",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -29591,24 +28170,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-01963",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01964",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-01965",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -29646,15 +28207,6 @@
     },
     {
       "box_id": "BLND-01969",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01970",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -29790,15 +28342,6 @@
     },
     {
       "box_id": "BLND-01985",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-01986",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -30060,15 +28603,6 @@
     },
     {
       "box_id": "BLND-02015",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02016",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -30383,15 +28917,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02051",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02052",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -30483,15 +29008,6 @@
     },
     {
       "box_id": "BLND-02062",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02063",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -30609,15 +29125,6 @@
     },
     {
       "box_id": "BLND-02076",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02077",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -30797,25 +29304,7 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02097",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02098",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02099",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -30914,15 +29403,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02110",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02111",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -31004,15 +29484,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02120",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02121",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -31059,15 +29530,6 @@
     },
     {
       "box_id": "BLND-02126",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02127",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -31167,15 +29629,6 @@
     },
     {
       "box_id": "BLND-02138",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02139",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -31481,15 +29934,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02173",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02174",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -31724,15 +30168,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02200",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02201",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -31743,15 +30178,6 @@
     },
     {
       "box_id": "BLND-02202",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02203",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -31851,15 +30277,6 @@
     },
     {
       "box_id": "BLND-02214",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02215",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -31968,15 +30385,6 @@
     },
     {
       "box_id": "BLND-02227",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02228",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -32111,15 +30519,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02243",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02244",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -32157,15 +30556,6 @@
     },
     {
       "box_id": "BLND-02248",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02249",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -32319,15 +30709,6 @@
     },
     {
       "box_id": "BLND-02266",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02267",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -32741,15 +31122,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02313",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02314",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -32975,25 +31347,7 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02339",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02340",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02341",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -33048,15 +31402,6 @@
     },
     {
       "box_id": "BLND-02347",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02348",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -33434,25 +31779,7 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02390",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02391",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02392",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -33696,15 +32023,6 @@
     },
     {
       "box_id": "BLND-02419",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02420",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -33974,15 +32292,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02450",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02451",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -34082,15 +32391,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02462",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02463",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -34137,15 +32437,6 @@
     },
     {
       "box_id": "BLND-02468",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02469",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -34245,15 +32536,6 @@
     },
     {
       "box_id": "BLND-02480",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02481",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -34460,24 +32742,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02504",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02505",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02506",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -34658,24 +32922,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02526",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02527",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02528",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -34812,24 +33058,6 @@
     },
     {
       "box_id": "BLND-02543",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02544",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02545",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -35279,15 +33507,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02595",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02596",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -35567,15 +33786,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02627",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02628",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -35802,15 +34012,6 @@
     },
     {
       "box_id": "BLND-02653",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02654",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -36071,15 +34272,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02683",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02684",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -36117,15 +34309,6 @@
     },
     {
       "box_id": "BLND-02688",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02689",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -36224,24 +34407,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02700",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02701",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02702",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -36252,15 +34417,6 @@
     },
     {
       "box_id": "BLND-02703",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02704",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -36477,15 +34633,6 @@
     },
     {
       "box_id": "BLND-02728",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02729",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -37106,15 +35253,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02798",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02799",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -37170,24 +35308,6 @@
     },
     {
       "box_id": "BLND-02805",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02806",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02807",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -37421,15 +35541,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02833",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02834",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -37476,15 +35587,6 @@
     },
     {
       "box_id": "BLND-02839",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02840",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -37655,15 +35757,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02859",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02860",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -37674,15 +35767,6 @@
     },
     {
       "box_id": "BLND-02861",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02862",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -37943,15 +36027,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02891",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02892",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -38087,15 +36162,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-02907",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-02908",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -38214,15 +36280,6 @@
     },
     {
       "box_id": "BLND-02921",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02922",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -38583,15 +36640,6 @@
     },
     {
       "box_id": "BLND-02962",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-02963",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -38996,15 +37044,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-03008",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-03009",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -39015,15 +37054,6 @@
     },
     {
       "box_id": "BLND-03010",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-03011",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -39149,15 +37179,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-03025",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-03026",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -39213,15 +37234,6 @@
     },
     {
       "box_id": "BLND-03032",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
-      "box_id": "BLND-03033",
       "tier_id": "blind_single",
       "label": "Blind Single",
       "price_xch": 0.15,
@@ -39446,15 +37458,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-03058",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-03059",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -39599,15 +37602,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-03075",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-03076",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -39743,15 +37737,6 @@
       "mint_status": "available"
     },
     {
-      "box_id": "BLND-03091",
-      "tier_id": "blind_single",
-      "label": "Blind Single",
-      "price_xch": 0.15,
-      "nft_count": 1,
-      "guarantee": "1 random remaining NFT",
-      "mint_status": "available"
-    },
-    {
       "box_id": "BLND-03092",
       "tier_id": "blind_single",
       "label": "Blind Single",
@@ -39787,6 +37772,5 @@
       "guarantee": "1 random remaining NFT",
       "mint_status": "available"
     }
-  ],
-  "note": "Sealed product catalog only. NFT assignments are private until purchase and open."
+  ]
 }

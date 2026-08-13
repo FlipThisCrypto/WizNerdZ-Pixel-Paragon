@@ -8,8 +8,8 @@ own box, and what changed from our first commitment.
 
 ## The short version
 
-- The contents of all **4,438 boxes** were fixed and hashed into a single value
-  before sales opened.
+- The contents of every **sellable box** were fixed and hashed into a single
+  value before sales opened.
 - That value — the **Merkle root** — is public.
 - When you open a box, you receive a **proof** for *your* box.
 - You can verify that proof yourself, offline, with no trust in us.
@@ -24,13 +24,45 @@ paid. That is the entire point.
 
 | Field | Value |
 |---|---|
-| Commitment | `c375b6e83d4cee9ba2987875390a2c4d4c5f9ca7f9c49b4afe2e5c1aaca7f390` |
-| Merkle root | `278a44d106c26df2db8085fb0a6ff99f3732cca25b2818913a4366b7a7229ea6` |
-| Boxes committed | 4,420 |
+| Commitment | `067fb6cc7ba997447824929b325877a111b26d354d3a7b72d6f223db01e2d533` |
+| Merkle root | `32d48bd3e53a2f16094e794bfa13d6aa6655e33a18815317e6da7cd1e2c988dd` |
+| Sellable boxes | 4,196 |
+| Treasury boxes (held) | 224 |
 | Scheme | `wiznerdz-merkle-v1` |
 | Seed entropy | 256 bits (CSPRNG) |
 
 Live at [`mint/commitment.json`](./commitment.json).
+
+---
+
+## The treasury hold — what we kept, and what we could not touch
+
+Before any sale we set aside **5% of the collection (444 NFTs, 224 boxes)** for
+treasury, marketing and free mints. We think you should be able to see exactly
+what that hold can and cannot be, because the temptation for any team is to skim
+the best pieces for themselves. We built the rules so we *can't*:
+
+- **No top-tier boxes.** Only the bottom four tiers can be held. Every Named
+  Premium box stays in the public sale.
+- **None of the 100 rarest.** All 71 one-of-ones and the 29 rarest generatives
+  are barred from the hold — they stay where anyone can pull them.
+- **Whole boxes only.** Nothing is skimmed out of a box a buyer could receive.
+- **Chosen by the seed, not by hand.** The held boxes are picked
+  deterministically from the secret seed.
+
+The two rules you *can* check right now — no top-tier box and no top-100 rarest —
+are provable today from the public box IDs: the exact 224 held box IDs are listed
+in [`commitment.json`](./commitment.json) under `treasury_selection`.
+
+The "not cherry-picked" claim is checkable **when we disclose the seed after the
+mint** — the same disclosure that lets you verify your own box's contents. At
+that point anyone runs one command and the seed must reproduce exactly these 224
+box IDs; if we had hand-picked the best eligible boxes instead, it wouldn't. We
+can't reveal the seed sooner because it would unseal every unsold box. So this
+rule carries the same "verify at reveal" trust as everything else here — not more.
+
+The held boxes are listed openly — they're ours, so there's nothing to seal. The
+public commitment above covers the **4,196 sellable boxes only**.
 
 ---
 
@@ -103,25 +135,27 @@ two different allocations share one root.
 
 ## What changed, and why you can check we did not cheat
 
-Before any sale, we replaced the allocation commitment **twice**. Replacing a
-published commitment is exactly the move a dishonest operator would make, so the
-full history is on the record and every prior value stays published — see the
+Before any sale, we replaced the allocation commitment more than once. Replacing
+a published commitment is exactly the move a dishonest operator would make, so
+the full history is on the record and every prior value stays published — see the
 `supersedes` array in [`commitment.json`](./commitment.json).
 
 | When | Commitment | Status |
 |---|---|---|
-| 2026-08-11 | `f4b469e5…` | was live; superseded |
+| 2026-08-11 | `f4b469e5…` | was live; superseded (weak seed) |
 | (local only) | `1ef9be51…` | never published; superseded |
-| **current** | `c375b6e8…` | **live** |
+| 2026-08-12 | `c375b6e8…` | was live; superseded (treasury hold) |
+| **current** | `067fb6cc…` | **live** — sellable boxes only |
 
-**Why twice — the honest version:** the first allocation used a predictable
-seed (`wiznerdz-mint-prod-YYYY-MM-DD-vN`). That is only a few thousand
-possibilities, so anyone could recover it and, from it, regenerate every box's
-contents — the "sealed" mint was readable. We found this before any sale,
-generated a **256-bit random** seed, regenerated the allocation, and
-republished. Box contents changed as a result. No sale had occurred at any point
-during these replacements, which is the only thing that makes replacing a
-commitment legitimate.
+**The honest version.** The first allocation used a predictable seed
+(`wiznerdz-mint-prod-YYYY-MM-DD-vN`) — only a few thousand possibilities, so
+anyone could recover it and regenerate every box's contents. The "sealed" mint
+was readable. We caught it before any sale, generated a **256-bit random** seed,
+and regenerated. Then, still before any sale, we set aside the 5% treasury hold
+described above and re-published the commitment over the sellable boxes only.
+Box **contents were not touched** by the treasury step — we only marked which
+boxes are held. No sale had occurred at any point, which is the only thing that
+makes replacing a commitment legitimate.
 
 The superseded commitments are **not deleted**. Deleting them is what a
 dishonest operator does; keeping them lets anyone audit exactly what changed and
