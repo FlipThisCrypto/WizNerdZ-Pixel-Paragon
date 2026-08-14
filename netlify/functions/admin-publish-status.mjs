@@ -74,6 +74,32 @@ export default async (req) => {
       updatedAt: new Date().toISOString(),
     });
     written++;
+
+    // A sold box's offer must leave the dispenser. Its NFT coin was spent by
+    // the settlement, so the offer is dead - handing it out again would give
+    // a buyer an offer that cannot possibly be taken.
+    if (s.state !== "SEALED" && s.state !== "OFFER_ISSUED") {
+      try {
+        const offers = getStore("wiznerdz-offers");
+        const index = (await offers.get("index", { type: "json" })) || { available: {} };
+        let touched = false;
+        for (const [t, ids] of Object.entries(index.available || {})) {
+          const next = (ids || []).filter((id) => id !== s.boxNftId);
+          if (next.length !== ids.length) {
+            index.available[t] = next;
+            touched = true;
+          }
+        }
+        if (touched) await offers.setJSON("index", index);
+        const takenRec = (await store.get("taken", { type: "json" })) || { nftIds: [] };
+        if (!takenRec.nftIds.includes(s.boxNftId)) {
+          takenRec.nftIds.push(s.boxNftId);
+          await store.setJSON("taken", takenRec);
+        }
+      } catch (e) {
+        problems.push({ boxNftId: s.boxNftId, why: `status written but offer retirement failed: ${e.message}` });
+      }
+    }
   }
 
   return json({ ok: true, written, problems });
