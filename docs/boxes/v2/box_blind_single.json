@@ -1,0 +1,69 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdZ Sealed Box \u2014 Blind Single",
+  "description": "A sealed WizNerdZ box. Its contents were assigned and cryptographically committed before any box went on sale, and stay hidden until it is opened \u2014 no re-draw, no reshuffle. Opening delivers the WizNerdZ inside to the holder. Verify the allocation commitment at https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/mint/COMMITMENT.md",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdZ Sealed Boxes",
+    "id": "fe5c7f84-c336-51e0-872f-c1f8ef6d8104",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "Sealed mint boxes for WizNerdZ Pixel Paragon. Contents committed before sale and revealed on opening. Boxes are consumed when opened."
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "icon",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmT9tvjK435fQ9anjtjxuxaAT5WR9MxWorY59FCGyYEWau"
+      },
+      {
+        "type": "banner",
+        "value": "https://defiant-black-skink.myfilebase.com/ipfs/QmPYzNsPf4A9XhCySmDjE4JMCtD2yw5o3qJfsWYm6NhncU"
+      },
+      {
+        "type": "opens_into_collection",
+        "value": "a86a2b4a-9668-5cf9-a193-9783a0cf889d"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Sealed Box"
+    },
+    {
+      "trait_type": "Tier",
+      "value": "Blind Single"
+    },
+    {
+      "trait_type": "WizNerdZ Inside",
+      "value": 1
+    },
+    {
+      "trait_type": "Guarantee",
+      "value": "1 random WizNerd"
+    },
+    {
+      "trait_type": "State",
+      "value": "Sealed"
+    }
+  ],
+  "minting_tool": "WizNerdZ Sealed Box Mint",
+  "data": {
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmeHPzvtq8WDBPwjVPJQsnZuywxyZkvvTC6ycttYDyvfAv",
+    "tier_id": "blind_single",
+    "nfts_inside": 1,
+    "guarantee": "1 random WizNerd",
+    "price_xch": 0.15,
+    "contents_sealed": true,
+    "commitment_doc": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/mint/COMMITMENT.md"
+  },
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmeHPzvtq8WDBPwjVPJQsnZuywxyZkvvTC6ycttYDyvfAv"
+}
