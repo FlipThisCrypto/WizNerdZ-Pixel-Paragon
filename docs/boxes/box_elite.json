@@ -1,0 +1,57 @@
+{
+  "format": "CHIP-0007",
+  "name": "WizNerdZ Sealed Box \u2014 Elite",
+  "description": "A sealed WizNerdZ box. Its contents were assigned and cryptographically committed before any box went on sale, and stay hidden until it is opened \u2014 no re-draw, no reshuffle. Opening delivers the WizNerdZ inside to the holder. Verify the allocation commitment at https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/mint/COMMITMENT.md",
+  "sensitive_content": false,
+  "collection": {
+    "name": "WizNerdZ Sealed Boxes",
+    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "Sealed mint boxes for WizNerdZ Pixel Paragon. Contents committed before sale."
+      },
+      {
+        "type": "website",
+        "value": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/"
+      },
+      {
+        "type": "twitter",
+        "value": "https://x.com/FiendStudios"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Sealed Box"
+    },
+    {
+      "trait_type": "Tier",
+      "value": "Elite"
+    },
+    {
+      "trait_type": "WizNerdZ Inside",
+      "value": 3
+    },
+    {
+      "trait_type": "Guarantee",
+      "value": "3 WizNerdZ, at least 1 Legendary"
+    },
+    {
+      "trait_type": "State",
+      "value": "Sealed"
+    }
+  ],
+  "minting_tool": "WizNerdZ Sealed Box Mint",
+  "data": {
+    "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcHJgvPUa2jFeiWtvQ3FnhheEE53BBisMMAi4inVNr1FB",
+    "tier_id": "elite",
+    "nfts_inside": 3,
+    "guarantee": "3 WizNerdZ, at least 1 Legendary",
+    "price_xch": 2.0,
+    "contents_sealed": true,
+    "commitment_doc": "https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/mint/COMMITMENT.md"
+  },
+  "image": "https://defiant-black-skink.myfilebase.com/ipfs/QmcHJgvPUa2jFeiWtvQ3FnhheEE53BBisMMAi4inVNr1FB"
+}
