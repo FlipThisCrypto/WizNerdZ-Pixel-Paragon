@@ -99,28 +99,80 @@
     refreshButtons();
   });
 
-  /** If a previous visit bought a box that had not delivered yet, finish it. */
-  async function resumePendingBox() {
-    const box = localStorage.getItem(LAST_BOX);
-    if (!box || !bridge.hasBackend) return;
+  /**
+   * The recovery path: open any box by its NFT id.
+   *
+   * A buyer may have taken the offer in their wallet directly, on another
+   * device, or lost the tab mid-delivery. The box NFT is the purchase
+   * identity, so its id alone is enough to recover the reveal — nothing
+   * about the purchase lives only in this browser.
+   */
+  async function openBox(box, { quiet = false } = {}) {
+    if (!box || !bridge.hasBackend) return false;
+    box = box.trim();
+    if (!/^nft1[a-z0-9]{50,70}$/.test(box)) {
+      if (!quiet) notice(`<strong>That doesn't look like a box id.</strong> <span class="muted">It starts with <code>nft1</code> — find it in your wallet's NFT list.</span>`);
+      return false;
+    }
     try {
       const s = await bridge.checkBox(box);
       if (!s.pending && Array.isArray(s.nfts) && s.nfts.length) {
         localStorage.removeItem(LAST_BOX);
-        notice(`<strong>Your box is ready.</strong> <button type="button" id="wz-open-box" class="summon-btn">Open it</button>`);
-        document.getElementById("wz-open-box").addEventListener("click", async () => {
-          const controller = new window.WizNerdzSummonController();
-          await controller.reveal(bridge.normalise({
-            transactionId: s.transactionId, boxId: box, tier: s.tier,
-            tierLabel: s.tierLabel, nfts: s.nfts,
-          }));
-        });
-      } else if (s.state !== "UNKNOWN") {
-        notice(`<strong>Delivery in progress.</strong> <span class="muted">Box ${escapeHtml(box.slice(0, 14))}… is ${escapeHtml(s.state)}. This page will show it once the chain confirms.</span>`);
+        notice("");
+        const controller = new window.WizNerdzSummonController();
+        await controller.reveal(bridge.normalise({
+          transactionId: s.transactionId, boxId: box, tier: s.tier,
+          tierLabel: s.tierLabel, nfts: s.nfts,
+        }));
+        return true;
+      }
+      if (s.state === "UNKNOWN") {
+        if (!quiet) notice(`<strong>No record of that box yet.</strong> <span class="muted">If you just bought it, the sale may still be settling — try again in a few minutes.</span>`);
+      } else if (!quiet) {
+        notice(`<strong>Delivery in progress.</strong> <span class="muted">Box ${escapeHtml(box.slice(0, 14))}… is ${escapeHtml(s.state)}. Your WizNerdZ arrive automatically once the chain confirms — check back soon.</span>`);
       }
     } catch {
-      /* status unavailable; nothing to promise */
+      if (!quiet) notice(`<strong>Could not reach the mint service.</strong> <span class="muted">Your box is safe — this page only reads what already happened on chain.</span>`);
     }
+    return false;
+  }
+
+  /** Auto-resume: ?box=nft1... beats the remembered box from this browser. */
+  async function resumePendingBox() {
+    const fromUrl = new URLSearchParams(location.search).get("box");
+    const box = fromUrl || localStorage.getItem(LAST_BOX);
+    if (!box || !bridge.hasBackend) return;
+    const input = document.getElementById("wz-box-id");
+    if (input) input.value = box;
+    const s = await bridge.checkBox(box).catch(() => null);
+    if (!s) return;
+    if (!s.pending && Array.isArray(s.nfts) && s.nfts.length) {
+      notice(`<strong>Your box is ready.</strong> <button type="button" id="wz-open-ready" class="summon-btn">Open it</button>`);
+      document.getElementById("wz-open-ready").addEventListener("click", () => openBox(box));
+    } else if (s.state !== "UNKNOWN") {
+      notice(`<strong>Delivery in progress.</strong> <span class="muted">Box ${escapeHtml(box.slice(0, 14))}… is ${escapeHtml(s.state)}. This page will open it once the chain confirms.</span>`);
+    }
+  }
+
+  /** "Already have a box?" — visible recovery UI, not just an auto-resume. */
+  function openBoxBar() {
+    const host = document.getElementById("tiers");
+    if (!host || document.getElementById("wz-open-bar")) return;
+    const bar = document.createElement("div");
+    bar.id = "wz-open-bar";
+    bar.className = "wz-wallet-bar";
+    bar.innerHTML = `
+      <label for="wz-box-id" class="muted" style="flex-basis:100%">Already have a sealed box? Paste its NFT id to open it:</label>
+      <input id="wz-box-id" type="text" placeholder="nft1…" spellcheck="false"
+             style="flex:1;min-width:200px;min-height:44px;padding:0 12px;background:transparent;border:1px solid rgba(168,212,255,.35);border-radius:10px;color:inherit" />
+      <button type="button" id="wz-open-btn" class="summon-btn">Open box</button>`;
+    host.parentNode.insertBefore(bar, host.nextSibling);
+    document.getElementById("wz-open-btn").addEventListener("click", () => {
+      openBox(document.getElementById("wz-box-id").value);
+    });
+    document.getElementById("wz-box-id").addEventListener("keydown", (e) => {
+      if (e.key === "Enter") openBox(e.target.value);
+    });
   }
 
   async function load() {
@@ -195,6 +247,7 @@
       btn.addEventListener("click", () => onSummon(btn.dataset.tier, btn));
     });
     walletBar();
+    openBoxBar();
     refreshButtons();
     resumePendingBox();
   }

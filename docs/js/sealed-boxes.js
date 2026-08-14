@@ -9,7 +9,25 @@
     filterTier: "all",
     loaded: false,
     error: null,
+    // Live counters from /api/mint-stats — the catalog is a static file and
+    // can never know a box sold. null until (and unless) the API answers;
+    // the page must still work without it.
+    stats: null,
   };
+
+  const API = (window.WIZNERDZ_CONFIG && window.WIZNERDZ_CONFIG.mint && window.WIZNERDZ_CONFIG.mint.apiBase) || null;
+
+  async function loadStats() {
+    if (!API) return;
+    try {
+      const res = await fetch(`${API}/mint-stats`, { headers: { accept: "application/json" } });
+      if (!res.ok) return;
+      STATE.stats = await res.json();
+      render();
+    } catch (_) {
+      /* counter is best-effort; the page stays honest without it */
+    }
+  }
 
   function $(sel) {
     return document.querySelector(sel);
@@ -80,11 +98,19 @@
     }
     const counts = summarize();
     const list = filtered().slice(0, 48);
-    const avail = STATE.boxes.filter((b) => b.mint_status === "available").length;
+    // Live numbers: catalog total minus chain-observed sales. Falls back to
+    // catalog-only counts when the stats API is unreachable.
+    const total = STATE.boxes.length;
+    const sold = STATE.stats?.totals?.sold ?? 0;
+    const opened = STATE.stats?.totals?.opened ?? 0;
+    const avail = Math.max(0, total - sold);
+    const live = STATE.stats
+      ? ` · Sold: <strong>${sold}</strong> · Opened: <strong>${opened}</strong>`
+      : ` <span class="muted">(live counts unavailable)</span>`;
     root.innerHTML = `
       <div class="sealed-meta">
         <p><strong>Allocation commitment:</strong> <code>${escapeHtml(STATE.commitment || "")}</code></p>
-        <p>Sealed boxes: <strong>${STATE.boxes.length}</strong> · Available (catalog): <strong>${avail}</strong></p>
+        <p>Sealed boxes: <strong>${total}</strong> · Available: <strong>${avail}</strong>${live}</p>
         <p class="muted">Contents are hidden until purchase + open. Opening uses the pre-committed allocation — no re-draw.</p>
         <div class="tier-counts">${Object.entries(counts)
           .map(([k, v]) => `<span class="chip">${escapeHtml(tierLabel(k))}: ${v}</span>`)
@@ -112,14 +138,12 @@
             <p>${escapeHtml(b.guarantee || "")}</p>
             <p><strong>${Number(b.price_xch)} XCH</strong> · ${b.nft_count} NFT(s)</p>
             <p class="status">${escapeHtml(b.mint_status)}</p>
-            <button type="button" class="buy-btn" data-box="${escapeHtml(b.box_id)}" ${b.mint_status !== "available" ? "disabled" : ""}>
-              Reserve / Buy (backend)
-            </button>
+            <a class="buy-btn" href="mint.html">Buy on the mint page</a>
           </article>`
           )
           .join("")}
       </div>
-      <p class="muted">Showing ${list.length} of ${filtered().length}. Purchase finalizes only after XCH payment confirmation on the mint backend.</p>
+      <p class="muted">Showing ${list.length} of ${filtered().length}. Buying happens on the mint page — approve one offer in any Chia wallet. The WizNerdZ inside are delivered automatically after the sale settles on chain.</p>
     `;
     const sel = $("#tier-filter");
     if (sel) {
@@ -128,16 +152,6 @@
         render();
       });
     }
-    root.querySelectorAll(".buy-btn").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const id = btn.getAttribute("data-box");
-        alert(
-          `Box ${id}: frontend cannot mark sold.\n` +
-            `Use mint backend: lock → confirm payment on-chain → open.\n` +
-            `CLI: python mint_system/mint_api.py lock ${id} <buyer>`
-        );
-      });
-    });
   }
 
   function escapeHtml(s) {
@@ -149,9 +163,15 @@
   }
 
   window.WizNerdzSealedBoxes = { loadSealed, STATE };
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", loadSealed);
-  } else {
+  function boot() {
     loadSealed();
+    loadStats();
+    // counters track the chain, not the browser — refresh keeps them honest
+    setInterval(loadStats, 30000);
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", boot);
+  } else {
+    boot();
   }
 })();
