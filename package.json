@@ -1,0 +1,9 @@
+{
+  "name": "wiznerdz-pixel-paragon",
+  "private": true,
+  "version": "1.0.0",
+  "description": "WizNerdZ Pixel Paragon — site + sealed-box mint API",
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  }
+}
