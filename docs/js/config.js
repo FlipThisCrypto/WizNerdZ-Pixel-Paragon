@@ -85,15 +85,32 @@ window.WIZNERDZ_CONFIG = Object.freeze({
   walletConnect: {
     projectId: "52a9997711dde5c4f822e5b08ea8f275",
     chainId: "chia:mainnet",
+    // Taking an offer is the ONE capability every Chia wallet implements, and
+    // it is the only thing a buyer actually has to do. So it is the only
+    // required method.
+    //
+    // Requiring more than this is what broke Sage pairing ("could not list
+    // wallets"): WalletConnect rejects a session outright if the wallet cannot
+    // satisfy every REQUIRED method, and Sage does not reliably expose
+    // chia_getWallets / chia_getNFTs. chia_mintNFT is gone entirely — the
+    // browser never mints; WizNerdZ are pushed after settlement.
     requiredNamespaces: {
+      chia: {
+        methods: ["chia_takeOffer"],
+        chains: ["chia:mainnet"],
+        events: [],
+      },
+    },
+    // Used opportunistically when a wallet offers them. Never a precondition.
+    optionalNamespaces: {
       chia: {
         methods: [
           "chia_getCurrentAddress",
-          "chia_getWallets",
           "chia_getNextAddress",
           "chia_signMessageByAddress",
-          "chia_takeOffer",
+          "chia_getWallets",
           "chia_getNfts",
+          "chia_getNFTs",
         ],
         chains: ["chia:mainnet"],
         events: [],
@@ -110,11 +127,17 @@ window.WIZNERDZ_CONFIG = Object.freeze({
   },
 
   mint: {
-    enabled: false,
-    priceXch: null,
+    enabled: true,
+    priceXch: 0.0000001, // live test price (100,000 mojos)
     mintgardenUrl: "",
-    offerUrl: "",
+    // Mint API root. /mint-offer dispenses a sealed box; /mint-status reports
+    // what was actually delivered once the chain confirms it.
+    apiBase: "https://wiznerdz-pixel-paragon.netlify.app/api",
+    // Dispenses a SEALED BOX offer. Returns JSON, not raw offer text:
+    // { tier, offer, boxNftId, priceXch, claimToken, sealed }
+    offerUrl: "https://wiznerdz-pixel-paragon.netlify.app/api/mint-offer",
+    tier: "blind_single",
     statusNote:
-      "Mint is not live yet — drop is coming soon. Connect Sage anytime to get ready; takeOffer arms when offers publish.",
+      "Live test: one sealed Blind Single box. Approve the offer in your wallet to buy the box — the WizNerd inside is delivered separately once the sale settles on chain.",
   },
 });

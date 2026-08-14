@@ -150,6 +150,10 @@
       await ensureClient();
       setStatus("Open Sage → WalletConnect, then scan or approve the session.");
 
+      // Keep REQUIRED minimal (takeOffer only) and put everything else in
+      // optional: a wallet missing an optional method still pairs, whereas a
+      // missing required method kills the session.
+      const optional = cfg.walletConnect.optionalNamespaces?.chia;
       const { uri, approval } = await client.connect({
         requiredNamespaces: {
           chia: {
@@ -158,6 +162,17 @@
             events: cfg.walletConnect.requiredNamespaces.chia.events || [],
           },
         },
+        ...(optional
+          ? {
+              optionalNamespaces: {
+                chia: {
+                  methods: optional.methods,
+                  chains: [cfg.walletConnect.chainId],
+                  events: optional.events || [],
+                },
+              },
+            }
+          : {}),
       });
 
       if (uri && qrBox) {
@@ -260,23 +275,43 @@
       return;
     }
     try {
-      setStatus("Fetching offer…");
-      const offerRes = await fetch(cfg.mint.offerUrl);
-      if (!offerRes.ok) throw new Error("Failed to fetch mint offer");
-      const offerText = await offerRes.text();
-      setStatus("Approve takeOffer in Sage…");
+      setStatus("Reserving a sealed box…");
+      const tier = cfg.mint.tier || "blind_single";
+      const url = `${cfg.mint.offerUrl}?tier=${encodeURIComponent(tier)}`;
+      const offerRes = await fetch(url, { headers: { accept: "application/json" } });
+      const data = await offerRes.json().catch(() => null);
+
+      if (offerRes.status === 410) {
+        setStatus("Sold out — no sealed boxes left in this tier.", "warn");
+        return;
+      }
+      if (!offerRes.ok || !data?.offer) {
+        throw new Error(data?.message || data?.error || "Could not fetch a sealed box offer");
+      }
+
+      // What the wallet shows is a generic sealed box, never the WizNerd
+      // inside. Every box in a tier is identical, so there is nothing to
+      // select on and no way to refuse-and-redraw for a rarer one.
+      setStatus("Approve the offer in your wallet…");
       const result = await client.request({
         topic: session.topic,
         chainId: cfg.walletConnect.chainId,
         request: {
           method: "chia_takeOffer",
-          params: {
-            offer: offerText.trim(),
-            fee: 0,
-          },
+          params: { offer: String(data.offer).trim(), fee: 0 },
         },
       });
-      setStatus("Mint offer submitted: " + JSON.stringify(result).slice(0, 120), "ok");
+
+      // Approval means the box is bought. It does NOT mean anything has been
+      // delivered, and this page must never claim otherwise or trigger
+      // delivery itself: fulfillment is driven by observed chain state, so it
+      // completes even if this tab is closed right now.
+      console.info("takeOffer result", result, "box", data.boxNftId);
+      setStatus(
+        "Box purchased. Your WizNerd is delivered automatically once the sale " +
+          "settles on chain — you can safely close this page.",
+        "ok"
+      );
     } catch (err) {
       console.error(err);
       setStatus(classifyErr(err), "err");

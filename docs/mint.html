@@ -61,6 +61,19 @@
     footer.site { margin-top: var(--space-6); padding-top: var(--space-5); border-top: 1px solid var(--line); font-size: 0.82rem; }
     #commitment { font-family: var(--font-mono); font-size: 0.7rem; word-break: break-all; color: var(--muted); }
   </style>
+  <style>
+    /* Functional layout only — deliberately unstyled beyond this so the visual
+       pass can own the look without unpicking anything. */
+    .wz-wallet-bar {
+      display: flex; align-items: center; gap: .75rem;
+      flex-wrap: wrap; margin: 0 0 1.25rem;
+    }
+    .wz-wallet-bar .wc-uri {
+      max-width: 100%; overflow-x: auto; white-space: pre-wrap;
+      word-break: break-all; font-size: .7rem; opacity: .75;
+    }
+    #wz-wc-uri { flex-basis: 100%; }
+  </style>
 </head>
 <body data-mint-base="mint">
   <div class="wrap">
@@ -92,6 +105,7 @@
   </div>
 
   <script src="js/config.js"></script>
+  <script src="js/wallet-core.js"></script>
   <script src="js/reveal/reveal-config.js"></script>
   <script src="js/reveal/state-machine.js"></script>
   <script src="js/reveal/atmosphere.js"></script>
