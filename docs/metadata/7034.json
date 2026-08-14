@@ -1,7 +1,7 @@
 {
   "format": "CHIP-0007",
-  "name": "Phunky \u00b7 WizNerdz #7034",
-  "description": "Phunky (@abit_HEX) \u2014 community 1-of-1 WizNerd. WizNerdZ Pixel Paragon by Fiend Studios.",
+  "name": "Amiri \u00b7 WizNerdz #7034",
+  "description": "Amiri (@postboyamiri) \u2014 community 1-of-1 WizNerd. WizNerdZ Pixel Paragon by Fiend Studios.",
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdz",
@@ -88,15 +88,15 @@
     },
     {
       "trait_type": "Community Handle",
-      "value": "@abit_HEX"
+      "value": "@postboyamiri"
     },
     {
       "trait_type": "Display Name",
-      "value": "Phunky"
+      "value": "Amiri"
     },
     {
       "trait_type": "Name",
-      "value": "Phunky"
+      "value": "Amiri"
     },
     {
       "trait_type": "Rarity",
@@ -118,7 +118,7 @@
     "border_px": 1,
     "class_matched": true,
     "community_1of1": true,
-    "handle": "@abit_HEX",
+    "handle": "@postboyamiri",
     "guide": "1OF1_ART_GUIDE.md",
     "max_supply": 1,
     "image_basename": "7034.png",
@@ -130,7 +130,7 @@
       "familiar": "None",
       "logo": "WizNerdZ Pixel Paragon 2x"
     },
-    "display_name": "Phunky",
+    "display_name": "Amiri",
     "rarity_score": null,
     "rarity_rank_numeric": 0,
     "rarity_pool": "1of1"

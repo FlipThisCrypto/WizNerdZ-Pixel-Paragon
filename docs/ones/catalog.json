@@ -301,10 +301,10 @@
     },
     {
       "token_id": 5074,
-      "display_name": "Fiend",
-      "handle": "@FiendStudios",
-      "nft_name": "Fiend \u00b7 WizNerdz #5074",
-      "ones_file": "ones/5074_Fiend.png",
+      "display_name": "Ashen",
+      "handle": "@Ashen_R0",
+      "nft_name": "Ashen \u00b7 WizNerdz #5074",
+      "ones_file": "ones/5074_Ashen.png",
       "image": "images/5074.png",
       "metadata": "metadata/5074.json"
     },
@@ -481,10 +481,10 @@
     },
     {
       "token_id": 7034,
-      "display_name": "Phunky",
-      "handle": "@abit_HEX",
-      "nft_name": "Phunky \u00b7 WizNerdz #7034",
-      "ones_file": "ones/7034_Phunky.png",
+      "display_name": "Amiri",
+      "handle": "@postboyamiri",
+      "nft_name": "Amiri \u00b7 WizNerdz #7034",
+      "ones_file": "ones/7034_Amiri.png",
       "image": "images/7034.png",
       "metadata": "metadata/7034.json"
     },

@@ -50,7 +50,7 @@ Collection images stay at `images/{id}.png`.
 | 4358 | Chia · WizNerdz #4358 | @chia_project | `ones/4358_Chia.png` |
 | 4929 | Memecoin · WizNerdz #4929 | @ChiaMemecoin | `ones/4929_Memecoin.png` |
 | 5012 | Mobilx · WizNerdz #5012 | @m0b1lx | `ones/5012_Mobilx.png` |
-| 5074 | Fiend · WizNerdz #5074 | @FiendStudios | `ones/5074_Fiend.png` |
+| 5074 | Ashen · WizNerdz #5074 | @Ashen_R0 | `ones/5074_Ashen.png` |
 | 5095 | Seedsnapp · WizNerdz #5095 | @seedsnapp | `ones/5095_Seedsnapp.png` |
 | 5189 | Matthew · WizNerdz #5189 | @MatthewSHintz | `ones/5189_Matthew.png` |
 | 5279 | Sol · WizNerdz #5279 | @solomonslot | `ones/5279_Sol.png` |
@@ -70,7 +70,7 @@ Collection images stay at `images/{id}.png`.
 | 6632 | Bram · WizNerdz #6632 | @bramcohen | `ones/6632_Bram.png` |
 | 6947 | Monkeyzoo · WizNerdz #6947 | @monkeyzoo | `ones/6947_Monkeyzoo.png` |
 | 7014 | Dennis · WizNerdz #7014 | @MrDennisV | `ones/7014_Dennis.png` |
-| 7034 | Phunky · WizNerdz #7034 | @abit_HEX | `ones/7034_Phunky.png` |
+| 7034 | Amiri · WizNerdz #7034 | @postboyamiri | `ones/7034_Amiri.png` |
 | 7071 | Peel · WizNerdz #7071 | @neilpeel_me | `ones/7071_Peel.png` |
 | 7130 | XCH Foundation · WizNerdz #7130 | @XchFoundation | `ones/7130_XCH_Foundation.png` |
 | 7219 | Gene · WizNerdz #7219 | @hoffmang | `ones/7219_Gene.png` |

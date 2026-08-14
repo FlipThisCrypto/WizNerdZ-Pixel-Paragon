@@ -89,7 +89,7 @@ Statistical rarity used at generation time (and refreshed here from final metada
 | 4358 | Chia | @chia_project | Chia · WizNerdz #4358 |
 | 4929 | Memecoin | @ChiaMemecoin | Memecoin · WizNerdz #4929 |
 | 5012 | Mobilx | @m0b1lx | Mobilx · WizNerdz #5012 |
-| 5074 | Fiend | @FiendStudios | Fiend · WizNerdz #5074 |
+| 5074 | Ashen | @Ashen_R0 | Ashen · WizNerdz #5074 |
 | 5095 | Seedsnapp | @seedsnapp | Seedsnapp · WizNerdz #5095 |
 | 5189 | Matthew | @MatthewSHintz | Matthew · WizNerdz #5189 |
 | 5279 | Sol | @solomonslot | Sol · WizNerdz #5279 |
@@ -109,7 +109,7 @@ Statistical rarity used at generation time (and refreshed here from final metada
 | 6632 | Bram | @bramcohen | Bram · WizNerdz #6632 |
 | 6947 | Monkeyzoo | @monkeyzoo | Monkeyzoo · WizNerdz #6947 |
 | 7014 | Dennis | @MrDennisV | Dennis · WizNerdz #7014 |
-| 7034 | Phunky | @abit_HEX | Phunky · WizNerdz #7034 |
+| 7034 | Amiri | @postboyamiri | Amiri · WizNerdz #7034 |
 | 7071 | Peel | @neilpeel_me | Peel · WizNerdz #7071 |
 | 7130 | XCH Foundation | @XchFoundation | XCH Foundation · WizNerdz #7130 |
 | 7219 | Gene | @hoffmang | Gene · WizNerdz #7219 |

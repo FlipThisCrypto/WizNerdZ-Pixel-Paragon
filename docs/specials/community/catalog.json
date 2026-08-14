@@ -40,13 +40,13 @@
       "display_name": "Mayor"
     },
     {
-      "handle": "@FiendStudios",
-      "file": "special\\community_1of1\\FiendStudios_640.png",
+      "handle": "@Ashen_R0",
+      "file": "special\\community_1of1\\Ashen_R0_640.png",
       "class": "Warlock Fel",
       "background": "Gold",
       "dna": "84ea56937bd9f2fb",
       "token_id": 5074,
-      "display_name": "Fiend"
+      "display_name": "Ashen"
     },
     {
       "handle": "@MiniMarmots",
@@ -94,13 +94,13 @@
       "display_name": "Okra"
     },
     {
-      "handle": "@abit_HEX",
-      "file": "special\\community_1of1\\abit_HEX_640.png",
+      "handle": "@postboyamiri",
+      "file": "special\\community_1of1\\postboyamiri_640.png",
       "class": "Cryomancer",
       "background": "Red",
       "dna": "0cbb609040776303",
       "token_id": 7034,
-      "display_name": "Phunky"
+      "display_name": "Amiri"
     },
     {
       "handle": "@HYP3RH3X",
@@ -556,13 +556,13 @@
     "@MrDennisV": "Dennis",
     "@monkeyzoo": "Monkeyzoo",
     "@MayorAbandoned": "Mayor",
-    "@FiendStudios": "Fiend",
+    "@Ashen_R0": "Ashen",
     "@MiniMarmots": "Mini Marmot",
     "@BraidsBlock": "Max",
     "@DanPerry_Chia": "Dan",
     "@endertown": "Ender",
     "@SpaceOkra": "Okra",
-    "@abit_HEX": "Phunky",
+    "@postboyamiri": "Amiri",
     "@HYP3RH3X": "Hyperhex",
     "@ignoreart": "Ignore",
     "@seedsnapp": "Seedsnapp",
