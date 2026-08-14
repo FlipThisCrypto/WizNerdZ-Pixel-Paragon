@@ -27,9 +27,38 @@
   // delivers from observed chain state either way.
   const LAST_BOX = "wiznerdz:last-box";
 
-  function notice(html) {
+  function notice(html, { reveal = false } = {}) {
     const el = document.getElementById("mint-notice");
-    if (el) el.innerHTML = html;
+    if (!el) return;
+    el.innerHTML = html;
+    // The notice sits above the tier grid; a buyer who clicked a button far
+    // below would otherwise see "nothing happen" while the answer sat
+    // off-screen at the top of the page.
+    if (reveal && html) el.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  /** Per-tier availability from the live stats API → button labels. */
+  async function refreshAvailability() {
+    if (!bridge.hasBackend) return;
+    try {
+      const res = await fetch(`${CFG.mint.apiBase}/mint-stats`, { headers: { accept: "application/json" } });
+      if (!res.ok) return;
+      const stats = await res.json();
+      document.querySelectorAll(".summon-btn[data-tier]").forEach((b) => {
+        const t = stats.byTier?.[b.dataset.tier];
+        const out = !t || t.dispensable === 0;
+        b.dataset.soldOut = out ? "1" : "";
+        if (out) {
+          b.textContent = "SOLD OUT";
+          b.disabled = true;
+        } else if (b.textContent === "SOLD OUT") {
+          b.textContent = "SUMMON";
+          refreshButtons();
+        }
+      });
+    } catch (_) {
+      /* stats are best-effort; buttons keep their wallet-gated state */
+    }
   }
 
   function walletBar() {
@@ -134,6 +163,13 @@
   function refreshButtons() {
     const connected = !!(window.WizNerdzWallet && window.WizNerdzWallet.isConnected);
     document.querySelectorAll(".summon-btn[data-tier]").forEach((b) => {
+      // sold-out wins over everything — connecting a wallet must not re-arm
+      // a tier with no inventory
+      if (b.dataset.soldOut === "1") {
+        b.disabled = true;
+        b.title = "Sold out";
+        return;
+      }
       b.disabled = !bridge.hasBackend || !connected;
       b.title = !bridge.hasBackend
         ? "Mint backend not connected yet"
@@ -265,6 +301,8 @@
       walletBar();
       openBoxBar();
       refreshButtons();
+      refreshAvailability();
+      setInterval(refreshAvailability, 30000);
       resumePendingBox();
     }
   }
@@ -349,10 +387,12 @@
         notice(
           `<strong>Your box is bought.</strong> <span class="muted">Delivery is still confirming on chain. ` +
             `You can close this page — come back and it will open automatically. ` +
-            `Box <code>${escapeHtml(String(err.boxNftId).slice(0, 18))}…</code></span>`
+            `Box <code>${escapeHtml(String(err.boxNftId).slice(0, 18))}…</code></span>`,
+          { reveal: true }
         );
       } else {
-        notice(`<strong>Summon failed.</strong> <span class="muted">${escapeHtml(String(err.message || err))}</span>`);
+        notice(`<strong>Summon failed.</strong> <span class="muted">${escapeHtml(String(err.message || err))}</span>`, { reveal: true });
+        refreshAvailability(); // a sold-out failure should mark the button too
       }
     } finally {
       btn.textContent = original;
