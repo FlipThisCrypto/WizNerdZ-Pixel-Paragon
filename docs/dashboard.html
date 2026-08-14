@@ -4,93 +4,157 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>WizNerdZ Pixel Paragon — Project Dashboard</title>
+  <link rel="stylesheet" href="css/tokens.css" />
   <style>
+    /* Operator terminal, in the site's own voice — chrome substrate carrying
+       the data, one arcane accent layer, mono for everything machine-flavored.
+       Class hooks are unchanged so the content below needs no edits. */
     :root {
-      --bg: #0a0a12;
-      --panel: #12121e;
-      --panel2: #181828;
-      --text: #f2eefc;
-      --muted: #9a92b3;
-      --gold: #f0c020;
-      --purple: #8b2fe8;
-      --magenta: #ff3dff;
-      --green: #4ade80;
-      --red: #f87171;
-      --blue: #60a5fa;
-      --line: #2a2540;
-      --done: #14532d;
-      --todo: #3b1d5c;
-      --wip: #713f12;
+      /* Substrate aliases INTO tokens.css — if the site retunes its chrome,
+         this page follows instead of silently diverging. */
+      --bg: var(--black-0, #020308);
+      --panel: var(--black-2, #0a0c12);
+      --panel2: var(--black-3, #10141c);
+      --text: var(--silver-1, #e8eef6);
+      --muted: var(--silver-3, #8b96a8);
+      --silver: var(--silver-2, #c5ceda);
+      --blue: var(--blue-6, #a8d4ff);
+      --mono: var(--font-mono, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace);
+      --line: rgba(168, 212, 255, 0.22);
+      --line-dim: rgba(168, 212, 255, 0.12);
+      /* Page-specific accent layer */
+      --gold: #ffd479;          /* 1-of-1s ONLY */
+      --purple: #c9a2ff;        /* readable arcane text */
+      --arcane: #8b2fe8;        /* arcane core */
+      --arcane-glow: rgba(139, 47, 232, 0.5);
+      --green: #9dffb0;         /* status/OK ONLY */
+      --red: #ff8a9a;
+      /* ROLE LAYER — every status color derives from these, never from
+         literals. This is what makes "green = status, gold = 1/1"
+         enforceable instead of a convention that quietly erodes. */
+      --ok: var(--green);
+      --warn: #e8d48a;
+      --err: var(--red);
+      --state-todo: var(--arcane);
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: "Segoe UI", system-ui, sans-serif;
+      font-family: "Segoe UI", ui-sans-serif, system-ui, sans-serif;
       background:
-        radial-gradient(900px 500px at 10% -10%, #2a1450 0%, transparent 50%),
-        radial-gradient(700px 400px at 100% 0%, #1a3040 0%, transparent 45%),
+        radial-gradient(1000px 520px at 12% -12%, rgba(139, 47, 232, 0.14) 0%, transparent 55%),
+        radial-gradient(760px 420px at 100% 0%, rgba(26, 107, 181, 0.12) 0%, transparent 48%),
         var(--bg);
       color: var(--text);
-      line-height: 1.5;
+      line-height: 1.55;
     }
-    a { color: var(--gold); text-decoration: none; }
-    a:hover { color: var(--magenta); }
-    .wrap { max-width: 1200px; margin: 0 auto; padding: 28px 20px 80px; }
+    /* the one signature: an arcane scanline across the very top */
+    body::before {
+      content: "";
+      position: fixed; inset: 0 0 auto 0; height: 2px; z-index: 10;
+      background: linear-gradient(90deg, transparent, var(--arcane) 30%, var(--purple) 50%, var(--arcane) 70%, transparent);
+      opacity: 0.9;
+    }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { color: var(--purple); }
+    :focus-visible { outline: 2px solid var(--purple); outline-offset: 3px; }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 30px 20px 80px; }
     header {
       display: flex; flex-wrap: wrap; gap: 18px; align-items: center;
-      margin-bottom: 28px; padding-bottom: 20px; border-bottom: 1px solid var(--line);
+      margin-bottom: 30px; padding-bottom: 22px; border-bottom: 1px solid var(--line);
     }
     header img {
       height: 56px; image-rendering: pixelated;
-      background: #000; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px;
+      background: #000; padding: 8px 12px; border: 1px solid var(--line); border-radius: 12px;
     }
-    h1 { margin: 0 0 4px; font-size: 1.75rem; letter-spacing: 0.02em; }
-    .sub { color: var(--muted); font-size: 0.95rem; }
+    h1 {
+      margin: 0 0 4px; font-size: 1.45rem; font-weight: 700; letter-spacing: 0.05em;
+      font-family: var(--mono); text-transform: uppercase;
+    }
+    .sub { color: var(--muted); font-size: 0.92rem; }
     .pill {
-      display: inline-block; font-size: 0.72rem; font-weight: 700;
-      padding: 3px 8px; border-radius: 999px; margin-right: 6px; letter-spacing: 0.04em;
+      display: inline-block; font-size: 0.7rem; font-weight: 700;
+      font-family: var(--mono); letter-spacing: 0.14em;
+      padding: 3px 9px; border-radius: 999px; margin-right: 6px;
+      border: 1px solid transparent;
     }
-    .pill.live { background: #14532d; color: #bbf7d0; }
-    .pill.chain { background: #1e3a5f; color: #bfdbfe; }
+    .pill.live { background: rgba(157, 255, 176, 0.12); color: var(--ok); border-color: rgba(157, 255, 176, 0.4); }
+    .pill.chain { background: rgba(168, 212, 255, 0.1); color: var(--blue); border-color: rgba(168, 212, 255, 0.3); }
+    .pill.done { background: rgba(157, 255, 176, 0.12); color: var(--ok); border-color: rgba(157, 255, 176, 0.4); }
+    .pill.wip  { background: rgba(232, 212, 138, 0.12); color: var(--warn); border-color: rgba(232, 212, 138, 0.4); }
+    .pill.todo { background: rgba(139, 47, 232, 0.14); color: var(--purple); border-color: rgba(139, 47, 232, 0.5); }
     .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
     @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
     .full { grid-column: 1 / -1; }
     .panel {
-      background: var(--panel);
+      position: relative;
+      background: linear-gradient(160deg, var(--panel2), var(--panel));
       border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 18px 18px 16px;
+      border-radius: 16px;
+      padding: 20px 20px 18px;
+      overflow: hidden;
+      transition: border-color 160ms ease;
+    }
+    .panel:hover { border-color: rgba(201, 162, 255, 0.4); }
+    /* section number as a ghost numeral — structure you can feel at a glance */
+    .panel[data-n]::after {
+      content: attr(data-n);
+      position: absolute; top: -14px; right: 2px;
+      font-family: var(--mono); font-size: 5rem; font-weight: 800; line-height: 1;
+      color: rgba(201, 162, 255, 0.07); pointer-events: none; user-select: none;
     }
     .panel h2 {
-      margin: 0 0 12px;
-      font-size: 1.05rem;
-      color: var(--gold);
+      margin: 0 0 14px;
+      font-family: var(--mono); font-size: 0.82rem; font-weight: 700;
+      letter-spacing: 0.22em; text-transform: uppercase;
+      color: var(--silver);
       display: flex; align-items: center; gap: 8px;
     }
-    .panel h3 { margin: 14px 0 8px; font-size: 0.9rem; color: var(--purple); }
+    .panel h2::before { content: "▮"; color: var(--arcane); font-size: 0.7em; }
+    .panel h3 {
+      margin: 16px 0 8px; font-size: 0.74rem; color: var(--purple);
+      font-family: var(--mono); letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600;
+    }
     .stats {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
       gap: 10px;
     }
     .stat {
-      background: var(--panel2);
-      border: 1px solid var(--line);
+      background: rgba(2, 3, 8, 0.55);
+      border: 1px solid var(--line-dim);
       border-radius: 10px;
-      padding: 12px;
+      padding: 12px 12px 10px;
     }
-    .stat span { display: block; color: var(--muted); font-size: 0.75rem; }
-    .stat b { font-size: 1.15rem; color: var(--gold); }
+    .stat span {
+      display: block; color: var(--muted); font-size: 0.7rem;
+      font-family: var(--mono); letter-spacing: 0.16em; text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+    .stat b { font-size: 1.3rem; font-family: var(--mono); color: var(--text); font-weight: 700; }
+    .stat b.hot { color: var(--purple); text-shadow: 0 0 18px var(--arcane-glow); }
+    .stat b.ok { color: var(--ok); }
+    .stat b.gold { color: var(--gold); }
+    .stat b.err { color: var(--err); font-size: 0.92rem; text-shadow: none; }
     table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
-    th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
-    th { color: var(--muted); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    /* wide tables scroll within their own box — the panel's overflow:hidden
+       (needed for the ghost numerals) would otherwise clip cells on mobile */
+    @media (max-width: 700px) {
+      table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    }
+    th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line-dim); vertical-align: top; }
+    th {
+      color: var(--blue); font-weight: 600; font-size: 0.7rem;
+      font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.16em;
+    }
     code, .path {
-      font-family: ui-monospace, Consolas, monospace;
+      font-family: var(--mono);
       font-size: 0.82rem;
-      background: #0c0c16;
+      background: rgba(2, 3, 8, 0.7);
+      border: 1px solid var(--line-dim);
       padding: 1px 6px;
       border-radius: 4px;
-      color: #d8d0ff;
+      color: var(--purple);
     }
     ul.tasks { list-style: none; padding: 0; margin: 0; }
     ul.tasks li {
@@ -100,49 +164,65 @@
       padding: 10px 12px;
       margin-bottom: 8px;
       border-radius: 10px;
-      border: 1px solid var(--line);
-      background: var(--panel2);
+      border: 1px solid var(--line-dim);
+      background: rgba(2, 3, 8, 0.45);
     }
-    ul.tasks li.done { border-color: #166534; background: linear-gradient(90deg, #052e16 0%, var(--panel2) 40%); }
-    ul.tasks li.wip { border-color: #a16207; background: linear-gradient(90deg, #422006 0%, var(--panel2) 40%); }
-    ul.tasks li.todo { border-color: #6b21a8; }
+    ul.tasks li.done { border-color: rgba(157, 255, 176, 0.3); }
+    ul.tasks li.wip { border-color: rgba(232, 212, 138, 0.35); }
+    ul.tasks li.todo { border-color: rgba(139, 47, 232, 0.4); }
     .check {
       width: 22px; height: 22px; border-radius: 6px;
       display: flex; align-items: center; justify-content: center;
-      font-size: 0.75rem; font-weight: 800; margin-top: 2px;
+      font-size: 0.72rem; font-weight: 800; margin-top: 2px; font-family: var(--mono);
     }
-    .done .check { background: var(--green); color: #052e16; }
-    .wip .check { background: var(--gold); color: #422006; }
-    .todo .check { background: #3b0764; color: #e9d5ff; border: 1px solid #7e22ce; }
+    .done .check { background: var(--ok); color: var(--bg); }
+    .wip .check { background: var(--warn); color: var(--bg); }
+    .todo .check { background: rgba(139, 47, 232, 0.25); color: var(--purple); border: 1px solid rgba(139, 47, 232, 0.6); }
     .task-title { font-weight: 700; margin-bottom: 2px; }
     .task-meta { color: var(--muted); font-size: 0.84rem; }
-    .task-meta strong { color: #c4b5fd; font-weight: 600; }
+    .task-meta strong { color: var(--purple); font-weight: 600; }
     .cols-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
     @media (max-width: 700px) { .cols-2 { grid-template-columns: 1fr; } }
     .note {
       font-size: 0.86rem;
-      color: var(--muted);
-      border-left: 3px solid var(--magenta);
+      color: var(--silver);
+      border-left: 2px solid var(--arcane);
       padding: 8px 12px;
       margin: 10px 0;
-      background: #160f22;
+      background: rgba(139, 47, 232, 0.07);
       border-radius: 0 8px 8px 0;
     }
-    .links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
     .btn {
-      display: inline-block;
-      padding: 8px 12px;
-      border-radius: 8px;
-      border: 1px solid var(--purple);
-      background: linear-gradient(180deg, #2a1450, #160e2a);
+      display: inline-flex; align-items: center;
+      min-height: 34px;
+      padding: 0 14px;
+      border-radius: 10px;
+      border: 1px solid var(--line);
+      background: rgba(168, 212, 255, 0.06);
       color: var(--text);
-      font-size: 0.85rem;
+      font-size: 0.72rem; font-family: var(--mono);
+      letter-spacing: 0.14em; text-transform: uppercase;
+      transition: border-color 160ms ease, transform 160ms ease;
     }
-    .btn:hover { border-color: var(--magenta); color: #fff; }
+    .btn:hover { border-color: var(--arcane); color: var(--text); transform: translateY(-2px); }
+    /* machine values stay in the mono register everywhere */
+    #specials td:first-child { font-family: var(--mono); }
+    .panel ol { font-size: 0.9rem; color: var(--silver); }
+    .toc { margin-top: 10px; }
     footer { margin-top: 28px; color: var(--muted); font-size: 0.8rem; }
-    .toc a { display: inline-block; margin: 0 10px 6px 0; font-size: 0.85rem; }
+    .toc a {
+      display: inline-block; margin: 0 8px 6px 0; font-size: 0.7rem;
+      font-family: var(--mono); letter-spacing: 0.14em; text-transform: uppercase;
+      padding: 3px 10px; border: 1px solid var(--line-dim); border-radius: 999px;
+      color: var(--silver);
+    }
+    .toc a:hover { border-color: var(--arcane); color: var(--purple); }
+    @media (prefers-reduced-motion: reduce) {
+      .panel, .btn { transition: none; }
+      .btn:hover { transform: none; }
+    }
   </style>
-  <link rel="stylesheet" href="css/tokens.css" />
 </head>
 <body>
   <div class="wrap">
@@ -155,7 +235,7 @@
           <span class="pill chain">CHIA · CHIP-0007</span>
           Single source of truth for status, paths, and next steps
         </div>
-        <div class="toc" style="margin-top:10px">
+        <div class="toc">
           <a href="#direction">Direction</a>
           <a href="#status">Status</a>
           <a href="#tasks">Task list</a>
@@ -169,8 +249,8 @@
 
     <div class="grid">
       <!-- DIRECTION -->
-      <section class="panel full" id="direction">
-        <h2>1 · Project direction</h2>
+      <section class="panel full" id="direction" data-n="01">
+        <h2>Project direction</h2>
         <p>
           <strong>WizNerdZ Pixel Paragon</strong> is an <strong>8,888-piece</strong> generative pixel-art NFT collection
           for the <strong>Chia blockchain</strong> (CHIP-0007), published by <strong>Fiend Studios</strong>.
@@ -181,18 +261,18 @@
           <div>
             <h3>North star / One Thing</h3>
             <ul>
-              <li><strong>NOW:</strong> Community PFP → WizNerdZ 1:1 nominations through <strong>midnight July 31, 2026 (US Eastern)</strong></li>
+              <li><strong>NOW:</strong> Sealed-box mint is live end-to-end — dispense → WalletConnect takeOffer → chain-settled delivery → on-page reveal. First real sale fulfilled (Hyperhex 1/1, blind single).</li>
               <li>Landing live: countdown, nominate→GitHub Issues, Sage WC, chrome UI, token viewer, rarity table</li>
               <li>Metadata: absolute Pages image URLs on all 8,888 CHIP-0007 files</li>
               <li>Splits 40% dev / 40% wizards / 20% Bepe.Love · royalties 10% · wallet configured</li>
-              <li>Mint remains disarmed until 1:1 lock + MintGarden/offers</li>
+              <li>Full drop pending: branded box inventory + real tier pricing, then offers load in bulk</li>
             </ul>
           </div>
           <div>
             <h3>Non-goals (for now)</h3>
             <ul>
               <li>No custodial mint keys in the browser or repo</li>
-              <li>No icon/banner fields in on-chain meta (MintGarden UI)</li>
+              <li>No custodial signing in serverless — delivery signing stays operator-side until custody is decided</li>
               <li>No reintroducing the old 64×64 rulepack pipeline (archived locally)</li>
             </ul>
           </div>
@@ -209,25 +289,26 @@
       </section>
 
       <!-- STATUS -->
-      <section class="panel full" id="status">
-        <h2>2 · Current status</h2>
+      <section class="panel full" id="status" data-n="02">
+        <h2>Current status</h2>
         <div class="stats">
           <div class="stat"><span>Supply</span><b>8,888</b></div>
-          <div class="stat"><span>Generative</span><b>8,878</b></div>
-          <div class="stat"><span>Specials 1/1</span><b>10</b></div>
-          <div class="stat"><span>Image size</span><b>640×640</b></div>
+          <div class="stat"><span>Generative</span><b>8,817</b></div>
+          <div class="stat"><span>One-of-ones</span><b class="gold">71</b></div>
+          <div class="stat"><span>Sealed boxes</span><b>4,196</b></div>
+          <div class="stat"><span>Boxes sold</span><b class="hot" id="live-sold">—</b></div>
+          <div class="stat"><span>Boxes opened</span><b class="hot" id="live-opened">—</b></div>
+          <div class="stat"><span>Buyable now</span><b class="ok" id="live-dispensable">—</b></div>
           <div class="stat"><span>Meta standard</span><b>CHIP-0007</b></div>
-          <div class="stat"><span>Logo stamp</span><b>2× top-right</b></div>
-          <div class="stat"><span>Staff None</span><b>~52%</b></div>
-          <div class="stat"><span>Spell None</span><b>~56%</b></div>
-          <div class="stat"><span>Familiar None</span><b>~57%</b></div>
+          <div class="stat"><span>Image size</span><b>640×640</b></div>
         </div>
+        <p class="note" id="live-asof" style="display:none"></p>
         <h3>Metadata collection links</h3>
         <table>
           <tr><th>Field</th><th>Value</th></tr>
           <tr><td>twitter</td><td><code>https://x.com/FiendStudios</code></td></tr>
           <tr><td>website</td><td><code>https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/</code></td></tr>
-          <tr><td>icon / banner</td><td><strong>Removed</strong> (MintGarden)</td></tr>
+          <tr><td>icon / banner</td><td>Set on both collections — WizNerdZ main + Sealed Boxes (IPFS-pinned)</td></tr>
         </table>
         <h3>Token attributes (generative)</h3>
         <p class="note">
@@ -237,13 +318,13 @@
       </section>
 
       <!-- TASK LIST -->
-      <section class="panel full" id="tasks">
-        <h2>3 · Task list (project board)</h2>
+      <section class="panel full" id="tasks" data-n="03">
+        <h2>Task list (project board)</h2>
         <p class="note">
           Status legend:
-          <span class="pill live">DONE</span>
-          <span class="pill" style="background:#713f12;color:#fde68a">WIP</span>
-          <span class="pill" style="background:#3b0764;color:#e9d5ff">TODO</span>
+          <span class="pill done">DONE</span>
+          <span class="pill wip">WIP</span>
+          <span class="pill todo">TODO</span>
         </p>
 
         <h3>A · Foundation (done)</h3>
@@ -425,8 +506,8 @@
       </section>
 
       <!-- SPECIALS -->
-      <section class="panel" id="specials">
-        <h2>4 · Named specials (1 of 1)</h2>
+      <section class="panel" id="specials" data-n="04">
+        <h2>Named specials (1 of 1)</h2>
         <table>
           <thead><tr><th>#</th><th>Name</th><th>Notes</th></tr></thead>
           <tbody>
@@ -446,8 +527,8 @@
       </section>
 
       <!-- PIPELINE -->
-      <section class="panel" id="pipeline">
-        <h2>5 · Pipeline &amp; tools</h2>
+      <section class="panel" id="pipeline" data-n="05">
+        <h2>Pipeline &amp; tools</h2>
         <table>
           <thead><tr><th>Script</th><th>Purpose</th></tr></thead>
           <tbody>
@@ -460,7 +541,7 @@
           </tbody>
         </table>
         <h3>Regenerate / fix cycle</h3>
-        <ol style="font-size:0.9rem;color:var(--muted)">
+        <ol>
           <li>Edit traits or <code>add_rarity_layers.py</code> weights/art</li>
           <li>Run <code>fix_staff_spells.py</code> (or full <code>generate_8888.py</code> only if DNA must change)</li>
           <li>Copy <code>collection_8888/images</code> + <code>metadata</code> → repo <code>docs/</code></li>
@@ -469,8 +550,8 @@
       </section>
 
       <!-- PATHS -->
-      <section class="panel full" id="paths">
-        <h2>6 · Important local paths</h2>
+      <section class="panel full" id="paths" data-n="06">
+        <h2>Important local paths</h2>
         <table>
           <thead><tr><th>What</th><th>Path</th></tr></thead>
           <tbody>
@@ -488,8 +569,8 @@
       </section>
 
       <!-- MINT -->
-      <section class="panel full" id="mint">
-        <h2>7 · Mint direction (MintGarden + Chia)</h2>
+      <section class="panel full" id="mint" data-n="07">
+        <h2>Mint direction (MintGarden + Chia)</h2>
         <div class="cols-2">
           <div>
             <h3>Metadata rules for mint</h3>
@@ -519,5 +600,40 @@
       <code>special/logo/logo_badge.png</code> is next to this file.
     </footer>
   </div>
+  <script>
+    // Live counters from the same chain-derived stats API the public pages
+    // use. A dashboard that displays hardcoded numbers is a dashboard that
+    // lies — these move when the chain moves, and say so when unreachable.
+    (async function liveStats() {
+      const API = "https://wiznerdz-pixel-paragon.netlify.app/api/mint-stats";
+      const put = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
+      try {
+        const res = await fetch(API, { headers: { accept: "application/json" } });
+        if (!res.ok) throw new Error(res.status);
+        const d = await res.json();
+        const restore = (id, cls) => {
+          const el = document.getElementById(id);
+          if (el) { el.classList.remove("err"); el.classList.add(cls); }
+        };
+        restore("live-sold", "hot"); restore("live-opened", "hot"); restore("live-dispensable", "ok");
+        put("live-sold", d.totals.sold);
+        put("live-opened", d.totals.opened);
+        put("live-dispensable", d.totals.dispensable);
+        const asof = document.getElementById("live-asof");
+        if (asof) {
+          asof.style.display = "";
+          asof.textContent = "Sold / opened / buyable are live from chain-observed outcomes · as of " +
+            new Date(d.asOf).toLocaleTimeString();
+        }
+      } catch (_) {
+        // offline must never wear a status color that means "fine"
+        ["live-sold", "live-opened", "live-dispensable"].forEach((id) => {
+          const el = document.getElementById(id);
+          if (el) { el.classList.remove("hot", "ok"); el.classList.add("err"); el.textContent = "offline"; }
+        });
+      }
+      setTimeout(liveStats, 30000);
+    })();
+  </script>
 </body>
 </html>
