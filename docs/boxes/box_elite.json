@@ -5,11 +5,11 @@
   "sensitive_content": false,
   "collection": {
     "name": "WizNerdZ Sealed Boxes",
-    "id": "a86a2b4a-9668-5cf9-a193-9783a0cf889d",
+    "id": "fe5c7f84-c336-51e0-872f-c1f8ef6d8104",
     "attributes": [
       {
         "type": "description",
-        "value": "Sealed mint boxes for WizNerdZ Pixel Paragon. Contents committed before sale."
+        "value": "Sealed mint boxes for WizNerdZ Pixel Paragon. Contents committed before sale and revealed on opening. Boxes are consumed when opened."
       },
       {
         "type": "website",
@@ -18,6 +18,10 @@
       {
         "type": "twitter",
         "value": "https://x.com/FiendStudios"
+      },
+      {
+        "type": "opens_into_collection",
+        "value": "a86a2b4a-9668-5cf9-a193-9783a0cf889d"
       }
     ]
   },
