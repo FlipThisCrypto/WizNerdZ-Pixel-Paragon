@@ -1,0 +1,67 @@
+# Netlify config — WizNerdZ Pixel Paragon
+#
+# This site is the MINT BACKEND + a mirror of the public site. GitHub Pages
+# continues to serve https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/
+# unchanged; this file has no effect on Pages (Pages ignores netlify.toml).
+#
+# Isolation note: Netlify Blobs and environment variables are scoped PER SITE.
+# Nothing here can read or write another site's stores (e.g. Bepe Love's
+# bepe-mint-* blobs). Keep it that way — never point this site at another repo.
+
+[build]
+  # The site lives in docs/ (same folder GitHub Pages serves).
+  publish = "docs"
+  command = ""
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+# ---------------------------------------------------------------- caching ---
+# Media + metadata are immutable per release, so cache hard.
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/metadata/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/reveal/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Code is NOT content-hashed in its path, so it must revalidate every load or
+# browsers serve stale JS forever after a deploy. (Learned the hard way — a
+# cached config.js masked a fix during this build.)
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Mint state must never be cached — it changes as boxes sell.
+[[headers]]
+  for = "/mint/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# The service worker must always revalidate, or it pins an old app shell.
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# ------------------------------------------------------------------ api -----
+# Friendly path for the mint API: /api/* -> the functions.
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
