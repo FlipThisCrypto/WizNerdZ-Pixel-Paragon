@@ -49,23 +49,81 @@
       btn.disabled = true;
       setWalletState("Opening WalletConnect…");
       try {
-        await window.WizNerdzWallet.connect({
-          onUri: (uri) => {
-            const box = document.getElementById("wz-wc-uri");
-            box.hidden = false;
-            box.innerHTML = "";
-            const pre = document.createElement("pre");
-            pre.className = "wc-uri";
-            pre.textContent = uri;
-            box.appendChild(pre);
-          },
-        });
+        await window.WizNerdzWallet.connect({ onUri: showWcUri });
       } catch (e) {
         setWalletState("Connect failed: " + (e.message || e));
       } finally {
         btn.disabled = false;
       }
     });
+  }
+
+  /**
+   * Show the pairing both ways a wallet can consume it:
+   *  - QR code for Sage mobile (rendered locally — the pairing secret never
+   *    leaves this page; no third-party QR service ever sees it)
+   *  - copy button for Sage desktop (Settings → WalletConnect → paste),
+   *    because hand-copying a ~500-char URI out of wrapped text is exactly
+   *    how pairing "mysteriously" fails
+   */
+  async function showWcUri(uri) {
+    const box = document.getElementById("wz-wc-uri");
+    if (!box) return;
+    box.hidden = false;
+    box.innerHTML = "";
+
+    try {
+      const QR = await import("https://esm.sh/qrcode@1.5.4");
+      const canvas = document.createElement("canvas");
+      canvas.setAttribute("role", "img");
+      canvas.setAttribute("aria-label", "WalletConnect pairing QR code");
+      canvas.style.cssText = "display:block;margin:0 0 10px;border-radius:10px";
+      await QR.toCanvas(canvas, uri, {
+        width: 220, margin: 2,
+        color: { dark: "#020308", light: "#f4f7fb" },
+      });
+      box.appendChild(canvas);
+    } catch (_) {
+      /* QR lib unreachable — copy path below still works */
+    }
+
+    const copyBtn = document.createElement("button");
+    copyBtn.type = "button";
+    copyBtn.className = "summon-btn";
+    copyBtn.textContent = "Copy pairing link";
+    copyBtn.addEventListener("click", async () => {
+      let ok = false;
+      try {
+        await navigator.clipboard.writeText(uri);
+        ok = true;
+      } catch (_) {
+        // clipboard API blocked — select the fallback textarea instead
+        ta.hidden = false;
+        ta.select();
+        try { ok = document.execCommand("copy"); } catch (_) { /* manual copy */ }
+      }
+      copyBtn.textContent = ok ? "Copied ✓" : "Copy failed — select the text below";
+      if (!ok) ta.hidden = false;
+      setTimeout(() => { copyBtn.textContent = "Copy pairing link"; }, 2500);
+    });
+    box.appendChild(copyBtn);
+
+    const ta = document.createElement("textarea");
+    ta.readOnly = true;
+    ta.value = uri;
+    ta.hidden = true;
+    ta.setAttribute("aria-label", "WalletConnect pairing link");
+    ta.style.cssText = "width:100%;min-height:70px;margin-top:8px;font-size:.68rem;" +
+      "background:transparent;color:inherit;border:1px solid rgba(168,212,255,.35);border-radius:10px;padding:8px";
+    box.appendChild(ta);
+
+    const hint = document.createElement("p");
+    hint.className = "muted";
+    hint.style.cssText = "font-size:.78rem;margin:8px 0 0";
+    hint.textContent =
+      "Sage mobile: scan the QR. Sage desktop: copy the link, then Sage → Settings → WalletConnect → paste. " +
+      "Pairing links expire after a few minutes — click Connect wallet again for a fresh one.";
+    box.appendChild(hint);
   }
 
   function setWalletState(text) {
@@ -200,6 +258,14 @@
       render(root, summarise(sealed.boxes || []));
     } catch (e) {
       root.innerHTML = `<p class="muted">Could not load the sealed catalog: ${escapeHtml(String(e.message || e))}</p>`;
+    } finally {
+      // These must exist even when the catalog fetch fails: a buyer with a
+      // paid, undelivered box recovers it through the open-box bar, and that
+      // recovery cannot depend on an unrelated JSON file loading.
+      walletBar();
+      openBoxBar();
+      refreshButtons();
+      resumePendingBox();
     }
   }
 
@@ -246,10 +312,6 @@
     root.querySelectorAll(".summon-btn[data-tier]").forEach((btn) => {
       btn.addEventListener("click", () => onSummon(btn.dataset.tier, btn));
     });
-    walletBar();
-    openBoxBar();
-    refreshButtons();
-    resumePendingBox();
   }
 
   /**

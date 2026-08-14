@@ -8,6 +8,16 @@
  */
 (function () {
   const cfg = window.WIZNERDZ_CONFIG;
+  // Element lookups BEFORE the kill switch: this block used to read statusEl /
+  // connectBtn ahead of their const declarations, so flipping ?flag_wallet=0
+  // during an incident threw a TDZ ReferenceError and killed the whole IIFE —
+  // the emergency brake was the one path guaranteed to crash.
+  const statusEl = document.getElementById("wc-status");
+  const addrEl = document.getElementById("wc-address");
+  const connectBtn = document.getElementById("btn-connect");
+  const disconnectBtn = document.getElementById("btn-disconnect");
+  const mintBtn = document.getElementById("btn-mint");
+  const qrBox = document.getElementById("wc-qr");
   if (window.WIZNERDZ_FLAGS && window.WIZNERDZ_FLAGS.wallet === false) {
     if (statusEl) {
       statusEl.textContent = "WalletConnect disabled by feature flag.";
@@ -16,12 +26,6 @@
     if (connectBtn) connectBtn.disabled = true;
     return;
   }
-  const statusEl = document.getElementById("wc-status");
-  const addrEl = document.getElementById("wc-address");
-  const connectBtn = document.getElementById("btn-connect");
-  const disconnectBtn = document.getElementById("btn-disconnect");
-  const mintBtn = document.getElementById("btn-mint");
-  const qrBox = document.getElementById("wc-qr");
 
   let client = null;
   let session = null;
@@ -200,6 +204,31 @@
             "QR unavailable — copy the URI into Sage WalletConnect.";
           qrBox.appendChild(note);
         }
+
+        // Copy beats hand-selecting a ~500-char wrapped URI (which silently
+        // picks up line breaks and then fails to pair).
+        const copyBtn = document.createElement("button");
+        copyBtn.type = "button";
+        copyBtn.className = "btn";
+        copyBtn.textContent = "Copy pairing link";
+        copyBtn.style.margin = "8px 0";
+        copyBtn.addEventListener("click", async () => {
+          let ok = false;
+          try {
+            await navigator.clipboard.writeText(uri);
+            ok = true;
+          } catch (_) {
+            const r = document.createRange();
+            r.selectNodeContents(pre);
+            const sel = getSelection();
+            sel.removeAllRanges();
+            sel.addRange(r);
+            try { ok = document.execCommand("copy"); } catch (_) { /* manual */ }
+          }
+          copyBtn.textContent = ok ? "Copied ✓" : "Copy failed — select below";
+          setTimeout(() => { copyBtn.textContent = "Copy pairing link"; }, 2500);
+        });
+        qrBox.appendChild(copyBtn);
 
         const pre = document.createElement("pre");
         pre.className = "wc-uri";

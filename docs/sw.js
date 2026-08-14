@@ -1,5 +1,5 @@
 /* WizNerdZ shell service worker — offline fallback for core pages only */
-const CACHE = "wiznerdz-shell-v3";
+const CACHE = "wiznerdz-shell-v4";
 const PRECACHE = [
   "./",
   "./index.html",
@@ -39,17 +39,20 @@ self.addEventListener("fetch", (event) => {
     url.pathname.endsWith("/index.html");
 
   if (isShell) {
+    // NETWORK-FIRST. Cache-first here pinned index.html and config.js for
+    // returning visitors with no revalidation — during a live mint that masks
+    // every deploy: kill switches, price changes, sold-out states. The cache
+    // is an offline fallback, never the primary source.
     event.respondWith(
-      caches.match(req).then((hit) =>
-        hit ||
-        fetch(req)
-          .then((res) => {
-            const copy = res.clone();
-            caches.open(CACHE).then((c) => c.put(req, copy));
-            return res;
-          })
-          .catch(() => caches.match("./index.html"))
-      )
+      fetch(req)
+        .then((res) => {
+          const copy = res.clone();
+          caches.open(CACHE).then((c) => c.put(req, copy));
+          return res;
+        })
+        .catch(() =>
+          caches.match(req).then((hit) => hit || caches.match("./index.html"))
+        )
     );
     return;
   }

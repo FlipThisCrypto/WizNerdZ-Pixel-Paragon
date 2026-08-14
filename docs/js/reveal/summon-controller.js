@@ -75,6 +75,11 @@
 
       const finish = () => {
         this.busy = false;
+        // The disintegration hid the page's own content (inline opacity 0) for
+        // the summon. EVERY exit runs through here, so the page always comes
+        // back — previously only the error path restored it, and a buyer who
+        // paid and clicked CLOSE was left staring at a blank page.
+        disintegration.restore();
         document.body.classList.remove("wz-dimmed");
         window.scrollTo(0, scrollY);
         atmos.destroy();
