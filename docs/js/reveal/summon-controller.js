@@ -62,9 +62,21 @@
       const disintegration = new window.WizNerdzPixelDisintegration(ps);
       const video = new window.WizNerdzRevealVideo(videoStage);
 
+      // Narrator: the ceremony is silent to a screen-reader user without
+      // this. One polite announcement per phase, driven by the machine's own
+      // transitions - no new coupling, and skip/error paths narrate free.
+      let lastNarrated = null;
+      const narrate = (state) => {
+        const line = (CFG().narration || {})[state];
+        if (!line || state === lastNarrated) return;
+        lastNarrated = state;
+        this._terminal(line);
+      };
+
       this.machine = new window.WizNerdzRevealStateMachine({
         onChange: (to) => {
           root.dataset.state = to;
+          narrate(to);
           window.dispatchEvent(new CustomEvent("wiznerdz:reveal-state", { detail: { state: to } }));
         },
       });

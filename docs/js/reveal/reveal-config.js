@@ -100,6 +100,18 @@ window.WIZNERDZ_REVEAL_CONFIG = Object.freeze({
     },
   },
 
+  /** Screen-reader narration per reveal phase, spoken through the overlay's
+   *  aria-live terminal. The ceremony is visual; these lines are the same
+   *  experience for a buyer who cannot see it. One line per phase. */
+  narration: {
+    spell_build: "The summoning circle is forming.",
+    portal_open: "The portal opens.",
+    video_playing: "The vault materialises.",
+    summoning: "Your WizNerdZ are emerging.",
+    legendary_interrupt: "A one-of-one is emerging!",
+    results: "Summon complete. Results are shown.",
+  },
+
   terminal: {
     channel: "> ARCANE CHANNEL ESTABLISHED",
     anomaly: "ANOMALOUS MANA SIGNATURE DETECTED",
