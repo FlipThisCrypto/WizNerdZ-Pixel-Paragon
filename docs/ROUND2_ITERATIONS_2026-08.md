@@ -179,3 +179,18 @@ than visible defects, per the Round 2 protocol.
   script lists exactly what to commit). Acceptable: repo pushes are already
   the runbook's final step, and auto-pushing from a publish script would
   hand it repo write authority it should not hold.
+
+### round 2 iteration 11 — CI refuses to ship an invalid fairness proof — APPROVED
+- Commit: `9aa3e481f`.
+- What: `tests/proof-integrity.test.mjs` refolds every bundle in
+  `docs/mint/proofs/` with an independent node-crypto implementation (the
+  third codebase after browser WebCrypto and operator hashlib): leaf
+  recompute matches, path folds to the published root, filenames match the
+  embedded box NFT id, and the commitment header hashes to the published
+  `commitment_sha256`. Wired into `npm test` → runs on every push.
+- Verified: 3/3 new tests; full suite 32/32; mutation-checked (tampered
+  contents and tampered root each fail; restored passes).
+- Challenged: the test cannot check proofs against the delivery ledger (CI
+  has no operator data) — that seam is covered by iteration 10's refusal
+  guard at generation time. Three independent implementations agreeing on
+  the same bytes is the defense in depth.
