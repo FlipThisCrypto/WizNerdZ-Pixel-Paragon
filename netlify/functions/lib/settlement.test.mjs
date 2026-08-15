@@ -8,6 +8,9 @@
 // breaks coin-id derivation - the thing that decides which boxes the watcher
 // believes are SOLD - fails here instead of silently blinding production.
 import { test } from "node:test";
+import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import { dirname, join } from "node:path";
 import assert from "node:assert/strict";
 import { coinId, clvmIntBytes, bytesToHex, hexToBytes, RANK, pickBoxForDispense, computePendingDeliveries } from "./settlement.mjs";
 
@@ -147,4 +150,17 @@ test("pending deliveries: a record with no timestamp reads as OLD, never fresh",
   assert.equal(pd.count, 1);
   assert.ok(pd.oldestMinutes > 1e9, "unknown age must exceed any lag threshold");
   assert.equal(pd.unknownAge, true);
+});
+
+test("clvmIntBytes matches Chia's own encoder across 2,733 ground-truth values", () => {
+  const { fixtures } = JSON.parse(
+    readFileSync(join(dirname(fileURLToPath(import.meta.url)), "..", "..", "..", "tests", "fixtures", "clvm_int_fixtures.json"), "utf8")
+  );
+  assert.ok(fixtures.length > 2500, "corpus is substantial");
+  const bad = [];
+  for (const { v, hex } of fixtures) {
+    const got = bytesToHex(clvmIntBytes(BigInt(v)));
+    if (got !== hex) bad.push(`${v}: got ${got}, chia says ${hex}`);
+  }
+  assert.deepEqual(bad.slice(0, 5), [], `${bad.length} divergences from Chia's encoder`);
 });
