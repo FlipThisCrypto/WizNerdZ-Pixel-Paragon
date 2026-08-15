@@ -1,67 +1,111 @@
 # WizNerdZ Pixel Paragon — Operations runbook
 
+**First move in ANY incident:** `npm run preflight` (from the repo root).
+Twelve read-only checks against the live system; the failures name what to fix.
+It also runs every 6 hours via Actions — a failed `live-preflight` workflow is
+your page.
+
 ## Service map
 
-| Surface | URL |
-|---------|-----|
-| Site | https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/ |
-| Operator | …/operator.html |
-| Health | …/health.json |
-| Nominations | Landing form → GitHub Issues + live board |
-| Art / meta | …/images/{id}.png · …/metadata/{id}.json |
-| Repo | https://github.com/FlipThisCrypto/WizNerdZ-Pixel-Paragon |
+| Surface | Where |
+|---------|-------|
+| Mint (the store) | https://wiznerdz-pixel-paragon.netlify.app/mint.html |
+| Site mirror | https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/ |
+| Mint API | `…netlify.app/api/*` — Netlify Functions in `netlify/functions/` |
+| Settlement watcher | `watch-settlements`, 5-min Netlify cron; heartbeat in `/api/mint-stats` → `watcher` |
+| State | Netlify Blobs, site-scoped (`wiznerdz-offers`, `wiznerdz-mint`) — no secrets stored |
+| Operator console | …/operator.html (live counts + heartbeat with staleness alarm) |
+| Chain reads | api.coinset.org public RPC — no keys, no indexer in the correctness path |
+| Delivery tooling | `mint_system/` on the operator machine (outside this repo, holds wallet access) |
 
-## Daily ops (nomination window)
+## Daily glance
 
-1. Open [PFP issues](https://github.com/FlipThisCrypto/WizNerdZ-Pixel-Paragon/issues?q=is%3Aissue+PFP+Nomination).
-2. Confirm live board on site matches (Refresh from GitHub).
-3. Spot-check `health.json` and landing ops probe (all green).
-4. Do not arm mint until post-deadline 1:1 art is frozen.
+1. operator.html → the **Mint API** row: green means counts are live and the
+   watcher heartbeat is fresh (< 15 min). Red tells you which of the two broke.
+2. That's it. Everything else pages you via the `live-preflight` workflow.
 
-## Incident: broken images
+## When a box sells (the sale runbook)
 
-1. `python scripts/verify_metadata.py`
-2. Confirm Pages deploy finished (Actions / Pages settings).
-3. Hard-refresh CDN path; absolute URLs must still point at Pages.
-
-## Incident: WalletConnect cannot connect
-
-1. Confirm `docs/js/config.js` projectId is 32 hex chars.
-2. Confirm Reown cloud project allows GitHub Pages origin.
-3. Try Sage “paste URI” path if QR fails.
-4. Mint remains disarmed until offers live — connect-only is expected.
-
-## Incident: GitHub nominations board empty
-
-1. Rate limit (403/429) → board uses 5m browser cache.
-2. Verify issue titles contain `[PFP Nomination]`.
-3. Fallback: open GitHub issues list manually.
-
-## Deploy
+Detection is automatic: within ~5 minutes the watcher marks the box SOLD and
+retires its offer. Delivery is deliberately operator-side:
 
 ```bash
-# from github_pages_repo
-git push origin main
-# GitHub Pages serves docs/
-python scripts/verify_metadata.py
-python scripts/verify_specials.py
+cd mint_system
+# 1. record the settlement + resolve WHO IS OWED (from the settlement spend)
+python settlement_watcher.py --apply
+# 2. reserve the committed allocation and deliver it
+#    (reserve_delivery picks the pre-committed box; deliver mints to the recipient)
+python chia_fulfillment.py deliver --token <id> --to <settlement_recipient> --fee 0 --confirm
+# 3. chain-verify and publish so the buyer's reveal opens
+python push_status_to_site.py     # needs MINT_ADMIN_SECRET in the shell
 ```
 
-## Rollback
+Entitlement follows the **settlement transaction's recipient** — never later
+possession. The buyer's reveal opens automatically once the status is
+FULFILLED; they can also open it any time at `mint.html?box=<boxNftId>`.
+
+## Incidents
+
+### Watcher heartbeat stale (> 15 min)
+1. `npm run preflight` — confirms it and checks everything else.
+2. Trigger a manual sweep: `POST /api/admin-run-watcher` with `x-admin-secret`.
+   If that works, the cron is broken (Netlify → Functions → scheduled) — sales
+   are still detectable manually while you investigate.
+3. If the manual run is DEGRADED: coinset is unreachable. Detection delays;
+   it never corrupts. Retry later — statuses only move forward.
+
+### Dispenser down / buyers can't get offers
+1. `curl "$SITE/api/mint-offer?tier=blind_single"` — 410 with inventory
+   expected means genuinely sold out; check `/api/mint-stats` dispensable.
+2. `offer_missing` or 5xx: check Netlify function logs; the offers blob may
+   need re-pushing (`python push_offers_to_site.py --replace`, operator-side).
+
+### Origins disagree (preflight split-brain failure)
+Pages deploys lag Netlify by a few minutes after a push — re-run preflight
+before concluding. A persistent mismatch means one origin failed to deploy:
+check the `pages-build-deployment` workflow and the Netlify deploy log.
+
+### Buyer says "I paid and got nothing"
+1. Get their **box NFT id** (the sealed-box item in their wallet — not the
+   WizNerd; the mint page's open-box bar explains this to them too).
+2. `curl "$SITE/api/mint-status?box=<id>"` — the state tells the story:
+   `SOLD/DELIVERY_RESERVED/BROADCAST` = delivery in progress (finish the sale
+   runbook); `FULFILLED` = done, send them `mint.html?box=<id>`;
+   `UNKNOWN` = that id never sold a box (probably the WizNerd's id).
+
+### Broken images
+1. `python scripts/verify_metadata.py` (also runs in CI on any metadata push).
+2. Metadata images point at the **IPFS gateway** (hash-committed) — the Pages
+   URL is the third URI on minted NFTs. Confirm both deploys finished.
+
+### WalletConnect cannot connect
+1. `docs/js/config.js` projectId must be 32 hex chars; Reown project must
+   allow both origins.
+2. Sage desktop: copy pairing link → Settings → WalletConnect → paste. Links
+   expire in ~5 min — generate a fresh one.
+3. Only `chia_takeOffer` is REQUIRED in the WC namespace. Never add required
+   methods: wallets missing one refuse the whole session.
+
+## Deploy & rollback
 
 ```bash
-git revert <bad-commit>
-git push origin main
+git push origin main        # deploys Netlify + Pages; CI gates: tests,
+                            # verify-metadata, live-preflight (on its paths)
+npm run preflight           # after deploy settles
 ```
 
-Never force-push `main` for production recovery.
+Rollback is `git revert <bad-commit> && git push`. Never force-push `main`.
+Functions read env at deploy time — changing `MINT_ADMIN_SECRET` requires a
+redeploy to take effect.
 
 ## Secrets policy
 
-No private keys in repo. Only public xch + public WC projectId.
+No private keys anywhere in this repo or its deployed layer. `MINT_ADMIN_SECRET`
+lives only in Netlify env + the operator's shell. Delivery signing happens only
+in `mint_system/` on the operator machine.
 
 ## Chaos drills
 
-1. Open `/?chaos=1&chaosMode=board`
-2. `/?chaos=1&chaosMode=health`
-3. Disable: localStorage.removeItem('wiznerdz_chaos')
+1. `/?chaos=1&chaosMode=board` · `/?chaos=1&chaosMode=health` (index only,
+   opt-in, loud banner; never loads on the mint page)
+2. Disable: `localStorage.removeItem('wiznerdz_chaos')`
