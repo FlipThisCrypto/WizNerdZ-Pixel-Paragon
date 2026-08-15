@@ -6,8 +6,11 @@
 
 ## Status
 
-Collection art is complete (**8,888** NFTs). **Drop coming soon.**  
-Nominations are closed. Public rarity rank tables are not published pre-mint (fair mint).
+Collection art is complete (**8,888** NFTs). The sealed-box mint is **live
+end-to-end** (test inventory; full drop pending). Nominations are closed.
+**Rarity rankings are fully public** — sealed pre-committed boxes make them
+unusable for sniping, so fairness comes from the [commitment](verify.html),
+not secrecy. Browse them at [rarity.html](rarity.html).
 
 ### One-of-ones (inventory-derived)
 
@@ -37,17 +40,25 @@ The mint sells **sealed products**, not open cherry-picking of token IDs.
 **Reserves:** only explicitly listed token IDs (default none).  
 **Master equation:** Minted + Reserved = **8888**.
 
-### Fairness: Commit → Mint → Reveal → Verify
+### Fairness: Commit → Buy → Detect → Deliver → Reveal
 
-1. Offline production allocation assigns every NFT to exactly one destination.
-2. **SHA-256 commitment** of the private allocation is published (`mint/commitment.json`) **before** sales.
-3. Public catalog (`mint/sealed_boxes.json`, [sealed-boxes.html](sealed-boxes.html)) lists box id / tier / price / guarantee only — **never** NFT IDs.
-4. After **confirmed XCH payment**, the buyer opens the box and receives the **pre-assigned** NFTs (no re-draw).
-5. After the mint, the private allocation can be disclosed and verified against the commitment.
+1. A 256-bit CSPRNG seed assigns every NFT to exactly one box; the allocation
+   is **Merkle-committed with per-box salted leaves** and published
+   (`mint/commitment.json`) **before** sales. Rendered guide: [verify.html](verify.html).
+2. The public catalog ([sealed-boxes.html](sealed-boxes.html)) lists box id /
+   tier / price / guarantee only — **never** contents.
+3. The buyer approves a Chia **offer** for a generic sealed box in their own
+   wallet (`chia_takeOffer` — the one method every Chia wallet implements).
+4. Each offer names its **settlement anchor coin**; a scheduled watcher
+   detects the spend on a public full node, marks the box SOLD, and retires
+   the offer. No indexer, no keys, no operator presence required.
+5. The operator delivers the pre-committed contents to the **settlement
+   transaction's recipient** (never later possession) and publishes the
+   chain-verified outcome; only then does the buyer's reveal show contents.
 
-Operator tooling lives in the working-directory `mint_system/` package (allocate, purchase service, independent audit). GitHub Pages remains non-custodial; payment confirmation must run on a backend that never marks a box sold from a frontend-only request.
-
-See also: launch report under `mint_system/reports/LAUNCH_REPORT.md` in the working tree.
+Operator tooling lives in the working-directory `mint_system/` package.
+The serverless layer never holds keys and never marks a box sold from a
+frontend request — SOLD comes only from observed chain state.
 
 ---
 
@@ -138,7 +149,7 @@ Apply the same addresses in MintGarden / marketplace royalty settings so seconda
 
 ---
 
-## Community PFP nominations
+## Community PFP nominations (closed)
 
 | Item | Detail |
 |------|--------|
@@ -157,14 +168,15 @@ Use title prefix `[PFP Nomination]` (form does this). Optionally add label `pfp-
 
 | Path | Role |
 |------|------|
-| `index.html` | Landing: countdown, mint WC, splits, nominate |
-| `js/config.js` | Public config (addresses, WC, mint URLs) |
-| `js/wallet.js` | Sage WalletConnect client |
-| `js/countdown.js` | Eastern deadline timer |
-| `js/nominate.js` | Nomination form |
+| `mint.html` | The mint: dispense → approve → reveal (+ open-box recovery) |
+| `index.html` | Landing: hero, galleries, wallet connect |
+| `js/config.js` | Public config (addresses, WC, mint API base) |
+| `js/wallet-core.js` | WalletConnect pairing (takeOffer-only required) |
+| `netlify/functions/` | mint-offer / mint-status / mint-stats / watch-settlements |
+| `verify.html` | Rendered commitment + doc viewer |
 | `token.html` | Token deep-link viewer |
-| `rarity.html` | Interactive rarity table |
-| `dashboard.html` | Ops board |
+| `rarity.html` | Public ranking explorer |
+| `dashboard.html` | Ops board (live counters) |
 | `images/` · `metadata/` | Public collection media |
 | `scripts/verify_metadata.py` | Integrity check absolute image URLs |
 | `scripts/verify_specials.py` | Integrity check named 1/1 specials |
