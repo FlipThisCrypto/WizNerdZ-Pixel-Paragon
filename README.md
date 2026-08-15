@@ -85,6 +85,12 @@ fixtures, CLVM int edge cases, watcher state-ladder ordering, 1-of-1 data
 consistency across files, and site-wide reference integrity (every local
 href/src must resolve to a real file).
 
+## History
+
+The project went through a 50-iteration sequential improvement round — one
+assessed, verified, pushed improvement at a time. [CHANGELOG.md](CHANGELOG.md)
+distills it; the commit history is the full record.
+
 ## Repo layout
 
 ```
