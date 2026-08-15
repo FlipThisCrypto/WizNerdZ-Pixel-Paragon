@@ -227,3 +227,19 @@ than visible defects, per the Round 2 protocol.
   the attribute switch is one guarded line and the default path is tested.
   Announcement DISCIPLINE (transitions only) was the hard part and is
   proven.
+
+### round 2 iteration 14 — sold out is a claim only a tier that sold can make — APPROVED
+- Commit: `3b88436dd`.
+- What: tiers absent from live stats (never inventoried) now render
+  "NOT YET ON SALE" instead of the false-scarcity "SOLD OUT"; SOLD OUT is
+  reserved for tiers that had inventory and exhausted it; availability lines
+  match. Dynamic runtime text — the corpus truth tests could never see it.
+- Verified in-browser: live stats (4 tiers not-yet, blind_single buyable)
+  plus stubbed stats driving all three states and both transition
+  directions. Suite 32/32.
+- Selection notes: candidates killed by evidence this iteration — the
+  service worker is already network-first (no client staleness risk),
+  sealed-boxes.html carries no stale counts, token.html healthy, mobile
+  mint layout clean (no overflow, 44px targets). Random coin-id fixture
+  corpus judged marginal: R2I3 proved the risky primitive (int encoding);
+  three real mainnet coins already pin the composed path.
