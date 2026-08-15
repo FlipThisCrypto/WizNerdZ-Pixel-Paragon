@@ -140,3 +140,11 @@ test("pending deliveries: empty and all-fulfilled report zero", () => {
     { count: 0, oldestMinutes: 0 }
   );
 });
+
+test("pending deliveries: a record with no timestamp reads as OLD, never fresh", () => {
+  const now = Date.now();
+  const pd = computePendingDeliveries([{ state: "SOLD" }], now);
+  assert.equal(pd.count, 1);
+  assert.ok(pd.oldestMinutes > 1e9, "unknown age must exceed any lag threshold");
+  assert.equal(pd.unknownAge, true);
+});

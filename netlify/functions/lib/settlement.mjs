@@ -133,15 +133,24 @@ export function pickBoxForDispense(candidates, holds, now, { holdMs = 3 * 60 * 1
 export function computePendingDeliveries(records, now) {
   let count = 0;
   let oldestMs = null;
+  let unknownAge = false;
   for (const r of records || []) {
     if (!r || !RANK[r.state] || RANK[r.state] < RANK.SOLD || r.state === "FULFILLED") continue;
     count++;
-    const t = new Date(r.updatedAt || 0).getTime();
-    if (Number.isFinite(t) && (oldestMs === null || t < oldestMs)) oldestMs = t;
+    const t = new Date(r.updatedAt ?? NaN).getTime();
+    if (Number.isFinite(t)) {
+      if (oldestMs === null || t < oldestMs) oldestMs = t;
+    } else {
+      // Both status writers always stamp updatedAt; a pending record without
+      // one is data corruption. Unknown age must read as OLD, not as fresh -
+      // otherwise a corrupt record sits in a never-aging backlog forever.
+      unknownAge = true;
+    }
   }
   return {
     count,
-    oldestMinutes: count && oldestMs !== null ? Math.round((now - oldestMs) / 60000) : 0,
+    oldestMinutes: unknownAge ? Number.MAX_SAFE_INTEGER : (count && oldestMs !== null ? Math.round((now - oldestMs) / 60000) : 0),
+    ...(unknownAge ? { unknownAge: true } : {}),
   };
 }
 
