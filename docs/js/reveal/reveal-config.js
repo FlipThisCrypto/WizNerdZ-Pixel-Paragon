@@ -10,17 +10,39 @@ window.WIZNERDZ_REVEAL_CONFIG = Object.freeze({
   videoBase: "reveal",
 
   /**
-   * Tier → reveal video. Keys match tier_id in mint/sealed_boxes.json.
+   * The video is chosen by the HIGHEST RARITY actually in the box, not by the
+   * box tier. The buildup then always matches the payoff: a common pull gets
+   * the quiet system-boot video, a 1-of-1 gets "PREPARE FOR LEGEND" — and the
+   * video can never oversell what the buyer received. (The original tier
+   * mapping shipped inverted: the files escalate Tier1→Tier5 while the config
+   * assumed the reverse, so every blind single played the 1-OF-1-GUARANTEED
+   * premium video and then popped a common.)
+   *
+   * Safe against spoilers by construction: contents reach the browser only
+   * after delivery is chain-confirmed, so there is nothing to leak pre-buy.
+   *
    * `handoff` is how many seconds before the end the live spell starts taking
    * over, so the prerecorded ending cross-dissolves into the browser-rendered
    * portal. See REVEAL_VIDEO_SPEC.md for what those final frames must contain.
    */
+  rarityVideos: [
+    // matched top-down against the best rarity in the result (case-insensitive)
+    { match: ["1 of 1"],            video: "Tier5.mp4", handoff: 1.6 },
+    { match: ["legendary"],         video: "Tier4.mp4", handoff: 1.4 },
+    { match: ["epic"],              video: "Tier3.mp4", handoff: 1.4 },
+    { match: ["rare"],              video: "Tier2.mp4", handoff: 1.4 },
+    { match: ["uncommon", "common"], video: "Tier1.mp4", handoff: 1.2 },
+  ],
+  // when the result carries no readable rarity at all
+  fallbackVideo: { video: "Tier1.mp4", handoff: 1.2 },
+
+  /** Kept for older callers that still look up by tier id. */
   tiers: {
-    premium_named: { video: "Tier1.mp4", label: "Named Premium", handoff: 1.6 },
-    elite:         { video: "Tier2.mp4", label: "Elite",         handoff: 1.4 },
+    premium_named: { video: "Tier5.mp4", label: "Named Premium", handoff: 1.6 },
+    elite:         { video: "Tier4.mp4", label: "Elite",         handoff: 1.4 },
     rare:          { video: "Tier3.mp4", label: "Rare",          handoff: 1.4 },
-    standard_bundle:{ video: "Tier4.mp4", label: "Standard Bundle", handoff: 1.4 },
-    blind_single:  { video: "Tier5.mp4", label: "Blind Single",  handoff: 1.2 },
+    standard_bundle:{ video: "Tier2.mp4", label: "Standard Bundle", handoff: 1.4 },
+    blind_single:  { video: "Tier1.mp4", label: "Blind Single",  handoff: 1.2 },
   },
   fallbackTier: "blind_single",
 

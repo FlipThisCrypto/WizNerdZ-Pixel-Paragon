@@ -24,9 +24,24 @@
       this.reason = null;
     }
 
-    _src(tierId) {
+    _src(selector) {
       const cfg = CFG();
-      const tier = cfg.tiers[tierId] || cfg.tiers[cfg.fallbackTier];
+      // A result object selects by the best rarity it actually contains —
+      // the buildup must never promise more than the box delivered. A plain
+      // tier id (legacy callers, preload before contents exist) still works.
+      if (selector && typeof selector === "object" && Array.isArray(selector.nfts)) {
+        const rarities = selector.nfts
+          .map((n) => (n.isOneOfOne ? "1 of 1" : String(n.rarity || "")).toLowerCase())
+          .filter(Boolean);
+        for (const rule of cfg.rarityVideos || []) {
+          if (rule.match.some((m) => rarities.includes(m.toLowerCase()))) {
+            return { url: `${cfg.videoBase}/${rule.video}`, handoff: rule.handoff };
+          }
+        }
+        const fb = cfg.fallbackVideo;
+        if (fb) return { url: `${cfg.videoBase}/${fb.video}`, handoff: fb.handoff };
+      }
+      const tier = cfg.tiers[selector] || cfg.tiers[cfg.fallbackTier];
       return { url: `${cfg.videoBase}/${tier.video}`, handoff: tier.handoff };
     }
 

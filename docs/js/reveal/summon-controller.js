@@ -115,7 +115,7 @@
         root.classList.add("wz-dim");
         audio.play(CFG().audio.cues.spark);
         ps.burst(cx, cy + 40, 26, { speed: 2.4 });
-        video.preload(result.tier); // start fetching early; black pause stays short
+        video.preload(result); // rarity-selected; start fetching early so the black pause stays short
 
         await animate(t.spellBuild, (p) => {
           spell.setIntensity(easeOutCubic(p));
@@ -149,7 +149,7 @@
         await video.materialise(t.crtLine);
 
         this.machine.go("video_playing");
-        const outcome = await video.play(result.tier, {
+        const outcome = await video.play(result, {
           onHandoff: () => {
             // PHASE 4: live spell takes over from the prerecorded ending
             spell.setIntensity(1);
