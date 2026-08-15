@@ -147,3 +147,19 @@ than visible defects, per the Round 2 protocol.
   claims against the pre-sale root, which is exactly the trust model a buyer
   needs. Publishing proofs stays manual until the fulfillment pipeline grows
   a publish step (deferred: Netlify-blocked paths untouched).
+
+### round 2 iteration 9 — store loss is a rehearsed recovery — APPROVED
+- Commit: `817fca4ca`.
+- What: rehearsed, against the live site, total loss of the blob store:
+  `push_offers_to_site --replace` + `push_status_to_site` rebuilt offers and
+  statuses from operator ground truth. OPS.md carries the now-rehearsed
+  procedure. COMMITMENT.md points buyers browser-first (iteration 8's
+  checker), CLI as the offline path.
+- Verified live: per-tier stats and all 4 per-box statuses byte-identical to
+  the pre-drill snapshot (updatedAt excluded); settlement audit green before
+  and after; the watcher's next scheduled sweep ran on the rebuilt store
+  (OK, watched 2, errors 0). Suite 29/29.
+- Challenged: the drill rewrote live state — safe because writes are
+  idempotent same-data, prices are test-level, the ladder is forward-only
+  (no downgrade possible), and the audit refereed both sides. Holds were not
+  exercised (transient by design, 3-minute TTL).
