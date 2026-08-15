@@ -19,6 +19,7 @@
       const el = document.createElement("section");
       el.className = "wz-results";
       el.setAttribute("role", "dialog");
+      el.setAttribute("aria-modal", "true");
       el.setAttribute("aria-label", "Your summon results");
 
       const oneOfOnes = nfts.filter((n) => n.isOneOfOne).length;
@@ -44,11 +45,64 @@
       this.container.appendChild(el);
       requestAnimationFrame(() => el.classList.add("wz-results--in"));
 
-      el.querySelector('[data-act="again"]')?.addEventListener("click", () => onAgain && onAgain());
-      el.querySelector('[data-act="close"]')?.addEventListener("click", () => {
+      // ---- true modal semantics -------------------------------------------
+      // The page behind this dialog is at inline opacity:0 (the summon's
+      // disintegration) but its links and buttons are still focusable: a
+      // keyboard user could Tab out of the dialog into an INVISIBLE page at
+      // the exact climax of a purchase. Trap focus, close on Escape, make the
+      // background inert, and hand focus back where it came from.
+      const opener = document.activeElement;
+      const inerted = [];
+      for (const sib of document.body.children) {
+        // never inert the dialog's own ancestor chain — wherever it mounted
+        if (!sib.contains(el) && !sib.hasAttribute("inert")) {
+          sib.setAttribute("inert", "");
+          inerted.push(sib);
+        }
+      }
+
+      const teardown = () => {
+        for (const sib of inerted) sib.removeAttribute("inert");
+        document.removeEventListener("keydown", onKey, true);
+        if (opener && document.contains(opener) && typeof opener.focus === "function") {
+          opener.focus();
+        }
+      };
+
+      const doClose = () => {
+        teardown();
         el.classList.remove("wz-results--in");
         setTimeout(() => { el.remove(); onClose && onClose(); }, 320);
+      };
+
+      const onKey = (e) => {
+        if (e.key === "Escape") {
+          e.preventDefault();
+          doClose();
+          return;
+        }
+        if (e.key !== "Tab") return;
+        const focusables = [...el.querySelectorAll(
+          'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+        )].filter((f) => f.offsetParent !== null);
+        if (!focusables.length) return;
+        const first = focusables[0];
+        const last = focusables[focusables.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && (document.activeElement === last || !el.contains(document.activeElement))) {
+          e.preventDefault();
+          first.focus();
+        }
+      };
+      document.addEventListener("keydown", onKey, true);
+
+      el.querySelector('[data-act="again"]')?.addEventListener("click", () => {
+        teardown();
+        onAgain && onAgain();
       });
+      el.querySelector('[data-act="close"]')?.addEventListener("click", doClose);
       el.querySelector('[data-act="share"]')?.addEventListener("click", () => this._share(result));
 
       // focus for keyboard users
