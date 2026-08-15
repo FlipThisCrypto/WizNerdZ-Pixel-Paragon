@@ -67,6 +67,17 @@ try {
       console.log("  NOTE inventory: zero dispensable boxes (normal between drops; set MINT_EXPECT_INVENTORY=1 on drop day to make this fatal)");
     }
   }
+  // the seam between autonomous detection and human delivery: a pending
+  // sale is fine for a while and an incident after MAX_DELIVERY_LAG_MIN
+  const pd = stats.pendingDeliveries;
+  if (pd) {
+    const maxLag = Number(process.env.MAX_DELIVERY_LAG_MIN || 240);
+    if (pd.count === 0) ok("deliveries current", "no sold-undelivered boxes");
+    else if (pd.oldestMinutes > maxLag)
+      fail("delivery lag", `${pd.count} pending, oldest ${pd.oldestMinutes}m (max ${maxLag}m) - run the sale runbook in OPS.md`);
+    else
+      console.log(`  NOTE deliveries: ${pd.count} pending, oldest ${pd.oldestMinutes}m (fails past ${maxLag}m)`);
+  }
 } catch (e) {
   fail("mint-stats", e.message);
 }

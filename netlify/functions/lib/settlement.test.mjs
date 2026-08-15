@@ -9,7 +9,7 @@
 // believes are SOLD - fails here instead of silently blinding production.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { coinId, clvmIntBytes, bytesToHex, hexToBytes, RANK, pickBoxForDispense } from "./settlement.mjs";
+import { coinId, clvmIntBytes, bytesToHex, hexToBytes, RANK, pickBoxForDispense, computePendingDeliveries } from "./settlement.mjs";
 
 // Real mainnet coins with independently-known ids:
 //   87f9a78b... = the settlement spend of WizNerd #695's delivery
@@ -115,4 +115,28 @@ test("dispenser selection: does not mutate the input holds record", () => {
   const holds = { A: 5 };
   pickBoxForDispense(["A", "B"], holds, 1_000_000);
   assert.deepEqual(holds, { A: 5 });
+});
+
+test("pending deliveries: sold-not-fulfilled counts, oldest measured", () => {
+  const now = Date.parse("2026-08-15T12:00:00Z");
+  const records = [
+    { state: "SOLD", updatedAt: "2026-08-15T10:00:00Z" },        // 120m pending
+    { state: "DELIVERY_RESERVED", updatedAt: "2026-08-15T11:30:00Z" }, // 30m pending
+    { state: "FULFILLED", updatedAt: "2026-08-15T09:00:00Z" },   // delivered - excluded
+    { state: "OFFER_ISSUED", updatedAt: "2026-08-15T08:00:00Z" },// not sold - excluded
+    null,                                                         // tolerated
+    { state: "NOT_A_STATE", updatedAt: "2026-08-15T08:00:00Z" }, // unknown - excluded
+  ];
+  const pd = computePendingDeliveries(records, now);
+  assert.equal(pd.count, 2);
+  assert.equal(pd.oldestMinutes, 120, "the tail defines the backlog");
+});
+
+test("pending deliveries: empty and all-fulfilled report zero", () => {
+  const now = Date.now();
+  assert.deepEqual(computePendingDeliveries([], now), { count: 0, oldestMinutes: 0 });
+  assert.deepEqual(
+    computePendingDeliveries([{ state: "FULFILLED", updatedAt: new Date(now - 9e7).toISOString() }], now),
+    { count: 0, oldestMinutes: 0 }
+  );
 });

@@ -122,6 +122,29 @@ export function pickBoxForDispense(candidates, holds, now, { holdMs = 3 * 60 * 1
   return { nftId, holds: next };
 }
 
+/**
+ * Pending deliveries, pure. A box is PENDING when the chain has settled it
+ * (SOLD or beyond) but delivery has not been chain-confirmed (FULFILLED).
+ * Returns the count and the age of the OLDEST pending sale - the number an
+ * alarm needs, because a growing backlog is measured by its tail.
+ *
+ * `records` is an array of status objects ({ state, updatedAt }); `now` in ms.
+ */
+export function computePendingDeliveries(records, now) {
+  let count = 0;
+  let oldestMs = null;
+  for (const r of records || []) {
+    if (!r || !RANK[r.state] || RANK[r.state] < RANK.SOLD || r.state === "FULFILLED") continue;
+    count++;
+    const t = new Date(r.updatedAt || 0).getTime();
+    if (Number.isFinite(t) && (oldestMs === null || t < oldestMs)) oldestMs = t;
+  }
+  return {
+    count,
+    oldestMinutes: count && oldestMs !== null ? Math.round((now - oldestMs) / 60000) : 0,
+  };
+}
+
 // Pure helpers exported for the test suite - they decide which coins the
 // watcher believes are spent, so they carry regression tests.
 export { coinId, clvmIntBytes, hexToBytes, bytesToHex, RANK };

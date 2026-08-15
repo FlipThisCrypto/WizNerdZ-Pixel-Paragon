@@ -16,6 +16,7 @@
 // Counters therefore move exactly when the chain does (as published by the
 // operator), not when a browser claims something happened.
 import { getStore } from "@netlify/blobs";
+import { computePendingDeliveries } from "./lib/settlement.mjs";
 
 const SOLD_STATES = new Set(["SOLD", "DELIVERY_RESERVED", "BROADCAST", "CONFIRMED", "FULFILLED"]);
 
@@ -60,6 +61,11 @@ export default async () => {
     if (rec.state === "FULFILLED") t.opened++;
   }
 
+  // The seam between detection (autonomous) and delivery (human): sold but
+  // not chain-confirmed-delivered, with the age of the oldest. Preflight
+  // alarms on this - a lagging delivery must be loud, not invisible.
+  const pendingDeliveries = computePendingDeliveries(records, Date.now());
+
   const totals = { dispensable: 0, sold: 0, opened: 0 };
   for (const t of Object.values(byTier)) {
     totals.dispensable += t.dispensable;
@@ -71,5 +77,5 @@ export default async () => {
   // visible evidence the autonomous settlement path is down
   const watcher = (await mint.get("watch/lastRun", { type: "json" })) || null;
 
-  return json({ byTier, totals, watcher, asOf: new Date().toISOString() });
+  return json({ byTier, totals, pendingDeliveries, watcher, asOf: new Date().toISOString() });
 };
