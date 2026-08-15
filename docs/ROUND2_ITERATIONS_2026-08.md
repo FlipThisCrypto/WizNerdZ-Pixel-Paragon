@@ -163,3 +163,19 @@ than visible defects, per the Round 2 protocol.
   idempotent same-data, prices are test-level, the ladder is forward-only
   (no downgrade possible), and the audit refereed both sides. Holds were not
   exercised (transient by design, 3-minute TTL).
+
+### round 2 iteration 10 — fulfillment publishes fairness proofs automatically — APPROVED
+- Commit: `1b656748b` (operator-side change in `mint_system/push_status_to_site.py`,
+  outside VCS; repo carries the runbook update and the restored proof).
+- What: the publish step now writes every FULFILLED box's proof bundle into
+  `docs/mint/proofs/` — idempotent, and it REFUSES a bundle whose contents
+  disagree with the delivery ledger (allocation/delivery divergence must
+  never be papered over by a proof).
+- Verified: deleted a published proof → pipeline restored it
+  content-identical; second run reports nothing to do; refusal guard fires
+  on a fabricated mismatch; in-browser checker verifies the restored proof.
+  Suite 29/29.
+- Challenged: the commit-and-push of new proofs is still a human action (the
+  script lists exactly what to commit). Acceptable: repo pushes are already
+  the runbook's final step, and auto-pushing from a publish script would
+  hand it repo write authority it should not hold.
