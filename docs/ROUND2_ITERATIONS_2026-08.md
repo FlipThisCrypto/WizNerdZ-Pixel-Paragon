@@ -92,3 +92,20 @@ than visible defects, per the Round 2 protocol.
 - Verified: 9/9 locally, 29/29 full suite, green on the GitHub runner.
 - Challenged by mutation: a narration-key typo and a config reference to a
   missing video file each fail the suite; restored sources pass.
+
+### round 2 iteration 6 — a standing settlement audit — APPROVED
+- Commit: `1b0e655de`.
+- What: `scripts/audit_settlements.py` re-derives every sale claim from the
+  chain (Coinset RPC, none of the watcher's code) and cross-checks operator
+  ledger + live site per box: SOLD+ anchors spent at the exact recorded
+  height with the ephemeral settlement-coin signature; pre-sale anchors not
+  yet on chain (if one exists, the watcher missed a sale); site state agrees;
+  contents withheld below FULFILLED and matching the committed count at
+  FULFILLED. Read-only against all three sources; stdlib only. OPS.md drill.
+- Verified live: 4/4 real boxes clean. Mutation-checked on a scratch ledger
+  copy: fabricated sale, off-by-one height, and silently reverted sale each
+  fail with the exact finding.
+- Learned during build: the anchor is ephemeral (created and spent inside the
+  settlement transaction) — "known pre-sale" means derivable, not existing.
+  The audit's first draft flagged healthy pre-sale offers; the two real
+  settlements (created == spent height) confirmed the corrected semantics.
