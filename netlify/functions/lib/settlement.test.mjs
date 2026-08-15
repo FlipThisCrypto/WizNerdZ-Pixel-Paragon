@@ -9,7 +9,7 @@
 // believes are SOLD - fails here instead of silently blinding production.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { coinId, clvmIntBytes, bytesToHex, hexToBytes, RANK } from "./settlement.mjs";
+import { coinId, clvmIntBytes, bytesToHex, hexToBytes, RANK, pickBoxForDispense } from "./settlement.mjs";
 
 // Real mainnet coins with independently-known ids:
 //   87f9a78b... = the settlement spend of WizNerd #695's delivery
@@ -80,4 +80,39 @@ test("state ladder: SOLD and beyond outrank everything the watcher writes", () =
   assert.ok(RANK.CONFIRMED > RANK.BROADCAST);
   assert.ok(RANK.FULFILLED > RANK.CONFIRMED);
   assert.equal(RANK.UNKNOWN, 0, "unknown must rank below every real state");
+});
+
+test("dispenser selection: unheld boxes are preferred", () => {
+  const now = 1_000_000_000;
+  // A was just dispensed; B is free -> B must win regardless of randomness
+  for (let i = 0; i < 20; i++) {
+    const { nftId } = pickBoxForDispense(["A", "B"], { A: now - 1000 }, now);
+    assert.equal(nftId, "B");
+  }
+});
+
+test("dispenser selection: fully-held pool hands out the stalest hold", () => {
+  const now = 1_000_000_000;
+  const holds = { A: now - 5000, B: now - 60_000, C: now - 30_000 };
+  const { nftId } = pickBoxForDispense(["A", "B", "C"], holds, now);
+  assert.equal(nftId, "B", "oldest hold wins - never a false sold-out");
+});
+
+test("dispenser selection: expired holds free the box and get pruned", () => {
+  const now = 1_000_000_000;
+  const HOLD = 3 * 60 * 1000;
+  const holds = { A: now - HOLD - 1, B: now - 1000 };
+  const { nftId, holds: next } = pickBoxForDispense(["A", "B"], holds, now);
+  assert.equal(nftId, "A", "expired hold means A is free again");
+  assert.equal(next.A, now, "winner re-stamped");
+  assert.ok(next.B, "unexpired holds survive");
+  // and a stale loser is pruned
+  const { holds: pruned } = pickBoxForDispense(["B"], { B: now - 1000, Z: now - HOLD - 1 }, now);
+  assert.ok(!("Z" in pruned), "expired non-winner pruned");
+});
+
+test("dispenser selection: does not mutate the input holds record", () => {
+  const holds = { A: 5 };
+  pickBoxForDispense(["A", "B"], holds, 1_000_000);
+  assert.deepEqual(holds, { A: 5 });
 });

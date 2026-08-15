@@ -101,6 +101,27 @@ async function stampHeartbeat(mint, trigger, summary) {
   }
 }
 
+/**
+ * Dispenser box selection, pure. Given candidates and the holds record,
+ * prefer boxes not recently dispensed; when everything is held, hand out the
+ * STALEST hold rather than lying about being sold out. Returns the choice
+ * and the updated holds record (stamped + pruned) - the caller persists it.
+ *
+ * Pure so the money-path selection rules carry offline tests instead of
+ * relying on live-only verification.
+ */
+export function pickBoxForDispense(candidates, holds, now, { holdMs = 3 * 60 * 1000, rand = Math.random } = {}) {
+  const free = candidates.filter((id) => !(holds[id] > now - holdMs));
+  const nftId = free.length
+    ? free[Math.floor(rand() * free.length)]
+    : candidates.slice().sort((a, b) => (holds[a] || 0) - (holds[b] || 0))[0];
+  const next = { ...holds, [nftId]: now };
+  for (const [k, t] of Object.entries(next)) {
+    if (t <= now - holdMs && k !== nftId) delete next[k];
+  }
+  return { nftId, holds: next };
+}
+
 // Pure helpers exported for the test suite - they decide which coins the
 // watcher believes are spent, so they carry regression tests.
 export { coinId, clvmIntBytes, hexToBytes, bytesToHex, RANK };

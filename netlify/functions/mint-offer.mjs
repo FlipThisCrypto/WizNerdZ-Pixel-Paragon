@@ -18,6 +18,7 @@
 //   wiznerdz-mint    key "dispensed/<claim>" -> audit
 //   wiznerdz-mint    key "taken"          -> { nftIds: [...] }
 import { getStore } from "@netlify/blobs";
+import { pickBoxForDispense } from "./lib/settlement.mjs";
 
 const TIERS = ["blind_single", "standard_bundle", "rare", "elite", "premium_named"];
 
@@ -72,22 +73,8 @@ export default async (req) => {
   // minutes to blob propagation time. Expired holds return automatically,
   // and a fully-held pool falls back to the OLDEST hold rather than lying
   // about being sold out.
-  const HOLD_MS = 3 * 60 * 1000;
-  const holds = (await mint.get("holds", { type: "json" })) || {};
-  const now = Date.now();
-  const free = candidates.filter((id) => !(holds[id] > now - HOLD_MS));
-  let nftId;
-  if (free.length) {
-    nftId = free[Math.floor(Math.random() * free.length)];
-  } else {
-    // everything is on hold: hand out the stalest hold, never a false 410
-    nftId = candidates.slice().sort((a, b) => (holds[a] || 0) - (holds[b] || 0))[0];
-  }
-  holds[nftId] = now;
-  // prune expired entries so the record can't grow without bound
-  for (const [k, t] of Object.entries(holds)) {
-    if (t <= now - HOLD_MS && k !== nftId) delete holds[k];
-  }
+  const prior = (await mint.get("holds", { type: "json" })) || {};
+  const { nftId, holds } = pickBoxForDispense(candidates, prior, Date.now());
   await mint.setJSON("holds", holds).catch(() => {});
   const rec = await offers.get(`offer/${nftId}`, { type: "json" });
   if (!rec?.offer) {
