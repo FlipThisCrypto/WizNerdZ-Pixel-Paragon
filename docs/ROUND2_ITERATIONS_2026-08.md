@@ -109,3 +109,22 @@ than visible defects, per the Round 2 protocol.
   settlement transaction) — "known pre-sale" means derivable, not existing.
   The audit's first draft flagged healthy pre-sale offers; the two real
   settlements (created == spent height) confirmed the corrected semantics.
+
+### round 2 iteration 7 — the offer file itself proves the anchor — APPROVED
+- Commit: `73668ceff`.
+- What: `audit_settlements.py --offers` closes the wrong-anchor blind spot
+  (a wrong pre-sale anchor reads as healthy while the watcher polls a coin
+  the sale will never create). Each `.offer` file is parsed with Chia's
+  library, the maker's NFT spend is EXECUTED (`Program.run`, not the
+  operator's derivation code), the created odd-amount child is the predicted
+  settlement coin, and the singleton launcher joins it to its ledger row.
+  Mismatch or an offer with no ledger row fails the audit.
+- Verified live: 4/4 offers match, including both FULFILLED boxes — the full
+  loop offer file → puzzle-executed prediction → ledger anchor →
+  chain-proven settlement. Mutation-checked: a corrupted ledger anchor fails
+  with the exact finding. Suite 29/29.
+- Challenged: parity uses Chia's parser (unavoidable — it defines the
+  format) but not the operator's `offered_nft_coin()`; the execution path
+  (raw conditions → child coin) is genuinely independent of the code under
+  audit. `--offers` requires the operator environment; the chain/site checks
+  stay stdlib-only and CI-runnable.
