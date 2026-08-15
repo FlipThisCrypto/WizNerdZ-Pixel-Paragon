@@ -78,3 +78,17 @@ than visible defects, per the Round 2 protocol.
   politely; not spam. Narration lines are plain English against the arcane
   styling of the older terminal lines — acceptable, revisit only if the voice
   jars in play-testing.
+
+### round 2 iteration 5 — the reveal subsystem enters the tested world — APPROVED
+- Commit: `7e2e9b631`.
+- What: `tests/reveal-contract.test.mjs` executes the real browser sources
+  (state machine, config, video selection) under `node --test` via a stubbed
+  `window` and pins: the happy path including the legendary loop, every
+  no-video fallback edge, error reachable from every non-terminal state and
+  error→results, illegal/unknown transitions throw, `forceTo` (the skip path)
+  fires `onChange` from anywhere, narration keys name real machine states,
+  rarity→video selection never oversells the pull, and every referenced video
+  file exists on disk. Wired into `npm test`, so `test.yml` runs it per push.
+- Verified: 9/9 locally, 29/29 full suite, green on the GitHub runner.
+- Challenged by mutation: a narration-key typo and a config reference to a
+  missing video file each fail the suite; restored sources pass.
