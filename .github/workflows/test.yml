@@ -1,0 +1,23 @@
+# The suite guards things that break silently: settlement coin-id crypto,
+# 1-of-1 data consistency, site-wide reference integrity, and the service
+# worker's precache list. Running it only when someone remembers is how those
+# guarantees decay - so it runs on every push and PR.
+#
+# Offline by design: no secrets, no network, no dependencies to install
+# beyond Node itself.
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm test
