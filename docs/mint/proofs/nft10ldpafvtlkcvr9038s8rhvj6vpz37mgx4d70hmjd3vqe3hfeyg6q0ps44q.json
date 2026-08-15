@@ -1,0 +1,68 @@
+{
+ "version": "wiznerdz-merkle-v1",
+ "box_id": "BLND-00002",
+ "contents": [
+  1251
+ ],
+ "salt": "b37214996b4a725159d206901ba5bd513dae0cd821007de0b24988a27f2b0723",
+ "leaf": "f21642da676d3b56eedcc481034f49e85d0ec176285f22def1085572a6d9d968",
+ "leaf_index": 1,
+ "proof": [
+  {
+   "hash": "99907c3c0eb8c16a028b26b1fc7415de7103643a6c6d025db3c992f9f6de9d0c",
+   "side": "left"
+  },
+  {
+   "hash": "39546274266339d44c918fe2cc604caf520bfb8178b58a36297905c484faae29",
+   "side": "right"
+  },
+  {
+   "hash": "4cc88f3152d1f5cf4bbac88078959f281a2b9b8325e5b2a0dad465f970f8311c",
+   "side": "right"
+  },
+  {
+   "hash": "892f4bf66112872d0161eab3750bfe2def232305e67ee4615d1ee18e74306f3e",
+   "side": "right"
+  },
+  {
+   "hash": "129d1b286ae9ca9318f69186b45bf4ca2d9e6d6c4c541c6b36809672a2d2aa03",
+   "side": "right"
+  },
+  {
+   "hash": "e203840a6686159494e95d1689ee6d8d64bb5fb1036d0838b03e54516ecc845a",
+   "side": "right"
+  },
+  {
+   "hash": "5227132046567e85be2ebb6b42e190e8a1140eab5f37957206915ade9c348f74",
+   "side": "right"
+  },
+  {
+   "hash": "99ef5bffae4609320bc268efdac80cefbaf55acd5cae1d140373cdfdd8aa7575",
+   "side": "right"
+  },
+  {
+   "hash": "108448ab972743a39d4a1fdaccebf04be64115e1e8d967783cc39cbe8057d0f4",
+   "side": "right"
+  },
+  {
+   "hash": "ab112a678f8b139b6015b586880d86741f1e0189c1538f807bd488318d9b9c4e",
+   "side": "right"
+  },
+  {
+   "hash": "3e8c6dd2a90675f6e345c7ce5a52fcf9916ae108c1845875f91caadc5add92a4",
+   "side": "right"
+  },
+  {
+   "hash": "23a41a2b8de0a1df2f9d14f781187995a8fd124efa55e30a49716b3d65fa1d2f",
+   "side": "right"
+  },
+  {
+   "hash": "a1e75c9c8a6727b94b641b6c06a9b2dc92e5ab3d873eb89a6d45413582903391",
+   "side": "right"
+  }
+ ],
+ "merkle_root": "32d48bd3e53a2f16094e794bfa13d6aa6655e33a18815317e6da7cd1e2c988dd",
+ "commitment_sha256": "067fb6cc7ba997447824929b325877a111b26d354d3a7b72d6f223db01e2d533",
+ "how_to_verify": "leaf = sha256(0x00 || canonical_json({box_id, contents, salt})); fold proof with sha256(0x01 || left || right); result must equal merkle_root, and sha256(canonical_json(header)) must equal the published commitment_sha256.",
+ "box_nft_id": "nft10ldpafvtlkcvr9038s8rhvj6vpz37mgx4d70hmjd3vqe3hfeyg6q0ps44q"
+}

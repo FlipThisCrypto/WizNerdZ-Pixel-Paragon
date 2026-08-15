@@ -44,6 +44,8 @@
           <button type="button" class="wz-btn" data-act="share">SHARE SUMMON</button>
           <button type="button" class="wz-btn wz-btn--ghost" data-act="close">CLOSE</button>
         </footer>
+        ${result.boxId ? `<p class="wz-results-verify">These contents were fixed before any sale —
+          <a href="verify.html?proof=${encodeURIComponent(result.boxId)}">check your box's proof</a>.</p>` : ""}
       `;
 
       this.container.appendChild(el);

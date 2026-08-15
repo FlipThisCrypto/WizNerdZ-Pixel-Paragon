@@ -86,6 +86,59 @@
       font-size: 0.85rem; color: #8b96a8;
     }
     footer.src a { color: #a8d4ff; }
+
+    /* proof checker */
+    #proof-checker {
+      background: rgba(2, 3, 8, 0.8);
+      border: 1px solid rgba(168, 212, 255, 0.18);
+      border-radius: 12px; padding: 20px 22px; margin-bottom: 34px;
+    }
+    #proof-checker h2 {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.85rem; font-weight: 700; letter-spacing: 0.2em;
+      text-transform: uppercase; color: #c5ceda; margin: 0 0 10px;
+    }
+    #proof-checker h2::before { content: "▮ "; color: #8b2fe8; }
+    .pc-lede { color: #c5ceda; margin: 0 0 14px; font-size: 0.95rem; }
+    #pc-form label {
+      display: block; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase;
+      color: #a8d4ff; margin-bottom: 6px;
+    }
+    .pc-row { display: flex; gap: 10px; flex-wrap: wrap; }
+    #pc-box {
+      flex: 1 1 300px; min-width: 0;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.85rem; color: #e8eef6;
+      background: rgba(5, 6, 10, 0.9);
+      border: 1px solid rgba(168, 212, 255, 0.22); border-radius: 8px;
+      padding: 10px 12px;
+    }
+    .pc-btn {
+      font: inherit; font-weight: 700; letter-spacing: 0.06em;
+      color: #05060a; background: #a8d4ff;
+      border: 0; border-radius: 8px; padding: 10px 22px; cursor: pointer;
+    }
+    .pc-btn:hover { background: #c9a2ff; }
+    .pc-paste { margin-top: 12px; }
+    .pc-paste summary { color: #8b96a8; font-size: 0.85rem; cursor: pointer; }
+    #pc-json {
+      width: 100%; box-sizing: border-box; margin-top: 8px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.78rem; color: #e8eef6;
+      background: rgba(5, 6, 10, 0.9);
+      border: 1px solid rgba(168, 212, 255, 0.22); border-radius: 8px;
+      padding: 10px 12px;
+    }
+    #pc-result { margin-top: 14px; font-size: 0.92rem; }
+    #pc-result .ok, #pc-result .bad, #pc-result .note {
+      border-radius: 10px; padding: 14px 16px;
+    }
+    #pc-result .ok { background: rgba(46, 160, 67, 0.12); border: 1px solid rgba(46, 160, 67, 0.5); }
+    #pc-result .bad { background: rgba(248, 81, 73, 0.12); border: 1px solid rgba(248, 81, 73, 0.55); }
+    #pc-result .note { background: rgba(168, 212, 255, 0.07); border: 1px solid rgba(168, 212, 255, 0.2); color: #c5ceda; }
+    #pc-result code { overflow-wrap: anywhere; }
+    #pc-result ul { margin: 8px 0 0; padding-left: 20px; color: #c5ceda; }
   </style>
 </head>
 <body>
@@ -94,6 +147,29 @@
       <a href="index.html">Home</a> · <a href="mint.html">Summon</a> ·
       <a href="sealed-boxes.html">Sealed boxes</a>
     </nav>
+
+    <section id="proof-checker" aria-labelledby="pc-title">
+      <h2 id="pc-title">Check your box</h2>
+      <p class="pc-lede">
+        Opened a box? Its contents were fixed in the Merkle commitment before
+        any sale. This checker recomputes the proof in your browser — it
+        trusts nothing but the published root.
+      </p>
+      <form id="pc-form">
+        <label for="pc-box">Box NFT id</label>
+        <div class="pc-row">
+          <input id="pc-box" type="text" inputmode="text" autocomplete="off"
+                 spellcheck="false" placeholder="nft1…" />
+          <button type="submit" class="pc-btn">Verify</button>
+        </div>
+        <details class="pc-paste">
+          <summary>…or paste a proof bundle (JSON)</summary>
+          <textarea id="pc-json" rows="6" spellcheck="false"
+                    aria-label="Proof bundle JSON"></textarea>
+        </details>
+      </form>
+      <div id="pc-result" role="status" aria-live="polite"></div>
+    </section>
 
     <main id="doc" aria-busy="true"><p>Loading the commitment…</p></main>
 
@@ -105,6 +181,138 @@
   </div>
 
   <script>
+    /**
+     * Proof checker — recomputes a box's Merkle proof entirely in the browser.
+     *
+     * Trust model: the ONLY trusted input is the published root in
+     * mint/commitment.json (the value auditors have watched since before
+     * sales). The proof bundle is untrusted: its leaf is recomputed from
+     * box_id + contents + salt, its path is refolded hash by hash, and its
+     * own embedded root is ignored for the verdict.
+     *
+     * Mirrors mint_system/commitment.py exactly:
+     *   leaf = sha256(0x00 || canonical_json({box_id, contents, salt}))
+     *   node = sha256(0x01 || left || right); odd nodes promoted unchanged
+     * canonical_json = sorted keys, no spaces (python json.dumps sort_keys,
+     * separators(",",":")); all strings here are ASCII so encodings agree.
+     */
+    (function () {
+      const form = document.getElementById("pc-form");
+      const boxInput = document.getElementById("pc-box");
+      const jsonInput = document.getElementById("pc-json");
+      const result = document.getElementById("pc-result");
+
+      const hex = (buf) =>
+        Array.from(new Uint8Array(buf)).map((b) => b.toString(16).padStart(2, "0")).join("");
+      const unhex = (s) =>
+        new Uint8Array(s.match(/.{2}/g).map((b) => parseInt(b, 16)));
+      const sha256 = async (bytes) => hex(await crypto.subtle.digest("SHA-256", bytes));
+      const cat = (...parts) => {
+        const total = parts.reduce((n, p) => n + p.length, 0);
+        const out = new Uint8Array(total);
+        let off = 0;
+        for (const p of parts) { out.set(p, off); off += p.length; }
+        return out;
+      };
+      const canonical = (obj) => {
+        // sorted keys, no whitespace — byte-identical to python's canonicalize()
+        const sortedKeys = Object.keys(obj).sort();
+        const parts = sortedKeys.map((k) => JSON.stringify(k) + ":" + JSON.stringify(obj[k]));
+        return new TextEncoder().encode("{" + parts.join(",") + "}");
+      };
+
+      const show = (cls, html) => { result.innerHTML = `<div class="${cls}">${html}</div>`; };
+
+      async function verifyBundle(bundle) {
+        // published root — the one thing we trust
+        const pub = await fetch("mint/commitment.json", { cache: "no-store" }).then((r) => r.json());
+        const root = String(pub.merkle_root || "");
+        if (!/^[0-9a-f]{64}$/.test(root)) throw new Error("published root unavailable");
+
+        const boxId = String(bundle.box_id || "");
+        const salt = String(bundle.salt || "");
+        const contents = Array.isArray(bundle.contents) ? bundle.contents.map(Number) : null;
+        const proof = Array.isArray(bundle.proof) ? bundle.proof : null;
+        if (!boxId || !salt || !contents || !proof) {
+          throw new Error("bundle is missing box_id, contents, salt, or proof");
+        }
+
+        const leaf = await sha256(cat(new Uint8Array([0]),
+          canonical({ box_id: boxId, contents, salt })));
+
+        let cur = leaf;
+        for (const step of proof) {
+          if (!/^[0-9a-f]{64}$/.test(String(step.hash || ""))) throw new Error("malformed proof step");
+          const sib = unhex(step.hash);
+          if (step.side === "right") cur = await sha256(cat(new Uint8Array([1]), unhex(cur), sib));
+          else if (step.side === "left") cur = await sha256(cat(new Uint8Array([1]), sib, unhex(cur)));
+          else throw new Error("malformed proof step side");
+        }
+
+        const ok = cur === root;
+        const ids = contents.map((n) => `WizNerdZ #${n}`).join(", ");
+        if (ok) {
+          show("ok",
+            `<strong>Proof verifies.</strong> Box <code>${boxId}</code> was committed to
+             contain <strong>${ids}</strong> before any sale — recomputed leaf and
+             ${proof.length} hashes fold to the published root
+             <code>${root.slice(0, 16)}…</code>. Nothing about any other box was revealed.`);
+        } else {
+          show("bad",
+            `<strong>Proof FAILS.</strong> The recomputed path ends at
+             <code>${cur.slice(0, 16)}…</code> but the published root is
+             <code>${root.slice(0, 16)}…</code>. This bundle does not match the
+             pre-sale commitment. If you received it from us, please get in touch.`);
+        }
+      }
+
+      async function loadByBoxId(id) {
+        if (!/^nft1[a-z0-9]{50,70}$/.test(id)) {
+          show("bad", "That doesn't look like a box NFT id (<code>nft1…</code>).");
+          return null;
+        }
+        const res = await fetch(`mint/proofs/${id}.json`, { cache: "no-store" });
+        if (res.status === 404) {
+          show("note",
+            `No published proof for <code>${id}</code> yet. Proofs are published
+             once a box is opened (state FULFILLED) — before that, publishing one
+             would reveal sealed contents. If your box is open and this persists,
+             contact us.`);
+          return null;
+        }
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return res.json();
+      }
+
+      async function run(bundleOrNull, id) {
+        try {
+          const bundle = bundleOrNull || (id ? await loadByBoxId(id) : null);
+          if (!bundle) return;
+          await verifyBundle(bundle);
+        } catch (e) {
+          show("bad", `Could not verify: <code>${String(e.message || e)
+            .replace(/&/g, "&amp;").replace(/</g, "&lt;")}</code>`);
+        }
+      }
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const pasted = jsonInput.value.trim();
+        if (pasted) {
+          let bundle;
+          try { bundle = JSON.parse(pasted); }
+          catch (_) { show("bad", "That JSON does not parse."); return; }
+          run(bundle, null);
+        } else {
+          run(null, boxInput.value.trim());
+        }
+      });
+
+      // deep link: verify.html?proof=<box nft id>
+      const qp = new URLSearchParams(location.search).get("proof");
+      if (qp) { boxInput.value = qp.trim(); run(null, qp.trim()); }
+    })();
+
     /**
      * Minimal renderer for COMMITMENT.md, deliberately not a general markdown
      * engine: it handles exactly the constructs that document uses (headers,
