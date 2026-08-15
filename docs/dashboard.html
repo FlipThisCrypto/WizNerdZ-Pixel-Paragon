@@ -319,189 +319,20 @@
 
       <!-- TASK LIST -->
       <section class="panel full" id="tasks" data-n="03">
-        <h2>Task list (project board)</h2>
+        <h2>Work log &amp; current operations</h2>
         <p class="note">
-          Status legend:
-          <span class="pill done">DONE</span>
-          <span class="pill wip">WIP</span>
-          <span class="pill todo">TODO</span>
+          The July project board that lived here froze the moment it was written.
+          The real board is the <a href="https://github.com/FlipThisCrypto/WizNerdZ-Pixel-Paragon/commits/main">commit
+          history</a> — every improvement lands as one verified, pushed iteration.
         </p>
-
-        <h3>A · Foundation (done)</h3>
+        <h3>When a box sells</h3>
         <ul class="tasks">
-          <li class="done"><div class="check">✓</div><div>
-            <div class="task-title">Improve base trait library</div>
-            <div class="task-meta">Light BGs, class-matched shirt/hat, 1px black outer outline, shirt body mask (Alchemist), white beards, louvered glasses option, taped bridge rare glasses. Source: <span class="path">tools/improve_collection.py</span> · traits in <span class="path">traits/</span></div>
-          </div></li>
-          <li class="done"><div class="check">✓</div><div>
-            <div class="task-title">Generate 8,888 collection</div>
-            <div class="task-meta">8,878 weighted generative + 10 specials. Tom <strong>#42</strong>, Fiend <strong>#787</strong>. Seed 8888. Output: <span class="path">collection_8888/</span></div>
-          </div></li>
-          <li class="done"><div class="check">✓</div><div>
-            <div class="task-title">Named specials (baseline + a few custom)</div>
-            <div class="task-meta">Aster, Art Boss, Blake, Tom, Staker, Steve, Fiend, James, Papa, Profet — <span class="path">special/*_640.png</span> used in mint set</div>
-          </div></li>
-          <li class="done"><div class="check">✓</div><div>
-            <div class="task-title">Rarity extras: Staff / Spell / Familiar</div>
-            <div class="task-meta">Weighted; None-heavy so extras don’t dominate. No Shadow Tendrils / Summoning Circle. Staff right edge ~8px from canvas right. Source: <span class="path">tools/add_rarity_layers.py</span>, <span class="path">tools/fix_staff_spells.py</span></div>
-          </div></li>
-          <li class="done"><div class="check">✓</div><div>
-            <div class="task-title">Brand logo stamp</div>
-            <div class="task-meta">2× badge top-right on all NFTs. Masters: <span class="path">special/logo/logo_badge.png</span>, <span class="path">logo_mark.png</span></div>
-          </div></li>
-          <li class="done"><div class="check">✓</div><div>
-            <div class="task-title">Publish GitHub + Pages</div>
-            <div class="task-meta">Repo only contains current drop under <code>docs/</code>. Old 64×64 pipeline removed from remote; backed up locally.</div>
-          </div></li>
-        </ul>
-
-        <h3>B · Mint readiness (next)</h3>
-        <ul class="tasks">
-          <li class="todo"><div class="check">→</div><div>
-            <div class="task-title">MintGarden collection setup</div>
-            <div class="task-meta">
-              <strong>Instructions:</strong> Create collection on MintGarden; set icon + banner in their UI.
-              Point media URLs at Pages:
-              <code>https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/{id}.png</code>
-              and metadata
-              <code>.../metadata/{id}.json</code>.
-              Confirm CHIP-0007 field mapping with their importer.
-            </div>
-          </div></li>
-          <li class="done"><div class="check">✓</div><div>
-            <div class="task-title">Absolute image URLs in metadata</div>
-            <div class="task-meta">
-              Done: all 8,888 CHIP-0007 files use
-              <code>https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/{id}.png</code>
-              on root <code>image</code> and <code>data.image</code>. Verified via <code>scripts/verify_metadata.py</code>.
-            </div>
-          </div></li>
-          <li class="todo"><div class="check">→</div><div>
-            <div class="task-title">IPFS / permanent media (optional but recommended)</div>
-            <div class="task-meta">
-              <strong>Instructions:</strong> Pin <code>images/</code> + <code>metadata/</code> to NFT.Storage or Pinata.
-              Update website/image base URI if mint flow prefers CID over GitHub Pages.
-              Keep Pages as marketing site either way.
-            </div>
-          </div></li>
-          <li class="todo"><div class="check">→</div><div>
-            <div class="task-title">Test mint of 1–3 tokens</div>
-            <div class="task-meta">
-              <strong>Instructions:</strong> Mint #1 (standard), #42 Tom (1/1), #787 Fiend (1/1).
-              Verify traits, rarity, images, Twitter/website links on explorer/marketplace.
-            </div>
-          </div></li>
-        </ul>
-
-        <h3>B2 · Secure mint economics &amp; WalletConnect</h3>
-        <ul class="tasks">
-          <li class="done"><div class="check">✓</div><div>
-            <div class="task-title">Landing: Eastern countdown + splits/royalties + PFP nominate + Sage WC scaffold</div>
-            <div class="task-meta">
-              Live files: <code>docs/index.html</code>, <code>docs/js/*</code>, <code>docs/MINT.md</code>.
-              Countdown → midnight July 31, 2026 US Eastern. Mint 40/40/20 · royalty 10% same split.
-            </div>
-          </div></li>
-          <li class="todo"><div class="check">→</div><div>
-            <div class="task-title">Fill WalletConnect projectId + payout xch addresses</div>
-            <div class="task-meta">
-              <strong>Instructions:</strong> Free project ID at <code>cloud.reown.com</code>.
-              Edit <code>docs/js/config.js</code>: <code>walletConnect.projectId</code>,
-              <code>mintSplits.developer/wizards/bepeLove.address</code>. Commit + push Pages.
-            </div>
-          </div></li>
-          <li class="todo"><div class="check">→</div><div>
-            <div class="task-title">Arm mint (MintGarden URL or offer + mint.enabled)</div>
-            <div class="task-meta">
-              Set royalty 10% with 40/40/20 recipients on marketplace.
-              Point primary proceeds at the three wallets. Enable only after test mints.
-            </div>
-          </div></li>
-          <li class="wip"><div class="check">~</div><div>
-            <div class="task-title">Gather community PFP nominations</div>
-            <div class="task-meta">
-              Deadline midnight July 31, 2026 Eastern. Form opens GitHub issues.
-              After lock: produce 1:1 art, assign free token IDs, rebuild slots, push.
-            </div>
-          </div></li>
-        </ul>
-
-        <h3>C · Landing page &amp; product</h3>
-        <ul class="tasks">
-          <li class="done"><div class="check">✓</div><div>
-            <div class="task-title">Landing page v2 (mint + nominate + countdown)</div>
-            <div class="task-meta">Sage WalletConnect UI, economics panel, nomination form, EST/Eastern counter.</div>
-          </div></li>
-          <li class="todo"><div class="check">→</div><div>
-            <div class="task-title">Landing page v3 — live mint price / remaining supply</div>
-            <div class="task-meta">
-              <strong>Instructions:</strong> When offers are live, show price, remaining, deep-link status.
-              File: repo <code>docs/index.html</code> + <code>js/config.js</code>.
-            </div>
-          </div></li>
-          <li class="todo"><div class="check">→</div><div>
-            <div class="task-title">Gallery browser (optional)</div>
-            <div class="task-meta">
-              <strong>Instructions:</strong> Filter by Class / Staff / Spell / Familiar / Special.
-              Load from <code>metadata/*.json</code> + <code>images/</code>. Keep pixelated CSS.
-            </div>
-          </div></li>
-          <li class="todo"><div class="check">→</div><div>
-            <div class="task-title">Rarity page</div>
-            <div class="task-meta">
-              <strong>Instructions:</strong> Render <code>rarity.csv</code> as tables; document 1/1 specials and weight model.
-            </div>
-          </div></li>
-        </ul>
-
-        <h3>D · Art / balance polish (as needed)</h3>
-        <ul class="tasks">
-          <li class="todo"><div class="check">→</div><div>
-            <div class="task-title">Staff / familiar visual QA pass</div>
-            <div class="task-meta">
-              Spot-check staffs at right margin (~5–10px), logo top-right clearance from hats,
-              familiars not colliding with logo (logo moved TR to fix this).
-              Adjust in <span class="path">tools/add_rarity_layers.py</span> + re-run <span class="path">fix_staff_spells.py</span>, then push.
-            </div>
-          </div></li>
-          <li class="todo"><div class="check">→</div><div>
-            <div class="task-title">Trait weight tuning</div>
-            <div class="task-meta">
-              Edit <span class="path">traits/*#weight.png</span> names and/or
-              <span class="path">traits_extra/weights.json</span> catalogs; regenerate if distribution targets change.
-            </div>
-          </div></li>
-          <li class="todo"><div class="check">→</div><div>
-            <div class="task-title">New named specials</div>
-            <div class="task-meta">
-              <strong>Instructions:</strong> Build from official traits when possible; save
-              <code>special/Name_640.png</code> + JSON; assign a free token id; rebuild that slot; push.
-            </div>
-          </div></li>
-        </ul>
-
-        <h3>E · Ops / backups</h3>
-        <ul class="tasks">
-          <li class="done"><div class="check">✓</div><div>
-            <div class="task-title">Legacy GitHub art backup</div>
-            <div class="task-meta"><span class="path">G:\WizNerdz\_archive\WizNerdZ_Pixel_Paragon_legacy_github_backup\</span></div>
-          </div></li>
-          <li class="todo"><div class="check">→</div><div>
-            <div class="task-title">Full local cold backup of collection_8888</div>
-            <div class="task-meta">
-              <strong>Instructions:</strong> Zip <span class="path">working directory/collection_8888</span>
-              + <span class="path">traits</span> + <span class="path">special</span> to external drive / cloud.
-              Keep one copy offline before public mint.
-            </div>
-          </div></li>
-          <li class="todo"><div class="check">→</div><div>
-            <div class="task-title">Freeze release tag</div>
-            <div class="task-meta">
-              <strong>Instructions:</strong> When mint-ready:
-              <code>git tag v1.0.0-mint</code> on
-              <code>FlipThisCrypto/WizNerdZ-Pixel-Paragon</code> and push tags.
-            </div>
-          </div></li>
+          <li class="done"><span class="check">1</span><div><div class="task-title">Detection is automatic</div>
+            <div class="task-meta">The scheduled watcher marks the box SOLD and retires its offer within ~5 minutes. Check the <strong>Mint API</strong> row above — heartbeat age is the liveness signal.</div></div></li>
+          <li class="wip"><span class="check">2</span><div><div class="task-title">Delivery is operator-side (by design)</div>
+            <div class="task-meta">Resolve the settlement recipient, deliver the committed WizNerdZ, publish the status: <strong>mint_system</strong> tooling — settlement_watcher · chia_fulfillment deliver · push_status_to_site.</div></div></li>
+          <li class="todo"><span class="check">3</span><div><div class="task-title">Before any real drop</div>
+            <div class="task-meta"><code>npm run preflight</code> must be clean (also runs every 6h via Actions and on demand), inventory loaded at real prices, and the delivery runbook open.</div></div></li>
         </ul>
       </section>
 
@@ -570,26 +401,21 @@
 
       <!-- MINT -->
       <section class="panel full" id="mint" data-n="07">
-        <h2>Mint direction (MintGarden + Chia)</h2>
-        <div class="cols-2">
-          <div>
-            <h3>Metadata rules for mint</h3>
-            <ul>
-              <li>Format: <strong>CHIP-0007</strong></li>
-              <li>Twitter + website set on every token</li>
-              <li>No icon/banner in JSON</li>
-              <li>Specials: <code>Rarity: 1 of 1</code>, <code>Supply: 1</code></li>
-              <li>Series numbers 1–8888</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Suggested media base</h3>
-            <p class="note">
-              Image: <code>https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/images/&lt;id&gt;.png</code><br />
-              Meta: <code>https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/metadata/&lt;id&gt;.json</code>
-            </p>
-          </div>
-        </div>
+        <h2>Mint direction (sealed boxes on Chia)</h2>
+        <p>
+          Buyers take an offer for a <strong>generic sealed box</strong> (offers are transparent —
+          a real WizNerd would be snipeable). Contents were Merkle-committed before sale;
+          delivery follows the <strong>settlement transaction's recipient</strong>, never later
+          possession. Full design: <a href="verify.html?doc=MINT">mint economics</a> ·
+          <a href="verify.html">the commitment</a>.
+        </p>
+        <table>
+          <tr><th>Rule</th><th>Value</th></tr>
+          <tr><td>Metadata</td><td>CHIP-0007 · twitter/website/<strong>icon/banner</strong> on both collections (IPFS-pinned)</td></tr>
+          <tr><td>Specials</td><td>Rarity: 1 of 1 · Supply: 1 · series 1–8888</td></tr>
+          <tr><td>Buy path</td><td>chia_takeOffer only — the one method every Chia wallet implements</td></tr>
+          <tr><td>Detection</td><td>anchor-coin spends via public full node; no indexer in the correctness path</td></tr>
+        </table>
       </section>
     </div>
 
