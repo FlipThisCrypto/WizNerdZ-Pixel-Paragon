@@ -211,3 +211,19 @@ than visible defects, per the Round 2 protocol.
   ongoing incident finally reaching the operator through the only channel
   that pages them. The settle-retry (90s default) absorbs the race where the
   path-triggered CI run beats its own deploy.
+
+### round 2 iteration 13 — the mint page speaks its status — APPROVED
+- Commit: `4314ca7bb`.
+- What: the purchase path's dynamic surfaces became live regions — the
+  notice container (role=status; summon failures switch to role=alert), the
+  wallet state line, and a visually hidden availability status that
+  announces lost/restored transitions only (never periodic counts). Plus a
+  `main` landmark, skip link, and labelled nav.
+- Verified in-browser: roles present; staleness announced exactly once
+  across repeated failed polls, recovery exactly once across repeated
+  healthy polls; annotations clear on recovery. Suite 32/32.
+- Challenged: the role=alert switch is exercised only by a real summon
+  failure (module-scoped path, code-reviewed rather than driven); accepted —
+  the attribute switch is one guarded line and the default path is tested.
+  Announcement DISCIPLINE (transitions only) was the hard part and is
+  proven.
