@@ -98,8 +98,8 @@
     <main id="doc" aria-busy="true"><p>Loading the commitment…</p></main>
 
     <footer class="src">
-      This page renders <a href="mint/COMMITMENT.md">mint/COMMITMENT.md</a> — the
-      raw markdown auditors should read directly. Published values live in
+      This page renders <a id="src-link" href="mint/COMMITMENT.md">the raw markdown</a>
+      auditors should read directly. Published values live in
       <a href="mint/commitment.json"><code>mint/commitment.json</code></a>.
     </footer>
   </div>
@@ -114,15 +114,31 @@
      */
     (async function () {
       const doc = document.getElementById("doc");
+
+      // Allowlisted docs only - ?doc= must never become an arbitrary-fetch
+      // surface. Unknown values fall back to the commitment.
+      const DOCS = {
+        COMMITMENT: "mint/COMMITMENT.md",
+        MINT: "MINT.md",
+        COLLECTION_README: "COLLECTION_README.md",
+        OPS: "OPS.md",
+        ARCHITECTURE: "ARCHITECTURE.md",
+        SLO: "SLO.md",
+        INCIDENTS: "INCIDENTS.md",
+        GOVERNANCE: "GOVERNANCE.md",
+      };
+      const key = new URLSearchParams(location.search).get("doc");
+      const path = DOCS[key] || DOCS.COMMITMENT;
+
       let md;
       try {
-        const res = await fetch("mint/COMMITMENT.md", { cache: "no-store" });
+        const res = await fetch(path, { cache: "no-store" });
         if (!res.ok) throw new Error("HTTP " + res.status);
         md = await res.text();
       } catch (e) {
         doc.innerHTML =
           '<h1>Verify the allocation</h1><p>Could not load the commitment document. ' +
-          'Read it directly: <a href="mint/COMMITMENT.md">mint/COMMITMENT.md</a></p>';
+          'Read it directly: <a href="' + path + '">' + path + "</a></p>";
         doc.removeAttribute("aria-busy");
         return;
       }
@@ -208,6 +224,8 @@
       doc.removeAttribute("aria-busy");
       const h1text = doc.querySelector("h1")?.textContent;
       if (h1text) document.title = h1text; // h1 already carries the brand
+      const src = document.getElementById("src-link");
+      if (src) { src.href = path; src.textContent = path; }
     })();
   </script>
 </body>
