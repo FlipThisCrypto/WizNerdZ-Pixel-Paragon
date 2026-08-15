@@ -50,3 +50,13 @@
   --space-6: 32px;
   --touch-min: 44px;
 }
+
+/* Universal keyboard focus ring. Seven pages shipped with no :focus-visible
+   styling at all - on this palette the UA default is effectively invisible.
+   Every page loads this file, so every page gets a visible ring; arcane
+   purple, because green is reserved for status. Pages may override with a
+   more specific ring but can no longer have none. */
+:focus-visible {
+  outline: 2px solid #c9a2ff;
+  outline-offset: 3px;
+}
