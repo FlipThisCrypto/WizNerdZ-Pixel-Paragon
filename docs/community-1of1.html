@@ -123,8 +123,9 @@
       .then((data) => {
         const named = data.named_specials || [];
         const comm = data.community_1of1 || [];
+        // count what we actually render - a summary field went stale once
         document.getElementById("count-badge").textContent =
-          (data.total_1of1 || named.length + comm.length) +
+          (named.length + comm.length) +
           " one-of-ones · " +
           named.length +
           " named · " +
