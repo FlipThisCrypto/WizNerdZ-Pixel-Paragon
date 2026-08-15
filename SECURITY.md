@@ -26,6 +26,7 @@ performed operator-side, outside this repo.
 | WalletConnect | Public project ID only; pairing QR rendered locally — the URI never reaches a third-party image service |
 | Media | Public art + CHIP-0007 metadata; minted NFTs hash-commit to exact bytes |
 | Telemetry | Local-only; no analytics beacons |
+| Fairness | Buyer-verifiable: every opened box's Merkle proof is published and refolds in the buyer's own browser against the pre-sale root; CI refolds every published proof independently; a standing settlement audit re-derives every sale claim from the chain with none of the watcher's code |
 
 ## What we most want to hear about
 
@@ -64,5 +65,4 @@ mint-integrity impact.
 
 - `api.coinset.org` — public full-node RPC for settlement detection
 - WalletConnect relay + `esm.sh` modules for wallet pairing
-- GitHub Issues Search API (public, unauthenticated) for the nominations board
 - No analytics beacons; telemetry is local-only

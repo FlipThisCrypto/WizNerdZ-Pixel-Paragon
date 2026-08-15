@@ -35,13 +35,11 @@
   window.fetch = function (input, init) {
     const url = String(input && input.url ? input.url : input);
     const ch =
-      url.indexOf("api.github.com") >= 0
-        ? "board"
-        : url.indexOf("health.json") >= 0
-          ? "health"
-          : url.indexOf("metadata/") >= 0
-            ? "metadata"
-            : "other";
+      url.indexOf("health.json") >= 0
+        ? "health"
+        : url.indexOf("metadata/") >= 0
+          ? "metadata"
+          : "other";
     if (window.WIZNERDZ_CHAOS.shouldFail(ch) || (mode === "all" && ch !== "other")) {
       return Promise.reject(new Error("CHAOS injected failure for " + ch));
     }

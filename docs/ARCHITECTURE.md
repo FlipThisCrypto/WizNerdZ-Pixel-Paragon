@@ -69,10 +69,44 @@ outcomes.
 
 ## Verification layers
 
-1. `npm test` — offline: settlement crypto against real mainnet fixtures,
-   dispenser selection rules, 1/1 data consistency, reference integrity,
-   SW precache.
+1. `npm test` — offline: settlement crypto against real mainnet fixtures plus
+   a 2,733-value CLVM integer corpus generated from Chia's own encoder;
+   dispenser selection rules AND a seeded drop-rush simulation (no false 410,
+   stale-read spread, oldest-first recycling); the reveal subsystem's contract
+   (state graph, narration keys, rarity→video selection, video files on
+   disk); published fairness proofs refolded with node crypto; 1/1 data
+   consistency; reference integrity; truth invariants.
 2. `verify-metadata` CI — CHIP-0007 contracts, placements, budgets, integrity
    manifests on any data push.
-3. `npm run preflight` — twelve read-only checks against the deployed system;
-   runs 6-hourly in Actions as the operational alarm.
+3. `npm run preflight` — read-only checks against the deployed system, run
+   6-hourly in Actions as the operational alarm: money-path behavior,
+   watcher heartbeat, delivery lag (`pendingDeliveries` vs
+   `MAX_DELIVERY_LAG_MIN`), origin agreement, and **deploy freshness**
+   (witness files byte-compared repo↔origin, so a silently dead deploy
+   pipeline fails loudly instead of idling behind passing checks).
+4. `scripts/audit_settlements.py` — the standing trust drill: re-derives
+   every sale claim from the chain with none of the watcher's code and
+   cross-checks operator ledger + public site per box; `--offers` executes
+   each live offer file's puzzles and proves it predicts exactly the anchor
+   the ledger watches. The watcher decides what the site says; this is how
+   the watcher itself is checked.
+
+## Buyer-verifiable fairness
+
+The Merkle commitment is checkable by the person it protects:
+
+- At FULFILLED, the publish pipeline (`push_status_to_site.py`) writes the
+  box's proof bundle to `docs/mint/proofs/<box nft id>.json` — refused if its
+  contents disagree with the delivery ledger.
+- `verify.html` verifies it **in the browser** (WebCrypto): recomputes the
+  leaf, refolds the path, trusts nothing but the published root. The reveal
+  results dialog links every opened box to its proof.
+- CI (`proof-integrity` tests) refolds every published bundle with a third
+  independent implementation, so an invalid proof cannot ship.
+
+## Recovery posture
+
+- **Blob-store loss is rehearsed** (2026-08-15, live): offers and statuses
+  rebuild byte-identically from operator ground truth; the settlement audit
+  referees before/after. Holds are transient by design. See OPS.md.
+- Statuses only move forward, so no rebuild can downgrade a buyer's box.

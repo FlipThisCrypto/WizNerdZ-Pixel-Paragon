@@ -137,7 +137,5 @@ window.WIZNERDZ_CONFIG = Object.freeze({
     // { tier, offer, boxNftId, priceXch, claimToken, sealed }
     offerUrl: "https://wiznerdz-pixel-paragon.netlify.app/api/mint-offer",
     tier: "blind_single",
-    statusNote:
-      "Live test: one sealed Blind Single box. Approve the offer in your wallet to buy the box — the WizNerd inside is delivered separately once the sale settles on chain.",
   },
 });

@@ -161,6 +161,6 @@ watcher missed, site/ledger divergence, and early contents leaks.
 
 ## Chaos drills
 
-1. `/?chaos=1&chaosMode=board` · `/?chaos=1&chaosMode=health` (index only,
+1. `/?chaos=1&chaosMode=health` · `/?chaos=1&chaosMode=metadata` (index only,
    opt-in, loud banner; never loads on the mint page)
 2. Disable: `localStorage.removeItem('wiznerdz_chaos')`
