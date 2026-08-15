@@ -64,20 +64,27 @@
       const stats = await res.json();
       // the tier cards' availability line states the LIVE truth - the static
       // catalog said "2,941 of 2,941 available" while two boxes were buyable
+      // "SOLD OUT" is a claim: it says boxes existed and buyers took them
+      // all. A tier that has never had inventory must not make it - false
+      // scarcity is exactly the kind of lie this site refuses elsewhere.
       document.querySelectorAll("[data-avail]").forEach((el) => {
         const t = stats.byTier?.[el.dataset.avail];
-        const n = t ? t.dispensable : 0;
         const base = el.textContent.split("·").slice(0, 2).map(x => x.trim());
-        el.textContent = `${base[0]} · ${base[1]} · ${n.toLocaleString()} buyable now`;
+        const tail = t ? `${t.dispensable.toLocaleString()} buyable now` : "not yet on sale";
+        el.textContent = `${base[0]} · ${base[1]} · ${tail}`;
       });
       document.querySelectorAll(".summon-btn[data-tier]").forEach((b) => {
         const t = stats.byTier?.[b.dataset.tier];
-        const out = !t || t.dispensable === 0;
-        b.dataset.soldOut = out ? "1" : "";
-        if (out) {
+        if (!t) {
+          b.dataset.soldOut = "";
+          b.textContent = "NOT YET ON SALE";
+          b.disabled = true;
+        } else if (t.dispensable === 0) {
+          b.dataset.soldOut = "1";
           b.textContent = "SOLD OUT";
           b.disabled = true;
-        } else if (b.textContent === "SOLD OUT") {
+        } else if (b.textContent === "SOLD OUT" || b.textContent === "NOT YET ON SALE") {
+          b.dataset.soldOut = "";
           b.textContent = "SUMMON";
           refreshButtons();
         }
