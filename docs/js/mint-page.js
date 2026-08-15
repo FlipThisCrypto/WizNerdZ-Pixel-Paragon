@@ -250,12 +250,36 @@
           `WizNerd from it, and only the box id opens the reveal. If you bought moments ago, ` +
           `settling can take a few minutes.</span>`);
       } else if (!quiet) {
-        notice(`<strong>Delivery in progress.</strong> <span class="muted">Box ${escapeHtml(box.slice(0, 14))}… is ${escapeHtml(s.state)}. Your WizNerdZ arrive automatically once the chain confirms — check back soon.</span>`);
+        notice(pendingCopy(s, box), { reveal: true });
       }
     } catch {
       if (!quiet) notice(`<strong>Could not reach the mint service.</strong> <span class="muted">Your box is safe — this page only reads what already happened on chain.</span>`);
     }
     return false;
+  }
+
+
+  /** "sold 25 minutes ago" / "sold 3 hours ago" - or "" when the timestamp is
+   *  missing/unparseable, so the caller degrades to copy without a bad age. */
+  function saleAge(updatedAt) {
+    const t = new Date(updatedAt ?? NaN).getTime();
+    if (!Number.isFinite(t)) return "";
+    const min = Math.max(1, Math.round((Date.now() - t) / 60000));
+    if (min < 90) return `sold ${min} minute${min === 1 ? "" : "s"} ago`;
+    const h = Math.round(min / 60);
+    return `sold ${h} hour${h === 1 ? "" : "s"} ago`;
+  }
+
+  /** Honest expectation line for a paid-but-undelivered box. */
+  function pendingCopy(s, box) {
+    const age = saleAge(s.updatedAt);
+    return (
+      `<strong>Delivery in progress.</strong> <span class="muted">Box ${escapeHtml(box.slice(0, 14))}… ` +
+      `is ${escapeHtml(s.state)}${age ? " — " + age : ""}. Deliveries are completed by the operator ` +
+      `and typically land within a few hours; this page opens your reveal automatically once the ` +
+      `chain confirms. Your WizNerdZ cannot be lost — contents were committed before sale and ` +
+      `delivery follows your settled purchase.</span>`
+    );
   }
 
   /** Auto-resume: ?box=nft1... beats the remembered box from this browser. */
@@ -271,7 +295,7 @@
       notice(`<strong>Your box is ready.</strong> <button type="button" id="wz-open-ready" class="summon-btn">Open it</button>`);
       document.getElementById("wz-open-ready").addEventListener("click", () => openBox(box));
     } else if (s.state !== "UNKNOWN") {
-      notice(`<strong>Delivery in progress.</strong> <span class="muted">Box ${escapeHtml(box.slice(0, 14))}… is ${escapeHtml(s.state)}. This page will open it once the chain confirms.</span>`);
+      notice(pendingCopy(s, box));
     }
   }
 
