@@ -104,6 +104,21 @@ No private keys anywhere in this repo or its deployed layer. `MINT_ADMIN_SECRET`
 lives only in Netlify env + the operator's shell. Delivery signing happens only
 in `mint_system/` on the operator machine.
 
+## Settlement audit (trust drill)
+
+The watcher decides what the site says, so nothing it writes can vouch for it.
+Re-derive every sale claim from the chain itself and cross-check ledger + site:
+
+```bash
+python scripts/audit_settlements.py ../mint_system/production/delivery_ledger.db
+```
+
+Exit 0 = chain, operator ledger, and public site all agree on every box, and
+contents stay withheld below FULFILLED. Run it after every sale lands, after
+any watcher change, and before any drop. It reads all three sources and
+writes none. Catches: fabricated sales, wrong settlement heights, sales the
+watcher missed, site/ledger divergence, and early contents leaks.
+
 ## Chaos drills
 
 1. `/?chaos=1&chaosMode=board` · `/?chaos=1&chaosMode=health` (index only,
