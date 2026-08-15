@@ -259,3 +259,21 @@ than visible defects, per the Round 2 protocol.
   store's serialization is a platform property already verified live
   (strong consistency, 6/6 distinct in Round 1). The pure layer is where
   algorithmic regressions would land, and it is now fenced.
+
+### round 2 iteration 16 — the docs describe the system round 2 built — APPROVED
+- Commit: `0a718b69a`.
+- What: ARCHITECTURE.md gains the full verification ladder, a
+  buyer-verifiable fairness section, and the rehearsed recovery posture;
+  SECURITY.md gains the fairness row and sheds the retired nominations-board
+  claim; dead countdown.js removed (loaded nowhere, promised a nominations
+  deadline); chaos.js sheds its no-op "board" channel; OPS.md's chaos drill
+  names real modes; config.js drops statusNote (consumed by nothing).
+- Verified: every remaining claim traces to a shipped artifact; suite 38/38
+  (truth invariants + link integrity included); rendered mint page carries
+  no stale note.
+- Challenged/learned: the statusNote fix started as a rewording until a
+  consumer grep showed NOTHING renders it — dead config lies differently
+  than stale copy; deletion was the truthful fix. Watcher testability
+  refactor consciously deferred: changing undeployable live money-path code
+  while Netlify is stalled would stack unverified changes onto its eventual
+  resume.
