@@ -3,35 +3,261 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Rarity — not published</title>
-  <meta name="robots" content="noindex,nofollow" />
-  <meta http-equiv="refresh" content="3;url=./" />
+  <title>WizNerdZ — Rarity</title>
+  <meta name="description" content="Full public rarity ranking for all 8,888 WizNerdZ. Public on purpose: sealed boxes make rank-sniping impossible." />
+  <meta name="theme-color" content="#05060a" />
   <link rel="icon" href="assets/logo_mark.png" type="image/png" />
+  <link rel="canonical" href="https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/rarity.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="WizNerdZ Pixel Paragon" />
+  <meta property="og:title" content="WizNerdZ rarity — public on purpose" />
+  <meta property="og:description" content="Every rank for all 8,888 wizards, published in full. Sealed pre-committed boxes mean knowing the ranks can't help anyone snipe." />
+  <meta property="og:url" content="https://flipthiscrypto.github.io/WizNerdZ-Pixel-Paragon/rarity.html" />
+  <meta property="og:image" content="https://wiznerdz-pixel-paragon.netlify.app/assets/share_mint.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@FiendStudios" />
+  <meta name="twitter:title" content="WizNerdZ rarity — public on purpose" />
+  <meta name="twitter:image" content="https://wiznerdz-pixel-paragon.netlify.app/assets/share_mint.jpg" />
+  <link rel="stylesheet" href="css/tokens.css" />
   <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
     body {
-      margin: 0; min-height: 100vh; display: grid; place-items: center;
-      font-family: system-ui, sans-serif; background: #05060a; color: #e8eef6;
-      padding: 24px; text-align: center;
+      margin: 0;
+      font-family: "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+      background:
+        radial-gradient(900px 480px at 12% -10%, rgba(139, 47, 232, 0.12) 0%, transparent 55%),
+        #020308;
+      color: #e8eef6;
+      line-height: 1.55;
     }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 34px 20px 90px; }
+    :focus-visible { outline: 2px solid #c9a2ff; outline-offset: 3px; }
     a { color: #a8d4ff; }
-    a:hover { color: #9dffb0; }
-    .card {
-      max-width: 420px; padding: 28px 24px; border-radius: 16px;
-      border: 1px solid rgba(168, 212, 255, 0.25);
-      background: linear-gradient(160deg, #10141c, #061428);
+    a:hover { color: #c9a2ff; }
+    nav.top {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase;
+      color: #8b96a8; margin-bottom: 26px;
     }
-    h1 { font-size: 1.2rem; margin: 0 0 12px; color: #9dffb0; }
-    p { color: #8b96a8; line-height: 1.5; font-size: 0.95rem; }
+    nav.top a { text-decoration: none; }
+    h1 { font-size: clamp(1.5rem, 4vw, 2.1rem); margin: 0 0 10px; }
+    .muted { color: #8b96a8; }
+    .why {
+      border: 1px solid rgba(168, 212, 255, 0.22);
+      border-left: 3px solid #8b2fe8;
+      background: rgba(139, 47, 232, 0.06);
+      border-radius: 0 12px 12px 0;
+      padding: 14px 18px; margin: 18px 0 30px;
+      color: #c5ceda; font-size: 0.95rem;
+    }
+    h2 {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.82rem; font-weight: 700; letter-spacing: 0.2em;
+      text-transform: uppercase; color: #c5ceda; margin: 34px 0 12px;
+    }
+    h2::before { content: "▮ "; color: #8b2fe8; }
+
+    /* lookup */
+    .lookup { display: flex; gap: 10px; flex-wrap: wrap; }
+    .lookup input {
+      flex: 1; min-width: 180px; min-height: 44px;
+      background: rgba(2, 3, 8, 0.7); color: inherit;
+      border: 1px solid rgba(168, 212, 255, 0.35); border-radius: 10px;
+      padding: 0 14px; font-size: 1rem;
+    }
+    .lookup button {
+      min-height: 44px; padding: 0 20px; cursor: pointer;
+      border: 1px solid #8b2fe8; border-radius: 10px;
+      background: #6b3fa0; color: #fff;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase;
+    }
+    .lookup button:hover { filter: brightness(1.2); }
+    #result { margin-top: 14px; min-height: 1.4em; }
+    .hit {
+      display: flex; gap: 16px; align-items: center; flex-wrap: wrap;
+      border: 1px solid rgba(168, 212, 255, 0.22); border-radius: 12px;
+      padding: 12px 16px; background: linear-gradient(160deg, #10141c, #0a0c12);
+    }
+    .hit img { width: 96px; height: 96px; image-rendering: pixelated; border-radius: 8px; }
+    .hit .mono, td.mono, .tierlist b {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+    .hit .rank { font-size: 1.25rem; font-weight: 700; color: #c9a2ff; }
+    .badge {
+      display: inline-block; font-size: 0.7rem; font-weight: 700;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      letter-spacing: 0.12em; padding: 2px 9px; border-radius: 999px;
+      border: 1px solid rgba(168, 212, 255, 0.3); color: #a8d4ff;
+    }
+    .badge.gold { color: #ffd479; border-color: rgba(255, 212, 121, 0.45); }
+
+    /* tier distribution */
+    .tierlist { display: grid; gap: 8px; }
+    .tierrow { display: grid; grid-template-columns: 110px 1fr 90px; gap: 12px; align-items: center; }
+    .tierrow .bar {
+      height: 12px; border-radius: 999px; background: rgba(168, 212, 255, 0.08);
+      overflow: hidden;
+    }
+    .tierrow .bar i { display: block; height: 100%; border-radius: 999px; }
+    .tierrow small { color: #8b96a8; text-align: right; }
+
+    /* rarest table */
+    .tablewrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid rgba(168, 212, 255, 0.12); }
+    th {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase; color: #a8d4ff;
+    }
+    footer.src {
+      margin-top: 42px; padding-top: 18px;
+      border-top: 1px solid rgba(168, 212, 255, 0.18);
+      font-size: 0.85rem; color: #8b96a8;
+    }
   </style>
 </head>
 <body>
-  <div class="card">
-    <h1>Rarity ranks are not public</h1>
-    <p>
-      Trait rankings are withheld for a fairer mint experience.
-      Explore the collection, named specials, and community 1/1s on the home page.
-    </p>
-    <p><a href="./">← Back to WizNerdZ</a> · <a href="community-1of1.html">1-of-1s</a></p>
+  <div class="wrap">
+    <nav class="top">
+      <a href="index.html">Home</a> · <a href="mint.html">Summon</a> ·
+      <a href="sealed-boxes.html">Sealed boxes</a> · <a href="verify.html">Verify</a>
+    </nav>
+
+    <h1>Rarity — public on purpose</h1>
+    <p class="muted">Every rank for all 8,888 WizNerdZ, published in full.</p>
+    <div class="why">
+      Publishing ranks costs buyers nothing here. Every sealed box of a tier is
+      byte-identical and its contents were <a href="verify.html">Merkle-committed
+      before sale</a> — so knowing exactly which wizards are rare cannot help
+      anyone pick, refuse, or re-roll a box. Fairness comes from the commitment,
+      not from secrecy. Projects that hide ranks create insiders; we'd rather
+      you check our math.
+    </div>
+
+    <h2>Look up a wizard</h2>
+    <div class="lookup">
+      <label for="tok" class="muted" style="flex-basis:100%">Token # (1–8888)</label>
+      <input id="tok" type="number" min="1" max="8888" inputmode="numeric" placeholder="e.g. 5413" />
+      <button id="go" type="button">Check rank</button>
+    </div>
+    <div id="result" aria-live="polite"></div>
+
+    <h2>Tier distribution</h2>
+    <div class="tierlist" id="tiers"><p class="muted">Loading…</p></div>
+
+    <h2>Rarest 50 (generative)</h2>
+    <div class="tablewrap"><table id="rarest">
+      <thead><tr><th>Rank</th><th>Wizard</th><th>Tier</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+
+    <footer class="src">
+      Raw data: <a href="rarity_ranking.csv">rarity_ranking.csv</a> (all 8,888) ·
+      <a href="rarity.json">rarity.json</a> ·
+      method: statistical rarity over visual trait frequencies. One-of-ones sit
+      outside the generative ranking — see <a href="community-1of1.html">the 1-of-1 gallery</a>.
+    </footer>
   </div>
+
+  <script>
+    (async function () {
+      const TIER_COLORS = {
+        "1 of 1": "#ffd479", Legendary: "#c9a2ff", Epic: "#8b2fe8",
+        Rare: "#3d9be8", Uncommon: "#6ee7a0", Common: "#5c6778",
+      };
+      const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+      // summary payload is small and immediate
+      let summary;
+      try {
+        summary = await (await fetch("rarity.json", { cache: "no-store" })).json();
+      } catch (_) {
+        document.getElementById("tiers").innerHTML =
+          '<p class="muted">Could not load rarity data — <a href="rarity_ranking.csv">raw CSV</a>.</p>';
+        return;
+      }
+
+      const counts = summary.tier_counts || {};
+      const thresholds = summary.tier_thresholds_generative_pct || {};
+      const order = ["1 of 1", "Legendary", "Epic", "Rare", "Uncommon", "Common"];
+      const max = Math.max(...Object.values(counts));
+      document.getElementById("tiers").innerHTML = order
+        .filter((t) => counts[t])
+        .map((t) => `
+          <div class="tierrow">
+            <b style="color:${TIER_COLORS[t]}">${esc(t)}</b>
+            <span class="bar"><i style="width:${(counts[t] / max) * 100}%;background:${TIER_COLORS[t]}"></i></span>
+            <small>${counts[t].toLocaleString()}${thresholds[t] ? " · " + esc(thresholds[t]) : ""}</small>
+          </div>`)
+        .join("");
+
+      document.querySelector("#rarest tbody").innerHTML =
+        (summary.rarest_50_generative || [])
+          .map((r) => `
+            <tr>
+              <td class="mono">${r.rank}</td>
+              <td>${esc(r.name)}</td>
+              <td><span class="badge" style="color:${TIER_COLORS[r.tier] || "#a8d4ff"}">${esc(r.tier)}</span></td>
+              <td><a href="token.html?id=${r.token_id}">view</a></td>
+            </tr>`)
+          .join("");
+
+      // ---- token lookup: the full 650KB CSV loads lazily, on first search --
+      let ranking = null;
+      async function loadRanking() {
+        if (ranking) return ranking;
+        const text = await (await fetch("rarity_ranking.csv", { cache: "force-cache" })).text();
+        ranking = new Map();
+        for (const line of text.split(/\r?\n/).slice(1)) {
+          if (!line) continue;
+          // token_id,rank,rank_label,rarity_score,tier,kind,name,display_name,handle,special
+          const c = line.split(",");
+          ranking.set(c[0], { rank_label: c[2], tier: c[4], kind: c[5], name: c[6], handle: c[8] });
+        }
+        return ranking;
+      }
+
+      const result = document.getElementById("result");
+      async function lookup() {
+        const id = document.getElementById("tok").value.trim();
+        if (!/^\d+$/.test(id) || +id < 1 || +id > 8888) {
+          result.innerHTML = '<p class="muted">Enter a token number between 1 and 8888.</p>';
+          return;
+        }
+        result.innerHTML = '<p class="muted">Checking…</p>';
+        let map;
+        try {
+          map = await loadRanking();
+        } catch (_) {
+          result.innerHTML = '<p class="muted">Could not load the ranking — <a href="rarity_ranking.csv">raw CSV</a>.</p>';
+          return;
+        }
+        const r = map.get(id);
+        if (!r) {
+          result.innerHTML = '<p class="muted">No such token.</p>';
+          return;
+        }
+        const isOne = r.tier === "1 of 1";
+        result.innerHTML = `
+          <div class="hit">
+            <img src="images/${esc(id)}.png" alt="${esc(r.name)}" loading="lazy"
+                 onerror="this.remove()" />
+            <div>
+              <div>${esc(r.name)}</div>
+              <div class="rank mono">${isOne ? "1 OF 1" : "Rank " + esc(r.rank_label)}</div>
+              <span class="badge${isOne ? " gold" : ""}" style="${isOne ? "" : "color:" + (TIER_COLORS[r.tier] || "#a8d4ff")}">${esc(r.tier)}</span>
+              ${r.handle ? `<span class="badge">${esc(r.handle)}</span>` : ""}
+            </div>
+            <div style="margin-left:auto"><a href="token.html?id=${esc(id)}">Full details →</a></div>
+          </div>`;
+      }
+      document.getElementById("go").addEventListener("click", lookup);
+      document.getElementById("tok").addEventListener("keydown", (e) => {
+        if (e.key === "Enter") lookup();
+      });
+    })();
+  </script>
 </body>
 </html>
