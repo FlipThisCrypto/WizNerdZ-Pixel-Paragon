@@ -77,7 +77,28 @@ function clvmIntBytes(n) {
   return new Uint8Array(out);
 }
 
-export async function detectSettlements() {
+/**
+ * The heartbeat is the difference between "the cron is configured" and "the
+ * cron demonstrably runs". Every run - scheduled or manual, OK or DEGRADED -
+ * stamps watch/lastRun; mint-stats serves it, so a heartbeat older than a few
+ * schedule intervals is visible evidence the autonomous path is down.
+ */
+async function stampHeartbeat(mint, trigger, summary) {
+  try {
+    await mint.setJSON("watch/lastRun", {
+      at: summary.checkedAt,
+      trigger,
+      status: summary.status,
+      watched: summary.watched,
+      settled: summary.settled.length,
+      errors: summary.errors.length,
+    });
+  } catch (_) {
+    /* a failed stamp must never fail the sweep itself */
+  }
+}
+
+export async function detectSettlements(trigger = "manual") {
   const offers = getStore("wiznerdz-offers");
   const mint = getStore("wiznerdz-mint");
 
@@ -108,7 +129,7 @@ export async function detectSettlements() {
     }
   }
   summary.watched = watch.length;
-  if (!watch.length) return summary;
+  if (!watch.length) { await stampHeartbeat(mint, trigger, summary); return summary; }
 
   let records;
   try {
@@ -118,6 +139,7 @@ export async function detectSettlements() {
     // and "we could not look" must never be the same outcome.
     summary.status = "DEGRADED";
     summary.errors.push(String(e.message || e));
+    await stampHeartbeat(mint, trigger, summary);
     return summary;
   }
 
@@ -169,5 +191,6 @@ export async function detectSettlements() {
     summary.settled.push({ nftId: w.nftId, tier: w.tier, height });
   }
 
+  await stampHeartbeat(mint, trigger, summary);
   return summary;
 }

@@ -67,5 +67,9 @@ export default async () => {
     totals.opened += t.opened;
   }
 
-  return json({ byTier, totals, asOf: new Date().toISOString() });
+  // watcher liveness: a lastRun older than a few schedule intervals is
+  // visible evidence the autonomous settlement path is down
+  const watcher = (await mint.get("watch/lastRun", { type: "json" })) || null;
+
+  return json({ byTier, totals, watcher, asOf: new Date().toISOString() });
 };

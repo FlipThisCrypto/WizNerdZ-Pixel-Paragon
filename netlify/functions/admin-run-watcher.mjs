@@ -20,7 +20,7 @@ export default async (req) => {
   if (req.headers.get("x-admin-secret") !== secret) return json({ error: "unauthorized" }, 401);
 
   try {
-    return json(await detectSettlements());
+    return json(await detectSettlements("manual"));
   } catch (e) {
     return json({ status: "ERROR", error: String(e.message || e) }, 500);
   }

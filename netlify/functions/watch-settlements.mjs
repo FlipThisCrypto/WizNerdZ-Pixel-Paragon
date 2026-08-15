@@ -8,7 +8,7 @@ import { detectSettlements } from "./lib/settlement.mjs";
 
 export default async () => {
   try {
-    const summary = await detectSettlements();
+    const summary = await detectSettlements("schedule");
     // Netlify surfaces function logs; settled boxes are worth finding there.
     if (summary.settled.length || summary.status !== "OK") {
       console.log("[watch-settlements]", JSON.stringify(summary));
