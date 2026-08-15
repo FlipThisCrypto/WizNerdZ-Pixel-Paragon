@@ -83,8 +83,8 @@
 /* eyebrow — terminal register, states what this literally is */
 .hz-eyebrow {
   margin: 0 0 clamp(14px, 2.4vh, 24px);
-  font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
-  font-size: clamp(0.6rem, 1.5vw, 0.76rem);
+  font-family: var(--font-mono);
+  font-size: clamp(0.7rem, 1.5vw, 0.76rem);
   letter-spacing: 0.42em;
   text-transform: uppercase;
   color: var(--hz-lime);
@@ -95,7 +95,7 @@
 /* wordmark — heavy mono, wide tracking, layered arcane glow */
 .hz-wordmark {
   margin: 0;
-  font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+  font-family: var(--font-mono);
   font-weight: 700;
   font-size: clamp(2.1rem, 11vw, 6.4rem);
   line-height: 0.92;
@@ -133,7 +133,7 @@
 .hz-stats li { text-align: center; }
 .hz-stat-n {
   display: block;
-  font-family: ui-monospace, monospace;
+  font-family: var(--font-mono);
   font-size: clamp(1.15rem, 3.4vw, 1.9rem);
   font-weight: 700;
   color: var(--hz-ink);
@@ -142,8 +142,8 @@
 .hz-stat-l {
   display: block;
   margin-top: 3px;
-  font-family: ui-monospace, monospace;
-  font-size: clamp(0.54rem, 1.4vw, 0.66rem);
+  font-family: var(--font-mono);
+  font-size: clamp(0.7rem, 1.4vw, 0.74rem);
   letter-spacing: 0.24em;
   text-transform: uppercase;
   color: var(--hz-dim);
@@ -164,7 +164,7 @@
   min-height: 50px;
   padding: 0 26px;
   border-radius: 10px;
-  font-family: ui-monospace, monospace;
+  font-family: var(--font-mono);
   font-size: 0.8rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -208,8 +208,8 @@
 }
 .hz-spectrum-label {
   margin: 10px 0 0;
-  font-family: ui-monospace, monospace;
-  font-size: 0.58rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
   letter-spacing: 0.28em;
   text-transform: uppercase;
   color: var(--hz-dim);
@@ -249,8 +249,8 @@
   bottom: 14px; left: 50%;
   transform: translateX(-50%);
   z-index: 3;
-  font-family: ui-monospace, monospace;
-  font-size: 0.56rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: var(--hz-dim);
