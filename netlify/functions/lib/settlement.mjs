@@ -16,7 +16,10 @@
 // - It never downgrades a status the operator already advanced.
 // - When the chain is unreachable it does NOTHING: a delayed detection is
 //   recoverable, a wrong one is not.
-import { getStore } from "@netlify/blobs";
+// Lazy platform import: @netlify/blobs exists only inside Netlify's runtime.
+// Loading it on demand keeps this module importable anywhere - the pure
+// crypto below carries offline regression tests - without changing behavior
+// in production, where the dynamic import resolves normally.
 
 const NODE = "https://api.coinset.org";
 
@@ -98,7 +101,12 @@ async function stampHeartbeat(mint, trigger, summary) {
   }
 }
 
+// Pure helpers exported for the test suite - they decide which coins the
+// watcher believes are spent, so they carry regression tests.
+export { coinId, clvmIntBytes, hexToBytes, bytesToHex, RANK };
+
 export async function detectSettlements(trigger = "manual") {
+  const { getStore } = await import("@netlify/blobs");
   const offers = getStore("wiznerdz-offers");
   const mint = getStore("wiznerdz-mint");
 
