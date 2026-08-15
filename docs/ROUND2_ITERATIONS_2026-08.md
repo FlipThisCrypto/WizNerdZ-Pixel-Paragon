@@ -194,3 +194,20 @@ than visible defects, per the Round 2 protocol.
   has no operator data) — that seam is covered by iteration 10's refusal
   guard at generation time. Three independent implementations agreeing on
   the same bytes is the defense in depth.
+
+### round 2 iteration 12 — a dead deploy pipeline rings the alarm — APPROVED
+- Commit: `d9c761592`.
+- What: preflight's new deploy-freshness check byte-compares witness files
+  (`js/mint-page.js`, `mint/commitment.json`) between the repo and both live
+  origins (newline-normalized, one settle-retry for normal deploy lag). A
+  persistent mismatch fails with a pointer to OPS.md's new "Stale deploy"
+  incident entry.
+- Verified live: correctly FAILS on Netlify's stale mint-page.js (true
+  positive on the ongoing incident), correctly passes Netlify's unchanged
+  commitment.json (no false positive), passes both Pages witnesses. Offline
+  suite 32/32.
+- Challenged: this deliberately turns the 6-hourly live-preflight red until
+  the Netlify dashboard is fixed. That is not crying wolf — it is a real,
+  ongoing incident finally reaching the operator through the only channel
+  that pages them. The settle-retry (90s default) absorbs the race where the
+  path-triggered CI run beats its own deploy.
