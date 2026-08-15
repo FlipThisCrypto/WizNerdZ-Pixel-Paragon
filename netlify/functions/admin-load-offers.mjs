@@ -52,6 +52,10 @@ export default async (req) => {
     }
     await offers.setJSON(`offer/${o.nftId}`, {
       tier: o.tier, offer: o.offer, priceMojos: o.priceMojos ?? null, boxId: o.boxId ?? null,
+      // The coin whose spend IS this offer's settlement. Knowable pre-sale and
+      // public, it lets the scheduled watcher detect sales and retire dead
+      // offers with no operator present.
+      anchorCoin: o.anchorCoin ?? null,
     });
     index.available[o.tier] = index.available[o.tier] || [];
     if (!index.available[o.tier].includes(o.nftId)) index.available[o.tier].push(o.nftId);
