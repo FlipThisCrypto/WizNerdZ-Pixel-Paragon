@@ -64,10 +64,23 @@
           refreshButtons();
         }
       });
+      // fresh truth arrived: clear any staleness annotation
+      document.querySelectorAll("[data-avail][data-stale]").forEach((el) => {
+        el.removeAttribute("data-stale");
+        el.textContent = el.textContent.replace(/ · live status unavailable$/, "");
+      });
     } catch (_) {
-      /* stats are best-effort; buttons keep their wallet-gated state */
+      // The API is unreachable. Keeping "N buyable now" as if current would
+      // show yesterday's truth as fresh - the quiet-degradation posture the
+      // rest of the system refuses. Say so instead.
+      document.querySelectorAll("[data-avail]:not([data-stale])").forEach((el) => {
+        el.setAttribute("data-stale", "1");
+        el.textContent += " · live status unavailable";
+      });
     }
   }
+  // small public surface: ops debugging + failure-path testing
+  window.WizNerdzMintPage = { refreshAvailability };
 
   function walletBar() {
     const host = document.getElementById("tiers");
