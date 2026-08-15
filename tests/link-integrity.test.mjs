@@ -70,3 +70,16 @@ test("assets referenced by specials.json and ones/catalog.json exist", () => {
   }
   assert.deepEqual(broken, [], `missing assets:\n  ${broken.join("\n  ")}`);
 });
+
+test("sw.js PRECACHE entries all resolve (a single 404 bricks SW install)", () => {
+  const sw = readFileSync(join(DOCS, "sw.js"), "utf8");
+  const m = sw.match(/PRECACHE\s*=\s*\[([\s\S]*?)\]/);
+  assert.ok(m, "PRECACHE array found");
+  const entries = [...m[1].matchAll(/"\.\/([^"]*)"/g)].map((x) => x[1]);
+  assert.ok(entries.length >= 5, "precache list is non-trivial");
+  const broken = entries.filter((e) => {
+    const target = e === "" ? "index.html" : e;
+    return !existsSync(join(DOCS, target));
+  });
+  assert.deepEqual(broken, [], `precache 404s (these brick the service worker): ${broken.join(", ")}`);
+});
