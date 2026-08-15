@@ -277,3 +277,14 @@ than visible defects, per the Round 2 protocol.
   refactor consciously deferred: changing undeployable live money-path code
   while Netlify is stalled would stack unverified changes onto its eventual
   resume.
+
+### round 2 iteration 17 — the operator console operates the current system — APPROVED
+- Commit: `6a8c22772`.
+- What: the console's link inventory caught up with the product — nominations
+  surfaces (retired mid-Round-1) removed; the current motions added in
+  reach-for order: live money-path row, preflight first-move + pager link,
+  settlement-audit drill, sale runbook with fairness-proof step, docs,
+  data-contract gates.
+- Verified in-browser (live watcher row working, no nominations reference
+  survives); suite 38/38. compare/insights/dashboard/token evidence-checked
+  healthy this iteration before selection.
