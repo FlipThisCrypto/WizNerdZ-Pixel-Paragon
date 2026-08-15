@@ -76,6 +76,19 @@ check the `pages-build-deployment` workflow and the Netlify deploy log.
    runbook); `FULFILLED` = done, send them `mint.html?box=<id>`;
    `UNKNOWN` = that id never sold a box (probably the WizNerd's id).
 
+### Stale deploy (origin serves old code while pushes "succeed")
+Preflight's deploy-freshness check byte-compares witness files against the
+repo. If it names an origin STALE:
+1. **Netlify:** open the Netlify dashboard → Deploys. Look for stopped/queued
+   builds, a paused site, or exhausted build minutes (observed live
+   2026-08-13: builds silently stopped; functions kept serving the old
+   bundle and every behavioral check kept passing for days).
+2. **Pages:** check the `pages-build-deployment` workflow run for the last
+   push.
+3. Until fixed, the live site runs the last good bundle — the money path
+   usually keeps working, but nothing pushed since the stall is live. Do not
+   ship drop-critical changes onto a stalled origin.
+
 ### Broken images
 1. `python scripts/verify_metadata.py` (also runs in CI on any metadata push).
 2. Metadata images point at the **IPFS gateway** (hash-committed) — the Pages

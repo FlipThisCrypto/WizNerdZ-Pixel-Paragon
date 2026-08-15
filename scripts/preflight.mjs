@@ -146,5 +146,45 @@ try {
   fail("commitment comparison", e.message);
 }
 
+// 6. deploy freshness: what the origins SERVE must be what the repo SHIPS.
+// Observed live: Netlify silently stopped processing builds for days - every
+// function kept answering from the old bundle and every check above kept
+// passing. A dead deploy pipeline must ring the alarm, not idle behind it.
+// Witness files change often (mint-page.js with the product, commitment.json
+// with the trust surface); byte-compare them, newline-normalized, with one
+// settle-retry so normal post-push deploy lag never cries wolf.
+{
+  const { readFileSync } = await import("node:fs");
+  const { fileURLToPath } = await import("node:url");
+  const { dirname, join } = await import("node:path");
+  const docs = join(dirname(fileURLToPath(import.meta.url)), "..", "docs");
+  const norm = (s) => s.replace(/\r\n/g, "\n");
+  const WITNESSES = ["js/mint-page.js", "mint/commitment.json"];
+  const SETTLE_MS = Number(process.env.DEPLOY_SETTLE_MS || 90000);
+
+  const served = async (base, path) => {
+    const res = await rfetch(`${base}/${path}`, { headers: { "cache-control": "no-cache" } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return norm(await res.text());
+  };
+
+  for (const [label, base] of [["netlify", SITE], ["pages", PAGES]]) {
+    for (const path of WITNESSES) {
+      const name = `deploy freshness (${label}: ${path})`;
+      try {
+        const repoCopy = norm(readFileSync(join(docs, path), "utf8"));
+        if ((await served(base, path)) === repoCopy) { ok(name); continue; }
+        // a deploy may simply still be in flight - settle once, re-check
+        console.log(`  NOTE ${name}: mismatch - waiting ${SETTLE_MS / 1000}s for the deploy to settle`);
+        await new Promise((r) => setTimeout(r, SETTLE_MS));
+        if ((await served(base, path)) === repoCopy) ok(name, "settled");
+        else fail(name, "origin is serving a STALE deploy - see OPS.md incident 'Stale deploy'");
+      } catch (e) {
+        fail(name, e.message);
+      }
+    }
+  }
+}
+
 console.log(failures === 0 ? "\nPREFLIGHT CLEAN - the live money path is ready" : `\nPREFLIGHT FAILED - ${failures} check(s) need attention`);
 process.exit(failures === 0 ? 0 : 1);
