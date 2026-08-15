@@ -20,8 +20,25 @@ const fail = (name, why) => {
   console.error(`  FAIL ${name}: ${why}`);
 };
 
+// A monitor that fails on one transient fetch error cries wolf - observed
+// live: a single "fetch failed" from a GitHub runner while the very next
+// check fetched the same URL fine. Every check gets two retries with
+// backoff; a REAL outage still fails after three attempts.
+async function rfetch(url, init = {}) {
+  let last;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      return await fetch(url, { ...init, headers: { "user-agent": "wz-preflight/1.0", ...(init.headers || {}) } });
+    } catch (e) {
+      last = e;
+      await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)));
+    }
+  }
+  throw last;
+}
+
 async function jget(url) {
-  const res = await fetch(url, { headers: { accept: "application/json", "user-agent": "wz-preflight/1.0" } });
+  const res = await rfetch(url, { headers: { accept: "application/json" } });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.json();
 }
@@ -70,7 +87,7 @@ try {
 
 // 3. admin endpoints fail closed without the secret
 try {
-  const res = await fetch(`${SITE}/api/admin-run-watcher`, { method: "POST" });
+  const res = await rfetch(`${SITE}/api/admin-run-watcher`, { method: "POST" });
   if (res.status === 401 || res.status === 503) ok("admin fails closed", `HTTP ${res.status}`);
   else fail("admin fails closed", `HTTP ${res.status} - expected 401/503`);
 } catch (e) {
@@ -85,7 +102,7 @@ for (const [name, url] of [
   ["pages commitment json", `${PAGES}/mint/commitment.json`],
 ]) {
   try {
-    const res = await fetch(url, { headers: { "user-agent": "wz-preflight/1.0" } });
+    const res = await rfetch(url);
     if (res.ok) ok(name);
     else fail(name, `HTTP ${res.status}`);
   } catch (e) {
