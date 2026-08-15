@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WizNerdZ — Verify the allocation</title>
+  <meta name="description" content="Every sealed box's contents were Merkle-committed before sale. Verify the commitment — and your own box — yourself." />
+  <meta name="theme-color" content="#05060a" />
+  <link rel="icon" href="assets/logo_mark.png" type="image/png" />
+  <link rel="canonical" href="https://wiznerdz-pixel-paragon.netlify.app/verify.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="WizNerdZ Pixel Paragon" />
+  <meta property="og:title" content="Verify the WizNerdZ allocation yourself" />
+  <meta property="og:description" content="Box contents were fixed and Merkle-committed before sales opened. No re-draw, no reshuffle — check the proof offline, trusting no one." />
+  <meta property="og:url" content="https://wiznerdz-pixel-paragon.netlify.app/verify.html" />
+  <meta property="og:image" content="https://wiznerdz-pixel-paragon.netlify.app/assets/share_mint.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@FiendStudios" />
+  <meta name="twitter:title" content="Verify the WizNerdZ allocation yourself" />
+  <meta name="twitter:image" content="https://wiznerdz-pixel-paragon.netlify.app/assets/share_mint.jpg" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+      background:
+        radial-gradient(900px 480px at 12% -10%, rgba(139, 47, 232, 0.12) 0%, transparent 55%),
+        #020308;
+      color: #e8eef6;
+      line-height: 1.6;
+    }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 34px 20px 90px; }
+    nav.top {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase;
+      color: #8b96a8; margin-bottom: 26px;
+    }
+    nav.top a { color: #a8d4ff; text-decoration: none; }
+    nav.top a:hover { color: #c9a2ff; }
+    :focus-visible { outline: 2px solid #c9a2ff; outline-offset: 3px; }
+
+    /* rendered markdown */
+    #doc h1 {
+      font-size: clamp(1.5rem, 4vw, 2.1rem); line-height: 1.2;
+      letter-spacing: 0.02em; margin: 0 0 18px;
+    }
+    #doc h2 {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.85rem; font-weight: 700; letter-spacing: 0.2em;
+      text-transform: uppercase; color: #c5ceda; margin: 34px 0 12px;
+    }
+    #doc h2::before { content: "▮ "; color: #8b2fe8; }
+    #doc h3 { font-size: 1rem; color: #c9a2ff; margin: 22px 0 8px; }
+    #doc p, #doc li { color: #c5ceda; }
+    #doc strong { color: #e8eef6; }
+    #doc a { color: #a8d4ff; }
+    #doc a:hover { color: #c9a2ff; }
+    #doc code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.84em; background: rgba(2, 3, 8, 0.8);
+      border: 1px solid rgba(168, 212, 255, 0.14);
+      padding: 1px 6px; border-radius: 4px; color: #c9a2ff;
+      overflow-wrap: anywhere;
+    }
+    #doc pre {
+      background: rgba(2, 3, 8, 0.8); border: 1px solid rgba(168, 212, 255, 0.14);
+      border-radius: 10px; padding: 14px 16px; overflow-x: auto;
+    }
+    #doc pre code { border: 0; padding: 0; background: transparent; }
+    #doc hr { border: 0; border-top: 1px solid rgba(168, 212, 255, 0.18); margin: 30px 0; }
+    #doc .tablewrap { overflow-x: auto; }
+    #doc table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+    #doc th, #doc td {
+      text-align: left; padding: 8px 10px;
+      border-bottom: 1px solid rgba(168, 212, 255, 0.12); vertical-align: top;
+    }
+    #doc th {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase; color: #a8d4ff;
+    }
+    #doc td code { font-size: 0.78em; }
+    footer.src {
+      margin-top: 42px; padding-top: 18px;
+      border-top: 1px solid rgba(168, 212, 255, 0.18);
+      font-size: 0.85rem; color: #8b96a8;
+    }
+    footer.src a { color: #a8d4ff; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="top">
+      <a href="index.html">Home</a> · <a href="mint.html">Summon</a> ·
+      <a href="sealed-boxes.html">Sealed boxes</a>
+    </nav>
+
+    <main id="doc" aria-busy="true"><p>Loading the commitment…</p></main>
+
+    <footer class="src">
+      This page renders <a href="mint/COMMITMENT.md">mint/COMMITMENT.md</a> — the
+      raw markdown auditors should read directly. Published values live in
+      <a href="mint/commitment.json"><code>mint/commitment.json</code></a>.
+    </footer>
+  </div>
+
+  <script>
+    /**
+     * Minimal renderer for COMMITMENT.md, deliberately not a general markdown
+     * engine: it handles exactly the constructs that document uses (headers,
+     * bold, inline code, fenced code, tables, lists, rules, links) and
+     * escapes everything else. The .md file stays the single source of truth
+     * so the rendered page can never drift from what auditors read raw.
+     */
+    (async function () {
+      const doc = document.getElementById("doc");
+      let md;
+      try {
+        const res = await fetch("mint/COMMITMENT.md", { cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        md = await res.text();
+      } catch (e) {
+        doc.innerHTML =
+          '<h1>Verify the allocation</h1><p>Could not load the commitment document. ' +
+          'Read it directly: <a href="mint/COMMITMENT.md">mint/COMMITMENT.md</a></p>';
+        doc.removeAttribute("aria-busy");
+        return;
+      }
+
+      const esc = (s) =>
+        s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+      const inline = (s) =>
+        esc(s)
+          .replace(/`([^`]+)`/g, "<code>$1</code>")
+          .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+          .replace(/\*([^*]+)\*/g, "<em>$1</em>")
+          .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (m, t, u) =>
+            /^(https?:|mailto:|[\w./-]+$)/.test(u) ? `<a href="${u}">${t}</a>` : m
+          );
+
+      const lines = md.split(/\r?\n/);
+      const out = [];
+      let i = 0;
+      while (i < lines.length) {
+        const ln = lines[i];
+
+        if (ln.startsWith("```")) {
+          const buf = [];
+          i++;
+          while (i < lines.length && !lines[i].startsWith("```")) buf.push(lines[i++]);
+          i++;
+          out.push(`<pre><code>${esc(buf.join("\n"))}</code></pre>`);
+          continue;
+        }
+        if (/^---+\s*$/.test(ln)) { out.push("<hr>"); i++; continue; }
+        if (ln.startsWith("### ")) { out.push(`<h3>${inline(ln.slice(4))}</h3>`); i++; continue; }
+        if (ln.startsWith("## "))  { out.push(`<h2>${inline(ln.slice(3))}</h2>`);  i++; continue; }
+        if (ln.startsWith("# "))   { out.push(`<h1>${inline(ln.slice(2))}</h1>`);  i++; continue; }
+
+        if (ln.trim().startsWith("|")) {
+          const rows = [];
+          while (i < lines.length && lines[i].trim().startsWith("|")) rows.push(lines[i++]);
+          const cells = (r) => r.trim().replace(/^\||\|$/g, "").split("|").map((c) => c.trim());
+          const head = cells(rows[0]);
+          const body = rows.slice(1).filter((r) => !/^[\s|:-]+$/.test(r)).map(cells);
+          out.push(
+            '<div class="tablewrap"><table><thead><tr>' +
+            head.map((h) => `<th>${inline(h)}</th>`).join("") +
+            "</tr></thead><tbody>" +
+            body.map((r) => "<tr>" + r.map((c) => `<td>${inline(c)}</td>`).join("") + "</tr>").join("") +
+            "</tbody></table></div>"
+          );
+          continue;
+        }
+
+        if (/^\s*[-*] /.test(ln)) {
+          const items = [];
+          while (i < lines.length && /^\s*[-*] /.test(lines[i])) {
+            items.push(lines[i].replace(/^\s*[-*] /, ""));
+            i++;
+          }
+          out.push("<ul>" + items.map((x) => `<li>${inline(x)}</li>`).join("") + "</ul>");
+          continue;
+        }
+        if (/^\s*\d+\. /.test(ln)) {
+          const items = [];
+          while (i < lines.length && /^\s*\d+\. /.test(lines[i])) {
+            items.push(lines[i].replace(/^\s*\d+\. /, ""));
+            i++;
+          }
+          out.push("<ol>" + items.map((x) => `<li>${inline(x)}</li>`).join("") + "</ol>");
+          continue;
+        }
+
+        if (ln.trim() === "") { i++; continue; }
+
+        const buf = [ln];
+        i++;
+        while (i < lines.length && lines[i].trim() !== "" &&
+               !/^(#|\||```|---|\s*[-*] |\s*\d+\. )/.test(lines[i])) {
+          buf.push(lines[i++]);
+        }
+        out.push(`<p>${inline(buf.join(" "))}</p>`);
+      }
+
+      doc.innerHTML = out.join("\n");
+      doc.removeAttribute("aria-busy");
+      const h1text = doc.querySelector("h1")?.textContent;
+      if (h1text) document.title = h1text; // h1 already carries the brand
+    })();
+  </script>
+</body>
+</html>
