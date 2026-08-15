@@ -8,7 +8,9 @@ budgets = {
     "js/config.js": 8_000,
     "js/nominate.js": 20_000,
     "js/wallet.js": 20_000,
-    "js/nominations-board.js": 15_000,
+    "js/mint-page.js": 28_000,
+    "js/wallet-core.js": 8_000,
+    "js/sealed-boxes.js": 10_000,
     "css/tokens.css": 5_000,
     "sw.js": 5_000,
 }

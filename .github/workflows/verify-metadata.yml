@@ -1,3 +1,12 @@
+# Collection-data CI gate: CHIP-0007 contracts, placements, integrity
+# manifests, perf budgets, and mint-arm preflight.
+#
+# This file was malformed for an unknown stretch - a batch of steps had been
+# appended at ROOT level, outside the job, so GitHub could not parse the
+# workflow and every matching push produced a 0-second startup failure: a
+# permanent red X polluting every commit's checks. The steps are folded back
+# into the job, and the three checks whose expectations predated the IPFS
+# migration (gateway image URLs) now assert the current contract.
 name: verify-metadata
 
 on:
@@ -5,13 +14,13 @@ on:
     paths:
       - "docs/metadata/**"
       - "docs/images/**"
-      - "scripts/verify_metadata.py"
+      - "scripts/**"
       - ".github/workflows/verify-metadata.yml"
   pull_request:
     paths:
       - "docs/metadata/**"
       - "docs/images/**"
-      - "scripts/verify_metadata.py"
+      - "scripts/**"
   workflow_dispatch:
 
 jobs:
@@ -22,7 +31,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Verify CHIP-0007 absolute image URLs
+      - name: Verify CHIP-0007 image contract
         run: python scripts/verify_metadata.py
       - name: Verify named specials placements
         run: python scripts/verify_specials.py
@@ -30,22 +39,19 @@ jobs:
         run: python scripts/verify_metadata_sample.py
       - name: Health JSON contract
         run: python scripts/verify_health.py
-
-- name: Integrity manifest
-  run: python scripts/verify_integrity_manifest.py
-- name: DR checklist
-  run: python scripts/dr_checklist.py
-- name: Perf budget
-  run: python scripts/perf_budget.py
-- name: Image dimensions sample
-  run: python scripts/verify_image_dimensions.py
-- name: Trait completeness sample
-  run: python scripts/verify_trait_completeness.py
-
-- name: DNA uniqueness sample
-  run: python scripts/verify_dna_uniqueness_sample.py
-- name: Series continuity
-  run: python scripts/verify_series_continuity.py
-- name: Mint arm preflight
-  run: python scripts/mint_arm_preflight.py
-
+      - name: Integrity manifest
+        run: python scripts/verify_integrity_manifest.py
+      - name: DR checklist
+        run: python scripts/dr_checklist.py
+      - name: Perf budget
+        run: python scripts/perf_budget.py
+      - name: Image dimensions sample
+        run: python scripts/verify_image_dimensions.py
+      - name: Trait completeness sample
+        run: python scripts/verify_trait_completeness.py
+      - name: DNA uniqueness sample
+        run: python scripts/verify_dna_uniqueness_sample.py
+      - name: Series continuity
+        run: python scripts/verify_series_continuity.py
+      - name: Mint arm preflight
+        run: python scripts/mint_arm_preflight.py

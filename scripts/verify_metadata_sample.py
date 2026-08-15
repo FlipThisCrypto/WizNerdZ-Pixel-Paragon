@@ -16,8 +16,9 @@ for i in SAMPLES:
         bad.append(f"{i} series_total")
     if not isinstance(d.get("attributes"), list) or not d["attributes"]:
         bad.append(f"{i} attributes")
-    img = f"{BASE}/images/{i}.png"
-    if d.get("image") != img or d.get("data", {}).get("image") != img:
+    GATEWAY = "https://defiant-black-skink.myfilebase.com/ipfs/"
+    img = d.get("image")
+    if not (isinstance(img, str) and img.startswith(GATEWAY)) or img != d.get("data", {}).get("image"):
         bad.append(f"{i} image url")
 print("samples", len(SAMPLES), "problems", len(bad))
 for b in bad[:20]:

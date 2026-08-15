@@ -28,13 +28,18 @@ def main() -> int:
         except Exception as e:
             bad.append(f"json {i}: {e}")
             continue
-        expect = f"{BASE}/images/{i}.png"
+        # Contract since the IPFS migration: both image fields identical and
+        # pointing at the Filebase gateway (the hash-committed bytes). The old
+        # Pages-URL expectation predates the migration and failed all 8,888.
+        GATEWAY = "https://defiant-black-skink.myfilebase.com/ipfs/"
+        img = d.get("image")
+        dimg = d.get("data", {}).get("image")
         if d.get("series_number") != i:
             bad.append(f"series_number {i}={d.get('series_number')}")
-        if d.get("image") != expect:
-            bad.append(f"image root {i}")
-        if d.get("data", {}).get("image") != expect:
-            bad.append(f"data.image {i}")
+        if not (isinstance(img, str) and img.startswith(GATEWAY)):
+            bad.append(f"image root {i}: not gateway url")
+        if img != dimg:
+            bad.append(f"image mismatch {i}: root != data.image")
         if d.get("format") != "CHIP-0007":
             bad.append(f"format {i}")
         if not (IMAGES / f"{i}.png").is_file():
