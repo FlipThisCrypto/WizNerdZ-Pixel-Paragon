@@ -44,6 +44,14 @@
       const res = await fetch(`${CFG.mint.apiBase}/mint-stats`, { headers: { accept: "application/json" } });
       if (!res.ok) return;
       const stats = await res.json();
+      // the tier cards' availability line states the LIVE truth - the static
+      // catalog said "2,941 of 2,941 available" while two boxes were buyable
+      document.querySelectorAll("[data-avail]").forEach((el) => {
+        const t = stats.byTier?.[el.dataset.avail];
+        const n = t ? t.dispensable : 0;
+        const base = el.textContent.split("·").slice(0, 2).map(x => x.trim());
+        el.textContent = `${base[0]} · ${base[1]} · ${n.toLocaleString()} buyable now`;
+      });
       document.querySelectorAll(".summon-btn[data-tier]").forEach((b) => {
         const t = stats.byTier?.[b.dataset.tier];
         const out = !t || t.dispensable === 0;
@@ -339,7 +347,7 @@
         <h3>${escapeHtml(LABELS[t.tier_id] || t.tier_id)}</h3>
         <p class="price">${Number(t.price_xch)} XCH</p>
         <p class="guar">${escapeHtml(t.guarantee || "")}</p>
-        <p class="muted" style="font-size:.78rem">${t.nft_count} NFT${t.nft_count === 1 ? "" : "s"} · ${t.available} of ${t.total} available</p>
+        <p class="muted" style="font-size:.78rem" data-avail="${escapeHtml(t.tier_id)}">${t.nft_count} NFT${t.nft_count === 1 ? "" : "s"} · ${t.total.toLocaleString()} in tier</p>
         <button type="button" class="summon-btn" data-tier="${escapeHtml(t.tier_id)}" disabled>
           SUMMON
         </button>
