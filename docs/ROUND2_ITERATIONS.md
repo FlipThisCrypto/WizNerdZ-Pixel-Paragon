@@ -1,4 +1,8 @@
-# Round 2 — 50 higher-order evolution iterations
+# Round 2 (July 2026 campaign) — 50 iterations
+
+> **Epoch note:** this records the July 2026 improvement campaign. The
+> August 2026 evolution round with the same commit-message prefix is recorded
+> in `ROUND2_ITERATIONS_2026-08.md` — scope any `git log --grep` accordingly.
 
 **Branch:** main  
 **Baseline:** after Round 1 commit `7dc8da2f`  

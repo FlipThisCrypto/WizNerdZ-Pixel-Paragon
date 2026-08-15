@@ -1,4 +1,4 @@
-# Round 3 — 50 elite resilience / scale / strategic iterations
+# Round 3 (July 2026 campaign) — 50 iterations
 
 **Branch:** main
 **Baseline:** after Round 2 `76f63642`
