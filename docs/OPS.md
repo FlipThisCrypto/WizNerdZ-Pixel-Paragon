@@ -38,6 +38,9 @@ python settlement_watcher.py --apply
 python chia_fulfillment.py deliver --token <id> --to <settlement_recipient> --fee 0 --confirm
 # 3. chain-verify and publish so the buyer's reveal opens
 python push_status_to_site.py     # needs MINT_ADMIN_SECRET in the shell
+# it also writes the box's fairness proof into docs/mint/proofs/ -
+# commit and push what it lists, or the buyer's "check your box's
+# proof" link reports the proof as unpublished
 ```
 
 Entitlement follows the **settlement transaction's recipient** — never later
