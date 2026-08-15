@@ -2,69 +2,77 @@
 
 ## Purpose
 
-Static, mint-oriented presentation of an 8,888 CHIP-0007 collection on Chia, with a community PFP nomination campaign and Sage WalletConnect path for future mint offers.
+Sell 8,888 CHIP-0007 pixel wizards on Chia as **sealed boxes** whose contents
+were Merkle-committed before sale, with buyer-verifiable fairness, autonomous
+sale detection, and a browser reveal that only ever shows chain-confirmed
+results.
 
 ## Boundaries
 
 ```
 [Browser]
-  index / token / rarity / compare / dashboard
-  js: config, nominate, board, wallet, health, telemetry, countdown
+  index / mint / verify / rarity / sealed-boxes / token / compare / dashboard
+  js: config, wallet-core (WC pairing), mint-page, reveal/* (ceremony),
+      sealed-boxes, health, telemetry
+        |                                  |
+        | HTTPS                            | WalletConnect (user's wallet only;
+        v                                  v  chia_takeOffer is the sole
+[Netlify]  docs/ static + /api/*         [Sage / any Chia wallet]  required method)
+  functions: mint-offer, mint-status,
+    mint-stats, watch-settlements (5-min cron),
+    admin-* (env-secret gated, fail closed)
+  blobs: wiznerdz-offers, wiznerdz-mint (no secrets)
         |
-        | HTTPS (public)
+        | public RPC (read-only; no keys, no indexer)
         v
-[GitHub Pages]  docs/  images + metadata + static site
-        |
-        | public API (optional)
-        v
-[GitHub Issues]  nomination inbox
-        |
-        | WalletConnect (user wallet only)
-        v
-[Sage / Chia wallet]  takeOffer when mint armed
+[api.coinset.org]  coin records — settlement anchors decide SOLD
+        ^
+        | wallet RPC + delivery signing (the ONLY place keys exist)
+[Operator machine]  mint_system/: allocation + commitment, offer creation,
+                    settlement recording, delivery, status publishing
+
+[GitHub Pages]  static mirror of docs/ — third URI on minted NFTs
+[GitHub Actions]  tests (offline suite) · verify-metadata (data contracts)
+                  · live-preflight (6-hourly deployed-system alarm)
 ```
 
-**No app server. No private keys. No custodial mint.**
+## Trust design
 
-## Modules
+- **Offers are transparent** on Chia, so the sold thing is a generic sealed
+  box — byte-identical within its tier, nothing to snipe. Real WizNerdZ are
+  delivered after settlement.
+- **The commitment is the fairness**: contents fixed pre-sale from a 256-bit
+  seed, Merkle-committed with per-box salted leaves. Rarity is public on
+  purpose — knowing ranks can't help anyone pick a box.
+- **A Chia offer names its settlement anchor coin** before any sale. Spent
+  anchor = sold; the spend itself names the recipient. Detection therefore
+  needs no wallets, keys, or third-party indexers.
+- **Entitlement follows the settlement transaction's recipient**, never later
+  possession of the box.
+- **The browser never causes delivery** and never learns contents before the
+  chain confirms delivery (statuses withhold `nfts` until FULFILLED).
+- **Statuses only move forward**; the watcher cannot downgrade what the
+  operator advanced.
+- **Failure posture everywhere**: unreachable chain = delayed, never wrong;
+  stale stats are labeled stale; monitors retry before alarming.
 
-| Module | Responsibility |
-|--------|----------------|
-| `js/config.js` | Public runtime config (frozen top-level) |
-| `js/nominate.js` | Form validation → GitHub issue + localStorage |
-| `js/nominations-board.js` | Issues search API → live board + cache |
-| `js/wallet.js` | WalletConnect session / takeOffer |
-| `js/countdown.js` | Eastern deadline + form lock event |
-| `js/health-probe.js` | Asset health checks |
-| `js/telemetry.js` | Local ring buffer diagnostics |
-| `sw.js` | Offline shell cache |
-| `scripts/verify_*.py` | Data integrity gates |
-| `css/tokens.css` | Design system tokens |
+## State
 
-## Extension points
+| Store | Keys | Notes |
+|---|---|---|
+| `wiznerdz-offers` | `index`, `offer/<nftId>` | signed offer text + public anchor coin id |
+| `wiznerdz-mint` | `taken`, `holds`, `status/<nftId>`, `dispensed/<claim>`, `watch/lastRun` | strong-consistency reads on the dispense path |
 
-1. **New specials** — `specials.json` + placement + metadata/image + verify_specials.
-2. **Arm mint** — `config.mint.enabled` + offer/MintGarden URL only after freeze.
-3. **Extra pages** — same tokens.css, no backend required.
+Authoritative purchase state is the **chain** plus the operator's delivery
+ledger (chain-reconstructible); the blobs are a serving cache of published
+outcomes.
 
-## Trust model
+## Verification layers
 
-| Data | Trust |
-|------|-------|
-| Art / metadata | Publisher-signed by git history |
-| Nominations | GitHub user identity |
-| Wallet actions | User-approved only |
-| Telemetry | Local device only |
-
-## Failure modes
-
-- GitHub API rate limit → board cache
-- WC CDN fail → connect errors surfaced; mint still disarmed
-- Offline → SW serves shell; images may fail until online
-
-## Round 3 additions
-
-- Integrity manifests + DR/canary/perf scripts
-- Chaos drills, feature flags, funnel metrics
-- SLOs, incidents, governance freeze
-- Lite mode, tab sync, config validation
+1. `npm test` — offline: settlement crypto against real mainnet fixtures,
+   dispenser selection rules, 1/1 data consistency, reference integrity,
+   SW precache.
+2. `verify-metadata` CI — CHIP-0007 contracts, placements, budgets, integrity
+   manifests on any data push.
+3. `npm run preflight` — twelve read-only checks against the deployed system;
+   runs 6-hourly in Actions as the operational alarm.
