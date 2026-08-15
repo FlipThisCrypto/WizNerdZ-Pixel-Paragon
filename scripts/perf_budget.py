@@ -6,7 +6,6 @@ ROOT = Path(__file__).resolve().parents[1] / "docs"
 budgets = {
     "index.html": 120_000,
     "js/config.js": 8_000,
-    "js/nominate.js": 20_000,
     "js/wallet.js": 20_000,
     "js/mint-page.js": 28_000,
     "js/wallet-core.js": 8_000,
