@@ -243,3 +243,19 @@ than visible defects, per the Round 2 protocol.
   mint layout clean (no overflow, 44px targets). Random coin-id fixture
   corpus judged marginal: R2I3 proved the risky primitive (int encoding);
   three real mainnet coins already pin the composed path.
+
+### round 2 iteration 15 — the dispenser is drop-rush proven — APPROVED
+- Commit: `d9a6c4e12`.
+- What: `tests/dispense-rush.test.mjs` — a seeded, reproducible simulation
+  of drop-scale concurrency against `pickBoxForDispense`: 200 scenarios of
+  bursty request streams (never a false 410), distinct-box guarantees on
+  serialized holds, rare collisions on STALE reads (the regime the random
+  pick exists for), oldest-first recycling of a fully-held pool, hold
+  pruning and reuse, and exact reproducibility by seed. Wired into npm test.
+- Verified: 6/6 new, full suite 38/38; mutation-checked three ways
+  (newest-first fallback, disabled pruning, deterministic pick) — each
+  breaks the suite; restored passes.
+- Challenged: this simulates the pure algorithm, not Netlify Blobs — the
+  store's serialization is a platform property already verified live
+  (strong consistency, 6/6 distinct in Round 1). The pure layer is where
+  algorithmic regressions would land, and it is now fenced.
