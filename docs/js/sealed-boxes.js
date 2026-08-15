@@ -137,7 +137,7 @@
             <p class="tier">${escapeHtml(tierLabel(b.tier_id))}</p>
             <p>${escapeHtml(b.guarantee || "")}</p>
             <p><strong>${Number(b.price_xch)} XCH</strong> · ${b.nft_count} NFT(s)</p>
-            <p class="status">${escapeHtml(b.mint_status)}</p>
+            <p class="status">sealed — contents committed</p>
             <a class="buy-btn" href="mint.html">Buy on the mint page</a>
           </article>`
           )
