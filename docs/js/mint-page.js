@@ -242,7 +242,13 @@
         return true;
       }
       if (s.state === "UNKNOWN") {
-        if (!quiet) notice(`<strong>No record of that box yet.</strong> <span class="muted">If you just bought it, the sale may still be settling — try again in a few minutes.</span>`);
+        // The most common cause: the buyer pasted the WIZNERD's id, which
+        // sits right beside the box in their wallet after delivery.
+        if (!quiet) notice(
+          `<strong>No record of that id.</strong> <span class="muted">Check you pasted the ` +
+          `<em>sealed box's</em> NFT id — after delivery your wallet holds both the box and the ` +
+          `WizNerd from it, and only the box id opens the reveal. If you bought moments ago, ` +
+          `settling can take a few minutes.</span>`);
       } else if (!quiet) {
         notice(`<strong>Delivery in progress.</strong> <span class="muted">Box ${escapeHtml(box.slice(0, 14))}… is ${escapeHtml(s.state)}. Your WizNerdZ arrive automatically once the chain confirms — check back soon.</span>`);
       }
@@ -277,7 +283,8 @@
     bar.id = "wz-open-bar";
     bar.className = "wz-wallet-bar";
     bar.innerHTML = `
-      <label for="wz-box-id" class="muted" style="flex-basis:100%">Already have a sealed box? Paste its NFT id to open it:</label>
+      <label for="wz-box-id" class="muted" style="flex-basis:100%">Already have a sealed box? Paste the <em>box's</em> NFT id
+        (the item named “WizNerdZ Sealed Box” in your wallet — not the WizNerd delivered from it):</label>
       <input id="wz-box-id" type="text" placeholder="nft1…" spellcheck="false"
              style="flex:1;min-width:200px" />
       <button type="button" id="wz-open-btn" class="summon-btn">Open box</button>`;
