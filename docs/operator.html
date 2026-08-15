@@ -18,15 +18,19 @@
     <h1>Operator console</h1>
     <p class="muted">Single pane for Fiend Studios day-to-day ops (static, no secrets).</p>
     <ul>
-      <li><a href="./#nominate">Landing nominate + live board</a></li>
-      <li><a href="./#ops">Health probe</a> · <a href="health.json">health.json</a></li>
-      <li><a href="https://github.com/FlipThisCrypto/WizNerdZ-Pixel-Paragon/issues?q=is%3Aissue+PFP+Nomination">GitHub nominations</a></li>
-      <li><a href="verify.html?doc=SLO">SLOs</a> · <a href="verify.html?doc=INCIDENTS">Incidents</a> · <a href="verify.html?doc=GOVERNANCE">Governance</a></li>
-                <li><a href="verify.html?doc=OPS">OPS runbook</a> · <a href="verify.html?doc=ARCHITECTURE">Architecture</a> · <a href="verify.html?doc=MINT">Mint</a></li>
-      <li><a href="dashboard.html">Project dashboard</a></li>
-      <li>Verify: <code>python scripts/verify_metadata.py</code> · <code>verify_specials.py</code> · <code>verify_metadata_sample.py</code></li>
-      <li>Treasury: <code id="t"></code></li>
       <li>Mint API: <code id="mint-ops">checking…</code></li>
+      <li>Any incident, first move: <code>npm run preflight</code> — the 6-hourly
+          <a href="https://github.com/FlipThisCrypto/WizNerdZ-Pixel-Paragon/actions/workflows/live-preflight.yml">live-preflight workflow</a> is the pager</li>
+      <li>Trust drill after every sale / before every drop:
+          <code>python scripts/audit_settlements.py &lt;delivery_ledger.db&gt; --offers &lt;offers/&gt;</code></li>
+      <li>Sale runbook: <a href="verify.html?doc=OPS">OPS.md → "When a box sells"</a>
+          (publishing also writes the buyer's <a href="https://github.com/FlipThisCrypto/WizNerdZ-Pixel-Paragon/tree/main/docs/mint/proofs">fairness proof</a>;
+          buyers check theirs on <a href="verify.html">the verify page</a>)</li>
+      <li><a href="verify.html?doc=OPS">OPS runbook</a> · <a href="verify.html?doc=ARCHITECTURE">Architecture</a> · <a href="verify.html?doc=MINT">Mint</a></li>
+      <li><a href="verify.html?doc=SLO">SLOs</a> · <a href="verify.html?doc=INCIDENTS">Incidents</a> · <a href="verify.html?doc=GOVERNANCE">Governance</a></li>
+      <li><a href="dashboard.html">Project dashboard</a> · <a href="./#ops">Health probe</a> · <a href="health.json">health.json</a></li>
+      <li>Data contracts: <code>npm test</code> offline · <code>verify-metadata</code> CI (12 scripts) on any data push</li>
+      <li>Treasury: <code id="t"></code></li>
     </ul>
   </div>
   <script src="js/config.js"></script>
