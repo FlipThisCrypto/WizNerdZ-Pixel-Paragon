@@ -24,6 +24,15 @@
 /* ------------------------------------------------------------------ hero */
 .hz-hero {
   position: relative;
+  /* FULL-BLEED, explicitly. The hero lives on the <header> element, and the
+     page's generic header rule caps that at 1100px centered — while the
+     atmosphere/spell canvases size themselves from the viewport. Result on
+     every desktop wider than ~1140px: a 1100px hero box with viewport-wide
+     canvases hanging out of it, spell circle visibly off-center. The inner
+     content keeps its own 1080px cap via .hz-inner. */
+  max-width: none;
+  margin: 0;
+  overflow: hidden;
   min-height: min(92vh, 820px);
   display: grid;
   place-items: center;
