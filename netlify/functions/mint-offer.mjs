@@ -59,9 +59,31 @@ export default async (req) => {
     return json({ error: "sold_out", tier }, 410);
   }
 
-  // Random pick. Which box you get does not matter — they are identical — but
-  // random keeps dispensing uniform and avoids a predictable draw order.
-  const nftId = candidates[Math.floor(Math.random() * candidates.length)];
+  // SOFT HOLD: a just-dispensed box sits out for a few minutes so two buyers
+  // browsing at the same time don't both approve the same offer (the chain
+  // settles one; the other learns via a cryptic wallet failure AFTER
+  // approving). Blobs have no transactions, so a sub-second race remains -
+  // but the window shrinks from the buyer's whole pairing-and-approval
+  // minutes to blob propagation time. Expired holds return automatically,
+  // and a fully-held pool falls back to the OLDEST hold rather than lying
+  // about being sold out.
+  const HOLD_MS = 3 * 60 * 1000;
+  const holds = (await mint.get("holds", { type: "json" })) || {};
+  const now = Date.now();
+  const free = candidates.filter((id) => !(holds[id] > now - HOLD_MS));
+  let nftId;
+  if (free.length) {
+    nftId = free[Math.floor(Math.random() * free.length)];
+  } else {
+    // everything is on hold: hand out the stalest hold, never a false 410
+    nftId = candidates.slice().sort((a, b) => (holds[a] || 0) - (holds[b] || 0))[0];
+  }
+  holds[nftId] = now;
+  // prune expired entries so the record can't grow without bound
+  for (const [k, t] of Object.entries(holds)) {
+    if (t <= now - HOLD_MS && k !== nftId) delete holds[k];
+  }
+  await mint.setJSON("holds", holds).catch(() => {});
   const rec = await offers.get(`offer/${nftId}`, { type: "json" });
   if (!rec?.offer) {
     return json({ error: "offer_missing", nftId }, 500);
