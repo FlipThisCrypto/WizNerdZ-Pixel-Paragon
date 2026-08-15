@@ -57,15 +57,28 @@ try {
     else if (ageMin > HEARTBEAT_MAX_MIN) fail("watcher freshness", `last run ${ageMin.toFixed(0)}m ago (max ${HEARTBEAT_MAX_MIN}m) - cron may be down`);
     else ok("watcher heartbeat", `${w.status}, ${ageMin.toFixed(1)}m ago via ${w.trigger}`);
   }
-  if (stats.totals.dispensable === 0) fail("inventory", "zero dispensable boxes - nothing to sell");
+  if (stats.totals.dispensable === 0) {
+    // Sold out is NORMAL between drops - a 6-hourly alarm that pages on it
+    // teaches the operator to ignore the alarm. It is only a failure when
+    // the operator has declared drop-day expectations.
+    if (process.env.MINT_EXPECT_INVENTORY === "1") {
+      fail("inventory", "zero dispensable boxes while MINT_EXPECT_INVENTORY=1");
+    } else {
+      console.log("  NOTE inventory: zero dispensable boxes (normal between drops; set MINT_EXPECT_INVENTORY=1 on drop day to make this fatal)");
+    }
+  }
 } catch (e) {
   fail("mint-stats", e.message);
 }
 
 // 2. the dispenser actually dispenses, and what it hands out is sound
 try {
-  const offer = await jget(`${SITE}/api/mint-offer?tier=blind_single`);
-  if (!offer.ok) fail("dispense", JSON.stringify(offer).slice(0, 120));
+  const dres = await rfetch(`${SITE}/api/mint-offer?tier=blind_single`, { headers: { accept: "application/json" } });
+  const offer = await dres.json();
+  if (dres.status === 410 && process.env.MINT_EXPECT_INVENTORY !== "1") {
+    // sold out answers correctly - the sold-out BEHAVIOR is what we verify here
+    ok("dispenser answers sold-out correctly", "HTTP 410");
+  } else if (!offer.ok) fail("dispense", `HTTP ${dres.status}: ` + JSON.stringify(offer).slice(0, 100));
   else {
     ok("dispenser dispenses", offer.boxNftId?.slice(0, 16));
     if (!/^offer1[a-z0-9]+$/.test(offer.offer || "")) fail("offer shape", "not a bech32 offer1 string");
