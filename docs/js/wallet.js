@@ -359,7 +359,11 @@
 
   if (connectBtn) connectBtn.addEventListener("click", connect);
   if (disconnectBtn) disconnectBtn.addEventListener("click", disconnect);
-  if (mintBtn) mintBtn.addEventListener("click", mint);
+  // The legacy in-page mint flow is RETIRED - buying lives on mint.html,
+  // which has live availability, sold-out guards, the reveal, and the
+  // resume-by-box-id path. This widget is connect-and-get-ready only.
+  // (btn-mint no longer exists in the markup; this stays as a guard.)
+  if (mintBtn) mintBtn.remove();
 
   // Surface setup state on load
   const pid = (cfg.walletConnect.projectId || "").trim();
