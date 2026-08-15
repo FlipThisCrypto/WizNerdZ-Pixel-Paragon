@@ -1,0 +1,36 @@
+# Autonomous monitoring of the LIVE money path.
+#
+# npm run preflight makes twelve read-only, secretless checks against the
+# deployed system: watcher heartbeat freshness, real dispensing, offer
+# well-formedness + leak scan, content withholding, fail-closed admin
+# endpoints, both origins serving the trust surface, and Merkle-root
+# agreement between origins.
+#
+# Running it on a schedule turns it from a manual drop-day tool into an
+# alarm: a failed run fails the workflow, and GitHub notifies the repo owner
+# through its native mechanisms - no external service, no credentials.
+#
+# The push trigger is scoped to this file so the workflow verifies itself on
+# the commit that lands it (scheduled workflows otherwise only prove
+# themselves at the next cron tick).
+name: live-preflight
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/live-preflight.yml"
+      - "scripts/preflight.mjs"
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm run preflight
