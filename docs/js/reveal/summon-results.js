@@ -165,7 +165,12 @@
       if (rest > 0) text += ` +${rest} more.`;
       text += " Contents were committed before sale — provably no re-rolls.";
 
-      const url = "https://wiznerdz-pixel-paragon.netlify.app/mint.html";
+      // Link the buyer's OWN reveal when we know the box: the recipient
+      // lands on the replay of this exact summon (public once FULFILLED),
+      // not a generic page. Every share becomes a demo of the best moment.
+      const url = result.boxId
+        ? `https://wiznerdz-pixel-paragon.netlify.app/mint.html?box=${encodeURIComponent(result.boxId)}`
+        : "https://wiznerdz-pixel-paragon.netlify.app/mint.html";
       try {
         if (navigator.share) {
           await navigator.share({ title: "WizNerdZ Summon", text, url });
