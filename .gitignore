@@ -13,3 +13,7 @@ venv/
 
 # Local only
 *.log
+
+# operator tooling must never enter the deployable tree
+docs/admin-*
+docs/js/admin-*
