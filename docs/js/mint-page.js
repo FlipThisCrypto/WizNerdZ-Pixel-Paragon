@@ -27,14 +27,32 @@
   // delivers from observed chain state either way.
   const LAST_BOX = "wiznerdz:last-box";
 
-  function notice(html, { reveal = false } = {}) {
+  function notice(html, { reveal = false, urgent = false } = {}) {
     const el = document.getElementById("mint-notice");
     if (!el) return;
+    // role=status announces changes politely; a purchase failure must
+    // interrupt instead - the buyer just spent money and needs to hear it.
+    el.setAttribute("role", urgent ? "alert" : "status");
     el.innerHTML = html;
     // The notice sits above the tier grid; a buyer who clicked a button far
     // below would otherwise see "nothing happen" while the answer sat
     // off-screen at the top of the page.
     if (reveal && html) el.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  /** Announce availability-state TRANSITIONS only (never periodic refreshes)
+   *  through a visually hidden status line - live tier counts would spam a
+   *  screen reader every poll; losing/regaining live data is worth hearing. */
+  function announceAvailability(text) {
+    let el = document.getElementById("wz-avail-status");
+    if (!el) {
+      el = document.createElement("span");
+      el.id = "wz-avail-status";
+      el.setAttribute("role", "status");
+      el.style.cssText = "position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;";
+      document.body.appendChild(el);
+    }
+    el.textContent = text;
   }
 
   /** Per-tier availability from the live stats API → button labels. */
@@ -65,18 +83,22 @@
         }
       });
       // fresh truth arrived: clear any staleness annotation
+      const wasStale = document.querySelector("[data-avail][data-stale]");
       document.querySelectorAll("[data-avail][data-stale]").forEach((el) => {
         el.removeAttribute("data-stale");
         el.textContent = el.textContent.replace(/ · live status unavailable$/, "");
       });
+      if (wasStale) announceAvailability("Live availability restored.");
     } catch (_) {
       // The API is unreachable. Keeping "N buyable now" as if current would
       // show yesterday's truth as fresh - the quiet-degradation posture the
       // rest of the system refuses. Say so instead.
+      const newlyStale = document.querySelector("[data-avail]:not([data-stale])");
       document.querySelectorAll("[data-avail]:not([data-stale])").forEach((el) => {
         el.setAttribute("data-stale", "1");
         el.textContent += " · live status unavailable";
       });
+      if (newlyStale) announceAvailability("Live availability unavailable - showing last known counts.");
     }
   }
   // small public surface: ops debugging + failure-path testing
@@ -90,7 +112,7 @@
     bar.className = "wz-wallet-bar";
     bar.innerHTML = `
       <button type="button" id="wz-connect" class="summon-btn">Connect wallet</button>
-      <span id="wz-wallet-state" class="muted"></span>
+      <span id="wz-wallet-state" class="muted" role="status"></span>
       <div id="wz-wc-uri" hidden></div>`;
     host.parentNode.insertBefore(bar, host);
 
@@ -443,7 +465,7 @@
           { reveal: true }
         );
       } else {
-        notice(`<strong>Summon failed.</strong> <span class="muted">${escapeHtml(String(err.message || err))}</span>`, { reveal: true });
+        notice(`<strong>Summon failed.</strong> <span class="muted">${escapeHtml(String(err.message || err))}</span>`, { reveal: true, urgent: true });
         refreshAvailability(); // a sold-out failure should mark the button too
       }
     } finally {

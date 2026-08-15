@@ -47,6 +47,12 @@
     .kicker { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.3em; color: var(--wz-purple); margin: 0 0 6px; }
     h1 { margin: 0 0 6px; font-size: clamp(1.6rem, 5vw, 2.6rem); }
     .muted { color: var(--muted); }
+    .skip-link {
+      position: absolute; left: -9999px; top: 0; z-index: 100;
+      background: var(--wz-purple, #8b2fe8); color: #fff;
+      padding: 10px 18px; border-radius: 0 0 8px 0; text-decoration: none;
+    }
+    .skip-link:focus { left: 0; }
     .notice {
       margin: var(--space-5) 0;
       padding: var(--space-4);
@@ -132,6 +138,7 @@
   </style>
 </head>
 <body data-mint-base="mint">
+  <a class="skip-link" href="#main">Skip to the mint</a>
   <div class="wrap">
     <header class="site">
       <div>
@@ -139,19 +146,24 @@
         <h1>Summon WizNerdZ</h1>
         <p class="muted">Sealed boxes. Contents committed before sale. No re-draw on open.</p>
       </div>
-      <nav class="muted"><a href="index.html">Home</a> · <a href="sealed-boxes.html">Sealed boxes</a> · <a href="verify.html">Verify</a></nav>
+      <nav class="muted" aria-label="Site"><a href="index.html">Home</a> · <a href="sealed-boxes.html">Sealed boxes</a> · <a href="verify.html">Verify</a></nav>
     </header>
 
-    <div class="notice" id="mint-notice">
-      <span class="muted">Connect a Chia wallet, pick a tier, and approve one offer.
-      Every box's contents were locked and cryptographically committed before sales opened —
-      the WizNerdZ inside are delivered automatically once your purchase settles on chain.</span>
-    </div>
+    <main id="main">
+      <!-- Purchase-critical messages land here (summon failures, delivery
+           progress, recovery guidance). role=status makes every change
+           audible to a screen-reader buyer without stealing focus. -->
+      <div class="notice" id="mint-notice" role="status">
+        <span class="muted">Connect a Chia wallet, pick a tier, and approve one offer.
+        Every box's contents were locked and cryptographically committed before sales opened —
+        the WizNerdZ inside are delivered automatically once your purchase settles on chain.</span>
+      </div>
 
-    <section>
-      <h2>Tiers</h2>
-      <div class="tiers" id="tiers"><p class="muted">Loading sealed catalog…</p></div>
-    </section>
+      <section>
+        <h2>Tiers</h2>
+        <div class="tiers" id="tiers"><p class="muted">Loading sealed catalog…</p></div>
+      </section>
+    </main>
 
     <footer class="site">
       <p class="muted">Allocation commitment</p>
