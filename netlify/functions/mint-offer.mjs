@@ -40,8 +40,13 @@ export default async (req) => {
 
   let offers, mint;
   try {
-    offers = getStore("wiznerdz-offers");
-    mint = getStore("wiznerdz-mint");
+    // STRONG consistency on the dispense path: with the default eventual
+    // reads, two back-to-back dispenses each saw a holds record missing the
+    // other's write and handed out the same box - observed live, 2/3 rapid
+    // pairs colliding. Strong reads cost a little latency; a buyer approving
+    // an offer that was already someone else's costs a failed purchase.
+    offers = getStore({ name: "wiznerdz-offers", consistency: "strong" });
+    mint = getStore({ name: "wiznerdz-mint", consistency: "strong" });
   } catch (e) {
     return json({ error: "store_unavailable", message: String(e.message || e) }, 503);
   }
