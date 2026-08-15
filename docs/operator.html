@@ -26,11 +26,33 @@
       <li><a href="dashboard.html">Project dashboard</a></li>
       <li>Verify: <code>python scripts/verify_metadata.py</code> · <code>verify_specials.py</code> · <code>verify_metadata_sample.py</code></li>
       <li>Treasury: <code id="t"></code></li>
+      <li>Mint API: <code id="mint-ops">checking…</code></li>
     </ul>
   </div>
   <script src="js/config.js"></script>
   <script>
     document.getElementById('t').textContent = (window.WIZNERDZ_CONFIG&&WIZNERDZ_CONFIG.treasuryWallet)||'';
+    // Live money-path status: counts + the settlement watcher's heartbeat.
+    // A heartbeat older than ~3 schedule intervals means the autonomous
+    // detection path is down and sales are going unnoticed.
+    (async function(){
+      const el = document.getElementById('mint-ops');
+      try {
+        const base = (WIZNERDZ_CONFIG.mint && WIZNERDZ_CONFIG.mint.apiBase) || '';
+        const d = await (await fetch(base + '/mint-stats', {headers:{accept:'application/json'}})).json();
+        const w = d.watcher;
+        const age = w ? Math.round((Date.now() - new Date(w.at).getTime())/60000) : null;
+        const stale = age == null || age > 15;
+        el.textContent = 'buyable ' + d.totals.dispensable + ' · sold ' + d.totals.sold +
+          ' · opened ' + d.totals.opened +
+          ' · watcher ' + (w ? (w.status + ' ' + age + 'm ago (' + w.trigger + ')') : 'NO HEARTBEAT');
+        el.style.color = stale ? '#ff8a9a' : '#9dffb0';
+        if (stale) el.textContent += '  ← STALE: autonomous detection may be down';
+      } catch (e) {
+        el.textContent = 'mint API unreachable';
+        el.style.color = '#ff8a9a';
+      }
+    })();
                 const d=document.getElementById('env-diag');
                 if(d){
                   d.textContent = 'UA online=' + navigator.onLine + ' · lang=' + navigator.language +
