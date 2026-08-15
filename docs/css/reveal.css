@@ -426,3 +426,33 @@ body.wz-shaking { animation: wz-shake 300ms cubic-bezier(0.36, 0.07, 0.19, 0.97)
   .wz-nft { width: clamp(80px, 27vw, 130px); }
   .wz-results-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
 }
+
+/* ---- skip: the ceremony is optional ------------------------------------ */
+/* Appears after the opening beat (the first moment deserves a chance);
+   disappears once results own the screen. Mono register, quiet, top-right. */
+.wz-skip {
+  position: absolute;
+  top: max(14px, env(safe-area-inset-top));
+  right: max(16px, env(safe-area-inset-right));
+  z-index: 40;
+  min-height: 40px;
+  padding: 0 16px;
+  border: 1px solid rgba(168, 212, 255, 0.35);
+  border-radius: 999px;
+  background: rgba(2, 3, 8, 0.55);
+  color: #c5ceda;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  cursor: pointer;
+  opacity: 0;
+  animation: wz-skip-in 300ms ease 1.6s forwards;
+}
+.wz-skip:hover { border-color: #c9a2ff; color: #f2ecff; }
+.wz-skip:focus-visible { outline: 2px solid #c9a2ff; outline-offset: 3px; }
+.wz-reveal-root[data-state="results"] .wz-skip,
+.wz-reveal-root[data-state="error"] .wz-skip { display: none; }
+@keyframes wz-skip-in { to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  .wz-skip { animation: none; opacity: 1; }
+}

@@ -34,6 +34,7 @@
         <div class="wz-terminal" id="wz-terminal" aria-live="polite"></div>
         <div class="wz-crt" id="wz-crt" aria-hidden="true"></div>
         <div class="wz-veil" id="wz-veil"></div>
+        <button type="button" class="wz-skip" id="wz-skip">SKIP ▸</button>
       `;
       document.body.appendChild(root);
       return root;
@@ -75,6 +76,10 @@
 
       const finish = () => {
         this.busy = false;
+        if (root._onEscSkip) {
+          document.removeEventListener("keydown", root._onEscSkip);
+          root._onEscSkip = null;
+        }
         // The disintegration hid the page's own content (inline opacity 0) for
         // the summon. EVERY exit runs through here, so the page always comes
         // back — previously only the error path restored it, and a buyer who
@@ -99,6 +104,34 @@
         });
         return;
       }
+
+      // ---- skip: the ceremony is optional -------------------------------
+      // ~15s of animation is a gift the first time and a toll the fifth.
+      // Skip jumps through the same safe path the error handler already
+      // proves out: kill the show, render the (idempotent) results.
+      const doSkip = () => {
+        if (root.dataset.state === "results" || root.dataset.state === "error") return;
+        this.machine.forceTo("results");
+        try { video.destroy(); } catch (_) {}
+        veil.classList.remove("wz-veil--black");
+        root.classList.add("wz-reveal-root--plain");
+        spell.clear();
+        ps.clear();
+        results.render(result, {
+          onAgain: () => { root.remove(); finish(); window.dispatchEvent(new CustomEvent("wiznerdz:summon-again")); },
+          onClose: () => { root.remove(); finish(); },
+        });
+      };
+      root.querySelector("#wz-skip")?.addEventListener("click", doSkip);
+      const onEscSkip = (e) => {
+        // pre-results Escape skips; the results dialog owns Escape after that
+        if (e.key === "Escape" && root.dataset.state !== "results" && root.dataset.state !== "error") {
+          e.preventDefault();
+          doSkip();
+        }
+      };
+      document.addEventListener("keydown", onEscSkip);
+      root._onEscSkip = onEscSkip; // finish() removes this on every exit path
 
       audio.unlock();
       audio.preload(Object.values(CFG().audio.cues)).catch(() => {});

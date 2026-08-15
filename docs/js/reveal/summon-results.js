@@ -15,6 +15,10 @@
     }
 
     render(result, { onAgain, onClose } = {}) {
+      // Idempotent: skip and the still-running sequence (or the error path)
+      // may both reach here; the second call must be a no-op, not a second
+      // dialog stacked on the first.
+      if (this.container.querySelector(".wz-results")) return null;
       const nfts = result.nfts || [];
       const el = document.createElement("section");
       el.className = "wz-results";
