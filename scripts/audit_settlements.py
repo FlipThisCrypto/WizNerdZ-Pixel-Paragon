@@ -30,7 +30,18 @@ Checks, per delivery row:
   5. contents stay withheld below FULFILLED; at FULFILLED the site's nfts
      count equals the ledger's committed token count
 
-stdlib only. Exit 0 = every check passed. Read-only against every source.
+With --offers <dir> (operator machine, needs the `chia` package) it also
+closes the wrong-anchor gap: a pre-sale row with a WRONG anchor id still
+passes check 2, and the watcher would poll a coin that never comes into
+existence - the sale would land on chain unnoticed. So each .offer file is
+parsed with Chia's library, the maker's NFT spend is EXECUTED (Program.run,
+not the operator's derivation code), the created odd-amount child is the
+predicted settlement coin, and the singleton launcher joins it to its ledger
+row. Predicted anchor != ledger anchor fails the audit; so does an offer
+file with no ledger row (a circulating sale nothing is tracking).
+
+Chain/ledger/site checks are stdlib only. Exit 0 = every check passed.
+Read-only against every source.
 """
 from __future__ import annotations
 
@@ -158,12 +169,80 @@ def audit(ledger_path: str, site: str) -> dict:
             "checked": checked, "failures": failures, "warnings": warnings}
 
 
+def audit_offers(ledger_path: str, offers_dir: str) -> dict:
+    """Predict each offer's settlement anchor by executing its puzzles."""
+    from pathlib import Path
+
+    from chia.types.blockchain_format.coin import Coin
+    from chia.types.blockchain_format.program import Program
+    from chia.wallet.nft_wallet.uncurry_nft import UncurriedNFT
+    from chia.wallet.trading.offer import Offer
+    from chia_rs.sized_bytes import bytes32
+
+    ZERO = b"\x00" * 32
+    con = sqlite3.connect(f"file:{ledger_path}?mode=ro", uri=True)
+    con.row_factory = sqlite3.Row
+    ledger = {r["box_launcher_id"]: dict(r) for r in con.execute(
+        "SELECT box_launcher_id, box_nft_id, settlement_anchor_coin, state"
+        " FROM delivery")}
+    con.close()
+
+    failures: list[str] = []
+    checked = []
+    for f in sorted(Path(offers_dir).glob("*.offer")):
+        offer = Offer.from_bech32(f.read_text(encoding="utf-8").strip())
+        predictions = []
+        for cs in offer.to_spend_bundle().coin_spends:
+            if bytes(cs.coin.parent_coin_info) == ZERO:
+                continue  # phantom spend carrying requested-payment announcements
+            puz = Program.from_bytes(bytes(cs.puzzle_reveal))
+            sol = Program.from_bytes(bytes(cs.solution))
+            unc = UncurriedNFT.uncurry(*puz.uncurry())
+            launcher = unc.singleton_launcher_id.hex() if unc else None
+            for cond in puz.run(sol).as_iter():
+                parts = list(cond.as_iter())
+                if parts[0].as_int() == 51 and parts[2].as_int() % 2 == 1:
+                    child = Coin(cs.coin.name(), bytes32(parts[1].as_atom()),
+                                 parts[2].as_int()).name().hex()
+                    predictions.append((launcher, child))
+        if len(predictions) != 1:
+            failures.append(f"{f.name}: expected exactly one offered NFT,"
+                            f" derived {len(predictions)}")
+            continue
+        launcher, predicted = predictions[0]
+        row = ledger.get(launcher)
+        if not row:
+            failures.append(f"{f.name}: no ledger row for launcher {launcher}"
+                            " - a circulating sale nothing is tracking")
+            continue
+        ok = predicted == row["settlement_anchor_coin"]
+        checked.append({"offer": f.name, "state": row["state"],
+                        "predicted": predicted[:12] + "...",
+                        "match": ok})
+        if not ok:
+            failures.append(
+                f"{f.name}: offer predicts anchor {predicted} but ledger has"
+                f" {row['settlement_anchor_coin']} - the watcher is polling"
+                " a coin this sale will never create")
+    return {"ok": not failures, "offers_checked": len(checked),
+            "checked": checked, "failures": failures}
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("ledger", help="path to delivery_ledger.db (read-only)")
     ap.add_argument("--site", default=DEFAULT_SITE)
+    ap.add_argument("--offers", help="dir of live .offer files (needs `chia`)")
     args = ap.parse_args()
     report = audit(args.ledger, args.site)
+    if args.offers:
+        try:
+            report["offer_anchor_parity"] = audit_offers(args.ledger, args.offers)
+        except ImportError as e:
+            report["offer_anchor_parity"] = {
+                "ok": False, "failures": [f"chia package unavailable: {e}"]}
+        if not report["offer_anchor_parity"]["ok"]:
+            report["ok"] = False
     print(json.dumps(report, indent=2))
     return 0 if report["ok"] else 1
 

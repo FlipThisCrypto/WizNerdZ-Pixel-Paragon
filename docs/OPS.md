@@ -110,8 +110,12 @@ The watcher decides what the site says, so nothing it writes can vouch for it.
 Re-derive every sale claim from the chain itself and cross-check ledger + site:
 
 ```bash
-python scripts/audit_settlements.py ../mint_system/production/delivery_ledger.db
+python scripts/audit_settlements.py ../mint_system/production/delivery_ledger.db --offers ../mint_system/production/offers
 ```
+
+(`--offers` needs the `chia` package and proves each live offer file predicts
+exactly the anchor the ledger watches - without it a wrong anchor id reads as
+a healthy unsold offer while the watcher polls a coin that will never exist.)
 
 Exit 0 = chain, operator ledger, and public site all agree on every box, and
 contents stay withheld below FULFILLED. Run it after every sale lands, after
