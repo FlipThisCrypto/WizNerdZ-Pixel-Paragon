@@ -137,9 +137,31 @@
     }
 
     async _share(result) {
-      const n = (result.nfts || []).length;
-      const text = `I just summoned ${n} WizNerd${n === 1 ? "" : "Z"} on Chia.`;
-      const url = (window.WIZNERDZ_CONFIG && window.WIZNERDZ_CONFIG.collection.website) || location.href;
+      // Name the actual pull. The share fires at the product's
+      // peak-enthusiasm moment - someone just watched their reveal - and a
+      // generic "I summoned N wizards" wastes it. Lead with the best thing
+      // in the box; link the mint page, which unfurls with the drop's card.
+      const nfts = result.nfts || [];
+      const ORDER = ["1 of 1", "legendary", "epic", "rare", "uncommon", "common"];
+      const rankOf = (x) =>
+        x.isOneOfOne ? 0 : Math.max(ORDER.indexOf(String(x.rarity || "").toLowerCase()), 1);
+      const best = nfts.slice().sort((a, b) => rankOf(a) - rankOf(b))[0];
+      const rest = nfts.length - 1;
+
+      let text;
+      if (!best) {
+        text = "I just opened a sealed WizNerdZ box on Chia.";
+      } else if (best.isOneOfOne) {
+        text = `I just summoned ${best.name} — a 1 OF 1 — from a sealed WizNerdZ box on Chia.`;
+      } else {
+        const bits = [best.rarity, best.rarityRank != null ? `rank ${best.rarityRank}/${best.raritySeriesTotal || 8888}` : null]
+          .filter(Boolean).join(", ");
+        text = `I just summoned ${best.name}${bits ? ` (${bits})` : ""} from a sealed WizNerdZ box on Chia.`;
+      }
+      if (rest > 0) text += ` +${rest} more.`;
+      text += " Contents were committed before sale — provably no re-rolls.";
+
+      const url = "https://wiznerdz-pixel-paragon.netlify.app/mint.html";
       try {
         if (navigator.share) {
           await navigator.share({ title: "WizNerdZ Summon", text, url });
