@@ -82,17 +82,53 @@
     #commitment { font-family: var(--font-mono); font-size: 0.7rem; word-break: break-all; color: var(--muted); }
   </style>
   <style>
-    /* Functional layout only — deliberately unstyled beyond this so the visual
-       pass can own the look without unpicking anything. */
+    /* Purchase-flow chrome — the wallet bar, pairing block, and open-box bar
+       are what a buyer stares at WHILE paying, so they get the same surface
+       treatment as the tier cards, not scaffolding styles. */
     .wz-wallet-bar {
-      display: flex; align-items: center; gap: .75rem;
-      flex-wrap: wrap; margin: 0 0 1.25rem;
+      display: flex; align-items: center; gap: var(--space-3);
+      flex-wrap: wrap; margin: 0 0 var(--space-4);
+      padding: var(--space-4);
+      background: linear-gradient(160deg, var(--black-3), var(--black-2));
+      border: 1px solid var(--line);
+      border-radius: var(--panel-radius);
     }
-    .wz-wallet-bar .wc-uri {
+    .wz-wallet-bar > label:first-child { flex-basis: 100%; }
+    #wz-wallet-state {
+      font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.1em;
+    }
+    #wz-connect[disabled] { opacity: 0.6; }
+    .wz-wallet-bar input[type="text"] {
+      font-family: var(--font-mono); font-size: 0.82rem;
+      min-height: var(--touch-min); padding: 0 12px;
+      background: rgba(2, 3, 8, 0.6); color: inherit;
+      border: 1px solid rgba(168, 212, 255, 0.35); border-radius: 10px;
+    }
+    .wz-wallet-bar input[type="text"]:focus-visible {
+      outline: 2px solid var(--wz-purple); outline-offset: 2px;
+    }
+    /* pairing block: QR for mobile, copy for desktop, framed as one unit */
+    #wz-wc-uri {
+      flex-basis: 100%;
+      padding: var(--space-4);
+      border: 1px dashed rgba(139, 47, 232, 0.55);
+      border-radius: 12px;
+      background: rgba(139, 47, 232, 0.06);
+    }
+    #wz-wc-uri canvas { box-shadow: 0 0 26px rgba(139, 47, 232, 0.35); }
+    #wz-wc-uri .wc-uri {
       max-width: 100%; overflow-x: auto; white-space: pre-wrap;
       word-break: break-all; font-size: .7rem; opacity: .75;
     }
-    #wz-wc-uri { flex-basis: 100%; }
+    /* buttons inside the bars inherit the page's summon control, sized down */
+    .wz-wallet-bar .summon-btn {
+      width: auto; margin-top: 0; padding: 0 18px; min-height: var(--touch-min);
+    }
+    .notice .summon-btn {
+      width: auto; margin-top: 0; padding: 0 18px; min-height: 38px;
+      display: inline-flex; align-items: center; margin-left: var(--space-3);
+    }
+    .notice code { font-family: var(--font-mono); font-size: 0.78em; color: var(--wz-purple); }
   </style>
 </head>
 <body data-mint-base="mint">

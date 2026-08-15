@@ -258,7 +258,7 @@
     bar.innerHTML = `
       <label for="wz-box-id" class="muted" style="flex-basis:100%">Already have a sealed box? Paste its NFT id to open it:</label>
       <input id="wz-box-id" type="text" placeholder="nft1…" spellcheck="false"
-             style="flex:1;min-width:200px;min-height:44px;padding:0 12px;background:transparent;border:1px solid rgba(168,212,255,.35);border-radius:10px;color:inherit" />
+             style="flex:1;min-width:200px" />
       <button type="button" id="wz-open-btn" class="summon-btn">Open box</button>`;
     host.parentNode.insertBefore(bar, host.nextSibling);
     document.getElementById("wz-open-btn").addEventListener("click", () => {
