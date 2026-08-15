@@ -45,8 +45,18 @@
       return { url: `${cfg.videoBase}/${tier.video}`, handoff: tier.handoff };
     }
 
+    /** Data saver: the videos run 2.5-6.5 MB. A buyer who asked to save data
+     *  should not be streamed one mid-purchase - return the same "failed"
+     *  outcome the missing-file path uses, and the controller's live-portal
+     *  fallback carries the summon. */
+    _saveData() {
+      const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+      return !!(window.WIZNERDZ_LITE || (conn && conn.saveData));
+    }
+
     /** Preload as early as possible so the black pause is genuinely short. */
     preload(tierId) {
+      if (this._saveData()) return;
       const { url } = this._src(tierId);
       const v = document.createElement("video");
       v.className = "wz-reveal-video";
