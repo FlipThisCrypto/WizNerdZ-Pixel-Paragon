@@ -104,6 +104,26 @@ No private keys anywhere in this repo or its deployed layer. `MINT_ADMIN_SECRET`
 lives only in Netlify env + the operator's shell. Delivery signing happens only
 in `mint_system/` on the operator machine.
 
+## Disaster recovery: the blob store is expendable (rehearsed 2026-08-15)
+
+All live mint state (offers, statuses, holds) lives in Netlify Blobs. If the
+store is lost, corrupted, or the site is recreated, rebuild everything from
+operator ground truth — this exact sequence has been run against the live
+site and produced byte-identical state (verified by snapshot diff and a green
+settlement audit before and after):
+
+```bash
+cd mint_system
+export MINT_ADMIN_SECRET="$(cat production/mint_admin_secret.txt)"
+python push_offers_to_site.py --replace   # rebuilds the offers store
+python push_status_to_site.py             # rewrites every box status
+python ../github_pages_repo/scripts/audit_settlements.py production/delivery_ledger.db --offers production/offers
+```
+
+Holds are transient (3-minute TTL) and need no recovery. The watcher's next
+scheduled sweep operates on the rebuilt store unchanged. Statuses only move
+forward, so a rebuild can never downgrade a buyer's box.
+
 ## Settlement audit (trust drill)
 
 The watcher decides what the site says, so nothing it writes can vouch for it.

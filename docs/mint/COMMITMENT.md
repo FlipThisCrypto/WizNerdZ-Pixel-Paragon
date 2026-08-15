@@ -68,7 +68,12 @@ public commitment above covers the **4,196 sellable boxes only**.
 
 ## Verify your box
 
-You will receive a proof file when your box is opened. Then:
+Once your box is opened, its proof is published and the checker at the top of
+[the verify page](verify.html) runs entirely in your browser: enter your box's
+NFT id (or open `verify.html?proof=<your box id>`). It recomputes every hash
+itself and trusts nothing but the published root.
+
+Prefer to verify offline, away from our site? The same check as a script:
 
 ```bash
 python mint_system/verify_box_proof_cli.py --proof your_box_proof.json
