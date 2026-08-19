@@ -12,6 +12,7 @@
 // publishing an allocation before delivery is confirmed would leak what a box
 // holds while it could still be resold.
 import { getStore } from "@netlify/blobs";
+import { publishTransitionAllowed } from "./lib/settlement.mjs";
 
 const json = (o, s = 200) =>
   new Response(JSON.stringify(o, null, 2), {
@@ -60,6 +61,15 @@ export default async (req) => {
     }
     if (s.state === "FULFILLED" && (!Array.isArray(s.nfts) || !s.nfts.length)) {
       problems.push({ boxNftId: s.boxNftId, why: "FULFILLED with no contents" });
+      continue;
+    }
+    // Statuses only move forward. A push from a stale ledger snapshot must not
+    // downgrade a buyer's box (FULFILLED -> SOLD would re-hide delivered
+    // contents). Deliberate corrections pass { force: true } at the top level.
+    const existing = await store.get(`status/${s.boxNftId}`, { type: "json" });
+    const verdict = publishTransitionAllowed(existing?.state, s.state, { force: body.force === true });
+    if (!verdict.allowed) {
+      problems.push({ boxNftId: s.boxNftId, why: verdict.why });
       continue;
     }
 

@@ -154,6 +154,23 @@ export function computePendingDeliveries(records, now) {
   };
 }
 
+/**
+ * Forward-only publish rule, pure. A status write may only move a box UP the
+ * ladder; a downgrade re-hides a buyer's delivered contents (FULFILLED -> SOLD
+ * makes mint-status withhold `nfts` again) or un-sells a sold box. The watcher
+ * already refuses downgrades; the operator publish endpoint enforces the same
+ * rule here, with an explicit force flag reserved for deliberate corrections.
+ */
+export function publishTransitionAllowed(existingState, nextState, { force = false } = {}) {
+  const from = RANK[existingState] ?? 0;
+  const to = RANK[nextState] ?? 0;
+  if (force || to >= from) return { allowed: true };
+  return {
+    allowed: false,
+    why: `downgrade refused: ${existingState} -> ${nextState} moves down the ladder (send force to override)`,
+  };
+}
+
 // Pure helpers exported for the test suite - they decide which coins the
 // watcher believes are spent, so they carry regression tests.
 export { coinId, clvmIntBytes, hexToBytes, bytesToHex, RANK };

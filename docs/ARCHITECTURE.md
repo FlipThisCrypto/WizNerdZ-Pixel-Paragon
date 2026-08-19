@@ -51,8 +51,9 @@ results.
   possession of the box.
 - **The browser never causes delivery** and never learns contents before the
   chain confirms delivery (statuses withhold `nfts` until FULFILLED).
-- **Statuses only move forward**; the watcher cannot downgrade what the
-  operator advanced.
+- **Statuses only move forward**: neither the watcher nor the operator
+  publish endpoint can downgrade a box (a downgrade would re-hide delivered
+  contents); deliberate corrections require an explicit `force` flag.
 - **Failure posture everywhere**: unreachable chain = delayed, never wrong;
   stale stats are labeled stale; monitors retry before alarming.
 

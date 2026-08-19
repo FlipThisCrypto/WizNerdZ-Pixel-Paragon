@@ -12,7 +12,7 @@ import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import assert from "node:assert/strict";
-import { coinId, clvmIntBytes, bytesToHex, hexToBytes, RANK, pickBoxForDispense, computePendingDeliveries } from "./settlement.mjs";
+import { coinId, clvmIntBytes, bytesToHex, hexToBytes, RANK, pickBoxForDispense, computePendingDeliveries, publishTransitionAllowed } from "./settlement.mjs";
 
 // Real mainnet coins with independently-known ids:
 //   87f9a78b... = the settlement spend of WizNerd #695's delivery
@@ -163,4 +163,21 @@ test("clvmIntBytes matches Chia's own encoder across 2,733 ground-truth values",
     if (got !== hex) bad.push(`${v}: got ${got}, chia says ${hex}`);
   }
   assert.deepEqual(bad.slice(0, 5), [], `${bad.length} divergences from Chia's encoder`);
+});
+
+test("publish transitions: forward and same-rank writes pass, downgrades refuse, force overrides", () => {
+  // forward moves and re-publishing the same state are the normal paths
+  assert.equal(publishTransitionAllowed("SOLD", "FULFILLED").allowed, true);
+  assert.equal(publishTransitionAllowed("FULFILLED", "FULFILLED").allowed, true);
+  assert.equal(publishTransitionAllowed(undefined, "SOLD").allowed, true); // first write
+  assert.equal(publishTransitionAllowed("OFFER_ISSUED", "SOLD").allowed, true);
+
+  // a downgrade re-hides a buyer's delivered contents - refused by default
+  const down = publishTransitionAllowed("FULFILLED", "SOLD");
+  assert.equal(down.allowed, false);
+  assert.match(down.why, /downgrade refused/);
+  assert.equal(publishTransitionAllowed("SOLD", "OFFER_ISSUED").allowed, false);
+
+  // deliberate corrections must stay possible, but only explicitly
+  assert.equal(publishTransitionAllowed("FULFILLED", "SOLD", { force: true }).allowed, true);
 });

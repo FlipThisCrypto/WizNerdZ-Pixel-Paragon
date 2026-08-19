@@ -17,3 +17,8 @@ venv/
 # operator tooling must never enter the deployable tree
 docs/admin-*
 docs/js/admin-*
+
+# Local Netlify folder
+.netlify
+
+node_modules/
