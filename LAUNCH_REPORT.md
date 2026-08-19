@@ -50,13 +50,15 @@ on exactly this every 6 hours.
 
 **Verified workaround (uses zero build credits):** a Netlify CLI deploy uploads
 prebuilt files directly — this site has no build step (`command = ""`), so nothing
-is lost. A **draft deploy of current main already succeeded and was verified**
-(byte-identical `mint-page.js`, functions healthy):
-`https://6a85187f5e6ea0b03bdfb24e--wiznerdz-pixel-paragon.netlify.app`
+is lost. A **draft deploy of current main (including this session's fixes) already
+succeeded and was verified** — byte-identical `mint-page.js`, functions healthy,
+FULFILLED box serves contents, fairness proofs serve 200:
+`https://6a8520b5e62fc74cb751ab94--wiznerdz-pixel-paragon.netlify.app`
 
 **Exact human action required (either one):**
 - In the Netlify dashboard → wiznerdz-pixel-paragon → Deploys → select the draft
-  deploy (message: "draft verification deploy of main @7b3917b68") → **Publish deploy**; or
+  deploy (message: "draft deploy of main @f5e1f3642 (launch audit changes) -
+  publish this one") → **Publish deploy**; or
 - From the repo root, run (was blocked for the agent by the permission layer):
   ```
   netlify deploy --prod --no-build --dir docs --functions netlify/functions
